@@ -1,0 +1,37 @@
+{
+  "purpose": "feasibility_only_not_accuracy_evaluation",
+  "selection": "purposive_failure_cases_not_random_or_representative",
+  "documents": 3,
+  "blocks": 4,
+  "prior_parent_exposure": true,
+  "not_heldout": true,
+  "input_sha256": "adb5902c806887054ad03bd3cc49674ef40169ce3a7d9f66abc67c01f8b65e04",
+  "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "source_files": [
+    {
+      "path": "ai_electroplating\\项目\\知识抽取\\清洗\\02_清洗\\out\\blocks\\腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究.jsonl",
+      "sha256": "a0055e128b2e0047e24d84174b5f86f397730854411d87bfc93d233f671b86bd",
+      "block_ids": [
+        "blk:7cf3c70d130e763f",
+        "blk:8b1aeebd56a70e1a"
+      ]
+    },
+    {
+      "path": "ai_electroplating\\项目\\知识抽取\\清洗\\02_清洗\\out\\blocks\\糖精对镀钴层结构_导电能力的改变.jsonl",
+      "sha256": "5f12e267d03230e96a7d7e138ba4fa63cc8582e063a6d442c2d9b7dcfc7a260d",
+      "block_ids": [
+        "blk:cf5b948c8b59760d"
+      ]
+    },
+    {
+      "path": "ai_electroplating\\项目\\知识抽取\\清洗\\02_清洗\\out\\blocks\\烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究.jsonl",
+      "sha256": "e9b32fdf0d2abf2201d67f7dc81afe3a3a567d1301d68a63c7d36f8a888f3b8e",
+      "block_ids": [
+        "blk:17bf049326751a44"
+      ]
+    }
+  ],
+  "domain_entity_labels_predefined": false,
+  "gold_annotations": false,
+  "data_is_cleaned_text_not_pdf_verified": true
+}

@@ -1,0 +1,72 @@
+# 结构基元 / 机理模式 / 证据方法 / 参比电极
+# motifs 是 I3「结构类比检索」的地基：Molecule 实例层长尾，Motif 层才有跨文献聚合强度
+meta:
+  version: v0
+  frozen: false
+
+# smarts 为草案，需 RDKit 在 48 篇解析出的分子集上实测后确认（status: draft → verified）
+motifs:
+  thiol:               {zh: 巯基,        smarts: "[SH]",                        status: draft}
+  disulfide:           {zh: 二硫键,      smarts: "[S;X2][S;X2]",               status: draft}
+  sulfonate:           {zh: 磺酸盐,      smarts: "S(=O)(=O)[O-]",               status: draft}
+  quaternary_ammonium: {zh: 季铵盐,      smarts: "[N+;X4]",                    status: draft}
+  tertiary_amine:      {zh: 叔胺,        smarts: "[NX3;H0]",                   status: draft}
+  imidazole:           {zh: 咪唑,        smarts: "c1ncc[nH]1",                 status: draft}
+  triazole:            {zh: 三唑,        smarts: "c1nnc[nH]1",                 status: draft}
+  tetrazole:           {zh: 四唑,        smarts: "c1nnn[nH]1",                 status: draft}
+  pyrimidine:          {zh: 嘧啶,        smarts: "c1ncncc1",                   status: draft}
+  thiazole:            {zh: 噻唑,        smarts: "c1scnc1",                    status: draft}
+  alkyne:              {zh: 炔基,        smarts: "[CX2]#[CX2]",                status: draft}
+  peg_chain:           {zh: 聚醚链,      smarts: "[CX4][OX2][CX4]",            status: draft}
+  thiourea:            {zh: 硫脲,        smarts: "NC(=S)N",                    status: draft}
+  guanidine:           {zh: 胍基,        smarts: "NC(=N)N",                    status: draft}
+  polyamine:           {zh: 多胺,        smarts: "[NX3][CX4][NX3]",            status: draft}
+  nitro:               {zh: 硝基,        smarts: "[N+](=O)[O-]",               status: draft}
+  azo:                 {zh: 偶氮,        smarts: "N=N",                        status: draft}
+  carbazole:           {zh: 咔唑,        smarts: "c1ccc2c(c1)[nH]c1ccccc12",   status: draft}
+  aromatic_conjugated: {zh: 芳香共轭骨架, smarts: null, note: "香豆素/喹吖啶酮/异靛蓝/三苯甲烷/吲哚等，只做名称级归类，不出 SMARTS"}
+  other:               {zh: 其他}
+
+mechanisms:
+  adsorption_inhibition:           {zh: 吸附抑制}
+  competitive_adsorption:          {zh: 竞争吸附/置换}
+  depolarization_acceleration:     {zh: 去极化加速}
+  diffusion_controlled_leveling:   {zh: 扩散控制整平}
+  convection_dependent_adsorption: {zh: 对流依赖吸附 CDA}
+  complexation:                    {zh: 络合}
+  hydrogen_evolution_suppression:  {zh: 析氢抑制}
+  current_localization:            {zh: 电流局部化}
+  superconformal_bottom_up:        {zh: 自下而上超共形填充}
+  grain_refinement:                {zh: 晶粒细化}
+  defect_void_formation:           {zh: 空洞/封口缺陷}
+  other:                           {zh: 其他}
+
+# 证据方法是 I6 冲突归因的一维：同一论断用不同方法测得的不同结论，不算真冲突
+methods:
+  galvanostatic:   {kind: electrochemical, zh: 恒流极化}
+  potentiostatic:  {kind: electrochemical, zh: 恒电位}
+  cv:              {kind: electrochemical, zh: 循环伏安}
+  eis:             {kind: electrochemical, zh: 阻抗谱}
+  tafel:           {kind: electrochemical, zh: Tafel}
+  qcm:             {kind: electrochemical, zh: 石英晶体微天平}
+  cvs_aes:         {kind: electrochemical, zh: 循环伏安剥离}
+  sem:             {kind: microscopic,    zh: 扫描电镜}
+  metallography:   {kind: microscopic,    zh: 金相截面}
+  xrd:             {kind: spectroscopic,  zh: X 射线衍射}
+  xps:             {kind: spectroscopic,  zh: 光电子能谱}
+  ftir:            {kind: spectroscopic,  zh: 红外}
+  raman:           {kind: spectroscopic,  zh: 拉曼}
+  dft:             {kind: computational,  zh: 密度泛函}
+  md:              {kind: computational,  zh: 分子动力学}
+  xray_inspection: {kind: imaging,        zh: X-ray 检测}
+  other:           {}
+
+# SSE 在钴体系里常指饱和硫酸亚汞、在铜体系里常指饱和甘汞 → 不确定记 unknown
+reference_electrodes:
+  SCE:       {zh: 饱和甘汞}
+  AgAgCl:    {zh: 银/氯化银, note: "饱和 KCl 与 3 M KCl 不同，原文给了就记"}
+  SMSE:      {zh: 饱和硫酸亚汞}
+  SSE:       {zh: 不确定, alternatives: [saturated_sulfate_mercurous, saturated_calomel], rule: "上下文含硫酸盐/钴体系 → SMSE；否则保留 SSE 并置 unsure=true"}
+  HgHg2SO4:  {zh: 硫酸亚汞}
+  Cu:        {zh: 铜参比}
+  unknown:   {}

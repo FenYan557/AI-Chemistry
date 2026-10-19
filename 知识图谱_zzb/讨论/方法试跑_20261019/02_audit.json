@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "canonical_types": 39,
+    "mention_mapping": 58,
+    "canonical_relations": 14,
+    "fact_mapping": 18,
+    "unresolved": 12
+  },
+  "representation_counts": {
+    "entity": 19,
+    "attribute": 11,
+    "defer": 1,
+    "context": 8
+  },
+  "split_suggestions": [
+    "f2",
+    "f10",
+    "f11",
+    "f12",
+    "f14",
+    "f18"
+  ],
+  "errors": [],
+  "input_and_raw_unchanged": true,
+  "semantic_correctness_verified": false,
+  "supervised_bert_run": false
+}

@@ -1,0 +1,681 @@
+# =============================================================================
+# 电镀添加剂选型知识图谱 —— Schema v1.1（单一真源）
+# =============================================================================
+# 上游：项目\知识抽取\清洗\02_清洗\out\{blocks,enriched,tables}（schema 只定义契约，不产数据）
+# 下游：断言 JSONL（claims.schema.json）→ 归一化 → 图（JSONL，v0 不上 Neo4j）
+# 配套：lexicon/*.yaml（封闭词表）、constraints.yaml（三档校验）、id_conventions.md（ID 规则）
+# 工具：scripts/selfcheck.py（schema 自检）、validate.py（断言层）、validate_graph.py（图层）、
+#       survey_corpus.py（只读语料可获得性普查，评估用；不产图）
+#
+# 五层结构（层号只用于解释，图里不落层）：
+#   L0 锚点层  Document / Block / Table / Figure / Equation / BibEntry   —— 覆盖率硬门禁 100%
+#   L1 观测层  Observation（一个测得值或定性结果）                        —— 一切数值的唯一落点
+#   L2 事件层  Experiment（实验系列）> Run（条件组合）> AdditiveUsage
+#   L3 概念层  Chemical / Motif / Bath / Feature / Parameter / Indicator / Method / Mechanism / Role
+#   L4 知识层  Claim（论断）/ EvidenceLink（支撑关系）/ Conflict / KnowledgeUnit（聚合）
+#
+# 三条从 48 篇语料实测得出的硬决定：
+#   D1 事件分三级：Experiment（共享装置/浴液基线/流程的系列）→ Run（一次条件组合）→ Observation（一个结果）。
+#      不按"表格一行=一个实验"建 Experiment：一篇 10–40 个组合会让事件节点爆炸且语义重复。
+#   D2 只有连续量做区间对象；分类量（波形/搅拌/阳极）保留枚举。被扫的轴在 Experiment 声明 swept，
+#      Run 只存具体取值。避免"温度既是条件又是轴"的重复建模。
+#   D3 Claim 与 Observation 分表：Observation 是"文献说了什么"，Claim 是"我们的结构化论断"，
+#      证据等级与锚点挂在其间的 EvidenceLink 上；Claim 上保留 max(tier) 作降级便利字段。
+#
+# 三项支撑能力（选型问答与化学问答各自必需）：
+#   C1 可比性键 comparability_key：不用同一把尺子就不许比大小、不许排序、不许判冲突。
+#   C2 EXPLAINS 边：机理链必须能接回具体观测/结论，否则"为什么"没有结构化答案。
+#   C3 KnowledgeUnit 聚合层：多篇证据合成一条"有效窗口 + 支持度"，选型排序有据可依。
+# =============================================================================
+meta:
+  version: v1.1
+  updated: 2026-10-19
+  frozen: false
+  counts: {nodes: 24, edges: 34, predicates: 16, value_objects: 7, derived_fields: 3}
+  requirements_trace:
+    additive_selection: [KnowledgeUnit, comparability_key, Window, EvidenceLink, Role, Bath, Feature]
+    chemistry_qa: [Mechanism, EXPLAINS, Claim, Indicator, Observation, Conflict]
+    refuse_to_answer: [presence, evidence_tier, Conflict.resolution, KnowledgeUnit.missing_params]
+  # 对齐的清洗产物快照（2026-10-19 00:30 版）。字段名一律以此为准。
+  pipeline:
+    source: "项目\\知识抽取\\清洗\\02_清洗\\out"
+    artifacts:
+      blocks: "blocks/{doc_id}.jsonl + blocks/{doc_id}.meta.json"
+      tables: "tables/{doc_id}__p{page}_{i}.csv + tables/_tables_index.csv"
+      chunks: "chunks/{doc_id}.jsonl（检索用中间品，不是锚点）"
+      enriched: "enriched/{doc_id}.jsonl（enrich 工序产物；截至本版尚未按新 blocks 重跑）"
+      repaired: "01_补足原材料缺陷/out/repaired/{name}.json（阶段一修好的块）"
+      retention: "01_补足原材料缺陷/out/report/retention.json（文本层保留度诊断）"
+    snapshot:
+      blocks: 5316           # text 2700 / heading 987 / image 762 / chart 620 / equation 149 / table 98
+      chunks: 5638
+      tables: 98             # 表头带浓度的 19，带温度的 2，带电流密度的 2
+      figures_with_caption: 809
+      table_ocr: {confirmed: 86, partial: 9, unreadable: 3}
+      retention_macro_IR: 0.882
+    version_note: "blocks/tables/chunks 为 2026-10-19 00:29 版；enriched 为 23:04 版，引用 cites/refers_to 前需重跑 enrich"
+  scope:
+    documents: 48            # 48 篇 MinerU 解析（中文博士论文 1 篇、综述 3 篇）
+    tables: 98
+    numeric_cells: 1426
+  out_of_scope:
+    - "图/曲线像素反推数值（只登记存在性 + caption + 引用句）"
+    - "跨金属外推（语料无 Cu/Co 对照实验）"
+    - "补充材料 / SI 内容（只登记存在与链接）"
+    - "SMILES 由名称猜测（必须 PubChem/CAS 查得，否则 unresolved）"
+    - "本仓库不产图谱数据：只定义契约、词表、约束与校验器；抽取与建图在执行侧另起"
+
+# =============================================================================
+# 值对象（不是节点，嵌在边上/节点里；每一处都要能序列化成 JSON）
+# =============================================================================
+value_objects:
+
+  # 一切"缺失"必须三态区分，这是窗口求交的正确性前提：
+  # 若把缺失当开区间，检索会把未知算成"满足"，等于给出假的文献支持。
+  presence:
+    enum: [reported, not_reported, unconstrained]
+    semantics:
+      reported:      "原文给了数值/区间"
+      not_reported:  "原文没说 → 检索时视为 UNKNOWN，不得计为满足"
+      unconstrained: "原文明确说不限/无关/均可 → 才算开区间"
+
+  quantity:                       # 数值或区间（连续量专用）
+    fields:
+      kind:      {enum: [point, range, categorical], required: true}
+      value:     {type: number, when: "kind=point"}
+      lo:        {type: number, when: "kind=range"}
+      hi:        {type: number, when: "kind=range"}
+      open_low:  {type: boolean, default: false}
+      open_high: {type: boolean, default: false}
+      qualifier: {enum: ["<", ">", "≈", "±", "~", null], default: null}
+      uncertainty: {type: number, default: null}
+      unit:      {type: string, ref: "lexicon/units_params.yaml#units", nullable: true}
+      raw:       {type: string, note: "原文原样，必填，用于回查"}
+      converted: {type: boolean, default: false, note: "做过换算则 true，并在 note 记换算链"}
+    rules:
+      - "kind=range 时 lo<=hi，除非 open_low/open_high 声明了方向"
+      - "unit 为空 → 该 quantity 不得支撑 T1"
+
+  param_value:                    # 落在 Run / window 上的一个参数取值
+    extends: quantity
+    fields:
+      param:     {type: string, ref: "lexicon/units_params.yaml#params", required: true}
+      of:        {type: string, nullable: true, note: "该参数属于哪个客体：同一 Run 里 SPS/PEG/Cl-/DB 各有浓度时用（写化学名或 bath/feature 标记）"}
+      presence:  {enum: [reported, not_reported, unconstrained], required: true}
+      basis:     {type: string, nullable: true, note: "如 geometric_area / true_area，缺省 null"}
+    rules:
+      - "param 必须已登记，未登记 → constraints C-PARAM-01 拒收"
+      - "value_kind=categorical 的 param 只允许 kind=categorical + 枚举值"
+      - "同一 window 内 param=concentration 出现多次时，of 必填（否则无法判断谁是谁的浓度）"
+
+  window:                         # 工艺窗口 = 一组受限参数的盒子（I1 的一等对象）
+    fields:
+      params: {type: "list[param_value]", min_items: 1}
+      completeness: {type: number, note: "已报道参数数 / 该论断必需参数数，由 constraints 计算"}
+    rules:
+      - "求交只在 reported 的参数上做；not_reported 不参与求交但必须回报给用户"
+      - "unconstrained 参与求交且恒满足"
+      - "两窗口求交为空 → 结论为'文献未覆盖该工况'，这是可解释的'不知道'，不是失败"
+
+  anchor:                         # 断言/观测的锚点，硬门禁
+    fields:
+      kind:     {enum: [block, table_cell, figure, equation], required: true}
+      doc_id:   {type: string, required: true}
+      page:     {type: integer, required: true}
+      block_id: {type: string, when: "kind=block", note: "见 id_conventions.md"}
+      table_id: {type: string, when: "kind=table_cell"}
+      row:      {type: integer, when: "kind=table_cell"}
+      col:      {type: integer, when: "kind=table_cell"}
+      fig_id:   {type: string, when: "kind=figure"}
+      eq_id:    {type: string, when: "kind=equation"}
+      quote:    {type: string, required: true, note: "原文片段；block 类必须与 block.text 归一化后子串匹配"}
+      quote_check: {enum: [exact, fuzzy, failed], default: fuzzy}
+
+  cross_section_arg:              # 跨节论元（04 §缺口C：DocEE 口径要单报召回）
+    fields:
+      arg:    {type: string, note: "如 temperature / delta_eta / ref_electrode"}
+      anchor: {ref: "#anchor"}
+      section_role: {type: string, ref: "lexicon/tables_sections.yaml#section_roles"}
+
+  defect_kind:                    # 负知识的客体（I4）：缺陷类型是枚举，不是节点
+    enum: [void, seam, keyhole, burn, roughness, step, delamination, other]
+    note: "causes_defect 的 object 用这个枚举；不许自由文本写'孔口封口'之类描述（描述进 scope_note）"
+
+# =============================================================================
+# 节点类型（22 个；P0 必须，P1 本轮可空）
+# =============================================================================
+nodes:
+  # ── L0 锚点层 ────────────────────────────────────────────────────────────
+  Document:
+    priority: P0
+    key: doc_id
+    fields:
+      doc_id: {type: string, required: true, note: "清洗侧命名，如 1_s2_0_S0013468609007385_main"}
+      doi: {type: string, nullable: true}
+      title: {type: string}
+      journal: {type: string}
+      year: {type: integer}
+      authors: {type: "list[string]", nullable: true, note: "清洗侧 blocks/*.meta.json 目前不含 authors，需从首页块抽取或外部补齐；缺失时不要编"}
+      pages: {type: integer}
+      corpus_role: {enum: [review, experiment, thesis, methods, other], required: true}
+      metal_focus: {type: "list[string]", ref: "lexicon/entities.yaml#metals"}
+      printed_page_map: {type: object, note: "PDF 页 → 期刊页；来自清洗侧 meta.json"}
+      pipeline_version: {type: string, required: true, note: "清洗产物版本；变更即触发重锚定报告"}
+      cleaning_diagnostics:          # 来自 01_.../out/report/retention.json（文本层一致性诊断，不是正确率）
+        type: object
+        nullable: true
+        fields:
+          value_recall: {type: number}
+          value_precision: {type: number}
+          sent_recall: {type: number}
+          unit_recall: {type: number}
+          cell_value_recall: {type: number, nullable: true}
+          value_recall_wholepdf: {type: number, note: "以整份 PDF 文本层为分母，含参考文献等非正文；低不代表数据错"}
+          IR: {type: number, note: "综合保留度，权重自定，不可外部比较"}
+        note: "用途：回答时能说'该篇数值保留度 0.85'，并在召回异常低的篇目上提示人工复核"
+
+  Block:
+    priority: P0
+    key: block_id
+    fields:
+      block_id: {type: string, required: true, note: "由 doc_id+page+bbox+type 位置哈希生成，见 id_conventions.md"}
+      doc_id: {type: string, required: true}
+      block_type: {enum: [text, heading, table, image, chart, equation], required: true, note: "清洗产物里字段名就是 type；图里必须改名 block_type，因为 type 已被节点类名占用（见 serialization）"}
+      page: {type: integer, required: true}
+      printed_page: {type: integer, nullable: true, note: "4329/5316 块有值；期刊页码，仅展示用"}
+      bbox: {type: "list[int,4]", required: true}
+      section: {type: string, note: "清洗侧 breadcrumb 原样"}
+      section_role: {type: string, ref: "lexicon/tables_sections.yaml#section_roles"}
+      text: {type: string, when: "type in {text, heading, equation}"}
+      text_sha1: {type: string, note: "变更检测；与 text 一起重算"}
+      # ── 块级溯源字段（清洗产物必有，锚点可信度依赖它们）──────────────
+      merged_from: {type: integer, note: "本段由几个原始块合并而成（1 = 未合并）；合并链不可逆，故必须记下来"}
+      split: {type: boolean, note: "超长段是否被切分（>1200 字符触发）"}
+      part: {type: integer, note: "切分序号：0 起；未切分时为 0"}
+      level: {type: integer, when: "type=heading"}
+      no_number: {type: boolean, when: "type in {image, chart, table}", note: "原文图/表无编号（图三件套指标要减它）"}
+      caption_paired: {type: object, nullable: true, when: "type in {image, chart}", note: "图注配对来源：{from: caption|text_block, page}"}
+      caption: {type: string, when: "type in {image, chart, table}", note: "图/表注原文；物化时转写到 Figure/Table.caption，块上保留原文以便核对"}
+      caption_extra: {type: string, when: "type in {image, chart, table}", note: "注后附注（版权尾巴等）"}
+      img: {type: string, when: "type in {image, chart}", note: "相对图片目录的路径；转写到 Figure.img_path"}
+      tag: {type: string, nullable: true, when: "type=equation", note: "原文公式编号（如 式1）；与 Equation.tag 同源"}
+      raw_latex: {type: string, nullable: true, when: "type=equation", note: "归一前的原始 LaTeX，供公式体一致率核对"}
+      # ── 表块直挂的表格元数据（避免再去猜 page+顺序）──────────────────
+      table_meta:
+        type: object
+        when: "type=table"
+        fields:
+          n_rows: {type: integer}
+          n_cols: {type: integer}
+          ragged: {type: integer}
+          header_levels: {type: integer, note: "该批 98 张全为 1 级表头（多级表头已在清洗期拼接）"}
+          header: {type: "list[string]", note: "拼接后的列名，如 'Additives^b | SPS (ppm)'"}
+          class: {type: string, note: "清洗侧版面分类，仅作线索，不作 ETL 判据"}
+          csv: {type: string, note: "相对表格目录的 CSV 路径；table_id 由它派生"}
+          evidence: {enum: [text_layer, raster_or_image, na], note: "表格数值来自文本层还是位图 OCR"}
+          ocr_status: {enum: [confirmed, partial, unreadable], note: "OCR 结果核对状态；unreadable 的表不得产数值断言"}
+      # ── 以下字段来自 enrich 工序（enriched/*.jsonl），未跑 enrich 时为空 ──
+      cites: {type: "list[integer]", from_enriched: true, note: "参考文献序号；enriched 才有"}
+      refers_to: {type: "list[string]", from_enriched: true, note: "图/表/式引用；enriched 才有"}
+    coverage_rule: "全部保留块都必须有 Block 节点，orphan=0"
+
+  Table:
+    priority: P0
+    key: table_id
+    fields:
+      table_id: {type: string, required: true, note: "tbl:{doc_id}:p{page}:{i}；i 与 CSV 文件名末尾序号一致"}
+      doc_id: {type: string, required: true}
+      page: {type: integer}
+      block_id: {type: string, note: "对应 Block(type=table)；清洗 v2 起可直接由 Block.table_meta.csv 反查，不必再靠 page+顺序"}
+      caption: {type: string}
+      n_rows: {type: integer}
+      n_cols: {type: integer}
+      numeric_cells: {type: integer}
+      header_paths: {type: "list[string]", note: "多级表头拼接后的列名（清洗已拼，且表头行仍在 CSV 前两行）"}
+      evidence: {enum: [text_layer, raster_or_image, na], note: "98 张中 82 张有文本层、4 张位图 OCR、12 张未标"}
+      ocr_status: {enum: [confirmed, partial, unreadable], note: "confirmed 86 / partial 9 / unreadable 3"}
+      etl_profile: {type: string, ref: "lexicon/tables_sections.yaml#table_etl_profiles", required: true}
+      etl_profile_source: {enum: [auto, human], required: true}
+      cleaner_class: {type: string, note: "清洗侧 class（data_unnamed 52 张），仅作线索，不作判据"}
+      csv_path: {type: string, note: "相对表格目录的路径；文件名形如 {doc_id}__p{page}_{i}.csv"}
+
+  Figure:
+    priority: P0
+    key: fig_id
+    fields:
+      fig_id: {type: string, required: true}
+      doc_id: {type: string}
+      page: {type: integer}
+      bbox: {type: "list[int,4]"}
+      fig_no: {type: string, nullable: true}
+      kind: {enum: [data_plot, micrograph, schematic, structure_formula, photo, graphical_abstract, unknown]}
+      caption: {type: string}
+      caption_extra: {type: string}
+      caption_paired: {type: object, nullable: true, note: "图注配对来源 {from: caption|text_block, page}；为空 = 无图注"}
+      no_number: {type: boolean, note: "原文无图号；三件套指标要区分'没编号'与'没图注'"}
+      img_path: {type: string}
+      referred_in_blocks: {type: "list[string]", from_enriched: true}
+      vlm_description: {type: string, nullable: true, note: "低置信；永不与表格数值同级"}
+      confidence: {enum: [high, low], default: low, when: "vlm_description 非空"}
+
+  Equation:
+    priority: P1
+    key: eq_id
+    fields:
+      eq_id: {type: string}
+      doc_id: {type: string}
+      page: {type: integer}
+      latex_or_text: {type: string}
+      raw_latex: {type: string, nullable: true, note: "归一前原文，供公式体一致率核对"}
+      tag: {type: string, nullable: true, note: "如 3 / 式1"}
+      defines: {type: "list[string]", note: "指标或量：tp / delta_eta / …"}
+      block_id: {type: string}
+
+  BibEntry:
+    priority: P1
+    key: "{doc_id}#ref{n}"
+    fields:
+      n: {type: integer}
+      page: {type: integer}
+      text: {type: string}
+      doi_inferred: {type: string, nullable: true, note: "仅字符串解析，不禁用 LLM 猜"}
+
+  # ── L3 概念层 ────────────────────────────────────────────────────────────
+  Chemical:
+    priority: P0
+    key: chem_id
+    fields:
+      chem_id: {type: string, required: true, note: "resolved → chem:inchikey:…；否则 chem:unresolved:<sha1(归一化名)[:12]>"}
+      names: {type: "list[object]", note: "{raw, lang, source_doc, source_block}"}
+      name_canonical: {type: string, nullable: true}
+      aliases: {type: "list[string]"}
+      formula: {type: string, nullable: true}
+      cas: {type: string, nullable: true}
+      smiles: {type: string, nullable: true}
+      inchi_key: {type: string, nullable: true}
+      molecular_weight: {type: number, nullable: true}
+      resolution_status: {enum: [resolved, partial, unresolved], required: true}
+      resolution_source: {enum: [pubchem, cas_common_chemistry, author_given, none], required: true}
+      synthesis: {enum: [commercial, in_house, unknown], default: unknown}
+      charges: {type: "list[string]", ref: "lexicon/entities.yaml#roles", note: "作者命名的角色（不是本图判定，判定在 Run 上）"}
+    constraint:
+      - "smiles/inchi_key 非空 ⇔ resolution_source != none（禁猜）"
+
+  Motif:
+    priority: P0
+    key: motif_id
+    fields:
+      motif_id: {type: string, ref: "lexicon/structures_methods.yaml#motifs"}
+      zh: {type: string}
+      smarts: {type: string, nullable: true}
+      status: {enum: [draft, verified], default: draft}
+
+  BathClass:
+    priority: P0
+    key: enum
+    ref: "lexicon/entities.yaml#bath_classes"
+
+  Bath:
+    priority: P0
+    key: bath_id
+    fields:
+      bath_id: {type: string, note: "篇内编号，如 {doc_id}#bath1；跨篇不合并"}
+      doc_id: {type: string}
+      metal: {type: "list[string]", ref: "lexicon/entities.yaml#metals", required: true}
+      bath_class: {type: string, ref: "lexicon/entities.yaml#bath_classes", required: true}
+      ph: {ref: "#param_value", note: "pH 属于体系属性，不进 Run 的 conditions"}
+      volume: {ref: "#param_value"}
+      label: {type: string, note: "原文名，如 Bath 1 / VMS"}
+    edges_out: [CONTAINS, OF_CLASS]
+
+  Feature:
+    priority: P0
+    key: feature_id
+    fields:
+      feature_id: {type: string}
+      kind: {type: string, ref: "lexicon/entities.yaml#feature_kinds", required: true}
+      ambiguous: {type: boolean, default: false, note: "原文只写 via 时分不清通盲"}
+      pore_diameter: {ref: "#param_value"}
+      aspect_ratio: {ref: "#param_value"}
+      pore_depth: {ref: "#param_value"}
+      substrate: {type: string, ref: "lexicon/entities.yaml#substrates", nullable: true}
+      dielectric: {type: string, nullable: true}
+
+  Parameter:
+    priority: P1
+    key: enum
+    note: "参数注册表即 lexicon/units_params.yaml#params，图里不单独落节点，只需 registry 一致性"
+
+  Indicator:
+    priority: P0
+    key: indicator_id
+    ref: "lexicon/indicators.yaml#indicators"
+    fields:
+      indicator_id: {type: string, required: true}
+      family: {enum: [filling_behavior, film_performance, method_derived, composition_structure], required: true}
+      canonical_unit: {type: string, nullable: true}
+      requires_ref_electrode: {type: boolean, default: false}
+      requires_method: {type: boolean, default: false}
+      requires_definition: {type: boolean, default: false}
+      definition_eq: {type: string, nullable: true, note: "eq_id，如 TP 的定义式"}
+
+  Method:
+    priority: P1
+    key: enum
+    ref: "lexicon/structures_methods.yaml#methods"
+
+  Role:
+    priority: P0
+    key: enum
+    ref: "lexicon/entities.yaml#roles"
+    note: "角色是枚举，不是节点实例；角色判定落在 Run 的 AdditiveUsage 上"
+
+  Mechanism:
+    priority: P1
+    key: enum
+    ref: "lexicon/structures_methods.yaml#mechanisms"
+
+  # ── L1 观测层 ────────────────────────────────────────────────────────────
+  Observation:
+    priority: P0
+    key: obs_id
+    fields:
+      obs_id: {type: string, required: true}
+      doc_id: {type: string, required: true}
+      indicator: {type: string, ref: "#Indicator", required: true}
+      outcome_kind: {enum: [numeric, range, categorical, ordinal, qualitative_direction, boolean], required: true}
+      value: {ref: "#quantity", when: "outcome_kind in {numeric, range}"}
+      categorical_value: {type: string, when: "outcome_kind in {categorical, boolean}"}
+      direction: {enum: [increase, decrease, none, non_monotonic, unknown], when: "outcome_kind=qualitative_direction"}
+      method: {type: "list[string]", ref: "#Method"}
+      reference_electrode: {type: string, ref: "lexicon/structures_methods.yaml#reference_electrodes", nullable: true}
+      comparability_key: {type: string, computed: true, note: "派生字段（见 derived_fields）：比较/排序/冲突检测/聚合的唯一合法口径，跨 key 一律不可比"}
+      technique_detail: {type: string, note: "如 100 rpm / 2 ASD / 300 s"}
+      measured_at: {ref: "#anchor", required: true}
+      figure_ref: {type: string, nullable: true, note: "数据图只登记，不取像素值"}
+      statistics: {type: object, nullable: true, note: "n / sd / p / anova_ref（方法评估表）"}
+    rules:
+      - "数值型 Observation 必须有 unit 与 anchor；缺一 → 降级为 qualitative_direction"
+
+  # ── L2 事件层 ────────────────────────────────────────────────────────────
+  Experiment:
+    priority: P0
+    key: exp_id
+    fields:
+      exp_id: {type: string, required: true}
+      doc_id: {type: string, required: true}
+      label: {type: string, note: "原文里的实验组名/章节名"}
+      narrative_anchor: {ref: "#anchor", required: true}
+      bath: {type: string, note: "bath_id"}
+      feature: {type: string, nullable: true, note: "feature_id"}
+      apparatus: {type: "list[string]", note: "电化学工作站/槽体/RDE 型号"}
+      protocol_summary: {type: string, note: "共享流程一句话"}
+      design_type: {enum: [full_factorial, ofat, response_surface, single_condition, literature_review, unknown], required: true}
+      swept_params: {type: "list[string]", ref: "lexicon/units_params.yaml#params", note: "本系列扫了哪些轴（D2）"}
+      controls: {type: "list[string]", note: "空白/仅基础液/商用品对照（如 JGB）"}
+      run_ids: {type: "list[string]"}
+      evidence_scope: {enum: [experimental, review_summary, computational], required: true}
+
+  Run:
+    priority: P0
+    key: run_id
+    fields:
+      run_id: {type: string, required: true, note: "{exp_id}#r{n}；表格一行 = 一个 Run（D1）"}
+      exp_id: {type: string, required: true}
+      doc_id: {type: string, required: true}
+      conditions: {type: "list[param_value]", required: true, note: "只放 Run 级具体值；被扫轴在此给点值"}
+      additive_usages: {type: "list[string]", note: "usage_id"}
+      observation_ids: {type: "list[string]"}
+      control_of: {type: "list[string]", note: "作为哪些 Run 的对照"}
+      anchor: {ref: "#anchor", required: true, note: "表格行锚点：table_id+row 或 block_id+quote"}
+      design_levels: {type: object, nullable: true, note: "{factor: -1|0|+1}，来自设计矩阵表"}
+
+  AdditiveUsage:
+    priority: P0
+    key: usage_id
+    fields:
+      usage_id: {type: string, required: true}
+      run_id: {type: string, required: true}
+      chemical: {type: string, ref: "#Chemical", required: true}
+      role: {type: string, ref: "#Role", required: true, note: "本 Run 中的角色；unknown 合法"}
+      role_source: {enum: [author_explicit, inferred_from_context, unknown], required: true}
+      concentration: {ref: "#param_value", required: true}
+      addition_order: {type: integer, nullable: true}
+      is_component: {type: boolean, default: false, note: "主盐/酸/络合剂 = true，不进选型候选"}
+      anchor: {ref: "#anchor", required: true}
+
+  # ── L4 知识层 ────────────────────────────────────────────────────────────
+  Claim:
+    priority: P0
+    key: claim_id
+    fields:
+      claim_id: {type: string, required: true}
+      claim_kind: {enum: [observation_report, role_assignment, composition, composition_window, window_regime, structure_activity, mechanism, structure_property, defect_negative, analogy, method_link, meta, attribution], required: true}
+      subject: {type: object, required: true, note: "{type, ref, name_raw}"}
+      predicate: {type: string, required: true, note: "受控关系名，见 edges"}
+      object: {type: object, required: true, note: "{type, ref|value}"}
+      window: {ref: "#window", nullable: true}
+      condition_source:             # 条件从哪来：表格行只写被扫的轴，其余工况要从 Run 继承
+        own: {type: "list[string]", note: "claim.window 里 presence=reported 的参数名"}
+        inherited: {type: "list[string]", note: "从所属 Run 继承的参数名，如 temperature / current_density / waveform"}
+        run_ref: {type: string, nullable: true, note: "继承来源；inherited 非空时必须给（C-EV-06）"}
+      polarity: {enum: [assert, negate, no_effect, conditional], required: true}
+      modality: {enum: [reported, cautious, speculative], default: reported}
+      reference_electrode: {type: string, ref: "lexicon/structures_methods.yaml#reference_electrodes", nullable: true, note: "电位类指标必填，缺则降级 T2"}
+      evidence_tier: {enum: [T1, T2, T3, T4], required: true, note: "= max(其 EvidenceLink.tier)，归一化期计算"}
+      confidence: {type: number, note: "0-1，抽取模型自评；不参与证据分级"}
+      support_ids: {type: "list[string]"}
+      cross_section_args: {type: "list[cross_section_arg]"}
+      contradicts: {type: "list[string]", note: "claim_id"}
+      scope_note: {type: string, nullable: true, note: "作者限定语（limitation/contradiction 类原文锚点）"}
+      extractor: {type: object, required: true, note: "{model, prompt_ver, date}"}
+      review: {enum: [pending, pass, reject, downgrade], required: true}
+
+  EvidenceLink:
+    priority: P0
+    key: ev_id
+    fields:
+      ev_id: {type: string}
+      claim: {type: string}
+      target: {type: string, note: "obs_id | block_id | table_cell anchor"}
+      target_kind: {enum: [observation, block, table_cell, figure]}
+      stance: {enum: [support, contradict, partially_support, no_information], required: true}
+      tier: {enum: [T1, T2, T3, T4], required: true}
+      anchors: {type: "list[anchor]", min_items: 1, required: true}
+      quote_verdict: {enum: [supported, partial, unsupported, no_info], note: "回读校验结果"}
+      reviewer: {enum: [rule, model, human], required: true}
+
+  Conflict:
+    priority: P1
+    key: conflict_id
+    fields:
+      conflict_id: {type: string}
+      claims: {type: "list[string]", min_items: 2}
+      conflict_type: {enum: [condition_dependent, measurement_mismatch, direct_contradiction, class_vs_instance, unit_scale, metal_transfer], required: true}
+      comparability_key: {type: string, note: "冲突必须发生在同一比较口径内；跨口径的差异是 measurement_mismatch，不是矛盾（C-CMP-02）"}
+      window_diff: {type: object, nullable: true, note: "哪个参数不同，用于'条件差异'解释"}
+      resolution: {enum: [none, window_explains, measurement_explains, unresolved, abstain], required: true}
+      report: {type: string, note: "给用户看的裁决说明（不平摊、不平均）"}
+
+  # ── L4 知识层（聚合）─────────────────────────────────────────────────────
+  # 选型问答的排序与"多篇证据能不能合成一句话"都落在这里。
+  # 没有这一层，检索层只能逐条 claim 返回，或者自己临时加权——后者不可解释。
+  KnowledgeUnit:
+    priority: P0
+    key: ku_id
+    fields:
+      ku_id: {type: string, required: true, note: "格式见 id_conventions.md：ku:{subject_hash}:{predicate}:{indicator}:{direction}:{comparison_hash}"}
+      subject: {type: object, required: true, note: "{type: Chemical|Motif, ref}"}
+      predicate: {type: string, required: true, ref: "#predicates"}
+      indicator: {type: string, ref: "#Indicator"}
+      direction: {enum: [increase, decrease, none, non_monotonic, unknown], nullable: true}
+      evidence_windows: {type: "list[object]", note: "逐条保留 {claim_id, window}，不跨缺口插值；查询匹配此列表"}
+      effective_window: {ref: "#window", nullable: true, note: "共同支持区间；只由 reported 且单位归一的参数求交，交集为空时为 null，原有证据窗口仍有效（C-KU-02）"}
+      missing_params: {type: "list[string]", note: "哪些必需参数全库都没报道；回答时必须原样说出来"}
+      evidence_claims: {type: "list[string]", min_items: 1}
+      tier: {enum: [T1, T2, T3, T4], note: "= max(evidence_claims.tier)，不得高于最强单条证据"}
+      n_docs: {type: integer, required: true}
+      n_independent_runs: {type: integer, required: true}
+      support_class: {enum: [consensus, single_source, conflicting], required: true}
+      conflict_ids: {type: "list[string]"}
+      comparability_key: {type: string, required: true, note: "一个 KU 只能对应一个口径；跨口径必须拆成多个 KU"}
+      corpus_version: {type: string, required: true}
+    rules:
+      - "consensus 需 n_docs>=2 或 n_independent_runs>=3，否则必须标 single_source（C-KU-01）"
+      - "语料里多数分子只有 1 篇证据，single_source 是常态，不是错误；回答里必须显示这个标记"
+      - "跨 comparability_key 不得合并，也不得把两个口径的数字做平均或大小比较"
+      - "effective_window 不许包含 not_reported 参数；缺什么写进 missing_params"
+
+# =============================================================================
+# 边类型（34 条；方向 = subject → object）
+# =============================================================================
+edges:
+  # L0 结构
+  - {name: HAS_BLOCK,       from: Document,      to: Block,      card: "1:N"}
+  - {name: HAS_TABLE,       from: Document,      to: Table,      card: "1:N"}
+  - {name: HAS_FIGURE,      from: Document,      to: Figure,     card: "1:N"}
+  - {name: HAS_EQUATION,    from: Document,      to: Equation,   card: "1:N"}
+  - {name: NEXT,            from: Block,         to: Block,      card: "1:1", note: "阅读顺序，同页同栏"}
+  - {name: CITES,           from: Block,         to: BibEntry,   card: "N:M"}
+  - {name: REFERS_TO,       from: Block,         to: "Figure|Table|Equation", card: "N:M"}
+  # L2 事件
+  - {name: HAS_RUN,         from: Experiment,    to: Run,        card: "1:N"}
+  - {name: USES,            from: Run,           to: AdditiveUsage, card: "1:N"}
+  - {name: OF_CHEMICAL,     from: AdditiveUsage, to: Chemical,   card: "N:1"}
+  - {name: HAS_ROLE,        from: AdditiveUsage, to: Role,       card: "N:1", note: "角色只能这样挂，禁 Chemical-HAS_ROLE"}
+  - {name: IN_BATH,         from: Run,           to: Bath,       card: "N:1"}
+  - {name: ON_FEATURE,      from: Run,           to: Feature,    card: "N:1"}
+  - {name: YIELDS,          from: Run,           to: Observation, card: "1:N"}
+  - {name: MEASURES,        from: Observation,   to: Indicator,  card: "N:1"}
+  - {name: BY_METHOD,       from: Observation,   to: Method,     card: "N:M"}
+  - {name: CONTROL_OF,      from: Run,           to: Run,        card: "N:M"}
+  # L3 概念
+  - {name: CONTAINS,        from: Bath,          to: Chemical,   card: "N:M", qualifier: "param_value(concentration)"}
+  - {name: OF_CLASS,        from: Bath,          to: BathClass,  card: "N:1"}
+  - {name: HAS_MOTIF,       from: Chemical,      to: Motif,      card: "N:M", qualifier: "evidence: {text_mention|rdkit_substructure|author_claim}"}
+  - {name: ALIAS_OF,        from: Chemical,      to: Chemical,   card: "N:M"}
+  - {name: SIMILAR_TO,      from: Chemical,      to: Chemical,   card: "N:M", qualifier: "score, method: {fingerprint|gnn_latent}"}
+  - {name: DERIVED_FROM,    from: Chemical,      to: Chemical,   card: "N:M", note: "新合成整平剂的谱系；需原文支持"}
+  - {name: OPERATES_BY,     from: "Chemical|Motif", to: Mechanism, card: "N:M", qualifier: "window"}
+  - {name: PRECEDES,        from: Mechanism,     to: Mechanism,  card: "N:M", note: "I5 机理因果链"}
+  - {name: EXPLAINS,        from: Mechanism,     to: "Claim|Observation", card: "N:M", qualifier: "{window, strength: strong|partial|speculative, step_index}", note: "解释链的落地端。机理必须能接回具体观测/结论，否则'为什么'只能靠 LLM 现场编（C-EXPLAIN-01）"}
+  - {name: DEFINES,         from: Equation,      to: Indicator,  card: "N:M"}
+  - {name: IN_CLASS,        from: Feature,       to: "enum", card: "N:1"}
+  # L4 知识
+  - {name: ABOUT,           from: Claim,         to: "Chemical|Motif|Bath|Feature|Indicator|Mechanism|Run|Observation", card: "N:M"}
+  - {name: SUPPORTED_BY,    from: Claim,         to: EvidenceLink, card: "1:N"}
+  - {name: EVIDENCE,        from: EvidenceLink,  to: "Observation|Block|Table", card: "N:M"}
+  - {name: CONTRADICTS,     from: Claim,         to: Claim,      card: "N:M", symmetric: true}
+  - {name: IN_CONFLICT,     from: Claim,         to: Conflict,   card: "N:M"}
+  - {name: AGGREGATES,      from: KnowledgeUnit,  to: Claim,     card: "N:M", note: "聚合层由 claims 生成，不反向改写 claim"}
+
+# =============================================================================
+# 谓词注册表
+# Claim.predicate 不接受开放字符串：必须在此登记，且 object/qualifier 形状被封死。
+# 未登记的谓词 → constraints C-PRED-01：进待审区（review=pending），不得直接入图。
+# 理由：足够大的语料会让"同义 / 逆向 / 粒度不同"三种漂移各长出一串谓词，
+#      开放字符串会让 Cypher 查询和窗口求交的语义一致性彻底崩塌。
+# 每条：signature = 允许的 subject 类型 → object 类型；qualifiers 是允许附带的槽；
+#       window = required|optional|forbidden（能否带工艺窗口）；tier_cap 是证据等级上限。
+# =============================================================================
+predicates:
+  - {name: has_role,            zh: 在某次实验中担任角色, signature: "Chemical -> Role",               claim_kind: role_assignment,  window: optional, tier_cap: T1, context: "run（缺 run_local 时降级为篇级声明并只给 warn）"}
+  - {name: affects_indicator,   zh: 影响某指标,             signature: "Chemical|Motif -> Indicator",        claim_kind: observation_report, window: optional, tier_cap: T1, qualifiers: [direction, magnitude], note: "填充行为类指标想上 T1 必须有窗口，由 C-EV-01 数值支管"}
+  - {name: improves,            zh: 改善（方向隐含正向）,   signature: "Chemical|Motif -> Indicator",        claim_kind: observation_report, window: required, tier_cap: T1, note: "有明确数值优先用 affects_indicator + direction=increase"}
+  - {name: degrades,            zh: 恶化,                   signature: "Chemical|Motif -> Indicator",        claim_kind: defect_negative,  window: required, tier_cap: T1}
+  - {name: causes_defect,       zh: 导致缺陷,               signature: "Chemical|Run -> defect_kind",        claim_kind: defect_negative,  window: required, tier_cap: T2, note: "缺陷类型取 value_objects.defect_kind 枚举；具体描述写 scope_note"}
+  - {name: invalid_in,          zh: 在某条件下失效,         signature: "Chemical -> BathClass|Feature",       claim_kind: defect_negative,  window: required, tier_cap: T2}
+  - {name: component_of,        zh: 作为体系组分,           signature: "Chemical -> Bath",                   claim_kind: composition,      window: required, tier_cap: T1}
+  - {name: has_motif,           zh: 具有结构基元,           signature: "Chemical -> Motif",                  claim_kind: structure_property, window: forbidden, tier_cap: T1}
+  - {name: acts_by,             zh: 通过某机理起作用,       signature: "Chemical|Motif -> Mechanism",        claim_kind: mechanism,        window: optional, tier_cap: T2}
+  - {name: precedes,            zh: 机理链的下一步,         signature: "Mechanism -> Mechanism",             claim_kind: mechanism,        window: optional, tier_cap: T2}
+  - {name: motif_improves,      zh: 某类基元提升某指标,     signature: "Motif -> Indicator",                 claim_kind: structure_activity, window: optional, tier_cap: T2, note: "跨文献聚合结论，单篇不得给 T1"}
+  - {name: analogous_to,        zh: 类比迁移,               signature: "Chemical|Motif -> Chemical|Motif",   claim_kind: analogy,          window: optional, tier_cap: T3}
+  - {name: derived_from,        zh: 谱系来源,               signature: "Chemical -> Chemical",               claim_kind: analogy,          window: forbidden, tier_cap: T2}
+  - {name: defined_by,          zh: 由某式定义,             signature: "Indicator -> Equation",              claim_kind: method_link,      window: forbidden, tier_cap: T1}
+  - {name: supersedes,          zh: 取代前代体系,           signature: "Chemical -> Chemical",               claim_kind: meta,             window: optional, tier_cap: T2}
+  - {name: reported_in,         zh: 报道于,                 signature: "Chemical|Motif -> Document",         claim_kind: attribution,      window: forbidden, tier_cap: T1, note: "只用于'该分子首次报道'类断言"}
+
+predicate_rules:
+  - "direction 取值：increase | decrease | none | non_monotonic（禁'提升/下降'这类自由文本）"
+  - "magnitude 只放数值+单位；单位缺失即降级（C-UNIT-01）"
+  - "谓词反向表达禁止：没有 increases_eta，只有 affects_indicator(direction=increase)"
+  - "未登记谓词一律 review=pending + 进待审区，由人工决定是合并到已有谓词还是新增"
+
+# =============================================================================
+# 序列化约定（nodes.jsonl / edges.jsonl；只定格式，不产数据）
+# =============================================================================
+serialization:
+  nodes:
+    - '每行一个对象：{"id": "<该节点类型的 key 值>", "type": "<节点类型名>", ...其余字段}'
+    - "各节点类型声明的 key 字段（如 chem_id / obs_id / ku_id）在序列化时统一由 id 承载，避免同义字段两份"
+    - "字段名与 schema 里一致；未声明的字段允许存在（扩展位），但校验器不会检查其语义"
+    - "Block.table_meta 是 schema 侧的分组写法；清洗产物里这些键是平铺在表块上的（n_rows/header/csv/…），物化时按组装配即可"
+    - "命名冲突约定：`type` 在节点表里一律表示节点类名。因此清洗侧 Block 的 `type`（text/heading/table/…）在图中改名为 `block_type`，其余字段名保持不变"
+  edges:
+    - '每行一个对象：{"from": "<id>", "type": "<边类型名>", "to": "<id>", ...qualifier 字段}'
+    - "边上的 qualifier（如 concentration / window / strength / step_index）平铺在该对象上"
+  claims:
+    - "断言层单独一份 JSONL，结构见 claims.schema.json；它不直接是图，归一化后才物化成 nodes/edges"
+
+# =============================================================================
+# 派生字段与检索口径（由归一化/物化工序计算，抽取期不算；这里定死定义，
+# 免得检索层各自发明一套，导致同一个问题两次回答不一致）
+# =============================================================================
+derived_fields:
+
+  comparability_key:
+    definition: "{indicator_id}|{method_primary}|{ref_electrode or 'na'}|{feature_kind or 'na'}|{ar_bucket or 'na'}|{current_basis or 'na'}"
+    ar_bucket: "AR<3 | 3<=AR<5 | AR>=5 | na（桶化仅用于候选分组，不能据此认定桶内可比或桶间不可比）"
+    method_primary: "Observation.method 中排序最靠前的方法；多方法同时使用时取与指标最贴近的那个（如 Δη → galvanostatic）"
+    current_basis: "geometric | true_area | apparent | na。实测只有 11/48 篇说明面积基准，缺省记 na——但 na 与 geometric 仍是两个口径，不得互相比大小"
+    purpose: "同一 key 是初筛必要条件；关键口径缺失仍为 UNKNOWN，不得据此数值比较或认定冲突。仅对已知且适用的字段确认可比；AR 桶内还须核对原始孔型、AR 和工况"
+    failure_mode: "缺 key 时不得退化成'就地比较'；必须输出'测量口径不同，不可直接比较'"
+
+  effective_window:
+    definition: "同一 (subject, predicate, indicator, direction, comparability_key) 的共同已报道参数求交，只表达共同支持区间；原始证据窗口逐条保存在 evidence_windows，交集为空为 null，不代表所有工况无证据；单位先归一到 canonical"
+    not_allowed: "不得把 not_reported 当开区间；不得跨 comparability_key 求交"
+    output: "evidence_windows + effective_window（可为 null）+ missing_params；不把离散实验点或不相连窗口补成连续工艺范围"
+
+  ranking:
+    type: "偏序，不是加权和"
+    order:
+      - "1) evidence_tier 高者优先（T1 > T2 > T3 > T4）"
+      - "2) support_class：consensus > single_source；conflicting 单独展示，未裁决前不作确定性推荐"
+      - "3) n_docs 多者优先，n_independent_runs 多者优先"
+      - "4) 时效：year 新者优先（I7 工艺代际，作为末位 tie-breaker，不作主序）"
+    forbidden: "v0 禁止自造 evidence_score 加权分数（无标定权重会让排序看起来科学、实则不可解释；C-CMP-03）"
+
+# =============================================================================
+# 枚举（与 lexicon 对齐；改枚举必须同步 lexicon 与 props 校验）
+# =============================================================================
+enums:
+  evidence_tier:
+    T1: "文献实测：有数值 + 单位 + 条件窗口 + 页码锚点"
+    T2: "文献定性结论：有原文锚点，无数值或条件不全"
+    T3: "模型外推：带不确定度区间，不得与 T1 混排"
+    T4: "常识/专家规则：无文献锚点，只能用于提示"
+  polarity: [assert, negate, no_effect, conditional]
+  review: [pending, pass, reject, downgrade]
+  severity: [reject, downgrade, warn]
+  corpus_role: [review, experiment, thesis, methods, other]
+  outcome_kind: [numeric, range, categorical, ordinal, qualitative_direction, boolean]
+  claim_kind: [observation_report, role_assignment, composition, composition_window, window_regime, structure_activity, mechanism, structure_property, defect_negative, analogy, method_link, meta, attribution]
+  conflict_type: [condition_dependent, measurement_mismatch, direct_contradiction, class_vs_instance, unit_scale, metal_transfer]
+  resolution: [none, window_explains, measurement_explains, unresolved, abstain]
+  design_type: [full_factorial, ofat, response_surface, single_condition, literature_review, unknown]
+  stance: [support, contradict, partially_support, no_information]
+  quote_verdict: [supported, partial, unsupported, no_info]
+  etl_profile_source: [auto, human]
+  figure_kind: [data_plot, micrograph, schematic, structure_formula, photo, graphical_abstract, unknown]
+  support_class: [consensus, single_source, conflicting]
+  explain_strength: [strong, partial, speculative]
+  table_evidence: [text_layer, raster_or_image, na]
+  ocr_status: [confirmed, partial, unreadable]
+
+retrieval_contract:
+  source_mapping: "chunks 必须携带 source_block_ids / source_pages；命中后按 ID 回读 blocks，不用 chunk_id 作证据锚点"
+  table_readback: "table_truncated=true 时仅供召回；数值必须回读完整 csv 并引用单元格"
+  result_fields: [record_id, doc_id, anchors, window, evidence_tier, review, conflict_ids, missing_params]
+  eligibility: "pending/reject 不作已验证证据；downgrade 按实际降级结果使用；口径或查询工况不明输出未知；证据排序与性能优劣排序分开"
+  framework_adapter: "GraphRAG/LightRAG 只作可重建检索索引；保留原记录 ID，召回后回查领域图谱和原文；尚未实现检索适配器"

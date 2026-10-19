@@ -1,0 +1,107 @@
+# 测量指标两级分类（03_数据清洗方案 §九.修正4）
+# family 决定了这条观测能不能用来做"整平/填充能力"论断：
+#   filling_behavior  → 可支撑选型结论
+#   film_performance  → 只支撑镀层性能结论，不得当整平能力
+#   method_derived    → 计算/拟合所得，可作机理解释证据，不得当实测工艺值
+# 每条指标的 requires_* 是硬前提，缺了按 constraints.yaml 的三档处置
+meta:
+  version: v0
+  frozen: false
+
+indicators:
+  # ── 填充行为类 ───────────────────────────────────────────
+  filling_ratio:
+    zh: 填充率
+    family: filling_behavior
+    unit: "%"
+    requires_method: true
+    aliases: [填充率, 填充效率, filling efficiency, filling performance, filling ratio]
+    note: "必须带测量口径（截面金相/SEM 百分比 或 X-ray）"
+  tp:
+    zh: 抛镀能力
+    family: filling_behavior
+    unit: "%"
+    requires_definition: true
+    aliases: [TP, throwing power]
+    note: "TP = 2(T5+T6)/(T1+T2+T3+T4)×100%；任何情况下 ≠ filling_ratio"
+  delta_eta:
+    zh: 过电位差 Δη
+    family: filling_behavior
+    unit: mV
+    requires_ref_electrode: true
+    sign_semantics: {positive: 极化增大/抑制增强, negative: 去极化/加速}
+    aliases: [Δη, delta eta, potential difference, "(-η)"]
+    note: "表头写 (-η) 也按 Δη；符号以原文数值为准，禁自行改号"
+  potential_shift:
+    zh: 电位偏移
+    family: filling_behavior
+    unit: mV
+    requires_ref_electrode: true
+    aliases: [dE, "ΔE_p", potential shift, potential variation]
+  void_seam:
+    zh: 空洞/接缝
+    family: filling_behavior
+    unit: null
+    value_kind: categorical
+    enum: [void_free, void, seam, keyhole, unknown]
+  dimple:
+    zh: 凹陷深度
+    family: filling_behavior
+    unit: "μm"
+  deposition_mode:
+    zh: 沉积模式
+    family: filling_behavior
+    unit: null
+    value_kind: categorical
+    enum: [conformal, superfill, semi_bottom_up, subconformal, unknown]
+    note: "表面形貌层面的判定词：Conformal / Superfill / Semi-Buf 等，原文措辞保留在 alias_seen"
+  surface_appearance:
+    zh: 镀层外观
+    family: film_performance
+    unit: null
+    value_kind: categorical
+    note: "如 mirror-like bright / matte and rough / bright but uneven；描述性，不能当填充能力"
+  coverage:
+    zh: 覆盖度
+    family: filling_behavior
+    unit: "%"
+
+  # ── 镀层性能类 ───────────────────────────────────────────
+  hardness:       {zh: 硬度,     family: film_performance, unit: HV, aliases: [HV, HV0.5, Vickers]}
+  glossiness:     {zh: 光泽度,   family: film_performance, unit: GU, aliases: [GU, gloss]}
+  roughness:      {zh: 粗糙度,   family: film_performance, unit: nm, aliases: [Ra, RMS]}
+  resistivity:    {zh: 电阻率,   family: film_performance, unit: "μΩ·cm"}
+  texture_gi:     {zh: 织构系数, family: film_performance, unit: null, aliases: [GI, texture coefficient]}
+  stress:         {zh: 内应力,   family: film_performance, unit: MPa}
+  adhesion:       {zh: 结合力,   family: film_performance, unit: null, value_kind: categorical}
+  mtf:            {zh: 电迁移寿命, family: film_performance, unit: h, aliases: [MTF, electromigration lifetime]}
+  contact_angle:  {zh: 接触角,   family: film_performance, unit: "°"}
+  surface_energy: {zh: 表面能,   family: film_performance, unit: "mJ/m2"}
+  thickness:      {zh: 镀层厚度, family: film_performance, unit: "μm"}
+
+  # ── 方法派生量（计算/拟合/半电池）────────────────────────
+  homo:              {zh: EHOMO, family: method_derived, unit: eV}
+  lumo:              {zh: ELUMO, family: method_derived, unit: eV}
+  energy_gap:        {zh: HOMO–LUMO 能隙 ΔE, family: method_derived, unit: eV, note: "DFT 语境的 ΔE 只能是能隙，不得当电位"}
+  adsorption_energy: {zh: 吸附能, family: method_derived, unit: "kcal/mol", aliases: [E_ads, adsorption energy]}
+  binding_energy:    {zh: 结合能, family: method_derived, unit: "kcal/mol"}
+  electronegativity: {zh: 电负性 χ, family: method_derived, unit: eV}
+  chemical_hardness: {zh: 化学硬度 η, family: method_derived, unit: eV, note: "与过电位 η 同名异义，靠 family 区分"}
+  electron_transfer: {zh: 电子转移数 ΔN, family: method_derived, unit: null}
+  e_corr:            {zh: 腐蚀电位, family: method_derived, unit: V, requires_ref_electrode: true}
+  j_corr:            {zh: 腐蚀电流密度, family: method_derived, unit: "mA/cm2"}
+  r_ct:              {zh: 电荷转移电阻, family: method_derived, unit: "Ω·cm2"}
+  c_dl:              {zh: 双电层电容, family: method_derived, unit: "μF/cm2"}
+  areal_charge:      {zh: 面电荷量, family: method_derived, unit: "mC/cm2"}
+  diffusion_coeff:   {zh: 扩散系数, family: method_derived, unit: "cm2/s"}
+
+  # ── 组成/结构 ────────────────────────────────────────────
+  composition_at: {zh: 成分 at%, family: composition_structure, unit: at%}
+  composition_wt: {zh: 成分 wt%, family: composition_structure, unit: "wt%"}
+  grain_size:     {zh: 晶粒尺寸, family: composition_structure, unit: nm}
+
+# 禁止的跨 family 推理（I2 化学校验用）
+forbidden_cross_family:
+  - {from: film_performance, to: filling_behavior, reason: "硬度/光泽提升 ≠ 整平或填充能力提升"}
+  - {from: method_derived, to: filling_behavior, reason: "DFT/半电池派生量 ≠ 工艺实测填充效果"}
+  - {from: composition_structure, to: filling_behavior, reason: "成分/晶粒 ≠ 填充能力"}

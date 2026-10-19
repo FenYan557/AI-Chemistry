@@ -1,0 +1,74 @@
+# 领域实体词表：功能角色 / 金属 / 体系 / 基体结构
+# 铁律：功能角色只挂在 Run 上；同一个 Chemical 在不同体系可担当不同角色
+meta:
+  version: v0
+  frozen: false
+
+roles:
+  accelerator:         {zh: 加速剂,   effect: 去极化/促进沉积, aliases: [加速剂, accelerator]}
+  inhibitor:           {zh: 抑制剂,   effect: 极化/抑制沉积,   aliases: [抑制剂, suppressor]}
+  leveler:             {zh: 整平剂,   effect: 孔口/凸起优先抑制, aliases: [整平剂, leveller]}
+  brightener:          {zh: 光亮剂,   effect: 细化晶粒/增亮,   aliases: [光亮剂, brightening_agent]}
+  wetting_agent:       {zh: 润湿剂,   effect: 降低表面张力,   aliases: [润湿剂, surfactant]}
+  grain_refiner:       {zh: 晶粒细化剂, effect: 细化晶粒}
+  complexing_agent:    {zh: 络合剂,   effect: 络合金属离子,   aliases: [络合剂, chelating_agent]}
+  reducing_agent:      {zh: 还原剂,   effect: 化学镀还原}
+  buffering_agent:     {zh: 缓冲剂,   effect: 稳定 pH}
+  corrosion_inhibitor: {zh: 缓蚀剂,   effect: 抑制腐蚀}
+  stabilizer:          {zh: 稳定剂,   effect: 抑制自分解}
+  other:               {zh: 其他}
+  unknown:             {zh: 原文未定角色}
+  rules:
+    - "只写 additive/additive 而未定角色的 → unknown，不得猜"
+    - "同一分子在同一篇里被作者同时称 inhibitor 与 leveler → 保留双角色并记 alias 原文，不做合并"
+
+metals:
+  Cu:    {zh: 铜}
+  Co:    {zh: 钴}
+  Ni:    {zh: 镍}
+  SnAg:  {zh: 锡银}
+  CoNi:  {zh: 钴镍}
+  CoW:   {zh: 钴钨}
+  NiCoP: {zh: 镍钴磷}
+  Au:    {zh: 金}
+  Ag:    {zh: 银}
+  other: {}
+
+bath_classes:
+  acid_sulfate_cu:  {zh: 酸性硫酸铜, must_contain_hint: [CuSO4·5H2O, H2SO4, "Cl-"]}
+  alkaline_cu:      {zh: 碱性镀铜}
+  cyanide_cu:       {zh: 氰化物镀铜}
+  sulfate_co:       {zh: 硫酸盐镀钴}
+  sulfamate_co:     {zh: 氨基磺酸盐镀钴}
+  watts_ni:         {zh: 瓦特镍}
+  electroless_co:   {zh: 化学镀钴, requires_hint: [reducing_agent]}
+  electroless_nico: {zh: 化学镀镍钴, requires_hint: [reducing_agent]}
+  cmp_slurry:       {zh: CMP 抛光液, note: "域边界：非电镀，不参与选型，仅作对照"}
+  other: {}
+  unknown: {}
+
+feature_kinds:
+  through_hole:  {zh: 通孔,     aliases: [TH, through hole, through-hole]}
+  blind_via:     {zh: 盲孔,     aliases: [BV, blind via, microvia]}
+  trench:        {zh: 沟槽}
+  via:           {zh: 互连孔,   note: "原文只写 via 不区分通盲 → 保留 via 并置 ambiguous=true"}
+  copper_pillar: {zh: 铜柱}
+  rde:           {zh: 旋转圆盘电极, note: "半电池实验，不是填充结构"}
+  flat_foil:     {zh: 平板/铜箔}
+  wafer:         {zh: 晶圆级结构}
+  other: {}
+
+substrates:
+  si_wafer: {zh: 硅片}
+  sio2:     {zh: 二氧化硅介质层}
+  pcb_fr4:  {zh: PCB/FR4}
+  cu_seed:  {zh: 铜种子层}
+  other: {}
+
+waveforms:
+  DC:  {zh: 直流}
+  PPR: {zh: 正向脉冲}
+  PR:  {zh: 正反向脉冲}
+  AC:  {zh: 交流}
+  ramp: {zh: 电流扫描/渐变}
+  other: {}

@@ -1,0 +1,48 @@
+# 同名异义 / 高频陷阱：抽取前定死，抽取时把判定结果作为字段带出来
+# 依据：01_抽取管线方案 §五实测（ΔE 能隙、Δη 转速差、TP 抛镀能力三个真实误判）
+meta:
+  version: v0
+  frozen: false
+
+pitfalls:
+  - symbol: "ΔE"
+    decision_rule: "先看单位：eV → energy_gap（DFT 能隙）；V/mV → potential_shift；无单位 → 降级为定性待审"
+    seen_in: ["香豆素整平剂论文（HOMO–LUMO 能隙）"]
+    wrong_answer: "把能隙当电位"
+  - symbol: "Δη"
+    decision_rule: "mV/V → delta_eta，必须绑参比电极；上下文是化学硬度/电负性 → chemical_hardness"
+    seen_in: ["铜通孔论文（高/低转速电位差）"]
+    wrong_answer: "当绝对过电位、或漏参比电极"
+  - symbol: "(-η)"
+    decision_rule: "表头如此时按 delta_eta 处理，符号以原文数值为准，禁自行改号"
+    seen_in: ["三苯甲烷类整平剂论文 Table（浓度 vs -η）"]
+  - symbol: "dE"
+    decision_rule: "mV → potential_shift；eV → energy_gap"
+  - symbol: "η vs Δη"
+    decision_rule: "η 是绝对过电位，Δη 是两点之差；未给基线的 η 不得当 Δη 用"
+  - symbol: "TP"
+    decision_rule: "抛镀能力，需绑定定义式（Equation）；任何情况下 ≠ filling_ratio"
+    wrong_answer: "把 TP 当填充率"
+  - symbol: "filling efficiency / 填充效率"
+    decision_rule: "按 filling_ratio 处理，并在 alias_seen 里保留原文措辞"
+  - symbol: "leveler / leveller / 整平剂"
+    decision_rule: "同一实体，别名合并（走 alias 表，不在抽取期合并）"
+  - symbol: "SPS / MPS"
+    decision_rule: "不同分子，禁止合并；SPS 的还原产物为 MPS，若写 DERIVED_FROM 必须有原文支持"
+  - symbol: "SSE"
+    decision_rule: "上下文含硫酸盐/钴体系 → SMSE；否则保留 SSE 且 unsure=true"
+  - symbol: "wt% / ppm / g/L 同列混用"
+    decision_rule: "禁止跨 basis 比较；缺 basis 的浓度不得参与窗口求交"
+  - symbol: "HV0.5"
+    decision_rule: "0.5 是载荷（kgf）不是数值；硬度值另取一列"
+  - symbol: "at% / wt%"
+    decision_rule: "成分必须带基准；两者不可互转（需密度与原子量）"
+
+# 清洗阶段禁止、抽取阶段也禁止的动作（防幻觉）
+never_do:
+  - "用 LLM 生成或修正数值"
+  - "用 LLM 由名称猜 SMILES / InChIKey"
+  - "让 LLM 做单位换算（换算一律走规则表）"
+  - "把缺失条件当满足条件（见 schema 的 unknown 三态）"
+  - "从曲线图像素反推数值"
+  - "跨篇合并同名表格"

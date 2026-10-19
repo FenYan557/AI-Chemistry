@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-19",
+  "scope": "six discussion markdown files; preserved schema, archives and pilot execution paths",
+  "moves": [
+    {
+      "from": "新版实体关系候选_讨论稿.md",
+      "to": "讨论/01_Schema重建/新版实体关系候选_讨论稿.md",
+      "original_sha256": "677473e452f70fe6c2a0689c82cd170fa64ddb0f174deb41b22903249ccfcae4"
+    },
+    {
+      "from": "实体与关系选择策略_理论方法稿.md",
+      "to": "讨论/01_Schema重建/实体与关系选择策略_理论方法稿.md",
+      "original_sha256": "144beb094e4f2e24c3ace1f0887709238b9f6eca26c26d25fddd2b27345048de"
+    },
+    {
+      "from": "实体关系选择_讨论与来源记录.md",
+      "to": "讨论/01_Schema重建/实体关系选择_讨论与来源记录.md",
+      "original_sha256": "499a80e0afb62d43548f0941558f7451bf0493f114bc4b65987d6c7b3307bec4"
+    },
+    {
+      "from": "可迁移知识抽取方法_优化方案与实验协议.md",
+      "to": "讨论/02_抽取方法与试跑/可迁移知识抽取方法_优化方案与实验协议.md",
+      "original_sha256": "58e528c8b741f1b269af4a405ffceb1943ca1ff7e6d540eb7f3412365153154e"
+    },
+    {
+      "from": "抽取方法_文献与DeepSeek讨论记录.md",
+      "to": "讨论/02_抽取方法与试跑/抽取方法_文献与DeepSeek讨论记录.md",
+      "original_sha256": "74d5a3ff447e9440dfdcb5b5af103563648570a83ae8f4c0f0297030bfa47438"
+    },
+    {
+      "from": "AutoSchemaKG相近方法_论文比较与讨论.md",
+      "to": "讨论/03_现成方法选型/AutoSchemaKG相近方法_论文比较与讨论.md",
+      "original_sha256": "e150ab4c3ba8725d088fcf022d9ee1e22e83eb1c7f5492dd3907710d1c29190f"
+    }
+  ],
+  "updated_markdown": [
+    "讨论/03_现成方法选型/AutoSchemaKG相近方法_论文比较与讨论.md",
+    "讨论/02_抽取方法与试跑/可迁移知识抽取方法_优化方案与实验协议.md",
+    "讨论/01_Schema重建/实体与关系选择策略_理论方法稿.md",
+    "讨论/01_Schema重建/实体关系选择_讨论与来源记录.md",
+    "讨论/02_抽取方法与试跑/抽取方法_文献与DeepSeek讨论记录.md",
+    "讨论/01_Schema重建/新版实体关系候选_讨论稿.md",
+    "schema/README.md",
+    "schema/Schema_v1.1_从基础理解结构与用途.md",
+    "方法试跑_20261019/README.md"
+  ]
+}

@@ -1,0 +1,102 @@
+# 单位与参数注册表（封闭候选集）
+# 用途：① 抽取 prompt 的封闭枚举 ② 校验白名单 ③ 归一化的确定性映射
+# 依据：48 篇语料实测 token 统计（_work/inv_units.py）+ 03_数据清洗方案 §九.修正4
+meta:
+  version: v0
+  updated: 2026-10-18
+  frozen: false
+
+# exact_scale: 量纲内精确换算，规则层可自动做（保留原值为 raw）
+# inexact:     需额外前提（密度等），禁止自动换算 → 降级待审
+units:
+  concentration_mass:
+    canonical: mg/L
+    dimension: mass_per_volume
+    exact_scale: {g/L: 1000, "μg/L": 0.001, "mg/mL": 1000}
+    inexact:
+      ppm: {to: mg/L, scale: 1, condition: "稀水溶液 ρ≈1 g/mL", flag: converted_ppm}
+      "wt%": {reason: "需镀液密度，禁止自动换算"}
+  concentration_molar:
+    canonical: mol/L
+    dimension: amount_per_volume
+    exact_scale: {M: 1, mM: 0.001, mmol/L: 0.001, "μmol/L": 1.0e-6}
+    note: "质量浓度与摩尔浓度在未给分子量时禁止互转"
+  current_density:
+    canonical: mA/cm2
+    dimension: current_per_area
+    exact_scale: {A/dm2: 10, ASD: 10, A/m2: 0.1, "mA/mm2": 100, "mA/cm2": 1}
+    note: "ASD 一律视为 A/dm2；A/dm2 是这批文献最常见写法"
+  potential:
+    canonical: mV
+    dimension: electric_potential
+    exact_scale: {V: 1000, mV: 1, "μV": 0.001}
+    note: "必须带符号与参比电极；无参比电极不得作为 T1 入库"
+  energy:
+    canonical: eV
+    dimension: energy
+    exact_scale: {kcal/mol: 0.0433641, kJ/mol: 0.0103643, meV: 0.001}
+  length:
+    canonical: "μm"
+    dimension: length
+    exact_scale: {nm: 0.001, mm: 1000, cm: 10000, "Å": 0.0001, um: 1, "μm": 1}
+  temperature:
+    canonical: "°C"
+    dimension: temperature
+    exact_scale: {"°C": 1}
+    offset: {K: -273.15}
+    categorical: {room_temperature: "≈25 °C，原文未给数值 → approx=true"}
+  time:
+    canonical: min
+    exact_scale: {s: 0.0166667, h: 60, min: 1}
+  rotation:
+    canonical: rpm
+    exact_scale: {"r/min": 1, rpm: 1}
+  percentage:
+    canonical: "%"
+    exact_scale: {"%": 1}
+  roughness:
+    canonical: nm
+    exact_scale: {"μm": 1000, "Å": 0.1, nm: 1}
+    note: "Ra 必须区分 μm / nm"
+  resistivity:
+    canonical: "μΩ·cm"
+    note: "体积电阻率；sheet resistance 是 Ω/sq，不同量纲，禁止互转"
+  stress:
+    canonical: MPa
+    exact_scale: {GPa: 1000, MPa: 1}
+  areal_charge:
+    canonical: mC/cm2
+    exact_scale: {"mC·cm-2": 1, "mC/cm2": 1}
+  capacitance_density:
+    canonical: "μF/cm2"
+  conductivity_diffusion:
+    canonical: cm2/s
+  gloss:
+    canonical: GU
+  hardness:
+    canonical: HV
+    note: "HV0.5 记为 {value, scale: 0.5}，不得把载荷当数值"
+  angle:
+    canonical: "°"
+  unspecified:
+    canonical: null
+    note: "无单位 → 数值不得入 T1，只能 T2 定性"
+
+# 所有实验变量必须在 params 登记，未登记的 param 不允许写入 ParamValue
+# value_kind: continuous → 参与区间代数；categorical → 只做集合相等
+params:
+  temperature:     {zh: 温度,        value_kind: continuous, unit_group: temperature}
+  current_density: {zh: 电流密度,    value_kind: continuous, unit_group: current_density, requires: waveform}
+  concentration:   {zh: 添加剂量,    value_kind: continuous, unit_group: concentration}
+  ph:              {zh: pH,          value_kind: continuous}
+  rotation_speed:  {zh: 转速,        value_kind: continuous, unit_group: rotation}
+  plating_time:    {zh: 电镀时间,    value_kind: continuous, unit_group: time}
+  bath_volume:     {zh: 镀液体积,    value_kind: continuous}
+  pore_diameter:   {zh: 孔径/槽宽,   value_kind: continuous, unit_group: length}
+  aspect_ratio:    {zh: 深宽比 AR,   value_kind: continuous}
+  pore_depth:      {zh: 孔深,        value_kind: continuous, unit_group: length}
+  pulse_on_off:    {zh: 脉冲通断比,  value_kind: continuous, requires: "waveform in {PPR,PR}"}
+  charge_density:  {zh: 通电量,      value_kind: continuous, unit_group: areal_charge}
+  waveform:        {zh: 电流波形,    value_kind: categorical, enum: [DC, PPR, PR, AC, ramp, other]}
+  agitation:       {zh: 搅拌方式,    value_kind: categorical, enum: [none, magnetic_stirring, rde, air_sparging, jet, paddle, other]}
+  anode:           {zh: 阳极,        value_kind: categorical, enum: [Cu_plate, Co_plate, Pt, graphite, IrO2, other]}

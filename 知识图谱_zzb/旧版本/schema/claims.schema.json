@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://a2lab.local/kg/electroplating/claims.schema.json",
+  "title": "电镀添加剂选型 KG —— 断言记录 v1.1（JSONL 一行一条）",
+  "description": "抽取通道的输出契约 = 归一化通道的输入契约。设计要点：LLM 只填槽不给最终节点 ID；归一化与校验是独立下一道工序，可复现、可重跑。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["claim_id", "claim_kind", "doc_id", "subject", "predicate", "object", "polarity", "stance", "evidence_tier", "anchors", "extractor", "review"],
+  "properties": {
+    "claim_id": {"type": "string", "pattern": "^c:[0-9a-zA-Z_#.:-]+$"},
+    "claim_kind": {"$ref": "#/$defs/claim_kind"},
+    "doc_id": {"type": "string", "minLength": 3},
+    "experiment_local": {"type": "string", "description": "篇内局部实验编号（归一化期映射为 exp_id）"},
+    "run_local": {"type": "string", "description": "篇内局部 Run 编号（表格一行 = 一个 Run）"},
+    "subject": {"$ref": "#/$defs/endpoint"},
+    "predicate": {"type": "string", "description": "必须来自 schema.yaml#predicates；未登记 → review=pending 进待审区"},
+    "object": {"$ref": "#/$defs/endpoint"},
+    "window": {"$ref": "#/$defs/window"},
+    "condition_source": {"$ref": "#/$defs/condition_source"},
+    "polarity": {"enum": ["assert", "negate", "no_effect", "conditional"]},
+    "modality": {"enum": ["reported", "cautious", "speculative"], "default": "reported"},
+    "evidence_tier": {"enum": ["T1", "T2", "T3", "T4"], "description": "归一化期以 max(其 EvidenceLink.tier) 重算"},
+    "stance": {"enum": ["support", "contradict", "partially_support", "no_information"]},
+    "quote_verdict": {"enum": ["supported", "partial", "unsupported", "no_info"], "description": "④回读校验结果；T1 必须是 supported"},
+    "anchors": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/anchor"}},
+    "reference_electrode": {"type": ["string", "null"], "description": "电位类指标的参比电极（来自 lexicon/structures_methods.yaml#reference_electrodes）"},
+    "cross_section_args": {"type": "array", "items": {"$ref": "#/$defs/cross_section_arg"}},
+    "contradicts": {"type": "array", "items": {"type": "string"}},
+    "scope_note": {"type": ["string", "null"], "description": "作者限定语原文（limitation / contradiction）"},
+    "extractor": {"$ref": "#/$defs/extractor"},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "模型自评，不得用于抬高 tier"},
+    "review": {"enum": ["pending", "pass", "reject", "downgrade"]},
+    "review_note": {"type": ["string", "null"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "$defs": {
+    "claim_kind": {
+      "enum": ["observation_report", "role_assignment", "composition", "composition_window", "window_regime", "structure_activity", "mechanism", "structure_property", "defect_negative", "analogy", "method_link", "meta", "attribution"]
+    },
+    "endpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "enum": ["Chemical", "Motif", "Role", "Indicator", "Mechanism", "Bath", "BathClass", "Feature", "Run", "Observation", "Document", "defect_kind", "Equation", "Parameter"]
+        },
+        "ref": {"type": ["string", "null"], "description": "归一化后的图内 ID；抽取期为 null（禁止 LLM 造 ID）"},
+        "name_raw": {"type": ["string", "null"], "description": "原文写法，必留（分子身份解析的输入）"},
+        "value": {"type": ["string", "null"], "description": "枚举值：Role / Motif / Mechanism / BathClass / DefectKind 用"},
+        "indicator": {"type": ["string", "null"], "description": "Indicator 用，必须来自 lexicon/indicators.yaml"},
+        "direction": {"enum": ["increase", "decrease", "none", "non_monotonic", null]},
+        "magnitude": {"type": ["string", "null"], "description": "数值+单位原样，如 5 mV"},
+        "definition_eq": {"type": ["string", "null"], "description": "TP 等需定义式的指标绑 eq_id"}
+      }
+    },
+    "quantity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "raw"],
+      "properties": {
+        "kind": {"enum": ["point", "range", "categorical"]},
+        "value": {"type": ["number", "null"]},
+        "lo": {"type": ["number", "null"]},
+        "hi": {"type": ["number", "null"]},
+        "open_low": {"type": "boolean"},
+        "open_high": {"type": "boolean"},
+        "qualifier": {"enum": ["<", ">", "≈", "±", "~", null]},
+        "uncertainty": {"type": ["number", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "raw": {"type": "string"},
+        "converted": {"type": "boolean"},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "param_value": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["param", "presence", "kind", "raw"],
+      "properties": {
+        "param": {"type": "string", "description": "必须来自 lexicon/units_params.yaml#params"},
+        "of": {"type": ["string", "null"], "description": "该参数属于哪个客体（同一 Run 里 4 个添加剂各有浓度时用）：化学名或 bath/feature 标记"},
+        "presence": {"enum": ["reported", "not_reported", "unconstrained"]},
+        "kind": {"enum": ["point", "range", "categorical"]},
+        "value": {"type": ["number", "string", "null"]},
+        "lo": {"type": ["number", "null"]},
+        "hi": {"type": ["number", "null"]},
+        "open_low": {"type": "boolean"},
+        "open_high": {"type": "boolean"},
+        "qualifier": {"enum": ["<", ">", "≈", "±", "~", null]},
+        "uncertainty": {"type": ["number", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "basis": {"type": ["string", "null"], "description": "质量浓度/摩尔浓度的比较基准，如 mass / molar / wt"},
+        "raw": {"type": "string"},
+        "converted": {"type": "boolean"},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["params"],
+      "properties": {
+        "params": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/param_value"}},
+        "completeness": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      }
+    },
+    "condition_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "表格行通常只写被扫的轴，其余工况要从 Run 继承；tier 判定按 own ∪ inherited 计。",
+      "properties": {
+        "own": {"type": "array", "items": {"type": "string"}},
+        "inherited": {"type": "array", "items": {"type": "string"}},
+        "run_ref": {"type": ["string", "null"]}
+      }
+    },
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "doc_id", "page", "quote"],
+      "properties": {
+        "kind": {"enum": ["block", "table_cell", "figure", "equation"]},
+        "doc_id": {"type": "string"},
+        "page": {"type": "integer", "minimum": 1},
+        "block_id": {"type": ["string", "null"]},
+        "table_id": {"type": ["string", "null"]},
+        "row": {"type": ["integer", "null"]},
+        "col": {"type": ["integer", "null"]},
+        "fig_id": {"type": ["string", "null"]},
+        "eq_id": {"type": ["string", "null"]},
+        "quote": {"type": "string", "minLength": 1},
+        "quote_check": {"enum": ["exact", "fuzzy", "failed"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"kind": {"const": "block"}}}, "then": {"required": ["block_id"]}},
+        {"if": {"properties": {"kind": {"const": "table_cell"}}}, "then": {"required": ["table_id", "row", "col"]}},
+        {"if": {"properties": {"kind": {"const": "figure"}}}, "then": {"required": ["fig_id"]}},
+        {"if": {"properties": {"kind": {"const": "equation"}}}, "then": {"required": ["eq_id"]}}
+      ]
+    },
+    "cross_section_arg": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["arg", "anchor"],
+      "properties": {
+        "arg": {"type": "string", "description": "temperature / delta_eta / ref_electrode / concentration / aspect_ratio ..."},
+        "anchor": {"$ref": "#/$defs/anchor"},
+        "section_role": {"type": "string", "description": "来自 lexicon/tables_sections.yaml#section_roles"}
+      }
+    },
+    "extractor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "prompt_ver", "date"],
+      "properties": {
+        "model": {"type": "string"},
+        "prompt_ver": {"type": "string"},
+        "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "pipeline_version": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

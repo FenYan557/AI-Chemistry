@@ -1,0 +1,1138 @@
+{
+  "mentions": [
+    {
+      "mention_id": "m1",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "Adenosine (ADO)",
+      "proposed_type": "化学物质",
+      "type_definition": "原文以名称加括号缩写指称的一种有机分子，作为镀液添加成分出现。"
+    },
+    {
+      "mention_id": "m2",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "ADO",
+      "proposed_type": "化学物质（缩写形式）",
+      "type_definition": "同一物质的缩写形式，由原文括注给出，不单独定义。"
+    },
+    {
+      "mention_id": "m3",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "leveling additive",
+      "proposed_type": "功能角色",
+      "type_definition": "描述某物质在沉积工艺中承担的作用，而非物质本身。"
+    },
+    {
+      "mention_id": "m4",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "superconformal cobalt filling",
+      "proposed_type": "工艺过程",
+      "type_definition": "以超共形方式在通孔内填充钴的沉积过程。"
+    },
+    {
+      "mention_id": "m5",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "X-shaped through-hole",
+      "proposed_type": "结构特征",
+      "type_definition": "描述通孔截面几何形状的名词短语。"
+    },
+    {
+      "mention_id": "m6",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "deposition potential",
+      "proposed_type": "电化学测量量",
+      "type_definition": "循环伏安测试中记录的沉积电位。"
+    },
+    {
+      "mention_id": "m7",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "stripping peaks",
+      "proposed_type": "电化学特征",
+      "type_definition": "循环伏安曲线中出现的溶出峰。"
+    },
+    {
+      "mention_id": "m8",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "cyclic voltammetry curves",
+      "proposed_type": "测量曲线",
+      "type_definition": "电化学测试得到的电流-电位曲线。"
+    },
+    {
+      "mention_id": "m9",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "ADO-containing plating solution",
+      "proposed_type": "电镀液",
+      "type_definition": "含添加剂的沉积用电解液。"
+    },
+    {
+      "mention_id": "m10",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "cobalt surface",
+      "proposed_type": "界面",
+      "type_definition": "钴沉积所发生的固体表面。"
+    },
+    {
+      "mention_id": "m11",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "density functional theory calculations",
+      "proposed_type": "计算方法",
+      "type_definition": "基于电子结构的量子化学计算方法。"
+    },
+    {
+      "mention_id": "m12",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "molecular dynamics (MD) simulation",
+      "proposed_type": "计算方法",
+      "type_definition": "基于原子间作用力的分子运动模拟方法。"
+    },
+    {
+      "mention_id": "m13",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy",
+      "proposed_type": "表征方法",
+      "type_definition": "电化学原位红外光谱测试手段。"
+    },
+    {
+      "mention_id": "m14",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "Co 2+",
+      "proposed_type": "金属离子",
+      "type_definition": "溶液中带两个正电荷的钴离子。"
+    },
+    {
+      "mention_id": "m15",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "interaction region indicator analysis",
+      "proposed_type": "分析方法",
+      "type_definition": "用于显示分子间相互作用区域的可视化分析方法。"
+    },
+    {
+      "mention_id": "m16",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "intramolecular synergistic acceleration–suppression mechanism",
+      "proposed_type": "机制假设",
+      "type_definition": "作者提出的分子内协同加速-抑制机理。"
+    },
+    {
+      "mention_id": "m17",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "low-concentration acceleration but high-concentration suppression",
+      "proposed_type": "浓度依赖效应",
+      "type_definition": "同一添加物在低浓度与高浓度下表现相反作用的效应。"
+    },
+    {
+      "mention_id": "m18",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "cobalt deposition",
+      "proposed_type": "沉积过程",
+      "type_definition": "钴在电极表面还原沉积的过程。"
+    },
+    {
+      "mention_id": "m19",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "grain refinement effect",
+      "proposed_type": "材料效应",
+      "type_definition": "沉积层晶粒尺寸减小的效果。"
+    },
+    {
+      "mention_id": "m20",
+      "block_id": "blk:7cf3c70d130e763f",
+      "text": "Co hcp (002) crystalline plane",
+      "proposed_type": "晶面",
+      "type_definition": "六方密排钴的 (002) 晶面。"
+    },
+    {
+      "mention_id": "m21",
+      "block_id": "blk:8b1aeebd56a70e1a",
+      "text": "nucleoside and adenine groups",
+      "proposed_type": "官能团",
+      "type_definition": "核苷与腺嘌呤结构中的基团。"
+    },
+    {
+      "mention_id": "m22",
+      "block_id": "blk:8b1aeebd56a70e1a",
+      "text": "adsorption intensity",
+      "proposed_type": "吸附性质",
+      "type_definition": "描述基团在表面吸附强弱的性质。"
+    },
+    {
+      "mention_id": "m23",
+      "block_id": "blk:8b1aeebd56a70e1a",
+      "text": "low-concentration acceleration but high-concentration suppression effect",
+      "proposed_type": "浓度依赖效应",
+      "type_definition": "与 blk:7cf3c70d130e763f 中措辞近似的同一效应表述。"
+    },
+    {
+      "mention_id": "m24",
+      "block_id": "blk:8b1aeebd56a70e1a",
+      "text": "ADO",
+      "proposed_type": "化学物质",
+      "type_definition": "原文以缩写指称的添加物。"
+    },
+    {
+      "mention_id": "m25",
+      "block_id": "blk:8b1aeebd56a70e1a",
+      "text": "cobalt electrodeposition",
+      "proposed_type": "沉积过程",
+      "type_definition": "钴的电化学沉积过程。"
+    },
+    {
+      "mention_id": "m26",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "saccharin additive",
+      "proposed_type": "添加剂",
+      "type_definition": "化学镀液中加入的糖精类添加成分。"
+    },
+    {
+      "mention_id": "m27",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "surface morphology",
+      "proposed_type": "材料性质",
+      "type_definition": "镀层表面的几何形貌。"
+    },
+    {
+      "mention_id": "m28",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "texture orientation",
+      "proposed_type": "材料性质",
+      "type_definition": "镀层晶粒的取向分布。"
+    },
+    {
+      "mention_id": "m29",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "conductivity",
+      "proposed_type": "电学性质",
+      "type_definition": "镀层的导电能力。"
+    },
+    {
+      "mention_id": "m30",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "cobalt coating layer",
+      "proposed_type": "材料层",
+      "type_definition": "化学镀形成的钴镀层。"
+    },
+    {
+      "mention_id": "m31",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "disordered large grains",
+      "proposed_type": "形貌",
+      "type_definition": "取向无序的大晶粒状态。"
+    },
+    {
+      "mention_id": "m32",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "honeycomb structure",
+      "proposed_type": "形貌",
+      "type_definition": "蜂窝状表面结构。"
+    },
+    {
+      "mention_id": "m33",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "(002) facet",
+      "proposed_type": "晶面",
+      "type_definition": "晶体中 (002) 取向的晶面。"
+    },
+    {
+      "mention_id": "m34",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "hexagonal close-packed (HCP) cobalt crystals",
+      "proposed_type": "晶体结构",
+      "type_definition": "六方密排结构的钴晶体。"
+    },
+    {
+      "mention_id": "m35",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "resistivity of the cobalt film",
+      "proposed_type": "电学性质",
+      "type_definition": "钴薄膜的电阻率。"
+    },
+    {
+      "mention_id": "m36",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "annealing treatment",
+      "proposed_type": "处理阶段",
+      "type_definition": "沉积后对镀层进行的热处理。"
+    },
+    {
+      "mention_id": "m37",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "grain size",
+      "proposed_type": "微结构参数",
+      "type_definition": "晶粒的平均尺寸。"
+    },
+    {
+      "mention_id": "m38",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "“stone forest” structure",
+      "proposed_type": "形貌",
+      "type_definition": "原文以引号命名的石林状表面结构。"
+    },
+    {
+      "mention_id": "m39",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "preferred orientation",
+      "proposed_type": "织构",
+      "type_definition": "晶粒占优的取向。"
+    },
+    {
+      "mention_id": "m40",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "purity of cobalt coating",
+      "proposed_type": "材料性质",
+      "type_definition": "镀层中钴的纯度。"
+    },
+    {
+      "mention_id": "m41",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "saccharin molecules",
+      "proposed_type": "分子",
+      "type_definition": "糖精添加剂的分子实体。"
+    },
+    {
+      "mention_id": "m42",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "c-sites",
+      "proposed_type": "吸附位点",
+      "type_definition": "钴晶面上特定位置的吸附点，原文未进一步定义。"
+    },
+    {
+      "mention_id": "m43",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "cobalt dense crystal plane",
+      "proposed_type": "晶面",
+      "type_definition": "钴的致密晶面。"
+    },
+    {
+      "mention_id": "m44",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "abc stacking arrangement",
+      "proposed_type": "堆垛方式",
+      "type_definition": "abc 顺序的原子层堆垛。"
+    },
+    {
+      "mention_id": "m45",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "ab stacking mode",
+      "proposed_type": "堆垛方式",
+      "type_definition": "ab 顺序的原子层堆垛。"
+    },
+    {
+      "mention_id": "m46",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "HCP (002) texture",
+      "proposed_type": "织构",
+      "type_definition": "HCP (002) 取向的织构。"
+    },
+    {
+      "mention_id": "m47",
+      "block_id": "blk:cf5b948c8b59760d",
+      "text": "electroless cobalt plating",
+      "proposed_type": "工艺过程",
+      "type_definition": "不施加外电流、以化学还原方式沉积钴的工艺。"
+    },
+    {
+      "mention_id": "m48",
+      "block_id": "blk:17bf049326751a44",
+      "text": "passive film of NA on Co surface",
+      "proposed_type": "表面膜",
+      "type_definition": "NA 在钴表面形成的钝化膜。"
+    },
+    {
+      "mention_id": "m49",
+      "block_id": "blk:17bf049326751a44",
+      "text": "NA",
+      "proposed_type": "化学物质",
+      "type_definition": "原文以缩写指称的缓蚀剂分子。"
+    },
+    {
+      "mention_id": "m50",
+      "block_id": "blk:17bf049326751a44",
+      "text": "microscopic properties",
+      "proposed_type": "材料性质",
+      "type_definition": "钝化膜的微观性质。"
+    },
+    {
+      "mention_id": "m51",
+      "block_id": "blk:17bf049326751a44",
+      "text": "composition of Co CMP slurry",
+      "proposed_type": "配方组成",
+      "type_definition": "CMP 浆料中各成分的配比。"
+    },
+    {
+      "mention_id": "m52",
+      "block_id": "blk:17bf049326751a44",
+      "text": "synergistic effect of NA and other slurry components",
+      "proposed_type": "效应假设",
+      "type_definition": "NA 与其他浆料组分之间的协同作用设想。"
+    },
+    {
+      "mention_id": "m53",
+      "block_id": "blk:17bf049326751a44",
+      "text": "effective potential inhibitor",
+      "proposed_type": "功能角色",
+      "type_definition": "作为抑制剂的潜在作用定位。"
+    },
+    {
+      "mention_id": "m54",
+      "block_id": "blk:17bf049326751a44",
+      "text": "Co CMP",
+      "proposed_type": "工艺过程",
+      "type_definition": "钴的化学机械抛光工艺。"
+    },
+    {
+      "mention_id": "m55",
+      "block_id": "blk:17bf049326751a44",
+      "text": "IC manufacturing process",
+      "proposed_type": "工艺背景",
+      "type_definition": "集成电路制造流程。"
+    },
+    {
+      "mention_id": "m56",
+      "block_id": "blk:17bf049326751a44",
+      "text": "physical adsorption on cobalt surface",
+      "proposed_type": "吸附行为",
+      "type_definition": "NA 在钴表面的物理吸附。"
+    },
+    {
+      "mention_id": "m57",
+      "block_id": "blk:17bf049326751a44",
+      "text": "inhibitor removal effect",
+      "proposed_type": "清洗效果",
+      "type_definition": "清洗过程中缓蚀剂的去除程度。"
+    },
+    {
+      "mention_id": "m58",
+      "block_id": "blk:17bf049326751a44",
+      "text": "post CMP cleaning",
+      "proposed_type": "处理阶段",
+      "type_definition": "CMP 之后的清洗步骤。"
+    }
+  ],
+  "alias_candidates": [
+    {
+      "mention_ids": [
+        "m1",
+        "m2",
+        "m24"
+      ],
+      "block_id": "blk:7cf3c70d130e763f",
+      "evidence_quote": "Adenosine (ADO)"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "f1",
+      "block_id": "blk:7cf3c70d130e763f",
+      "participants": [
+        "m1",
+        "m3",
+        "m4",
+        "m5"
+      ],
+      "relation_raw": "was selected as a leveling additive for",
+      "candidate_relation_label": "被选作整平添加剂用于",
+      "relation_definition": "表示某物质在本研究中被选定承担整平作用，并用于指定沉积工艺。",
+      "evidence_quote": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole.",
+      "qualifiers": [
+        {
+          "name": "工艺类型",
+          "raw": "superconformal cobalt filling"
+        },
+        {
+          "name": "基底结构",
+          "raw": "X-shaped through-hole"
+        }
+      ],
+      "discourse_status": "unknown",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "ADO 浓度未给出",
+        "电流密度、电位或温度等沉积条件未给出",
+        "X-shaped through-hole 的尺寸未给出",
+        "未说明选择 ADO 的依据"
+      ],
+      "relation_spans": [
+        {
+          "text": "was selected as a leveling additive for",
+          "start": 16,
+          "end": 55,
+          "block_id": "blk:7cf3c70d130e763f"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f2",
+      "block_id": "blk:7cf3c70d130e763f",
+      "participants": [
+        "m6",
+        "m7",
+        "m8",
+        "m9"
+      ],
+      "relation_raw": "were observed in electrochemical tests of",
+      "candidate_relation_label": "在电解液的电化学测试中观察到变化",
+      "relation_definition": "表示在指定电解液的电化学测试中记录到电位变化与新峰出现。",
+      "evidence_quote": "Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution.",
+      "qualifiers": [
+        {
+          "name": "测试方法",
+          "raw": "electrochemical tests"
+        },
+        {
+          "name": "电解液",
+          "raw": "ADO-containing plating solution"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "measured",
+      "missing_information": [
+        "ADO 浓度未给出",
+        "扫描速率与电位窗口未给出",
+        "空白对照曲线与峰位数值未给出"
+      ],
+      "relation_spans": [
+        {
+          "text": "were observed in electrochemical tests of",
+          "start": 215,
+          "end": 256,
+          "block_id": "blk:7cf3c70d130e763f"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f3",
+      "block_id": "blk:7cf3c70d130e763f",
+      "participants": [
+        "m2",
+        "m10",
+        "m11",
+        "m12",
+        "m13"
+      ],
+      "relation_raw": "was investigated using",
+      "candidate_relation_label": "用多方法研究吸附行为",
+      "relation_definition": "表示采用列出的计算与表征手段研究某物质在钴表面的吸附行为。",
+      "evidence_quote": "The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests.",
+      "qualifiers": [
+        {
+          "name": "方法",
+          "raw": "density functional theory calculations"
+        },
+        {
+          "name": "方法",
+          "raw": "molecular dynamics (MD) simulation"
+        },
+        {
+          "name": "方法",
+          "raw": "electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests"
+        }
+      ],
+      "discourse_status": "unknown",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "DFT 泛函、基组与模型未给出",
+        "MD 力场、体系尺寸与时长未给出",
+        "E-FTIR 实验条件未给出",
+        "该句为方法陈述，未给出结果数值"
+      ],
+      "relation_spans": [
+        {
+          "text": "was investigated using",
+          "start": 343,
+          "end": 365,
+          "block_id": "blk:7cf3c70d130e763f"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f4",
+      "block_id": "blk:7cf3c70d130e763f",
+      "participants": [
+        "m14",
+        "m2",
+        "m15"
+      ],
+      "relation_raw": "was simulated via",
+      "candidate_relation_label": "模拟金属离子与添加剂的配位",
+      "relation_definition": "表示用指定分析方法模拟钴离子与添加物之间的配位作用。",
+      "evidence_quote": "Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis.",
+      "qualifiers": [
+        {
+          "name": "方法",
+          "raw": "interaction region indicator analysis"
+        }
+      ],
+      "discourse_status": "unknown",
+      "evidence_mode": "computed",
+      "missing_information": [
+        "配位构型与配位数未给出",
+        "计算参数与溶剂模型未给出",
+        "未给出模拟结果数值"
+      ],
+      "relation_spans": [
+        {
+          "text": "was simulated via",
+          "start": 571,
+          "end": 588,
+          "block_id": "blk:7cf3c70d130e763f"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f5",
+      "block_id": "blk:7cf3c70d130e763f",
+      "participants": [
+        "m16",
+        "m17",
+        "m18"
+      ],
+      "relation_raw": "was proposed to explain",
+      "candidate_relation_label": "提出机制以解释浓度依赖效应",
+      "relation_definition": "表示作者提出某种机理假设，用来解释在钴沉积中观察到的低浓度加速、高浓度抑制现象。",
+      "evidence_quote": "an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition.",
+      "qualifiers": [
+        {
+          "name": "浓度区间",
+          "raw": "low-concentration"
+        },
+        {
+          "name": "浓度区间",
+          "raw": "high-concentration"
+        }
+      ],
+      "discourse_status": "proposed_explanation",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "低浓度与高浓度的定量边界未给出",
+        "未给出支持该机理的直接实验数据",
+        "未说明机理适用的电流密度范围"
+      ],
+      "relation_spans": [
+        {
+          "text": "was proposed to explain",
+          "start": 775,
+          "end": 798,
+          "block_id": "blk:7cf3c70d130e763f"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f6",
+      "block_id": "blk:7cf3c70d130e763f",
+      "participants": [
+        "m2",
+        "m19"
+      ],
+      "relation_raw": "exhibited",
+      "candidate_relation_label": "表现出晶粒细化效应",
+      "relation_definition": "表示添加物使沉积层出现晶粒细化的效果。",
+      "evidence_quote": "Surface analysis revealed that ADO exhibited a grain refinement effect",
+      "qualifiers": [
+        {
+          "name": "分析方法",
+          "raw": "Surface analysis"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "measured",
+      "missing_information": [
+        "晶粒尺寸的定量数值未给出",
+        "表面分析的具体手段未给出",
+        "沉积条件未给出"
+      ],
+      "relation_spans": [
+        {
+          "text": "exhibited",
+          "start": 937,
+          "end": 946,
+          "block_id": "blk:7cf3c70d130e763f"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f7",
+      "block_id": "blk:7cf3c70d130e763f",
+      "participants": [
+        "m20"
+      ],
+      "relation_raw": "was preferentially formed",
+      "candidate_relation_label": "择优形成晶面",
+      "relation_definition": "表示在沉积层中某晶面被优先形成。",
+      "evidence_quote": "crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed.",
+      "qualifiers": [
+        {
+          "name": "分析方法",
+          "raw": "crystal analysis"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "measured",
+      "missing_information": [
+        "择优取向的定量比例未给出",
+        "晶体分析的具体手段未给出",
+        "沉积条件未给出"
+      ],
+      "relation_spans": [
+        {
+          "text": "was preferentially formed",
+          "start": 1042,
+          "end": 1067,
+          "block_id": "blk:7cf3c70d130e763f"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f8",
+      "block_id": "blk:8b1aeebd56a70e1a",
+      "participants": [
+        "m21",
+        "m22",
+        "m23",
+        "m24",
+        "m25"
+      ],
+      "relation_raw": "leads to",
+      "candidate_relation_label": "导致浓度依赖的加速-抑制效应",
+      "relation_definition": "表示两类基团吸附强度的差异被作者用来解释同一添加物在钴电沉积中的低浓度加速与高浓度抑制。",
+      "evidence_quote": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition.",
+      "qualifiers": [
+        {
+          "name": "浓度区间",
+          "raw": "low-concentration"
+        },
+        {
+          "name": "浓度区间",
+          "raw": "high-concentration"
+        },
+        {
+          "name": "工艺",
+          "raw": "cobalt electrodeposition"
+        }
+      ],
+      "discourse_status": "proposed_explanation",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "低浓度与高浓度的数值未给出",
+        "两类基团吸附强度的定量值未给出",
+        "该块为结论句，未附实验数据",
+        "未说明浓度边界是否依赖其他工艺参数"
+      ],
+      "relation_spans": [
+        {
+          "text": "leads to",
+          "start": 76,
+          "end": 84,
+          "block_id": "blk:8b1aeebd56a70e1a"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f9",
+      "block_id": "blk:cf5b948c8b59760d",
+      "participants": [
+        "m26",
+        "m27",
+        "m28",
+        "m29",
+        "m30"
+      ],
+      "relation_raw": "can significantly change",
+      "candidate_relation_label": "显著改变镀层性质",
+      "relation_definition": "表示糖精添加剂能明显改变钴镀层的表面形貌、织构取向与导电性。",
+      "evidence_quote": "the saccharin additive can significantly change the surface morphology, texture orientation, and conductivity of the cobalt coating layer",
+      "qualifiers": [
+        {
+          "name": "工艺",
+          "raw": "electroless cobalt plating"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "各性质的具体变化数值未给出",
+        "镀液组成、温度、时间与 pH 未给出",
+        "未给出对照组的定量结果"
+      ],
+      "relation_spans": [
+        {
+          "text": "can significantly change",
+          "start": 69,
+          "end": 93,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f10",
+      "block_id": "blk:cf5b948c8b59760d",
+      "participants": [
+        "m26",
+        "m31",
+        "m32",
+        "m33",
+        "m34"
+      ],
+      "relation_raw": "transformed from disordered large grains to a honeycomb structure, with a preferred orientation of",
+      "candidate_relation_label": "使形貌转变并形成择优取向",
+      "relation_definition": "表示在指定糖精用量下，钴镀层由无序大晶粒转变为蜂窝状结构，并出现指定晶面的择优取向。",
+      "evidence_quote": "When the amount of saccharin was 3 mg·L –1, the cobalt coating transformed from disordered large grains to a honeycomb structure, with a preferred orientation of (002) facet on hexagonal close-packed (HCP) cobalt crystals.",
+      "qualifiers": [
+        {
+          "name": "糖精用量",
+          "raw": "3 mg·L –1"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "measured",
+      "missing_information": [
+        "镀液组成、温度、时间与 pH 未给出",
+        "晶粒尺寸与取向比例的定量值未给出",
+        "形貌表征手段未给出"
+      ],
+      "relation_spans": [
+        {
+          "text": "transformed from disordered large grains to a honeycomb structure, with a preferred orientation of",
+          "start": 248,
+          "end": 346,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f11",
+      "block_id": "blk:cf5b948c8b59760d",
+      "participants": [
+        "m35",
+        "m36"
+      ],
+      "relation_raw": "decreased to ... and further decreased to",
+      "candidate_relation_label": "使电阻率降低",
+      "relation_definition": "表示钴膜电阻率降至某数值，并在退火处理后进一步降低。",
+      "evidence_quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment.",
+      "qualifiers": [
+        {
+          "name": "退火前电阻率",
+          "raw": "14.4 μΩ·cm"
+        },
+        {
+          "name": "处理",
+          "raw": "annealing treatment"
+        },
+        {
+          "name": "退火后电阻率",
+          "raw": "10.7 μΩ·cm"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "measured",
+      "missing_information": [
+        "电阻率测量方法未给出",
+        "退火温度、时间与气氛未给出",
+        "未给出退火前基线对应的糖精用量是否与 3 mg·L –1 相同"
+      ],
+      "relation_spans": [
+        {
+          "text": "decreased to",
+          "start": 443,
+          "end": 455,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "and further decreased to",
+          "start": 468,
+          "end": 492,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "relation_span_status": "fragments_only_needs_semantic_review"
+    },
+    {
+      "fact_id": "f12",
+      "block_id": "blk:cf5b948c8b59760d",
+      "participants": [
+        "m26",
+        "m37",
+        "m38",
+        "m39"
+      ],
+      "relation_raw": "was gradually refined and ... was observed, with ... remaining unchanged",
+      "candidate_relation_label": "使晶粒细化并形成新形貌",
+      "relation_definition": "表示糖精浓度升高时晶粒逐渐细化、出现石林状结构，而择优取向保持不变。",
+      "evidence_quote": "When the concentration of saccharin was increased, the grain size was gradually refined and a “stone forest” structure was observed, with the preferred orientation remaining unchanged.",
+      "qualifiers": [
+        {
+          "name": "变化条件",
+          "raw": "When the concentration of saccharin was increased"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "measured",
+      "missing_information": [
+        "升高后的糖精浓度数值未给出",
+        "晶粒尺寸的定量值未给出",
+        "未说明取向保持的具体晶面"
+      ],
+      "relation_spans": [
+        {
+          "text": "was gradually refined and",
+          "start": 601,
+          "end": 626,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "was observed, with",
+          "start": 654,
+          "end": 672,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "remaining unchanged",
+          "start": 699,
+          "end": 718,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "relation_span_status": "fragments_only_needs_semantic_review"
+    },
+    {
+      "fact_id": "f13",
+      "block_id": "blk:cf5b948c8b59760d",
+      "participants": [
+        "m26",
+        "m40"
+      ],
+      "relation_raw": "slightly improves",
+      "candidate_relation_label": "提高镀层纯度",
+      "relation_definition": "表示加入糖精使钴镀层纯度有轻微提升。",
+      "evidence_quote": "The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent.",
+      "qualifiers": [
+        {
+          "name": "程度",
+          "raw": "slightly"
+        }
+      ],
+      "discourse_status": "reported_result",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "纯度指标与提升幅度未给出",
+        "纯度测量方法未给出",
+        "未说明对应的糖精浓度"
+      ],
+      "relation_spans": [
+        {
+          "text": "slightly improves",
+          "start": 751,
+          "end": 768,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f14",
+      "block_id": "blk:cf5b948c8b59760d",
+      "participants": [
+        "m41",
+        "m42",
+        "m43",
+        "m44",
+        "m45",
+        "m46"
+      ],
+      "relation_raw": "can adsorb to ... inhibiting ... and inducing ... thereby achieving",
+      "candidate_relation_label": "吸附并抑制/诱导晶粒生长",
+      "relation_definition": "表示糖精分子吸附于钴致密晶面的特定位点，抑制一种堆垛方式并诱导另一种堆垛方式，从而形成指定织构。",
+      "evidence_quote": "saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane, inhibiting the growth of abc stacking arrangement and inducing the crystal growth in ab stacking mode, thereby achieving optimal growth of HCP (002) texture.",
+      "qualifiers": [
+        {
+          "name": "工艺",
+          "raw": "cobalt electroless plating"
+        }
+      ],
+      "discourse_status": "proposed_explanation",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "未给出直接谱学或显微证据",
+        "c-sites 的具体结构定义未给出",
+        "未给出吸附能或覆盖度定量数据",
+        "未说明该机理是否适用于其他浓度"
+      ],
+      "relation_spans": [
+        {
+          "text": "can adsorb to",
+          "start": 920,
+          "end": 933,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "inhibiting",
+          "start": 986,
+          "end": 996,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "and inducing",
+          "start": 1036,
+          "end": 1048,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "thereby achieving",
+          "start": 1089,
+          "end": 1106,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "relation_span_status": "fragments_only_needs_semantic_review"
+    },
+    {
+      "fact_id": "f15",
+      "block_id": "blk:17bf049326751a44",
+      "participants": [
+        "m48",
+        "m50",
+        "m51"
+      ],
+      "relation_raw": "provide a theoretical basis for optimizing",
+      "candidate_relation_label": "为优化浆料组成提供理论基础",
+      "relation_definition": "表示关于钝化膜及其微观性质的研究结果为调整浆料配方提供理论依据。",
+      "evidence_quote": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry",
+      "qualifiers": [],
+      "discourse_status": "unknown",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "未给出优化后的浆料组成",
+        "未给出优化效果的验证数据",
+        "该句为意义陈述，不含实验结果"
+      ],
+      "relation_spans": [
+        {
+          "text": "provide a theoretical basis for optimizing",
+          "start": 92,
+          "end": 134,
+          "block_id": "blk:17bf049326751a44"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f16",
+      "block_id": "blk:17bf049326751a44",
+      "participants": [
+        "m52"
+      ],
+      "relation_raw": "provide support for subsequent researches of exploring",
+      "candidate_relation_label": "为后续研究提供支持",
+      "relation_definition": "表示本研究为今后探索 NA 与其他浆料组分协同作用的后续研究提供依据。",
+      "evidence_quote": "provide support for subsequent researches of exploring synergistic effect of NA and other slurry components",
+      "qualifiers": [],
+      "discourse_status": "future_work",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "仅为研究建议，未给出计划或结果",
+        "未指明其他浆料组分的种类"
+      ],
+      "relation_spans": [
+        {
+          "text": "provide support for subsequent researches of exploring",
+          "start": 178,
+          "end": 232,
+          "block_id": "blk:17bf049326751a44"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f17",
+      "block_id": "blk:17bf049326751a44",
+      "participants": [
+        "m49",
+        "m53",
+        "m54",
+        "m55"
+      ],
+      "relation_raw": "is suggested to be an effective potential inhibitor for",
+      "candidate_relation_label": "被建议作为抑制剂",
+      "relation_definition": "表示作者根据本研究结果建议将 NA 用作指定工艺中的潜在有效抑制剂。",
+      "evidence_quote": "NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process.",
+      "qualifiers": [
+        {
+          "name": "应用",
+          "raw": "IC manufacturing process"
+        }
+      ],
+      "discourse_status": "proposed_explanation",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "该块未给出抑制效率等定量证据",
+        "NA 浓度、pH 与浆料条件未给出",
+        "未说明与现有抑制剂的对比结果"
+      ],
+      "relation_spans": [
+        {
+          "text": "is suggested to be an effective potential inhibitor for",
+          "start": 305,
+          "end": 360,
+          "block_id": "blk:17bf049326751a44"
+        }
+      ],
+      "relation_span_status": "exact"
+    },
+    {
+      "fact_id": "f18",
+      "block_id": "blk:17bf049326751a44",
+      "participants": [
+        "m56",
+        "m57",
+        "m58"
+      ],
+      "relation_raw": "will help to improve",
+      "candidate_relation_label": "有助于改善清洗中的去除效果",
+      "relation_definition": "表示 NA 在钴表面的物理吸附被认为有助于改善 CMP 后清洗中缓蚀剂的去除。",
+      "evidence_quote": "Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning.",
+      "qualifiers": [
+        {
+          "name": "阶段",
+          "raw": "post CMP cleaning"
+        }
+      ],
+      "discourse_status": "proposed_explanation",
+      "evidence_mode": "unspecified",
+      "missing_information": [
+        "未给出清洗后的去除效果数据",
+        "清洗液组成与清洗条件未给出",
+        "未说明该判断是实验结论还是推测"
+      ],
+      "relation_spans": [
+        {
+          "text": "will help to improve",
+          "start": 439,
+          "end": 459,
+          "block_id": "blk:17bf049326751a44"
+        }
+      ],
+      "relation_span_status": "exact"
+    }
+  ],
+  "unresolved": [
+    "block2 的 ADO 与 block1 的 Adenosine (ADO) 通过原文括注建立别名；该别名仅依据原文缩写，未与其他文献核对。",
+    "block3 中 HCP 为 hexagonal close-packed 的明确缩写，但 (002) facet 与 HCP (002) texture 是否指同一晶面表述，原文未明示，未合并。",
+    "block4 的 NA 全称不在 block.text 内（仅出现在 section 标题），因此未建立全称-缩写别名。",
+    "三个文档分属钴电镀、化学镀钴与钴 CMP 不同体系，未做任何跨文档实体合并。",
+    "所有事实均来自摘要或结论块，缺少方法与工艺条件，未推断其来源是原始实验还是转述。",
+    "数字均按原文保存（含 μΩ·cm、mg·L –1 与原文空格），未做单位换算或新计算。",
+    "未抽取图表、公式、参考文献及正文中的其他事实；本次不评估召回率。",
+    "同一段落中的多个结果已分别记录，未将形貌、电阻率与纯度变化归因于同一因素。",
+    "discourse_status 仅依据块内措辞判断：was observed / revealed / showed 记为 reported_result，方法陈述与意义陈述记为 unknown。",
+    "block3 的 c-sites 原文未定义具体结构，仅作为候选位点类型保留。"
+  ]
+}

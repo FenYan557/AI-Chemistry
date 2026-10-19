@@ -1,0 +1,82 @@
+{
+  "source_sha256": "df95724441ceb6420e96b2c41ca9af35c0e0665a376bbd5cbbe6e64485b3ca0b",
+  "method": "literal split at ellipsis, ordered exact substring alignment; preserve original phrase",
+  "changes": [
+    {
+      "fact_id": "f11",
+      "original_relation_raw": "decreased to ... and further decreased to",
+      "derived_spans": [
+        {
+          "text": "decreased to",
+          "start": 443,
+          "end": 455,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "and further decreased to",
+          "start": 468,
+          "end": 492,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "status": "fragments_only_needs_semantic_review"
+    },
+    {
+      "fact_id": "f12",
+      "original_relation_raw": "was gradually refined and ... was observed, with ... remaining unchanged",
+      "derived_spans": [
+        {
+          "text": "was gradually refined and",
+          "start": 601,
+          "end": 626,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "was observed, with",
+          "start": 654,
+          "end": 672,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "remaining unchanged",
+          "start": 699,
+          "end": 718,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "status": "fragments_only_needs_semantic_review"
+    },
+    {
+      "fact_id": "f14",
+      "original_relation_raw": "can adsorb to ... inhibiting ... and inducing ... thereby achieving",
+      "derived_spans": [
+        {
+          "text": "can adsorb to",
+          "start": 920,
+          "end": 933,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "inhibiting",
+          "start": 986,
+          "end": 996,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "and inducing",
+          "start": 1036,
+          "end": 1048,
+          "block_id": "blk:cf5b948c8b59760d"
+        },
+        {
+          "text": "thereby achieving",
+          "start": 1089,
+          "end": 1106,
+          "block_id": "blk:cf5b948c8b59760d"
+        }
+      ],
+      "status": "fragments_only_needs_semantic_review"
+    }
+  ],
+  "semantic_validation": false
+}

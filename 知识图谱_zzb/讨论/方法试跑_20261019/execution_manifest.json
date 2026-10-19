@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-19",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "model_reported": "deepseek-flash",
+  "model_revision": null,
+  "temperature": null,
+  "seed": null,
+  "executor": "Claude Code via existing Hub bridge",
+  "tool_access": "agent CLI; prompted local input-only, not a sandbox proof",
+  "domain_type_seed_provided": false,
+  "manual_gold": false,
+  "method_review_tasks": [
+    "task_4fee5b3c01324d62",
+    "task_a5219d304c7a4d27"
+  ],
+  "candidate_task": "task_168fb7b8eae54231",
+  "induction_task": "task_571fe4bbccdc4cc0",
+  "tasks_status_means": "awaiting_review requires parent artifact acceptance; not scientific validation",
+  "raw_audit_expected_exit_code": 1,
+  "remote_bitwise_reproducible": false,
+  "bert_training_run": false,
+  "formal_benchmark_run": false,
+  "v2_template_run": false,
+  "files": {
+    "01_audit.json": {
+      "sha256": "cdc94430ddb36324d50ac86ed17b1e7bed45d336b5d16b623f7c93f7737a5c4b",
+      "bytes": 1212
+    },
+    "01_candidates.json": {
+      "sha256": "df95724441ceb6420e96b2c41ca9af35c0e0665a376bbd5cbbe6e64485b3ca0b",
+      "bytes": 32292
+    },
+    "01_candidates_with_spans.json": {
+      "sha256": "82477f5c136c1295bcef97656a5c8b16c1d31b452622bc022e444eb3a7073212",
+      "bytes": 40116
+    },
+    "01_offsets.json": {
+      "sha256": "a6232a55007f99a1bce47932b67b7ebe716b122c819b0eeadb93ce2aae2bece3",
+      "bytes": 19541
+    },
+    "01_span_derivation_report.json": {
+      "sha256": "4b88bbb3cf99d1da64600f2ff6ed7eba7a872c156076805b7d98aa908fca11a8",
+      "bytes": 2343
+    },
+    "01_候选抽取提示词.md": {
+      "sha256": "5bed41debb9569bab7977010b3824f91a4cc185467c77cd5d790b883faa3eb4d",
+      "bytes": 2691
+    },
+    "02_audit.json": {
+      "sha256": "34ea893e177989a165a62359f5bc196a351ed5e428a612770fa3d75d587ff7b9",
+      "bytes": 502
+    },
+    "02_induced_proposals.json": {
+      "sha256": "fa0bb0c93b8b90e7c639067e508a6da8291dcb8f7eba8f68bcde8f550307a5ce",
+      "bytes": 49478
+    },
+    "02_类型归一提示词.md": {
+      "sha256": "e9a1f8b57487ddec7b03f3741341075758966f101fab830492b030bb5525429b",
+      "bytes": 2019
+    },
+    "03_改进抽取提示词模板_未执行.md": {
+      "sha256": "0884597bd779e3b2cc7c76c4529d514bcce6f73eede99db0217fddfc0ba3ee44",
+      "bytes": 3418
+    },
+    "audit_induction.py": {
+      "sha256": "c6fc52fe8f77b78eadc4d19ba5057b2c7f04a94cab0660adfd10d1dcb05fe903",
+      "bytes": 2904
+    },
+    "audit_pilot.py": {
+      "sha256": "9575daa40b6cec7cc6a73bc1a2d2969f69c72b35694e3b5425e1f64e969adefa",
+      "bytes": 3584
+    },
+    "derive_relation_spans.py": {
+      "sha256": "fa21458597ee7010d1c5aad0770359c415f142df82dfb41a7623d0423cb04e6f",
+      "bytes": 1734
+    },
+    "experiment_protocol.json": {
+      "sha256": "e97fd86837b80db6ddee2d4cb434d568e84fcd2b180c2211096959e6e42a77de",
+      "bytes": 4178
+    },
+    "input_blocks.jsonl": {
+      "sha256": "adb5902c806887054ad03bd3cc49674ef40169ce3a7d9f66abc67c01f8b65e04",
+      "bytes": 4181
+    },
+    "input_manifest.json": {
+      "sha256": "b1654fab0be6565935c44bcb1270406db4e8ef02186ab8b4c2d3850ae84a8823",
+      "bytes": 1623
+    },
+    "README.md": {
+      "sha256": "778e3a7c279e299285e07820da46ca9f6a4e8b0e47e9c501d6c611f8e3a0aa55",
+      "bytes": 5434
+    },
+    "update_manifest.py": {
+      "sha256": "5a225d5471ebeb421d2ba164a8684f7c61210482ff074763fbfc2519b1f60e1d",
+      "bytes": 1391
+    }
+  }
+}

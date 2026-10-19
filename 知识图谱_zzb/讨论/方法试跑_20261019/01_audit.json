@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "blocks": 4,
+    "documents": 3,
+    "mentions": 58,
+    "raw_type_labels": 39,
+    "facts": 18,
+    "raw_relation_labels": 18,
+    "alias_candidates": 1
+  },
+  "checks": "exact substrings for mentions, relation phrases, evidence and qualifiers; IDs and enumerated states",
+  "errors": [
+    {
+      "kind": "relation_raw",
+      "id": "f11",
+      "block_id": "blk:cf5b948c8b59760d",
+      "quote": "decreased to ... and further decreased to"
+    },
+    {
+      "kind": "relation_raw",
+      "id": "f12",
+      "block_id": "blk:cf5b948c8b59760d",
+      "quote": "was gradually refined and ... was observed, with ... remaining unchanged"
+    },
+    {
+      "kind": "relation_raw",
+      "id": "f14",
+      "block_id": "blk:cf5b948c8b59760d",
+      "quote": "can adsorb to ... inhibiting ... and inducing ... thereby achieving"
+    }
+  ],
+  "cross_block_references_for_review": [],
+  "semantic_accuracy_measured": false,
+  "recall_measured": false,
+  "sha256": {
+    "input_blocks.jsonl": "adb5902c806887054ad03bd3cc49674ef40169ce3a7d9f66abc67c01f8b65e04",
+    "01_candidates.json": "df95724441ceb6420e96b2c41ca9af35c0e0665a376bbd5cbbe6e64485b3ca0b"
+  }
+}

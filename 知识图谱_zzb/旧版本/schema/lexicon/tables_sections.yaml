@@ -1,0 +1,67 @@
+# 表格 ETL 画像 / 章节角色
+# 关键：schema 侧的 table_etl_profile 与清洗侧 class 是两套东西，不要混。
+#   清洗侧 class（result/design/data_unnamed…）是版面启发式，98 张里 52 张落在 data_unnamed，不可直接用。
+#   schema 侧 profile 决定"这张表能 ETL 出哪些断言"，必须人工确认后才能进 ETL。
+meta:
+  version: v0
+  frozen: false
+
+table_etl_profiles:
+  formulation:
+    zh: 配方表
+    requires: [chemical_column, concentration_with_unit]
+    allows_claims: [composition, composition_window]
+  result_grid:
+    zh: 结果矩阵表
+    requires: [row_is_run, value_column_with_unit]
+    allows_claims: [observation_report, role_assignment, window_regime]
+  window_regime:
+    zh: 窗口/区制表
+    requires: [row_is_regime, cell_is_window]
+    allows_claims: [window_regime]
+    example: "三苯甲烷整平剂：行=Δη>0 / Δη<0，格=浓度区间"
+  design_matrix:
+    zh: 实验设计表
+    requires: [factor_columns, level_or_response_columns]
+    allows_claims: [design_link, observation_report]
+  anova:
+    zh: 方差分析表
+    allows_claims: [meta_evidence_only]
+    note: "只标该结论有统计支撑（T1+sig），不产工艺断言"
+  spectra_assignment:
+    zh: 谱峰归属表
+    allows_claims: []
+  descriptive:
+    zh: 描述性表
+    allows_claims: []
+  unknown:
+    zh: 未分类
+    allows_claims: []
+    note: "必须人工归类后才能 ETL 出数值"
+
+# 清洗侧 class → schema 侧 profile（候选，不自动冻结）
+cleaner_class_to_profile:
+  result:       {candidates: [result_grid], confidence: high}
+  design:       {candidates: [design_matrix, window_regime], confidence: medium}
+  formula:      {candidates: [formulation], confidence: high}
+  method_eval:  {candidates: [anova], confidence: medium}
+  spectra:      {candidates: [spectra_assignment], confidence: high}
+  descriptive:  {candidates: [descriptive, formulation], confidence: low}
+  pretreat:     {candidates: [descriptive], confidence: low}
+  mixed:        {candidates: [result_grid, design_matrix, window_regime], confidence: low}
+  data_unnamed: {candidates: [result_grid, formulation, window_regime, design_matrix], confidence: none, note: "52 张，必须人工逐张确认"}
+
+# 章节角色：跨节论元召回评测要用（04 §缺口C）
+section_roles:
+  abstract:     {match: ["abstract", "摘要"]}
+  intro:        {match: ["introduction", "引言", "绪论"]}
+  materials:    {match: ["materials", "chemicals", "reagents", "实验材料", "试剂"]}
+  methods:      {match: ["experimental", "method", "electrochemical", "characterization", "实验", "表征"]}
+  results:      {match: ["results", "结果"]}
+  discussion:   {match: ["discussion", "讨论"]}
+  conclusion:   {match: ["conclusion", "结论"]}
+  references:   {match: ["references", "参考文献"]}
+  appendix:     {match: ["appendix", "supplementary", "附录"]}
+  front_matter: {match: ["keywords", "highlights", "graphical abstract"]}
+  ack:          {match: ["acknowledg", "致谢", "author contributions", "data availability", "declaration"]}
+  other:        {}

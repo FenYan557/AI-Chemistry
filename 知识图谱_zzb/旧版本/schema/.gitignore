@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# 校验器输出的临时报告
+*.report.json

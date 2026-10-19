@@ -1,0 +1,138 @@
+{
+  "protocol_version": "proposal-0.1",
+  "date": "2026-10-19",
+  "status": "planned_not_trained_or_scored",
+  "purpose": "separate_schema_induction_from_frozen_schema_extraction",
+  "reference_method": "open_candidates_then_definition_canonicalization_then_evidence_bound_extraction",
+  "data": {
+    "source": "清洗/02_清洗/out/blocks",
+    "unit": "paper_or_verified_duplicate_group",
+    "grouping": [
+      "same DOI",
+      "translation or version of same paper",
+      "near duplicate text"
+    ],
+    "review_primary_overlap": "mark shared facts; sensitivity analysis; do not merge whole citation-connected network",
+    "split_seed": 20261019,
+    "proposed_fractions": {
+      "train": 0.6,
+      "validation": 0.2,
+      "test": 0.2
+    },
+    "actual_split_manifest": null,
+    "pilot_not_heldout": true
+  },
+  "discovery": {
+    "training_side_only": true,
+    "predefined_domain_labels": false,
+    "metadata_contract_human_defined": true,
+    "methods": [
+      "definition_canonicalization",
+      "embedding_neighbor_candidates_then_equivalence_check"
+    ],
+    "candidate_pool_must_match": true,
+    "merge_threshold": "select_on_validation_not_test",
+    "human_adjudication_logged": true
+  },
+  "extractors": {
+    "rule_reference": {
+      "status": "not_run",
+      "lexicon": "derive_from_train_only"
+    },
+    "encoder_pipeline": {
+      "status": "not_run",
+      "reference": "PURE-style span NER and typed-marker relation classifier",
+      "checkpoint_candidate": "allenai/scibert_scivocab_uncased",
+      "checkpoint_revision": null,
+      "training_labels": null,
+      "language": "English main task; Chinese separate",
+      "proposed_search_space": {
+        "learning_rate": [
+          0.00002,
+          0.00005
+        ],
+        "max_epochs": 10,
+        "max_sequence_length": 512,
+        "random_seeds": [
+          13,
+          42,
+          2026
+        ]
+      },
+      "selection": "validation only; no claim defaults are optimal"
+    },
+    "llm_direct": {
+      "status": "not_run_as_controlled_benchmark",
+      "model_revision": null,
+      "frozen_schema_required": true
+    },
+    "llm_staged": {
+      "status": "exploratory_agent_pilot_only",
+      "formal_open_weight_model_revision": null,
+      "steps": [
+        "mentions_and_candidates",
+        "alias_coreference",
+        "role_bound_atomic_facts",
+        "condition_source_readback",
+        "evidence_check"
+      ],
+      "reversible": true
+    }
+  },
+  "evaluation": {
+    "human_gold_required_for_F1": true,
+    "pseudo_labels_training_only": true,
+    "metrics": [
+      "strict mention span/type P/R/F1",
+      "oracle-entity relation F1",
+      "end-to-end relation F1",
+      "role/condition/result/evidence slot correctness",
+      "schema merge equivalence errors",
+      "unknown-type handling",
+      "manual correction time",
+      "cost latency token budget"
+    ],
+    "unit_for_intervals": "paper or independent source group; not blocks",
+    "exact_matching_rules": "must be frozen before scoring",
+    "llm_as_sole_judge": false
+  },
+  "ablations": [
+    {
+      "name": "remove_verification",
+      "hold_constant": [
+        "LLM model",
+        "candidate pool",
+        "evidence input",
+        "gold"
+      ],
+      "measure": "strict fact quality and extra cost"
+    },
+    {
+      "name": "remove_context_or_coreference",
+      "extra_control": "direct extractor with same expanded evidence to separate context amount and staging"
+    }
+  ],
+  "reproducibility": {
+    "preserve": [
+      "source hashes",
+      "split IDs",
+      "prompts",
+      "schema versions",
+      "raw responses",
+      "label adjudications",
+      "dependencies",
+      "checkpoint revision",
+      "seeds",
+      "failure logs",
+      "cost records"
+    ],
+    "remote_alias_limits": "pilot backend snapshot/temperature/CLI system context not fully controlled; not bitwise reproducible",
+    "formal_experiment_cannot_run_until": [
+      "human gold and labels exist",
+      "actual grouped splits fixed",
+      "model and tokenizer revisions pinned",
+      "training/inference environment recorded",
+      "evaluation matching policy fixed"
+    ]
+  }
+}

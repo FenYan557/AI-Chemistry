@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-19",
+  "corrected_target": "知识图谱",
+  "knowledge_extraction_restored": true,
+  "moves": [
+    {
+      "from": "schema",
+      "to": "旧版本\\schema"
+    },
+    {
+      "from": "_archive",
+      "to": "旧版本\\_archive"
+    },
+    {
+      "from": "方法试跑_20261019_复现材料.zip",
+      "to": "旧版本\\方法试跑_20261019_复现材料.zip"
+    },
+    {
+      "from": "方法试跑_20261019",
+      "to": "讨论\\方法试跑_20261019"
+    },
+    {
+      "from": "README.md",
+      "to": "讨论\\README.md"
+    },
+    {
+      "from": "讨论总结_过程与最终结果.md",
+      "to": "讨论\\讨论总结_过程与最终结果.md"
+    }
+  ],
+  "updated_md": [
+    "讨论\\README.md",
+    "讨论\\讨论总结_过程与最终结果.md",
+    "讨论\\方法试跑_20261019\\01_候选抽取提示词.md",
+    "讨论\\方法试跑_20261019\\02_类型归一提示词.md",
+    "讨论\\方法试跑_20261019\\README.md",
+    "旧版本\\schema\\README.md",
+    "旧版本\\schema\\Schema_v1.1_从基础理解结构与用途.md",
+    "讨论\\01_Schema重建\\实体与关系选择策略_理论方法稿.md",
+    "讨论\\01_Schema重建\\实体关系选择_讨论与来源记录.md",
+    "讨论\\01_Schema重建\\新版实体关系候选_讨论稿.md",
+    "讨论\\02_抽取方法与试跑\\可迁移知识抽取方法_优化方案与实验协议.md",
+    "讨论\\02_抽取方法与试跑\\抽取方法_文献与DeepSeek讨论记录.md",
+    "讨论\\03_现成方法选型\\AutoSchemaKG相近方法_论文比较与讨论.md"
+  ],
+  "note": "Original pilot JSON and archive ZIP retained unchanged; original manifest paths are historical."
+}
