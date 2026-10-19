@@ -1,0 +1,2163 @@
+[
+    {
+        "type": "text",
+        "text": "Article",
+        "bbox": [
+            55,
+            122,
+            109,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Structure Performance Correlation of N-Heterocyclic Oligomer Leveler for Acid Copper Plating of Advanced Interconnects",
+        "text_level": 1,
+        "bbox": [
+            53,
+            135,
+            924,
+            184
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chuan Peng <sup>1,2</sup>, Yuehui Zhai <sup>1</sup>, Xianming Chen <sup>3</sup>, Chong Wang <sup>1,2,</sup>\\* , Yan Hong <sup>1</sup>, Yuanming Chen <sup>1</sup>, Wei He <sup>1</sup>, Guoyun Zhou <sup>1,2</sup> and Binyun Liu <sup>4</sup>",
+        "bbox": [
+            53,
+            197,
+            907,
+            229
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>1</sup> School of Materials and Energy, University of Electronic Science and Technology of China, Chengdu 610054, China",
+        "bbox": [
+            273,
+            252,
+            942,
+            265
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>2</sup> Jiangxi Institute of Electronic Circuits, Pingxiang 337009, China",
+        "bbox": [
+            273,
+            266,
+            678,
+            279
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3 Zhuhai ACCESS Semiconductor Co., Ltd., Zhuhai 519099, China",
+        "bbox": [
+            273,
+            278,
+            685,
+            291
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4 Guangdong Key Laboratory of Enterprises on Electronic Chemicals, Guangdong Guanghua Tech. Co., Ltd., Zhuhai 515063, China",
+        "bbox": [
+            273,
+            290,
+            937,
+            316
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "米 Correspondence: wangchong@uestc.edu.cn",
+        "bbox": [
+            273,
+            316,
+            561,
+            330
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "check for updates",
+        "text_level": 2,
+        "bbox": [
+            55,
+            527,
+            147,
+            551
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Citation: Peng, C.; Zhai, Y.; Chen, X.; Wang, C.; Hong, Y.; Chen, Y.; He, W.; Zhou, G.; Liu, B. Structure Performance Correlation of N-Heterocyclic Oligomer Leveler for Acid Copper Plating of Advanced Interconnects. Molecules 2023, 28, 2783. https://doi.org/10.3390/ molecules28062783",
+        "bbox": [
+            53,
+            555,
+            253,
+            681
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Abstract: Levelers, as an essential part of organic additives in copper electroplating, play a crucial role in the fabrication of sophisticated interconnects in integrated circuits, packaging substrates, and printed circuit boards. In this work, four N-heterocyclic oligomers were synthesized and characterized, along with investigations of their electrochemical behaviors and their synergism with other bath components. The corresponding effects of the oligomers on the deposited copper films were analyzed by morphological and compositional characterizations. The leveling mechanism of the oligomers was further discussed with the aid of quantum chemical calculations. The results exhibit that each of these N-heterocyclic oligomers holds a particular degree of leveling ability. The oligomer of 1,3-bis(1-imidazolyl)propane and 1,3-dichloro-2-propanol (IPIEP) is the best leveler for THs plating compared with the other three oligomers. It was found that the hydroxyl group in IPIEP enhances the hydrophilicity of the modified molecule and triggers a more stable complexation between IPIEP and H O−Cu(I)−MPS. Moreover, imidazole demonstrates a better practicality than piperazine. This work recommends the combination of N-heterocycles in planar conformation with modification by the hydroxyl group to synthesize high-performance straight-chain levelers",
+        "bbox": [
+            272,
+            344,
+            942,
+            562
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Academic Editor: Mauro Pineschi",
+        "bbox": [
+            55,
+            690,
+            236,
+            702
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/ef8525b5ee84773a29b207b6f7180af9b6a3032f5576fb3b02561c9f273c9a1f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            57,
+            778,
+            154,
+            803
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Received: 24 February 2023 Revised: 13 March 2023 Accepted: 14 March 2023 Published: 20 March 2023",
+        "bbox": [
+            53,
+            712,
+            203,
+            766
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Copyright: © 2023 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).",
+        "bbox": [
+            53,
+            808,
+            258,
+            920
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Keywords: copper electroplating; oligomer; throwing power; leveler",
+        "bbox": [
+            273,
+            574,
+            737,
+            590
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Introduction",
+        "text_level": 2,
+        "bbox": [
+            273,
+            633,
+            396,
+            648
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Fifth-generation communication promotes the development of electronic interconnects with a high integration, high bandwidth, and high frequency transmission. Copper electroplating technology is the primary method for forming electronic interconnection in integrated circuits (ICs), packaging substrates, and printed circuit boards (PCBs), which plays a crucial role in the booming electronics industry [1–3].",
+        "bbox": [
+            270,
+            652,
+            942,
+            728
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Under the synergistic effects of organic additives (brighteners, suppressors, and levelers), electroplated copper is uniformly deposited on the inner wall of through holes (THs) as the conformal layer or micro-through-hole filler [3]. The performance of electroplating copper film in THs is decided by the shape of holes, electrolyte formula, plating current, solution convection, etc. [4,5]. The conformal deposition in THs has been explained by the theory of secondary current distribution, but the via filling was considered abnormal and termed as super filling due to its behavior [6,7]. Moffat proposed and then revised the curvature-enhanced adsorbate coverage (CEAC) model based on the growth process, revealing the accelerating effect of the brightener in the bottom-up growth of vias [6,7]. Later, Dow discovered the convection-dependent property of levelers [8], and Broekmann found the N-type negative differential resistance (NDR) phenomenon in the bath solution [9]. These findings have established a systematic via-filling theory and emphasized the importance of levelers in copper electroplating.",
+        "bbox": [
+            270,
+            727,
+            944,
+            923
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            57,
+            57,
+            117,
+            98
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "molecules",
+        "bbox": [
+            121,
+            64,
+            300,
+            92
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "MDPI",
+        "bbox": [
+            863,
+            63,
+            939,
+            99
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "Molecules 2023, 28, 2783. https://doi.org/10.3390/molecules28062783",
+        "bbox": [
+            55,
+            964,
+            472,
+            977
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "https://www.mdpi.com/journal/molecules",
+        "bbox": [
+            672,
+            964,
+            939,
+            978
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Typically, the suppressor is chosen from PEG or its derivatives [10–12], and the brightener is sodium bis-(3-Sulfopropyl)disulfide (SPS) or sodium 3-mercapto propane sulphonate (MPS) [8,13]. In contrast, there are a few levelers with quite different leveling performances [14–17] that are applied to various plating formulas to meet the multifarious demands of interconnecting man ufacture. High-performance levelers, therefore, play an essential role in the commercial plating formula. Levelers were generally selected from dyes in the early days of copper electroplating, such as Janus Green B [18,19], a classic one in the literature [19–21]. Early work suggested that the leveling ability of JGB originated from the electrochemical reduction and cleavage of its −N=N− group at the tip or protrusion of the cathode surface [22]. However, this hypothesis implies a large amount of JGB consumption and low current efficiency of copper deposition, which is not consistent with the actual situation.",
+        "bbox": [
+            272,
+            112,
+            944,
+            275
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Besides dye-based levelers, in recent years, organic oligomer levelers (nitrogencontaining heterocycles chained by linker groups) have attracted increasing attention in research and application [15,23,24]. Due to the unclear structure–property relationships of these oligomers, the need to develop new oligomer leveler machines with a high through-hole filling performance is very time-consuming and challenging. Several research groups have started to purposefully design various oligomer levelers to investigate their structure–property relationships in THs filling. Quaternary ammonium salts have been systematically studied because of their excellent via filling properties [25,26]. Broekmann used polymerizates of imidazole and epichlorohydrin (IMEP) as a model leveler to study the oscillatory behavior during electrodeposition and concluded that the leveling effect originates from the coordination between Cu(I) and the leveler, in which the hydroxyl functional group coordinates Cu(I) to form the IMEP−Cu(I)−MPS complex, inhibiting the activity of MPS [27]. In contrast, Bandas claimed that the activity of MPS is inhibited by electrostatic pairing with the N-heterocyclic leveler and the deposition of copper ions is occluded by the steric chemical structure of the oligomers [28].",
+        "bbox": [
+            272,
+            275,
+            944,
+            501
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "To develop a high-performance leveler, it is significant to reveal the relationship between the chemical composition of levelers and the leveling properties. The interfacial electrochemical mechanism also needs elucidation. In this work, a series of oligomers involving N-heterocyclic groups and O-functional groups via methylene links were prepared and characterized to study the structure–performance correlation of levelers. The electrochemical behavior of these oligomers in the plating bath and their interactions with other additive components were also investigated. The effects on the microstructure and surface morphology of the electrodeposited copper were characterized. Quantum chemical calculations and the THs plating results were combined to propose the probable mechanism of these leveling candidates. This work further promotes the theoretical study of levelers based on Broekmann and Schmidt’s theory, providing a possible path to advanced levelers.",
+        "bbox": [
+            272,
+            500,
+            944,
+            665
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Results and Discussion",
+        "text_level": 2,
+        "bbox": [
+            273,
+            676,
+            478,
+            690
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1. Electrochemical Characterization",
+        "text_level": 2,
+        "bbox": [
+            273,
+            690,
+            534,
+            706
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Figure 1 illustrates that these four oligomers exhibit different antagonistic effects on electroplating. Based on the results of GMs, all four oligomers inhibit the accelerator’s activity, but PIEP fails to present a leveling ability. Each of the oligomers is stable under electroplating conditions without decomposition (Figure S2). Different rotation speeds (2500 rpm and 200 rpm) are operated to simulate the mass transfer behavior in the regions of the board surface (2500 rpm) and the center (200 rpm) of the micro-holes, respectively [18]. The cathode deposition potential (η) is thereby correlated with rotation speeds. The formula defining the difference in cathode potentials— ${ \\cdot \\Delta \\boldsymbol { \\eta } = \\boldsymbol { \\eta } _ { 2 0 0 \\mathrm { r p m } } - \\boldsymbol { \\eta } _ { 2 5 0 0 \\mathrm { r p m } } }$ —is often taken as the indicator to evaluate the leveling ability [8]. When the ∆η is higher, the intensive convection-dependent polarization is stronger [8].",
+        "bbox": [
+            272,
+            709,
+            944,
+            860
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 of 15",
+        "bbox": [
+            895,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "chart",
+        "img_path": "images/577c8daa57d277ae5277f0fd864e10dcfead88b595e6dee37675631b12d7a12a.jpg",
+        "content": "",
+        "chart_caption": [
+            "Figure 1. GMs of various oligomer-containing solutions at a current density of 1.5 $\\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 }$ . The rotation speeds of Cu-RDE are 2500 rpm (0\\~1500 s) and 200 rpm (3000\\~4500 s). Each bath is composed of base electrolyte, 5 g/L PEG, 10 mg/L SPS, and 5 mg/L oligomer, respectively. The insets show the instrument and the values of potential drops."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            278,
+            112,
+            927,
+            332
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Compared to the GM curves with the addition of a suppressor and accelerator, the cathodic potential decreases significantly with the injection of 5 mg/L oligomers, which implies that these four oligomers all effectively inhibit the activity of the accelerator. Except for PIEP, the cathodic steady potential value of the oligomers follows the order of IPIEP > IPIMP > IPIET in both fast and low-rotation speed regions. According to this trend, the hydroxyl-modified oligomer (IPIEP) has the strongest inhibition ability compared to the ethoxy (IPIET) and carbonyl group (IPIMP). Moreover, the $\\Delta \\mathfrak { n }$ from IPIET, IPIMP, and IPIEP are all positive, pointing out that the copper deposition rate is negatively correlated to the strength of the forced convection [21], which predicts that these “base electrolyte + SPS + PEG + oligomer” formulas may achieve a conformal plating of THs and bottom-up super-filling of the micro-vias.",
+        "bbox": [
+            272,
+            410,
+            944,
+            575
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The polarization curves suggest that IPIEP shows the strongest inhibition in the electrolyte without a suppressor and an accelerator. To further analyze the effects of different functional groups and N-heterocyclic groups on their inhibitory capacity, the potentiodynamic polarization curves of the four oligomers were measured (Figure 2). With the injection of oligomers, the decaying current shifts negatively, occurring at −0.41 V in the bath, which may be attributed to the adsorption of oligomers on the copper surface. As shown in Figure $^ { 2 , }$ IPIEP has the strongest inhibiting capability (−0.65 V) compared with the other oligomers. Notably, the order of the start-up cathodic potential (IPIEP > IPIET > IPIMP) does not follow the order of the cathodic steady potential (Figure 1), which implies that the different functional groups are involved in the electrochemical behaviors of oligomers. The hydroxyl group enhances the effect of cathodic polarization more significantly than the other groups. Because of the differences in the spatial configuration and charge distribution between piperazine and imidazole, PIEP exhibits the weakest inhibiting performance (−0.61 V). The differences between piperazine and imidazole are discussed in Section 3.3 in detail.",
+        "bbox": [
+            272,
+            575,
+            944,
+            785
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2. Electroplating",
+        "text_level": 2,
+        "bbox": [
+            273,
+            795,
+            408,
+            810
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Figure 3 shows the cross-sections of the plated TH PCBs obtained from different baths. Without the leveler, the throwing power (TP) of TH is only 55.8% on average. With the 5 mg/L addition of oligomers, the TP from IPIEPT, IPIEP, IPIMP, and PIEP rises to 67.6%, 84.6%, 78.5%, and 72.1% respectively (Figure 3). According to the outcome of electroplated THs with varied oligomers, IPIEP is the preferred leveler in comparison to the other ones. The variance in the TP values demonstrates that the four oligomers, synthesized by linker groups and five/six-membered heterocycles, all possess the ability to improve the uniformity of THs plating. The copper thicknesses of the sidewall center dramatically increase (Figure 3b–e), which verifies that the four oligomers generally improve the electrical reliability of TH.",
+        "bbox": [
+            270,
+            813,
+            944,
+            920
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 of 15",
+        "bbox": [
+            895,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            272,
+            112,
+            942,
+            158
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/dcac40c668c946f0b12949e91367750629d5a91a722406420046eb8073fd78e5.jpg",
+        "content": "",
+        "chart_caption": [
+            "Figure 2. Potentiodynamic polarization curves related to 5 mg/L oligomers in the base electrolyte. re 2. Potentiodynamic polarizatio<sub>The electrode rotation speed is 1500 rpm.</sub>"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            278,
+            171,
+            665,
+            403
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/3b24a2687fd074644840933f257fd8bc54d81dc5073ef08a14dbbc5f9c8e6e8e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            280,
+            458,
+            403,
+            687
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/d254b49bdfa7446618ee505289d3a146e0fab8157d2a3a3f5047bb530d6ce9e5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            406,
+            458,
+            529,
+            687
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/615cd733883acbd0403ca1873aa66711039a646b84f97a20510cb15c8241e43f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            532,
+            458,
+            655,
+            687
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/b0c40112dbc50deab282024bca77f6352a92f782dda432489e4b9acf898fa0d4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            658,
+            458,
+            783,
+            689
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/f8b48fcfd004eb51376f9d39ef9eebaf67a001fa31072eb8817a46b357484494.jpg",
+        "image_caption": [
+            "Figure 3. Cross-section metallographic photos of THs obtained from the base electrolyte with 500 mg/L PEG, 1 g/L SPS, and 5 mg/L oligomers: (a) without leveler; (b) IPIET; (c) IPIEP; (d) IPIMP; (e) PIEP."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            786,
+            460,
+            910,
+            689
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "rochemical behaviors of PIPE (Figure 1), the TP value from PIEP is hExcept for PIEP, the TP values follow the order: IPIEP > IPIMP > IPIET. This sequence from the blank. This diference possibly originates from the inhibition of t<sup>implies</sup> <sup>that,</sup> <sup>compared</sup> <sup>with</sup> <sup>the</sup> <sup>ethoxy</sup> <sup>and</sup> <sup>carbonyl</sup> <sup>group,</sup> <sup>the</sup> <sup>hydroxyl</sup> <sup>group</sup> <sup>is</sup> <sup>more</sup> effective in enhancing the leveling performance of the oligomers. As distinguished from the electrochemical behaviors of PIPE (Figure 1), the TP value from PIEP is higher than rostatic pairing between the cationic amine functionalities of PIEP and the <sub>that from the blank. This difference possibly originates from the inhibition of the activity</sub> ged sulfonates of MPS [28].of accelerators and occlusion of the deposition of copper ions, which are caused by the electrostatic pairing between the cationic amine functionalities of PIEP and the negatively charged sulfonates of MPS [28].",
+        "bbox": [
+            272,
+            736,
+            942,
+            856
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The appearances and SEM images of the surface copper films obtained from IPIEP and PIEP bathes are shown in Figure 4. Combing with Figure S3, IPIET, IPIEP, and IPIMP effectively smooth the roughness of the deposited layer. In a macroscopic view, the sample with the addition of IPIEP yields a mirror-like copper surface with visible reflection (Figure 4a,c). However, the injection of PIEP results in a mist appearance because its surface <sub>morphology is corrugated (Figure 4b,d), which is probably caused by the adsorption</sub>face morphology is corrugated (Figure 4b,d), which is probably caused by the adsorption conformation (detailed discussion in Section 3.3) of PIEP.<sup>conformation</sup> <sup>(detailed</sup> <sup>discussion</sup> <sup>in</sup> <sup>Section</sup> <sup>3.3)</sup> <sup>of</sup> <sup>PIE</sup>",
+        "bbox": [
+            272,
+            854,
+            942,
+            932
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 of 15",
+        "bbox": [
+            895,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            273,
+            112,
+            942,
+            143
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/87a25103e5254e6fdd01140384c3ee145a4fcfafeea8332dcd64863ed174621c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            282,
+            153,
+            507,
+            426
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/0ca5af3692b511eb6fe648e149f0d58f2743279f59e11579984ef1d92084c788.jpg",
+        "image_caption": [
+            "Figure 4. The surface appearance of the deposited copper was obtained from IPIEP (a) and PIEP (b).Figure 4. The surface appearance of the deposited copper was obtained from IPIEP (a) and PIEP (b). <sup>FE-SEM</sup> <sup>images</sup> <sup>of</sup> <sup>copper</sup> <sup>deposits</sup> <sup>obtained</sup> <sup>in</sup> <sup>the</sup> <sup>electrolyte</sup> <sup>containing:</sup> <sup>(c)</sup> <sup>IPIEP;</sup> <sup>(d)</sup> <sup>PIE</sup>FE-SEM images of copper deposits obtained in the electrolyte containing: (c) IPIEP; (d) PIEP."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            517,
+            153,
+            742,
+            426
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "XRD is invited to evaluate the correlation between the branched functional groups oXRD is invited to evaluate the correlation between the branched functional groups of the the levelers and the crystalline orientation of the electrodeposited copper. As shownlevelers and the crystalline orientation of the electrodeposited copper. As shown in Figure $5 ,$ Figure 5, the (111) facet is still the dominant orientation of the copper films with the addithe (111) facet is still the dominant orientation of the copper films with the addition of IPIEP, tion of IPIEP, IPIET, and IPIMP, which is similar to the blank sample. In contrast, after theIPIET, and IPIMP, which is similar to the blank sample. In contrast, after the addition of PIEP, addition of PIEP, the intensity of the difraction peaks corresponding to the (111) and (200)the intensity of the diffraction peaks corresponding to the (111) and (200) planes of the copper planes of the copper film decreased significantly, and the (220) plane became preferred.film decreased significantly, and the (220) plane became preferred. The diverged pattern of The diverged patern of difraction peaks is atributed to the adsorption properties of thediffraction peaks is attributed to the adsorption properties of the additive molecules at specific additive molecules at specific crystal planes [29]. The reason for the increased intensity ocrystal planes [29]. The reason for the increased intensity of the (220) peak may relate to the the (220) peak may relate to the adsorption of PIEP on the (111) and (200) faces, and efecadsorption of PIEP on the (111) and (200) faces, and effectively blocks the deposition of copper on these facets. Furthermore, the similarity in the XRD patterns that include IPIET, IPIEP, and <sub>XRD</sub> <sub>paterns</sub> <sub>that</sub> <sub>include IPIET,</sub> <sub>IPIEP,</sub> <sub>and</sub> <sub>IPIMP</sub> <sub>reveals</sub> <sub>that</sub> <sub>the</sub> <sub>branched</sub> <sub>functiona</sub>IPIMP reveals that the branched functional group is not the decisive factor dominating the <sub>group</sub> <sub>is</sub> <sub>not</sub> <sub>the</sub> <sub>decisive</sub> <sub>factor</sub> <sub>dominatin</sub>microstructure of the electrodeposited copper.",
+        "bbox": [
+            272,
+            476,
+            944,
+            657
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.3. Quantum Chemical Calculations",
+        "text_level": 2,
+        "bbox": [
+            273,
+            665,
+            536,
+            681
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Figure 6a shows the electron distributions of the HOMOs and LUMOs from molecular models of the four oligomers, with the $\\mathrm { E _ { H O M O } , E _ { L U M O } }$ , and ∆Eg $( \\Delta \\mathrm { E g } = \\mathrm { E } _ { \\mathrm { L U M O } } - \\mathrm { E } _ { \\mathrm { H O M O } } )$ given in Table 1. The results of the DFT calculations support that IPIEP is a favorable leveler th\\t is beneficial from its lowest ∆Eg. According to the frontier molecular orbital theory, the higher $\\mathrm { E _ { H O M O } }$ and lower E<sub>LUMO</sub> represent a better electron donation and acceptance capacity, respectively. The adsorption capacity of organic additives on the high current density area of the cathode strengthens with an increasing E<sub>HOMO</sub> or decreasing E [30]. It is then implied that reducing ∆Eg favors the adsorption ca pacity of levelers on the high-current-density region of the cathode. The HOMO-LUMO bandgap values of IPIET, IPIEP, and IPIMP are all below that of PIPE, following the order: $\\Delta \\mathrm { E g } _ { \\mathrm { P I E P } } > \\Delta \\mathrm { E g } _ { \\mathrm { I P I E T } } > \\Delta \\mathrm { E g } _ { \\mathrm { I P I M P } } > \\Delta \\mathrm { E g } _ { \\mathrm { I P I E P } }$ . This trend leads to the deduction that the adsorption capacity of PIEP is weaker compared with the other oligomers. The order of the ∆Eg values of the oligomers, except for PIEP, is consistent with their order in the cathodic steady potential (Figure 1) and TP values (Figure 3), which indicates that hydroxyl groups are the preferred branched groups for high-performance levelers.",
+        "bbox": [
+            272,
+            684,
+            944,
+            910
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 of 15e sam",
+        "bbox": [
+            895,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/b29962a21c8b20efc07fab6c34cedc784764569a2773da0e62141c5491642ef5.jpg",
+        "content": "",
+        "chart_caption": [
+            "Figure 5. XRD patterns of the electroplated copper film obtained in the base electrolyte without or with 5 mg/L oligomers."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            278,
+            111,
+            680,
+            334
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/df2bf85b631c14a1c5bfc6b1700134b9ca13524dcf79cb83f324c1cef3bb5e97.jpg",
+        "table_caption": [
+            "Table 1. Energy values of molecular orbital and bandgap energy (∆Eg) of oligomers."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Oligomer</td><td>EHOMO (eV)</td><td>ELUMO (eV)</td><td>ΔEg (eV)</td></tr><tr><td>PIEP</td><td>-5.53</td><td>-0.04</td><td>5.49</td></tr><tr><td>IPIET</td><td>-3.73</td><td>-1.36</td><td>2.37</td></tr><tr><td>IPIMP</td><td>-2.94</td><td>-1.25</td><td>1.69</td></tr><tr><td>IPIEP</td><td>-2.83</td><td>-1.25</td><td>1.59</td></tr></table>",
+        "bbox": [
+            275,
+            401,
+            939,
+            493
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "mplied that reducing ΔEg favors the adsorption capacity of levelers on the high-The differences in the HOMO-LUMO bandgap, ESP value, and adsorption configuration between IPIEP and PIEP illustrate that the imidazole group enhances the performance of the leveler more effectively than piperazine. In the model, the high electron density is <sub>E h d l d h d d h h d f IE</sub>favorable for the occurrence of electrophilic reactions [31] and, conversely, the low electron density area is favorable for the occurrence of nucleophilic reactions [31]. Owning to the saturated heterocyclic chemical structure of piperazine, the low-electron-density regions of PIEP are distributed on the N atom of the piperazine ring, as displayed in ESP plots (Figure 6b). Due to the conjugated large π-bonds of imidazole, the low-electron-density regions of the oligomers (IPIET, IPIEP, and IPIMP) are concentrated throughout the imida zole ring. These results evidence that the electrostatic coupling of PIEP with the negatively charged sulfonate of MPS adsorbed on the copper surface is much weaker than that of the other three oligomers.",
+        "bbox": [
+            272,
+            511,
+            944,
+            690
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Figure S4 shows the final adsorption conformations of IPIEP and PIEP on the copper surface. Owning to the LUMO orbitals and the high-charge-density regions distributed on the imidazole ring, IPIEP holds a much higher adsorption energy (−210 kcal/mol) than PIEP (−39 kcal/mol) (Table S1). The decrement in adsorption energies implies that the ability of the cathodic polarization of IPIEP is higher than that of PIEP, which is also consistent with their electrochemical behaviors in the potentiodynamic polarization (Figure 2). Moreover, compared with the chair-like conformation of piperazine, the planar conformation of imidazole enhances the capacity of the leveler to block the deposition of copper ions more effectively, which is also reflected in the surface appearance of the copper layer (Figure 4a). All of the results of the DFT calculation and molecular dynamics (MDs) point to the conclusion that imidazole is the favorable functional group than piperazine.",
+        "bbox": [
+            272,
+            690,
+            944,
+            857
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 of 15",
+        "bbox": [
+            895,
+            64,
+            942,
+            77
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/d472e7a4b55728914a87457c64b442e649e5eef791d1172c1eeeaa032223b1c1.jpg",
+        "image_caption": [
+            "(a)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            290,
+            126,
+            830,
+            428
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/d4f7a0a9e521e009fc99091cbdab63efaa0737df883d48a452450aa1ee63f95d.jpg",
+        "image_caption": [
+            "(b)",
+            "Figure 6. (a) Distributions and orbital energy values of the HOMO and LUMO for the four oligomers. (b) The ESP maps of the four oligomers."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            292,
+            461,
+            826,
+            623
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Table 1. Energy values of molecular orbital and bandgap energy (Δ2.4. N-Heterocyclic Oligomers on the Copper/Electrolyte Interface",
+        "text_level": 2,
+        "bbox": [
+            273,
+            677,
+            727,
+            693
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The interaction of oligomers and the copper surface was examined by conducting surface high-resolution XPS on the cathodes to analyze the valance changes of representative elements (Figure 7a,b). The XPS of the bath solutions, which were directly dried <sup>IPIET</sup> <sup>−3.73</sup> <sup>−1.36</sup> <sup>2.37</sup>on the silicon wafer, was used for comparison (Figure 7a). N1s spectra in Figure 7a are <sup>IPIMP</sup> <sup>−2.94</sup> <sup>−1.25</sup> <sup>1.69</sup>disintegrated into two major peaks, with the binding energy peaks at around 399 eV and <sup>IPIEP</sup> <sup>−2.83</sup> <sup>−1.25</sup> <sup>1.59</sup>401 eV. Query from NIST’s XPS database, the N1s binding energy of quaternary ammonium salts, imidazole, and the Cu-EDTA complex is 401.6, 401.1, and 399.7 eV, which were used as the reference [32–34]. Figure 7a shows that these four oligomers on silicon, which present higher binding energy peaks, are probably quaternary ammonium salts due to the strong acidic chemical environment. However, their N1s peaks shift toward the lower binding energy direction of all four oligomers on copper surfaces. Two views from the former works can expend the lower N1s binding energies of oligomers on the copper substrate. The formation of the coordinate bind between N and copper, as well as the chemical adsorption of oligomers on copper surfaces, may lower the binding energy of N1s [34]. The red shift of the binding energy of the Cu-N bond in the Cu(II)-EDTA complex indicates that the coordination decreases the binding energy of the Cu−N bond [32]. On the other hand, in Schmidt’s theory, the negatively charged sulfonate of MPS pairing to the cationic N decreases the binding energy [28]. Both of the above two mechanisms explain the desorption of MPS on the copper surface and reduce the local depolarization.",
+        "bbox": [
+            270,
+            696,
+            944,
+            922
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7 of 15",
+        "bbox": [
+            895,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            272,
+            112,
+            942,
+            173
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "chart",
+        "img_path": "images/54bcabda6f6cf81649a8bbf0a10aa27203d1d5e66fa6030bf94b27ed343358fc.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            280,
+            191,
+            522,
+            451
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "chart",
+        "img_path": "images/153030da055f51ed56d53bc99e42b70b258f31ecaa1dcbcd8dee8e705e4ea024.jpg",
+        "content": "",
+        "chart_caption": [
+            "Figure 7. High-resolution XPS spectra of samples: (a) N1s peaks of oligomers on the silicon wafer <sub>d</sub> <sub>cathodic</sub> <sub>copper</sub> <sub>surface;</sub> <sub>(b)</sub> <sub>S2p</sub> <sub>peaks</sub> <sub>of</sub> <sub>oligomers</sub> <sub>adsorbed</sub> <sub>on</sub> <sub>the</sub> <sub>cathode.</sub>and cathodic copper surface; (b) S2p peaks of oligomers adsorbed on the cathode."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            532,
+            186,
+            776,
+            451
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "An analysis of sulfur valence at the interface helps to determine the interfacial mecha nism of the interaction between the leveler and accelerator. Without the leveler, a binding <sup>In</sup> <sup>order</sup> <sup>to</sup> <sup>completely</sup> <sup>reveal</sup> <sup>the</sup> <sup>structure–performance</sup> <sup>relationship</sup> <sup>and</sup> <sup>the</sup> <sup>inter-</sup>energy peak at 161.8 eV is spotted in the spectrum of the blank (Figure 7b). This low-valence cial mechanism of the leveler, together with the interaction between the leveler and ac-<sub>S</sub> <sub>can</sub> <sub>be</sub> <sub>attributed</sub> <sub>to</sub> <sub>the</sub> <sub>adsorption</sub> <sub>of</sub> <sub>thiol-groups</sub> <sub>on</sub> <sub>the</sub> <sub>surface</sub> <sub>of</sub> <sub>copper</sub> <sub>[35],</sub> <sub>but</sub> elerator, beaker experiments were conducted. Figure 8 shows the solution reaction con-<sub>this peak is invisible when the levelers are engaged. The four curves with oligomers in</sub> <sup>ining</sup> <sup>these</sup> <sup>oligomers</sup> <sup>with</sup> <sup>MPS.</sup> <sup>When</sup> <sup>oligomers</sup> <sup>with</sup> <sup>hydroxyl</sup> <sup>(IPIEP)</sup> <sup>or</sup> <sup>carbonyl</sup> Figure 7b are separated into two peaks, where the peaks at 169 eV belong to sulfate on the <sup>PIMP)</sup> <sup>groups</sup> <sup>are</sup> <sup>added</sup> <sup>to</sup> <sup>the</sup> <sup>solutions,</sup> <sup>precipitations</sup> <sup>are</sup> <sup>observed,</sup> <sup>which</sup> <sup>is</sup> <sup>similar</sup> copper surfaces [36]. According to the literature and the possible chemical components in the phenomenon described in ref. [9], which suggests that these precipitations are com-<sub>the interface, the peak at 167.6 eV in the blank of Figure 7b belongs to S in the sulfonate</sub> exes of IPIEP−Cu(I)−MPS and IPIMP−Cu(I)−MPS. Later, these dissolve with excess MPS. of MPS [36]. When oligomers are in the interface, the binding energies of S in sulfonate <sup>contrast,</sup> <sup>PIEP−Cu(I)−MPS</sup> <sup>remains</sup> <sup>as</sup> <sup>precipitation</sup> <sup>with</sup> <sup>excess</sup> <sup>MPS,</sup> <sup>probably</sup> <sup>due</sup> <sup>to</sup> shift slightly toward the higher binding energy direction in all other curves as shown in <sup>e</sup> <sup>form</sup>Figure $^ { \\mathrm { 7 b , } }$ <sup>on</sup> <sup>of</sup> <sup>inner</sup> <sup>salts</sup> <sup>with</sup> <sup>strong</sup> <sup>electrostatic</sup> <sup>coupling</sup> <sup>between</sup> <sup>the</sup> <sup>cationic</sup> <sup>amine</sup> indicating that the negative charge on sulfonate migrates by attraction. Therefore, <sup>f</sup> <sup>PIEP</sup> <sup>and</sup> <sup>the</sup> <sup>anionic</sup> <sup>sulfonate</sup> <sup>of</sup> <sup>MPS</sup> <sup>[9].</sup> <sup>Moreover,</sup> <sup>the</sup> <sup>injection</sup> <sup>of</sup> <sup>IPIET</sup> <sup>into</sup> <sup>the</sup> the XPS analysis of S proves that, although MPS is desorbed from the copper surface after PS-containing solution does not lead to any sensible reaction. Combined with our elec-the addition of levelers, MPS remains in the interface area by pairing with positive charges ochemical test and electroplating results, the agglomeration between H2O−Cu(I)−MPS from the cationic N of oligomers. This is consistent with our electrochemical experiments nd the oligomers (IPIEP, IPand Schmidt’s theory [28].",
+        "bbox": [
+            272,
+            497,
+            944,
+            722
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2.5. Mechanism",
+        "text_level": 2,
+        "bbox": [
+            273,
+            732,
+            391,
+            747
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "In order to completely reveal the structure–performance relationship and the interfacial mechanism of the leveler, together with the interaction between the leveler and accelerator, beaker experiments were conducted. Figure 8 shows the solution reaction containing these oligomers with MPS. When oligomers with hydroxyl (IPIEP) or carbonyl (IPIMP) groups are added to the solutions, precipitations are observed, which is similar to the phenomenon described in ref. [9], which suggests that these precipitations are com plexes of $\\mathrm { I P I E P - C u ( I ) }$ −MPS and $\\mathrm { I P I M P - C u ( I ) - M P S }$ . Later, these dissolve with excess MPS. In contrast, $\\mathrm { P I E P - C u ( I ) - M P S }$ remains as precipitation with excess MPS, probably due to the formation of inner salts with strong electrostatic coupling between the cationic amine of PIEP and the anionic sulfonate of MPS [9]. Moreover, the injection of IPIET into the MPS-containing solution does not lead to any sensible reaction. Combined with our elec trochemical test and electroplating results, the agglomeration between ${ \\mathrm { H } } _ { 2 } { \\mathrm { O } } { \\mathrm { - } } { \\mathrm { C u ( I ) } } { - } { \\mathrm { M P S } }$ and the oligomers (IPIEP, IPIMP, and PIEP) deactivate the depolarization of accelerators during the electrodeposition.<sub>during</sub> <sub>the</sub> <sub>elec</sub>",
+        "bbox": [
+            272,
+            751,
+            944,
+            932
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 of 15",
+        "bbox": [
+            895,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            272,
+            112,
+            942,
+            143
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/26c85ab72e91c0beee6566e34b9c4024fb7b41b5ec1b5a440a55e6eea15e64fa.jpg",
+        "image_caption": [
+            "<sup>Figure</sup> <sup>8.</sup> <sup>Series</sup> <sup>of</sup> <sup>photos</sup> <sup>demonstrating</sup> <sup>the</sup> <sup>coordination</sup> <sup>reactions</sup> <sup>between</sup> <sup>oligom</sup>Figure 8. Series of photos demonstrating the coordination reactions between oligomers, Cu(I), and MPS."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            278,
+            156,
+            921,
+            307
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "For further investigation, the precipitations of the oligomer−Cu(I)−MPS were filtrated <sup>For</sup> <sup>further</sup> <sup>investigation,</sup> <sup>the</sup> <sup>precipitations</sup> <sup>of</sup> <sup>the</sup> <sup>oligomer−Cu(I)−MPS</sup> <sup>w</sup>and characterized. The FT-IR spectrum of IPIEP, IPIMP, and PIEP and their depositions are <sup>and</sup> <sup>characterized.</sup> <sup>The</sup> <sup>FT-IR</sup> plotted in Figure 9. In Figure 9a, the peak of $\\mathrm { C - N - C }$ <sup>of</sup> <sup>IPIEP,</sup> <sup>IPIMP,</sup> <sup>and</sup> <sup>PIEP</sup> <sup>and</sup> <sup>their</sup>out-of-phase stretching at 1164 cm<sup>−1</sup> <sup>are</sup> <sup>ploted</sup> <sup>in</sup> <sup>Figure</sup> <sup>9.</sup> <sup>In</sup> <sup>Figure</sup> <sup>9a,</sup> <sup>the</sup> <sup>peak</sup> <sup>of</sup> <sup>C−N−C</sup> <sup>out-of-phase</sup> <sup>stretc</sup>is weakened and redshifted, indicating that the imidazole ring is pulled and stretched. The blue shift of the peaks of ${ \\mathsf { C } } { \\mathrm { - } } { \\mathsf { O } }$ stretching and −OH stretching increases the electron density of the oxygen, which implies the existence of oxygen coordination bonds. The chemical structure of IPIEP−Cu(I)−MPS is drawn in Figure 9d, where the charge interaction and the coordination fit the peak shift trends in the IR spectrum. The situation of IPIMP is similar in Figure 9b, and the chemical structure is also drawn in Figure 9d. However, it is observed that the peaks of C−O stretching and C−N−C out-of-phase stretching both shift to the higher wavenumber bands (Figure 9c), indicating that the interaction between PIEP and ${ \\mathrm { H } } _ { 2 } { \\mathrm { O } } { \\mathrm { - } } { \\mathrm { C u ( I ) } } { - } { \\mathrm { M P S } }$ is different from IPIEP and IPIMP. Moreover, the significantly decreased intensity of the $\\mathrm { R _ { 4 } N ^ { + } }$ peak at $1 6 3 6 \\mathrm { c m } ^ { - 1 }$ indicates that the complex of IPIEP and ${ \\mathrm { H } } _ { 2 } { \\mathrm { O } } { \\mathrm { - } } { \\mathrm { C u ( I ) } } { - } { \\mathrm { M P S } }$ is similar to the reported polyethyleneimine (PEI), owing to its multiple cationic amine functionalities [9].",
+        "bbox": [
+            272,
+            344,
+            942,
+            568
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Although the DFT calculation results reveal that the bond length of Cu−O in IPIMP− Cu(I)−MPS is shorter than that of IPIEP−Cu(I)−MPS (Figure S5), the overall energy of IPIEP−Cu(I)−MPS is lower than that of IPIMP−Cu(I)−MPS (Table S2). The lower total energy of IPIEP−Cu(I)−MPS implies that it is more stable, which means that the hydroxyl group is a favorable branched functional group for high-performance levelers. The consistency between the electrochemistry analysis (Figure 1), electroplating THs (Figure 3), and beaker experimental results demonstrate the synergistic effect of the molecular skeleton structure, positively charged functional groups, and branched groups for the leveling performance.",
+        "bbox": [
+            272,
+            567,
+            942,
+            688
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The conventional mechanism of the levelers’ behavior proposes that the levelers directly adsorb on the tips or protrusions of the cathode to inhibit the deposition of metal ions [37]. Schmidt found that PEI deactivates MPS to achieve leveling via the electrostatic pairing between the cationic amine and the negatively charged sulfonate of SPS on the copper surface [28]. The beaker experiment from Broekmann advises that the hydroxyl groups of IMEP overlay a secondary suppression to MPS [27]. Combining these theoretical models and the experimental results of the four N-heterocyclic oligomers in this work, we propose the mechanism of these levelers in the plating bath (Figure 10).",
+        "bbox": [
+            272,
+            687,
+            942,
+            808
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 of 15",
+        "bbox": [
+            895,
+            64,
+            941,
+            76
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(d)",
+        "bbox": [
+            586,
+            282,
+            613,
+            299
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/ff26d6555990910524e197e4ba092c6a9cc176a8d4201bd95176900dd1317cda.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            285,
+            114,
+            586,
+            288
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/3a83a01b3d037f6674dc58e2e7492927cfed132e1c499b5c98c706aadafde1cb.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            591,
+            116,
+            890,
+            287
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/24fb26953a0bddd9f95967c83b8d1fef94d692700096b78c57b031a0da828a5c.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            285,
+            288,
+            588,
+            462
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/a475ed7fad8e73d95d4d2545a879739fc544a1eca17ca1eb190e224033c72a9b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            630,
+            288,
+            887,
+            460
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/6410796151dc0c4455917150c5a0d196c5f62adbabf35692133109ff113a3d90.jpg",
+        "image_caption": [
+            "Figure 9. IR spectra of oligomer−Cu(I)−MPS: (a) PIEP, (b) IPIMP, and (c) IPIEP. (d) The schematic diagram of the oligomer−Cu(I)−MPS adducts.",
+            "Figure 10. Schematic diagram of N-heterocyclic oligomers action mechanisFigure 10. Schematic diagram of N-heterocyclic oligomers action mechanism in the bath."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            278,
+            511,
+            919,
+            749
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "The proposed model of this work assumes that SPS acts as a precursor for the monomeric MPS, which is the actual accelerator [38]. Firstly, the free SPS competes with the chloride ions to adsorb on the copper surface (step 1 in Figure 10). After replacing <sup>The</sup> <sup>four</sup> <sup>N-heterocyclic</sup> <sup>oligomers</sup> <sup>(PIEP,</sup> <sup>IPIEP,</sup> <sup>IPIET,</sup> <sup>and</sup> <sup>IPIMP)</sup> <sup>were</sup>chloride ions, the adsorbed SPS gains electrons and decomposes into MPS. Then, the <sup>vestigate</sup> <sup>the</sup> <sup>structural</sup> <sup>efect</sup> <sup>of</sup> <sup>the</sup> <sup>interaction</sup> <sup>between</sup> <sup>diferent</sup> <sup>functional</sup> adsorption–desorption between free MPS and adsorbed MPS reaches equilibrium at the copper/electrolyte interface. The adsorbed MPS captures the dehydrated copper ions and passes them to the chloride ions to accelerate the reduction of copper [9,38]. With the addition of levelers, step 2 in Figure 10 demonstrates that the cationic amine groups are electrostatically paired at the copper/electrolyte interface with the negatively charged sulfonate ions of MPS [28], which is in agreement with the XPS spectra shown in Figure 7.",
+        "bbox": [
+            272,
+            781,
+            942,
+            932
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "10 of 15",
+        "bbox": [
+            890,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Due to the electrostatic coupling between MPS and oligomers, the effect of MPS is weakened [39]. Hence, fewer copper ions are deposited on fast mass transportation regions (tips or protrusions), showing the micro-leveling phenomenon.",
+        "bbox": [
+            272,
+            112,
+            942,
+            158
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Step 3 in Figure 10 presents the formation of $\\begin{array} { r } { { \\cal H } _ { 2 } { \\cal O } \\mathrm { - } { \\cal C } { \\bf u } ( \\mathrm { I } ) - { \\cal M } { \\cal P } { \\cal S } , } \\end{array}$ , where the free MPS capture reduced $\\mathrm { { C u ( I ) } }$ by coordination. According to our beaker experiment results, IP-IEP, IPIMP, and PIEP coordinate with $\\mathrm { H } _ { 2 } \\mathrm { O } { - } \\mathrm { C u } ( \\mathrm { I } )$ −MPS (step 4 in Figure 10). Owing to the extra negative charge from the sulfonate part, the cationic amine of IPIEP and IPIMP are electrostatically coupled with MPS to form the ‘inner salt’ in the forms of IPIEP−Cu(I)−MPS and $\\mathrm { I P I M P - C u ( I ) - M P S }$ , thus increasing the overall hydrophobicity of the ensembles [9]. The single cationic amine groups on IPIEP and IPIMP also form the oligomer−Cu(I)−MPS adducts through inter- and intra-chain electrostatic pairing. On the other hand, IPIEP−Cu(I)−MPS and IPIMP−Cu(I)−MPS change back into a solute with excess complexation ligands such as chloride or free MPS (step 5 in Figure 10). Step 6 shows the “idle” IPIEP and IPIMP absorbed on the cathode surface or coordinating with the $\\mathrm { H } _ { 2 } \\mathrm { O } { - } \\mathrm { C u ( I ) }$ −MPS in the electroplating solution. The reaction cycle (steps 2–6 in Figure 10) of IPIEP and IPIMP helps the plating solution achieve a higher uniformity of THs (Figure 3c,e).",
+        "bbox": [
+            270,
+            156,
+            942,
+            366
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The DFT results by Simona et al. [40] suggest that the coordination of $\\mathsf { N { - } C u ( I ) { - } } S$ is more stable than that of $\\mathrm { O - C u ( I ) - } S ,$ which is the key to the formation of $\\mathrm { I M E P - C u ( I ) - M P S }$ . It is also reasonable to explain the electroplating behavior of PIEP based on the similar structure of multiple cationic amines of the PEI [9]. The deactivation mechanism of the $\\mathrm { P I E P - C u ( I ) - M P S }$ coordination closes a second loop in the MPS reaction cycle and expedites the consumption of MPS. Compared to the other three oligomers, IPIET does not exhibit similar plating behavior because the oxygen atom in the ethoxy group is electrostatic by the two adjacent imidazole rings, and coordination between the oxygen of ethoxy and Cu(I) is blocked.",
+        "bbox": [
+            272,
+            365,
+            942,
+            486
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The coordination of IPIEP−Cu(I)−MPS and IPIMP−Cu(I)−MPS presents overlay inhibition beyond the anion–cation pairing [9], which improves the uniformity of the TH plating. Nevertheless, the hydroxyl group is the preferred branched functionality for synthesizing high-performance levelers. Due to the tetrahedron configuration of sp3 hybridization and the free rotation of the C−O bond, the hydroxyl group reduces the twist of the chemical bond in the leveler−Cu(I)−MPS complex. Conversely, the rotation is more difficult for the carbonyl group in the complex because of the rigidity of the planar configuration of sp2 of C=O.",
+        "bbox": [
+            272,
+            485,
+            944,
+            606
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3. Materials and Methods",
+        "text_level": 2,
+        "bbox": [
+            273,
+            615,
+            478,
+            631
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3.1. Synthesis of the Oligomers",
+        "text_level": 2,
+        "bbox": [
+            273,
+            632,
+            494,
+            648
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The four N-heterocyclic oligomers (PIEP, IPIEP, IPIET, and IPIMP) were used to investigate the structural effect of the interaction between different functional groups and other components on the performance of oligomers (Figure 11). Among these oligomers, PIEP was synthesized from piperazine and epichlorohydrin in an aqueous solution, following the same synthetic route of the IMEP [9]. The intermediate 1,3-bis(1-imidazolyl)propane was a pale yellow oily liquid, which was synthesized from imidazole and 1,3-dibromopropane in tetrahydrofuran. IPIP, IPIET, IPIEP, and IPIMP were prepared from an acetonitrile solution of 1,3-bis(1-imidazolyl)propane and their corresponding dichloromonomers. All the reactions were carried out at the reflux temperature for 8 h, then the solvents were removed and the products were dried in vacuum at $6 0 ^ { \\circ } \\mathrm { C }$ overnight. The molecular structures of PIEP, IPIET, IPIEP, and IPIMP are shown in Figure 11, and the detailed characterizations are shown in the Supporting information.",
+        "bbox": [
+            272,
+            650,
+            944,
+            831
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "3.2. Characterization",
+        "text_level": 2,
+        "bbox": [
+            273,
+            841,
+            426,
+            856
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The nuclear magnetic resonance spectra for ${ } ^ { 1 } \\mathrm { H } \\left( { } ^ { 1 } \\mathrm { H N M R } \\right)$ were recorded by a Bruker Avance 400 spectrometer at a resonant frequency of 400 MHz (Bruker, Billerica, $\\mathbf { M A } , \\mathbf { U S A } )$ with deuterated chloroform (CDCl ) or deuterium oxide $( \\mathrm { D } _ { 2 } \\mathrm { O } )$ as the solvent and tetramethylsilane as the references. A potentiostat (PGSTAT302N, Metrohm, Herisau, Switzerland) was used for all electrochemical measurements. Field-emission scanning electron microscopy (FE-SEM,<sup>1,3-dibromopropane</sup> <sup>in</sup> <sup>tetrahydrofuran.</sup> <sup>IPIP,</sup> <sup>IPIET,</sup> <sup>IPIEP,</sup> <sup>and</sup> <sup>IPIMP</sup> <sup>were</sup> <sup>prepared</sup> <sub>Hitachi</sub> <sub>SU5000,</sub> <sub>Tokyo,</sub> <sub>Japan)</sub> <sub>was</sub> <sub>employed</sub> <sub>to</sub> <sub>evaluate</sub> <sub>the</sub> <sub>quality</sub> <sub>of</sub> <sub>the</sub> <sub>copper</sub> <sub>film</sub>from an acetonitrile solution of 1,3-bis(1-imidazolyl)propane and their corresponding di-(Section 2.2). X-ray diffraction (XRD) patterns were tested by Shimadzu XRD-7000 (Section 2.2)<sup>chloromonomers.</sup> <sup>All</sup> <sup>the</sup> <sup>reactions</sup> <sup>were</sup> <sup>carried</sup> <sup>out</sup> <sup>at</sup> <sup>the</sup> <sup>reflux</sup> <sup>temperature</sup> <sup>for</sup> <sup>8</sup> <sup>hours,</sup> (Kyoto, Japan). X-ray photoelectron spectroscopy (XPS) (Section 2.4) was conducted on<sup>then</sup> <sup>the</sup> <sup>solvents</sup> <sup>were</sup> <sup>removed</sup> <sup>and</sup> <sup>the</sup> <sup>products</sup> <sup>were</sup> <sup>dried</sup> <sup>in</sup> <sup>vacuum</sup> <sup>at</sup> <sup>60</sup> <sup>°C</sup> <sup>over-</sup> <sub>a Thermo Scientific</sub>TM <sub>K-</sub>night. The molecular str $\\mathbf { \\partial } \\cdot \\mathrm { A l p h a } ^ { \\mathrm { T M + } }$ <sub>spectrometer equipped (Waltham, MA, USA) with a</sub>IEP, IPIET, IPIEP, and IPIMP are shown in Figure 11, monochromatic Aland the detailed c ${ \\mathrm { K } } _ { \\alpha }$ <sub>X-ray source (1486.6 eV) operating at 100 W.</sub>acterizations are shown in the Supporting in",
+        "bbox": [
+            272,
+            859,
+            942,
+            920
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11 of 15",
+        "bbox": [
+            890,
+            64,
+            942,
+            77
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            272,
+            112,
+            942,
+            203
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/b42ac59817f640232a60c38b5722c5bcd663d8b8e27370e9b5bb49cbf6134fea.jpg",
+        "image_caption": [
+            "<sup>Figure</sup> <sup>11.</sup> <sup>The</sup> <sup>synthesis</sup> <sup>of</sup> <sup>oligomers</sup> <sup>with</sup> <sup>varied</sup> <sup>donor</sup> <sup>units.</sup><sub>Figure 11. The synthesis of oligomers with varied donor units.</sub>"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            282,
+            212,
+            927,
+            431
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.3. Quantum Chemical Calculation",
+        "text_level": 2,
+        "bbox": [
+            273,
+            464,
+            529,
+            480
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Calculations of molecular orbital information and charge distributions were performed using the Gaussian 09 programs package (Section 2.3) [20]. Geometry optimizations were conducted by density function theory (DFT) using the B3LYP theoretical method and gen basis set [41], which is $6 { \\cdot } 3 1 1 \\mathrm { G } + ( \\mathrm { d } , \\mathsf { p } )$ for all atoms [42]. Self-consistent reaction field (SCRF) theory with Tomasi’s polarized continuum model (PCM) was utilized to perform the calculations in solution [43]. After the optimization, the frontier orbitals and electrostatic potential (ESP) were examined by a visualization program to obtain the preferred reaction sites [44,45].",
+        "bbox": [
+            272,
+            483,
+            942,
+            590
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.4. Electrochemical Experiments",
+        "text_level": 2,
+        "bbox": [
+            273,
+            600,
+            509,
+            615
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "All of the electrochemical measurements (Section 2.1) were operated at $2 5 ^ { \\circ } \\mathrm { C }$ by using a working electrode (a platinum rotating disk electrode with a 3 mm diameter, Pt-RDE), a counter electrode (copper rod), and a reference electrode (saturated $\\mathrm { H g / H g } _ { 2 } \\mathrm { S O } _ { 4 }$ electrode, SME), respectively [46]. The composition of the base electrolyte used for all electrochemical tests contained 100 mg/L NaCl, $7 5 \\mathrm { g / L C u S O _ { 4 } { \\cdot } 5 H _ { 2 } O } ,$ , and 240 $\\mathrm { g / L H } _ { 2 } \\mathrm { S O } _ { 4 }$ . Polyethylene glycol (PEG, MW = 10,000) and SPS served as a suppressor and an accelerator, respectively. PIEP, IPIET, IPIEP, and IPIMP were employed as levelers in this work.",
+        "bbox": [
+            272,
+            618,
+            942,
+            722
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Galvanostatic measurements (GM) with the injection of additives were conducted with a Cu-RDE tip at different rotation speeds, and the current density was maintained at $1 . 5 \\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 }$ [46]. For the potentiodynamic polarization test, the sweep ranged from −0.6 V to 0.8 V, and the rotation speed of the working electrode was fixed at 1500 rpm with a scan rate of 0.02 V/s. Before the electrochemical experiments, a Pt-RDE tip was pre-plated in the base electrolyte for 5 min to prepare the fresh and clean Cu-RDE tip.",
+        "bbox": [
+            272,
+            722,
+            942,
+            814
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "3.5. Electroplating",
+        "text_level": 2,
+        "bbox": [
+            273,
+            824,
+            408,
+            840
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "The test samples for electroplating were $1 5 \\times 5 \\mathrm { c m } ^ { 2 }$ PCBs with multiple THs (Section 2.2). The diameter and depth of the THs were 0.15 mm and 1.5 mm, respectively. Two phosphorated copper plates were used as the anodes and directly placed in a Haring cell with 1500 mL electrolyte. The PCBs were electroplated at a current density of $1 . 5 \\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { \\breve { 2 } }$ for 70 min at $2 5 ^ { \\circ } \\mathrm { C } .$ To ensure adequate mass transportation, a continuous air bubble flow was adopted during the electroplating process. The leveling performance of the leveler was evaluated by the TP [47], whose definition and calculation are shown in supporting information (Figure S1).",
+        "bbox": [
+            272,
+            841,
+            942,
+            919
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12 of 15",
+        "bbox": [
+            890,
+            64,
+            941,
+            77
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            272,
+            112,
+            942,
+            143
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3.6. Synthesis of Oligomer−Cu(I)−MPS Adducts",
+        "text_level": 2,
+        "bbox": [
+            273,
+            153,
+            625,
+            168
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "To characterize the interaction among the oligomers and other solution components (Section 2.5), the injection of Cu(I) and MPS was explored. The experiment setup referred to the beaker experiment mentioned in the reported article [9], and the adducts were characterized by Fourier transform infrared (FT-IR) spectroscopy (ThermoFisher, Waltham, MA, USA, Nicolet IS5).",
+        "bbox": [
+            272,
+            173,
+            942,
+            248
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "4. Conclusions",
+        "text_level": 2,
+        "bbox": [
+            273,
+            259,
+            396,
+            273
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "In this work, we successfully synthesized and characterized a series of oligomers involving N-heterocyclic groups and O-functional groups via methylene links. The conformational relationship between the molecular structure design and its electroplating leveling ability was investigated. The electroplating of THs with the oligomers demonstrates (Section 2.2) that all four oligomers possess a leveling ability. The DFT calculation results suggest that the types of N-heterocyclic functionality affect the performance and electroplating behaviors (Sections 2.1–2.3) of the oligomers and that imidazole exhibits a better performance than piperazine for the synthesis of high-performance straight-chain levelers.",
+        "bbox": [
+            273,
+            277,
+            942,
+            397
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Most importantly, a chemical model (Figure 10) for the four oligomers is proposed (Sections 2.4 and 2.5). The inhibition of MPS activity is the key factor of this model, and is caused by the electrostatic pairing between the cationic amine functionalities of oligomers and the negatively charged sulfonate of MPS. The additional inter- or intra-chain anion–cation pairing between H O−Cu(I)−MPS complexes and the functional groups of oligomers also contributes to the mechanism of leveling. Among these oligomers, IPIEP is the best leveler for THs plating because the modification of the hydroxyl en hances the hydrophilicity of IPIEP and triggers a more stable coupling between IPIEP and $_ { \\mathrm { H } _ { 2 } \\mathrm { O } }$ −Cu(I)−MPS (Section 2.5). Notably, the hydroxyl or carbonyl group is the key to initiating the coordination process between levelers and $H _ { 2 } O \\mathrm { - } \\mathrm { C u ( I ) } - \\bar { \\mathrm { M P S } } ,$ which implies that the other O-functional groups, such as the carboxyl group and aldehyde group, will also bring the extra coupling process. Research focusing on the detailed mechanism of related additives in electroplating baths will be carried out in the follow-up work.",
+        "bbox": [
+            272,
+            397,
+            944,
+            592
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Supplementary Materials: The following supporting information can be downloaded at: https://www. mdpi.com/article/10.3390/molecules28062783/s1, Figure S1: The schematic diagram of the through hole; Figure S2: Cyclic voltammograms each containing 5 mg/L of oligomers in the 5% $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 }$ electrolyte: (a) PIPE; (b) IPIET; (c) IPIEP; and (d) IPIMP; Figure S3: FE-SEM photos of copper films obtained from the electrolytes containing: (a) base electrolyte; (b) IPIET; (c) IPIMP; Figure S4: (a) Molecular structure of imidazole and piperazine molecules; The final adsorption conformation of IPIEP (b) and PIEP (c) on the copper surface; Figure S5: The Cu-O bond length calculation results of different oligomer−Cu(I)−MPS: (a) IPIEP and (b) PIEP; Table S1: The adsorption energy of adsorbate IPIEP and PIEP; Table S2: The overall energy of IPIEP-Cu(I)-MPS and IPIMP-Cu(I)-MPS.",
+        "bbox": [
+            272,
+            605,
+            944,
+            734
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Author Contributions: Conceptualization, G.Z. and Y.C.; methodology, Y.Z.; formal analysis, B.L. and $\\mathrm { X . C . } ;$ writing—original draft preparation, C.P.; writing—review and editing, Y.H.; supervision, C.W. and W.H. All authors have read and agreed to the published version of the manuscript.",
+        "bbox": [
+            272,
+            739,
+            942,
+            783
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Funding: This research was funded by the National Natural Science Foundation of China (Nos 22172020, 61974020 and 22241201). This work is also supported by the projects of Sci. and Tech. planning of Sichuan Province (2021ZHCG0002), the Innovation Team Project of Zhuhai City (No. ZH0405190005PWC), and the projects of Sci. and Tech. planning of Guangdong Province (No. 2019B090910003) and Zhuhai City (No. M17ZH220170000032PWC).",
+        "bbox": [
+            272,
+            788,
+            944,
+            859
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Institutional Review Board Statement: Not applicable.",
+        "bbox": [
+            273,
+            865,
+            650,
+            879
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Informed Consent Statement: Not applicable.",
+        "bbox": [
+            273,
+            885,
+            589,
+            901
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Data Availability Statement: Not applicable.",
+        "bbox": [
+            273,
+            907,
+            583,
+            922
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13 of 15",
+        "bbox": [
+            890,
+            64,
+            942,
+            77
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgments: The authors gratefully acknowledge the support of the National Natural Science Foundation of China. This work is also supported by the projects of Sci. and Tech. planning of Sichuan Province, the Innovation Team Project of Zhuhai City, and the projects of Sci. and Tech. planning of Guangdong Province and Zhuhai City.",
+        "bbox": [
+            272,
+            112,
+            942,
+            170
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Conflicts of Interest: The authors declare no conflict of interest.",
+        "bbox": [
+            273,
+            175,
+            705,
+            190
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Sample Availability: Samples of the compounds are available from the authors.",
+        "bbox": [
+            273,
+            197,
+            815,
+            211
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "References",
+        "text_level": 2,
+        "bbox": [
+            55,
+            225,
+            147,
+            239
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "1. Wang, C.; Zhang, J.Q.; Yang, P.X.; Zhang, B.Q.; An, M.Z. Through-hole copper electroplating using nitrotetrazolium blue chloride as a leveler. J. Electrochem. Soc. 2013, 160, D85–D88. [CrossRef]",
+        "bbox": [
+            55,
+            244,
+            942,
+            269
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "2. Chen, Y.M.; He, W.; Chen, X.M.; Wang, C.; Tao, Z.H.; Wang, S.X.; Zhou, G.Y.; Moshrefi-Torbati, M. Plating uniformity of bottom-up copper pillars and patterns for IC substrates with additive-assisted electrodeposition. Electrochim. Acta 2014, 120, 293–301. [CrossRef]",
+        "bbox": [
+            53,
+            269,
+            942,
+            310
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "3. Dow, W.P.; Yen, M.Y.; Chou, C.W.; Liu, C.W.; Yang, W.H.; Chen, C.H. Practical monitoring of filling performance in a copper plating bath. Electrochem. Soild State Lett. 2006, 9, C134–C137. [CrossRef]",
+        "bbox": [
+            55,
+            312,
+            942,
+            338
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "4. Wu, Y.C.; Mao, Z.J.; Wang, C.; Liu, Y.W.; Chen, S.l.; Cai, W.B. Advances in mechanistic understanding of additives for copper electroplating in high-end electronics manufacture. Sci. Chian Chem. 2021, 51, 1474–1488. [CrossRef]",
+        "bbox": [
+            55,
+            338,
+            942,
+            366
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "5. Wang, C.; Peng, C.; Xiang, J.; Chen, Y.M.; He, W.; Su, X.H.; Luo, Y.Y. Research and application of copper electroplating in interconnection of printed circuit board. J. Electrochem. 2021, 27, 257–268.",
+        "bbox": [
+            55,
+            366,
+            942,
+            393
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "6. Moffat, T.P.; Wheeler, D.; Josell, D. Superfilling and the curvature enhanced accelerator coverage mechanism. Electrochem. Soc. Interface 2004, 13, 46–52. [CrossRef]",
+        "bbox": [
+            55,
+            394,
+            942,
+            420
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "7. Moffat, T.P.; Wheeler, D.; Kim, S.K.; Josell, D. Curvature enhanced adsorbate coverage model for electrodeposition. J. Electrochem. Soc. 2006, 153, C127–C132. [CrossRef]",
+        "bbox": [
+            55,
+            420,
+            941,
+            447
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "8. Dow, W.P.; Huang, H.S.; Yen, M.Y.; Huang, H.C. Influence of convection-dependent adsorption of additives on microvia filling by copper electroplating. J. Electrochem. Soc. 2005, 152, C425–C434. [CrossRef]",
+        "bbox": [
+            55,
+            448,
+            941,
+            476
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "9. Hai, N.T.M.; Kraemer, K.W.; Fluegel, A.; Arnold, M.; Mayer, D.; Broekmann, P. Beyond interfacial anion/cation pairing: The role of Cu(I) coordination chemistry in additive-controlled copper plating. Electrochim. Acta 2012, 83, 367–375. [CrossRef]",
+        "bbox": [
+            55,
+            476,
+            941,
+            502
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "10. Ryan, K.; Dunn, K.; van Eisden, J.; Adolf, J. Properties of PEG, PPG and their copolymers: Influence on copper filling of damascene interconnects. J. Electrochem. Soc. 2013, 160, D3186–D3196. [CrossRef]",
+        "bbox": [
+            55,
+            502,
+            941,
+            530
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "11. Dow, W.P.; Yen, M.Y.; Lin, W.B.; Ho, S.W. Influence of molecular weight of polyethylene glycol on microvia filling by copper electroplating. J. Electrochem. Soc. 2005, 152, C769–C775. [CrossRef]",
+        "bbox": [
+            55,
+            530,
+            942,
+            557
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "12. Yin, L.; Liu, Z.H.; Yang, Z.P.; Wang, Z.L.; Shingubara, S. Effect of PEG molecular weight on bottom-up filling of copper electrodeposition for PCB interconnects. Trans. Inst. Met. Finish. 2010, 88, 149–153. [CrossRef]",
+        "bbox": [
+            55,
+            557,
+            942,
+            585
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "13. Dow, W.P.; Yen, M.Y. Microvia filling over self-assembly disulfide molecule on Au and Cu seed layers—A morphological study of copper deposits. Electrochem. Soild State Lett. 2005, 8, C161–C165. [CrossRef]",
+        "bbox": [
+            55,
+            585,
+            942,
+            613
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "14. Jo, Y.E.; Yu, D.Y.; Cho, S.K. Revealing the inhibition effect of quaternary ammonium cations on Cu electrodeposition. J. Appl. Electrochem. 2020, 50, 245–253. [CrossRef]",
+        "bbox": [
+            55,
+            613,
+            942,
+            640
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "15. Zheng, L.; He, W.; Zhu, K.; Wang, C.; Wang, S.X.; Hong, Y.; Chen, Y.M.; Zhou, G.Y.; Miao, H.; Zhou, J.Q. Investigation of poly (1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole. Electrochim. Acta 2018, 283, 560–567. [CrossRef]",
+        "bbox": [
+            55,
+            640,
+            942,
+            680
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "16. Luo, J.Y.; Li, Z.; Tan, B.Z.; Cui, C.Q.; Shi, M.H.; Hao, Z.F. Communication-triphenylmethane-based leveler for microvia filling in copper super-conformal electroplating. J. Electrochem. Soc. 2019, 166, D603–D605. [CrossRef]",
+        "bbox": [
+            55,
+            681,
+            942,
+            708
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "17. Wang, C.; An, M.Z.; Yang, P.X.; Zhang, J.Q. Prediction of a new leveler (N-butyl-methyl piperidinium bromide) for through-hole electroplating using molecular dynamics simulations. Electrochem. Commun. 2012, 18, 104–107. [CrossRef]",
+        "bbox": [
+            55,
+            708,
+            941,
+            734
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "18. Dow, W.P.; Li, C.C.; Su, Y.C.; Shen, S.P.; Huang, C.C.; Lee, C.; Hsu, B.; Hsu, S. Microvia filling by copper electroplating using diazine black as a leveler. Electrochim. Acta 2009, 54, 5894–5901. [CrossRef]",
+        "bbox": [
+            55,
+            734,
+            942,
+            762
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "19. Tang, J.; Zhu, Q.S.; Zhang, Y.; Zhang, X.; Guo, J.D.; Shang, J.K. Copper bottom-up filling for through silicon via (TSV) using single JGB additive. ECS Electrochem. Lett. 2015, 4, D28–D30. [CrossRef]",
+        "bbox": [
+            55,
+            763,
+            941,
+            790
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "20. Lai, Z.Q.; Wang, S.X.; Wang, C.; Hong, Y.; Chen, Y.M.; Zhang, H.W.; Zhou, G.Y.; He, W.; Ai, K.H.; Peng, Y.Q. Computational analysis and experimental evidence of two typical levelers for acid copper electroplating. Electrochim. Acta 2018, 273, 318–326. [CrossRef]",
+        "bbox": [
+            55,
+            790,
+            942,
+            829
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "21. Wang, C.; Zhang, J.Q.; Yang, P.X.; An, M.Z. Electrochemical behaviors of Janus Green B in through-hole copper electroplating: An insight by experiment and density functional theory calculation using Safranine T as a comparison. Electrochim. Acta 2013, 92, 356–364, [CrossRef]",
+        "bbox": [
+            55,
+            831,
+            942,
+            871
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "22. Li, Y.B.; Wang, W.; Li, Y.L. Adsorption behavior and related mechanism of Janus Green B during copper via-filling process. J. Electrochem. Soc. 2009, 156, D119–D124. [CrossRef]",
+        "bbox": [
+            55,
+            872,
+            942,
+            898
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            200,
+            77
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14 of 15",
+        "bbox": [
+            890,
+            64,
+            942,
+            77
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "ref_text",
+        "text": "23. Zhou, M.M.; Meng, Y.C.; Ling, J.W.; Zhang, Y.; Huang, W.; Min, Y.L.; Shen, X.X.; Xu, Q.J. 5-Amino-1,3,4-thiadiazole-2-thiol as a new leveler for blind holes copper electroplating: Theoretical calculation and electrochemical studies. Appl. Surf. Sci. 2022, 606, 154871. [CrossRef]",
+        "bbox": [
+            55,
+            112,
+            942,
+            154
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "24. Xiang, J.; Wang, S.X.; Li, J.; He, W.; Wang, C.; Chen, Y.M.; Zhang, H.W.; Miao, H.; Zhou, J.Q.; Jin, X.F. Electrochemical factors of levelers on plating uniformity of through-holes: Simulation and experiments. J. Electrochem. Soc. 2018, 165, E359–E365. [CrossRef]",
+        "bbox": [
+            55,
+            154,
+            942,
+            181
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "25. Zhou, M.M.; Huang, W.; Min, Y.L.; Shen, X.X.; Xu, Q.J. Benzyl-containing quaternary ammonium salt as a new leveler for microvia copper electroplating. Electrochim. Acta 2022, 429, 141013.",
+        "bbox": [
+            55,
+            181,
+            941,
+            208
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "26. Zhang, Y.; Shen, X.X.; Zhou, M.M.; Huang, W.; Xu, Q.J. The effect of quaternary ammonium salts with different chain lengths on copper filling behavior in blind holes of printed circuit board. J. Micromech. Microeng. 2022, 32, 125004. [CrossRef]",
+        "bbox": [
+            55,
+            209,
+            941,
+            236
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "27. Hai, N.T.M.; Oderrnatt, J.; Grimaudo, V.; Kraemer, K.W.; Fluegel, A.; Arnold, M.; Mayer, D.; Broekmann, P. Potential oscillations in galvanostatic Cu electrodeposition: Antagonistic and synergistic effects among SPS, chloride, and suppressor additives. J. Phys. Chem. C 2012, 116, 6913–6924. [CrossRef]",
+        "bbox": [
+            55,
+            236,
+            942,
+            277
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "28. Bandas, C.D.; Rooney, R.T.; Kirbs, A.; Jaeger, C.; Schmidt, R.; Gewirth, A.A. Interfacial leveler-accelerator interactions in Cu electrodeposition. J. Electrochem. Soc. 2021, 168, 42501. [CrossRef]",
+        "bbox": [
+            53,
+            277,
+            942,
+            305
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "29. Han, Y.J.; Zhang, X.; Leach, G.W. Shape control of electrodeposited copper films and nanostructures through additive effects. Langmuir 2014, 30, 3589–3598. [CrossRef]",
+        "bbox": [
+            55,
+            305,
+            942,
+            332
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "30. Lei, Z.W.; Chen, L.; Wang, W.L.; Wang, Z.L.; Zhao, C. Tetrazole derived levelers for filling electroplated Cu microvias: Electro chemical behaviors and quantum calculations. Electrochim. Acta 2015, 178, 546–554. [CrossRef]",
+        "bbox": [
+            55,
+            332,
+            942,
+            360
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "31. Zhang, J.; Lu, T. Efficient evaluation of electrostatic potential with computerized optimized code. Phys. Chem. Chem. Phys. 2021, 23, 20323–20328. [CrossRef]",
+        "bbox": [
+            55,
+            359,
+            942,
+            386
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "32. Kovacs, A.; Nemcsok, D.S.; Kocsis, T. Bonding interactions in EDTA complexes. Theochem-J. Mol. Struct. 2010, 950, 93–97. [CrossRef]",
+        "bbox": [
+            53,
+            386,
+            942,
+            414
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "33. Tan, Y.S.; Srinivasan, M.P.; Pehkonen, S.O.; Chooi, S.Y.M. Self-assembled organic thin films on electroplated copper for prevention of corrosion. J. Vac. Sci. Technol. A 2004, 22, 1917–1925. [CrossRef]",
+        "bbox": [
+            55,
+            414,
+            942,
+            441
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "34. Wang, K.; Feng, J.M.; Xu, J.; Li, J.; Mai, M.; Wang, X.M.; Wang, L.M. Engineering aromatic heterocycle strategy: Improving copper electrodeposition performance via tuning the bandgap of diketopyrrolopyrrole-based leveler. Tetrahedron 2020, 76, 130882. [CrossRef]",
+        "bbox": [
+            55,
+            441,
+            942,
+            482
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "35. Xu, Y.; Zhang, S.T.; Li, W.P.; Guo, L.; Xu, S.Y.; Feng, L.; Madkour, L.H. Experimental and theoretical investigations of some pyrazolo-pyrimidine derivatives as corrosion inhibitors on copper in sulfuric acid solution. Appl. Surf. Sci. 2018, 459, 612–620. [CrossRef]",
+        "bbox": [
+            53,
+            482,
+            942,
+            523
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "36. Raciti, D.; Braun, T.; Walker, A.R.H.; Moffat, T.P. Mapping Surface Chemistry During Superfilling with Shell-Isolated Nanoparticle Enhanced Raman Spectroscopy and X-ray Photoelectron Spectroscopy. J. Electrochem. Soc. 2022, 169, 082506. [CrossRef]",
+        "bbox": [
+            55,
+            523,
+            942,
+            551
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "37. Broekmann, P.; Fluegel, A.; Emnet, C.; Arnold, M.; Roeger-Goepfert, C.; Wagner, A.; Hai, N.T.M.; Mayer, D. Classification of suppressor additives based on synergistic and antagonistic ensemble effects. Electrochim. Acta 2011, 56, 4724–4734. [CrossRef]",
+        "bbox": [
+            55,
+            551,
+            942,
+            577
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "38. Dow, W.P.; Huang, H.S.; Yen, M.Y.; Chen, H.H. Roles of chloride ion in microvia filling by copper electrodeposition—II. Studies using EPR and galvanostatic measurements. J. Electrochem. Soc. 2005, 152, C77–C88. [CrossRef]",
+        "bbox": [
+            55,
+            577,
+            941,
+            605
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "39. Dow, W.P.; Chiu, Y.D.; Yen, M.Y. Microvia filling by Cu electroplating over a Au seed layer modified by a disulfide. J. Electrochem. Soc. 2009, 156, D155–D167. [CrossRef]",
+        "bbox": [
+            55,
+            605,
+            942,
+            632
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "40. Simona, F.; Hai, N.T.M.; Broekmann, P.; Cascella, M. From structure to function: Characterization of Cu(I) adducts in leveler additives by DFT calculations. J. Phys. Chem. Lett. 2011, 2, 3081–3084. [CrossRef]",
+        "bbox": [
+            55,
+            632,
+            942,
+            659
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "41. Lee, C.; Yang, W.; Parr, R.G. Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density. Phys. Rev. B 1988, 37, 785–789. [CrossRef]",
+        "bbox": [
+            55,
+            659,
+            942,
+            687
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "42. Hehre, W.J.; Ditchfield, R.; Pople, J.A. Self—Consistent molecular orbital methods. XII. further extensions of gaussian—Type basis sets for use in molecular orbital studies of organic molecules. J. Chem. Phys. 1972, 56, 2257–2261. [CrossRef]",
+        "bbox": [
+            55,
+            687,
+            942,
+            715
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "43. Cances, E.; Mennucci, B.; Tomasi, J. A new integral equation formalism for the polarizable continuum model: Theoretical background and applications to isotropic and anisotropic dielectrics. J. Chem. Phys. 1997, 107, 3032–3041. [CrossRef]",
+        "bbox": [
+            55,
+            715,
+            941,
+            741
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "44. Rodriguez-Valdez, L.M.; Martinez-Villafane, A.; Glossman-Mitnik, D. Computational simulation of the molecular structure and properties of heterocyclic organic compounds with possible corrosion inhibition properties. Theochem-J. Mol. Struct. 2005, 713, 65–70. [CrossRef]",
+        "bbox": [
+            55,
+            741,
+            942,
+            783
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "45. Manzetti, S.; Lu, T. The geometry and electronic structure of aristolochic acid: Possible implications for a frozen resonance. J. Phys. Org. Chem. 2013, 26, 473–483. [CrossRef]",
+        "bbox": [
+            55,
+            783,
+            942,
+            810
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "46. Akolkar, R.; Landau, U. A time-dependent transport-kinetics model for additive interactions in copper interconnect metallization. J. Electrochem. Soc. 2004, 151, C702–C711. [CrossRef]",
+        "bbox": [
+            55,
+            810,
+            942,
+            837
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "ref_text",
+        "text": "47. Taephaisitphongse, P.; Cao, Y.; West, A.C. Electrochemical and fill studies of a multicomponent additive package for copper deposition. J. Electrochem. Soc. 2001, 148, C492–C497. [CrossRef]",
+        "bbox": [
+            55,
+            837,
+            942,
+            866
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.",
+        "bbox": [
+            52,
+            882,
+            942,
+            925
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "Molecules 2023, 28, 2783",
+        "bbox": [
+            55,
+            64,
+            201,
+            77
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "15 of 15",
+        "bbox": [
+            890,
+            64,
+            942,
+            77
+        ],
+        "page_idx": 14
+    }
+]

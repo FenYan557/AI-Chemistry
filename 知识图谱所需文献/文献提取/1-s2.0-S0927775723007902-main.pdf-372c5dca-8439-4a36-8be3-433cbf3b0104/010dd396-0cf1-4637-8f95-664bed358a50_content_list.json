@@ -1,0 +1,1977 @@
+[
+    {
+        "type": "text",
+        "text": "Insights into the synergistic effects of safranine in an acidic copper bath on through-hole void-free filling for high-quality electronics interconnection",
+        "text_level": 1,
+        "bbox": [
+            57,
+            206,
+            815,
+            250
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/615e140b4b413f57ca42b244085e55359bff26156fb750056f1f46c0d13fcf8c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            838,
+            185,
+            887,
+            221
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lei Jin , An-Ni Zheng , Mei Wang , Jia-Qiang Yang , Zhao-Yun Wang , Fang-Zu Yang <sup>\\*</sup>, De-Yin Wu , Dongping Zhan",
+        "bbox": [
+            57,
+            262,
+            741,
+            296
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "State Key Laboratory of Physical Chemistry of Solid Surfaces, Engineering Research Center of Electrochemical Technologies of Ministry of Education, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, Fujian, China",
+        "bbox": [
+            55,
+            302,
+            816,
+            327
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "H I G H L I G H T S",
+        "text_level": 2,
+        "bbox": [
+            58,
+            354,
+            183,
+            366
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• A novel safranine (SA)-based acidic sulfate copper plating behaves the excellent copper void-free filling of through hole.",
+        "bbox": [
+            58,
+            379,
+            289,
+            428
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• The complicated molecule actions among additives are studied by in situ FTIR experiments and theoretical calculations.",
+        "bbox": [
+            58,
+            428,
+            290,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "G R A P H I C A L A B S T R A C T",
+        "text_level": 2,
+        "bbox": [
+            334,
+            354,
+            554,
+            366
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/7373f906dba18ce789b244b3532c5912c9bc5b0fc16a17419efdff4c1eb0eb2f.jpg",
+        "image_caption": [
+            "Additives: Complex and effective synergistic effects"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            337,
+            399,
+            714,
+            569
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A R T I C L E I N F O",
+        "text_level": 2,
+        "bbox": [
+            58,
+            622,
+            196,
+            635
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Keywords: Acidic copper electronic plating Safranine Synergistic effect Through-hole void-free filling Molecule action mechanism",
+        "bbox": [
+            58,
+            646,
+            218,
+            713
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A B S T R A C T",
+        "text_level": 2,
+        "bbox": [
+            334,
+            622,
+            436,
+            635
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In this work, we develop a novel safranine (SA)-based acidic sulfate copper electronic plating process for through-hole copper void-free filling for high-quality electronics interconnection, and both the molecule actions and synergistic effects of safranine (SA) are carefully explored. Cyclic voltammetry experiments at rotating rates of 200 r/min and 1200 r/min demonstrate that SA itself can accelerate the electro-reduction of copper ion, heighten the inhibiting effect of polyethylene glycol (PEG) and acceleration effect of bis-(3-sulfopropyl) disulfide (SPS). The addition of SA to the virgin make-up solution (VMS) containing PEG and SPS makes the relative electric charge (ΔQ) between the low and high rotating rates be increased from 1.27 ± 0.04–22.53% ± 0.05, indicating the higher copper electronic plating amount at the center than that at the mouth of through-hole. In situ Fourier transform infrared spectroscopy together with theoretical calculations further illustrate that the molecule SA is adsorbed on the copper surface through the N atom in the aromatic ring, PEG and SPS can heighten the adsorption of SA on the Cu surface, and both PEG and SPS both synergistically influence with SA to achieve the void-free copper filling of through-hole.",
+        "bbox": [
+            332,
+            646,
+            939,
+            794
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            262,
+            41,
+            734,
+            56
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            58,
+            74,
+            161,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Contents lists available at ScienceDirect",
+        "bbox": [
+            379,
+            75,
+            621,
+            89
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "ELSEVIER",
+        "bbox": [
+            60,
+            145,
+            161,
+            162
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
+        "bbox": [
+            257,
+            95,
+            744,
+            139
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "journal homepage: www.elsevier.com/locate/colsurfa",
+        "bbox": [
+            327,
+            148,
+            673,
+            163
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "COLLOIDS ANDSURFACES A",
+        "bbox": [
+            838,
+            66,
+            937,
+            158
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "\\* Corresponding authors.",
+        "bbox": [
+            67,
+            843,
+            211,
+            856
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "E-mail addresses: fzyang@xmu.edu.cn (F.-Z. Yang), dpzhan@xmu.edu.cn (D. Zhan).",
+        "bbox": [
+            75,
+            854,
+            531,
+            868
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1016/j.colsurfa.2023.131706 Received 27 March 2023; Received in revised form 19 May 2023; Accepted 20 May 2023 Available online 22 May 2023 0927-7757/© 2023 Elsevier B.V. All rights reserved.",
+        "bbox": [
+            57,
+            877,
+            549,
+            926
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Introduction",
+        "text_level": 2,
+        "bbox": [
+            58,
+            66,
+            166,
+            79
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "With the rapid development of electronic products, advanced fabrication technologies for high-density interconnect (HDI) in the printed circuit board (PCB) are widely applied in 5 G communication, energy devices, wearable devices, and other booming fields [1–3]. Metallization of through-hole (TH) is one of the core technologies to realize the conduction of different layers in HDI-PCB [4,5]. Acidic sulfate copper electronic plating is the most universal process for the metallization of TH [6–9]. TH copper thickening combined with resin plugging and TH void-free copper filling are the two common metallization technologies. For the TH copper thickening combined with resin plugging technology, only a homogeneous and conformal copper coating (about 20 µm) on its side wall is needed [10–14], then epoxy resin is used to fill the TH. For the TH void-free copper filling technology, copper coating is fully filled inside the TH without any void. It is worth noting that TH may crack under long-term heating due to the different thermal expansion coeffi cient between the resin and copper, resulting in the blocked signal transmission. Therefore, compared with TH copper thickening combined with resin plugging technology, TH void-free copper filling technology behaves the advantages of higher reliability and better signal transmission quality. Nowadays, with the acceleration of communication speed, more heat is generated when the signal processing, the copper void-free filling of TH has therefore been widely employed for improving the heat dissipation efficiency.",
+        "bbox": [
+            55,
+            92,
+            487,
+            395
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The main difficulty in copper filling is the formation of voids in TH with higher aspect ratio due to the uneven local current distribution and tanglesome convection environments caused by the specific geometry of TH [15–17]. The copper deposition amount at the mouth is usually higher than that at the center of TH, resulting in the coating in a void or seam. Therefore, it is particularly crucial introducing the organic additives in the acidic sulfate bath to modulate the copper deposition process at the mouth and center. The key to blind hole filling is the bottom-up growth of copper coating. The key to TH filling is that copper coating rapidly deposits at the center of TH wall until the center is connected to form a butterfly shape structure (two blind holes), and then the two blind holes are filled separately. The accelerator of bis-(3-sulfopropyl) disulfide (SPS) and suppressor of polyethylene glycol (PEG) are the commonly used additives in the acidic sulfate bath [18–25]. Suppressor, mainly distributed at the mouth of TH, inhibits the copper ion electro-reduction at a definite potential which results in the decrease of reduction current density. Accelerator, mainly distributed at the center of $\\mathrm { T H } ,$ promotes the copper ion electro-reduction at a definite potential which results in the increase of reduction current density. It is still difficult to realize a void-free copper filling from the bath with only these two additives, and therefore the other additive is further needed. Zheng et al. [12] reported that poly (1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) (VIBDGE) could further heighten the inhibiting ability of PEG in copper electronic plating. Li et al. [13] presented that a copolymer comprising of pyrrole and 1,4-butanediol diglycidyl ether (PBDGE) also could enhance the inhibiting ability of PEG during copper electronic plating. Wang et al. [14] introduced that gentian violet (GVT) behaved with the synergistic inhibiting effect with PEG and the antagonistic effect with SPS. Although considerable studies have been carried out to show the superior performance of additives, up to now, the synergistic action mechanisms of additives are still not clarified.",
+        "bbox": [
+            55,
+            395,
+            489,
+            793
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/969dd5be69e2f91ececda03b3585f5f7d91d8a1e17bb526a6edbad79d210a3c4.jpg",
+        "table_caption": [
+            "Table 1",
+            "Components of bath A and bath B."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Components</td><td>Bath A</td><td>Bath B</td></tr><tr><td> $CuSO_{4} \\bullet 5H_{2}O$  (g/L)</td><td>220</td><td>220</td></tr><tr><td> $H_{2}SO_{4}$  (g/L)</td><td>49</td><td>49</td></tr><tr><td> $Cl^{-}$  (mg/L)</td><td>60</td><td>60</td></tr><tr><td>PEG (mg/L)</td><td>300</td><td>300</td></tr><tr><td>SPS (mg/L)</td><td>2</td><td>2</td></tr><tr><td>SA (mg/L)</td><td>0</td><td>4</td></tr></table>",
+        "bbox": [
+            60,
+            844,
+            485,
+            931
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            509,
+            65,
+            897,
+            79
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In this work, we successfully develop a novel and excellent SA-based acidic sulfate copper electronic plating process (additives: PEG, SPS and SA) for the void-free filling of X-shape TH (conducive to the formation of butterfly structure for void-free filling). The intrinsic properties of SA and the interactions among SA, PEG and SPS at the molecule level are expounded through cyclic voltammetry, in situ FTIR experiments and theoretical calculations.",
+        "bbox": [
+            507,
+            79,
+            939,
+            171
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Experimenta",
+        "text_level": 2,
+        "bbox": [
+            510,
+            184,
+            623,
+            197
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1. Reagents",
+        "text_level": 2,
+        "bbox": [
+            510,
+            211,
+            598,
+            224
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Safranine, bis-(sodium sulfopropyl)-disulfide and polyethylene glycol (molecular weight: 8000) were purchased from Aladdin Co., Ltd (China). Sulfuric acid $\\mathrm { ( H _ { 2 } S O _ { 4 } ) } _ { : }$ copper sulfate pentahydrate $\\mathrm { ( C u S O _ { 4 } { \\bullet } 5 H _ { 2 } O ) }$ and hydrochloric acid (HCl) were purchased from Sinopharm Chemical Reagent Co., Ltd (China). All the chemicals used were analytical grade.",
+        "bbox": [
+            507,
+            237,
+            939,
+            317
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.2. Cyclic voltammetry experiments",
+        "text_level": 2,
+        "bbox": [
+            509,
+            331,
+            726,
+            345
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cyclic voltammetry (CV) experiments were performed through CHI electrochemical workstation (CHI760, China). A platinum rotating disk electrode (Pt-RDE) with a diameter of 5 mm, a platinum sheet and a Hg/ $\\mathrm { H g } _ { 2 } S 0 _ { 4 }$ electrode (saturated $\\mathrm { K _ { 2 } S O _ { 4 } }$ solution, SMSE) were as the working electrode, counter electrode and reference electrode, respectively. The Pt-RDE was successively polished and ultrasonically cleaned before each experiment. The electrolyte composed of 220 $\\mathrm { \\bf g / L } \\mathrm { C u S O } _ { 4 } { \\bullet } \\mathrm { \\bf 5 / H } _ { 2 } \\mathrm { O } _ { \\mathrm { i } }$ , 49 g/L $\\mathrm { H _ { 2 } S O _ { 4 } }$ and 60 mg/L $\\mathrm { c l ^ { - } }$ was defined as the virgin make-up solution (VMS).",
+        "bbox": [
+            507,
+            356,
+            939,
+            477
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.3. In situ FTIR spectroscopy",
+        "text_level": 2,
+        "bbox": [
+            509,
+            491,
+            690,
+            504
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In situ Fourier transform infrared (FTIR) spectroscopy experiments were carried out on an FTIR spectrometer equipped with a liquidnitrogen-cooling detector (Nicolet 8700, America). A thin-layer (\\~ 10 µm) electrolyte was pressed between the copper electrode and $\\operatorname { C a F } _ { 2 }$ window. The spectra were recorded using the procedures of single potential alteration FTIR spectroscopy (SPAFTIRS) and multi-stepped FTIR (MSFTIR) [26]. The reference potential of the spectrum was − 0.4 V vs. SMSE electrode. The sample potentials of spectra were scanned from − $0 . 5 \\ : \\mathrm { t o } - 0 . 9 \\ : \\mathrm { V }$ with a step potential of 0.1 V. The final result spectra were acquired according to the following Eq. (1), where $R ( E _ { \\mathrm { R } } )$ and $R ( E _ { \\mathrm { S } } )$ were single-beam spectrum collected at reference and sample potentials, respectively [27].",
+        "bbox": [
+            507,
+            515,
+            939,
+            675
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\Delta R}{R} = \\frac {R (E _ {s}) - R (E _ {R})}{R (E _ {R})}\\tag{1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            510,
+            682,
+            633,
+            709
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.4. Electronic plating details",
+        "text_level": 2,
+        "bbox": [
+            509,
+            723,
+            685,
+            738
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The copper electronic plating experiments for TH filling were carried out in bath A and bath B at the temperature of 298 K and the current density of $2 0 \\mathrm { m A } / \\mathrm { c m } ^ { 2 }$ . The components of bath A and bath B were presented in Table 1. The panel with TH (diameter: 125 µm, depth: $2 5 0 ~ \\mu \\mathrm { m } )$ was employed as the cathode (supplied by Shanghai Meadville Electronics Co., Ltd.) and the phosphorus-containing copper plate was employed as the anode. The electronic plating time was 150 min. The cross-section of TH was observed by optical microscope (OM, MX-6R, China). Fig. 1 presents the schematic diagram of the X-shaped TH.",
+        "bbox": [
+            507,
+            750,
+            939,
+            870
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.5. Calculations",
+        "text_level": 2,
+        "bbox": [
+            509,
+            883,
+            618,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Calculations were completed by using Gaussian 09 software [28]. Basis sets o $ { \\mathbf { \\hat { 6 } } } \\mathbf { - 3 1 1 } +  { \\mathbf { + G } } (  { \\mathbf { d } } ,  { \\mathbf { p } } )$ and the functional method of B3LYP were",
+        "bbox": [
+            509,
+            910,
+            939,
+            936
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            54
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            541,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            494,
+            950,
+            505,
+            960
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/378326b1acc1ba7bf54fc79b176bcc1d3114a67ba248724849da55c22819e35c.jpg",
+        "image_caption": [
+            "Fig. 1. The schematic diagram of an X-shaped TH"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            119,
+            66,
+            425,
+            269
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "employed.",
+        "bbox": [
+            509,
+            65,
+            576,
+            79
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3. Results and discussion",
+        "text_level": 2,
+        "bbox": [
+            509,
+            92,
+            682,
+            105
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1. TH copper electronic plating",
+        "text_level": 2,
+        "bbox": [
+            509,
+            118,
+            707,
+            132
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The copper electronic plating is first performed to expound the excellent filling performance of the novel acidic copper sulfate electroplating process. Fig. 2 shows the cross-section images of TH before and after copper electronic plating. Bath A is composed of 220 g/L $\\mathrm { C u S O } _ { 4 } { \\bullet } \\mathrm { 5 H } _ { 2 } \\mathrm { O } _ { \\mathrm { i } }$ , 49 g/L H<sub>2</sub>SO<sub>4</sub>, 60 mg/L Cl , 300 mg/L PEG and 2 mg/L SPS. Bath B is bath A with 4 mg/L SA. The temperature and current density are 298 K and 20 mA/cm , respectively. As displayed in Fig. 2a, before copper electronic plating, the copper coating thickness of the sample surface is approximately 16.20 µm. In Fig. 2b, after copper electronic plating in bath A, the electrodeposited copper coating thickness is about 53.54 µm on the surface of TH. It can be seen that the copper coating tends to uniform thickening at the inner wall of TH, resulting in the void at the center and seam at the mouth of TH. Bath A is therefore behaving a poor performance in the copper filling of TH. In",
+        "bbox": [
+            507,
+            145,
+            939,
+            331
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/be0b05bb9805458377e8cb1b667d8138bb797b7e542c527ff6d90a549f8113c8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            75,
+            358,
+            344,
+            629
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/b781dd86330d3e00bf00418a5cc652061cb16dbee75d83832b897f24f802f0b8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            364,
+            358,
+            633,
+            629
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/00426dbbc6fb7ff729151ce02742af730060781e87bb7213cd85a77f00c97f1e.jpg",
+        "image_caption": [
+            "Fig. 2. Cross-section images of TH with a diameter of 125 µm and depth of 250 µm: (a) before electronic plating, (b) copper electronic plating in bath A composed of 220 g/L CuSO •5H O, 49 g/L H SO , 60 mg/L Cl<sup>-</sup>, 300 mg/L PEG and 2 mg/L SPS at temperature 298 K and 20 mA/cm<sup>2</sup>, (c) copper electronic plating in bath B composed of bath A and 4 mg/L SA at temperature 298 K and 20 mA/ cm<sup>2</sup>."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            653,
+            358,
+            922,
+            629
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/73ba6197879d9d33e0f548594fde13a83eaa1e0fd76d49a54c1539b2cde01fa3.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            94,
+            699,
+            494,
+            916
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/2e4a9d87ca2a38ed0c9b6f26eabdb1a14efb74a40b3ba9b5ecb6f9cd3334dbc2.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 3. CV curves at rotating rates of (a) 200 r/min and (b) 1200 r/min in VMS without (curve 1) and with 4 mg/L SA (curve 2) at a scan rate of 20 mV/s."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            502,
+            701,
+            902,
+            916
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            541,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/ba5b1bb08f8834cc3d341b99c5777f3ae78b3640e5b1181f976adb2efed5c1ce.jpg",
+        "table_caption": [
+            "Electric charges of copper anodic stripping in VMS with and without SA (unit: mC⋅cm<sup>-2</sup>)."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Electrolyte</td><td>VMS</td><td>VMS + SA</td></tr><tr><td> $Q_{\\text{strip}}$  @200 r/min</td><td>1535.54</td><td>1865.62</td></tr><tr><td> $\\Delta Q_{200}$  r/min /%</td><td>21.50 ± 0.04</td><td></td></tr><tr><td> $Q_{\\text{strip}}$  @1200 r/min</td><td>1693.40</td><td>1912.23</td></tr><tr><td> $\\Delta Q_{1200}$  r/min /%</td><td>12.92 ± 0.05</td><td></td></tr></table>",
+        "bbox": [
+            58,
+            104,
+            484,
+            171
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Fig. 2c, after copper electronic plating in bath $\\mathbf { B } ,$ the electrodeposited copper coating thickness is about 44.09 µm on the surface of TH, and the TH is filled without any void. We can therefore conclude that SA is a pronounced additive enforcing the copper void-free filling of TH, and SA plays the synergistic effect with PEG to heighten the inhibiting on cop per electronic plating at the surface due to the thinner copper thickness.",
+        "bbox": [
+            55,
+            189,
+            487,
+            269
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.2. Molecule actions of SA",
+        "text_level": 2,
+        "bbox": [
+            58,
+            287,
+            226,
+            301
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "To comprehend the impacts of SA in the acidic sulfate copper elec tronic plating bath, CV experiments at low and high rotating rates (200 r/min and 1200 r/min) are conducted. The rotating rates at 1200 r/min and 200 r/min are respectively used to simulate the electroplating environments at the mouth and center of TH. The electric charge of copper anodic stripping $( Q _ { \\mathrm { s t r i p } } )$ is used to reflect the practical amount of copper cathodic electroplating, and the relative electric charge of copper anodic stripping at a definite rotating rate is defined to estimate the suppressing or accelerating effect of additives. Here $Q _ { 1 }$ and $Q _ { 2 }$ refer to the electric charge of copper anodic stripping in VMS without and with SA, respectively. Therefore, $\\Delta Q _ { \\mathrm { r o t a t i n g } }$ <sub>rate</sub>, referring to the relative electric charge affected by SA, can be calculated according to Eq. (2).",
+        "bbox": [
+            55,
+            313,
+            487,
+            407
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/4dc55aee3b5847f7f172da2d1ab7224f188aae297be9a1b926bda14d68660d15.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            92,
+            423,
+            495,
+            641
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            65,
+            939,
+            145
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Delta Q _ {\\text { rotating }} \\quad \\text { rate } = \\frac {| Q _ {1} - Q _ {2} |}{Q _ {1}} \\times 100 \\%\\tag{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            509,
+            151,
+            724,
+            179
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Fig. 3 and Table 2 show the CV curves and the corresponding electric charges of copper anodic stripping in VMS without and with 4 mg/L SA. In Fig. 3, the potential is first negatively scanned from open circuit potential (OCP, near 0.1 V) to − 0.8 V, then positively to 0.6 V, and finally back to OCP. The scan rates are 20 mV/s. As shown in Fig. 3a at 200 r/ min rotating rates, the $Q _ { \\mathrm { s t r i p } }$ in VMS is 1535.54 mC⋅cm<sup>-2</sup> (curve 1). The $Q _ { \\mathrm { s t r i p } }$ is increased by 330.08 mC⋅cm<sup>-2</sup> to 1865.62 mC⋅cm<sup>-2</sup> after 4 mg/L SA is added into the VMS (curve 2). The corresponding $\\Delta Q _ { 2 0 0 \\mathrm { r / m i n } }$ is $2 1 . 5 0 \\pm 0 . 0 4 \\%$ . Similarly, as shown in Fig. 3b at 1200 r/min rotating rate, the $Q _ { s \\mathrm { t r i p } }$ in VMS without (curve 1) and with SA (curve 2) are 1693.40 and 1912.23 mC⋅cm<sup>-2</sup>, and the corresponding $\\Delta Q _ { 1 2 0 0 \\mathrm { r / m i n } }$ is $1 2 . 9 2 \\pm 0 . 0 5 \\%$ . It is worth noting that, compared with the results in VMS with SA to that without SA, for both 200 and 1200 r/min rotating rates, the copper ion cathodic reduction potential positively shifts due to the lower overpotential at a definite deposition current density, and the current densities increase in a definite deposition potential, although their Tafel slopes of the CV curves keep almost unchanged. The increasing current density at a definite deposition potential, positive shifting potential (lower overpotential) at a definite deposition current density and the resulting higher $Q _ { \\mathrm { s t r i p } }$ from the VMS with SA all demonstrate that SA itself is similar to the behavior of accelerator (opposite to the behavior of suppressor) and accelerates the electroreduction of copper ion. The larger $\\Delta Q _ { 2 0 0 \\mathrm { r / m i n } }$ signifies that the cop per electroplating amount at the center is higher than that at the mouth of TH.",
+        "bbox": [
+            507,
+            184,
+            939,
+            397
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/e9ff845440666cec09bf136dd190e4917ba00005651dc3a5c82f1b3de103a310.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 4. CV curves at rotating rates of (a) 200 r/min and (b) 1200 r/min in VMS + 300 mg/L PEG without (curve 1) and with 4 mg/L SA (curve 2) at a scan rate 20 mV/s."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            500,
+            423,
+            902,
+            641
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a7177b5cf980e7e9bdb738cac16518c8c7f25350d05b90f84f9fb84c7e48384a.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            92,
+            698,
+            497,
+            916
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/2ca8400ee04a1eac6517d2bac044b6bf0dddc95cd8ed2612e734d0b217d07180.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 5. CV curves at rotating rates of (a) 200 r/min and (b) 1200 r/min in VMS + 2 mg/L SPS without (curve 1) and with 4 mg/L SA (curve 2) at a scan rate 20 mV/s."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            502,
+            699,
+            902,
+            916
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            54
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            539,
+            42,
+            939,
+            55
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/901a352b7a3407e4723342e560a11460504c89c74e49068c134da15583b44db1.jpg",
+        "table_caption": [
+            "Electric charges of copper anodic stripping in $\\mathbf { V M S } + \\mathbf { P E G }$ and $\\mathbf { V } \\mathbf { M } \\mathbf { S } + \\mathbf { S } \\mathbf { P } \\mathbf { S }$ with and without SA (unit: mC⋅cm<sup>-2</sup>)."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Electrolyte</td><td>VMS + PEG</td><td>VMS + PEG + SA</td><td>VMS + SPS</td><td>VMS + SPS + SA</td></tr><tr><td> $Q_{\\text{strip}}$  @200 r/ min</td><td>327.13</td><td>201.37</td><td>1729.64</td><td>1905.46</td></tr><tr><td> $\\Delta Q_{200}$  r/min /%</td><td>38.44 ± 0.08</td><td></td><td>10.17 ± 0.05</td><td></td></tr><tr><td> $Q_{\\text{strip}}$  @1200 r/ min</td><td>303.04</td><td>160.85</td><td>1707.01</td><td>1935.71</td></tr><tr><td> $\\Delta Q_{1200}$  r/min /%</td><td>46.92 ± 0.10</td><td></td><td>13.40 ± 0.03</td><td></td></tr></table>",
+        "bbox": [
+            60,
+            104,
+            485,
+            204
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            221,
+            487,
+            340
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.3. Synergistic effects of safranine",
+        "text_level": 2,
+        "bbox": [
+            58,
+            361,
+            265,
+            375
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "CV experiments at low and high rotating rates (200 r/min and 1200 r/min) can be employed to further illustrate the interactions among SA, PEG and SPS. Figs. 4 and 5 present the CV curves in VMS + 300 mg/L PEG and VMS + 2 mg/L SPS without and with 4 mg/L SA, respectively. Their electric charges of copper anodic stripping in VMS + PEG (Fig. 4) and $\\mathsf { V M S } + \\mathsf { S P S } \\ ( \\mathrm { F i g } . \\ 5 )$ with and without SA are displayed in Table 3. It is worth mentioning here that, based on Eq. $( 2 ) , Q _ { 1 }$ and $Q _ { 2 }$ are respectively referred the electric charges of copper anodic stripping in VMS + PEG or VMS + SPS without and with SA. As shown in Fig. 4a at 200 r/min rotating rate, the addition of 4 mg/L SA can make the $Q _ { \\mathrm { s t r i p } }$ of 327.13 mC⋅cm<sup>-2</sup> (curve 1) in $\\mathtt { V M S } + \\mathtt { P E G }$ be decreased by 125.76 mC⋅cm<sup>-2</sup> to 201.37 mC⋅cm<sup>-2</sup> (curve 2). The corresponding $\\Delta Q _ { 2 0 0 \\mathrm { r / m i n } }$ is $3 8 . 4 4 \\pm 0 . 0 8 \\%$ . Similarly, as shown in Fig. 4b at 1200 r/ min rotating rate, the $Q _ { s t r i p }$ is also decreased from 303.04 $\\mathrm { m C } { \\cdot } \\mathrm { c m } ^ { - 2 }$ (curve 1) in VMS + PEG to 160.85 mC⋅cm<sup>-2</sup> (curve 2) after adding 4 mg/ L SA. The corresponding $\\Delta Q _ { 1 2 0 0 \\mathrm { r / m i n } }$ is 46.92 ± 0.10%. These results in Fig. 4 indicate that, compared with the results of $Q _ { s \\mathrm { t r i p } }$ in Fig. 3, PEG itself behaves as a suppressor and greatly suppresses the electroreduction of copper ion at both low and high rotating rates. We can also notice that, compared with the results in VMS + PEG with SA to that without SA, for both 200 and 1200 r/min rotating rates, the cathodic reduction potentials negatively shift due to the higher overpotential at a definite deposition current density, and the current density decreases at a definite deposition potential. SA behaves the interaction with PEG to enhance the inhibiting effect on the electro-reduction of copper ion. Compared with the results of $\\Delta Q _ { \\mathrm { s t r i p } }$ without and with SA in ${ \\mathrm { F i g . ~ } } 4 ,$ the copper electroplating amount at the mouth is lower than that at the center of TH by the interactions of SA with PEG, due to the larger relative electric charge of ΔQ<sub>1200r/min</sub>.",
+        "bbox": [
+            55,
+            387,
+            489,
+            665
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/e975993915e89ec9b68987e7993501b28d1014f2690ad72bedd29bf4cdceaae8.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            92,
+            684,
+            500,
+            902
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/635d22dba291ef5ad1fadd54c680296c79e9d61bbb0de4146d3bd51ba3746d3c.jpg",
+        "table_caption": [
+            "Table 4",
+            "Relative electric charge of copper anodic stripping at different rotating rates in VMS + PEG + SPS and VMS + PEG + SPS + SA (unit: mC $\\cdot \\mathrm { c m } ^ { - 2 } ) .$"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Electrolyte</td><td>VMS + PEG + SPS</td><td>VMS + PEG + SPS + SA</td></tr><tr><td> $Q_{\\text{strip}}$  @200 r/min</td><td>404.54</td><td>268.31</td></tr><tr><td> $Q_{\\text{strip}}$  @1200 r/min</td><td>409.67</td><td>207.87</td></tr><tr><td> $\\Delta Q/\\%$ </td><td>1.27 ± 0.04</td><td>22.53 ± 0.05</td></tr></table>",
+        "bbox": [
+            512,
+            104,
+            937,
+            160
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            179,
+            939,
+            284
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Similarly, after adding 4 mg/L SA into VMS + SPS in Fig. 5, the $Q _ { \\mathrm { s t r i p } }$ are increased from 1729.64 $\\mathrm { { m C } } { \\cdot } \\mathrm { { c m } } ^ { - 2 }$ (curve 1) to 1905.46 mC⋅cm<sup>-2</sup> (curve 2) at rotating rate of 200 r/min in Fig. 5a, and 1707.01 $\\mathrm { { m C } } { \\cdot } \\mathrm { { c m } } ^ { - 2 }$ (curve 1) to $1 9 3 5 . 7 1 \\mathrm { { m C } { \\cdot } \\mathrm { { c m } ^ { - 2 } } }$ (curve 2) at rotating rate of 1200 r/min in Fig. 5b. The corresponding $\\Delta Q _ { 2 0 0 \\mathrm { r / m i n } }$ and $\\Delta Q _ { 1 2 0 0 \\mathrm { r / m i n } }$ are 10.17 $\\pm \\ : 0 . 0 5 \\%$ and $1 3 . 4 0 \\pm 0 . 0 3 \\%$ , respectively. These results demonstrate that, compared with the results of $Q _ { s \\mathrm { t r i p } }$ in Fig. 3, SPS itself can accelerate the electro-reduction of copper ion at both high and low rotating rates. In $\\mathrm { V M S } + \\mathrm { S P S }$ with SA, for both 200 and 1200 r/min rotating rates, the potentials positively shift and the current densities increase in the potential range $\\mathbf { 0 } \\mathbf { f } \\mathrm { ~ - ~ } 0 . 4 \\sim \\mathrm { ~ - ~ } 0 . 8 \\mathrm { ~ V } ,$ showing that SA behaves the synergistic effect with SPS to enhance the accelerating effect on the electro-reduction of copper ion. Compared with the results of $\\Delta Q _ { \\mathrm { s t r i p } }$ without and with SA in Fig. 5, the copper electroplating amounts at the mouth and center of TH are both promoted with a slightly higher amount at the mouth.",
+        "bbox": [
+            507,
+            284,
+            939,
+            495
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The complicated but effective synergistic effects of the three additives PEG, SPS and SA can achieve a void-free copper filling of TH. We define a relative electric charge at different rotating rates to assess the copper filling performance, and the corresponding equation is presented below:",
+        "bbox": [
+            507,
+            494,
+            939,
+            561
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Delta Q = \\frac {\\left| Q _ {\\text {lower}} \\quad \\text {rotating} \\quad \\text {rate} - Q _ {\\text {higherrotating rate}} \\right|}{Q _ {\\text {lower}} \\quad \\text {rotating} \\quad \\text {rate}} \\times 100 \\%\\tag{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            509,
+            568,
+            816,
+            598
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Here $Q _ { \\mathrm { l o w e r } }$ <sub>rotating</sub> <sub>rate</sub> and Q<sub>higher</sub> <sub>rotating</sub> <sub>rate</sub> refer to the electric charges of copper anodic stripping at the lower rotating rate (200 r/min) and higher rotating rate (1200 r/min), respectively. ΔQ refers to the relative electric charge at the different rotating rates. The higher ΔQ shows better copper void-free filling performance. Fig. 6 and Table 4 show the CV curves and the relative electric charge of copper anodic stripping in VMS + 300 mg/L PEG + 2 mg/L SPS without and with 4 mg/L SA at different scan rates. As shown in Fig. 6a in the electrolyte containing only two additives PEG and SPS, the $Q _ { s \\mathrm { t r i p } }$ at 200 r/min (curve 1) and 1200 r/min (curve 2) are 404.54 and $4 0 9 . 6 7 ~ \\mathrm { m C } { \\cdot } \\mathrm { c m } ^ { - 2 }$ respectively. The corresponding ΔQ is $1 . 2 7 \\pm 0 . 0 4 \\%$ . We can therefore understand that the copper electroplating amount at the center is close to the mouth of $\\mathrm { T H } ,$ and this is in accordance with the practical filling effect in Fig. 2b. As presented in Fig. 6b, the $Q _ { s \\mathrm { t r i p } }$ at 200 r/min (curve 1) and 1200 r/min (curve 2) are decreased to 268.31 and 207.87 mC $\\cdot \\mathrm { c m } ^ { - 2 }$ in the electrolyte containing PEG, SPS and SA. The corresponding ΔQ is $2 2 . 5 3 \\pm 0 . 0 5 \\% .$ . We can also conclude that, due to the complicated but effective synergistic effects of the three additives (PEG, SPS and SA) in the acidic sulfate bath, the copper electroplating amount at the center is higher than that at the mouth of TH, and this is in accordance with the practical filling effect in Fig. 2c.",
+        "bbox": [
+            507,
+            602,
+            939,
+            658
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a3d8d8633a188c662f8e89d7e91fcb66e1d48879a9165bf1b91e25af2c9fbe22.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 6. CV curves at a scan rate 20 mV/s in (a) VMS + 300 mg/L PEG + 2 mg/L SPS at rotating rates of (1) 200 r/min and (2) 1200 r/min, and (b) $\\mathrm { V M S } + 3 0 0 ~ \\mathrm { m g / L }$ PEG + 2 mg/L SPS + 4 mg/L SA at rotating rates of (1) 200 r/min and (2) 1200 r/min."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            500,
+            684,
+            902,
+            904
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            54
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            541,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            492,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/15c0b4885ada0b3b90f6fbb13798520da0c1de20cc54699533618a0232972592.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            134,
+            65,
+            460,
+            368
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/40c244bde849669fa84fee3c0c9e290981837589e974b466f4e7c50b0fb6dc16.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 7. In situ FTIR spectra: (a) BE composed of 2.2 g/L CuSO<sub>4</sub>•5H<sub>2</sub>O, 0.49 g/L H<sub>2</sub>SO<sub>4</sub> and 60 mg/L Cl<sup>-</sup>, (b) BE + 1 g/L SA."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            539,
+            66,
+            865,
+            366
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/d06e373946ce5ae5020db7e8f7a6a450a8c9c55a32a42e58c1c8fecc5e6ae513.jpg",
+        "table_caption": [
+            "The characteristic peaks and corresponding assignments."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Chemicals</td><td>Peaks</td><td>Wavenumbers/ $cm^{-1}$ </td><td>Assignments</td><td>Ref.</td></tr><tr><td> $SO_{4}^{2-}$ </td><td>A</td><td>1202</td><td> $SO_{4}^{2-}$ </td><td>[29]</td></tr><tr><td rowspan=\"5\">SA</td><td>B</td><td>1497</td><td rowspan=\"2\">C=C in the aromatic ring</td><td rowspan=\"5\">[30,31,35, 36]</td></tr><tr><td>C</td><td>1397</td></tr><tr><td>D</td><td>1304</td><td>C-N in the aromatic ring</td></tr><tr><td>F</td><td>1460</td><td>C=N in the aromatic ring</td></tr><tr><td></td><td></td><td> $NH_{2}$ </td></tr><tr><td>SPS</td><td>E</td><td>1264</td><td>S=O</td><td>[37]</td></tr></table>",
+        "bbox": [
+            60,
+            438,
+            484,
+            569
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            588,
+            487,
+            814
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.4. In situ FTIR study of SA interreaction mechanism",
+        "text_level": 2,
+        "bbox": [
+            58,
+            831,
+            374,
+            844
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "In situ FTIR experiments are conducted to further comprehend the interaction mechanisms among SA, PEG and SPS in the acidic sulfate copper electronic plating bath. To improve the detection sensitivity, the base electrolyte (BE) is composed of 2.2 g/L $\\mathrm { C u S O } _ { 4 } { \\bullet } \\mathrm { S H } _ { 2 } \\mathrm { O } ,$ , 0.49 g/L $\\mathrm { H _ { 2 } S O _ { 4 } }$ and 60 mg/L Cl<sup>-</sup>, and the concentrations of SPS and SA are adjusted to 60 mg/L and 1 g/L, respectively.",
+        "bbox": [
+            55,
+            857,
+            487,
+            936
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The in situ FTIR spectra of BE without and with SA are shown in Fig. 7, and the characteristic peaks and corresponding assignments are listed in Table 5. As shown in Fig. $^ { 7 \\mathrm { { a } , } }$ when only $\\mathrm { C u } ^ { 2 + } , \\mathrm { s O } _ { 4 } ^ { 2 - }$ and Cl ions exist in the BE, a characteristic peak (A) arises at about 1202 $\\mathrm { c m } ^ { - 1 }$ for the absorption of $S O _ { 4 } ^ { 2 - }$ [29]. By the potential negatively shifting, the peak intensity continually increases due to the accumulation of $S O _ { 4 } ^ { 2 - }$ for the reduction reactions of $\\mathrm { { C u } ^ { 2 + } }$ to Cu and $\\mathrm { H } ^ { + }$ to H<sub>2</sub> [14]. After SA is added into the BE (Fig. 7b), other two characteristic peaks (B and C) at around 1497 and $1 3 9 7 \\mathrm { c m } ^ { - 1 }$ appear at − 0.7 V, which are assigned to the stretching vibration of C––C and C-N in the aromatic ring [30,31]. By the potential negatively shifting, the wavenumbers of the two peaks blue shift in $2 \\sim 4 ~ \\mathrm { c m ^ { - 1 } }$ and the peak intensities increase, indicating that SA can be adsorbed on the copper surface through the N atom in the aromatic ring.",
+        "bbox": [
+            507,
+            404,
+            939,
+            588
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Theoretical calculations can well analyze the active sites of SA and its adsorption ability on the metal surface. Fig. 8 shows the molecular structure, corresponding frontier molecular orbitals, electrostatic potential (ESP) and adsorption model of SA. As shown in Fig. 8b, the energies of the highest occupied molecular orbital (E<sub>HOMO</sub>), lowest unoccupied molecular orbital $\\left( E _ { \\mathrm { L U M O } } \\right)$ ) and the energy gap $( \\Delta E = E _ { \\mathrm { L U M O } } -$ $E _ { \\mathrm { H O M O } } )$ are − 8.79 eV, − 5.83 eV and 2.97 eV, respectively. Based on the frontier molecular orbital theory, the energies of LUMO and HOMO are related to the electron-accepting and electron-donating abilities of molecules. A lower $E _ { \\mathrm { L U M O } }$ means that the molecule possesses a higher tendency to receive electrons, and a higher E<sub>HOMO</sub> means that the molecule possesses a higher tendency to donate electrons [32]. The ΔE can evaluate the adsorption ability of a molecule. The smaller ΔE corresponds to the stronger adsorption ability [33]. Janus Green B (JGB) is a classic organic additive in the acidic sulfate copper electronic plating bath, which can be regarded as the reference chemical compound to assess the adsorption ability of other additives. Compared with JGB [14], the value of $E _ { \\mathrm { H O M O } }$ for SA is lower than that of JGB (−5.75 eV), indicating that it is slightly difficult for SA to donate electrons to the copper surface. The value of $E _ { \\mathrm { L U M O } }$ for SA is also lower than that of JGB (−3.68 eV), implying that it is easy for SA to receive electrons from the copper surface to form a back-donation bond. The ΔE value of SA is higher than that of JGB (2.06 eV), signifying that the SA itself possesses weaker adsorption on the copper surface.",
+        "bbox": [
+            507,
+            588,
+            939,
+            906
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "To further understand the specific atoms involved in adsorption, the ESP of SA is calculated and displayed in Fig. 8c. The ESP represents the distribution of electron density, where a low ESP value is equivalent to high electron density [34]. Obviously, the nitrogen atoms at both sides of SA (dark blue region) are susceptible to electrophilic attack, and the nitrogen atoms in the middle of SA (light blue region) are susceptible to nucleophilic attack. Combined with the in situ FTIR spectra results in Fig. 7, it can be determined that SA adsorbs on the copper surface through the N atom in the aromatic ring (light blue region). The adsorption model is proposed in Fig. 8d.",
+        "bbox": [
+            507,
+            905,
+            939,
+            933
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            54
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            541,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            494,
+            952,
+            504,
+            960
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/5562067bc355b03354b19e4937db38a236aeaa96baa087c78e886e4421b752e4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            132,
+            66,
+            425,
+            277
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/696b85434afe6c5dbe44fc2744610fd10274bf65acad171b06e30f3a16223c67.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            453,
+            71,
+            847,
+            274
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/7748bb81cd8f131b15f91105ec53dfb216e9fcbc9b17ff74ea5591c575e8adfd.jpg",
+        "image_caption": [
+            "(d)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            132,
+            297,
+            473,
+            505
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/777d4dbbeb09aaf681aa4a4f73207e0125f5ab976943e44bf19f18718fea9799.jpg",
+        "image_caption": [
+            "Fig. 8. Characteristics of SA molecule: (a) molecular structure, (b) energy values of HOMO $( E _ { \\mathrm { H O M O } } )$ , LUMO $\\left( E _ { \\mathrm { L U M O } } \\right)$ and the energy gap (ΔE), (c) electrostatic potential and (d) schemes of SA adsorption model on the copper surface."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            500,
+            305,
+            865,
+            499
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "chart",
+        "img_path": "images/849f6d0e3d3bc13040b91d7e1bee051e0fd6adf93f79b667323d16e2201efa38.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a) $\\mathbf { B E } + \\mathbf { S A } + \\mathbf { P E G }$"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            132,
+            591,
+            460,
+            868
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "chart",
+        "img_path": "images/92bf26c9b91c7748c6af75cb41fc78f7fc3f362adf978a2d9dc20ed5001d383b.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b) $\\mathbf { B E } + \\mathbf { S A } + \\mathbf { S P S }$",
+            "Fig. 9. In situ FTIR spectra: (a) BE + 1 g/L SA + 300 mg/L PEG and (b) BE + 1 g/L SA + 60 mg/L SPS"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            539,
+            590,
+            867,
+            870
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            54
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            541,
+            42,
+            939,
+            55
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            492,
+            950,
+            505,
+            960
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/712b61222ccc03d281dfce6d77b6aa114a18b626b572ee5c7f88665216885be2.jpg",
+        "image_caption": [
+            "Fig. 10. Mechanism diagram of TH copper void-free filling."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            132,
+            66,
+            862,
+            417
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            451,
+            487,
+            556
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The in situ FTIR spectra for interactions of PEG and SPS with SA are displayed in Fig. 9. As shown in Fig. 9a, when PEG is added into the electrolyte composed of $\\mathrm { C u S O } _ { 4 } { \\bullet } 5 \\mathrm { H } _ { 2 } \\mathrm { O } , \\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 } ,$ Cl<sup>-</sup> and SA, though there is no characteristic peak of PEG appearing, the intensities for characteristic peaks B and C of SA slightly increase. This manifests that PEG can slightly enhance the adsorption ability of SA. As shown in Fig. 9b, when SPS is added into the electrolyte composed of $\\mathrm { C u S O _ { 4 } { \\bullet } 5 H _ { 2 } O , H _ { 2 } S O _ { 4 } , C l }$ and SA, there are three new peaks (F, D and E) arising at about 1460, 1304 and 1264 cm<sup>-1</sup>. The peaks of D and F can be respectively assigned to the stretching vibration of C––N in the aromatic ring and the deformation vibration of NH in SA [35,36]. The peak of E can be attributed to the stretching vibration S––O of SPS [37]. It is worth noting that the intensities of peaks B and C markedly increase, demonstrating that SPS can adsorb itself and greatly heighten the adsorption of SA on the Cu surface. Therefore, we can conclude that PEG and SPS both possess synergistic effects with SA. All the additives of PEG, SPS and SA play complicated but effective actions for the TH copper void-free filling. The corresponding mechanism diagram for the synergistic effects of additives on the TH copper filling is presented in Fig. 10.",
+        "bbox": [
+            55,
+            556,
+            487,
+            809
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4. Conclusions",
+        "text_level": 2,
+        "bbox": [
+            58,
+            820,
+            163,
+            833
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "It is very important to optimize the novel additive for TH copper void-free filling. In this work, we first successfully develop a novel SAbased acidic sulfate copper electronic plating process, and the process behaves the excellent copper void-free filling of TH. The complicated but effective molecule actions and synergistic effects among PEG, SPS and SA are carefully studied for the void-free filling of TH by CV, in situ FTIR experiments and theoretical calculations. This work is undoubtedly beneficial to understanding the interaction mechanisms of additives at a molecular level, and further developing and improving the acidic sulfate copper electronic plating in TH void-free filling.",
+        "bbox": [
+            55,
+            847,
+            487,
+            926
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            451,
+            939,
+            505
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "CRediT authorship contribution statement",
+        "text_level": 2,
+        "bbox": [
+            509,
+            517,
+            789,
+            530
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Lei Jin: Conceptualization, Investigation, Methodology, Validation, Writing – original draft. An-Ni Zheng: Investigation, Formal analysis. Mei Wang: Validation. Jia-Qiang Yang: Validation. Zhao-Yun Wang: Investigation. Fang-Zu Yang: Conceptualization, Methodology, Writing – review & editing, Supervision. De-Yin Wu: Conceptualization. Dongping Zhan: Conceptualization, Methodology, Writing – review & editing, Supervision.",
+        "bbox": [
+            507,
+            543,
+            939,
+            636
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Declaration of Competing Interest",
+        "text_level": 2,
+        "bbox": [
+            509,
+            649,
+            734,
+            662
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+        "bbox": [
+            507,
+            675,
+            939,
+            716
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Data availability",
+        "text_level": 2,
+        "bbox": [
+            510,
+            728,
+            623,
+            741
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Data will be made available on request.",
+        "bbox": [
+            529,
+            755,
+            771,
+            767
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgments",
+        "text_level": 2,
+        "bbox": [
+            510,
+            781,
+            633,
+            794
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The authors are all thankful for the financial supports from the National Natural Science Foundation of China (22132003, 21972118, 22032004).",
+        "bbox": [
+            509,
+            807,
+            939,
+            847
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "References",
+        "text_level": 2,
+        "bbox": [
+            510,
+            860,
+            586,
+            873
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[1] Y. Chen, W. He, X. Chen, C. Wang, Z. Tao, S. Wang, G. Zhou, M. Moshrefi-Torbati, Plating uniformity of bottom-up copper pillars and patterns for ic substrates with additive-assisted electrodeposition, Electrochim. Acta 120 (2014) 293 301.",
+        "bbox": [
+            517,
+            885,
+            932,
+            915
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[2] Y.M. Chen, Y.Z. Chen, J.Z. Wang, K. Zhu, L.P. Jia, S.X. Wang, W. He, Q.G. Chen, H. Miao, J.Q. Zhou, Enhancing adhesion performance of sputtering Ti/Cu film on",
+        "bbox": [
+            517,
+            916,
+            932,
+            936
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            541,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "pretreated composite prepreg for stacking structure of IC substrates, Compos Part B Eng. 158 (2019) 400–405.",
+        "bbox": [
+            85,
+            66,
+            482,
+            85
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[3] L. Jin, W.-Q. Li, Z.-Y. Wang, J.-Q. Yang, A.-N. Zheng, F.-Z. Yang, D. Zhan, D.-Y. Wu, Z.-Q. Tian, Novel, simple, and green citrate-based copper electronic electroplating bath in microvia void-free filling for printed circuit board application, ACS Sustain. Chem. Eng. 10 (2022) 14204–14211.",
+        "bbox": [
+            65,
+            87,
+            482,
+            126
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[4] J.-M. Lee, A.C. West, Impact of pulse parameters on current distribution in high aspect ratio vias and through-holes, J. Electrochem. Soc. 152 (2005) C645.",
+        "bbox": [
+            65,
+            127,
+            477,
+            147
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[5] Y. Zhang, T. Hang, M. Dong, Y. Wu, H. Ling, A. Hu, M. Li, Effects of 2-mercaptopyridine and Janus Green B as levelers on electrical resistance of electrodeposited copper thin film for interconnects, Thin Solid Films 677 (2019) 39–44.",
+        "bbox": [
+            65,
+            147,
+            480,
+            177
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[6] L.J. Zhao-Yun Wang, Jia-Qiang Yang, Wei-Qing Li, Dong-Ping Zhan, Fang-Zu Yang, Shi-Gang Sun, Studies and progresses on hole metallization in high-density interconnected printed circuit boards, J. Electrochem. 27 (2021) 316–331.",
+        "bbox": [
+            65,
+            177,
+            480,
+            206
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[7] Y.H. Zhang, M.Z. An, P.X. Yang, J.Q. Zhang, Recent advances in electroplating of through-hole copper interconnection, Electrocatalysis 12 (2021) 619–627.",
+        "bbox": [
+            65,
+            206,
+            482,
+            226
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[8] M. Ozkok, S. Lamprecht, A. Ozkok, S. Chien, H. Hubner, C. Ohde, Filling of microvias and through holes by electrolytic copper plating – current status and future outlook, in: Proceedings of the 13th International Microsystems, Packaging, Assembly and Circuits Technology Conference (Impact), 2018, pp. 83–88.",
+        "bbox": [
+            65,
+            228,
+            480,
+            267
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[9] N. Jayaraju, L. Barstad, Z. Niazimbetova, M. Rzeznik, M. Lin, D. Yee, Next generation copper electroplating for HDI micro-via filling and through hole plating, in: Proceedings of the International Microsystems, Packaging, Assembly & Circuits Technology Conference, 2015, pp. 161–164.",
+        "bbox": [
+            65,
+            268,
+            482,
+            307
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[10] J.G. Lv, X.H. Zhao, X. Jie, J. Li, X.C. Wei, B. Chen, G. Hong, W.J. Wu, L.M. Wang, Fatty acid quaternary ammonium surfactants based on renewable resources as a leveler for copper electroplating, ChemElectroChem 6 (2019) 3254–3263.",
+        "bbox": [
+            60,
+            307,
+            480,
+            337
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[11] X.M. Wang, K. Wang, J. Xu, J. Li, J.E. Lv, M. Zhao, L.M. Wang, Quinacridone skeleton as a promising efficient leveler for smooth and conformal copper electrodeposition, Dyes Pigments 181 (2020).",
+        "bbox": [
+            60,
+            337,
+            465,
+            366
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[12] L. Zheng, W. He, K. Zhu, C. Wang, S.X. Wang, Y. Hong, Y.M. Chen, G.Y. Zhou, H. Miao, J.Q. Zhou, Investigation of poly (1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole, Electrochim. Acta 283 (2018) 560–567.",
+        "bbox": [
+            60,
+            368,
+            470,
+            408
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[13] J. Li, G.Y. Zhou, Y. Hong, C. Wang, W. He, S.X. Wang, Y.M. Chen, Z.S. Wen, Q. Y. Wang, Copolymer of pyrrole and 1,4-butanediol diglycidyl as an efficient additive leveler for through-hole copper electroplating, ACS Omega 5 (2020) 4868–4874.",
+        "bbox": [
+            60,
+            408,
+            473,
+            448
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[14] Z.-Y. Wang, L. Jin, G. Li, J.-Q. Yang, W.-Q. Li, D. Zhan, Y.-X. Jiang, F.-Z. Yang, S.- G. Sun, Electrochemical and in situ FTIR spectroscopic studies of gentian violet as a novel leveler in through-holes metallization for printed circuit board applications, Electrochim. Acta 410 (2022), 140018.",
+        "bbox": [
+            60,
+            448,
+            482,
+            488
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[15] P. Dixit, J. Miao, Aspect-ratio-dependent copper electrodeposition technique for very high aspect-ratio through-hole plating, J. Electrochem. Soc. 153 (2006) G552.",
+        "bbox": [
+            60,
+            488,
+            480,
+            509
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[16] W.-P. Dow, H.-H. Chen, M.-Y. Yen, W.-H. Chen, K.-H. Hsu, P.-Y. Chuang, H. Ishizuka, N. Sakagawa, R. Kimizuka, Through-hole filling by copper electroplating, J. Electrochem. Soc. 155 (2008) D750–D757.",
+        "bbox": [
+            60,
+            509,
+            440,
+            538
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[17] T.M. Braun, D. Josell, J. John, T.P. Moffat, Simulation of copper electrodeposition in through-hole vias, J. Electrochem. Soc. 167 (2019).",
+        "bbox": [
+            60,
+            539,
+            480,
+            559
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[18] T.P. Moffat, D. Wheeler, S.K. Kim, D. Josell, Curvature enhanced adsorbate coverage mechanism for bottom-up superfilling and bump control in damascene processing, Electrochim. Acta 53 (2007) 145–154.",
+        "bbox": [
+            60,
+            559,
+            477,
+            588
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[19] N.T.M. Hai, J. Oderrnatt, V. Grimaudo, K.W. Kramer, A. Fluegel, M. Arnold, D. Mayer, P. Broekmann, Potential oscillations in galvanostatic Cu electrodeposition: antagonistic and synergistic effects among SPS, chloride, and suppressor additives, J. Phys. Chem. C 116 (2012) 6913–6924.",
+        "bbox": [
+            60,
+            588,
+            472,
+            629
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[20] B. Bozzini, L. D’Urzo, C. Mele, Electrodeposition of Cu from cyanoalkaline solutions in the presence of CPC and PEG an electrochemical and in Situ SERS investigation, J. Electrochem. Soc. 152 (2005) C255–C264.",
+        "bbox": [
+            512,
+            66,
+            919,
+            97
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[21] B. Bozzini, L. D’Urzo, V. Romanello, C. Mele, Electrodeposition of Cu from acidic sulfate solutions in the presence of bis-(3-sulfopropyl)-disulfide (SPS) and chloride ions, J. Electrochem. Soc. 153 (2006) C254 C257.",
+        "bbox": [
+            512,
+            97,
+            934,
+            126
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[22] Z.V. Feng, X. Li, A.A. Gewirth, Inhibition due to the interaction of polyethylene glycol, chloride, and copper in plating baths: a surface-enhanced Raman study, J. Phys. Chem. B 107 (2003) 9415–9423.",
+        "bbox": [
+            512,
+            127,
+            926,
+            156
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[23] M. Kunimoto, F. Yamaguchi, M. Yanagisawa, T. Homma, In situ measurement for diffusion-adsorption process of Cl− and SPS in through-silicon via using SERS effect produced by Cu nanodot arrays, J. Electrochem.Soc. 166 (2019) D212 D217.",
+        "bbox": [
+            512,
+            157,
+            936,
+            187
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[24] H.C. Kim, M.J. Kim, J.J. Kim, Communication-acceleration of TSV filling by adding thiourea to PEG-PPG-SPS-I-, J. Electrochem. Soc. 165 (2018) D91 D93.",
+        "bbox": [
+            512,
+            187,
+            934,
+            206
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[25] J. Mendez, R. Akolkar, U. Landau, Polyether suppressors enabling copper metallization of high aspect ratio interconnects, J. Electrochem. Soc. 156 (2009) D474–D479.",
+        "bbox": [
+            512,
+            208,
+            931,
+            237
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[26] J. Zhang, X. Qu, Y. Han, L. Shen, S. Yin, G. Li, Y. Jiang, S. Sun, Engineering PtRu bimetallic nanoparticles with adjustable alloying degree for methanol electrooxidation: Enhanced catalytic performance, Appl. Catal. B Environ. 263 (2020), 118345.",
+        "bbox": [
+            512,
+            237,
+            932,
+            277
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[27] P.-F. Zhang, J.-Y. Zhang, T. Sheng, Y.-Q. Lu, Z.-W. Yin, Y.-Y. Li, X.-X. Peng, Y. Zhou, J.-T. Li, Y.-J. Wu, J.-X. Lin, B.-B. Xu, X.-M. Qu, L. Huang, S.-G. Sun, Synergetic effect of Ru and NiO in the electrocatalytic decomposition of Li2CO3 to enhance the performance of a Li-CO /O2 battery, ACS Catal. 10 (2020) 1640–1651.",
+        "bbox": [
+            512,
+            277,
+            934,
+            317
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[28] M. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb, J.R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. Petersson, Gaussian 09, revision D. 01, Gaussian, Inc., Wallingford CT, 2009.",
+        "bbox": [
+            512,
+            317,
+            932,
+            346
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[29] G.-K. Liu, S. Zou, D. Josell, L.J. Richter, T.P. Moffat, SEIRAS study of chloridemediated polyether adsorption on Cu, J. Phys. Chem. C 122 (2018) 21933–21951.",
+        "bbox": [
+            512,
+            348,
+            934,
+            368
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[30] S. Zhao, J. Li, L. Wang, X. Wang, Degradation of rhodamine B and safranin-T by MoO3: CeO2 nanofibers and air using a continuous mode, CLEAN Soil Air Water 38 (2010) 268–274.",
+        "bbox": [
+            512,
+            368,
+            934,
+            397
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[31] G. Ciri´ ´c-Marjanovi´c, N.V. Blinova, M. Trchov´a, J. Stejskal, Chemical oxidative polymerization of safranines, J. Phys. Chem. B 111 (2007) 2188–2199.",
+        "bbox": [
+            512,
+            398,
+            919,
+            419
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[32] Z.Q. Lai, S.X. Wang, C. Wang, Y. Hong, Y.M. Chen, H.W. Zhang, G.Y. Zhou, W. He, K.H. Ai, Y.Q. Peng, Computational analysis and experimental evidence of two typical levelers for acid copper electroplating, Electrochim. Acta 273 (2018) 318–326.",
+        "bbox": [
+            512,
+            419,
+            932,
+            457
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[33] B. Chen, J. Xu, L. Wang, L. Song, S. Wu, Synthesis of quaternary ammonium salts based on diketopyrrolopyrroles skeletons and their applications in copper electroplating, ACS Appl. Mater. Interfaces 9 (2017) 7793 7803",
+        "bbox": [
+            512,
+            457,
+            934,
+            488
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[34] Z.Q. Lai, S.X. Wang, C. Wang, Y. Hong, G.Y. Zhou, Y.M. Chen, W. He, Y.Q. Peng, D. J. Xiao, A comparison of typical additives for copper electroplating based on theoretical computation, Comput. Mater. Sci. 147 (2018) 95 102.",
+        "bbox": [
+            512,
+            488,
+            932,
+            518
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[35] S.A. Moon, B.K. Salunke, P. Saha, A.R. Deshmukh, B.S. Kim, Comparison of dye degradation potential of biosynthesized copper oxide, manganese dioxide, and silver nanoparticles using Kalopanax pictus plant extract, Korean J. Chem. Eng. 35 (2018) 702 708.",
+        "bbox": [
+            512,
+            518,
+            934,
+            558
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[36] H. Van Damme, M. Crespin, M. Cruz, J. Fripiat, Adsorption of safranine by Na+, Ni2+ and Fe3+ montmorillonites, Clays Clay Miner. 25 (1977) 19–25.",
+        "bbox": [
+            512,
+            559,
+            931,
+            578
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[37] Z.D. Schultz, Z.V. Feng, M.E. Biggin, A.A. Gewirth, Vibrational spectroscopic and mass spectrometric studies of the interaction of bis(3-sulfopropyl)-disulfide with Cu surfaces, J. Electrochem. Soc. 153 (2006) C97",
+        "bbox": [
+            512,
+            578,
+            932,
+            609
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "L. Jin et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 671 (2023) 131706",
+        "bbox": [
+            541,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            494,
+            950,
+            505,
+            960
+        ],
+        "page_idx": 8
+    }
+]

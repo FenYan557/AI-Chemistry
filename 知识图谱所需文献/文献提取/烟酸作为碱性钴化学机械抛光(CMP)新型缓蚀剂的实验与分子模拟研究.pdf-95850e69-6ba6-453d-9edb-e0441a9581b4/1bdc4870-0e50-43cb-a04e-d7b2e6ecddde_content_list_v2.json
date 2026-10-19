@@ -1,0 +1,4851 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                57,
+                206,
+                813,
+                248
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/db46367191170029e6c7c5ae5abc140095d8030e79232baf8f8e24dd85c7a3be.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                838,
+                185,
+                887,
+                223
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Boao Ma <sup>a,b</sup>, Shihao Zhang <sup>a,b</sup>, Baimei Tan <sup>a,b,*</sup>, Wei Li <sup>a,b</sup>, Yazhen Wang <sup>a,b</sup>, Xiaoqin Sun <sup>a,b</sup>"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                261,
+                788,
+                279
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>a</sup> School of Electronics and Information Engineering, Hebei University of Technology, Tianjin 300130, China Tianjin Key Laboratory of Electronic Materials and Devices, Tianjin 300130, China"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                287,
+                556,
+                311
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "G R A P H I C A L A B S T R A C T"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                337,
+                278,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The major mechanism of corrosion inhibition effect by nicotinic acid (NA) is to form a passivation film which adsorbs on cobalt (Co) surface so as to strengthen the surface impedance and isolate the corrosion medium. In an alkaline environment (pH 10), NA exists in the form of Nic<sup>2−</sup> ions, which are negatively charged. Driven by electrostatic forces and Van der Waals forces between NA molecule (N atom and the carboxyl) and cobalt atom, Nic<sup>2−</sup> ions are appealed to the Co(OH)<sub>2</sub>, leading to the appearance of Co(II)-NA molecule groups. NA molecules produce a single or multilayer self-assembled Co(II)-NA film on the cobalt surface and further preven the corrosion on Co film."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                361,
+                939,
+                424
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fc5101d1b8bb71ddd40b5f67445466c713916b28fb410ce902fc5fdbc15e9e9a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                60,
+                433,
+                566,
+                562
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "A R T I C L E I N F O"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                609,
+                196,
+                622
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Keywords: Cobalt interconnection Nicotinic acid Corrosion inhibitor Electrochemistry Molecule simulation"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                633,
+                174,
+                699
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "A B S T R A C T"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                334,
+                609,
+                436,
+                622
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cobalt (Co) is the interconnect metal of integrated circuits with the feature size of 10 nm and below, and Co corrosion is the main problem in cobalt interconnect chemical mechanical polishing (CMP). The introduction of inhibitors is one of the most ideal approaches to reduce corrosion. In this work, useful insights into the corrosion inhibition performance of nicotinic acid (NA), a green inhibitor, on cobalt film in alkaline medium were investigated via electrochemical characterization, surface analysis, quantum chemical calculation, and molecular dynamics (MD) simulation, as well as the adsorption mechanism at atomic level was explored. NA belongs to anodic erosion inhibitor and its inhibition efficiency reached a maximum of 86.65 % at the concentration of 80 mM pH 10, which was identified by the contact angle and potentiodynamic polarization (PDP) test. The elec trochemical impedance spectra (EIS) suggested that the surface resistance was enhanced to prevent corrosion. Free energy obtained from the Langmuir model indicates that NA molecules are physically and spontaneously adsorbed on cobalt surface. XPS results further confirmed this point, which reveals that NA exists in the form of Nic<sup>2−</sup> in alkaline solution and forms a "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C o ( O H ) _ { 2 } ( N i c ^ { 2 - } ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "molecule group (Co(II)-NA) on Co surface. Additionally, quantum chemical calculations based on density function theory (DFT) have approved that C–N bond and carboxyl group are the active sites of NA molecule and form the most significant electrostatic adsorption force with cobalt atoms. Moreover, it can be inferred from MD simulations that NA molecules are spontaneously and physically adsorbed on the cobalt surface at a certain angle. In a word, NA manifests its effectiveness in corrosion inhibition of cobalt and will become a potential cobalt CMP inhibitor. The research methods and results of this paper are beneficial to the study of the adsorption characteristics and inhibition mechanism of inhibitors on the metal surface, and provide a theoretical basis for optimizing the composition of Co CMP slurry."
+                    }
+                ]
+            },
+            "bbox": [
+                332,
+                633,
+                939,
+                817
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                263,
+                42,
+                734,
+                56
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                58,
+                74,
+                161,
+                143
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Contents lists available at ScienceDirect"
+                    }
+                ]
+            },
+            "bbox": [
+                379,
+                75,
+                621,
+                89
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "ELSEVIER"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                145,
+                161,
+                162
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects"
+                    }
+                ]
+            },
+            "bbox": [
+                257,
+                95,
+                744,
+                138
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "journal homepage: www.elsevier.com/locate/colsurfa"
+                    }
+                ]
+            },
+            "bbox": [
+                327,
+                148,
+                672,
+                163
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "COLLOIDSANDSURFACESA"
+                    }
+                ]
+            },
+            "bbox": [
+                838,
+                66,
+                937,
+                158
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "* Corresponding author at: School of Electronics and Information Engineering, Hebei University of Technology, Tianjin 300130, China. E-mail address: bmtan@hebut.edu.cn (B. Tan)."
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                843,
+                805,
+                868
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "https://doi.org/10.1016/j.colsurfa.2022.129816"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                876,
+                327,
+                889
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "Received 15 April 2022; Received in revised form 14 July 2022; Accepted 26 July 2022"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                887,
+                542,
+                902
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "Available online 28 July 2022"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                901,
+                231,
+                914
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "0927-7757/© 2022 Elsevier B.V. All rights reserved."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                912,
+                347,
+                926
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                332,
+                66,
+                939,
+                116
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Introduction"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                152,
+                166,
+                165
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "As the feature size of integrated circuits (ICs) shrinks below 10 nm, cobalt is the most promising material to replace tungsten (W) and copper (Cu) as the front and intermediate lines owing to its great resistance to electromigration and good performance in step coverage [1]. In addition, the barrier layer of cobalt interconnect ICs is thinner than that of copper [2,3]. After cobalt film deposition, the wafer surface is uneven, so chemical mechanical polishing (CMP) is used in IC manufacturing process to realize local and global planarization through the coordina tion of chemical action and mechanical action [4]."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                177,
+                487,
+                297
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "However, Co is prone to being corroded by CMP slurry, which con tains many aggressive chemicals, e.g., oxidizers and complexing agents, in which "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is widely used to increase removal rate of cobalt as a green oxidizer [5,6]. Yang et al. [7] studied the corrosion of Co in alkaline medium containing "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and found that lots of pits were appeared in the presence of 0.1 wt% "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and at some locations, the coating layer was fragmented and peeling occurred. In order to reduce the corrosion of Co surface, many methods and new chemicals have been introduced into the study of cobalt. Badawy et al. [8] investigated the corrosion of Co in alkaline solution and suggested that the potential of Co can be increased by increasing the pH value of the solution to slow down the corrosion rate. Accordingly, all experiments in this study were carried out under alkaline conditions."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                297,
+                487,
+                467
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In recent years, the addition of corrosion inhibitors has been proved to be an effective measure to inhibit corrosion of metal materials [9 11]. Many studies show that organic inhibitor molecules containing elements such as C, N, and O are often more effective in corrosion prevention, among which benzotriazole (BTA) is a common inhibitor and has been broadly commercialized [12 14]. The corrosion inhibition effect of BTA was firstly reported by Cotton et al. [15], and since then researchers have carried out a lot of researches on BTA "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[ 9 , 1 6 , 1 7 ]"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". However, some current studies reported that BTA has a poor inhibition effect on Co corrosion in corrosive medium. Yang et al. [7] characterized the surface morphology of Co in the solution containing BTA and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "by SEM, and concluded that BTA could not effectively reduce the pitting caused by "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "on Co surface. Similarly, Lei et al. [18] suggested that BTA is no longer applicable to Co CMP by means of surface morphology test. In addition, the toxicity of BTA also limits its application in CMP [19,20]. Therefore, scholars have been committed to developing green and effective corrosion inhibitors for Co CMP, such as organic acid and vi tamins [21–23]."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                467,
+                487,
+                704
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Notably, nicotinic acid, which belongs to the B3 group of vitamins, is widely used as an intermediate in the synthesis of various pharmaceuticals and shows favorable potential in corrosion inhibition effect. Mohamed et al. [23] investigated the polishing behavior and defects of cobalt samples with an aqueous mixture of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "oxalic acid (OA), and nicotinic acid at pH 10. The results show that the alkaline solution including 80 mM NA can broadly reduce the corrosion current of cobalt samples and galvanic erosion between cobalt and copper, proving that NA can operate as an inhibitor for Co film in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "solution. He et al. [24] concluded that NA offers a composite layer on the cobalt surface, and prevents further Co corrosion, while a combination of 10 mM NA and 5 mM TAZ minimized Co-Cu corrosion as measured by zero resistance galvanometer. Although it is confirmed that NA possesses an inhibition effect on cobalt, further studies on NA, such as the interaction process between NA and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C o } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "the adsorption mechanism of NA on Co surface and so on, have not been reported. Studying the adsorption of corrosion inhibitor on the metal surface is of great significance to explore the corrosion inhibition mechanism. This work mainly studies the inhibitory effect of NA on cobalt corrosion in alkaline medium, as well as the formation and mechanism of [NA-Co] complex."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                704,
+                489,
+                931
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                152,
+                939,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Studies on the performance of inhibitor molecules only by conventional chemical experiments and characteristic methods are inadequate. The rapid development of theoretical chemistry provides a more scientific explanation for its research. Molecular simulation is a crucial approach to study the molecular chemical activity of corrosion inhibitors from a microscopic perspective [25,27–29]. The adsorption mechanism between inhibitors and metal substrates can be intuitively characterized by molecular simulation technology. Ma et al. [26] probed the effect of potassium oleate (PO) as a viable corrosion inhibitor for Cu films in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E D T A  – H _ { 2 } O _ { 2 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "based solution through combining chemical experiment analysis with molecular simulation. Density functional theory and molecular dynamics approaches were applied to study the inhibition mechanism at the atom level of PO on Cu(111) substrate. Yin et al. [16] evaluated the corrosion inhibition of BTA and TAZ at the molecular level via comparing quantum chemical descriptors. Therefore, it is necessary to further study the quantum chemical properties of NA and micro adsorption mechanism of NA on Co surface."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                192,
+                939,
+                416
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Considering that NA is an inexpensive, green, and easily available organic inhibitor, it was introduced into the alkaline (pH 10) solution. The molecular structure of NA is shown in Fig. 1. Contact angle and PDP measurements were carried out to determine the optimal concentration of NA. The passive film of NA was investigated by EIS, and the reaction between Co and NA was explored by XPS. Density functional theory was employed to study the properties of NA molecule. Several chemical descriptors were calculated to reveal active sites of NA molecule and the electron transfer characteristics between NA and Co atoms, as well as MD simulation was conducted to study the adsorption configuration, adsorption stability and adsorption sites of NA on Co surface. This work provides a more in-depth insight into the development of alkaline cobalt CMP slurry."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                414,
+                939,
+                588
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Experimenta"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                602,
+                621,
+                615
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.1. Materials"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                627,
+                601,
+                641
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cobalt coupons (2 cm * 2 cm) cut from a 12-inch. cobalt blanket wafer were used to accomplish the contact angle test and electrochemical experiments. Before each experiment, the coupons were immersed in 0.025 M citric acid "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ( C _ { 6 } H _ { 8 } O _ { 7 } , }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", CA, 99 %) solution for 5 min to remove the oxide layer on the film surface, then rinsed with deionized water (DIW) and dried with nitrogen "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\mathrm { N } _ { 2 } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". After CA treatment, the cobalt specimens were immersed in NA "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { C } _ { 6 } \\mathrm { H } _ { 5 } \\mathrm { N O } _ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "99.5 %) solutions with different concentrations (40, 50, 60, 70, 80 mM) for 5 min. The pH of each inhibitor solution was adjusted to 10.00 with KOH and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H _ { 3 } P O _ { 4 } } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Eventually, these cobalt coupons were rinsed with DIW and dried with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Nu _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "to obtain different samples."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                654,
+                939,
+                708
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1e413d73c6a5f8412c830b69b8c5d91aed352de2e89756786024afa5b877f350.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 1. Molecular structure formula of NA."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                621,
+                723,
+                826,
+                914
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                117,
+                54
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                54
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                952,
+                505,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                57,
+                66,
+                487,
+                158
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.2. Surface characteristic techniques"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                172,
+                280,
+                185
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The contact angle of the cobalt sample surfaces without or with NA immersion was tested via contact angle analyzer (JC2000D, Shanghai Zhongchen Co, Ltd)."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                197,
+                485,
+                237
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The surface chemical compounds of cobalt samples were explored by X-ray photoelectron spectroscopy (XPS, ESCALA250Xi, Thermo, USA), which was stimulated by an Al-Kα anode and operated at a base pressure of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 \\times { 1 0 } ^ { - 1 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "mbar and a constant power of 150 W. High-resolution Co 2p spectra were measured at a passing energy of 20 eV and a step size of 0.1 eV. The data were fitted and corrected in CasaXPS software."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                237,
+                487,
+                317
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.3. Electrochemical experiments"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                330,
+                253,
+                343
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "All PDP measurements were performed on a CHI660E workstation with a three-electrode system (Chenhua, Shanghai). The treated cobalt coupon was wrapped with waterproof tape with an exposed area of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0 . 3 8 \\mathrm { c m } ^ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "which was used as the working electrode, and saturated mercury electrode (SCE) and platinum (Pt) electrode (the size was 2 cm * 2 cm) as the reference electrode and the counter electrode, respectively. Different concentrations of NA liquids (pH 10) were taken as electrolyte solutions. The open circuit potential (OCP) was tested incessantly for 600 s to acquire more stable results. The Tafel plots of the Co electrode were gained by PDP curve test at the scanning rate of 5 mV/s within the voltage range of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { O C P } \\pm 0 . 3 \\ : \\mathrm { V }"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                356,
+                487,
+                501
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The EIS measurements were conducted on cobalt electrode via potentiostat (ZSRS-UI5022), OCP as initial value and 10 mV peak-topeak sine waves with the frequency in the range of 0.1 Hz to 10 kHz as AC perturbation signals. The EIS data were fitted and rectified by the complex nonlinear least squares (CNLS) method in Zsimpwin software."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                501,
+                487,
+                568
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.4. Theoretical calculation details"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                580,
+                263,
+                593
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The quantum parameters of NA were calculated using the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { D m o l } ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "module in material studio software. First, the structure of NA was optimized with GGA-PBE exchange-correlation function and DNP basis set. The convergence threshold of energy, Max. Force, and Max. displacement respectively was "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 \\times 1 0 ^ { - 5 } \\mathrm { { H a } } , 2 \\times 1 0 ^ { - 3 } \\mathrm { { H a } } / \\mathring { \\mathrm { { A } } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 ~ \\times"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { - 3 } \\mathrm { \\AA } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Then, several quantum parameters including HOMO, LUMO, etc. were calculated."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                606,
+                487,
+                699
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The Forcite module was employed to operate MD simulations. The ideal Co(111) surface was selected as the adsorption object owing to its high atomic density and low Miller index. The inhibitor molecule and Co (111) crystal system with the size of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "6 \\times 6 \\times 8"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and containing a 40 Å vacuum layer were optimized before the start of each dynamics simulation. In order to obtain stable adsorption configuration of the inhibitor on the Co(111) surface, MD simulation was carried out at the ‘Universal force field and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { \\hat { Q } E q } ^ { * }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "charge. The total energy was calculated by the summation method of the atom-based electrostatic and van der Waals. All MD simulations were based on NVT thermodynamics with an absolute temperature of 298 K, a time step of 1 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { f s } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and a total simulation time of 1000 ps."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                699,
+                487,
+                858
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Results and discussion"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                871,
+                231,
+                883
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.1. Contact angle test analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                897,
+                245,
+                910
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The adsorption of organic molecules on the metal surface will change its hydrophilicity/hydrophobicity and alters the contact angle of metal surface, while fresh metal surfaces usually present hydrophilicity, hence the contact angle reflects the adsorption effect of the inhibitor [30]. Fig. 2 illustrates contact angle of cobalt samples treated with different concentrations of NA and compared with that treated with CA. After CA treatment, the natural oxide layer on the cobalt surface was removed, and the contact angle of the cobalt surface reduced from "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 5 ^ { \\circ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "to 47◦, obtaining the fresh cobalt surface [31]. The contact angle increased to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "6 7 ^ { \\circ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "following 40 mM NA treatment and increased steadily with the increase of NA concentration until the maximum contact angle reached "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "8 3 ^ { \\circ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "when the concentration was 80 mM. When the concentrations of NA were 90 and 100 mM, the contact angles were 82◦ and 83◦, respectively, which remained basically unchanged compared with that of 80 mM. These results show that when the concentration of NA is greater than 80 mM, the adsorption of NA molecules on the cobalt surface reaches saturation."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                923,
+                485,
+                936
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                66,
+                939,
+                277
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.2. Electrochemical test analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                509,
+                292,
+                707,
+                305
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "According to the contact angle results, PDP tests were carried out to evaluate the effect of corrosion inhibition of NA with the concentration less than 100 mM on cobalt electrode. Fig. 3 shows the PDP curves of cobalt electrode treated with different NA concentrations."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                317,
+                939,
+                370
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "With the introduction of NA, both the anode and cathode branches of Tafel curves have the tendency to extend to the region of low corrosion current density. Compared with the cathode branches, the corrosion current density of the anode branches differs from one another markedly, i.e. the reduction reaction rate of dissolved oxygen at the cathode basically remains unchanged, while the metal ionization process occurring at the anode is inhibited. Accordingly, nicotinic acid belongs to the anodic corrosion inhibitor. The linear region of anodic branch, named as passivation region, proves that NA molecules gradually adhere to the cobalt surface to form a protective film and reduce the corrosion degree. It is noteworthy that the slope at the end of the 40 mM NA anode branch (circled in red) sinks, which is caused by the incompactness of the passivation film as the local corrosion medium may interact with the metal through the protective layer to aggravate the metal ionization. The illustration in Fig. 3 shows the PDP test curves of cobalt electrode in NA solutions with concentrations of 80, 90 and 100 mM, respectively. It can be seen that these three curves almost coincide, which indicates the surface corrosion of Co electrode is similar."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                370,
+                939,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The corrosion potential "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( E _ { \\mathrm { c o r r } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the current density "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( I _ { \\mathrm { c o r r } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "fitted by Tafel curves are shown in Table 1, which is the intersection of extrapolation of the linear region of anodic and cathodic branches. Additionally, the corrosion inhibition efficiency "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\eta _ { \\mathrm { T } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "calculated by Eq. (1) are also shown in Table 1."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                607,
+                939,
+                634
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/545fd62906b69763df3e85ec44bad263faee37659cc153d3afc73b067c36ad18.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 2. Contact angle of cobalt surface after immersion with CA and with different concentrations of NA."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                519,
+                651,
+                927,
+                902
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                117,
+                52
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                54
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                952,
+                504,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/8115095bae3cc880aea2c9ed806da7bd81142e5a88bb9b06321a42c1dd9b9b9b.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 3. PDP curves of Co samples soaked in different concentrations of NA (illustration: PDP curves with the concentration of 80, 90 and 100 mM)."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                226,
+                68,
+                771,
+                408
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/efba35d44d8079bc23f620a42d671629d9a5e9bf4a0877d4f5ae5ab7aeb76e18.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "The "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { c o r r } } , \\ : I _ { \\mathrm { c o r r } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta _ { \\mathrm { T } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of cobalt samples treated with different concentrations of NA."
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Concentration (mM)</td><td> $E_{\\text{corr}}$  (V)</td><td> $I_{\\text{corr}}$  ( $\\mu A/cm^2$ )</td><td> $\\eta_T$ (%)</td></tr><tr><td>0</td><td>-0.401</td><td>2.154</td><td>-</td></tr><tr><td>40</td><td>-0.551</td><td> $8.438 \\times 10^{-1}$ </td><td>60.83</td></tr><tr><td>50</td><td>-0.500</td><td> $6.429 \\times 10^{-1}$ </td><td>70.15</td></tr><tr><td>60</td><td>-0.492</td><td> $5.175 \\times 10^{-1}$ </td><td>75.97</td></tr><tr><td>70</td><td>-0.472</td><td> $3.425 \\times 10^{-1}$ </td><td>84.10</td></tr><tr><td>80</td><td>-0.454</td><td> $2.876 \\times 10^{-1}$ </td><td>86.65</td></tr><tr><td>90</td><td>-0.461</td><td> $2.950 \\times 10^{-1}$ </td><td>86.30</td></tr><tr><td>100</td><td>-0.449</td><td> $2.912 \\times 10^{-1}$ </td><td>86.48</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                58,
+                491,
+                482,
+                602
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                55,
+                620,
+                485,
+                660
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\eta_ {T} = \\left[ 1 - \\frac {I _ {\\text {corr, within inhibitors}}}{I _ {\\text {corr, without inhibitors}}} \\right] \\times 100 \\%\\tag{1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8cefb299797bc130ee0b95fd5e7115da9ace22457fab995007ae131e9f2422fc.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                667,
+                273,
+                694
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "As shown in Table 1, with the presence of 40 mM "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N A } , I _ { c o r r }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "decreases from 2.154 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mu \\mathrm { A } / \\mathrm { c m } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "8 . 4 3 8 \\times 1 0 ^ { - 1 } \\mu \\mathrm { A / c m } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", which affirms that NA does limit the dissolution of cobalt electrode."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                701,
+                485,
+                740
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "It is confirmed that inhibitor functions at certain concentrations [32]. With the increase of NA concentration, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { c o r r }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "decreases, while in hibition efficiency increases. When the concentration of NA exceeds 80 mM, the variations of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { c o r r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { c o r r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of cobalt electrode are very small, among which values of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { c o r r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "are − 0.499 ~ − 0.461 V, and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { c o r r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is between "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 . 8 7 6 \\times 1 0 ^ { - 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 . 9 5 0 \\times 1 0 ^ { - 1 } \\mu \\mathrm { A / c m ^ { 2 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". And the corrosion in hibition efficiency stabilizes between 86 % and 87 %. This indicates that there is no significant difference in the corrosion state of cobalt electrode, i.e., the adsorption of NA on cobalt surface reaches saturation at 80 mM. When the concentration of NA is 80 mM, the minimum value of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { c o r r } \\mathrm { i s } 2 . 8 7 6 \\times 1 0 ^ { - 1 } \\mu \\mathrm { A / c m } ^ { 2 } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta _ { T }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "reaches the maximum of 86.65 %, suggesting that NA performs the optimal corrosion inhibitory effect at 80 mM."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                740,
+                487,
+                911
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The electrochemical experiment results are consistent with the contact angel test. It is reasonable to suppose that the tightest passive film is formed by 80 mM NA, so as to provide the strongest corrosion inhibition [24,33]. In order to understand the basic adsorption mode of NA on the cobalt/solution interface, several adsorption isotherm models were exploited. The results of PDP fitted show that the adsorption between NA and Co surfaces conforms to the Langmuir isotherm model suitably. The Langmuir isotherm equations are described by Eqs. (2) and (3)[31]:"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                911,
+                487,
+                925
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                445,
+                939,
+                551
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {C}{\\theta} = C + \\frac {1}{K}\\tag{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3af21fd722a11416b1400842d9a22ef6b3299d57ecb9afc263764955e1907eb8.jpg"
+                }
+            },
+            "bbox": [
+                509,
+                556,
+                578,
+                583
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\theta = 1 - \\frac {I _ {\\text { corr,   within inhibitors }}}{I _ {\\text { corr,   without   inhibitors }}}\\tag{3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/226c87ccea7d48a6924dfde1b939848d97ce785a7e92e347bc9889275cb837a3.jpg"
+                }
+            },
+            "bbox": [
+                509,
+                593,
+                658,
+                620
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where C means the inhibitor concentration, K refers to the adsorption equilibrium constant in units of the reciprocal of concentration, and θ represents the coverage. Then, Eq. (4) describes the Gibbs standard free energy of adsorption "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\Delta \\boldsymbol { \\mathrm { G } } ^ { \\circ } \\mathsf { a d s } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "[31]:"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                630,
+                939,
+                684
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "K = \\frac {1}{C _ {\\text { solvent }}} \\exp \\left(- \\frac {\\Delta G _ {a d s} ^ {\\circ}}{R T}\\right)\\tag{4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bd789d577a9dcb3c403d83cc8649a6ff1ef847bba081a009e1fde311dea9708d.jpg"
+                }
+            },
+            "bbox": [
+                509,
+                689,
+                663,
+                718
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where the absolute temperature is "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T = 2 9 8 \\mathrm { K } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the molarity of water is "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C _ { s o l \\nu e n t } { = 5 5 . 5 \\mathrm { m o l / L } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the conventional gas constant is R= 8.314 kJ/ mol·K."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                728,
+                939,
+                767
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "As illustrated in Fig. 4, the matching results are reliable with a fit of 0.9900. The value of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\mathrm { G } _ { \\mathrm { ~ a d s ~ } } ^ { \\circ } \\mathrm { i } s - 1 7 . 9 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "kJ/mol. The negative value of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta G ^ { \\circ } { \\sf a d s }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "implies that NA molecules can be adsorbed spontaneously on the cobalt surface [33]. Generally, the chemisorption caused by electron transfer or coordination bond is dominant, when "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta G ^ { \\circ } { \\sf a d s }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is less than − 40 kJ/mol, while van der Waals force and electrostatic attraction predominate if "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta G ^ { \\circ } { \\sf a d s }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is greater than − 20 kJ/mol, indicating the adsorption is a physical interaction [34]. As a result, the adsorption process of NA on the cobalt surface could be considered as physical adsorption, in which NA is physically adsorbed on the cobalt surface to form a passive film to protect the cobalt film from further corrosion."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                769,
+                939,
+                915
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                117,
+                54
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                55
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                952,
+                504,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Table 2"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                66,
+                559,
+                78
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/c5fea30e0f3a36faf91964e2e72bb51ae19eeecf7847b78db1b8579974930a85.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 4. Langmuir isotherm image of Co surface adsorbed with NA."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                87,
+                66,
+                457,
+                293
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.3. Electrochemical impedance spectroscopy analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                331,
+                369,
+                345
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "EIS measurement was used to analyze the passivation effect of physically adsorbed protective film on cobalt surface in alkaline medium. Fig. 5(a) shows the Nyquist impedance spectra of the Co electrodes in different concentrations of NA, which can better understand the structure of passivation layer. Since the Nyquist curve is a 1/4 arc, the charge transfer controls the erosion on cobalt/alkaline medium interface, and the equivalent circuit is a simple model formed by electron exchange on passivation film. In the event that the general shape of the impedance spectra does not change with the introduction of inhibitors, the reaction principle of the corrosive medium could be considered as unaffected [35]. Meanwhile the radius of the spectrum increases with the increase of NA concentration, suggesting that the adsorption film turns to be more completed [36]. The radius of imped ance spectrum reaches the maximum when the concentration of NA is 80 mM, which is consistent with PDP results. Nonetheless, the center of the 1/4 arc is apparently below the x-axis, known as the frequency dispersion effect, which is on account of the non-ideal capacitive behavior of the cobalt/medium interface generated by the non-uniformity of cobalt electrode surface."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                356,
+                489,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "It is necessary to immerse the cobalt sample for adequate time to ensure the penetration of electrolyte into the film approach saturation. Then the Q value of the phasing element in the circuit will basically remain stable when the measured resistance can more precisely reflect the impedance change of the film [8]."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                607,
+                487,
+                673
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The equivalent circuit for the Co electrode in the NA solution is shown in Fig. 5(b), as well as the EIS fitted parameters are listed in"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                673,
+                487,
+                701
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/c0d185ec57852fbf592b4a6c696a84273e7ab2250fa5587f70e9366fc2e1397f.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                194,
+                723,
+                510,
+                914
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/0f55df90afe949f88bebfd849b44af7e3914889d4149b562d3c3a598cc043194.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fitted electrochemical impedance parameters with different concentrations of NA."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Table 2. The equivalent circuit model includes a solution resistance "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( R _ { s } ) ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "a double layer capacitance (CPE<sub>dl</sub>), and a charge transfer resistance "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( R _ { c t } ) ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "The corrosion inhibition efficiency (η) can be estimated with Eq. (5):"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Resistance</td><td rowspan=\"2\">Citric acid</td><td colspan=\"5\">NA concentration (mM)</td></tr><tr><td>40</td><td>50</td><td>60</td><td>70</td><td>80</td></tr><tr><td>Rs(ohm)</td><td>355.6</td><td>245</td><td>244.1</td><td>208.6</td><td>199.6</td><td>198.3</td></tr><tr><td>Rct(ohm)</td><td> $1.292 \\times 10^{4}$ </td><td> $1.262 \\times 10^{5}$ </td><td> $1.588 \\times 10^{5}$ </td><td> $2.064 \\times 10^{5}$ </td><td> $2.187 \\times 10^{5}$ </td><td> $7.867 \\times 10^{5}$ </td></tr><tr><td> $\\eta$ </td><td>-</td><td>89.76 %</td><td>91.86 %</td><td>93.74 %</td><td>94.09 %</td><td>98.36 %</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                512,
+                103,
+                937,
+                187
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\eta = 1 - \\frac {R _ {c t} - R _ {c t 0}}{R _ {c t}} \\times 100 \\%\\tag{5}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3cd53453c550896fa858b8ea2064d9e510628b301a4de970bca75c91001fb4a4.jpg"
+                }
+            },
+            "bbox": [
+                509,
+                252,
+                660,
+                278
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { c t }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { c t 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "are charge transfer resistance in the presence and absence of NA inhibitor, respectively. As shown in Table 2, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { c t }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "increases with the increase of NA concentration and reaches the maximum at 80 mM, while "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { s }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the opposite. The decline of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { s }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is due to the increase of solute in the medium. The results show that the resistance of the passive film covered the Co surface increases after adding NA molecules, as well as η. That is to say, the inhibition mechanism is the formation of an adsorption layer on the cobalt surface caused by NA, which enhances the surface resistance. And the enlargement of NA concentration enables the Co surface to attract more inhibitor molecules to possess a thicker and denser inhibition film."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                288,
+                939,
+                435
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.4. XPS analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                509,
+                453,
+                621,
+                467
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "XPS was introduced to confirm the chemical composition of cobalt samples to further analyze the reaction state of cobalt surface. The XPS spectra and corresponding Co 2p spectra of cobalt samples after being treated with CA and immersed in 80 mM NA are shown in Fig. 6. Fig. 6 (a) shows that the two curves have three distinct peaks (C, O, and Co). In contrast, the peak intensities of C, O, and Co soaked in NA are signifi cantly higher than that of soaked in citric acid. This phenomenon is consistent with the element of NA molecules, and it can be inferred that inhibitor NA and its relative products can successfully assemble on the cobalt surface, issuing in the change of peak intensity of homologous elements. In addition, the appearance of N peak on the Co sample’s surface is induced by the pyrazole ring in the NA molecule [32]."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                479,
+                939,
+                638
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 6(b) shows the fitted curves of Co 2p peak of cobalt treated with CA. The bonding energy peaks at 780 eV, 777.8 eV, and 796.4 eV correspond to compounds of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C o } _ { 3 } \\mathrm { O } _ { 4 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Co, and CoO, respectively [37]. Thus the fresh Co surface contains cobalt atoms and cobalt oxides caused by natural oxidation of the sample while waiting for detection [38]."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                638,
+                939,
+                704
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5cd695f1facdc3222bf72887ac5e7764858d893b20ced7d379a241b3efe200d2.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 5. (a) The Nyquist impedance plots of the cobalt samples in different concentrations of NA; (b) The corresponding equivalent circuit model."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                517,
+                720,
+                801,
+                915
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                117,
+                52
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                54
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                952,
+                504,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/ba1625729f3e7dcc73d0cb8ed1356d1e43a3e682b76773de132b0fb18a6b7fdd.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                278,
+                71,
+                734,
+                350
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/7d6969e50ba636a03696de55190210b0adb3da21fc868aea21a54b0df6b40ca9.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                142,
+                369,
+                487,
+                596
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/e3ef2bf49c95945bd388c38d7f710db71178aac15f815fb25ed4e91b6aa49f75.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 6. XPS spectra of Co samples after immersion in different solutions: (a) XPS spectra of cobalt surface without and with NA, (b) citric acid, (c) citric acid+ 80 mM NA."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                495,
+                370,
+                853,
+                596
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The rectified Co 2p spectrum of cobalt sample soaked with 80 mM NA is shown in Fig. 6(c). The surface compositions of the cobalt film consist of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C o _ { 3 } O _ { 4 } } ~ ( 7 8 0 . 6 \\ : \\mathrm { e V } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", Co (777.9 eV and 793.1 eV), and CoO "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( 7 9 6 . 5 \\ : \\mathrm { e V } \\right) \\left[ 3 9 \\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": "]. The surface of cobalt adsorbed with NA consists of pure cobalt and its oxides with no new binding energy material. Consequently, it can be reasonably deduced that NA is physically adsorbed on the Co surface [40]."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                646,
+                487,
+                738
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Through the analysis of electrochemistry and XPS, the reaction process of cobalt sample with NA attached can be concluded as below [32]:"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                738,
+                487,
+                778
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "O _ {2} + H _ {2} O + 4 e ^ {-} \\leftrightarrow 4 O H ^ {-}\\tag{6}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/32e85c6bcbfdd054985c4ab7d0a7ffc39f0bd004b68dc366ca46180e09435da7.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                785,
+                201,
+                798
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "C o + 2 O H ^ {-} \\leftrightarrow C o (O H) _ {2} + 2 e ^ {-}\\tag{7}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4bc2c3a99026e28b4f21db2d84c28b26294a9f2f7e503bd0b5909a8b040175ca.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                810,
+                226,
+                824
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "3 C o (O H) _ {2} + 2 O H ^ {-} \\leftrightarrow C o _ {3} O _ {4} + 4 H _ {2} O + 2 e ^ {-}\\tag{8}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ac7bd97e845aa83d10209d8dcb93e91a3c93f434e1e5f4e06e543b2eae962f8f.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                834,
+                297,
+                849
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "C o (O H) _ {2} \\leftrightarrow C o O + H _ {2} O\\tag{9}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/853d450c8e5a6f3c3a495255ff401d9a91fb94675ad53d639f227086970a44a9.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                860,
+                200,
+                873
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "C o (O H) _ {2} + N i c ^ {2 -} (a q) \\rightarrow C o (O H) _ {2} \\left(N i c ^ {2 -}\\right) _ {a d s}\\tag{10}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fec87ab7bd51d0ff9eeeec1476aa2d30d5296f5347a64a460362f6020c3ac40c.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                887,
+                309,
+                906
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In an alkaline environment (pH 10), NA exists in the form of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N i c } ^ { 2 \\mathrm { - } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ions, which are negatively charged [32]. Driven by electrostatic forces and Van der Waals forces, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N i c } ^ { 2 - }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ions are appealed to the Co(OH) produced in formula (7), leading to the appearance of Co(II)-NA mole cule groups as described in formula (10). As illustrated in Fig. 7, NA molecules produce a single or multilayer self-assembled Co(II)-NA film on the cobalt surface and further prevent the corrosion on Co film [41]."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                912,
+                484,
+                926
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                646,
+                939,
+                726
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.5. DFT calculation analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                509,
+                752,
+                685,
+                765
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Frontier molecular orbital (FMO) theory has been widely applied in the field of chemical structure to evaluate the efficiency of inhibitors, as well as explore the mechanism of interaction between inhibitors and metal surfaces [42–44]. Hence, a series of quantum chemical parameters, such as the highest occupied molecular orbital (HOMO) and the lowest unoccupied molecular orbital (LUMO) energy levels, and the energy gap (ΔE) were calculated by DFT method. Firstly, the structure of NA molecular was optimized, and then properties of the frontier orbital of NA molecule were evaluated."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                778,
+                939,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "HOMO has the electron donor nature with loose binding to its elec trons, while LUMO possesses the ability to accept electrons, which is usually called electron acceptor, with a strong affinity for electrons."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                897,
+                939,
+                936
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                117,
+                52
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                54
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                952,
+                504,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3db6cc237ecfe1d74d3fec2b7bfa9516a491ea08dcb1e4a65b56fdc37ccb6aef.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 7. Corrosion inhibition schematic diagram of NA on cobalt surface."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                194,
+                71,
+                803,
+                224
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Generally, the higher HOMO energy or a lower LUMO energy manifests a mightier capability of molecular electron pairs to transfer or vacant orbitals to accept electron pairs. For corrosion inhibitors, this also means a more violent trend of binding and adsorption with metal surface atoms, that is, more efficient corrosion inhibition competence [45]. On top of that, the molecule activity is strengthened with the decrease of ΔE "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\Delta E { = } \\Delta E _ { L U M O } - \\Delta E _ { H O M O } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", i.e. the reduction of ΔE promotes the impact of corrosion inhibition."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                264,
+                487,
+                370
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 8(a) and (b) demonstrate the optimized NA molecule and the electron cloud distribution of HOMO and LUMO. In the HOMO diagram, the electron cloud is mainly distributed on the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N } { = } \\mathrm { C }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bond, while the N––C bond and the carboxyl group (-COOH) occupy the primary electron cloud of LUMO, indicating that chemical reactivity exists in the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N } { = } \\mathrm { C }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bond and the -COOH. The truth that the value of ΔE for BTA "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\Delta E _ { B T A } { = } 3 . 7 9 7 \\ \\mathrm { e V } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "[8] is larger than that of NA "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\Delta E _ { N A } { = } 2 . 1 1 4 \\ \\mathrm { e V } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "signifies that the corrosion inhibition performance of NA surpasses that of BTA. Electrostatic potential (ESP) results can further confirm this conclusion, as shown in Fig. 8(c). The region of electrophilic with the highest negative potential is marked in red, while the blue region indicates nucleophilic. As shown in Fig. 8(d), the highest red region is located on N6 and O8, as well as the blue region covers the H14 atom, which fully suggests that the functional sites of NA on the cobalt surface are N––C bond and the carboxyl group."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                370,
+                487,
+                569
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In addition, Fukui function is employed to reflect local reactivity and predict reaction sites. The Fukui function describes the change degree of electron density at various positions when the number of electrons of the system changes, which is strictly defined as [46]:"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                569,
+                487,
+                622
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (r) = \\left(\\frac {\\partial \\rho (r)}{\\partial N}\\right) _ {v (r)} = \\left(\\frac {\\partial \\mu}{\\partial v (r)}\\right) _ {v (r)}\\tag{11}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/38d8032f20ec5a7c1f1e85704386935710ac12870867baf9c715e7b0b2daa106.jpg"
+                }
+            },
+            "bbox": [
+                55,
+                627,
+                247,
+                658
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/137c5cf856376d6dbce0c6bf3dc75dafa6f789903766a90b733a541f437507be.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                147,
+                686,
+                321,
+                911
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fea8c52ded4529dc3370f709b8cd3a84f0874b8092b35593efe2a00ec6e7dcc3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                332,
+                687,
+                544,
+                800
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5387ffacd28cab7548f3988e41cab410561b3ef8b9abd2da67d1f75b2d381463.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                327,
+                809,
+                537,
+                911
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where N and μ are the number of electrons and chemical potential of the system, respectively, ρ(r)refers to electron density and v(r) means the fixed external potential (the attraction potential of atomic nuclei for electrons). Under finite-difference approximation, the condensed Fukui functions are as follows [47]:"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                269,
+                939,
+                336
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f _ {k} ^ {+} = q _ {k} (N + 1) - q _ {k} (N) \\text {(nucleophilic attack)}\\tag{12}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/dc7aa3b01b2e33485c7352f01fc32d37d4b31f7f7f55fe209c234574d022b712.jpg"
+                }
+            },
+            "bbox": [
+                507,
+                343,
+                773,
+                359
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f _ {k} ^ {-} = q _ {k} (N) - q _ {k} (N - 1) \\text {(electrophilic attack)}\\tag{13}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2dd175619ae1543e54255aec3e6caa6522d7fb692bde09f107acb2ad40bbd8ef.jpg"
+                }
+            },
+            "bbox": [
+                505,
+                370,
+                774,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "q _ { k } ( N ) , q _ { k } ( N + 1 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "q _ { k } ( N - 1 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "denote the Mulliken charge of each atom in NA molecule at different states of charge with N electrons, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N + \\mathit { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "electrons (an anion), and N-1 electrons (a cation), respectively."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                395,
+                939,
+                436
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "As shown in Fig. 8(d), the highest "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { k } ^ { - }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "value in the Fukui function is for the N6 atom, which intimates that the coordination bonds could be established through electron transfer of N6 atom from NA molecule to the empty orbit of cobalt atoms on the surface. The O8 atom, owning the highest value of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { k } ^ { + } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", is where the nucleophilic attack is most likely to occur on NA molecule. Namely, the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\scriptstyle { \\mathrm { C } } = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is susceptible to accepting electrons from cobalt atoms to form bonds, which is also in accordance with the results of LUMO orbital distribution."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                435,
+                939,
+                540
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Moreover, some quantum chemical parameters of NA were deter mined. On account of Koopmans theorem, the ionization potential (I) and electron affinity (A) were calculated [48]. Then, other properties were estimated according to the first vertical ionization energy and electron density of the chemical substance, including the absolute electronegativity "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\chi ) ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", overall hardness "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\eta ) ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and overall electrophilic index (ω) [36]. Meanwhile, the electron transfer fraction (ΔN) between NA molecule and Co surface was derived. The calculation equations and results are shown in Table 3."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                540,
+                939,
+                660
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/2696885aaddbe0e437de405c2ed400e4107fa0a1b953b699190596699d62d94c.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 8. (a) Optimized structure of NA molecule, (b) HOMO, LUMO distributions and energy gap(ΔE), (c) Electrostatic Potential (ESP), (d) Condensed Fukui function."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                547,
+                684,
+                853,
+                909
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                119,
+                54
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                55
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                952,
+                505,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/4e1584bf22f5e8a411caa8d9545218edeb98cfb3576ece8ebf0991a7ee802516.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Quantum chemical parameters of NA: equations and results."
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td> $E_{HUMO}/V$ </td><td> $E_{LUMO}/V$ </td><td>I/eV</td><td>A/eV</td><td> $\\chi_{NA}/eV$ </td><td> $\\eta_{NA}/eV$ </td><td>ω/eV</td><td>ΔN/eV</td></tr><tr><td></td><td></td><td>-  $E_{HOMO}$ </td><td>-  $E_{LUMO}$ </td><td> $\\frac{I+A}{2}$ </td><td> $\\frac{I-A}{2}$ </td><td> $\\omega = \\frac{\\chi^{2}}{2\\eta}$ </td><td> $\\Delta N = \\frac{\\Phi_{Co} - \\chi_{NA}}{2(\\eta_{Co} + \\eta_{NA})}$ </td></tr><tr><td>-5.875</td><td>-3.761</td><td>5.875</td><td>3.761</td><td>4.818</td><td>1.057</td><td>10.981</td><td>0.00095</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                58,
+                92,
+                936,
+                148
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where the value of work function is "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Phi _ { C o } = 4 . 8 2 \\mathrm { e V } , \\chi _ { N A }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta _ { N A }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "symbolize the absolute electronegativity and hardness of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N A } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "respectively. η<sub>Co</sub> was considered as zero on the assumption that the cobalt surface is a bulk "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( I = A \\right) \\left[ 3 6 \\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Chemicals with ω greater than 1.5 eV can be classified as powerful electrophiles [49]. As "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\omega = 1 0 . 9 8 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "eV for NA, the NA molecule is a relatively stable electrophilic molecule with a strong inclination to accumulate electrons from electron-rich cobalt surface [50]. Electrons are transferred from inhibitor molecule to metal when "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta N > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and vice versa if the value of ΔN is negative [51]. Obviously, the NA molecule holds the potential to transfer its own electrons to the Co surface. Although the value of ΔN "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\Delta N = 0 . 0 0 0 9 5 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is positive, it is very small and close to zero. Hence, the electron transfer effect between NA molecular and cobalt surface can be neglected. In conclusion, the physical adsorption process between NA molecules and Co surface is the molecular coalescence driven by electrostatic forces and Van der Waals forces."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                167,
+                487,
+                379
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.6. MD simulation analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                394,
+                228,
+                408
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "MD simulation can visualize the interaction status between the in hibitor molecule and metal surface [6]. Fig. 9(a) shows the most steady configuration of NA on the surface of Co(111), that the NA molecule is adsorbed at a certain angle on the Co surface. Adsorption energy, defined as the energy released by the corrosion inhibitor molecule adsorbed on the metal surface, is described as [46]:"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                419,
+                487,
+                501
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E _ {a d s} = E _ {\\text { complex }} - \\left(E _ {C o} + E _ {N A}\\right)\\tag{14}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0073ecb7eef0179d0ad644048fc29bb44ae12fe391ef46342bd4dc93a8e0fd35.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                506,
+                221,
+                522
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { c o m p l e x }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the overall energy of the whole investigated system, containing Co(111) substrate with a NA molecule, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { C o }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "symbolizes the energy of the cobalt substrate without inhibitor, and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { N A }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "refers to the energy of the NA molecule. It is generally assumed that the adsorption process of corrosion inhibitor molecules on the metal surface turns to be more settled and solid with the accumulation of negative adsorption energy. The "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { a d s }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "value is − 24.382 kJ/mol, indicating that the NA molecules can be spontaneously and equably adsorbed on the Co surface."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                532,
+                487,
+                587
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                167,
+                939,
+                233
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The radial distribution function (RDF) is a common parameter to estimate the connection length, which can reflect the chemical bonds after the interaction between the inhibitor and metal surface [52]. Actually, RDF is the ratio of the local density around a particle to the bulk density of the system in a given coordinate. The local density near the target particle (small r value) is different from the bulk density of the system, but the local density should be the same as the bulk density when it is far away from the target particle, i.e. when the value of r is large, the value of RDF should be close to 1 [53]. RDF can be described as [36]:"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                233,
+                939,
+                366
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "g _ {A B} (r) = \\frac {1}{\\rho 4 \\pi r ^ {2}} \\frac {\\sum_ {i = 1} ^ {T} \\sum_ {j = 1} ^ {N} \\Delta N (r \\rightarrow r + \\delta r)}{N \\times T}\\tag{15}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f77dc123c8e2a8b69599d10a5af9c540ab6de298fa51429189add64c35a846a9.jpg"
+                }
+            },
+            "bbox": [
+                507,
+                372,
+                719,
+                414
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where N is the amount of particles, T means the calculation time, δr represents the set distance difference and ΔN refers to the amount of particles between r and r + δr. As shown in Fig. 9(b), the position of the peak is about 4.55 Å, implying that the NA molecule is comparatively 4.55 Å away from the surface cobalt atom of Co(111). In general, Coulomb force and van der Waals force play major roles in the interaction of the system when the position of RDF figure’s peak is higher than 3.5 Å, which corresponds to physical adsorption, whereas chemical interaction is related to the peak position less than 3.5 Å [53]. This consequence indicates the predominance of physisorption in the investigated system, which confirms the experimental results."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                424,
+                939,
+                572
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/79b90164e5a37194b67937260b43b9d00871c530b1dd49e7a5544c885e530c0e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                146,
+                604,
+                433,
+                911
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/c7c6bd7a6c2c88d64ab6d5b96f331027232470f12061bd39245a29a02acd80df.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 9. (a) Equilibrium configuration of NA on "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\scriptstyle \\mathrm { C o }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(111) (Inset: top view); (b) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { R D F _ { C o - N A } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "image."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                438,
+                653,
+                850,
+                912
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                119,
+                54
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                55
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                952,
+                505,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4. Conclusion"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                66,
+                156,
+                78
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In this work, we focused on nicotinic acid as a potential corrosion inhibitor for cobalt CMP in alkaline medium, and the adsorption behavior of NA was systematically revealed by several characteristic techniques and molecular simulations. The results of contact angel and electrochemical test show that corrosion efficiency reached the maximum value of 86.65 % at the concentration of 80 mM. The adsorption of NA on cobalt surface follows the Langmuir adsorption isotherm, which is a spontaneous physical process. EIS further suggests that with the increase of NA concentration, the passivation film covered on cobalt surface became more complete, resulting in the increase of surface resistance. According to the results of XPS, NA molecules exist in the form of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N i c } ^ { 2 - }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ions in alkaline environment, and physically assemble on "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C o ( O H ) _ { 2 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "to form Co(II)-NA molecular groups to isolate the permeation of corrosive medium. DFT calculation and MD simulation indicate that NA molecule is adsorbed on the Co(111) surface at a certain angle through Coulomb force and van der Waals force, which are derived from the interaction of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N } { = } \\mathrm { C }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bond and carboxyl in NA molecule and surface cobalt atoms. The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                92,
+                487,
+                423
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Data Availability"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                436,
+                173,
+                448
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The raw/processed data required to reproduce these findings cannot be shared at this time as the data also forms part of an ongoing study."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                462,
+                485,
+                489
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CRediT authorship contribution statement"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                501,
+                337,
+                515
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Boao Ma: Conceptualization, Methodology, Software, Investigation, Writing – original draft. Shihao Zhang: Visualization, Investigation, Writing – review & editing. Baimei Tan: Resources, Supervision, Writing – review & editing. Wei Li: Visualization, Investigation, Writing – review & editing. Yazhen Wang: Investigation, Supervision. Xiaoqin Sun: Software, Validation."
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                528,
+                487,
+                607
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Declaration of Competing Interest"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                622,
+                282,
+                635
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                648,
+                487,
+                689
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Data Availability"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                701,
+                173,
+                713
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "No data was used for the research described in the article."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                728,
+                428,
+                740
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Acknowledgments"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                755,
+                181,
+                767
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This work was supported by the Major National Science and Technology Special Projects (No. 2016ZX02301003-004-007) and the Natural Science Foundation of Hebei Province, China (No.F2018202174 and No.2022202072). The authors thank the teachers and classmates for helpful discussions."
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                780,
+                487,
+                847
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "References"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                860,
+                134,
+                873
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[1] Daniel Josell, Sywert Brongersma, Zsolt Tokei, ˝ Size-dependent resistivity in nanoscale interconnects, Annu. Rev Mater, Res, 39 (2009) 231-254 httns://doi org/10.1146/annurev-matsci-082908-145415."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                885,
+                478,
+                914
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[2] Jialin Wen, Tianbao Ma, Weiwei Zhang, et al., Atomistic mechanisms of Si chemical mechanical polishing in aqueous H O : reaxFF reactive molecular"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                67,
+                916,
+                452,
+                936
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "dynamics simulations, Comput. Mater. Sci. 131 (2017) 230–238, https://doi.org 10.1016/j.commatsci.2017.02.005."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                537,
+                66,
+                932,
+                85
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[3] Jialin Wen, Tianbao Ma, Weiwei Zhang, et al., Atomic insight into tribochemical wear mechanism of silicon at the Si/SiO interface in aqueous environment: molecular dynamics simulations using ReaxFF reactive force field, Appl. Surf. Sci. 390 (2016) 216–223, https://doi.org/10.1016/j.apsusc.2016.08.082."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                87,
+                932,
+                126
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[4] Liang Jiang, Yongqing Lan, Yongyong He, et al., 1, 2, 4-triazole as a corrosion inhibitor in copper chemical mechanical polishing, Thin Solid Films 556 (2014) 395–404, https://doi.org/10.1016/j.tsf.2013.12.047."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                127,
+                926,
+                156
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[5] Wenquan Lu, Jian Zhang, Frank Kaufman, et al., A combined triboelectrochemical QCM for studies of the CMP of cupper, J. Electrochem. Soc. 152 (2005) B17–B22, https://doi.org/10.1149/1.1836124."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                157,
+                934,
+                186
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[6] Kawaguchi Kentaro, Ito Hiroshi, Kuwahara Takuya, et al., Atomistic mechanisms of chemical mechanical polishing of Cu surface in aqueous H O : Tight-binding quantum chemical molecular dynamics simulations, ACS Appl. Mater. Interfaces 8 (18) (2016) 11830–11841, https://doi.org/10.1021/acsami.5b11910."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                187,
+                934,
+                226
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[7] Shenghua Yang, Baoguo Zhang, Qiming Zhang, et al., A study of cobalt galvanic and pitting corrosion with combination of BTA and PMP, ECS J. Solid State Sci. Technol. 8 (2019) P416–P422, https://doi.org/10.1149/2.0141908jss."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                226,
+                929,
+                257
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[8] Badawy Wael, F.M. Al-Kharafi, J.R. Al-Ajmi, Electrochemical behaviour of cobalt in aqueous solutions of different pH, J. Appl. Electrochem. 30 (2000) 693–704, https://doi.org/10.1023/A:1003893122201."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                258,
+                931,
+                287
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[9] Liang Jiang, Yongqing Lan, Yongyong He, et al., 1, 2, 4-triazole as a corrosion inhibitor in copper chemical mechanical polishing, Thin Solid Films 556 (2014) 395–404, https://doi.org/10.1016/j.tsf.2013.12.047."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                288,
+                926,
+                317
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[10] Jiao Hong, Xinhuan Niu, Yuling Liu, et al., Effect of a novel chelating agent on defect removal during post-CMP cleaning, Appl. Surf. Sci. 378 (2016) 239–244, https://doi.org/10.1016//j.apsusc.2016.03.230."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                317,
+                924,
+                346
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[11] Lei Guo, Ime Bassey Obot, Xingwen Zheng, et al., Theoretical insight into an empirical rule about organic corrosion inhibitors containing nitrogen, oxygen, and sulfur atoms, Appl. Surf. Sci. 406 (2017) 301–306, https://doi.org/10.1016/j. apsusc.2017.02.134."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                348,
+                934,
+                387
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[12] Tengda Ma, Shihao Zhang, Yi Xu, et al., Unraveling the surface behavior of amino acids on Cu wiring in chemical mechanical polishing of barrier layers: a combination of experiments and ReaxFF MD, J. Mol. Liq. (2021) 341, https://doi. org/10.1016/j.molliq.2021.117307."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                388,
+                934,
+                427
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[13] Chenqi Yan, Yuling Liu, Jin Zhang, et al., Synergistic effect of glycine and BTA on step height reduction efficiency after copper CMP in weakly alkaline slurry, Ecs J. Solid State Sci. Technol. 6 (1) (2017), https://doi.org/10.1149/2.0291612jss, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                428,
+                934,
+                457
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[14] I. Dugdale, J.B. Cotton, An electrochemical investigation on the prevention of staining of copper by benzotriazole, Corros. Sci. 3 (1963) (1963) 69–74, https:// doi.org/10.1016/S0010-938X(63)80001-3."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                459,
+                932,
+                488
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[15] J.B. Cotton, I.R. Scholes, Benzotriazole and related compounds as corrosion inhibitors for copper, Br. Corros. J. 2 (1) (1967) 1 5, https://doi.org/10.1179 000705967798327235"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                488,
+                924,
+                517
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[16] Da Yin, Liu Yang, Baimei Tan, et al., Theoretical and electrochemical analysis on inhibition effect of benzotriazole and 1, 2, 4-triazole on cobalt surface, Colloids Surf. A-Physicochem. Eng. Asp. (2020) 591, https://doi.org/10.1016/j. colsurfa 2020.124516"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                518,
+                932,
+                557
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[17] Peljhan Sebastijan, Koller Joˇze, Kokalj Anton. The effect of surface geometry of copper on adsorption of benzotriazole and Cl. Part I, J. Phys. Chem. C 118 (2014) 933–943, https://doi.org/10.1021/jp409717e."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                559,
+                934,
+                588
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[18] Shuangshuang Lei, Shengli Wang, Hongliang Li, et al., Effect of benzotriazole and 5-Methyl/1-H carboxyl benzotriazole on chemical mechanical polishing of cobalt in H O based slurry, ECS J. Solid State Sci. Technol. (2021) 10, https://doi.org/ 10.1149/2162-8777/ac0e0e."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                588,
+                934,
+                627
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[19] A. Fateh, M. Aliofkhazraei, A.R. Rezvanian, Review of corrosive environments for copper and its corrosion inhibitors, Arab. J. Chem. 13 (1) (2020) 481–544, https:/ doi.org/10.1016/j.arabjc.2017.05.021."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                629,
+                934,
+                658
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[20] Heon-Yul Ryu, Byoung-Jun Cho, Nagendra Prasad Yerriboina, et al., Selection and optimization of corrosion inhibitors for improved Cu CMP and post-Cu CMP cleaning, Ecs J. Solid State Sci. Technol. 8 (5) (2019), https://doi.org/10.1149 2.0101905jss, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                659,
+                932,
+                698
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[21] Xiaoqin Sun, Tengda Ma, Da Yin, et al., Adsorption mechanism of potassium oleate on cobalt surface based on cobalt interconnection CMP: A combined experimental and DFT investigation, Ecs J. Solid State Sci. Technol. 10 (2) (2021), https://doi. org/10.1149/2162-8777/abe1d8."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                699,
+                934,
+                738
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[22] Guang Yang, Peng He, Xinping Qu, Inhibition effect of glycine on molybdenum corrosion during CMP in alkaline H O based abrasive free slurry, Appl. Surf. Sci. 427 (2018) 148 155, https://doi.org/10.1016/j.apsusc.2017.08.140."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                738,
+                932,
+                769
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[23] Mohamed S. Hasanin, A.Al. Kiey Sherief, Environmentally benign corrosion inhibitors based on cellulose niacin nano-composite for corrosion of copper in sodium chloride solutions, Int. J. Biol. Macromol. 161 (2020) 345 354, https:// doi.org/10.1016/j.ijbiomac.2020.06.040."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                770,
+                927,
+                809
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[24] Peng He, Guang Yang, Xinping Qu. Study on effect of different complexing agents and inhibitors on Co corrosion in H2O2 based alkaline solution by EQCM[C]. Icpt 2017; International Conference on Planarization/cmp Technology, 11: 1–5. https://doi.org/10.1016/j.mee.2020.111308."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                809,
+                934,
+                849
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[25] Xiaoguang Guo, Xiaoli Wang, Zhuji Jin, et al., Atomistic mechanisms of Cu CMP in aqueous H O : molecular dynamics simulations using ReaxFF reactive force field, Comput. Mater. Sci. 155 (2018) 476–482, https://doi.org/10.1016/j commatsci.2018.09.022"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                849,
+                932,
+                887
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[26] Tengda Ma, Baimei Tan, Lei Guo, et al., Multidimensional insights into the corrosion inhibition of potassium oleate on Cu in alkaline medium: a combined experimental and theoretical investigation, Mater. Sci. Eng. B-Adv. Funct. Solid State Mater. (2021) 272, https://doi.org/10.1016/j.mseb.2021.115330"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                890,
+                927,
+                930
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                117,
+                52
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                54
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                952,
+                504,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[27] Matjaz Finsgar, The influence of the amino group in 3-amino-1, 2, 4-triazole corrosion inhibitor on the interface properties for brass studied by ToF-SIMS, Rapid Commun. Mass Spectrom. 35 (7) (2021), https://doi.org/10.1002/rcm.9056."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                66,
+                482,
+                97
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[28] Hao Li, Yujie Qiang, Wenjie Zhao, et al., A green Brassica oleracea L extract as a novel corrosion inhibitor for Q235 steel in two typical acid media, Colloids Surf. A-Physicochem. Eng. Asp. (2021) 616, https://doi.org/10.1016/j. colsurfa.2020.126077."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                97,
+                480,
+                136
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[29] Wei Luo, Qingyun Lin, Xue Ran, et al., A new pyridazine derivative synthesized as an efficient corrosion inhibitor for copper in sulfuric acid medium: experimenta and theoretical calculation studies, J. Mol. Liq. (2021) 341, https://doi.org 10.1016/j.molliq.2021.117370."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                137,
+                480,
+                176
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[30] Da Yin, Liu Yang, Tengda Ma, et al., Synergistic effect of composite complex agent on BTA removal in post CMP cleaning of copper interconnection, Mater. Chem. Phys. 252 (2020), 123230, https://doi.org/10.1016/j.matchemphys.2020.123230."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                177,
+                482,
+                206
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[31] R. Popuri, H. Amanapu, C.K. Ranaweera, Potassium oleate as a dissolution and corrosion inhibitor during chemical mechanical planarization of chemical vapor deposited Co films for interconnect applications, Ecs J. Solid State Sci. Technol. 6 (12) (2017), https://doi.org/10.1149/2.0251712jss, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                208,
+                480,
+                247
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[32] K.V. Sagi, L.G. Teugels, M.H. van der Veen, et al., Chemical mechanical polishing of chemical vapor deposited Co films with minimal corrosion in the Cu/Co/Mn/ SiCOH patterned structures, Ecs J. Solid State Sci. Technol. 6 (5) (2017), https:// doi.org/10.1149/2.0171705JSS, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                248,
+                482,
+                287
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[33] Jiakai Zhou, Xinhuan Niu, Yaqi Cui, et al., Study on the film forming mechanism, corrosion inhibition effect and synergistic action of two different inhibitors on copper surface chemical mechanical polishing for GLSI, Appl. Surf. Sci. 505 (2020), 144507, https://doi.org/10.1016/j.apsusc.2019.144507."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                287,
+                482,
+                327
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[34] Mingjie Zhong, Shyam Venkataraman, Yongqing Lan, et al., Role of 1, 2, 4-triazole as a passivating agent for cobalt during post-chemical mechanical planarization cleaning, J. Electrochem. Soc. 161 (3) (2014), https://doi.org/10.1149/ 2.093403jes, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                327,
+                480,
+                366
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[35] Rajeev Kumar, Savita Chahal, Sumit Kumar, et al., Corrosion inhibition performance of chromone-3-acrylic acid derivatives for low alloy steel with theoretical modeling and experimental aspects, J. Mol. Liq. 243 (2017) 439–450, https://doi.org/10.1016/j.molliq.2017.08.048."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                368,
+                480,
+                408
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[36] Lei Guo, Jianhong Tan, Savas¸. Kaya, et al., Multidimensional insights into the corrosion inhibition of 3, 3-dithiodipropionic acid on Q235 steel in H SO medium: a combined experimental and in silico investigation, J. Colloid Interface Sci. 570 (2020) 116–124, https://doi.org/10.1016/j.jcis.2020.03.001."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                409,
+                480,
+                448
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[37] Jiakai Zhou, Xinhuan Niu, Zhi Wang, et al., Study on effective methods and mechanism of inhibiting cobalt removal rate in chemical mechanical polishing of GLSI low-tech node copper lilm, Ecs J. Solid State Sci. Technol. 8 (11) (2019), https://doi.org/10.1149/2.0271910jss, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                448,
+                482,
+                488
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[38] Fengxia Liu, Shengli Wang, Chenwei Wang, et al., Effect of diethylenetriamine pentaacetate pentapotassium on chemical mechanical polishing of cobalt in H O based slurry, Ecs J. Solid State Sci. Technol. 8 (5) (2019), https://doi.org/10.1149 2.0291905jss, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                489,
+                482,
+                527
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[39] Xinbo Zhang, Guofeng Pan, Lianjun Hu, et al., Effects of nitrilotriacetic acid and corrosion inhibitor on cobalt barrier chemical–mechanical polishing: experimental and density functional theory analysis, Colloids Surf. A: Physicochem. Eng. Asp. 605 (2020), 125392, https://doi.org/10.1016/j.colsurfa.2020.125392."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                529,
+                480,
+                568
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[40] Mark C. Biesinger, Brad P. Payne, Andrew P. Grosvenor, et al., Resolving surface chemical states in XPS analysis of first row transition metals, oxides and hydroxides: Cr, Mn, Fe, Co and Ni, Appl. Surf. Sci. 257 (7) (2011) 2717–2730, https://doi.org/10.1016/j.apsusc.2010.10.051."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                66,
+                932,
+                105
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[41] Bing Wu, Srini Raghavan, Removal of BTA adsorbed on Cu: a feasibility study using the quartz crystal microbalance with dissipation (QCMD) Technique, Ecs J. Solid State Sci. Technol. 8 (5) (2019), https://doi.org/10.1149/2.0191905JJSS, 0-0."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                107,
+                934,
+                136
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[42] Siewteng Sim, Yoshito Andou, A.A. Bashid Hamra, et al., Development of organo dispersible graphene oxide via pseudo-surface modification for thermally conductive green polymer composites, Acs Omega 3 (12) (2018) 18124–18131, https://doi.org/10.1021/acsomega.8b02478."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                137,
+                931,
+                176
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[43] Pengcheng Li, Xiaoan Li, Shujuan Dai, Adsorption of gold cyanide on quartz, Colloids Surf. A-Physicochem. Eng. Asp. (2020) 590, https://doi.org/10.1016/j colsurfa.2020.124514."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                177,
+                924,
+                206
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[44] Chao Yu, Shutian Wu, Zhijuan Huang, et al., Water/ethanol complexation induced solubility variation of hexaquocobalt(II) bis (p-toluenesulfonate) and hexaquonickel(II) bis (p-toluenesulfonate, J. Mol. Liq. 224 (2016) 139–145 https://doi.org/10.1016/j.molliq.2016.09.094."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                206,
+                932,
+                247
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[45] Xiaoxing Zhang, Yingang Gui, Hanyan Xiao, et al., Analysis of adsorption properties of typical partial discharge gases on Ni-SWCNTs using density functional theory, Appl. Surf. Sci. 379 (2016) 47–54, https://doi.org/10.1016/j. apsusc.2016.04.048."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                248,
+                934,
+                287
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[46] Zaki S. Lei Guo, Savas Safi, Kaya, et al., Anticorrosive effects of some thiophene derivatives against the corrosion of iron: a computational study, Front. Chem. (2018) 6, https://doi.org/10.3389/fchem.2018.00155."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                287,
+                927,
+                317
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[47] Lei Guo, Savas Kaya, Ime Bassey Obot, et al., Toward understanding the anticorrosive mechanism of some thiourea derivatives for carbon steel corrosion: a combined DFT and molecular dynamics investigation, J. Colloid Interface Sci. 506 (2017) 478–485, https://doi.org/10.1016/j.jcis.2017.07.082."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                317,
+                934,
+                356
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[48] Robert C. Morrison, The extended Koopmans’ theorem and its exactness, J. Phys. Chem. 96 (5) (1992) 3718–3722, https://doi.org/10.1063/1.461875."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                358,
+                932,
+                378
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[49] R. Luis, Domingo Patricia P´erez, Global and local reactivity indices for electrophilic/nucleophilic free radicals, Org. Biomol. Chem. 11 (26) (2013) 4350 4358, https://doi.org/10.1039/c3ob40337h."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                378,
+                905,
+                408
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[50] Song Liu, Xiaotian Qi, Ruopeng Bai, et al., Theoretical study of Ni-catalyzed C–N radical–radical cross-coupling, J. Org. Chem. 84 (6) (2019) 3321–3327, https:// doi.org/10.1021/acs.joc.8b03245."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                408,
+                932,
+                437
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[51] A. Stoyanova, G. Petkova, S.D. Peyerimhoff, Correlation between the molecular structure and the corrosion inhibiting effect of some pyrophthalone compounds, Chem. Phys. 279 (1) (2002) 1–6, https://doi.org/10.1016/S0301-0104(02)00408- 1."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                438,
+                932,
+                477
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[52] Lei Guo Yujie Qiang, Hao Li, et al., Fabrication of environmentally friendly Losartan potassium film for corrosion inhibition of mild steel in HCl medium, Chem. Eng. J. 406 (2021), 126863, https://doi.org/10.1016/j.cej.2020.126863"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                479,
+                927,
+                508
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[53] Hassane Lgaz, Sourav Kr Saha, Abdelkarim Chaouiki, et al., Exploring the potential role of pyrazoline derivatives in corrosion inhibition of mild steel in hydrochloric acid solution: Insights from experimental and computational studies, Constr. Build. Mater. 233 (2020), 117320, https://doi.org/10.1016/j.conbuildmat.2019.117320."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                509,
+                934,
+                548
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Ma et al."
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                42,
+                117,
+                52
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Colloids and Surfaces A: Physicochemical and Engineering Aspects 652 (2022) 129816"
+                    }
+                ]
+            },
+            "bbox": [
+                541,
+                42,
+                939,
+                54
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                952,
+                507,
+                960
+            ]
+        }
+    ]
+]

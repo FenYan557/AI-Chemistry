@@ -1,0 +1,507 @@
+REVIEW ARTICLE
+
+![](images/29568f84e69e029a2b9cb1588805b99cf932dd1e7dd8a0db611888267ac015b2.jpg)
+
+# Cobalt Electroplating Interconnects in Advanced Chip Fabrication: A Review
+
+Lei Jin<sup>1</sup>  · Zhao‑Yun Wang<sup>2</sup> · Fang‑Zu Yang<sup>3</sup>
+
+Received: 1 February 2025 / Accepted: 12 July 2025 / Published online: 7 August 2025 © The Minerals, Metals & Materials Society 2025
+
+## Abstract
+
+Electroplating is a core technology in high-end chip manufacturing, with its technical challenges centered on achieving voidfree filling of metal coatings within micro- and nanoscale trenches and vias. Copper, the current mainstream interconnect material, can no longer meet the performance and reliability demands posed by the continuous reduction in interconnect dimensions. In contrast, cobalt ofers superior electrical properties and safety at the micro-/nanoscale, making it a promising next-generation interconnect material to replace copper. This paper provides a comprehensive overview of cobalt interconnect technology in chip manufacturing. It examines the electrochemical behavior and interactions of cobalt ions, boric acid, and additives, summarizing the cobalt filling efects and associated mechanism models under diferent process compositions. The discussion also highlights advanced in situ electrochemical characterization technologies to investigate the synergistic and antagonistic efects of various plating bath components, the influence of pH, temperature, and additives on cobalt nucleation and growth, and the surface, interface, and filling processes during cobalt electrodeposition in micro-/nanostructures. Furthermore, the paper explores annealing treatments for cobalt coatings, emphasizing their role in optimizing performance.
+
+Keywords Chip fabrication · cobalt interconnects · additives · mechanism · surface and interface process · annealing treatment
+
+## Introduction
+
+The rapid advancement of electronic information and technology has significantly enhanced living standards, driven scientific and technological innovation, and promoted social progress. At the heart of electronic information and technology lies the design, manufacturing, and testing of chips. Electroplating plays a pivotal role in the fabrication, integration, and packaging of integrated circuit chips. It is the only technology capable of achieving nanoscale electronic logic interconnects and enabling the large-scale, controllable manufacturing of metal-based micro-/nanostructures.<sup>1–6</sup> Furthermore, electroplating serves as a foundation for semiconductor chip interconnects and holds promise for the future integration and packaging of carbon-based, biological, and quantum chips.
+
+Copper has high resistance to electromigration and excellent thermal and electrical conductivity, so it is the main metal material for electrical interconnects,<sup>7–17</sup> as shown in Fig. 1. However, with the rapid development of integrated circuit industry, the wiring density and metal layer stacking continually increase, e.g., the length of the chip internal metal wiring has been up to tens of kilometers, and the number of the metal wiring layers is up to 15. The improvement in energy consumption and performance requires the size of transistors and metal interconnects to shrink continuously, with the resulting size efects. The more significant grain boundary scattering and interface scattering of electrons inside the metal caused by size efects are shown in Fig. 2.<sup>13</sup> When the width of copper interconnects line decreases, the current load increases sharply, then the resistivity increases sharply, which will damage the chip performance due to the serious resistance and capacitance delay and a large amount of Joule heat. Therefore, copper interconnects have been unable to meet the development needs of advanced integrated circuit in the post-Moore era, and it is urgent to find next-generation metal interconnect materials.
+
+![](images/62a98aeda87a2e71174b7697aa1d667aabfa46400120f80299224fc0830bf08c.jpg)  
+Fig. 1. Typical metallization of a copper interconnects. Reprinted with permission under a Creative Commons CC BY License from Ref. 13, Copyright 2023, Wiley-VCH.
+
+(a)  
+(b)  
+![](images/3d37bda057ff1bd85881c1b017c37514a6799d9ffa51677c3c9219c27ed0f3e2.jpg)  
+Fig. 2. Scattering mechanism on (a) bulk and (b) line or thin film at the nanoscale. Reprinted with permission under a Creative Commons CC BY License from Ref. 13, Copyright 2023, Wiley-VCH.
+
+The electron mean free path of copper is 39 nm.<sup>18</sup> Generally, the larger the electron mean free path of the bulk metal, the lower the resistivity of the metal. When the characteristic size of interconnects is reduced to the electron mean free path of copper, the electrons inside the copper are subjected to strong grain boundary scattering and interface scattering, causing a sudden increase in resistivity. Compared with copper, cobalt has a smaller electron mean free path (about 10 nm);<sup>18</sup> that is, cobalt possesses a smaller size efect than copper.<sup>19</sup> When the trench critical dimension is above about 7 nm, copper wires have lower resistivity. When the trench critical dimension is below about 7 nm, cobalt wires exhibit even lower resistivity.<sup>20</sup> The resistivities of diferent widths for Cu and Co are shown in Fig. 3. In addition, in copper interconnects, the TiN barrier layer and copper seed layer with about 2 nm thickness in total are needed to prevent the interdifusion of copper and dielectric ${ \mathrm { S i } } / { \mathrm { S i O } _ { 2 } } ,$ which further reduces the width of copper interconnect line, resulting in a higher resistivity. Cobalt itself can act as a barrier layer or seed layer.<sup>21</sup> Theoretically, using cobalt as interconnect metal does not require a barrier layer and a seed layer with higher resistivity, thereby further improving the conductivity of the interconnect metal. Although cobalt has better electromigration resistance than copper, in practice, if a barrier layer is not used, cobalt will still difuse into the $\mathrm { S i O } _ { 2 }$ dielectric layer or porous low-K dielectric layer.<sup>22</sup> In the absence of an seed layer or barrier layer, cobalt will also difuse into the trench of other layers along the interface of the filling layer/dielectric layer.<sup>23</sup> Cobalt is an ideal next-generation interconnected metal material to replace copper.
+
+![](images/89d3ea50ef8d466b6830ed4e0d2f75f1413b7345480fe68208e5e65cc8ecb6e4.jpg)  
+Fig. 3. Resistivity as a function of trench critical dimension $\mathrm { \ m e t a l }$ for Cu and Co. Data from Ref. 20.
+
+Cobalt interconnects still use classical damascene process. As shown in Fig. 4, after the via or trench is etched, the barrier layer TiN and the adhesion layer WC are fabricated by chemical vapor deposition (CVD) and atomic layer deposition, respectively. The cobalt seed layer has been formed by CVD, and, subsequently, the electroplating technology has been used to realize the cobalt superfilling.
+
+Finally, chemical mechanical polishing (CMP) makes the rough surface flat. Cobalt electroplating is one of the key technologies to achieve high quality interconnects.
+
+Nowadays, the Taiwan Semiconductor Manufacturing Company and Intel Corporation have applied cobalt electroplating interconnects to advanced processes in the 7- nm and 10-nm nodes, respectively.<sup>24–28</sup> Figure 5 shows the corresponding cobalt electroplating filling process. However, the process of advanced cobalt electroplating interconnects is relatively dificult due to the negative electro-reduction potential of cobalt ions and the more violent hydrogen evolution reaction; therefore, there are only a few reports about cobalt electroplating filling. The reaction process of cobalt electroplating and the mechanism of each component need to be further explored.
+
+In this paper, the current research progress of cobalt electroplating, the role of each component, and the mechanism of superfilling are reviewed, and the basic research and technology development direction of cobalt electroplating are prospected.
+
+## Cobalt Electroplating Bath
+
+A cobalt electroplating bath is mainly composed of virgin make-up solution (VMS) and organic additives. The VMS consists of cobalt sulfate heptahydrate $( \mathrm { C o S O } _ { 4 } { \cdot } 7 \mathrm { H } _ { 2 } \mathrm { O } )$ , boric acid $\mathrm { ( H } _ { 3 } \mathrm { B O } _ { 3 } )$ , cobalt chloride hexahydrate $( \mathrm { C o C l } _ { 2 } { \cdot } 6 \mathrm { H } _ { 2 } \mathrm { O } )$ and sulfuric acid $( \mathrm { H } _ { 2 } \mathrm { S O } _ { 4 } ) .$ . Table I presents the composition of the VMS.<sup>29–31</sup> $\mathrm { C o S O } _ { 4 } { \cdot } 7 \mathrm { H } _ { 2 } \mathrm { O }$ is the metal source of cobalt electrodeposition. If the content of cobalt ions is too high, the surface roughness of coating will increase. In contrast, if the content is too small, it is easy to produce intermediate inclusions and surface defects of the coating $^ { 2 9 } \mathrm { C o C l } _ { 2 } { \cdot } 6 \mathrm { H } _ { 2 } \mathrm { O }$ can provide chloride ions. On the one hand, they can promote the dissolution of cobalt anode during electroplating, while, on the other hand, they can cooperate with organic additives to change the cobalt reaction process.<sup>30</sup> $^ { - 3 2 } \mathrm { H } _ { 2 } \mathrm { S O } _ { 4 }$ regulates the pH value of the electroplating solution to 3–4 and prevents the electrodeposited cobalt layer from passiva tion and formation of ${ \mathrm { C o } } ( \mathrm { O H } ) _ { 2 }$ , which makes the reaction dificult to continue. Since the reduction potential of cobalt is more negative than that of hydrogen, the hydrogen evolution reaction often occurs simultaneously with the cobalt ions electro-reduction during cobalt electroplating. To avoid a large change in the local pH value, it is often necessary to add a pH bufering agent to maintain a constant pH value. $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 } ,$ , as a pH bufering agent, can prevent the pH changes caused by hydrogen evolution reactions. Organic additives are the key components to achieve cobalt bottomup superfilling.<sup>33–38</sup>
+
+![](images/464811b630878d0ad07765a0ff48c41ffb27bf3e8d96a8dff4289d9fedb6fbbb.jpg)  
+Fig. 4.   Cobalt interconnect damascene process.
+
+(a)  
+![](images/835ad828b70d6dee71e7dd5d708f25a9f696c3412b8f1683554801e6b1f21bb3.jpg)
+
+(b)  
+![](images/8e45298a5a7a4970fbafc0fee97fe3673e408cd7b859084aa7c3d3a585b20b46.jpg)  
+Fig. 5. (a) Cross-sectional schematic of Co bottom-up contact fill and via prefill, and (b) gate contact integrated with local Co interconnect at the back end of Intel's 10-nm process.
+
+Table 1.   Composition of the VMS for cobalt electroplating.
+
+<table><tr><td>Chemicals</td><td>Contents</td><td>Functions</td><td>References</td></tr><tr><td> $CoSO_{4}.7H_{2}O$ </td><td>0.03–0.5 M</td><td>Main salt</td><td>[29–31]</td></tr><tr><td> $CoCl_{2}.6H_{2}O$ </td><td>0–0.84 mM</td><td>Main salt and activator</td><td>[29–31]</td></tr><tr><td> $H_{3}BO_{3}$ </td><td>0.25–0.65 M</td><td>Buffering agent</td><td>[29–31]</td></tr><tr><td> $H_{2}SO_{4}$ </td><td>A few drops</td><td>pH regulator (3–4)</td><td>[29–31]</td></tr></table>
+
+It is worth noting that the mechanism $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ in the electroplating bath is not yet clear, despite it being able to achieve a pH bufering efect due to the dynamic balance of protonation and deprotonation by forming polyborates.
+
+Rigsby et al.<sup>39</sup> found that $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ could refine grain and reduce coating roughness, as shown in Fig. 6. Furthermore, when the content of ${ \mathrm { H } } _ { 3 } { \mathrm { B O } } _ { 3 }$ was too low, the trenches were sealed in advance, leaving many holes and gaps, as displayed in Fig. 7. The $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ plays a relatively complex role in cobalt electroplating interconnects. During the cobalt electroplat ing process, due to the continuous occurrence of the hydrogen evolution reaction, the pH value of the local electrolyte near the cathode surface increases significantly. The $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ must be converted into polyborates and the released $\mathrm { H } ^ { + }$ ions will reduce the local pH value and hinder the formation of ${ \mathrm { C o } } ( \mathrm { O H } ) _ { 2 }$ near the cathode surface.<sup>40</sup> In addition, polyborates are easily adsorbed on the cathode surface, occupying active sites for atomic hydrogen electro-reduction and inhibiting the hydrogen evolution reaction.<sup>41</sup> Generally, most chemical substances are adsorbed on the electrode surface, which can inhibit the electrodeposition of metal ions. However, as the concentration of $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ increases, the adsorbed polyborate results in an increase in the current utilization rate of cobalt electrodeposition.<sup>39</sup> That is to say, the mechanism of converting $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ into polyborates on the cathode surface, the mechanism of inhibiting the reduction of atomic hydrogen, the types of polyborates adsorbed on the cathode surface and their adsorption modes, and the mechanism of polyborates capturing metal ions to form complexes to improve current utilization are currently inconclusive. Research on $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ in cobalt electroplating interconnects is still in its preliminary stage and there is room for discussion on the mechanism, but what is certain is that $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ plays an indispensable role in cobalt electroplating from three aspects: stabilizing the pH, inhibiting surface hydrogen evolution, and promoting cobalt electrodeposition for high current utilization.
+
+![](images/d91956eba335f32fe7aacbc5e1729d415f745cbc29f403fe1d3d0942f25b87ac.jpg)  
+Fig. 6. Top-down SEM images of cobalt films with (a) 0 g/L, (b) 30 $\mathrm { g } / \mathrm { L } \ \mathrm { H } _ { 3 } \mathrm { B O } _ { 3 } ,$ and (c) AFM roughness as a function of $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$ concentration. Reprinted with permission from Ref. 39, Copyright 2020, IOP Publishing
+
+## Additives and Superfilling Mechanism
+
+Metal cobalt is an iron group element, so the additives suitable for electroplating of iron group metals can be used for cobalt electroplating. Alkynol/enol compounds (including sulfonated compounds) are typical additives for cobalt electrodeposition. The molecular structure is shown in Fig. 8. However, to date, there are almost no reports on the use of alkynol/enol compounds for bottom-up superfilling of cobalt, and only a few studies have explored their reaction process on the surface of cobalt electrodes. Jin et al.<sup>42</sup> showed the molecule structure, adsorption ability, and electrochemical property of butynediol. Pan et al.<sup>43</sup> believed that the electrodeposited cobalt can catalyze the occurrence of the hydrogen evolution reaction, and the atomic hydrogen produced continuously reduced butynediol adsorbed on the cobalt electrode surface. Kiruba et al.<sup>36</sup> reported that butynediol can be reduced to butenediol on the cobalt electrode surface in the electroplating bath through Raman spectroscopy. In addition, there was electrochemical oscillation behavior in the initial stage of cobalt electrodeposition due to the three reasons of the interaction between atomic hydrogen and butynediol adsorption, the reaction between atomic hydrogen and butynediol, and the cobalt ions electro-reduction. Although there are no reports on the use of alkynol/ enol compounds for cobalt bottom-up superfilling, this does not mean that alkynol/enol compounds cannot achieve cobalt bottom-up superfilling without voids. If these alkynol/enol compounds can control the rate of cobalt electrodeposition at the bottom of the via to be higher than that at the mouth, then these alkynol/enol compounds are suitable additives and meet the requirements of bottom-up superfilling.
+
+![](images/4ffc64fb8ac3e685af961b65e3a3ae4153223e5f9f15f1dcb42f95f5f6a45eab.jpg)  
+Fig. 7. STEM cross-sectional images of cobalt filling with diferent H BO content: (a) 30 g/L, (b) 15 g/L, and (c) 5 g/L. Reprinted with permis sion from Ref. 39, Copyright 2020, IOP Publishing
+
+## S‑Shaped Negative Diferential Resistance Mechanism
+
+Oxime compounds are condensation compounds of hydroxylamine and aldehydes or ketones, which can inhibit cobalt electrodeposition and have the characteristics of potential and difusion dependence. Huang et al.<sup>33,44</sup> reported the efects of three oxime compounds, dimethylglyoxime (DMG), cyclohexane monoxime (CHO), and cyclohexane dioxime (CHD), on cobalt bottom-up superfilling. The structures of DMG, CHO, and CHD are presented in Fig. 9a. At low overpotentials, all three additives have an inhibiting efect on cobalt electrodeposition. At high overpotentials, the three additives lose their inhibiting ability, and, among them, DMG is more likely to be inactivated at a more positive potential. When a more negative potential (large current) is applied, oxime compounds lose their activity. At the same time, since oxime compounds also have mass transfer and difusion dependence, the oxime compounds at the via mouth are continuously replenished but cannot be replenished in time at the bottom. In other words, the cobalt electrodeposition rate is faster at the bottom, and, therefore, cobalt bottom-up superfilling can be achieved. Based on this characteristic of potential and difusion dependence, an S-shaped negative diferential resistance (S-NDR)
+
+CHD  
+![](images/32def9312ac410b85ae52c080910c6d647a2b72c25f9936b1cb7ba2b961b4880.jpg)
+
+![](images/8238a8f26e2aefa1bd6ac967ffa494302c78903ea949dd9d5afd8288a539eb05.jpg)
+
+![](images/6092cfc94c3d2340682d64fab45c9aa2af711c8315ad37db46e57372894e4e88.jpg)
+
+![](images/b93c523cb9ae1eabbce5672cc88031ee653e7eba337061ae94fb3b40fb1b4d8b.jpg)
+
+![](images/61a30cb5b0d5eddb238aa4f90077a9a9b75919c48010962e14a568f8241db979.jpg)
+
+![](images/f8327109bdca6e4ca3c02b1a5c5f79395f23161b1228c2849a6475ed50d72eb6.jpg)  
+Fig. 8. Molecular structures of alkynol/enol compounds and their sulfonated compounds $( R _ { 1 } , R _ { 2 } , R _ { 3 }$ and $R _ { 4 }$ can be hydrogen or a hydrocarbon group).
+
+![](images/ebf37cf231904b5206bf8602a113c48c5f0fcd98e47d6c801126a977a37072bf.jpg)
+
+![](images/2898b80c9e917d7c9abbd8b753a622aea645b27423cdcef7429edcca833e4be6.jpg)
+
+![](images/edba54a2a835a7b5583d8d6e225d490eae76b30180eaffb4f59d79d409a91455.jpg)
+
+DMG  
+![](images/4162e7de84fd5a11f12b17434b2ff7e2df044f8dd5358fbb6d388823515ddd77.jpg)
+
+CHO  
+![](images/f5e41f40a5e520c390dca1971b344f677f1cabedc8137dce1a5e5c2ccd61d49d.jpg)
+
+![](images/4b85f1428750dde3c1ff6cb9596257e0411d441d695b8769d27a0955f24e60c8.jpg)
+
+![](images/bc25277ef983476afd2edef40d9ee12d6f5661c621fc3c599ca3a7fd6768f7df.jpg)  
+Fig. 9.   (a) Structures of DMG, CHO, and CHD, (b) schematic of the S-NDR mechanism for cobalt bottom-up superfilling.
+
+mechanism suitable for cobalt bottom-up superfilling is pro posed, as presented in Fig. 9b.
+
+## Difusion‑Dependent and Induction–Difusion– Adsorption Mechanism
+
+Dye additives are usually nitrogen-containing compounds, which are often regarded as levelers and applied to copper electroplating interconnects.<sup>45–54</sup> Dye additives have the characteristics of inhibiting metal electrodeposition and difusion dependence, so they can also be used for cobalt electroplating interconnects. Nitrotetrazolyl blue (NBT) and malachite green (MG) are the typical dye-type additives for cobalt electroplating, and their corresponding structures are shown in Fig. 10a. Li et al.<sup>31</sup> showed that NBT has a concentration gradient in the trench structure. As cobalt electrodeposition proceeds, the NBT content at the bottom of the trench is lower than that at the mouth, and therefore cobalt can be filled from bottom to top. Figure 10b shows the proposed difusion-dependent mechanism for cobalt bottom-up superfilling based on the NBT action mechanism. It is worth noting that, unlike copper electroplating, the bottom-up superfilling mechanism of cobalt electroplating is also related to the atomic hydrogen concentration on the electrode surface in addition to the type of additives. Some dye additives can promote the occurrence of the hydrogen evolution reaction, which afects the bottom-up superfilling efect by changing the cobalt electrodeposition current eficiency. Ma et al.<sup>55</sup> believed that MG can promote the generation of atomic hydrogen. There was a concentration gradient of MG in the trench, and the MG concentration was high at the trench mouth. At the same time, MG promoted the occurrence of the hydrogen evolution reaction at the trench mouth, resulting in a decrease in the current eficiency of cobalt electrodeposition there. In contrast, the current eficiency of cobalt electrodeposition at the bottom of the trench was high. Therefore, cobalt was densely superfilled from bottom to top. Based on this characteristic, an induction–dif fusion–adsorption mechanism suitable for cobalt bottom-up superfilling was proposed, as shown in Fig. 10c.
+
+![](images/d98bab1f05b3124b8136daf8b4dc7fe042692af8f9a10f378a438dca1f06fbd2.jpg)  
+Fig. 10. (a) Structures of NBT and MG, and schematics of (b) difusion-dependent and (c) induction–difusion–adsorption mechanism.
+
+## Diferential Current Eficiency Fill Mechanism
+
+The above-mentioned cobalt bottom-up superfilling mechanism is closely related to the kinds of additives, but there are also some mechanisms that do not limit the kinds of additives, such as the diferential current eficiency fill (DCEF) mechanism. Rigsby et al.<sup>56–58</sup> considered that the local pH changes directly afected the concentration of hydroxide ions involved in the formation of intermediates, $\mathrm { C o ( O H ) _ { a d s } , }$ thereby increasing the reaction paths, changing the thermodynamics of cobalt electrodeposition, and adjusting the rate of cobalt electrodeposition. They confirmed that there was a concentration gradient of hydrogen ions in the via (high concentration at the mouth of via), and the current eficiency of cobalt electrodeposition at the bottom of the via was four times higher than that at the mouth by using cyclic voltammetry with electrochemical quartz microbalance technology. The formation of a pH gradient in the longitudinal direction of the via structure led to diferences in the cobalt electrodeposition rate and eficiency, which enabled bottom-up superfilling. Based on the experimental results, the DCEF mechanism was proposed and is shown in Fig. 11.
+
+## Hydrogen Reduction‑Induced Deactivation
+
+Another mechanism that is not afected by the types of additives is the hydrogen reduction-induced deactivation (HID) mechanism. Wu et al.<sup>59,60</sup> verified that the change of pH value afected the inhibiting ability of additives through cyclic voltammetry. During the cobalt electrodeposition process, a large amount of atomic hydrogen accumulates at the bottom of the via due to the large surface-to-volume ratio, and the inhibitor at the bottom of via is continuously protonated and loses the ability to inhibit the electro-reduction of cobalt ions. A schematic of the HID mechanism is presented in Fig. 12. According to the principles described in this mechanism, any additive that undergoes a transition between an inactive state and active state under the influence of hydrogen ions can control and achieve the cobalt bottomup superfilling.
+
+## Comparison and Applicability of Mechanisms
+
+For the S-NDR mechanism, it is often believed that whether or not the deposition is suppressed in metal superfilling is related to the adsorption and deactivation of the suppressant in the bath. If there is a suitable convection difusion gradient in the depth direction of the trench structure, cobalt filling from bottom to top can be achieved. This mechanism is limited by the type of additives, and oxime compounds often have this characteristic. For the difusion-dependent and induction–difusion–adsorption mechanisms, these are closely related to the hydrogen evolution reaction and diffusion. However, dye molecules are often unstable and are easily decomposed during the electroplating process. Their
+
+![](images/962612d6cf3edc40e4d7895385e82eed7c765c802389164cd8c8f2ef806b5db4.jpg)  
+Fig. 11. Schematic of DCEF mechanism. Adapted from Ref. 56, Copyright 2019, IOP Publishing, under the terms of the Creative Commons Attribution 4.0 License (CC BY, http://creativecommons.org/licenses/by/4.0/)
+
+![](images/d983b4e3b6efb164d3cd5f4f08c2aa3c00a87ce00fcbf08c4c0091226bef9265.jpg)  
+Fig. 12. Schematic of HID mechanism. Adapted from Ref. 59, Copyright 2019, IOP Publishing under the terms of the Creative Commons Attri bution 4.0 License (CC BY, http://creativecommons.org/licenses/by/4.0/)
+
+efect cannot last long, and the decomposition products may have a negative impact on the cobalt electrodeposition process. For the DCEF mechanism, this mechanism does not care about the type of additives. As long as a pH gradient can be formed in the trench structure, it can afect the cobalt electrodeposition rate and current eficiency at the bottom and the mouth, making the current density of cobalt electrodeposition at the bottom much higher than that at the mouth. However, to form a suitable pH gradient, the electroplating current density needs to be controlled below the limiting difusion current density of proton reduction in order to prevent the proton consumption rate from being much greater than the mass transfer rate and failing to achieve superfilling. For the HID mechanism, this mechanism also does not care about the type of additive. The specific surface area at the bottom of the trench is large, and more atomic hydrogen gathers here. As long as the additive can be reduced and inactivated by atomic hydrogen, superfilling can be achieved. Since the local current density at the bottom exceeds the current density at the mouth, afected by the current eficiency, when the electrodeposition approaches the mouth, the local current density is still much greater than the local current density near the mouth. The current density efect will still provide more hydrogen in the feature area, and superfilling continues to occur, resulting in mushroom-shaped bulges. The above-mentioned cobalt superfilling mechanisms have diferent emphases, and sometimes two bottom-up filling mechanisms may exist simultaneously in a bath.
+
+## Surface and Interface Behavior of Cobalt
+
+The surface and interface formed by the electrode and the bath are important reaction sites in the cobalt electroplating process. Diferent from the traditional conventional electroplating, cobalt electroplating interconnects are carried out in the micro-/nanovia or trench with a certain aspect ratio, in which surface and interface structure, potential distribution, metal nucleation and growth mechanism, mass transfer process, additive molecular action mechanism, etc. are more complex. Therefore, it is significantly important to clarify the structure of the surface and interface of electroplating and the mechanism of cobalt electrodeposition to accelerate the fundamental research and improve development eficiency.
+
+## Electro‑reduction
+
+Cobalt ion is a divalent metal ion. In the inherent impression, divalent cobalt is directly electro-reduced to metal cobalt, and the chemical formula is: $\mathrm { C o ^ { 2 + } } \ + 2 \mathrm { e } = \mathrm { C o ( s ) . } ^ { 6 1 , 6 2 }$ However, divalent cobalt ions, like iron group elements, need to go through an intermediate state for electro-reduction.<sup>63–68</sup> The electro-reduction reaction of cobalt ions proceeds in a continuous one-electron transfer step through the adsorbed cobalt hydroxide intermediate, and the corresponding chemical formulae are shown below.<sup>56</sup> It is worth noting that Rigsby et al.<sup>56</sup> confirmed that the rate of cobalt electroreduction varies depending on the concentration of hydroxide ions.
+
+$$
+\mathrm{Co} ^ {2 +} + \mathrm{OH} ^ {-} = \left(\mathrm{CoOH} ^ {+}\right) _ {\mathrm{ads}}\tag{1}
+$$
+
+$$
+\left(\mathrm{CoOH} ^ {+}\right) _ {\mathrm{ads}} + \mathrm{e} = (\mathrm{CoOH}) _ {\mathrm{ads}}\tag{2}
+$$
+
+$$
+(\mathrm{CoOH}) _ {\mathrm{ads}} + \mathrm{e} = \mathrm{Co(s)} + \mathrm{OH} ^ {-}\tag{3}
+$$
+
+Some researchers have diferent views on the electroreduction of cobalt ion. Santos et al.<sup>69</sup> deemed that the cobalt ions combine with the hydroxide to form cobalt hydroxide, which is a competitive reaction with the cobalt ions being directly electro-reduced to metal cobalt. The formed cobalt hydroxide is adsorbed on the electrode surface, and obtains two electrons at a relatively negative potential to be electro-reduced to metal cobalt. The corresponding chemical formulae are:
+
+$$
+\mathrm{Co} ^ {2 +} + 2 \mathrm{OH} ^ {-} = \left(\mathrm{Co} (\mathrm{OH}) _ {2}\right) _ {\mathrm{ads}}\tag{4}
+$$
+
+$$
+\left(\mathrm{Co} (\mathrm{OH}) _ {2}\right) _ {\mathrm{ads}} + 2 \mathrm{e} = \mathrm{Co} (\mathrm{s}) + \mathrm{OH} ^ {-}\tag{5}
+$$
+
+## Nucleation and Growth
+
+The nucleation and growth process of cobalt interconnect wires has a huge impact on their stability and resistivity. Pagnanelli et al.<sup>70</sup> found that increasing the overpotential of cobalt electrodeposition will increase the number of active sites on the surface, resulting in an increase in the density of cobalt nuclei and a significant decrease in grain size. Mehmood et al.<sup>71</sup> confirmed that the overpotential of cobalt electrodeposition is closely related to its growth structure. High overpotential is conducive to the formation of facecentered cubic cobalt clusters with a small core radius. In addition, pH has an efect on the nucleation of micron-scale cobalt, but has no efect on the nucleation of nanoscale cobalt.<sup>72</sup> Mukhtar et al.<sup>73</sup> showed that the concentration of cobalt ion has a significant efect on its nucleation. When the concentration is low, the cobalt nucleus is larger and the structure is hexagonal close-packed. As the concentration is high, the cobalt nucleus is smaller and the structure is facecentered cubic. A schematic is shown in Fig. 13.
+
+The presence of additives can also afect the nucleation behavior of cobalt. Hu et al.<sup>34</sup> reported the nucleation and growth process of cobalt under the action of diferent additives (DMG, CHD). As shown in Fig. 14, there was a twostep nucleation process on the electrode surface, including electro-reduction of cobalt coordination ions (formed by additives and cobalt ions) and direct electro-reduction of cobalt ions. Furthermore, Hu et al.<sup>74</sup> also discovered that the threshold potential for nucleation decreased upon the increase of furil dioxime concentration, and the deposition was found to follow the progressive nucleation behavior for almost all cases.
+
+## Electrochemical Oscillation
+
+The phenomenon that an autocatalytic reaction causes a positive feedback loop is regard as electrochemical oscillation.<sup>75–78</sup> The self-adsorption/desorption, decomposition and competitive adsorption of additives on the electrode surface may change the kinetic mechanism of metal ion electro-reduction, resulting in electrochemical oscillation, and periodic changes in current or potential within a certain range.<sup>78–81</sup> Numerous studies on electrochemical oscillation for copper interconnects have been reported,<sup>82–85</sup> but, to the best of our knowledge, only one report on the electrochemical oscillation of cobalt interconnects has been published. Hu et al. <sup>86</sup> reported that 3-mercapto-1-propanesulfonate (MPS) can lead to an electrochemical oscillation. The main positive feedback loops resulting in oscillation are autocatalytic accumulation and dissolution of cobalt hydroxide, which are triggered by the potential-dependent adsorption and desorption of the Co-MPS complex. Figure 15 shows the potential oscillation phenomen0n and mechanism of cobalt.
+
+## Coordination
+
+Additive molecules can coordinate metal ions on the electrode surface, thereby changing the electrode process kinetics of metal deposition. For example, in copper interconnects, MPS can coordinate with copper and chloride ions to form a complex, thereby accelerating copper electrodeposition.<sup>87,88</sup> Polyethylene glycol can also coordinate with copper and chloride ions to form a complex to inhibit copper electrodeposition, <sup>89,90</sup> while cobalt ions can also coordinate with additives during electro-reduction. Li et  al.<sup>31</sup> showed that a coordination interaction is formed between the opened nitrogenous heterocyclic ring in NBT and cobalt ions, as the cobalt ions move toward the electrode surface.
+
+![](images/bc74f15e976e98e7b85f3d39b490c7e2ba4dfa041bfa7c00440bb62958992946.jpg)  
+Fig. 13. Schematic of the efects of concentration of cobalt on nucleation. Reprinted with permission from Ref. 73, Copyright 2016, Elsevier.
+
+This complex can inhibit cobalt electrodeposition through synergistic adsorption and coordination efects. Ma et al.<sup>91</sup> showed that added malachite green can coordinate with cobalt ions to increase the electrochemical polarization by the adsorption–coordination–inhibition mechanism, as shown in Fig. 16.
+
+## Microstructure of Cobalt Electroplating
+
+Electroplating parameters have a profound and complex impact on the microstructure of cobalt, which is directly related to the performance of the cobalt coating and determines its value in actual applications. In electroplating production, it is necessary to comprehensively consider the parameters, such as current density, temperature, concentration, additives, etc., and obtain the ideal cobalt microstructure through precise process control, so as to meet the unique requirements of various application fields for the performance of cobalt coatings. Pan et al.<sup>43</sup> showed that, in the presence of saccharin, tetrabutylammonium bromide slightly afects the morphology, microstructure, surface roughness, grain size, and microhardness of cobalt deposits, while 2-butyne-1,4-diol can transform the morphology of the deposits from a fine-grained structure to a lenticular structure, changing the microstructure from a (0002) texture to a (1010) texture, and significantly reducing the surface roughness and microhardness. By adding a combination of saccharin, tetrabutylammonium bromide, and 2-butene-1,4- diol, a harder and smoother cobalt deposit can be obtained. Mahdavi et al.<sup>92</sup> reported that increasing the concentration of cobalt sulfate and sodium dodecyl sulfate in the bath has a negligible efect on the microhardness of the coating, but has an efect on the electrodeposition current eficiency. Adding saccharin to the electrodeposition bath can reduce the grain size of the hexagonal close-packed cobalt film and increase its microhardness, but has no significant efect on the current eficiency. Wu et al.<sup>93,94</sup> reported the efect of phenylmethyl sulfoxide (PMSO) on cobalt coatings, and found that an appropriate PMSO concentration (about 20 ppm) is important for achieving a low surface roughness of about 3.9 nm and a unit hcp (002) orientation, as shown in Fig. 17. Under the action of PMSO, the nucleation of cobalt is transformed from instantaneous nucleation to progressive nucleation, resulting in a uniform deposition behavior of cobalt. The presence of PMSO can also enhance the wettability of the plating solution. In addition, it was found that the electron-donating ability of the sulfite group in benzenesulfinic acid (BNS) is higher than that of the sulfonic acid group, resulting in stronger adsorption of
+
+(a)  
+![](images/d2268926432736be8bcb6c9102bcee8dd73ea14a23f1610562714cba6b5a0b45.jpg)
+
+![](images/7e8ba9ae778691c2dabb7a27a1680fc039165e73e63aa84b041ffcd05d3916bf.jpg)
+
+![](images/f4b038a9108f65d6d0a4ebc0753004e9cd739c86635ae1c1365ea7deb6bb4bc2.jpg)  
+(d)
+
+![](images/07fa486863c44c817bc6a94e6e1e7dce129a5ab0ffb732674d45c0cb9dbef953.jpg)  
+Fig. 14. Nucleation mechanism of cobalt under the action of additives. Adapted from Ref. 34, Copyright 2018, IOP Publishing under the terms of the Creative Commons Attribution 4.0 License (CC BY, http://creativecommons.org/licenses/by/4.0/).
+
+![](images/8ed00cf48e84c280e1aeb57707c206f7c6a8f2c48bde454795ddb04d6e106c98.jpg)
+
+![](images/aec2c58edb663d209e1cea1059873434e1020d08c80ab8316de231926d7df1d6.jpg)
+
+(1)  
+![](images/45f24eca14a9d699292da7a21a37fcf083b718de0ebf48e07ad46fa5e21e87c7.jpg)
+
+![](images/b9dd4079a49430598da5d468a55e73fd47487b24f8ad16b5b68c93c185908c59.jpg)
+
+![](images/16d062caa058e66401a3288b1abef87db29434470b0e841d14bd6510e469a35b.jpg)  
+Fig. 15. Potential oscillation phenomenon and mechanism of cobalt. Reprinted with permission from Ref. 86, Copyright 2020, American Chemical Society.
+
+(a)  
+![](images/1c04267be1155914a2491f6611a5dd6cdcea1d1cd3705391733c2f621823fbe0.jpg)
+
+(b)  
+![](images/834afdb63e3b7f2092e219040c292545c364b7529522c40718baef342efb1719.jpg)
+
+(c)  
+![](images/4e2e731f68598da2952e948c20dbfb21571c6763f55312fe6ca1ed22ad7c9223.jpg)
+
+![](images/88f4a8d0d4efb8c85ac7cd14b28b99e0bcfae75cda4badf749588a42d1927c93.jpg)  
+Fig. 16.   Quantum chemical calculation and adsorption–coordination–inhibition mechanism. Reprinted with permission from Ref. 91, Copyright 2022, Elsevier.
+
+(a)  
+![](images/11d9c2b72df8a0d55ff5107563109d7afadb44d07b7d9fe82acf9725514642a9.jpg)
+
+(b)  
+![](images/ec1c48398d17b390b999cfd1b977fcb827d57d70ab4f5b7c7b239eef79de359d.jpg)  
+(c)
+
+![](images/699fcee2a2e55596607bb8ad780d640b8f415712b34b20b4b22447b4b0b524e3.jpg)  
+Fig. 17. (a) Scanning electron microscope images of cobalt films electrodeposited from plating baths with diferent concentrations of PMSO, (b) X-ray difraction results of electrodeposited Co films pre-  
+pared from solutions containing diferent concentrations of PMSO, and (c) The resistivity of the electrodeposited cobalt films. Reprinted with permission from Ref. 94, Copyright 2025, Elsevier.
+
+BNS on the cobalt surface and enhanced cathodic polarization. BNS also transforms the nucleation of cobalt from instantaneous nucleation to progressive nucleation, result ing in a more uniform and dense cobalt film morphology. The selectivity and strong adsorption of BNS on the cobalt plane are the reasons for the preferential orientation growth of the (002) crystal plane. After annealing, the cobalt film prepared by BNS had obvious grain growth, obvious impurity difusion, and further improved electrical properties. Su et al.<sup>95</sup> showed that the hardness of nanocrystalline Co coatings increases with the decrease of grain size. Small average grain sizes and smooth surfaces contribute to the improvement of corrosion resistance of the coatings. A coating obtained by reverse pulse electrodeposition had the finest grains, the highest hardness, and the highest corrosion resistance, followed by bipolar pulse electrodeposition. Hardness, surface roughness, morphology, and phase structure have significant efects on the tribological properties and wear mechanism of nanocrystalline Co coatings, with those prepared by dual pulse electrodeposition showing the highest wear resistance and the lowest friction due to their higher hardness and smoothness. Nanocrystalline Co coatings prepared by reverse pulse electrodeposition showed the highest friction and the lowest wear resistance due to their higher surface roughness, the absence of an hcp(110) peak, and the weakening of the hcp(100) peak.
+
+## Potential Future Direction
+
+At present, the study of cobalt electroplating often obtains average information of various thermodynamics and kinetics of the electrode/solution interface and electrode surface processes at the macrolevel by using classical electrochemical research methods and theoretical calculations. However, classical electrochemical research methods find it dificult to identify the characteristics of electrode reaction intermediates and products, and cannot provide mechanism information at the microscopic and molecular levels. Some advanced in situ characterization methods are used in copper electroplating .<sup>96–99</sup> Therefore, advanced electrochemical in situ research methods should be used in the future. In addition, annealing treatment of cobalt coatings is also a future research direction.
+
+1. Electrochemical in situ infrared spectroscopy can reveal the adsorption, orientation, bonding, dissociation, and other behaviors of species at the electrode/electrolyte interface, as well as the real-time changes of various species during the electrochemical reaction.<sup>90,100–102</sup> Since the Raman signal of water molecules is very weak, electrochemical in situ surface-enhanced Raman spectroscopy has high sensitivity, high signal-to-noise ratio and spatial resolution, which is conducive to studying the molecular mechanism of additives.<sup>103–105</sup> At the same time, Raman spectroscopy has been combined with digital imaging technology to develop a Raman mapping technology, which can obtain the spatial distribution information of specific spectral characteristics of Raman-active molecules.<sup>106,107</sup>
+
+2. The nucleation and growth process of cobalt electrocrystallization determines the quality and performance of the cobalt coating.<sup>108</sup> Since the cobalt nucleation and growth process is very rapid, the crystal nuclei grown at the solid/liquid interface are submicron/nanoscale, which brings certain difficulties to in  situ research. In situ transmission electron microscopy or in situ scanning electron microscopy) has high spatial resolution and are the most intuitive and eficient research method for studying nucleation and growth.<sup>109–111</sup> In situ observation, recording the nucleation and growth behavior of the initial stage of metal deposition, and studying the influence of additives on the cobalt nucleation process and growth, can provide theoretical guidance and technical support for electroplating, especially chip electroplating.
+
+3. X-ray difraction (XRD) is an efective means of analyzing the structure of the coating, and can obtain the properties of the coating, such as atomic arrangement, preferred crystal orientation, grain size, and microstress.<sup>112,113</sup> These properties determine the physical properties of the interconnects, such as conductivity, thermal conductivity, and ductility, and thus determine the quality of the interconnects. Electrochemical in situ XRD technology can monitor the dynamic evolution of coating composition, crystal face, and structure in real time, and study the mechanism of the influence of plating solution composition on the properties of the coating. It is crucial to reveal the structure–activity relationship between the structure and physical properties of the coating and to establish an interconnect quality evaluation mechanism.
+
+4. The introduction of impurity atoms afects the grain structure and preferred orientation of cobalt, and its redistribution and segregation in the coating will also afect the change of resistance.<sup>114,115</sup> Like copper electroplating, the electroplated cobalt also needs to be annealed and recrystallized to allow the impurities in the coating to escape and thus improve its conductivity.
+
+## Conclusions
+
+Electroplating is a critical technology in high-end electronic manufacturing, including integrated circuits. As interconnect dimensions continue to shrink, copper electroplating is increasingly unable to meet the required performance and safety standards. Cobalt, with its superior electrical properties and safety at the micro-/nanoscale, is emerging as a promising next-generation interconnect material to replace copper. Although there have been reports on cobalt electroplating, current research has primarily focused on the electrochemical behavior of cobalt ions and additives, the role of additives, and the filling efects in trenches and vias, along with proposed filling mechanisms. However, several key aspects remain insuficiently explored. These include the specific actions and synergistic/antagonistic interactions of components such as boric acid and additives in the plating bath, the mechanisms by which pH, temperature, and individual bath components influence cobalt nucleation and growth, and the surface, interface, and filling processes during cobalt electrodeposition in micro-/nanostructures. Future research directions should prioritize the development and application of advanced in situ techniques, including morphological, spectroscopic, and energy spectroscopic, to address these challenges. Clarifying these mechanisms will be essential for advancing cobalt electroplating as a viable interconnect technology in next-generation chip fabrication.
+
+Author Contributions LJ and Z-YW wrote the origin manuscript, and LJ and F-ZY reviewed the final manuscript.
+
+Funding This work was supported from the Science and Technology Research project of Chongqing Education Commission (KJQN202401423), Scientific Research grants of Yangtze Normal University (010730153).
+
+Data Availability Data will be made available on request.
+
+## Declarations
+
+Conflict of interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## References
+
+1. Y. Zhang, M. An, P. Yang, and J. Zhang, Recent advances in electroplating of through-hole copper interconnection. Electrocatalysis 12, 619–627 (2021).
+
+2. L. Guo, S. Li, Z. He, Y. Fu, F. Qiu, R. Liu, and G. Yang, Electroplated copper additives for advanced packaging: a review. ACS Omega 9, 20637–20647 (2024).
+
+3. Z. Wang, Microsystems using three-dimensional integration and TSV technologies: fundamentals and applications. Microelectron. Eng. 210, 35–64 (2019).
+
+4. T.P. Mofat, T.M. Braun, D. Raciti, and D. Josell, Superconformal film growth: from smoothing surfaces to interconnect technology. Acc. Chem. Res. 56, 1004–1017 (2023).
+
+5. R. Akolkar, and P. Broekmann, Preface—advances in electrochemical processes for interconnect fabrication in integrated circuits. J. Electrochem. Soc. 166, Y1 (2019).
+
+6. Z.-Y. Wang, L. Jin, J.-Q. Yang, W.-Q. Li, D.-P. Zhan, F.-Z. Yang, and S.-G. Sun, Studies and progresses on hole metallization in high-density interconnected printed circuit boards. J. Electro chem. 27, 316 (2021).
+
+7. Y.C. Meng, M.M. Zhou, W. Huang, Y.L. Min, X.X. Shen, and Q.J. Xu, Benzyl-containing quaternary ammonium salt as a new leveler for microvia copper electroplating. Electrochim. Acta 429, 141013 (2022).
+
+8. Z.-Y. Wang, L. Jin, J.-Q. Yang, W.-Q. Li, D.-Y. Wu, D. Zhan, F.-Z. Yang, and S.-G. Sun, A transfer-adsorption model for forward understanding the synergistic efects of additives in through-hole uniform copper thickening. J. Electroanal. Chem 936, 117373 (2023).
+
+9. L. Jin, Z.-Y. Wang, Z.-Y. Cai, J.-Q. Yang, A.-N. Zheng, F.-Z. Yang, D.-Y. Wu, and D. Zhan, 1-(2-Pyridylazo)-2-naphthol as a synergistic additive for improving throwing power of through hole copper electronic electroplating. J. Ind. Eng. Chem. 125, 269–276 (2023).
+
+10. L. Jin, A.-N. Zheng, M. Wang, J.-Q. Yang, Z.-Y. Wang, F.-Z. Yang, D.Y. Wu, and D. Zhan, Insights into the synergistic efects of safranine in an acidic copper bath on through-hole void-free filling for high-quality electronics interconnection. Colloids Surf. A Physicochem. Eng. Aspects 671, 131706 (2023).
+
+11. T.M.T. Huynh, F. Weiss, N.T.M. Hai, W. Reckien, T. Bredow, A. Fluegel, M. Arnold, D. Mayer, H. Keller, and P. Broekmann,
+
+On the role of halides and thiols in additive-assisted copper electroplating. Electrochim. Acta 89, 537–548 (2013).
+
+12. G.-Y. Lin, J.-J. Yan, M.-Y. Yen, W.-P. Dow, and S.-M. Huang, Characterization of through-hole filling by copper electroplating using a tetrazolium salt inhibitor. J. Electrochem. Soc. 160, D3028–D3034 (2013).
+
+13. J.H. Moon, E. Jeong, S. Kim, T. Kim, E. Oh, K. Lee, H. Han, and Y.K. Kim, Materials quest for advanced interconnect metallization in integrated circuits. Adv. Sci. 10, 2207321 (2023).
+
+14. K. Kondo, C. Funahashi, Y. Miyake, Y. Takeno, T. Hayashi, M. Yokoi, N. Okamoto, and T. Saito, Five-minute TSV copper electrodeposition. J. Electrochem. Soc. 161, D791–D793 (2014).
+
+15. M.J. Kim, H.C. Kim, and J.J. Kim, The influences of iodide ion on Cu electrodeposition and TSV filling. J. Electrochem. Soc. 163, D434 (2016).
+
+16. H.C. Kim, M.J. Kim, and J.J. Kim, Communication—acceleration of TSV filling by adding thiourea to PEG-PPG-SPS-I<sup>−</sup>. J. Electrochem. Soc. 165, D91–D93 (2018).
+
+17. T.M. Braun, D. Josell, M. Silva, J. Kildon, and T. Mofat, Efect of chloride concentration on copper deposition in through silicon vias. J. Electrochem. Soc. 166, D3259–D3271 (2019).
+
+18. D. Gall, Electron mean free path in elemental metals. J. Appl. Phys. 119, 8 (2016).
+
+19. B. Elsafi, Evaluation of the contribution of the mean free path in Co to the magnetoresistance in Co/Cu multilayers. Appl. Phys A 131(4), 1–8 (2025).
+
+20. I. Ciofi, P.J. Roussel, R. Baert, A. Contino, A. Gupta, K. Croes, C.J. Wilson, D. Mocuta, and Z. Tőkei, RC benefits of advanced metallization options. IEEE Trans. Electron Devices 66, 2339– 2345 (2019).
+
+21. M. He, X. Zhang, T. Nogami, X. Lin, J. Kelly, H. Kim, T. Spooner, D. Edelstein, and L. Zhao, Mechanism of Co liner as enhancement layer for Cu interconnect gap-fill. J. Electrochem. Soc. 160, D3040 (2013).
+
+22. O.V. Pedreira, K. Croes, A. Leśniewska, C. Wu, M. Van Der Veen, J. De Messemaeker, K. Vandersmissen, N. Jourdan, L.G. Wen, C. Adelmann, Reliability study on cobalt and ruthenium as alternative metals for advanced interconnects, in 2017 IEEE international reliability physics symposium (irps), IEEE, 6B-2 (2017).
+
+23. O.V. Pedreira, K. Croes, H. Zahedmanesh, K. Vandersmissen, M. Van Der Veen, V.V. Gonzalez, D. Dictus, L. Zhao, A. Kolies, Z. Tőkei, Electromigration and thermal storage study of barrierless co vias, in 2018 IEEE International Interconnect Technology Conference (IITC), pp. 48–50. IEEE (2018)
+
+24. Huang, I, Apple, Huawei Use TSMC, But Their 7nm SoCs Are Diferent. EETimes, AspenCore Network https://eetimes.com/ apple-huawei-use-tsmc-but-their-7nm-socs-are-diferent (2020).
+
+25. C. Auth, A. Aliyarukunju, M. Asoro, D. Bergstrom, V. Bhagwat, J. Birdsall, N. Bisnik, M. Buehler, V. Chikarmane, G. Ding, A 10nm high performance and low-power CMOS technology featuring 3rd generation FinFET transistors, self-aligned quad patterning, contact over active gate and cobalt local interconnects, in 2017 IEEE International Electron Devices Meeting (IEDM), pp. 29. IEEE (2017).
+
+26. R. Grover, T. Acosta, C. AnDyke, E. Armagan, C. Auth, S. Chugh, K. Downes, M. Hattendorf, N. Jack, S. Joshi, 2020 IEEE international reliability physics symposium, in 2020 IEEE International Reliability Physics Symposium (IRPS), pp. 1–6. IEEE (2020).
+
+27. M.H.v.d. Veen, K. Vandersmissen, D. Dictus, S. Demuynck, R. Liu, X. Bin, P. Nalla, A. Lesniewska, L. Hall, K. Croes, L. Zhao, J. Bömmels, A. Kolics, Z. Tökei, Cobalt bottom-up contact and via prefill enabling advanced logic and DRAM technologies, in 2015 IEEE International Interconnect Technology Conference
+
+and 2015 IEEE Materials for Advanced Metallization Conference (IITC/MAM), pp. 25–28 (2015).
+
+28. F. Griggio, J. Palmer, F. Pan, N. Toledo, A. Schmitz, I. Tsameret, R. Kasim, G. Leatherman, J. Hicks, A. Madhavan, J. Shin, J. Steigerwald, A. Yeoh, C. Auth, Reliability of dual-damascene local interconnects featuring cobalt on 10 nm logic technology, in 2018 IEEE International Reliability Physics Symposium (IRPS), 6E-3 (2018).
+
+29. Z.-H.Z. Li-Jun Wei, W. Yun-Wen, S. Ming Li, and Wang, Research progresses of cobalt interconnect and superfilling by electroplating in chips. J. Electrochem. 28, 2104431 (2022).
+
+30. X. Ni, Y. Chen, X. Jin, C. Wang, Y. Huang, Y. Hong, X. Su, G. Zhou, S. Wang, W. He, and Q. Chen, Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition. J. Taiwan Inst. Chem. E 112, 232–239 (2020).
+
+31. Y. Li, X. Ma, C. Li, R. Li, J. Zhang, P. Yang, X. Liu, P. Broekmann, B. Wang, W. Lv, and M. An, Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth. J. Manuf. Process. 101, 15–24 (2023).
+
+32. Y.-Q.L. Xiao-Chuan Ma, P.-X. Yang, J.-Q. Zhang, and M.-Z. An, Influences of suppressing additive malachite green on superconformal cobalt filling and nucleation. J. Electrochem. 28, 2104521 (2022).
+
+33. Q. Huang, T.W. Lyons, and W.D. Sides, Electrodeposition of cobalt for interconnect application: Efect of dimethylglyoxime. J. Electrochem. Soc. 163, D715–D721 (2016).
+
+34. Y. Hu, and Q. Huang, Efects of dimethylglyoxime and cyclohexane dioxime on the electrochemical nucleation and growth of cobalt. J. Electrochem. Soc. 166, D3175–D3181 (2018).
+
+35. Y. Hu, Electrodeposition of Cobalt for Advanced Interconnect Applications (New York: The University of Alabama, 2021).
+
+36. M. Kiruba, and C. Jeyabharathi, Discerning the oscillatory electrochemical response during electrodeposition of cobalt in the presence of but-2-yne-1, 4-diol. J. Solid State Electron. 24, 2997–3002 (2020).
+
+37. M.P. Kienle, D. Mayer, M. Arnold, A. Fluegel, C. Emnet, Composition for cobalt plating comprising additive for void-free submicron feature filling. Google Patents, 20190226107A1 (2019).
+
+38. J. Commander, K. Whitten, V. Paneccasio Jr, S. Sun, E. Yakobson, J. Han, E. Najjar, Cobalt filling of interconnects, Google Patents WO2019009989A1 (2021).
+
+39. M.A. Rigsby, T.A. Spurlin, and J.D. Reid, The multi-functional role of boric acid in cobalt electrodeposition and superfill. J. Electrochem. Soc. 167, 112507 (2020).
+
+40. N. Zech, and D. Landolt, The influence of boric acid and sulfate ions on the hydrogen formation in Ni–Fe plating electrolytes. Electrochim. Acta 45, 3461–3471 (2000).
+
+41. A. Demetriou, and I. Pashalidis, Adsorption of boron on ironoxide in aqueous solutions. Desalin. Water Treat. 37, 315–320 (2012).
+
+42. L. Jin, Y.-J. Lv, T.-T. Ran, D. He, and F.-Z. Yang, Molecular structure with adsorption behavior of butynediol and its efects on cobalt electrodeposition. Mater. Today Commun. 45, 112225 (2025).
+
+43. B. Pan, Q. Zhang, Z. Liu, and Y. Yang, Influence of butynediol and tetrabutylammonium bromide on the morphology and structure of electrodeposited cobalt in the presence of saccharin. Mater. Chem. Phys. 228, 37–44 (2019).
+
+44. T. Lyons, and Q. Huang, Efects of cyclohexane-monoxime and dioxime on the electrodeposition of cobalt. Electrochim. Acta 245, 309–317 (2017).
+
+45. J.G. Lv, X.H. Zhao, X. Jie, J. Li, X.C. Wei, B. Chen, G. Hong, W.J. Wu, and L.M. Wang, Fatty acid quaternary ammonium surfactants based on renewable resources as a leveler for copper electroplating. ChemElectroChem 6, 3254–3263 (2019).
+
+46. X.M. Wang, K. Wang, J. Xu, J. Li, J.E. Lv, M. Zhao, and L.M. Wang, Quinacridone skeleton as a promising eficient leveler for smooth and conformal copper electrodeposition. Dyes Pigments 181, 108594 (2020).
+
+47. C. Wang, J.Q. Zhang, P.X. Yang, M.Z. An, C. Wang et al., Electrochemical behaviors of Janus Green B in through-hole copper electroplating: an insight by experiment and density functional theory calculation using Safranine T as a comparison. Electrochim. Acta 92, 356–364 (2013).
+
+48. B. Bozzini, L. D’Urzo, M. Re, and F. De Riccardis, Electrodeposition of Cu from acidic sulphate solutions containing cetyltrimethylammonium bromide (CTAB). J. Appl. Electrochem. 38, 1561–1569 (2008).
+
+49. B. Bozzini, C. Mele, L. D’urzo, and V. Romanello, An electrochemical and in situ SERS study of Cu electrodeposition from acidic sulphate solutions in the presence of 3-diethylamino-7-(4- dimethylaminophenylazo)-5-phenylphenazinium chloride (Janus Green B). J. Appl. Electrochem. 36, 973–981 (2006).
+
+50. B. Bozzini, C. Mele, and E. Tondo, A SERS investigation of Cu electrodeposition in the presence of the model leveller 4-{2-[1-(2-cyanoethyl)-1, 2, 3, 4-tetrahydroquinolin-6-yl] diazenyl} benzonitrile. Electrochim. Acta 55, 3279–3285 (2010).
+
+51. W.-P. Dow, C.-C. Li, Y.-C. Su, S.-P. Shen, C.-C. Huang, C. Lee, B. Hsu, and S. Hsu, Microvia filling by copper electroplating using diazine black as a leveler. Electrochim. Acta 54, 5894–5901 (2009).
+
+52. Z.-Y. Wang, L. Jin, G. Li, J.-Q. Yang, W.-Q. Li, D. Zhan, Y.-X. Jiang, F.-Z. Yang, and S.-G. Sun, Electrochemical and in situ FTIR spectroscopic studies of gentian violet as a novel leveler in through-holes metallization for printed circuit board applications. Electrochim. Acta 410, 140018 (2022).
+
+53. N.T.M. Hai, T.M.T. Huynh, A. Fluegel, D. Mayer, and P. Broekmann, Adsorption behavior of redox-active suppressor additives: Combined electrochemical and STM studies. Electrochim. Acta 56, 7361–7370 (2011).
+
+54. M.J. Kim, Y. Seo, H.C. Kim, Y. Lee, S. Choe, Y.G. Kim, S.K. Cho, and J.J. Kim, Galvanostatic bottom-up filling of TSVlike trenches: Choline-based leveler containing two quaternary ammoniums. Electrochim. Acta 163, 174–181 (2015).
+
+55. X. Ma, Y. Li, P. Ren, P. Yang, J. Zhang, M. An, and W. Lv, Induction-Difusion-Adsorption Process of Malachite Green for Cobalt Superconformal Electrodeposition. J. Electrochem. Soc. 170, 022503 (2023).
+
+56. M.A. Rigsby, L.J. Brogan, N.V. Doubina, Y. Liu, E.C. Opocensky, T.A. Spurlin, J. Zhou, and J.D. Reid, The critical role of pH gradient formation in driving superconformal cobalt deposition. J. Electrochem. Soc. 166, D3167 (2018).
+
+57. T.A. Spurlin, M.A. Rigsby, L. Brogan, N. Doubina, Y. Liu, E. Opocensky, J. Zhou, J. Reid, Cobalt electrofill for future generations of contacts and interconnects, in 2019 China Semiconductor Technology International Conference (CSTIC), pp. 1–3. IEEE (2019).
+
+58. M.A. Rigsby, L.J. Brogan, N.V. Doubina, Y. Liu, E.C. Opocensky, T.A. Spurlin, J. Zhou, and J.D. Reid, Superconformal cobalt fill through the use of sacrificial oxidants. ECS Trans. 80, 767 (2017).
+
+59. J. Wu, F. Wafula, S. Branagan, H. Suzuki, and J. van Eisden, Mechanism of cobalt bottom-up filling for advanced node interconnect metallization. J. Electrochem. Soc. 166, D3136 (2019).
+
+60. J. Wu, F. Wafula, S. Branagan, H. Suzuki, and J. van Eisden, Cobalt bottom-up filling for advanced node interconnect metallization. ECS Meet. Abstracts 235, 1050 (2019).
+
+61. M.I. Jefrey, W.L. Choo, and P.L. Breuer, The efect of additives and impurities on the cobalt electrowinning process. Miner. Eng. 13, 1231–1241 (2000).
+
+62. J.T. Matsushima, F. Trivinho-Strixino, and E.C. Pereira, Investigation of cobalt deposition using the electrochemical quartz crystal microbalance. Electrochim. Acta 51, 1960–1966 (2006).
+
+63. J.O.M. Bockris, D. Drazic, and A.R. Despic, The electrode kinetics of the deposition and dissolution of iron. Electrochim. Acta 4, 325–361 (1961).
+
+64. W.C. Grande, and J.B. Talbot, Electrodeposition of thin films of nickel–iron: II. Modeling. J. Electrochem. Soc. 140, 675 (1993).
+
+65. S. Hessami, and C.W. Tobias, A mathematical model for anomalous codeposition of nickel-iron on a rotating disk electrode. J. Electrochem. Soc. 136, 3611 (1989).
+
+66. K.Y. Sasaki, and J.B. Talbot, Electrodeposition of binary irongroup alloys. J. Electrochem. Soc. 142, 775 (1995).
+
+67. N. Zech, E.J. Podlaha, and D. Landolt, Rotating cylinder Hull cell study of anomalous codeposition of binary iron-group alloys. J. Appl. Electrochem. 28, 1251–1260 (1998).
+
+68. N. Zech, E.J. Podlaha, and D. Landolt, Anomalous codeposition of iron group metals: II. Mathematical model. J. Electrochem. Soc. 146, 2892 (1999).
+
+69. J.S. Santos, F. Trivinho-Strixino, and E.C. Pereira, Investigation of Co(OH)2 formation during cobalt electrodeposition using a chemometric procedure. Surf. Coat. Technol. 205, 2585–2589 (2010).
+
+70. F. Pagnanelli, P. Altimari, M. Bellagamba, G. Granata, E. Moscardini, P.G. Schiavi, and L. Toro, Pulsed electrodeposition of cobalt nanoparticles on copper: influence of the operating parameters on size distribution and morphology. Electrochim. Acta 155, 228–235 (2015).
+
+71. T. Mehmood, B.S. Khan, A. Mukhtar, X. Chen, P. Yi, and M. Tan, Mechanism for formation of fcc-cobalt nanowires in electrodeposition at ambient temperature. Mater. Lett. 130, 256–258 (2014).
+
+72. T. Mehmood, B.S. Khan, A. Mukhtar, and M. Tan, Influence of bath temperature and pH on the structure of electrodeposited cobalt nanowires. Int. J. Mater. Res. 106, 957–961 (2015).
+
+73. A. Mukhtar, T. Mehmood, B.S. Khan, and M. Tan, Efect of Co2+ concentration on the crystal structure of electrodeposited Co nanowires. J. Cryst. Growth 441, 26–32 (2016).
+
+74. Y. Hu, T. Lyons, and Q. Huang, Influence of furil dioxime on cobalt electrochemical nucleation and growth. J. Electrochem. Soc. 167, 022509 (2020).
+
+75. M. Orban, and I.R. Epstein, Oscillations and bistability in hydrogen-platinum-oxyhalogen systems. J. Am. Chem. Soc. 103, 3723–3727 (1981).
+
+76. N.T. Hai, J. Odermatt, V. Grimaudo, K.W. Krämer, A. Fluegel, M. Arnold, D. Mayer, and P. Broekmann, Potential oscillations in galvanostatic Cu electrodeposition: antagonistic and synergistic efects among SPS, chloride, and suppressor additives. J. Phys. Chem. C 116, 6913–6924 (2012).
+
+77. E.W. Bohannan, L.-Y. Huang, F.S. Miller, M.G. Shumsky, and J.A. Switzer, In situ electrochemical quartz crystal microbalance study of potential oscillations during the electrodeposition of Cu/ Cu O layered nanostructures. Langmuir 15, 813–818 (1999).
+
+78. P. Strasser, M. Eiswirth, and G. Ertl, Oscillatory instabilities during formic acid oxidation on Pt (100), Pt (110) and Pt (111) under potentiostatic control. II. Model calculations. J. Chem. Phys. 107, 991–1003 (1997).
+
+79. T.P. Mofat, D. Wheeler, and D. Josell, Electrodeposition of copper in the SPS-PEG-Cl additive system: I. Kinetic measurements: influence of SPS. J. Electrochem. Soc. 151, C262 (2004).
+
+80. Y.-D. Chiu, W.-P. Dow, K. Krug, Y.-F. Liu, Y.-L. Lee, and S.-L. Yau, Adsorption and desorption of Bis-(3-sulfopropyl) disulfide during Cu electrodeposition and stripping at Au electrodes. Langmuir 28, 14476–14487 (2012).
+
+81. N. Hai, J. Furrer, I. Gjuroski, M. Bircher, M. Cascella, and P. Broekmann, On the acceleration of Cu electrodeposition
+
+by TBPS (3, 3-thiobis-1-propanesulfonic acid): a combined electrochemical, STM, NMR, ESI-MS and DFT study. J. Electrochem. Soc. 160, D3158 (2013).
+
+82. N.T. Hai, K.W. Krämer, A. Fluegel, M. Arnold, D. Mayer, and P. Broekmann, Beyond interfacial anion/cation pairing: the role of Cu (I) coordination chemistry in additive-controlled copper plating. Electrochim. Acta 83, 367–375 (2012).
+
+83. N. Hai, J. Furrer, E. Barletta, N. Luedi, and P. Broekmann, Copolymers of imidazole and 1, 4-butandiol diglycidyl ether as an eficient suppressor additive for copper electroplating. J. Electrochem. Soc. 161, D381 (2014).
+
+84. J.A. Switzer, C.-J. Hung, L.-Y. Huang, F.S. Miller, Y. Zhou, E.R. Raub, M.G. Shumsky, and E.W. Bohannan, Potential oscillations during the electrochemical self-assembly of copper/cuprous oxide layered nanostructures. J. Mater. Res. 13, 909–916 (1998).
+
+85. S. Leopold, M. Herranen, and J.-O. Carlsson, Spontaneous potential oscillations in the Cu (II)/tartrate and lactate systems, aspects of mechanisms and film deposition. J. Electrochem. Soc. 148, C513 (2001).
+
+86. Y. Hu, and Q. Huang, Oscillatory behavior in cobalt electrodeposition with 3-mercapto-1-propanesulfonate. J. Phys. Chem. C 124, 21608–21616 (2020).
+
+87. B. Bozzini, L. D’Urzo, and C. Mele, Electrodeposition of Cu from cyanoalkaline solutions in the presence of CPC and PEG: an electrochemical and in situ SERS investigation. J. Electrochem. Soc. 152, C255–C264 (2005).
+
+88. K.G. Schmitt, R. Schmidt, H.F. Von-Horsten, G. Vazhenin, and A.A. Gewirth, 3-Mercapto-1-propanesulfonate for Cu electrodeposition studied by in situ shell-isolated nanoparticle-enhanced Raman spectroscopy, density functional theory calculations, and cyclic voltammetry. J. Phys. Chem. C 119, 23453–23462 (2015).
+
+89. Z.V. Feng, X. Li, and A.A. Gewirth, Inhibition due to the interaction of polyethylene glycol, chloride, and copper in plating baths: a surface-enhanced Raman study. J. Phys. Chem. B 107, 9415–9423 (2003).
+
+90. G.K. Liu, S.Z. Zou, D. Josell, L.J. Richter, and T.P. Mofat, SEI-RAS study of chloride-mediated polyether adsorption on Cu. J. Phys. Chem. C 122, 21933–21951 (2018).
+
+91. X. Ma, Y. Li, P. Yang, J. Zhang, and M. An, Influence of suppressing additive malachite green on superconformal cobalt electrodeposition. J. Electroanalyt. Chem. 921, 116696 (2022).
+
+92. S. Mahdavi, and S. Allahkaram, Efect of bath composition and pulse electrodeposition condition on characteristics and microhardness of cobalt coatings. Trans. Nonferr Metal. Soc. 28, 2017–2027 (2018).
+
+93. M. Zhang, P. Chang, P. Chen, T. Hang, M. Li, and Y. Wu, Superflat and uni-oriented cobalt film electrodeposited by modulating the crystal nucleation and growth behavior. Appl. Surf. Sci. 645, 158795 (2024).
+
+94. Y. Wu, M. Zhang, Y. Jiang, Y. Tong, P. Chang, T. Hang, and M. Li, Investigation of phenyl methyl sulfoxide as an additive for cobalt super-filling in 3D interconnect. Surf. Interfaces 56, 105652 (2025).
+
+95. F. Su, C. Liu, Q. Zuo, P. Huang, and M. Miao, A comparative study of electrodeposition techniques on the microstructure and property of nanocrystalline cobalt deposit. Mater. Chem. Phys. 139, 663–673 (2013).
+
+96. L. Jin, J.-Q. Yang, Y. Zhao, Z.-Y. Wang, S.-Y. Chen, A.-N. Zheng, T. Song, F.-Z. Yang, and D. Zhan, Instrumental methodologies of electronic electroplating towards the integrated circuit industry. Sci. Sin. Chim. 53, 1822–1834 (2023).
+
+97. X.-H. Yang, P.-B. Kang, F.-J. Xu, Y.-C. Jin, Y.-H. Tang, Y.-Y. Su, J.-P. Qiu, and J. Cheng, Artificial intelligence and computational chemistry: a new perspective for electroplating-surface-interface research. Sci. Sin. Chim. 53, 1940–1953 (2023).
+
+98. Y. Wu, Z. Mao, C. Wang, Y. Liu, S. Chen, and W.-B. Cai, Advances in mechanistic understanding of additives for copper electroplating in high-end electronics manufacture. Sci. Sin. Chim. 51, 1474–1488 (2021).
+
+99. Y. Li, R. Li, J. Jiang, P. Yang, J. Zhang, A. Liu, P. Broekmann, and M. An, Theoretical and experimental research on electroplating additives in chip metal interconnects. Sci. Sin. Chim. 53, 1970–1988 (2023).
+
+100. B. Bozzini, L. D’Urzo, S.-J. Huo, and W.-B. Cai, ATR FTIR study of levellers for Cu electrodeposition from acidic sulphate solution. Trans. IMF 86, 41–50 (2008).
+
+101. Z. Mao, Y. Wu, X.-Y. Ma, L. Zheng, X.-G. Zhang, and W.-B. Cai, In situ wide-frequency surface-enhanced infrared absorption spectroscopy enables one to decipher the interfacial structure of a Cu plating additive. J. Phys. Chem. Lett. 13, 9079–9084 (2022).
+
+102. Z. Mao, Y. Wu, X. Xu, Y. Chao, X.-G. Zhang, C. Wang, and W.-B. Cai, Uncovering the dissociative adsorption of the leveler Janus green B on Cu electrodes at the molecular level. J. Phys Chem. Lett. 15, 6668–6675 (2024).
+
+103. T. Haba, K. Ikeda, and K. Uosaki, Electrochemical and in situ SERS study of the role of an inhibiting additive in selective electrodeposition of copper in sulfuric acid. Electrochem. Commun. 98, 19–22 (2019).
+
+104. K.G. Schmitt, R. Schmidt, J. Gaida, and A.A. Gewirth, Chain length variation to probe the mechanism of accelerator additives in copper electrodeposition. Phys. Chem. Chem. Phys. 21, 16838–16847 (2019).
+
+105. R.T. Rooney, H. Jha, D. Rohde, R. Schmidt, and A.A. Gewirth, Suppression of copper electrodeposition by PEG in methanesulfonic acid electrolytes. J. Electrochem. Soc. 166, D551–D558 (2019).
+
+106. K.C. Gordon, and C.M. McGoverin, Raman mapping of pharmaceuticals. Int. J. Pharm. 417, 151–162 (2011).
+
+107. T. Homma, A. Kato, M. Kunimoto, and M. Yanagisawa, Direct observation of the difusion behavior of an electrodeposition additive in through-silicon via using in situ surface enhanced Raman spectroscopy. Electrochem. Commun. 88, 34–38 (2018).
+
+108. B. Scharifker, and G. Hills, Theoretical and experimental studies of multiple nucleation. Electrochim. Acta 28, 879–889 (1983).
+
+109. P. Vereecken, A. Radisic, and F.M. Ross, Diferential inhibition during Cu electrodeposition on Ru: combined electrochemica and real-time TEM studies. J. Electrochem. Soc. 166, D3129 (2018).
+
+110. N.M. Schneider, J.H. Park, J.M. Grogan, D.A. Steingart, H.H. Bau, and F.M. Ross, Nanoscale evolution of interface morphology during electrodeposition. Nat. Commun. 8, 2174 (2017).
+
+111. A. Kolmakov, and D. Raciti, Scanning electron microscopy to study the nucleation and growth phenomena in liquid electrolytes under operando conditions. J. Electrochem. Soc. 169, 112510 (2022).
+
+112. D. Liu, Z. Shadike, R. Lin, K. Qian, H. Li, K. Li, S. Wang, Q. Yu, M. Liu, and S. Ganapathy, Review of recent development of in situ/operando characterization techniques for lithium battery research. Adv. Mater. 31, 1806620 (2019).
+
+113. H. Li, N. Zhang, J. Li, and J. Dahn, Updating the Structure and Electrochemistry of LixNiO2 for 0≤x≤1. J. Electrochem. Soc. 165, A2985 (2018).
+
+114. N.V. Doubina, T.A. Spurlin, E.C. Opocensky, and J.D. Reid, The efect of thermal annealing on cobalt film properties and grain structure. MRS Adv. 5, 1919–1927 (2020).
+
+115. Y. Hu, S. Deb, D. Li, and Q. Huang, Efects of organic additives on the impurity and grain structure of electrodeposited cobalt. Electrochim. Acta 368, 137594 (2021).
+
+Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional afiliations.
+
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.

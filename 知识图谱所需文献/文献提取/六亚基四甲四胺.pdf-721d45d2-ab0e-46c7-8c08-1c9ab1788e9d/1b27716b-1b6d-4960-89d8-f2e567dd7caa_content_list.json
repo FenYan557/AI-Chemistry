@@ -1,0 +1,2294 @@
+[
+    {
+        "type": "image",
+        "img_path": "images/a1ed3c4468e420e825a9e5612b559e8d7bfc3738137993eaa027bfa54720995a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            838,
+            185,
+            887,
+            221
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Study on the electrochemical deposition behavior and blind hole filling behavior of Cobalt under the regulation of hexamethylenetetramine as a leveling agent",
+        "text_level": 1,
+        "bbox": [
+            57,
+            205,
+            798,
+            271
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pei Xu <sup>a</sup>, Xixun Shen <sup>a,\\*</sup> , Xiao Zhang <sup>a</sup>, Wang Tang <sup>a</sup>, Wei Huang <sup>c</sup>, Qunjie Xu <sup>a,b,\\*</sup>",
+        "bbox": [
+            57,
+            283,
+            717,
+            301
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>a</sup> Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai Engineering Research Center of Energy-Saving in Heat Exchange Systems, Shanghai University of Electric Power, Shanghai 200090, China",
+        "bbox": [
+            58,
+            308,
+            815,
+            330
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>b</sup> Shanghai Institute of Pollution Control and Ecological Security, Shanghai 200092, China",
+        "bbox": [
+            58,
+            331,
+            475,
+            341
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>c</sup> Shanghai Meadville Electronics Co., Ltd., Shanghai 201600, China",
+        "bbox": [
+            58,
+            341,
+            376,
+            354
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A R T I C L E I N F O",
+        "text_level": 2,
+        "bbox": [
+            58,
+            382,
+            194,
+            394
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Keywords: Printed circuit board Cobalt-plated leveling agent Small molecular nitrogen compounds Blind hole supplements",
+        "bbox": [
+            58,
+            406,
+            243,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A B S T R A C T",
+        "text_level": 2,
+        "bbox": [
+            334,
+            382,
+            436,
+            394
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The metal cobalt is expected to be the next generation of interconnect materials due to its shorter average free path of electrons and greater resistance to electromigration. Additives especially the leveling agents are key regulatory factors for achieving a bottom-up dense superfilling of interconnect metals in the electroplating process. Here the hexamethylenetetramine (HMTA) with methylene structure was chosen as a leveling agent to study the deposition behavior and the blind hole filling behavior of cobalt. The electrochemical analysis showed that the HMTA exhibits an evident inhibition ability on the deposition of cobalt. Moreover, this inhibitory ability has a significant dependence on the rotational speed of the solution and a greater inhibitory effect on the deposition of cobalt occurs at high rotational speeds.The simulation indicates that such a strong inhibition ability on the deposition of cobalt sourced from the preferred adsorption of the leveling agent on the cobalt surface by the nucleophilic active site provided by the methylene structure of HMTA. Such preferential adsorption behavior was further confirmed by the captured vibration peaks of C–N and C–H bonds associated with the HMTA from the in-situ electrochemical surface enhanced Raman spectroscopy. Under the action of this leveling agent, the metal cobalt exhibits the expected bottom-up growth behavior in blind holes of Printed circuit board (PCB) The addition of HMTA is also beneficial for obtaining a flat and dense coating with preferred growth of (100) crystal planes. These results indicate that the HMTA is a potential effective leveling agent for the cobalt interconnects processes.",
+        "bbox": [
+            332,
+            406,
+            939,
+            601
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Introduction",
+        "text_level": 2,
+        "bbox": [
+            58,
+            636,
+            166,
+            650
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cu interconnect has become a typical interconnect technology for large-scale and ultra large scale integrated circuits due to its excellent conductivity, high reliability, and resistance to electromigration [1]. However, as the feature size of the chip process decreases to below 10 nm, the resistance of Cu interconnect will significantly increase [2], which will seriously affect the reliability and communication speed improvement of the chip [3]. Therefore, finding more suitable conductive materials for filling nanoscale interconnect has become the key to chip micro integration along Moore’s Law. Metal cobalt is expected to replace copper interconnect as the next generation of interconnect materials in chip processes due to its lower average free path of electrons, smaller size effect, and better resistance to electromigration compared to copper [4]. Therefore, cobalt interconnect have become one of the research hotspots in the field of chip processes in recent years. The current chip copper interconnect mainly adopts the damascus electrodeposition process. In the damascus electrodeposition process, the application of two typical additives, namely inhibitors and accelerators, is necessary to obtain high-quality electroplating filling layers [5]. Inhibitors and accelerators are selectively adsorbed in the chip groove hole area to suppress copper deposition and at the bottom of the groove to accelerate copper deposition. With the synergistic effect of these two types of additives, copper can achieve dense filling from bottom to top from the groove hole bottom [6]. Given the filling copper process of electroplating copper in damascene, recent research on cobalt interconnect has mainly focused on seeking suitable accelerators and inhibitors to achieve bottom-up cobalt super filling in trenches and some suitable additives for cobalt super filling have been proposed.",
+        "bbox": [
+            57,
+            663,
+            487,
+            823
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            636,
+            939,
+            823
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "0013-4686/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "bbox": [
+            57,
+            912,
+            789,
+            926
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "Available online 19 May 2025",
+        "bbox": [
+            58,
+            901,
+            228,
+            912
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            386,
+            42,
+            608,
+            56
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            58,
+            75,
+            161,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Contents lists available at ScienceDirect",
+        "bbox": [
+            379,
+            75,
+            621,
+            89
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "ELSEVIER",
+        "bbox": [
+            60,
+            146,
+            161,
+            162
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta",
+        "bbox": [
+            393,
+            105,
+            608,
+            124
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "journal homepage: www.journals.elsevier.com/electrochimica-acta",
+        "bbox": [
+            285,
+            145,
+            714,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            840,
+            66,
+            937,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "\\* Corresponding authors.",
+        "bbox": [
+            67,
+            843,
+            211,
+            856
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "E-mail addresses: shenxixun@shiep.edu.cn (X. Shen), xuqunjie@shiep.edu.cn (Q. Xu).",
+        "bbox": [
+            75,
+            854,
+            542,
+            868
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "https://doi.org/10.1016/j.electacta.2025.146509",
+        "bbox": [
+            58,
+            877,
+            331,
+            887
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "Received 15 February 2025; Received in revised form 28 March 2025; Accepted 17 May 2025",
+        "bbox": [
+            58,
+            887,
+            574,
+            901
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            58,
+            65,
+            431,
+            78
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In the research on cobalt interconnect electroplating accelerators, recent researchers have mainly attempted to use accelerators used in the damascus copper interconnect electroplating process as accelerators for cobalt interconnect electroplating to explore their effects on cobalt deposition behavior and filling ability.These accelerators typically contain specific functional groups such as (-S-S-), thiols (-SH), and sul fonic acids $\\left( - S 0 _ { 3 } \\right)$ [7]. For example, Ni Xiuren [8] used a series of electrochemical methods to study the depolarization and polarization behavior of sodium 3-mercapto-1-propanesulfonate (MPS) and poly vinylpyrrolidone (PVP) during cobalt electrodeposition. It wa concluded that the amide group of PVP and the thiol group of MPS may be adsorption sites for cobalt electrodeposition. Four different sizes o practical cobalt pillars were successfully electrodeposited through electroplating experiments, thereby promoting the application of metallic cobalt in electronic packaging, resulting in uniform cobalt de posits. Cao Wei [9] studied the adsorption behavior of three additives glutamic acid (DMG), 3-mercaptoacetic acid (SPS), and histidine (HIS) on the cathode surface during cobalt electrodeposition. The result indicate that the adsorption sites during cobalt electrodeposition ar provided by functional groups such as the imine group of DMG, the sulfonic acid group of SPS, and the imidazole group of HIS. However, th actual effects of these three additives need further research. Compare to accelerators, inhibitors play a more critical role in achieving bottom-up cobalt dense super filling, However, inhibitors applied t damascus copper interconnects are not suitable for electroplated cobal interconnects. Therefore, in recent years, research on cobalt intercon nect electroplating filling has mainly explored more suitable inhibitors and proposed some quaternary ammonium salts and nitrogen-containing derivatives as inhibitors for cobalt interconnect electroplating [10]. For example, Hu et al. [11] studied the electrode position of cobalt from ultra-thin cobalt seeds using two additives dimethoxyoxime (DMG) and cyclohexanedioxime (CHD), on a silicon blanket as a substrate. Through cyclic voltammetry, it was found that it growth mode is consistent with the three-dimensional nucleation of cobalt. Kiruba et al. [12] investigated the reduction process of cobalt in acid salt solutions using but 2-acetyl-1,4-diol (butynediol) as an addi tive. Research has found that butynediol can inhibit the reduction o ${ \\mathsf { C o } } ^ { 2 + }$ on polished glassy carbon (GC), and during cobalt electrodeposi tion, butynediol activates proton reduction. Butynediol can serve as an inhibitor for cobalt electrodeposition. Ma Xiaochuan et al. [13] used malachite green (MG) as an inhibitor for cobalt metal electrodeposition, and the results showed that MG can be used as an inhibitor to achiev over filling of cobalt metal in micron sized blind holes. They also found that the cobalt metal electrodeposition in the solution after adding MG i a three-dimensional nucleation process. Li Yaqiang et al. [14] studied the inhibitory effect of dye molecule nitrotetrazolium chloride blue (NBT) on cobalt, electrodeposition using different, electrochemica methods. Confirmed the strong adsorption and inhibitory effect of NBT on cobalt matrix, which can achieve bottom-up blind hole super filling. Wu Yunwen et al. [15] studied the effects of three additives with un saturated carbon bonds, 1,4-butynediol (BYD), 1,4-butenediol (BED) and ethylene glycol (EG), on cobalt electrodeposition to reveal the po tential mechanism of unsaturated carbon atom bonds in cobalt electro deposition. Research has found that cobalt thin films prepared by BYD electrodeposition have lower resistance and more compact morphology After adding BYD, the crystal surface of the Co film changed from a mixture of elongated ridges and particle shapes to a flat particle struc ture. This conclusion indicates that additives can customize the orien tation and properties of cobalt. Then, he studied another additive phenylmethylsulfone (PMSO) [16], as the main additive for cobal electrodeposition. The results indicate that PMSO has a strong inhibitor effect on cobalt electrodeposition, and the sulfoxide groups in PMSO preferentially adsorb on the cathode surface, exhibiting high chemica reactivity. As the concentration of PMSO increases, the nucleation pro cess of cobalt shifts from non transient nucleation to gradual nucleation and the surface morphology of cobalt also changes from rough to dense and flat, which can effectively fill high-quality cobalt through-silicon via (TSV) grooves, indicating that PMSO is an effective additive for cobalt electrodeposition. At present, most of the leveling agents used in cobalt electroplating are polymer nitrogen-containing compounds, but these leveling agents are prone to decomposition at high temperatures, mak ing the electroplating process difficult to control, resulting in poor experimental stability, which is not conducive to repeated operations, and also leads to quality problems in the coating. However, the high price of macromolecular compounds increases the experimental cost, which is not conducive to the subsequent production process. For some synthetic polymer composite leveling agents, the synthesis process is complex, the polymer toxicity is high, and the environmental performance is poor. Therefore, it is necessary to develop green and environmentally friendly small molecule inhibitors to meet the needs of cobalt super filling.",
+        "bbox": [
+            55,
+            80,
+            489,
+            936
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            65,
+            939,
+            277
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Recently, some studies indicated that the nitrogen-containing com pounds can form coordination bonds with the cobalt surface or ${ \\mathsf { C o } } ^ { 2 + }$ [17–20] by utilizing the lone pair electrons of nitrogen and thereby produce effectively suppress the reduction of cobalt. The HMTA is a kind of nitrogen-containing small molecule compounds containing methylene structures, which indicates that the HMTA is a potential inhibitor for cobalt deposition. Meanwhile, this HMTA is a stable compound that is not easily decomposed at high temperatures. Therefore, in this work, the HMTA molecules was selected to be as leveling agents for cobalt interconnect electrodeposition. The electrochemical experiments including cyclic voltammetry (CV), linear sweep voltammetry (LSV), and galvanostatic method (GM) were first used to analyze the deposition behavior of cobalt under HMTA leveling. The quantum chemistry calculation and molecular dynamics (MD) simulation were used to predict the adsorption active sites and the adsorption behavior of HMTA molecules at the cobalt surface and the corresponding quantum chemistry parameters including the energy gap, electrostatic potential and adsorption energy were calculated. The adsorption behavior of HMTA is further confirmed by the in-situ electrochemical surface enhanced Raman spectroscopy (EC-SERS). Two printed circuit boards (PCBs) with different aperture sizes were selected as the blind hole filling objects to investigate the effect of HMTA on the filling ability of cobalt in blind hole filling. The nucleation process of cobalt in blind holes and bottom regions were analyzed through timed current experiments. In addition, the effect of HMTA on the surface morphology and crystal structure of filled cobalt was also analyzed .",
+        "bbox": [
+            507,
+            277,
+            939,
+            620
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Experimenta",
+        "text_level": 2,
+        "bbox": [
+            510,
+            633,
+            621,
+            646
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1. Electrochemical test",
+        "text_level": 2,
+        "bbox": [
+            510,
+            659,
+            658,
+            672
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "All electrochemical tests, including CV, LSV, and GMs, were performed in a three-electrode system connected to an electrochemical workstation (CHI660C). The working electrode is a platinum rotating disk electrode (Pt-RDE) with a diameter of 5 mm, and the counter electrode (CE) is a platinum wire electrode (Shanghai Raymagnetic Instruments Co., Ltd.), the reference electrode (RE) is a saturated mercurous sulfate electrode (Hg/Hg₂SO₄) (Shanghai Leimagnetic Instruments Co., Ltd.) . In the electrochemical tests, the velocity of the working electrode was adjusted to 1600 rpm and 100 rpm to simulate strong and weak convection in the blind hole, respectively [21]. In the voltage range from 0 to −1.6 V, the cyclic voltammetry is scanned, the scanning speed is 0.01 $\\mathrm { V } / s ,$ scanning 2 segments. At a scan rate of 0.02 V/s, the LSV are scanned from $ { 0 \\ \\mathrm { t o } } - 1 . 6 \\  { \\mathrm { V } }$ . The constant current measurement requires pre-plating for 300 s at 1000 rpm. at a voltage of −0.15 V to deposit a cobalt layer on the working electrode at a set current density of 1 $. \\mathrm { \\bf A } / \\mathrm { d m } ^ { 2 }$ . Then accelerator (MPS) and leveling agent (HMTA) were added to the basic plating bath for determination.",
+        "bbox": [
+            507,
+            684,
+            939,
+            911
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            749,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.2. Theoretical calculations",
+        "text_level": 2,
+        "bbox": [
+            58,
+            66,
+            228,
+            78
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2.1. Quantum chemical calculations",
+        "text_level": 2,
+        "bbox": [
+            58,
+            92,
+            284,
+            104
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Device Studio software was used to construct the molecular model of the additive and then the density functional theory optimization of HMTA was carried out by using density functional theory (DFT) method, BDF module and water as a solvent [22,23]. Frequency calculations are carried out at the same theoretical level to ensure that all structures are true minima on the potential energy surface. After optimization, the energy density distribution and electrostatic potential (ESP) of the frontier orbits (HOMO and LUMO) were detected visually, and the energy gap was calculated by the formula. All quantum chemistry calculations use device studio’s BDF module.",
+        "bbox": [
+            55,
+            105,
+            487,
+            238
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2.2. Molecular dynamics simulation",
+        "text_level": 2,
+        "bbox": [
+            58,
+            250,
+            282,
+            262
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The Forcite module in Material Studio (MS) 2023 is used to simulate the interaction between the additive and the (100) crystal plane of co balt in MD . The adsorption free energy between Leveler and the (100) crystal plane was calculated in a simulation box with periodic boundary conditions. The simulation box consists of one leveled molecule, 500 water molecules and eight layers of cobalt, which remain“Frozen” in situ to ensure free interaction between adsorbent molecules and metal surface. The Universal Force Field (UFF) uses a combination of ab initio calculations and empirical methods to calculate the parameters in the field, to accurately describe the interactions between molecules, and has been used to predict the chemical property of various molecules or compounds. UFF is used in simulation, temperature is fixed at 298 K, NVT ensemble is used, step length is set at 0.5 fs, simulation time is 200 ps. The adsorption energy between the cobalt layer and the leveling agent E<sub>Co-leveling</sub> <sub>agent</sub> is calculated from the following equation [24].",
+        "bbox": [
+            55,
+            263,
+            487,
+            462
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{E} _ {\\text { Co - leveling   agent }} = \\mathrm{E} _ {\\text { complex }} - \\mathrm{E} _ {\\text { Co }} - \\mathrm{E} _ {\\text { leveler }}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            58,
+            469,
+            307,
+            482
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ecomplex is the total energy of surface, leveling agent and interaction between surface and leveling agent, and Eleveler is the energy of cobalt crystal and free leveling agent, respectively.",
+        "bbox": [
+            57,
+            488,
+            487,
+            529
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.3. In situ surface-enhanced Raman spectroscopy",
+        "text_level": 2,
+        "bbox": [
+            58,
+            540,
+            351,
+            554
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In order to study the adsorption behavior of HMTA on the cobalt surface, the HORIBA LabRAM HR Raman spectrometer with 0.625 mW power and excitation wavelength of $\\lambda = 6 3 3$ nm and the EC-SERS with HORIBA LabRAM were used to perform conventional Raman spectroscopy of a solid leveling agent (HMTA) pressed on a slide. The working electrode used in the experiment was a 1 cm × 1 cm PCB on which a layer of cobalt was electroplated before use. The RE was a $\\mathbf { A g / A g C l }$ electrode and the CE was a platinum wire electrode. By opening the electrochemical workstation and applying a constant voltage from −1.2 $\\mathrm { ~ V ~ t o ~ } { - } 1 . 6 \\mathrm { ~ V } .$ The signal intensity of Raman spectrum was recorded and then the signal was collected. The adsorption of additives on the surface of cobalt was studied through the change of the characteristic peak of leveling agent in Tunku Abdul Rahman signal.",
+        "bbox": [
+            55,
+            567,
+            487,
+            740
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.4. Electrodeposition",
+        "text_level": 2,
+        "bbox": [
+            58,
+            752,
+            189,
+            765
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The blind hole filling experiment was carried out in acidic cobalt sulfate plating bath and DC electrodeposition process at room temperature with current density of $\\mathrm { 1 . 0 A / d m } ^ { \\bar { 2 } } .$ The acidic cobalt sulfate plating solution was composed of 75 $g / \\mathrm { L }$ $\\mathrm { C o S O } _ { 4 } { \\cdot } 7 \\mathrm { H } _ { 2 } 0$ , 35 $g / \\mathrm { L }$ boric acid $\\mathrm { ( H _ { 3 } B O _ { 3 } ) }$ , 50 ppm $\\mathrm { C I } ^ { - } ( \\mathrm { C o C l } _ { 2 } ) ;$ , 14 ppm 3-mercapto-1-propanesulfonate sodium salt (MPS), 0.005 g/L Sodium lauryl sulfate $\\left( \\mathrm { C _ { 1 2 } H _ { 2 5 } S O _ { 4 } N a } \\right)$ and 9-15 ppm HMTA $\\mathrm { ( C _ { 6 } H _ { 1 2 } N _ { 4 } ) }$ . During electroplating filling experi ment, a pure cobalt plate acted as the anode and the PCB plate with the blind hole acts as the cathode and the pH of electroplating solution was adjusted between 3.5 and 4.5 by using $\\mathrm { H _ { 2 } S O _ { 4 } }$ and NaOH. Here, two types of PCB with different blind hole size (hole diameter and depth of $1 0 0 \\mu \\mathrm { m } \\times 1 0 0 \\mu \\mathrm { m }$ and $1 2 5 \\mu \\mathrm { m } \\times 1 0 0 \\mu \\mathrm { m } ,$ , respectively) were used in the filling experiments. In order to analyze the filling behavior of cobalt in blind holes, blind hole filling experiments were conducted at 1 hour, 2 h, and 5 h to capture the phased state of cobalt blind hole filling. Pretreatment is required before electroplating.The cathode PCB should be washed with ethanol, then immersed in 1 mol/L sulfuric acid solution for 3 min to remove surface oxides, and then rinsed thoroughly with deionized water. Then, the PCB and the stainless steel surface are connected with conductive adhesive, and the other stainless steel surfaces were coatedwith insulating adhesive, transparent adhesive, etc. to ensure that only the PCB can touch the plating solution. The pure cobalt anode plate was activated by immersion in 1 mol/L sulfuric acid for 3 min before electroplating and then washed with deionized water. When conducting electroplating filling experiments, the current density is controlled at $1 \\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 } ;$ , and good mass transfer is ensured by a DC regulated power supply and magnetic stirrer. For a more detailed pretreatment process, see the literature [25,26].",
+        "bbox": [
+            55,
+            778,
+            487,
+            938
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            66,
+            939,
+            277
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.5. Characterization test",
+        "text_level": 2,
+        "bbox": [
+            510,
+            291,
+            665,
+            303
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The cross section of the electroplated micro-hole was observed by an optical microscope (Olympus BX53M), and the filling rate of the blind hole was calculated according to the cross section of the blind hole in the final state. The cross section of the electroplated PCB is sanded to the center of the blind hole with 1000 and 5000 mesh sandpaper, and the filling situation of the blind hole is observed. The surface morphology of the cobalt layer was observed using a TESCAN MIRA Scanning electron microscope (SEM). Measurement of cobalt Surface roughness using SPM-9700HT instrument. The crystal structure of blind-hole-filled cobalt was measured in the range of $2 \\theta = 4 0 { - } 8 0 ^ { \\circ }$ using a Smartlab SE instrument with a copper target.",
+        "bbox": [
+            507,
+            316,
+            939,
+            462
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3. Results and discussion",
+        "text_level": 2,
+        "bbox": [
+            510,
+            475,
+            682,
+            488
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1. Electrochemical analysis",
+        "text_level": 2,
+        "bbox": [
+            509,
+            501,
+            685,
+            515
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1.1. Cyclic voltammetry",
+        "text_level": 2,
+        "bbox": [
+            509,
+            528,
+            668,
+            540
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "CV was used to analyze the inhibitory effect of HMTA molecule concentration on cobalt metal deposition at two different rotational speeds where the 100 rpm is used to simulate the weak convection at the bottom of the blind hole and the 1600 rpm is used to simulate the strong convection at the orifice area of the blind hole to evaluate the suppression efficiency under different mass transfer conditions and the CV results are shown in Fig. 1 and the corresponding absolute areas of dissolution peaks obtained from the CV curves is summarized. It can be seen Fig. 1 that the addition of HMTA leads to a decrease in the dissolution peak of cobalt at the low and high speeds, indicating that HMTA has an inhibitory effect on cobalt electrodeposition. Furthermore, as the concentration of HMTA increases from 1 ppm to 13 ppm, the dissolution peak of cobalt continues to decrease, indicating that the inhibitory ability of adding high concentrations of HMTA on cobalt deposition will become greater. But it is worth emphasizing that although the CV results indicate that the inhibitory ability of HMTA on cobalt deposition continues to increase with increasing concentration, it was found through the Hall cell experiments that the quality of the cobalt coating decreases when the concentration exceeds 13 ppm. Therefore, based on the results of CV and Hall cell experiments, the optimal concentration of HMTA was determined to be 13 ppm. Furthermore, the dissolution peak of the CV curve obtained at the high speed is significantly lower than that at the low speed, indicating that cobalt electrodeposition in the blind hole orifice area is more inhibited compared to the bottom area of the blind hole.",
+        "bbox": [
+            507,
+            540,
+            939,
+            871
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1.2. Linear scanning voltammetry",
+        "text_level": 2,
+        "bbox": [
+            510,
+            883,
+            722,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "LSV was used to further analyze the inhibitory effect of HMTA molecule concentration on cobalt metal deposition at two different rotational speeds and the corresponding results are shown in Fig. 2. It can be seen from Fig. 2 that the reduction potential of cobalt attained from the electrolytes with the MPS was significantly shifted towards the positive potential direction compared to that form the base solution, which indicates that the addition of MPS accelerates the reduction process of cobalt ion. However, the addition of HMTA leads to a significant negative shift in the deposition potential of cobalt. Furthermore, at the same polarization potential, the deposition current density of cobalt obtained in the electrolyte with added HMTA was significantly lower than that in the base solution, indicating that The HMTA has a significant inhibitory effect on the reduction of cobalt. As the amount of HMTA increases, the negative shift of cobalt reduction potential and the decrease in reduction current density become greater, with the addition of 13 ppm HMTA providing the best inhibitory ability for cobalt deposition. In addition, it can also be clearly seen that the HMTA has a stronger inhibitory ability on cobalt deposition at high speeds than at the low speeds, which is consistent with the results of CV analysis. The re sults from CV and LSV indicate that the HMTA molecules as leveling agent can effectively enhance cathodic polarization and inhibit cobalt deposition, especially in the blind hole region of strong convection.",
+        "bbox": [
+            507,
+            897,
+            939,
+            936
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            749,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/419b79dcac1d2a0f4a4f66dabfe1909b38a049ad427c9d8942e9e46c23dfcf62.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            184,
+            66,
+            494,
+            259
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/63260a801624ab75a866a9a19871daee378e326447bb2f22cd668c352f5b63e4.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)",
+            "Fig. 1. Cyclic voltammetric dissolution curves of HMTA at different concentrations at different rotating speeds (a)100 rpm, (b)1600 rpm."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            512,
+            66,
+            823,
+            259
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/0434d299f42f8b025c2da1057e2c4eb483042c13507773416cebe7f25e325b03.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            184,
+            305,
+            492,
+            488
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/1f95b1ede1a6d59df5b308824ee4b07474bd7cfd437c2895eb5934150098e8f8.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)",
+            "Fig. 2. Linear sweep voltammetric curves of HMTA at (a)100 rpm, (b)1600 rpm."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            514,
+            305,
+            823,
+            489
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            525,
+            487,
+            779
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.1.3. Constant current measurement",
+        "text_level": 2,
+        "bbox": [
+            58,
+            790,
+            280,
+            803
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "current measurement GM is used to study the interaction between accelerators (MPS) and the leveling agent HMTA on the deposition behavior of cobalt at a constant current density of 1 A/dm² at different two speeds of 100 rpm and 1600 rpm and the corresponding potential variation curve over time is shown in Fig. 3. At both rotational speeds, the addition of MPS resulted in an increase in the cobalt deposition reduction potential, but the impact of MPS on the cobalt deposition potential seemed to be different at the two rotational speeds. As shown in Fig. 3, at low rotational speeds, the deposition potential of cobalt rapidly increased and maintains a steady state after the addition of MPS.",
+        "bbox": [
+            55,
+            803,
+            489,
+            936
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a49cdb084b54a09422fd8d3ef296b241d9adc49209e845f54921b32091f3d9fb.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 3. The chronopotentiometric curves of HMTA at different rotational speeds."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            541,
+            535,
+            907,
+            751
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "At the high speed, after the addition of MPS, the deposition potential of cobalt shows a gradual increase to a steady-state value close to the potential of cobalt at the low speed. However, the effect of HMTA leveling agent on cobalt deposition potential was significantly different at two different rotational speeds. At low speeds, the addition of leveling agent HMTA only slightly reduced the deposition potential of cobalt while the addition of leveling agent HMTA significantly decreased the deposition potential of cobalt at high speeds. As shown in Fig. 3, the cathode reduction potentials of cobalt after the addition of HMTA were −1.367 V and −1.396 V for the rotation speed of 100 rpm and 1600 rpm, respectively, resulting in a large potential difference of about 29 mV. The large potential difference confirms that the HMTA has a stronger inhibitory effect on cobalt deposition at higher speeds, that is, the cobalt reduction rate at the bottom of blind holes is higher than that in the orifice area. This phenomenon is consistent with the results of CV and LSV tests, further verifying the effectiveness of HMTA in achieving defect free blind hole filling and making it an ideal leveling agent for blind hole electroplating.",
+        "bbox": [
+            507,
+            800,
+            939,
+            934
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            749,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            65,
+            487,
+            172
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2. Theoretical calculations",
+        "text_level": 2,
+        "bbox": [
+            58,
+            194,
+            228,
+            206
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2.1. Quantum chemical calculations",
+        "text_level": 2,
+        "bbox": [
+            58,
+            220,
+            285,
+            233
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "In order to further study the inhibition ability of HMTA, quantum chemical calculations were also used to predict the adsorption active sites of HMTA on the metal surface. In this paper, we performed quantum chemical calculations on HMTA using Device Studio software. According to the frontier orbital theory, the Homo value represents the tendency of molecules to lose electrons, while the $\\mathtt { E } _ { \\mathrm { L U M O } }$ value represents the tendency of molecules to accept electrons. The higher the E<sub>HOMO</sub> and $\\mathrm { E _ { L U M O } , }$ the greater the ability to give and receive electrons. The energy gap value (ΔE) is also an important parameter to characterize the adsorption capacity of organic molecules on the metal surface. If ΔE is small, the molecular reaction activity is high The lower adsorption energy indicates that the additive itself has stronger adsorption ability on the metal surface and has greater inhibition on the electroreduction of cobalt ion. Fig. 4a and 4b shows the distribution of LUMO and HOMO in HMTA. The $\\mathtt { E } _ { \\mathrm { L U M O } }$ value of HMTA was 1.389 (eV, E<sub>HOMO</sub> = −4.876 eV and $\\Delta \\mathrm { E } = \\mathrm { E _ { L U M O } } \\mathrm { - } \\mathrm { E } _ { \\mathrm { H O M O } } = 6 . 2 6 4 \\ \\mathrm { e V }$",
+        "bbox": [
+            55,
+            234,
+            487,
+            446
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The molecular electrostatic potential (ESP) of the leveling agent HMTA is shown in Fig. 4c, where the blue area of ESP represents the low electron density area, and the red area represents the high electron density area. It is well-known that ESP calculations graphically represent the electron density contribution of the groups to identify possible chemical reaction sites and the electrostatic interaction. As can be seen from the diagram, the molecule as a whole is positively charged, indicating that HMTA is easily adsorbed on the cathode surface, where the higher electrostatic potential is distributed near the methylene group associated with nitrogen, therefore, methylene group may be the adsorption site in the process of cobalt electrodeposition.",
+        "bbox": [
+            55,
+            445,
+            487,
+            591
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2.2. Molecular dynamics simulation",
+        "text_level": 2,
+        "bbox": [
+            58,
+            602,
+            284,
+            615
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "MS software was used to simulate the adsorption of HMTA on the surface of Co(100) crystal. Fig. 5a and 5b show the initial and equilib rium state of adsorption of HMTA on cobalt. Fig. 5c and 5d show the energy and temperature fluctuation curves of the HMTA simulation box during the dynamic simulation process, where the energy and temper ature curves remain stable from the beginning to the end of the calculation. This simulation box can be used to simulate the adsorption behavior of HMTA in the process of cobalt electroplating. The results of Molecular dynamics simulation show that the preferential adsorption behavior of these bonds is the same as that predicted by quantum chemistry calculations, In addition, the calculated interfacial adsorption energy is $E _ { \\mathrm { a b s o r p t i o n } } ~ = ~ E _ { \\mathrm { t o t a l } } { - } E _ { \\mathrm { c o b a l t } } { - } E _ { \\mathrm { l e v e l i n g ~ a g e n t } } { = } ~ - 7 5 . 5 4 ~ \\mathrm { k J / m o l }$ . A negative adsorption energy value means that HMTA molecules have greater adsorption capacity on the surface of cobalt metal atoms. means that HMTA, molecules prefer spontaneous adsorption.",
+        "bbox": [
+            55,
+            616,
+            489,
+            709
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/5c4e206b1a0cf333d6bde2b86fb7dc620fe2298ae6f47b69d59a3b6cb9cd04d3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            174,
+            723,
+            490,
+            915
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            65,
+            939,
+            172
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.3. In situ Raman spectroscopy analysis",
+        "text_level": 2,
+        "bbox": [
+            509,
+            189,
+            752,
+            203
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "In this study, we conducted in situ electrochemical Raman spectroscopy experiments to investigate the adsorption behavior of leveling agents on the surface of cobalt coatings during the electrochemical blind hole filling cobalt electroplating process. In addition, in order to better identify the adsorption bonds of HMTA molecules in electrochemical processes, the characteristic absorption peaks of HMTA molecular structural bonds were first analyzed by traditional Raman spectroscopy. Fig. 6a shows the conventional Raman spectrum of HMTA, and Fig. 6b shows the in situ surface-enhanced Raman spectrum of HMTA in acidic cobalt sulfate. Fig. 6a shows that the typical characteristic peaks of HMTA chemical bonds include the related vibration of the C–N bond in the medium at $1 0 3 4 \\mathrm { c m } ^ { - 1 }$ and the stretching vibration of the $\\mathrm { C - H }$ bond at $1 1 2 4 ~ \\mathrm { { c m } ^ { - 1 } }$ . Fig. 6b shows that the intensity and number of chemical bond characteristic peaks of HMTA molecules on the electrode surface vary with the change of electrodeposition potential. As shown in Fig. 6b, when a voltage of 0 V and −1.2 V were applied, no characteristic peak of HMTA was detected, indicating that the molecule may not adsorb or only weakly adsorb on the cobalt metal surface. When the potential reaches −1.3 V, the additive molecules begin to significantly adsorb onto the cobalt metal surface, and the $\\mathrm { c - N }$ bond at $9 9 3 \\mathrm { c m } ^ { - 1 }$ and the C–H bond a $: 1 1 4 3 \\mathrm { c m } ^ { - 1 }$ can be detected to start stretching at a potential $\\mathbf { o f } - 1 . 3 { \\mathrm { ~ V } } .$ . As the applied voltage further increases, the intensity of the characteristic peak of HMTA gradually increased. The appearance of characteristic peaks and potential steps of additive molecules indicated that the adsorption behavior of additive molecules is regulated by potential and can effectively adsorb on metal surfaces at a specific potential, thus exhibiting characteristic peaks in surface-enhanced Raman spectroscopy (SERS) spectra [27,28]. As the step potential increased, The peak intensities of the C–N bond at 993 $\\mathrm { c m } ^ { - 1 }$ and the C–H bond at 1143cm<sup>-1</sup> are increasing. This indicates that during the electroplating process, HMTA molecules mainly adsorb onto the surface of the cobalt layer through these functional groups, thereby inhibiting the deposition of cobalt.",
+        "bbox": [
+            507,
+            216,
+            941,
+            651
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.4. Blind hole test of plating filling",
+        "text_level": 2,
+        "bbox": [
+            509,
+            668,
+            722,
+            683
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "In order to further demonstrate the effect of HMTA molecules on the",
+        "bbox": [
+            527,
+            694,
+            939,
+            709
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/0cc404123e9e8832e43f74099adca3a7972bfd55747f11dd559cb50edd78cbfd.jpg",
+        "image_caption": [
+            "Fig. 4. (a)HOMO distribution of HMTA molecule; (b) LUMO distribution of HMTA molecule; (c) ESP distribution of HMTA molecules."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            507,
+            732,
+            821,
+            911
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            747,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            494,
+            952,
+            504,
+            960
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/0aaacae335422cfbf34533510fd5e5345f63ee27eaa4eb1adb3a30d5f9f575d3.jpg",
+        "image_caption": [
+            "(a)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            169,
+            69,
+            492,
+            248
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/5aa36ffb5dabb437143c6af3a66baf3ac9525b7e2ff96e79abc5c3c40cd484f1.jpg",
+        "image_caption": [
+            "(b)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            541,
+            70,
+            860,
+            248
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/0c706306309fe77c66951c53ebe02703c9dfc245494ef7f0d43cf222469510f2.jpg",
+        "content": "",
+        "chart_caption": [
+            "(c)",
+            "(d)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            174,
+            277,
+            500,
+            469
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/5f91fa8ab262b0ac3b1b2996c97f71a9d2414c8b200bf016e68d682564df6220.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 5. (a) The initial state before the adsorption equilibrium is reached, (b) The adsorption equilibrium between the Co substrate and the HMTA molecule, (c) The energy change, (d) The temperature change with the calculation time."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            554,
+            274,
+            858,
+            464
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/166bef52b03426c049edf590c199aae76502768ef493f63b000787a91e3e2979.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            159,
+            530,
+            500,
+            745
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/81bd579fa150e47dded796076bb8424855e9cbc69b88b9d183d466222d68863d.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)",
+            "Fig. 6. (a) Conventional Raman spectroscopy of HMTA; (b) In situ surface enhanced Raman spectrum of HMTA in acid cobalt sulfate."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            521,
+            540,
+            863,
+            749
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "filling capability of electroplated cobalt in the blind hole the electroplating filling experiments also are performed in the electrolyte only containing MPS and that containing MPS and the HMTA. Fig. 7 shows the cross-sectional growth morphology of electroplating Co in the PCB blind hole with a diameter of 125 μm and a depth of 125 μm in the bath containing 14 ppm MPS at different plating times. As shown in Fig. 7, In a plating solution containing only the accelerator MPS, metallic cobalt cannot form dense super filling in blind holes. As shown in Fig. 7b, in the electroplating solution containing only the accelerator MPS, cobalt preferentially deposits in the edge area of the blind hole opening. As the deposition time increases, the cobalt coating grows downward from the inner wall edge of the hole along the hole wall, which results in the inability to effectively fill the inside of the hole. As a result, as shown in Fig. 7d, wedge-shaped voids eventually form in the lower center area of the blind hole coating. Fig. 8 show the cross-sectional growth morphology of electroplating Co in the PCB blind hole with a diameter of 125 μm and a depth of 125 μm in the bath containing 14 ppm MPS and 13 ppm HMTA at different plating times. it can be seen that when HMTA is used as a leveling agent in the plating solution, the filling behavior of cobalt undergoes significant changes. As shown in Fig. 8, the cobalt coating preferentially grows from the bottom of the blind hole, gradually thickening along the bottom of the cobalt coating over time, and finally forming a dense filling inside the blind hole and at the same time, the cobalt coating on the surface area of the blind hole does not significantly thicken, which means that HMTA is an effective leveling agent and can enable the cobalt plating to form a bottom-up filling behavior in the blind hole with the Coordination of the accelerator MPS. To further illustrate the effect of HMTA as a leveling agent on cobalt filling behavior, another type of blind hole with a higher aspect ratio, namely a pore size of 100 µm and a pore depth of 120 µm, was selected as the filling object to investigate the filling behavior of cobalt over deposition time and the corresponding filling cross-sectional states of blind holes under different electroplating times are shown in Fig. 9, it can be seen that the cobalt coating in blind holes with an aspect ratio greater than 1 still exhibits bottom-up filling behavior. In order to illustrate the advantages of the present HMTA in filling cobalt in electroplating blind holes, a comparative analysis was conducted on the filling effect of cobalt electroplating on blind holes under HMTA leveling agent and the filling effect of cobalt electroplating on blind holes of similar size reported in recent literature and the corresponding filling parameters such as blind hole filling time and cobalt coating thickness in the hole area are summarized in Table 2. It can be seen from Table 2 that using malachite green and nitrotetrazolium chloride (NBT) as cobalt filling additives, it takes 8–10 h to complete the filling at a current density of $0 . 5 { - } 1 \\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 } ;$ and the cobalt coating thickness in the pore area exceeds 30 µm. Compared with the two inhibitors mentioned above, under the current leveling agent HMTA, the cobalt plating filling time has been shortened",
+        "bbox": [
+            55,
+            786,
+            489,
+            933
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            786,
+            939,
+            933
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            749,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            494,
+            952,
+            504,
+            960
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/a5e141a95ac4094fd02e38bf872034903460538685380988de8669b3df61bd8f.jpg",
+        "image_caption": [
+            "Fig. 7. Growth of cobalt in the pores of a printed circuit board with a diameter of 125 μm and a depth of 125 μm in the bath containing only 14 ppm MPS at different plating times (a)0 h, (b)1 h, (c)2 h, (d)5 h."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            65,
+            68,
+            487,
+            269
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/2ca3717f84c9f1ad3ed18b9bfa4839f1be6425ac58d56e1774b891906b1c15a0.jpg",
+        "image_caption": [
+            "Fig. 8. Electroplating for different times in printed circuit board holes with a diameter of 125 μm and a depth of 125 μm in a plating solution containing 14 ppm MPS and 13 ppm HMTA (a)0 h, (b)1 h, (c)2 h, (d)5 h."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            65,
+            344,
+            487,
+            543
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            606,
+            487,
+            936
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/3ff313772b4b7d8baae13c0034e308d0dd1e41274d102dc518484b02ce4dbafa.jpg",
+        "image_caption": [
+            "Fig. 9. Electroplating for different times in printed circuit board holes with a diameter of 100 μm and a depth of 125 μm in a plating solution containing 14 ppm MPS and 13 ppm HMTA (a)0 h, (b)1 h, (c)2 h, (d)5 h.",
+            "by 3–5 h, and the thickness of the cobalt coating on the surface area of the pores has also been significantly reduced. This comparative result fully demonstrates that this nitrogen-containing HMTA molecule with a methylene structure is an effective leveling agent for blind hole cobalt plating."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            517,
+            69,
+            939,
+            268
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.5. Nucleation process analysis",
+        "text_level": 2,
+        "bbox": [
+            510,
+            422,
+            700,
+            436
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "To further investigate the effect of HMTA on the nucleation process of cobalt electrodeposition in the blind hole, the variation of transient current with time for the electrodeposition of cobalt applied differen potentials range from −1.1 V to −1.5 V under two rotational speeds of 1600 rpm and 100 rpm is also analyzed and the corresponding current transient curves are shown in Fig. 10. It can be seen Fig. 10 that when a cathodic potential of −1.1 V is applied, the current density gradually approaches 0 for both high and low speeds and no current density peak appears, it means that there is no reduction reaction of metallic cobalt and the decrease in current density should be attributed to the adsorp tion of additives and the charging process of the double layer. When the applied cathodic potential is increased to −1.2 V, the current density at high speeds still shows a steady state of gradually decreasing to near 0, which the current time curve at this potential still belongs to the adsorption of additives and the double-layer charging reaction process at high speeds.However, from the current time curve at low speeds, it can be seen that a peak current density appears at 2–3 s, followed by a decrease in current density to a stable state. This means that at a cathode potential of −1.2 V, the cobalt ions begin to undergo a reduction nucleation reaction at low speeds.When the cathodic potential reaches −1.25 V, the current density shows a trend of increasing first and then stabilizing with time at high speed, which the double layer charging process is also accompanied by the reduction and nucleation of cobalt ions. For low-speed conditions, the trend of current density over time at a cathodic potential of −1.25 V is similar to that at a cathodic potentia of −1.2 V. However, the amplitude of the peak current density formed at a cathodic potential of −1.25 V is significantly higher than that at a cathodic potential of −1.2 V, indicating a significant improvement in the reduction and nucleation ability of cobalt ions at this potential. When the cathodic potential is increased to 1.3 V, the relationship of current density with time at high speeds is similar to that at a cathodic potential of −1.25 V. However, it can be noticed that the decrease time of current density in the initial stage at a cathodic potential of −1.3 V is signifi cantly shortened, which means that the double layer related to additive adsorption is quickly established at this potential. This phenomenon is actually consistent with the result that a strong absorption peak of the additive appears in the Raman spectrum at a cathode potential of −1.3 V",
+        "bbox": [
+            507,
+            448,
+            941,
+            938
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            749,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "chart",
+        "img_path": "images/e1b6ab55f8e7bc83e74426e5c87af6c2da1fac1443b7a135016966741531a400.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            176,
+            66,
+            495,
+            259
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a7cd6b50c4d1b55be3bf3ef3094dcdb67da235cdfd32755285d77266304a601a.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 10. Current transient curve under different deposition potentials (a)1600 rpm, (b) 100 rpm."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            507,
+            66,
+            823,
+            259
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "shown in Fig. $\\displaystyle { 6 { \\mathbf b } , }$ indicating an improved adsorption capacity of the additive HMTA at the cathode interface. At the same time, the amplitude of peak current density formed at a cathodic potential $\\mathbf { o f } \\mathrm { ~ - 1 . 3 ~ V ~ }$ also significantly increases compared to that at the cathodic potential of −1.25 V, which indicates an increase in the rate of cobalt ion reduction nucleation. For the low-speed conditions, when the cathodic potential reaches −1.3 V, the relationship between current density and time is similar to that of a cathodic potential $\\mathrm { o f - } 1 . 2 \\ : \\mathrm { V } ,$ showing a gradual in crease followed by a slight decrease to steady state. This means that the increase in cathodic potential at low-speed conditions does not enhance the double-layer charging behavior, but instead leads to further improvement in the reduction and nucleation ability of cobalt ions. This should be related to the fact that leveling agent cannot form strong adsorption on the cathode surface at low speeds. As the cathodic po tential is further increased to −1.35 V to −1.5 V, the current density showed a significant peak over time at both high and low speeds, and then decreases to a stable state. This indicates that when the cathodic potential exceeds −1.3 V, the nucleation and reduction process of cobalt ions is mainly controlled by electrochemical reactions at both high and low speeds, forming a significant potential dependent process. Additionally, it can be further seed from the timing current curve that the peak current density of the electrode at high rotation speed of 1600 rpm is lower than that at low rotation speed of 100 rpm and at the same time, which further indicates that the HMTA forms a stronger adsorption barrier on the electrode surface to inhibit the reduction nucleation of cobalt ions at high rotation speed. This means that the nucleation ability of cobalt in the pore and surface areas is lower than that in the bottom area of blind holes. Obviously, the results that the nucleation rate at low speeds is greater than that at high speeds obtained were consistent with the bottom-up filling behavior of cobalt atoms exhibited by the blind hole filling experiments. Considering that the adsorption capacity of additives at two different rotational speeds may affect the nucleation mode of cobalt, Scharifker and Hills (SH) model is also used here to study the electrodeposition process of metal cobalt. The SH model can simplify the Co electrodeposition process into the following two models: [29,30]",
+        "bbox": [
+            55,
+            295,
+            489,
+            679
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            293,
+            939,
+            387
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Three-dimensional progressive nucleation",
+        "bbox": [
+            529,
+            387,
+            786,
+            399
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left(\\mathrm{j} / \\mathrm{j} _ {\\mathrm{m}}\\right) ^ {2} = 1. 2 2 5 4 \\mathrm{t} _ {\\mathrm{m}} / \\mathrm{t} \\times \\left\\{1 - \\exp \\left[ - 2. 3 3 6 7 (\\mathrm{t} / \\mathrm{t} _ {\\mathrm{m}}) ^ {2} \\right] \\right\\} ^ {2}\\tag{1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            509,
+            407,
+            828,
+            430
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Three-dimensional instantaneous nucleation",
+        "bbox": [
+            527,
+            436,
+            800,
+            450
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left(j / j _ {m}\\right) ^ {2} = 1. 9 5 4 2 \\mathrm{t} _ {\\mathrm{m}} / \\mathrm{t} \\times \\left\\{1 - \\exp \\left[ - 1. 2 5 6 4 (\\mathrm{t} / \\mathrm{t} _ {\\mathrm{m}}) \\right] \\right\\} ^ {2}\\tag{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            510,
+            457,
+            815,
+            472
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Fig. 11 shows the relationship between current density jm and time tm at two different speeds, 1600 rpm and 100 rpm. The calculated $( j /$ $j _ { \\mathrm { m } } ) ^ { 2 }$ is plotted against $( t / t _ { \\mathrm { m } } )$ , and the curves are compared with those obtained from formulas (1) and $( 2 ) ,$ , as shown in Fig. 11. Through the comparison in the figure, it was found that at high speeds, the experimental data matched well with the limit case of diffusion-controlled long three-dimensional progressive nucleation when $t / t _ { \\mathrm { m } } { < } 1$ . However, there was a deviation from the theoretical data when $t > t _ { \\mathrm { m } } ,$ which was due to the hydrogen evolution reaction during the reduction process of metal Co affecting the nucleation process. At low speeds, when voltages were applied from −1.25 V to −1.45 V, the curve matches well with three-dimensional transient nucleation. When a voltage of −1.5 V is applied, the curve transitioned to three-dimensional asymptotic nucleation.The transformation of cobalt nucleation mode at different rotational speeds is related to the different diffusion behaviors of metal cobalt ions in the pore and bottom regions. In the surface area of the orifice, due to the fast mass transfer rate of cobalt ions and the small thickness of the diffusion layer, the concentration gradient of cobalt ions near the reduction reaction interface in the pore region is stable, which leads to a gradual and continuous accumulation of atoms that reach nucleation at the reaction interface. Therefore, the nucleation of cobalt atoms in the pore region exhibits a progressive nucleation mode. For the bottom area of the hole, due to slow mass transfer rate and thick diffusion layer, the concentration distribution of reactants in the reaction interface area is uneven, and reactants accumulate in local areas, resulting in high concentrations of reactants in these areas, reaching the critical conditions for instantaneous nucleation and triggering a large amount of nucleation in a short period of time [31,32].",
+        "bbox": [
+            507,
+            477,
+            939,
+            678
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "chart",
+        "img_path": "images/195e7482d4e5d4d268862753fc9f52e49afaaf6a56e2d1d4fa9911300a7bf310.jpg",
+        "content": "",
+        "chart_caption": [
+            ""
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            137,
+            703,
+            487,
+            916
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "chart",
+        "img_path": "images/6aba14fd27e322a627b0f5a9adbff6deaa7ac5d5ef210d4ccba9d58e766685c2.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)",
+            "Fig. 11. The dimensionless equation curve of I-t curve and the dimensionless equation curve obtained from SH model (a)1600 rpm, (b) 100 rpm."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            514,
+            702,
+            863,
+            915
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            747,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            494,
+            952,
+            505,
+            960
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            65,
+            487,
+            238
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.6. Surface roughness analysis",
+        "text_level": 2,
+        "bbox": [
+            58,
+            255,
+            247,
+            269
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Fig. 12 shows the surface morphology of cobalt obtained from the electrolyte with the MPS and the electrolyte with the MPS and HMTA. From Fig. 12a and 12c, it can be seen that the cobalt coating obtained from the 14 ppm MPS plating solution exhibits an uneven structure, and the surface of the coating is relatively rough. From Fig. 12b and 12d, it can be seen that after adding 13 ppm HMTA molecules to the electroplating solution containing 14 ppm MPS, the cobalt layer obtained becomes flatter, the cobalt grain size on the coating surface is the smallest, and the coating is smooth and flat in the macroscopic state. This indicates that adding leveling agent HMTA molecules to the plating solution can improve the smoothness and flatness of cobalt coatings.",
+        "bbox": [
+            55,
+            282,
+            487,
+            428
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.7. Surface roughness analysis",
+        "text_level": 2,
+        "bbox": [
+            58,
+            446,
+            247,
+            459
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The surface roughness of cobalt coating obtained from the electrolyte containing MPS and that containing MPS and HMTA were analyzed using atomic force microscopy (AFM) and the corresponding results are shown in Fig. 13. The surface roughness of cobalt coating attained from the electrolyte with the addition of 14 ppm MPS decreased, as shown in Fig. 13a, its average roughness (Ra) and root mean square (RMS) roughness (Rq) were about 4.00 nm and 4.90 nm, respectively. While for the electrolyte containing the 13 ppm HMTA, the coating obtained exhibits a minimum roughness with the Ra of about 2.41 nm and Rq of about 3.19 nm, as shown in Fig. 13b. This means that adding HMTA can effectively reduce the surface roughness of cobalt coatings, thereby improving the surface smoothness of cobalt coatings.",
+        "bbox": [
+            55,
+            472,
+            487,
+            605
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            65,
+            939,
+            93
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.8. Structural analysis",
+        "text_level": 2,
+        "bbox": [
+            510,
+            114,
+            653,
+            127
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "In order to explain the effect of the leveling agent HMTA on the crystalline structure of electrodeposited cobalt with HMTA, the crystalline structure of the cobalt layer under different electrolytes were also analyzed by XRD and the corresponding results are shown in Fig. 14. The crystal planes of the cobalt layer obtained in the electrolyte containing 14 ppm MPS are (110), (101), and (110). On this basis, the crystal planes of the cobalt layer obtained by adding 13 ppm HMTA molecules are (100), (002), and (101). From the Fig. 14, it can be seen that compared with the electrolyte containing 14 ppm MPS, the cobalt coating with 13 ppm HMTA molecules showed a decrease in diffraction peak intensity at the (100) crystal plane at 41.27◦ and the (110) crystal plane at 75.73◦, while the diffraction peak intensity related to the (002) crystal plane at 44.04◦ increased. This indicates that the leveling agent HMTA can inhibit the growth of (100) and (100) crystal planes, and preferentially promote the formation of cobalt crystals along the (002) crystal plane. In summary, the homogenization behavior of HMTA on cobalt surfaces is not only related to the inhibition of cobalt deposition by HMTA, but also to the preferred orientation of cobalt crystal surfaces. The addition of HMTA leads to a change in the favorable direction for the growth of cobalt coatings.",
+        "bbox": [
+            507,
+            139,
+            939,
+            404
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "4. Conclusion",
+        "text_level": 2,
+        "bbox": [
+            509,
+            419,
+            608,
+            432
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "In conclusion, a small molecule HMTA with nitrogen-containing methylene structure was selected as leveling agent to study the deposition behavior and blind hole filling behavior of cobalt under the action of the HMTA molecules. The addition of HMTA molecule has a strong inhibitory effect on the deposition of cobalt during electrodeposition. It is revealed that the methylene group in the HMTA molecule belongs to the nucleophilic group, which provides the preferred adsorption reaction active site for the interaction with the cobalt surface and then produces a strong inhibitory effect of cobalt electrodeposition. Under the synergy of this HMTA molecule, a bottom-up super-filling behavior is achieved during the filling process of cobalt electroplating in blind holes. Such super-filling behavior is mainly related to the fact that the",
+        "bbox": [
+            507,
+            446,
+            939,
+            605
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/30388563fbfa378fb0f1fb42282a5b7da23b7550787d75ad279c27a8c5afb95e.jpg",
+        "image_caption": [
+            "Fig. 12. FE-SEM images of cobalt coatings obtained from electrolytes containing two different formulations.(a)14 ppm MPS-2.0 KX, (b) 14 ppm MPS +13 ppm HMTA-2.0 KX, (c)14 ppm MPS-5.0 KX, (d) 14 ppm MPS +13 ppm HMTA-5.0 KX."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            236,
+            622,
+            761,
+            901
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            747,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            494,
+            950,
+            505,
+            960
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/90c9d23a1daea1c60e19d73161248bde95d466722c9beb6e7756293ffdc08318.jpg",
+        "image_caption": [
+            "(a)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            260,
+            73,
+            499,
+            245
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/30979c986ec8d22f059cf33dd57d7838a44fc7fc3de1df7f15f06041e36815fb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            524,
+            81,
+            783,
+            244
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/388d07a97a6c556a733e6a3cc764fa822995c10e0461854b5e34e6150a898bf1.jpg",
+        "image_caption": [
+            "(b)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            260,
+            276,
+            500,
+            448
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/85f46d765870f9c9b4ca5a98af06a99fb5ec85f980895d055f693dd7d8c21a84.jpg",
+        "image_caption": [
+            "Fig. 13. Atomic force micros copy (a) Electrolyte containing 14 ppm MPS, (b) Electrolyte containing 14 ppm MPS and 13 ppm HMTA."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            526,
+            283,
+            784,
+            447
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/c2023e04f0a2493ee2216c23c516eb5f068f32d570f32682e0b0af6af1ddf110.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 14. XRD spectra of cobalt coatings obtained from electrolytes containing two different formulations."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            87,
+            496,
+            455,
+            713
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "HMTA molecules preferentially adsorbed on the orifice of the blind hole during electrodeposition. The elective adsorption makes the deposition speed of cobalt at the bottom of the hole significantly higher than that at the orifice of the hole and as a result, a bottom-up superfilling behavior is achieved here. Such adsorption behavior also leads to a change from an instantaneous nucleation at the bottom of the blind hole to a progressive nucleation at the orifice of the blind hole in three-dimensional progressive nucleation. This leveling agent is also beneficial for obtaining a denser and smoother cobalt coating with the preferred growth along (100) crystal plane. These results imply that the HMTA molecule is a potential leveling agent to achieve the super filling of cobalt in the blind hole. Tables 1–2",
+        "bbox": [
+            55,
+            761,
+            487,
+            829
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            488,
+            939,
+            582
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "CRediT authorship contribution statement",
+        "text_level": 2,
+        "bbox": [
+            509,
+            593,
+            789,
+            607
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Pei Xu: Writing – original draft, Investigation. Xixun Shen: Writing – review & editing, Funding acquisition. Xiao Zhang: Data curation. Wang Tang: Resources, Investigation. Wei Huang: Resources, Investigation. Qunjie Xu: Supervision.",
+        "bbox": [
+            507,
+            620,
+            939,
+            675
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/64a377f0c1e883c875bea9c5a8cad6821a0e6b32789a32baa7ae69ad3e3d414d.jpg",
+        "table_caption": [
+            "Table 2",
+            "Two existing additives and electroplating effect parameters of HMTA."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Additive</td><td>Current density (A/dm2)</td><td>Plating Thickness (μm)</td><td>Electroplating time (h)</td></tr><tr><td>malachite green [13]</td><td>0.5</td><td>31.3</td><td>10</td></tr><tr><td>Nitrotetrazolium Blue chloride (NBT) [27]</td><td>1</td><td>30.7</td><td>8</td></tr><tr><td>Hexamethyltetramine (HMTA)</td><td>1</td><td>22.5</td><td>5</td></tr></table>",
+        "bbox": [
+            512,
+            725,
+            936,
+            823
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/13a598e2eb685f8728381ecd22fd8f44fda9521f068d28860ff0d45c14fbe57a.jpg",
+        "table_caption": [
+            "Table 1",
+            "The absolute areas of cyclic voltammetric stripping peaks of HMTA at different concentrations."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Rotation Speed (rpm)</td><td>14ppmMPS (C/ cm2)</td><td>14ppmMPS +1ppmHMTA (C/ cm2)</td><td>14ppmMPS +5ppmHMTA (C/ cm2)</td><td>14ppmMPS +9ppmHMTA (C/ cm2)</td><td>14ppmMPS +13ppmHMTA (C/ cm2)</td></tr><tr><td>100</td><td> $1.58 \\times 10^{-3}$ </td><td> $1.38 \\times 10^{-3}$ </td><td> $1.31 \\times 10^{-3}$ </td><td> $1.22 \\times 10^{-3}$ </td><td> $1.12 \\times 10^{-3}$ </td></tr><tr><td>1600</td><td> $1.30 \\times 10^{-3}$ </td><td> $1.05 \\times 10^{-3}$ </td><td> $9.75 \\times 10^{-4}$ </td><td> $8.96 \\times 10^{-4}$ </td><td> $8.02 \\times 10^{-4}$ </td></tr></table>",
+        "bbox": [
+            58,
+            877,
+            936,
+            933
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            54
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            747,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            490,
+            950,
+            509,
+            960
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Declaration of competing interest",
+        "text_level": 2,
+        "bbox": [
+            58,
+            66,
+            280,
+            79
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+        "bbox": [
+            58,
+            92,
+            485,
+            132
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgments",
+        "text_level": 2,
+        "bbox": [
+            58,
+            145,
+            181,
+            158
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This work was financially supported by the National Natural Science Foundation of China (No.21972090) and the Science and Technology Commission of Shanghai Municipality (No.19DZ2271100). Thanks Kui Gong, Yibin Hu and Yin Wang (all from HZWTECH) for help and discussions regarding this study.",
+        "bbox": [
+            58,
+            171,
+            487,
+            238
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Data availability",
+        "text_level": 2,
+        "bbox": [
+            58,
+            250,
+            171,
+            263
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Data will be made available on request.",
+        "bbox": [
+            78,
+            277,
+            319,
+            288
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "References",
+        "text_level": 2,
+        "bbox": [
+            58,
+            303,
+            134,
+            316
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[1] W. Wu, S.H. Brongersma, M. Van Hove, et al., Influence of surface and grainboundary scattering on the resistivity of copper in reduced dimensions, Appl.Phys. Lett. 84 (15) (2004) 2838–2840, https://doi.org/10.1063/1.1703844.",
+        "bbox": [
+            65,
+            327,
+            480,
+            358
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[2] D. Gall, The search for the most conductive metal for narrow interconnect lines, J. Appl. Phys. 127 (5) (2020) 050901, https://doi.org/10.1063/1.5133671.",
+        "bbox": [
+            67,
+            359,
+            477,
+            378
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[3] Y.-L. Cheng, H.-C. Huang, C.-Y. Lee, et al., Comparison of Cu and Co integration with porous low-k SiOCH dielectrics, Thin Solid Films 704 (2020) 138010, https:// doi.org/10.1016/j.tsf.2020.138010.",
+        "bbox": [
+            67,
+            379,
+            480,
+            408
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[4] Q. Huang, T.W. Lyons, W.D. Sides, Electrodeposition of cobalt for interconnect application: effect of dimethylglyoxime, J. Electrochem. Soc. 163 (13) (2016) D715, https://doi.org/10.1149/2.1111613jes.",
+        "bbox": [
+            67,
+            409,
+            470,
+            438
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[5] T.W. Lyons, Q. Huang, Effects of cyclohexane- monoxime and dioxime on the electrodeposition of cobalt, Electrochim. Acta. 245 (2017) 309–317, https://doi. org/10.1016/j.electacta.2017.05.130.",
+        "bbox": [
+            67,
+            438,
+            477,
+            467
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[6] M.A. Rigsby, L.J. Brogan, N.V. Doubina, et al., The critical role of pH gradient formation in driving superconformal cobalt deposition, J. Electrochem.Soc. 166 (1) (2019) D3167, https://doi.org/10.1149/2.0211901jes.",
+        "bbox": [
+            67,
+            469,
+            482,
+            498
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[7] R. Kimizuka, H. Toda, T. Eda, et al., Influence of SPS decomposition product 1,3- propane disulfonic acid on electrolytic copper via filling performance, J. Electrochem. Soc. 162 (12) (2015) D584, https://doi.org/10.1149/ 2.0781512jes.",
+        "bbox": [
+            67,
+            499,
+            480,
+            538
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[8] X. Ni, C. Wang, Y. Su, et al., Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition, Nanotechnol. Rev. 11 (1) (2022) 1209–1218, https://doi.org/10.1515/ntrev-2022- 0071.",
+        "bbox": [
+            67,
+            539,
+            482,
+            578
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[9] W. Cao, Z. Zhu, Q. Li, et al., Effect of butanedione oxime, 3-mercapto-2-propanesulfonate, and histidine on growth and magnetic properties of electrodeposited cobalt on copper substrate[J], J Mater Sci: Mater Electron 35 (36) (2024) 2268, https://doi.org/10.1007/s10854-024-13997-0.",
+        "bbox": [
+            65,
+            578,
+            480,
+            619
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[10] N. Zech, D. Landolt, The influence of boric acid and sulfate ions on the hydrogen formation in Ni-Fe plating electrolytess, J. Electrochem. Soc. 45 (21) (2000) 3461 3471, https://doi.org/10.1016/S0013-4686(00)00415-1.",
+        "bbox": [
+            60,
+            619,
+            480,
+            648
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[11] Y. Hu, Q. Huang, Effects of dimethylglyoxime and cyclohexane dioxime on the electrochemical nucleation and growth of cobalt, J. Electrochem. Soc. 166 (1) (2019) D3175, https://doi.org/10.1149/2.0241901jes.",
+        "bbox": [
+            60,
+            650,
+            470,
+            679
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[12] M. Kiruba, C. Jeyabharathi, Discerning the oscillatory electrochemical response during electrodeposition of cobalt in the presence of but-2-yne-1,4-diol, J. Solid State Electrochem. 24 (11) (2020) 2997 3002, https://doi.org/10.1007/s10008 020-04735-7.",
+        "bbox": [
+            60,
+            680,
+            475,
+            718
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[13] X. Ma, Y. Li, P. Yang, et al., Influence of suppressing additive malachite green on superconformal cobalt electrodeposition, J. Electroanal. Chem. 921 (2022) 116696, https://doi.org/10.1016/j.jelechem.2022.116696.",
+        "bbox": [
+            512,
+            66,
+            934,
+            95
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[14] Y. Li, X. Ma, C. Li, et al., Investigation of novel suppressor nitrotetrazolium blue chloride on cobalt superconformal growth, J. Manuf Process. 101 (2023) 15–24, https://doi.org/10.1016/j.jmapro.2023.05.059.",
+        "bbox": [
+            512,
+            97,
+            931,
+            126
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[15] Y. Wu, S. Ju, F. Li, et al., Tailoring crystalline orientation of electrodeposited cobalt by alkynol additives, Electrochim. Acta 497 (2024) 144593, https://doi.org 10.1016/j.electacta.2024.144593.",
+        "bbox": [
+            512,
+            127,
+            934,
+            155
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[16] Y. Wu, M. Zhang, Y. Jiang, et al., Investigation of phenyl methyl sulfoxide as an additive for cobalt super-filling in 3D interconnect, Surf. Interf 56 (2025) 105652, https://doi.org/10.1016/j.surfin.2024.105652.",
+        "bbox": [
+            512,
+            157,
+            932,
+            186
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[17] R.A.J. Critelli, P.T.A Sumodjo, Influence of glycine as additive on cobal electrodeposition, ECS Trans. 50 (52) (2013) 75, https://doi.org/10.1149/ 05052.0075ecst",
+        "bbox": [
+            512,
+            187,
+            900,
+            216
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[18] R.A.J. Critelli, P.C. Isolani, P.T.A Sumodjo, Situ ftirs study of glycine effects on cobalt electrodeposition on gold electrodes, ECS Meet. Abstr. (15) (2015) 1172 https://doi.org/10.1149/MA2015-01/15/1172. MA2015-01.",
+        "bbox": [
+            512,
+            216,
+            926,
+            245
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[19] E.S. Safiullina, I.A. Nikovskii, A.A. Dan’shina, et al., Spin states of the cobalt(II) complex with bis(pyrazol-3-yl)pyridine and pH-sensitive functional groups and its deprotonated derivatives, Russ. J. Coord. Chem. 50 (11) (2024) 978–986, https:/ doi.org/10.1134/S1070328424600682.",
+        "bbox": [
+            512,
+            248,
+            934,
+            286
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[20] I.M.A. Omar, K.M. Emran, M. Aziz, et al., A novel viewpoint of an imidazole derivative ionic liquid as an additive for cobalt and nickel electrodeposition, Rsc Adv. 10 (53) (2020) 32113–32126, https://doi.org/10.1039/D0RA06510B.",
+        "bbox": [
+            512,
+            287,
+            932,
+            317
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[21] C.H. Lee, J.E. Bonevich, J.E. Davies, et al., Superconformal electrodeposition of Co and Co–Fe alloys using 2-mercapto-5-benzimidazolesulfonic acid, J. Electrochem. Soc. 156 (8) (2009) D301, https://doi.org/10.1149/1.3142427.",
+        "bbox": [
+            512,
+            317,
+            934,
+            346
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[22] W. Liu, G. Hong, D. Dai, et al., The Beijing four-component density functional program package (BDF) and its application to EuO, EuS, YbO and YbS, Theor. Chem. Acta 96 (2) (1997) 75–83, https://doi.org/10.1007/s002140050207.",
+        "bbox": [
+            512,
+            348,
+            919,
+            377
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[23] Y. Zhang, B. Suo, Z. Wang, et al., BDF: a relativistic electronic structure program packageJ, Chem. Phys. 152 (6) (2020), https://doi.org/10.1063/1.5143173.",
+        "bbox": [
+            512,
+            378,
+            932,
+            398
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[24] Z. Lai, S. Wang, C. Wang, et al., A comparison of typical additives for copper electroplating based on theoretical computation, Comput. Mater. Sci. 147 (2018) 95–102, https://doi.org/10.1016/j.commatsci.2017.11.049.",
+        "bbox": [
+            512,
+            399,
+            932,
+            428
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[25] Y. Zhang, X. Shen, M. Zhou, et al., The effect of quaternary ammonium salts with different chain lengths on copper filling behavior in blind holes of printed circuit board, J. Micromech. Microeng. 32 (12) (2022) 125004, https://doi.org/10.1088 1361-6439/ac9d46.",
+        "bbox": [
+            512,
+            428,
+            934,
+            467
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[26] T. Zhang, C. Zheng, H. Li, et al., Five-membered heterocyclic small molecule compounds as novel levelling agents for blind-hole copper plating, J. Electroanal. Chem. 956 (2024) 118100, https://doi.org/10.1016/j.jelechem.2024.118100.",
+        "bbox": [
+            512,
+            467,
+            932,
+            498
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[27] Y. Li, X. Ma, R. Li, et al., Suppressing-accelerating effect of nitrotetrazolium Blu chloride in boosting superconformal cobalt filling, J. Electroanal. Chem. 945 (2023) 117671, https://doi.org/10.1016/j.jelechem.2023.117671.",
+        "bbox": [
+            512,
+            499,
+            931,
+            528
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[28] H. Li, T. Zhang, S. Song, et al., Study of 5-alkynylpyrimidines as cobalt superfilling inhibitors, J. Phys. Chem. C. 129 (1) (2025) 232–243, https://doi.org/10.1021 acs.jpcc.4c05741.",
+        "bbox": [
+            512,
+            529,
+            932,
+            558
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[29] Y. Hu, T. Lyons, Q. Huang, Influence of furil dioxime on cobalt electrochemical nucleation and growth, J. Electrochem. Soc. 167 (2) (2020) 022509, https://doi. org/10.1149/1945-7111/ab69fb.",
+        "bbox": [
+            512,
+            559,
+            931,
+            588
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[30] B. Scharifker, G. Hills, Theoretical and experimental studies of multiple nucleation, Electrochim. Acta. 28 (7) (1983) 879–889, https://doi.org/10.1016/0013-4686 (83)85163-9.",
+        "bbox": [
+            512,
+            588,
+            932,
+            617
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[31] C.B. Whitehead, S. Ozkar, ¨ R.G. Finke, LaMer’s 1950 model for particle formation of instantaneous nucleation and diffusion-controlled growth: a historical look at the model’s origins, assumptions, equations, and underlying sulfur sol formation kinetics data, Chem. Mater. 31 (18) (2019) 7116–7132, https://doi.org/10.1021 acs.chemmater.9b01273.",
+        "bbox": [
+            512,
+            619,
+            934,
+            667
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "ref_text",
+        "text": "[32] J.A. Dirksen, T.A. Ring, Fundamentals of crystallization: kinetic effects on particle size distributions and morphology, Chem. Eng. Sci. 46 (10) (1991) 2389–2427, https://doi.org/10.1016/0009-2509(91)80035-W.",
+        "bbox": [
+            512,
+            669,
+            934,
+            699
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "P. Xu et al.",
+        "bbox": [
+            58,
+            42,
+            115,
+            52
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 532 (2025) 146509",
+        "bbox": [
+            749,
+            42,
+            939,
+            52
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            492,
+            952,
+            507,
+            960
+        ],
+        "page_idx": 10
+    }
+]

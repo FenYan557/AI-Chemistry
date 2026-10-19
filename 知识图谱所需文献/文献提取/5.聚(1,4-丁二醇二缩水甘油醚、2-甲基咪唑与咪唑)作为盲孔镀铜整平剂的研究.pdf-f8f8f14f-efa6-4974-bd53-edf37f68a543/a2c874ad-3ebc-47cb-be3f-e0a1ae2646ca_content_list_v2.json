@@ -1,0 +1,5342 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Exploration of poly(1,4‑butanediol diglycidyl ether, 2‑methylimidazole, and imidazole) as leveling agents in blind hole copper plating"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                78,
+                163,
+                842,
+                253
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Xiangjian Zeng<sup>1</sup>, Zhanchang Pan<sup>1,</sup>* , Guanghui Hu<sup>1</sup>, Guowei Xia<sup>2</sup>, Haiqing Huang<sup>2</sup>, Mingliang Zou<sup>2</sup>, and Shikun Shi<sup>2</sup>"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                268,
+                712,
+                302
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>1</sup> School of Chemical Engineering and Light Industry, Guangdong University of Technology, Guangzhou 510006, Guangdong, China <sup>2</sup> Victory Giant Technology (Huizhou) Co., Ltd., Huizhou 516000, China"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                318,
+                875,
+                350
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Received: 15 April 2025 Accepted: 4 June 2025 Published online: 23 June 2025"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                413,
+                253,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "© The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature, 2025"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                503,
+                285,
+                572
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ABSTRACT"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                315,
+                408,
+                445,
+                427
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Literature reports indicate that existing synthesis methods for leveling agents often sufer from complex procedures, high environmental burden, challenging purification processes, and insuficient via filling eficiency. To address these limitations, a novel leveling agent (CDT) was synthesized using environmentally friendly materials through a simplified, cost-efective process that eliminates the need for post-synthesis purification. This study systematically investigates the influence of CDT on blind via filling performance in an acidic copper sulfate plating bath containing polyethylene glycol (PEG), bis(3-sulfopropyl) disulfide (SPS), and chloride ions. The chemical structure of CDT was characterized by Fouriertransform infrared spectroscopy (FTIR), nuclear magnetic resonance (NMR), and gel permeation chromatography (GPC). Quantum chemical calculations and molecular dynamics (MD) simulations revealed that CDT exhibits stronger adsorption on copper surfaces compared to conventional leveling agents. Electrochemical measurements confirmed its ability to suppress copper deposition and helped determine the optimal working concentration of CDT. Electroplating experiments further demonstrated CDT’s capability to achieve superfilling, indicating its suitability for printed circuit board (PCB) manufacturing. Scanning electron microscopy (SEM) results corroborated the validity of the optimal concentration established by electrochemical tests. Finally, X-ray photoelectron spectroscopy (XPS) confirmed strong interfacial interactions between CDT and the copper surface. These findings collectively suggest that CDT is a highly promising candidate for advanced leveling agent applications."
+                    }
+                ]
+            },
+            "bbox": [
+                312,
+                434,
+                917,
+                800
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                25,
+                497,
+                46
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Check for updates"
+                    }
+                ]
+            },
+            "bbox": [
+                863,
+                94,
+                914,
+                132
+            ]
+        },
+        {
+            "type": "page_footnote",
+            "content": {
+                "page_footnote_content": [
+                    {
+                        "type": "text",
+                        "content": "Address correspondence to E-mail: panzhanchang@163.com"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                902,
+                467,
+                918
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "htps://doi.org/10.1007/s10854-025-15125-y"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                934,
+                401,
+                951
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                820,
+                932,
+                915,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1 Introduction"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                80,
+                94,
+                225,
+                112
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Printed Circuit Boards (PCBs) are indispensable components in modern daily life. As current electronic devices trend toward lighter, thinner, and smaller designs, PCB technology is correspondingly evolving toward multi-layer and high-density configurations. In the PCB manufacturing industry, blind via technology plays a crucial role as it facilitates conductive connections between the layers of multi-layer circuit boards. Therefore, the metallization technology for blind vias is particularly critical in this rapidly advancing field [1–4]."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                129,
+                485,
+                310
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To meet the high-performance demands of current electronic devices, copper electroplating in blind vias must achieve flawless filling without cracks and gaps. This typically involves superfilling or botom-up filling techniques, where superfilling refers to a deposition process during electroplating in which the copper deposition rate at the botom of the blind vias is significantly higher than at the opening and surface, thereby achieving perfect filling of the vias [5]. To accomplish superfilling, an acidic copper sulfate system is com monly used in industrial applications. In this system, the choice of additives is crucial, primarily including accelerators, suppressors, and leveling agents. Accelerators, usually sulfur-containing organic compounds, adsorb on the electrode surface, refine the copper crystal structure, and promote copper nucleation. Their primary function is to combine with chloride ions to achieve depolarization, thus increasing the cathodic current density [6–9]. The most widely studied and used accelerators include SPS and MPS [10, 11]. Sup pressors, such as polyether polymers (e.g., PEG and PPG) [12–14], mainly inhibit the deposition of copper during electroplating by adsorbing on the surface of the plated parts and preventing the difusion of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "[15–17]. In systems containing both accelerators and suppressors, the role of leveling agents is indispensable. Leveling agents typically include certain nitrogencontaining organic compounds [18, 19], such as the dye-type leveling agents JGB [20], DB [18], ABPV [21, 22], and heterocyclic non-dye leveling agents such as 2-amino-4-methylbenzothiazole [23] (AMBT) and 2-mercaptopyridine [24, 25] (2-MP). Their main func tion is to work synergistically with suppressors to inhibit copper deposition on the surface of the plated parts, optimize current density distribution, enhance filling eficiency, and thereby prevent premature hole sealing that leads to voids [25–30]. Although the most efective leveling agents are often commercial secrets, high costs and poor environmental friendliness in the market make the development of new leveling agents both time-consuming and labor-intensive. Consequently, to date, only a few superfilling leveling agents have been specifically reported [31–33]."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                308,
+                487,
+                920
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                94,
+                917,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The importance of leveling agents in superfilling copper electroplating has been corroborated by numerous researchers. Literatures [34, 35] frequently mention Janus Green B (JGB) as an efective leveling agent that not only enhances the fill rate of blind vias but also reduces the issue of protrusions during filling. Myung Hyun Lee and other researchers [36] synthesized a leveling agent containing two quaternary ammonium groups and hexaglycerol, which successfully achieved seamless and void-free filling of blind vias. Xu and colleagues [29] designed and synthesized quaternary ammonium salts of diketopyrrolopyrrole (DPP) with various aryl substituents. Additionally, Kim and others [37] developed a choline-based leveling agent, 1,5-bis(2-N,N,Ntrimethylaminoethyl) pentanedioate diiodide, used as a modulator in copper electroplating solutions. Meanwhile, TCA [23] and DMP [38] have also been reported as potential leveling agents. Their synthesis processes are complex, the purification is challenging, and the raw material costs are high, all factors that are unfavorable for industrial production."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                193,
+                919,
+                555
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This study, based on a comprehensive analysis of existing literature, aims to develop a novel superfilling leveling agent. During the synthesis process, dimethylimidazole, imidazole, and 1,4-butanediol diglycidyl ether were selected as raw materials, and a detailed characterization of the organic structure of the resulting leveling agent was performed. By integrating quantum chemical calculations and molecular dynamics simulations, this research thoroughly analyzed active sites and adsorption behaviors to elucidate the interaction mechanisms between the organic molecules and the copper surface. Furthermore, the filling mechanism of the leveling agent was investigated using theoretical calculations, electrochemical measurements, and techniques such as Scanning Electron Microscopy (SEM) and X-ray Photoelectron Spectroscopy (XPS). Additionally, electroplating experiments were conducted to validate the filling eficacy of the leveling agent and confirm its suitability for specific requirements in Printed Circuit Board (PCB) applications."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                555,
+                919,
+                902
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                44,
+                121,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 2 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                43,
+                226,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                601,
+                44,
+                912,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                932,
+                178,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2 \u0007Experimental details"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                94,
+                297,
+                113
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.1 \u0007Materials"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                127,
+                201,
+                144
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Dimethylimidazole, 1,4-butanediol diglycidyl ether (98%), and imidazole were purchased from Shanghai Aladdin Reagent Co., Ltd. Other chemicals such as sulfuric acid "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { H } _ { 2 } S \\mathrm { O } _ { 4 } , \\mathrm { A R } > 9 8 \\% ) ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ", copper sulfate pentahydrate "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { C u S O _ { 4 } { : } 5 H _ { 2 } O , A R > 9 9 \\% ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", hydrochloric acid (HCl, AR > 36%), polyethylene glycol 1000 (PEG 10000, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { A R } > 9 9 \\% )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and bis-(3-sulphopropyl) disulfide (SPS, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { A R } > 9 9 \\% )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "were of analytical grade and obtained from Tianjin Kemiou Chemical Reagent Co., Ltd., Tianjin, China."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                160,
+                485,
+                325
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.2 \u0007Synthesis and characterization of leveling agents"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                339,
+                473,
+                375
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In this study, the synthesis process for the leveling agent is as follows: Initially, 3.28 g of dimethylimidazole and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0 . 6 7 6 \\ \\mathrm { g }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of imidazole were measured and placed into a 100-ml round-botom flask, followed by the addition of an appropriate amount of water to dissolve both dimethylimidazole and imidazole. Subsequently, the flask was placed in an oil bath and stirred at room temperature for 5 min. After the temperature reached "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 1 0 ^ { \\circ } \\mathrm { C } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "1,4-butanediol diglycidyl ether was slowly added, continuing stirring for 30 min, while maintaining the temperature at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 1 0 ~ ^ { \\circ } \\mathrm { C } ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "the reaction proceeded for 18 h. Upon completion of the reaction, the mixture was cooled to room temperature, and the pH was adjusted to 2–3 using sulfuric acid, preparing it for subsequent use. Figure 1 illustrates the molecular structures of the reactants (2-methylimidazole, imidazole, and 1,4-butanediol diglycidyl ether) and the synthesis reaction of the polymer poly(2-methylimidazole-co-imidazole 1,4-butanediol diglycidyl ester). Given the lengthy name of the synthesized polymer, it will henceforth be referred to as "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\scriptstyle \\prime \\prime \\subset \\mathbf { D } \\mathrm { T } ^ { \\prime \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "in this paper. To further investigate the molecular structure of the synthesized products, this study employed three analytical techniques: Fourier-Transform Infrared Spectroscopy (FTIR), Hydrogen Nuclear Magnetic Resonance (H NMR), and Gel Permeation Chromatography (GPC). The FTIR measurements were conducted using a Nicolet is50r instrument (Thermo Fisher Scientific, USA) with a wavenumber range set between 400 and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4 0 0 0 \\mathrm { c m } ^ { - 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and 16 scans were accumulated. Hydrogen NMR measurements were performed using a Bruker AVANCE III 400 MHz superconducting Fourier-transform instrument (Bruker, Switzerland). Moreover, the GPC measurements were carried out using a Waters 1525 instrument, specifically designed to assess the molecular weight distribution of the products."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                389,
+                487,
+                622
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                94,
+                919,
+                458
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.3 \u0007Electrochemical testing"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                470,
+                747,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In this study, the electrochemical performance of additives was evaluated using a CHI 760e electrochemical workstation. The employed testing methods included cyclic voltammetry (CV), linear sweep voltammetry (LSV), and galvanostatic measurement (GM). All electrochemical tests were conducted within a threeelectrode system, schematically illustrated in Fig. 2, where the working electrode was a 3-mm-diameter platinum rotating disk electrode (Pt-RDE), the reference electrode was a saturated mercurous sulfate electrode (SMSE), and the counter electrode was a platinum wire. The electrolyte base plating solution (VMS) comprised "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u S O } _ { 4 } { \\cdot } 5 \\mathrm { H } _ { 2 } \\mathrm { O }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at 220 g/L, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { H } } _ { 2 } { \\mathrm { S O } } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at 60 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { g / L } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and chloride ions at 60 mg/L, with the testing temperature controlled at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 5 ^ { \\circ } \\mathrm { C }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "using a water bath thermostat. In this research, bis-(3-sulphopropyl) disulfide (SPS) was used as an accelerator, polyethylene glycol (PEG, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { M W } = 1 0 , 0 0 0 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "as a suppressor, and the synthesized CDT as a leveling agent. The experimental potential range for cyclic voltammetry (CV) was set from − 0.6 to 0.1 V, with a scanning rate fixed at 10 mV/s. For linear sweep voltammetry (LSV), the experimental potential range was from − 0.4 to − 0.8 V, with the scanning rate also set at 10 mV/s. In the galvanostatic measurement (GM), the current density was fixed at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 . 5 \\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and additives were sequentially injected into the base plating solution for measurement over a duration of 3000 s."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                503,
+                919,
+                622
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a2c0219f0ec301fd7505ac1cc7a786c2a9dc351df77edc8f654d768a48f68b8c.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 1 Molecular structures of reactants (2-methylimidazole, imidazole, and 1,4-butanediol diglycidyl ether) and the synthesis reaction of poly(2-methylimidazole-co-imidazole 1,4-butanediol diglycidyl ether)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                144,
+                659,
+                850,
+                875
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 3 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                766,
+                43,
+                860,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                870,
+                44,
+                910,
+                58
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                818,
+                932,
+                915,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/971fa9b44fcf336986a1f179df6eeb3d82ae298637ecd7e14cdd444161addbf6.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 2 Schematic diagram of the three-electrode test setup"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                84,
+                93,
+                478,
+                325
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                78,
+                379,
+                487,
+                724
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.4 \u0007Copper electroplating experiments"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                751,
+                413,
+                770
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In this study, the blind hole test boards used were FR-4 copper-clad laminates, with dimensions of 5 × 12 cm, blind hole diameters of 140–160 μm, and hole depths of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "7 0 { - } 8 0 ~ \\mu \\mathrm { m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The thickness of the copper layer inside the holes was achieved to be 4–6 μm through chemical copper deposition and flash plating processes. The composition of the base plating solution used included "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u S O } _ { 4 } { \\cdot } 5 \\mathrm { H } _ { 2 } \\mathrm { O }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at 220 g/L, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { H } } _ { 2 } { \\mathrm { S O } } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at 60 g/L, and chloride ions at 60 mg/L. Polyethylene glycol (PEG 10000) was used as a suppressor, bis-(3-sulphopropyl) disulfide (SPS) as an accelerator, and the synthesized leveling agent CDT. The pre-treatment process for the test boards included (1) degreasing with an acidic solution for one minute to remove surface oils, followed by a one-minute water rinse; (2) micro-etching in a sulfuric acid-sodium persulfate system for 30 s, then rinsed with water; (3) soaking in a 3–5% sulfuric acid solution for one minute before transferring to a 1.5 L Hull cell for electroplating. A phosphor copper anode plate measuring "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 \\times 1 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cm was used during electroplating, with the water bath temperature controlled at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 5 ^ { \\circ } C ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "current density set at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 . 5 \\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "plating time of 45 min, and an aeration device activated to agitate the plating solution. A schematic diagram of the electroplating principle is shown in Fig. 3. After electroplating, a metallographic microscope (MD 50-B) was used to observe the cross section of the blind holes, and the filling rate of the blind holes "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { F } = \\left( \\mathrm { A } / \\mathrm { B } \\right) \\times 1 0 0 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "was calculated to evaluate the plating efect, as shown in Fig. 4."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                784,
+                485,
+                918
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                509,
+                94,
+                917,
+                456
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.5 \u0007Theoretical calculations"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                473,
+                751,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The theoretical calculations in this paper were conducted using the Gaussian 09 software package. Geometric optimization was performed utilizing Beckestyle three-parameter density functional theory (DFT) and Lee–Yang–Parr correlation functional (B3LYP). The basis set for carbon, hydrogen, oxygen, and nitrogen was chosen as "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "6 { - } 3 1 1 + \\mathrm { g } ( 2 \\mathrm { d } , \\mathrm { p } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Water was selected as the solvent. Molecular analysis was conducted by examining the energies of the frontier molecular orbitals, including the highest occupied molecular orbital energy "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( E _ { \\mathrm { H O M O } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the lowest unoccupied molecular orbital energy "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( E _ { \\mathrm { L U M O } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Additionally, the molecular electrostatic potential (ESP) was calculated. The energy gap "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\Delta \\mathrm { E _ { g a p } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "was determined using the formula "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta E _ { \\mathrm { g a p } } = E _ { \\mathrm { L U M O } } - \\dot { E } _ { \\mathrm { H O M O } }"
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                507,
+                917,
+                754
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The interaction between CDT and the Cu(111) surface at 298 K was simulated using the Forcite module within Materials Studio (from Accelrys, Inc.). Molecular dynamics (MD) simulations were carried out in a simulation box "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( 3 0 . 7 \\times 3 1 . 0 \\times 4 1 . 2 \\ : \\mathrm { n m } ^ { 3 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "with periodic boundary conditions, containing a single target molecule, 40 chloride ions, 1000 water molecules, and four metal layers, utilizing the COMPASS II force field to calculate adsorption energies. The Cu(111) surface was selected due to its lower Miller index."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                753,
+                917,
+                918
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                44,
+                121,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 4 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                43,
+                226,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                603,
+                44,
+                910,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                932,
+                178,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8989c5b7443320b91a349e0297ec9c0bdcbef112c7f42616c85bd36615746245.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 3 Schematic diagram of the electroplating principle"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                304,
+                94,
+                915,
+                430
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/590054100f6691f809cd382442bfc627d5e751a67d809dd46554f5582f8bd54c.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 4 Schematic diagram of the blind hole structure"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                305,
+                458,
+                907,
+                644
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Additionally, the addition of CDT exhibited a notable inhibitory efect on Cu(111). The simulation time and timestep were 1000 ps and 1 fs, respectively. The energy calculation in the simulation box was formulated as "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ E _ { \\mathrm { A d s o r p t i o n } } = E _ { \\mathrm { T o t a l } } - E _ { \\mathrm { C u } } - E _ { \\mathrm { l e v e r l e r } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { C u } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the energy of the copper crystal, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { l e v e l e r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the energy of the leveling agent molecule added to the simulation box, and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { A d s o r p t i o n } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the total energy of interaction between copper and the leveling agent molecule within the simulation box [39]."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                663,
+                487,
+                829
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.6 \u0007FE‑SEM measurement"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                843,
+                307,
+                859
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In this study, field emission scanning electron microscopy (FE-SEM, model S-3400N) was utilized to conduct detailed scanning electron microscopy (SEM) analysis of the copper surface morphologies under different electroplating solution conditions. To ensure accurate observation of surface morphologies, a dilute sulfuric acid solution was used to remove the oxide layer from the copper surface prior to the experiments."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                875,
+                485,
+                908
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                509,
+                663,
+                917,
+                765
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.7 \u0007XPS tests"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                775,
+                628,
+                794
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To further investigate the interactions between copper samples and CDT, this study involved immersing copper samples in a solution containing CDT to observe potential chemical reactions between the copper surface and CDT. This interaction process was analyzed using X-ray Photoelectron Spectroscopy (XPS)"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                810,
+                917,
+                911
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 5 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                766,
+                43,
+                860,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                870,
+                44,
+                910,
+                58
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                818,
+                932,
+                915,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "experiments conducted on a Thermo Fisher Scientific Escalab 250Xi from America. The experiments utilized an aluminum Kα anode (1486.6 eV) as the radiation source to excite photoelectrons, thereby obtaining detailed information on the chemical state of the copper surface."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                94,
+                487,
+                194
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3 \u0007Results and discussion"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                224,
+                317,
+                241
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.1 \u0007Structural characterization"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                256,
+                342,
+                274
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Figure 5a presents the proton nuclear magnetic resonance (H NMR) spectra of the raw materials and products. The disappearance of the epoxy resonances at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta = 2 . 6 5 \\times 1 0 ^ { - 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 . 8 5 \\times 1 0 ^ { - 6 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and the changes in peak shape and chemical shifts of the hydrogens on the imidazole rings after the reaction, suggest that the reaction has been completed. Figure 5b displays the infrared (IR) spectra of 1,4-butanediol diglycidyl ether and the product. The absence of the epoxy group’s characteristic absorption peak "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( 9 1 3 ~ \\mathrm { c m } ^ { - 1 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "in the IR spectrum indicates that the reactants have undergone ring-opening reactions of the epoxy groups. Moreover, the presence of numerous hydroxyl absorption peaks (3050 to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3 7 0 0 ~ \\mathrm { { c m } ^ { - 1 } ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "in the product reveals that the epoxy groups have undergone ring-opening reactions to form a significant number of hydroxyl groups, corroborating the results obtained from the H NMR spectra [39]."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                289,
+                487,
+                588
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Table 1 displays the weight-average molecular weight (Mw), number-average molecular weight (Mn), and molecular weight distribution (MWD) for CDT, where the Mw and Mn of CDT are 1435 and 1383, respectively. Additionally, an MWD value of 1.03 indicates the high purity of the synthesized CDT."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                94,
+                917,
+                194
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/cad7bde347b01792f24dd05fa3f7b909322c1888d583257bbb79bf2ebc4786f7.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a)"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                114,
+                637,
+                510,
+                875
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.2 \u0007Theoretical calculations"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                207,
+                752,
+                225
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.2.1 Quantum chemical calculations"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                509,
+                239,
+                776,
+                256
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Quantum chemical calculations are a crucial method for revealing the correlation between molecular structure and inhibition efects [40]. To understand the inhibitory action of CDT, quantum chemical calculations were performed to obtain electronic properties and orbital information of the molecule, predicting active sites and elucidating adsorption mechanisms related to molecular structure. Using Gaussian software, quantum chemical calculations not only optimized the molecular structure of CDT but also calculated a series of properties such as the highest occupied molecular orbital (HOMO), the lowest unoccupied molecular orbital (LUMO), the energy gap "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\Delta E = E _ { \\mathrm { L U M O } } - E _ { \\mathrm { H O M O } } ) ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and the electrostatic potential (ESP). Figure 6a and b displays the molecular distributions of HOMO and LUMO. Calculations yielded an "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { L U M O } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of − 1.631 eV and an "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { H O M O } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- 7 . 4 1 2 \\ \\mathrm { e V }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for CDT, closely matching the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { H O M O } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of VIBDGE "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( - 7 . 4 4 0 \\ \\mathrm { e V } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and JGB "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( - \\ 6 . 9 8 1 \\ \\mathrm { e V } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "[41]. These results suggest that CDT is a potentially viable leveling agent, with an energy gap ΔE of 5.781 eV. According to frontier molecular orbital theory, a higher "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { H O M O } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "value indicates a stronger ability of the leveling agent to donate electrons, while a lower "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { L U M O } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "value indicates a stronger ability to accept electrons. The energy gap ΔE reflects the stability of the molecule, with a smaller ΔE indicating greater molecular stability."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                272,
+                919,
+                470
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/85a64dfff87664f49975cd6ac94a398a382b3f6119993d125e12f1a619213814.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 1 The GPC result of CDT"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Weight-average molecular weight (Mw)</td><td>Number-average molecular weight (Mn)</td><td>Number-average molecular weight (Mn)</td></tr><tr><td>1435</td><td>1383</td><td>1.03</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                510,
+                520,
+                914,
+                597
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/89a7630f139afcecdc1b963145e02cdce18cc247c5e5cf52d5a710ec6b800300.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig. 5 a Proton nuclear magnetic resonance (H NMR) spectra of raw materials and synthesized products, b Infrared (IR) spectra of raw materials and synthesized products"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                524,
+                637,
+                910,
+                873
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                44,
+                121,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 6 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                43,
+                226,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                601,
+                44,
+                912,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                932,
+                178,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                78,
+                94,
+                485,
+                341
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Molecular electrostatic potential (ESP) is a useful tool for visualizing reactive sites and predicting certain molecular properties [42, 43]. In ESP map, regions of positive electrostatic potential are represented in red, indicating areas of high electron density, while regions of negative potential are shown in blue, corresponding to areas of low electron density. Additionally, the red regions are associated with nucleophilic reactions, and the blue regions with electrophilic reactions [44]. As shown in Fig. 7, the red and pinkwhite areas are primarily distributed near the nitrogen atoms, while the blue areas are mainly around the carbon atoms. The ESP histogram indicates that"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                341,
+                487,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 6 a Distribution of HOMO; b Distribution of LUMO, with the color scheme used being C (gray), O (red), H (white), and N (blue) (Color figure online)"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                577,
+                258,
+                670
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0501ef77a46cf3ebe90ce1e60f6aaaf607c7367d37ee019f20539083e57e7da2.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) HOMO"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                369,
+                593,
+                504,
+                874
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/15e1a82556f4cce00ed76b91836250027f2f47a3ffbf63a4aae7ed3da9585157.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 7 Molecular Electrostatic Potential (ESP) of the molecule, with the color scheme consistent with Fig. 6"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                514,
+                93,
+                907,
+                237
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CDT carries a positive charge, suggesting that due to electrostatic interactions, CDT can efectively adsorb onto the copper surface [45]."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                331,
+                917,
+                383
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.2.2 Molecular dynamics simulation"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                406,
+                776,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To further understand the role of additives in the electroplating process, molecular dynamics simulations were utilized to provide valuable insights. Using Materials Studio software, molecular dynamics simulations were conducted to explore the adsorption of leveling agent molecules on the Cu(111) crystal surface. The Cu(111) surface was selected for molecular dynamics simulation because it is the most stable, low Miller index copper surface and the most prevalent surface. Additionally, the symmetric Cu(111) surface offers advantages for systematically exploring the potential energy surface of the adsorption system [46–48]."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                437,
+                917,
+                555
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/583af3abc459f8753a8e7e1315c39b5ade534c16c965ece6eea85db038f3fd68.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b) LUMO"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                774,
+                594,
+                915,
+                874
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 7 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                766,
+                43,
+                860,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                872,
+                44,
+                910,
+                58
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                818,
+                931,
+                917,
+                954
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                78,
+                94,
+                485,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Further calculations were performed to determine the adsorption energy of CDT on the Cu(111) substrate, as shown in Fig. 8. The imidazole rings and oxygen atoms of CDT are positioned close to the copper surface, like the case with VIBDGE. Calculated using the formula, the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { A d s o r p t i o n } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of CDT reached − 2.125 eV, indicating a strong afinity of CDT’s imidazole rings for the Cu surface. According to molecular dynamics results, CDT exhibits excellent inhibitory performance on copper deposition. Moreover, the linear structure of CDT allows for more efective spatial coverage on the copper surface [49]."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                193,
+                487,
+                392
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.3 \u0007Electrochemical behavior analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                405,
+                406,
+                422
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Based on theoretical calculations, CDT is identified as a potential leveling agent. Thus, electrochemical tests were conducted to further validate its efects, starting with cyclic voltammetry to study the impact of various concentrations of CDT on copper deposition, with results shown in Fig. 9a–b. As observed from Fig. 9, the dissolution peak of copper is highest without any additives. The addition of 200 mg/L PEG and 1 mg/L SPS significantly reduces the copper dissolution peak due to the inhibitory action of PEG-Cl<sup>−</sup>. The introduction of the leveling agent CDT further decreases the copper dissolution peak, indicating that the addition of CDT enhances cathodic polarization and inhibits copper deposition. To compare the efects of diferent additives on the dissolution peaks of copper, the dissolution peaks at diferent CDT concentrations were quantitatively calculated using cyclic voltammetry, with average values from three parallel experiments presented in Table 2. It is evident that in the base plating solution without additives, the area of the copper dissolution peak is the largest, regardless of the rotation speed. The area of the CVS peak at 1000 rpm is greater than that at 100 rpm, indicating that the additive-free electrolyte cannot efectively inhibit the formation of copper deposition on the micro-pore surface, thus failing to achieve micro-pore filling. After adding 200 mg/L PEG, 1 mg/L SPS, and various concentrations of CDT, the CVS peak area at 1000 rpm is significantly smaller than at 100 rpm, indicating the inhibitory efect of CDT under strong convection cathodic reduction, and the relationship between copper dissolution peaks and CDT concentration is not linear. At 100 rpm, as the concentration of CDT increases, the area of the copper dissolution peak initially decreases from "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 . 0 1 \\dot { 8 } \\dot { \\times } 1 0 ^ { - 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "C(Coulomb) to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "8 . 5 3 3 9 \\times 1 0 ^ { - 5 } \\mathrm { C }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at a concentration of 5 mg/L, reaching its lowest value, and then as the concentration"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                437,
+                487,
+                588
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                94,
+                919,
+                573
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/382cc3bca17694364c45fbfbac42333053b9c189582547a6f4320e888b3d8029.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                200,
+                617,
+                465,
+                867
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3f470121c770bc9ec1d7676a7b746ce8cc78936540f94d821ab2f102f016c37d.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 8 Initial configuration a and final equilibrium configuration b of the simulation box. The blue, red, white, brown, and gray balls represented the nitrogen, oxygen, hydrogen, copper, and carbon atoms, respectively. Water represented by red line (Color figure online)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                517,
+                613,
+                833,
+                867
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                44,
+                121,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 8 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                43,
+                226,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                600,
+                44,
+                912,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                932,
+                179,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/1c03a802e0ae20124ce350446674126a8498b01db3bb4f0060bff14d11e66b1a.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a)"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                87,
+                118,
+                487,
+                348
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/6a0873fe63e8380fe5fda599a779476c9fab163a76ab82a8ae98a16c787e5c40.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b)"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                495,
+                120,
+                900,
+                349
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/3f5600d16f8f4fb65ccf2588574cbc6c2518c5d0e4adced5c8cd11ef9783f05b.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                89,
+                349,
+                494,
+                588
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/2e3b8612967e7b7c9a63cf9c818287aa69e9e2e8a2e430582acc2d62902e4813.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 9 Cyclic voltammetry striping curves of CDT with diferent concentrations at diferent speeds a 1000 rpm; b 100 rpm, linear sweep voltammetry curves of diferent CDT concentrations at diferent rotational speeds c 1000 rpm; d 100 rpm"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                499,
+                348,
+                910,
+                583
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/aa83c71bc8073b1054d9669bb2bb59ca1c687caab870b17218bc070caff38e76.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 2 Average of absolute area of CVS peaks of CDT with diferent concentrations"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>Base electrolyte</td><td>0 mg/L CDT</td><td>1 mg/L CDT</td><td>2 mg/L CDT</td><td>3 mg/L CDT</td><td>4 mg/L CDT</td><td>5 mg/L CDT</td><td>6 mg/L CDT</td></tr><tr><td>100 rpm</td><td> $1.018 \\times 10^{-3}$  C</td><td> $1.66848 \\times 10^{-4}$  C</td><td> $1.28711 \\times 10^{-4}$  C</td><td> $1.1631 \\times 10^{-4}$  C</td><td> $1.05463 \\times 10^{-4}$  C</td><td> $1.05463 \\times 10^{-4}$  C</td><td> $8.5339 \\times 10^{-5}$  C</td><td> $1.03055 \\times 10^{-4}$  C</td></tr><tr><td>1000 rpm</td><td> $1.31 \\times 10^{-3}$  C</td><td> $1.05267 \\times 10^{-4}$  C</td><td> $9.11422 \\times 10^{-5}$  C</td><td> $7.97059 \\times 10^{-5}$  C</td><td> $7.74081 \\times 10^{-5}$  C</td><td> $5.97897 \\times 10^{-5}$  C</td><td> $4.74981 \\times 10^{-5}$  C</td><td> $5.71075 \\times 10^{-5}$  C</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                80,
+                679,
+                915,
+                737
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "continues to increase, the area of the copper dissolution peak begins to rise again."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                774,
+                484,
+                807
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Linear sweep voltammetry was further employed to analyze the role of CDT within the electrolyte, as depicted in Fig. 9(c-d). The graph illustrates that the addition of additives significantly influences copper deposition. Relative to the base plating solution without additives, the inclusion of SPS and PEG in the electrolyte solution results in a negative shift of the reduction potential. Studies indicate that the inhibitory efect of PEG on copper deposition is due to the adsorption layer of PEG at the cathode interface, which impedes the reduction process of copper ions facilitated by Cl<sup>−</sup> [50, 51]. With SPS and PEG present in the electrolyte, the introduction of CDT further enhances cathodic polarization behavior. After adding the additives, the cathodic potential at 1000 rpm is more polarized than at 100 rpm, demonstrating that the additives exert a stronger inhibitory efect on copper deposition in areas of strong convection. Upon adding 1 mg/L of CDT, the initial potential of copper begins to shift negatively. As the concentration of CDT increases, this negative shift in the starting potential becomes more pronounced, indicating that CDT can enhance cathodic polarization by adsorbing onto the copper surface, thus inhibiting copper deposition. This change is consistent with the trends observed in the cathodic peak areas in Fig. 9a and b. Cathodic polarization increases with CDT concentration, as higher concentrations lead to more adsorption on the cathode surface, thereby providing stronger inhibition of cathodic copper ion reduction. When the concentration of CDT reaches "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 \\ \\mathrm { m g / L } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "changes in the copper deposition potential become less distinct, like that seen at 6 mg/L, suggesting that saturation inhibition is essentially achieved at 5 mg/L. Thus, the optimal concentration of CDT is confirmed to be 5 mg/L, consistent with results from cyclic voltammetry."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                807,
+                487,
+                907
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                774,
+                919,
+                907
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 9 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                766,
+                43,
+                860,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                870,
+                44,
+                910,
+                58
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                818,
+                932,
+                915,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                78,
+                94,
+                487,
+                456
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Galvanostatic measurement (GM) was employed to elucidate the interactions among the inhibitor (PEG), accelerator (SPS), and leveling agent [52]. Under a fixed current density of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 . 5 \\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", various additives were sequentially injected, and the time–potential curves at diferent rotation speeds are shown in Fig. 10 for the base electrolyte. The potential diference "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\eta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(η100–η1000 rpm) at diferent rotation speeds can be used to evaluate the filling efect of the electroplating solution on micro-vias and is also an important parameter for assessing convection-dependent adsorption (CDA) behavior during electroplating [53, 54]. If "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\eta > 0 ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", it indicates that under strong convection conditions, the plating solution efectively inhibits copper reduction, allowing for perfect filling of micro-vias; conversely, when "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r } { \\Delta \\eta \\le 0 , } \\end{array}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "the rate of copper deposition at the mouth of the via exceeds that at the botom, likely leading to voids in the micro-vias and inefective filling. As observed in Fig. 10, after the addition of 200 mg/L "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { P E G } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "compared to SMSE, the cathode potential drops sharply. This is because in the presence of Cl<sup>−</sup>, PEG forms a complex with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { C u } ^ { + } \\left( \\mathsf { P E G - C u - C l } ^ { - } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "[33, 51, 55] that can rapidly adsorb onto the cathode through intermolecular forces, inhibiting the reduction of copper ions [26, 56]. Before the addition of SPS, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\eta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "values are zero, indicating non-CDA behavior at this stage. At 1000 s, with the injection of 1 mg/L SPS, the potential of Cu deposition gradually increases, enhancing the kinetics of Cu deposition during this phase. At this time, PEG adsorbed on the WE surface is gradually replaced by SPS, and the potential at 100 rpm is slightly higher than at 1000 rpm, indicating CDA behavior during this stage. After injecting 5 mg/L CDT at 2000s, cathodic polarization is enhanced, and the deposition potential rapidly decreases. The cathodic potential difference "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\eta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "between 100 and 1000 rpm for CDT (20 mV) is significantly greater than that reported in the literature for JGB (4.8 mV) [57], suggesting that CDT exhibits beter CDA behavior than JGB. When PEG and Cl<sup>−</sup> coexist, CDT efectively inhibits the accelerating activity of SPS in copper deposition. High-speed electrodes exhibit stronger cathodic polarization than slow-speed electrodes. That "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { i } } s ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "the higher the rotation speed, the greater the inhibitory efect of CDT on copper deposition, with the copper reduction rate at the botom of the micro-via exceeding that at the mouth. These phenomena are consistent with previous results discussed in cyclic voltammetry and linear sweep voltammetry, further proving the efectiveness of CDT in filling micro-vias without gaps. CDT can be selected as the leveling agent for micro-via electroplating fill applications."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                456,
+                487,
+                918
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/575a21311a029f947a4770ee57fc41fb1ed705bca15c894ede0db9b59d8288c2.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 10 Galvanostatic measurement curves with a current density of 1.5 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { A } / \\mathrm { d } \\mathrm { m } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at 100 and 1000 rpm"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                514,
+                94,
+                912,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                394,
+                919,
+                791
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.4 \u0007Electroplating experimental analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                818,
+                858,
+                837
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Based on the research and analysis presented, it can be inferred that CDT can serve as a leveling agent for micro-via filling in PCBs. To evaluate the filling efficacy of CDT as a leveling agent, electroplating experiments were conducted at various concentrations of CDT and compared with a commercial JGB formulation. Figure 11 shows the cross-sectional optical microscopy images of the micro-vias after electroplating. As depicted in Fig. 11a, without the addition of a leveling agent, a significant void is observed at the botom of the via, resulting from uneven current density due to varying convection intensities. With the injection of 1 mg/L CDT, the filling performance of the micro-vias notably improves. As illustrated in Figs. 11b–f, the optimal micro-via filling performance occurs at a CDT concentration of 5 mg/L, consistent with the previous electrochemical testing results. When the CDT concentration is increased to 6 mg/L, the filling rate decreases, and the performance deteriorates, indicating that there is a specific operational concentration range for the leveling agent. If the concentration is too low, the inhibitory efect is insuficient, leading to void formation. Conversely, if the concen tration is too high, it disrupts the balance among the additives, resulting in poor filling performance. The JGB electroplating formula, commonly used in the industry, serves as a benchmark for comparing the filling performance of newly discovered leveling agents. Figure 11h shows the filling efect using the commercial JGB electroplating solution, which is inferior to the efect achieved with 5 mg/L CDT. The JGB formula results in some concavity and does not completely fill the blind vias, whereas CDT achieves superfilling of micro-vias, demonstrating its potential as an efective leveling agent."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                851,
+                917,
+                918
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                44,
+                121,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 10 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                43,
+                235,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                603,
+                44,
+                912,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                932,
+                179,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                78,
+                94,
+                487,
+                607
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.5 \u0007Efects of CDT on deposit morphology"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                94,
+                875,
+                113
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The influence of different concentrations of CDT on the surface morphology of copper is depicted in Fig. 12. In the absence of CDT in the plating solution, the copper plating surface exhibits a rough, blocky, and distinctly porous appearance. Conversely, compared to the CDT-free condition, the addition of varying concentrations of CDT to the plating solution significantly improves the surface morphology of the copper plating (Figs. 12b–h). The formation of smooth planes is due to the modification of the plating layer after adding CDT, which initiates crystal refinement. However, when the CDT concentration is increased to 5 mg/L, a proliferation of small blocky crystals appears on the copper surface, becoming denser with increasing concentrations of CDT. These results indicate that CDT demonstrates its leveling capability efectively within a certain concentration range, but as the concentration of the leveling agent increases, the synergistic interactions among the additives are disrupted. Similar results have been reported in copper electrodepositing studies [18, 21]."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                127,
+                919,
+                475
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.6 \u0007XPS analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                487,
+                660,
+                505
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "While molecular dynamics (MD) simulations and XPS ofer diferent perspectives—thermodynamic interaction versus chemical bonding—they provide complementary evidence supporting the strong adsorption of CDT on the copper surface. Figure 13a displays the X-ray photoelectron spectroscopy (XPS) full spectrum of a copper sample after soaking for 40 min in an electroplating solution containing CDT. This full spectrum, obtained through detailed scanning, reveals the presence of carbon, nitrogen, oxygen, sulfur, and copper on the copper surface, confirming the adsorption of CDT. Detailed spectra for Cu2p3/2, C1s, and N1s can be found in Figs. 13b–d. In Fig. 13b, the chemi cal states on the copper surface are shown by the peaks of Cu2p3/2 and Cu2p1/2, located at binding energies of 931.8 and 951.6 eV, respectively. The Cu2p3/2 peak in Fig. 13b can be further divided into subpeaks for Cu<sub>2</sub>O (931.8 eV) and CuO (933.7 eV) [58], indicating the formation of a copper oxide layer on the copper surface due to oxidation in air and reaction with water molecules in the solution, predominantly in the form of Cu O [59]. Figure 13c focuses on the N1s spectrum, displaying two peaks at 397.8 eV (C–N or C=N) and 399.2 eV (Cu–N), which deviate slightly from the nitrogen binding energies reported in previous literature, suggesting the possible formation of structures such as Cu–N–C or Cu–N=C on the CDT-modified copper surface [60–62]. The C1s spectrum (seen in Fig. 13d) reveals six diferent peaks corresponding to 283.66 eV (C=C), 284.03 eV (C–C), 284.42 eV (C–H), 284.92 eV (C–N), 285.9 eV (C–O), and 287.63 eV (C=O) [63–65]. The presence of these peaks indicates a rich variety of carbon environments within the CDT molecule, such as double bonds between carbons, single bonds, combinations of carbon with hydrogen, and carbon with nitrogen, providing crucial clues for understanding how CDT achieves adsorption on the copper surface."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                520,
+                919,
+                605
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8dc1cca2b74487c52f2294fa65cc2f5eaab7d7cbd59f4ae24b7cd0f300038146.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                87,
+                640,
+                285,
+                751
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9e68537e4ef7e3e17e158f3a3b8cba5e079fb813424d3fc2c5085ffb7456e950.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                295,
+                640,
+                494,
+                751
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/36b83352d1cd1d42d5a3d581d7cc8f292b486035c4b0bf341668ba7dd6cb9b24.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                504,
+                640,
+                702,
+                751
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cb2101264cf0d12efa1a2d847e5dc3dfc6a55e4f5f4845d48e8ab87f1c3327f5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                712,
+                640,
+                910,
+                751
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1e3141349d28608ec99ee773a6fba36535464959ba93d5c689cfecb8125ad819.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                87,
+                763,
+                285,
+                875
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/26a77bbf95443de6c36ff6c4bb3c481dd508114383c0e77ffe498d6794e4d7bd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                295,
+                763,
+                494,
+                875
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fb806ffcc4f08cff1ad142645422cda9f68eb11cb6c42b44b8471d7edeefc87e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                504,
+                763,
+                702,
+                875
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d2bd945e98f551a2073ab475f38cbab0809f680788cb8dfbb08723111e47e68f.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 11 The optical microscope images of the micro-via cross section with diferent electrolyte solutions a 0 mg/L CDT; b 1 mg/L CDT; c 2 mg/L CDT; d 3 mg/L CDT; e 4 mg/L CDT; f 5 mg/L CDT; g 6 mg/L CDT; h JGB"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                712,
+                762,
+                910,
+                875
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 11 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                757,
+                43,
+                860,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                870,
+                44,
+                910,
+                58
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                818,
+                932,
+                915,
+                954
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e01f89c2ed1f977420d80a7f6d3dd91849c6c8fc36402a896dc6db91f4d46a9d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                87,
+                96,
+                292,
+                256
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c7714ef28738ca0099a2e836cc54d5f75d2865fe52cad0d0f7bfccc9ef200900.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                295,
+                96,
+                500,
+                256
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0e5f070d74a606046cc7944cdbfca6f4ec442d4e57eb044f446dab2d96ec2500.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                500,
+                96,
+                705,
+                256
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/118ab673c71f002820df5f14998e24e42bf93e2fe4214e1abd4a1f1457654258.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                707,
+                96,
+                910,
+                256
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/bf325c581c603a2d39d3c8b46ba6d2f334f704471b241b488508c553a1f51c28.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                87,
+                259,
+                292,
+                418
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fa2da128cbac6269a2b258a0ba04a5fa97beb28e0dff1d775bc870e398b2e7bd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                295,
+                259,
+                500,
+                418
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/45c73ade04f3b133d7fa211cec5e55ff757b0f79f60416b013919a60adc12a88.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                500,
+                259,
+                705,
+                418
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/61111686b72113b5c6e2c24f378027a4d83f8701311914582bc0ea28d50f4d44.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 12 FE-SEM images of copper deposits obtained from various plating formulas a 0 mg/L CDT; b 1mg/L CDT; c 2 mg/L CDT; d 3 mg/L CDT; e 4 mg/L CDT; f 5 mg/L CDT; g 6 mg/L CDT; h 7 mg/L CDT"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                705,
+                258,
+                910,
+                418
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/9d5460152dfb1739eec945a043e1ebd511ff708f9ade9cf91201057cf36f8ba4.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 13 a XPS full spectrum of the copper surface after soaking for 40 min in an electroplating solution containing CDT; b Cu2p3/2 spectrum; c C1s spectrum; d N1s spectrum"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                307,
+                543,
+                603,
+                732
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/f879a8fbb769edf753d1d84387b815893cbaf2113ba4446d996c75e2a34e41d0.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                613,
+                541,
+                909,
+                735
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/716520fa95c8e786340b4ec946f996546ac8c2e47f3752391ddca0614a27a669.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                307,
+                735,
+                608,
+                913
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/cdcd6eb872463098424ccba3e59c9c3a81eb3d62b083bd4e9bb9c01238d8b113.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                618,
+                734,
+                914,
+                915
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                44,
+                121,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 12 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                43,
+                235,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                605,
+                44,
+                910,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                932,
+                178,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                77,
+                94,
+                487,
+                622
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4 \u0007Conclusions"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                78,
+                653,
+                221,
+                670
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In summary, we have selected the nitrogen-heterocyclic compound CDT as an electroplating leveling agent for copper micro-via filling. The synthesis of CDT was successfully confirmed by infrared, hydrogen nuclear magnetic resonance spectroscopy, and gel permeation chromatography results. Quantum chemical simulations suggest that CDT possesses the potential to occupy metal vacant orbitals for adsorption. Moreover, molecular dynamics simulations indicate that CDT exhibits strong affinity for copper surfaces. Electrochemical tests revealed that the optimal working concentration of CDT is 5 mg/L. Chronopotentiometric measurements further demonstrated that CDT can synergistically suppress copper deposition when combined with other additives, exhibiting a potential diference as high as 20 mV, which indicates its strong inhibitory efect on copper electrodeposition. Electroplating tests show that the best plating results occur at a concentration of 5 mg/L, consistent with electrochemical findings. Field-emission scanning electron microscopy (FE-SEM) results showed that CDT can refine copper grain structures within an appropriate concentration range; however, when the concentration exceeds the optimal level, crystal agglomeration reoccurs. X-ray photoelectron spectroscopy (XPS) confirmed the efective adsorption of CDT on the copper surface, and the strong interaction between them provides a foundation for the suppression of copper deposition. Collectively, our research conclusively proves that CDT is a promising leveling agent for copper micro-via filling, providing theoretical guidance for the discovery and improvement of electroplating technologies for micro-via filling."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                687,
+                487,
+                903
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                507,
+                94,
+                919,
+                441
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Author contributions"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                470,
+                715,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Zhanchang Pan: Writing—original draft, Supervision, Funding acquisition, and Conceptualization. Xiangjian Zeng: Writing—original draft, Investigation, Data curation, and Conceptualization. Guanghui Hu: Formal analysis and Conceptualization. Guowei Xia: Writing—review and editing, Supervision, and Funding acquisition. Haiqing Huang: Supervision, Project administration, and Conceptualization. Mingliang Zou: Supervision, Project administration, and Conceptualization. Shikun Shi: Writing—review & editing, Supervision, and Funding acquisition."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                502,
+                919,
+                686
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Funding"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                713,
+                600,
+                735
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This work was supported by Natural Science Foundation of Guangdong Province, China (Grant No. 2016A030313704), Science and Technology Planning Project of Guangdong Province, China (Grant No. 2016B020240003)."
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                745,
+                919,
+                830
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Data availability"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                510,
+                859,
+                673,
+                879
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Data will be made available on request."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                892,
+                813,
+                908
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 13 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                757,
+                43,
+                860,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                870,
+                44,
+                910,
+                58
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                818,
+                932,
+                915,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Declarations"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                80,
+                94,
+                205,
+                111
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Competing interests The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                131,
+                485,
+                198
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "References"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                80,
+                226,
+                189,
+                243
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1. L. Zan, Z. Liu, Z. Yang, Z. Wang, A synergy efect of 2-MBT and PE-3650 on the bottom-up filling in electroless copper plating. Electrochem. Solid State Lett. 14, D107– D109 (2011). https://doi.org/10.1149/2.018112esl"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                262,
+                485,
+                324
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2. H.P. Zhu, Q.S. Zhu, X. Zhang, C.Z. Liu, J.J. Wang, Microvia FILLING by copper electroplating using a modified Safranine T as a leveler. J. Electrochem. Soc. 164, D645– D651 (2017). https://doi.org/10.1149/2.0111712jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                327,
+                484,
+                389
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3. D. Van Quy, K. Kondo, H. Van Ha, T. Hirato, Communication-bottom-up TSV filling using sulfonated diallyl dimethyl ammonium bromide copolymer as a leveler. J. Electrochem. Soc. 166, D505–D507 (2019). https://doi.org 10.1149/2.1021912jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                394,
+                484,
+                472
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4. H. Cao, T. Hang, H. Ling, W. Luo, X. Feng, M. Li, Study on the behaviors of Cu filling in special through-siliconvias by the simulation of electric field distribution. Microelectron. Eng. 116, 1–5 (2014). https://doi.org/10.1016/j. mee.2013.11.011"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                475,
+                484,
+                554
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5. X. Teng, Z. Tao, Z. Long, G. Liu, X. Tao, 1-(4-Hydroxyphenyl)-2H-tetrazole-5-thione as a leveler for acid copper electroplating of microvia. RSC Adv. 12, 16153–16164 (2022). https://doi.org/10.1039/d2ra02274e"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                556,
+                484,
+                621
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "6. J.G. Long, P.C. Searson, P.M. Vereecken, Electrochemical characterization of adsorption-desorption of the cuproussuppressor-chloride complex during electrodeposition of copper. J. Electrochem. Soc. 153, C258–C264 (2006). https://doi.org/10.1149/1.2168050"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                622,
+                485,
+                703
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "7. A.-Y. Wang, B. Chen, L. Fang, J.-J. Yu, L.-M. Wang, Influence of branched quaternary ammonium surfactant molecules as levelers for copper electroplating from acidic sulfate bath. Electrochim. Acta 108, 698–706 (2013). https:// doi.org/10.1016/j.electacta.2013.07.017"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                706,
+                484,
+                784
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8. T.M.T. Huynh, F. Weiss, N.T.M. Hai, W. Reckien, T. Bredow, A. Fluegel, M. Arnold, D. Mayer, H. Keller, P. Broekmann, On the role of halides and thiols in additiveassisted copper electroplating. Electrochim. Acta 89, 537– 548 (2013). https://doi.org/10.1016/j.electacta.2012.10.152"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                787,
+                484,
+                867
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9. W.-P. Dow, Y.-D. Chiu, M.-Y. Yen, Publisher’s note: Microvia filling by Cu electroplating over a Au seed layer modified by a disulfide. J. Electrochem. Soc., 156 D155 (2009)."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                870,
+                484,
+                917
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "J. Electrochem. Soc. 156, S7–S7 (2009). https://doi.org/10. 1149/1.3117562"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                544,
+                94,
+                915,
+                124
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "10. F. Wang, Y. Li, H. He, Y. Wang, W. Zhu, J. Li, Efect of bis-(3-sulfopropyl) disulfide and chloride ions on the localized electrochemical deposition of copper microstructures. J. Electrochem. Soc. 164, D419–D424 (2017). https://doi. org/10.1149/2.0781707jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                127,
+                915,
+                207
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "11. M. Gu, Q. Zhong, Copper electrocrystallization from acidic sulfate electrolyte containing MPS additive. J. Appl. Electrochem. 41, 765–771 (2011). https://doi.org/10.1007 s10800-011-0293-0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                210,
+                915,
+                270
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "12. K. Ryan, K. Dunn, J. van Eisden, J. Adolf, Properties of PEG, PPG and their copolymers: influence on copper filling of damascene interconnects. J. Electrochem. Soc. 160, D3186–D3196 (2013). https://doi.org/10.1149/2.033312jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                275,
+                915,
+                337
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "13. J.W. Gallaway, A.C. West, PEG, PPG, and their triblock copolymers as suppressors in copper electroplating. J. Electrochem. Soc. 155, D632–D639 (2008). https://doi.org/10. 1149/1.2958309"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                341,
+                915,
+                403
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "14. J.W. Gallaway, M.J. Willey, A.C. West, Copper filling of 100 nm trenches using PEG, PPG, and a triblock copolymer as plating suppressors. J. Electrochem. Soc. 156, D287– D295 (2009). https://doi.org/10.1149/1.3142422"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                406,
+                915,
+                470
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "15. W. Wang, Y.-B. Li, Efect of Cl<sup>–</sup> on the adsorption-desorption behavior of PEG. J. Electrochem. Soc. 155, D263– D269 (2008). https://doi.org/10.1149/1.2834907"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                472,
+                915,
+                518
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "16. J. Luo, Z. Li, M. Shi, J. Chen, Z. Hao, J. Hez, Efects of accelerator alkyl chain length on the microvia filling performance in copper superconformal electroplating. J. Electrochem. Soc. 166, D104–D112 (2019). https://doi.org/10. 1149/2.0571904jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                522,
+                915,
+                601
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "17. Z. Li, B. Tan, M. Shi, J. Luo, Z. Hao, J. He, G. Yang, C. Cui, Bis-(sodium sulfoethyl)-disulfide: a promising accelerator for super-conformal copper electrodeposition with wide operating concentration ranges. J Electrochem. Soc. (2020). https://doi.org/10.1149/1945-7111/ab7b85"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                603,
+                915,
+                683
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "18. W.-P. Dow, C.-C. Li, Y.-C. Su, S.-P. Shen, C.-C. Huang, C. Lee, B. Hsu, S. Hsu, Microvia filling by copper electroplating using diazine black as a leveler. Electrochim. Acta 54, 5894–5901 (2009). https://doi.org/10.1016/j.electacta. 2009.05.053"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                686,
+                915,
+                765
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "19. M.J. Kim, Y. Seo, J.H. Oh, Y. Lee, H.C. Kim, Y.G. Kim, J.J. Kim, Communication-halide ions in TEG-based levelers afecting TSV filling performance. J. Electrochem. Soc. 163, D185–D187 (2016). https://doi.org/10.1149/2.01016 06jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                768,
+                915,
+                846
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "20. J. Tang, O.S. Zhu, Y. Zhang, X. Zhang, J.D. Guo, JK Shang, Copper bottom-up filling for through silicon via (TSV) using single JGB additive. ECS Electrochem. Lett. 4, D28–D30 (2015). https://doi.org/10.1149/2.0101509eel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                850,
+                915,
+                913
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 14 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                44,
+                235,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                601,
+                44,
+                910,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                932,
+                178,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "21. R. Manu, S. Jayakrishnan, Efect of organic dye on copper metallization of high aspect ratio through hole for interconnect application. Mater. Chem. Phys. 135, 425–432 (2012). https://doi.org/10.1016/j.matchemphys.2012.05.003"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                94,
+                484,
+                158
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "22. B. Bozzini, C. Mele, L. D’Urzo, V. Romanello, An electrochemical and in situ SERS study of Cu electrodeposition from acidic sulphate solutions in the presence of 3-diethylamino-7-(4-dimethylaminophenylazo)-5-phenylphenazinium chloride (Janus Green B). J. Appl. Electrochem. 36, 973–981 (2006). https://doi.org/10.1007 s10800-006-9124-0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                160,
+                485,
+                270
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "23. C. Liao, S. Zhang, S. Chen, Y. Qiang, G. Liu, M. Tang, B. Tan, D. Fu, Y. Xu, The efect of tricyclazole as a novel leveler for filling electroplated copper microvias. J. Electroanal. Chem. 827, 151–159 (2018). https://doi.org/10. 1016/j.jelechem.2018.08.042"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                275,
+                484,
+                354
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "24. C. Chang, X. Lu, Z. Lei, Z. Wang, C. Zhao, 2-Mercaptopyridine as a new leveler for bottom-up filling of microvias in copper electroplating. Electrochim. Acta 208, 33–38 (2016). https://doi.org/10.1016/j.electacta.2016.04.177"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                356,
+                484,
+                421
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "25. S. Ren, Z. Lei, Z. Wang, Investigation of nitrogen heterocyclic compounds as levelers for electroplating Cu filling by electrochemical method and quantum chemical calculation. J. Electrochem. Soc. 162, D509–D514 (2015). https://doi. org/10.1149/2.0281510jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                422,
+                484,
+                503
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "26. B. Chen, J. Xu, L. Wang, L. Song, S. Wu, Synthesis of quaternary ammonium salts based on diketopyrrolopyrroles skeletons and their applications in copper electroplating. ACS Appl. Mater. Interfaces. 9, 7793–7803 (2017). https:// doi.org/10.1021/acsami.6b15400"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                505,
+                485,
+                584
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "27. H. Cao, T. Hang, H. Ling, L. Gao, M. Li, Linear sweep voltammetric study on the copper electrodeposition of thoughsilicon-vias. J. Electrochem. Soc. 161, D349–D352 (2014). https://doi.org/10.1149/2.096406jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                587,
+                484,
+                651
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "28. Y. Zhang, G. Ding, H. Wang, P. Cheng, R. Liu, Optimization of innovative approaches to the shortening of filling times in 3D integrated through-silicon vias (TSVs). J. Micromech. Microeng. (2015). https://doi.org/10.1088 0960-1317/25/4/045009"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                653,
+                484,
+                732
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "29. J. Xu, B. Chen, J. Lv, D. Chang, D. Niu, S. Hu, X. Zhang, Z. Xin, L. Wang, Aryl modification of diketopyrrolopyrrole-based quaternary ammonium salts and their applica tions in copper electrodeposition. Dyes Pigments 170, 1 (2019). https://doi.org/10.1016/j.dyepig.2019.107559"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                735,
+                484,
+                816
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "30. K.-I. Yoshida, Y. Masuda, Y. Sakai, T. Shimomura, Adsorption behavior of Coumarin onto a concaved substrate in water under an electric field. J. Electrochem. Soc. 156, D1–D4 (2009). https://doi.org/10.1149/1.2999350"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                817,
+                484,
+                881
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "31. J . L i , J . X u , X . Wa n g , X . We i , J . L v, L . Wa n g , N o v e l 2 , 5 - b i s ( 6 - ( t r i m e t h y l a m o n i u m )"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                883,
+                484,
+                913
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "hexyl)-3,6-diaryl-1,4-diketopyrrolo 3,4-c pyrrole pigments as levelers for eficient electroplating applications. Dyes Pigments (2021). https://doi.org/10.1016/j.dyepig.2020. 109064"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                544,
+                94,
+                915,
+                156
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "32. M.H. Lee, Y. Lee, M. Sung, S.K. Cho, Y.G. Kim, J.J. Kim, Structural influence of terminal functional groups on TEGbased leveler in microvia filling. J. Electrochem. Soc. 167, 1 (2020). https://doi.org/10.1149/1945-7111/ab98a9"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                160,
+                915,
+                222
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "33. N.T.M. Hai, J. Furrer, E. Barletta, N. Luedi, P. Broekmann, Copolymers of imidazole and 1,4-butandiol diglycidyl ether as an eficient suppressor additive for copper electroplating. J. Electrochem. Soc. 161, D381–D387 (2014). https://doi.org/10.1149/2.0111409jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                226,
+                915,
+                305
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "34. W.P. Dow, H.S. Huang, M.Y. Yen, H.C. Huang, Influence of convection-dependent adsorption of additives on microvia filling by copper electroplating. J. Electrochem. Soc. 152, C425–C434 (2005). https://doi.org/10.1149/1.19016 70"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                308,
+                915,
+                386
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "35. J. Huang, L.-Y. Gao, Z.-Q. Liu, The electrochemical behavior of leveler JGB during electroplating of nanotwinned copper, in: 21st International Conference on Electronic Packaging Technology (ICEPT), 2020. IEEE. https://doi. org/10.1109/ICEPT50128.2020.9202497"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                389,
+                915,
+                469
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "36. M.H. Lee, Y. Lee, J.H. Oh, Y.G. Kim, S.K. Cho, J.J. Kim, Microvia filling with copper electroplated with quaternary ammonium. J. Electrochem. Soc. 164, 1 (2017). https://doi. org/10.1149/2.0121802jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                472,
+                915,
+                535
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "37. M.J. Kim, Y. Seo, H.C. Kim, Y. Lee, S. Choe, Y.G. Kim, S.K. Cho, J.J. Kim, Galvanostatic bottom-up filling of TSV-like trenches: choline-based leveler containing two quaternary ammoniums. Electrochim. Acta 163, 174–181 (2015). https://doi.org/10.1016/j.electacta.2015.02.173"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                537,
+                917,
+                618
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "38. M. Tang, S. Zhang, Y. Qiang, S. Chen, L. Luo, J. Gao, L. Feng, Z. Qin, 4,6-Dimethyl-2-mercaptopyrimidine as a potential leveler for microvia filling with electroplating copper. RSC Adv. 7, 40342–40353 (2017). https://doi.org/ 10.1039/c7ra06857c"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                620,
+                915,
+                700
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "39. C. Wang, M. An, P. Yang, J. Zhang, Prediction of a new leveler (N-butyl-methyl piperidinium bromide) for throughhole electroplating using molecular dynamics simulations. Electrochem. Commun. 18, 104–107 (2012). https://doi. org/10.1016/j.elecom.2012.02.028"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                702,
+                915,
+                782
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "40. X. Ren, Y. Song, A. Liu, J. Zhang, G. Yuan, P. Yang, J. Zhang, M. An, D. Matera, G. Wu, Computational chemistry and electrochemical studies of adsorption behavior of organic additives during gold deposition in cyanide-free electrolytes. Electrochim. Acta 176, 10–17 (2015). https:// doi.org/10.1016/j.electacta.2015.06.147"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                784,
+                917,
+                879
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "41. L. Zheng, W. He, K. Zhu, C. Wang, S. Wang, Y. Hong, Y. Chen, G. Zhou, H. Miao, J. Zhou, Investigation of poly"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                882,
+                915,
+                913
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 15 of 17 1088"
+                    }
+                ]
+            },
+            "bbox": [
+                757,
+                44,
+                910,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                818,
+                932,
+                915,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole. Electrochim. Acta 283, 560–567 (2018). https://doi.org/10.1016/j. electacta.2018.06.132"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                94,
+                484,
+                156
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "42. J.S. Murray, P. Politzer, The electrostatic potential: an overview. Wiley Interdisc. Rev.—Comput. Mol. Sci. 1, 153–163 (2011). https://doi.org/10.1002/wcms.19"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                160,
+                484,
+                207
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "43. X. Wang, K. Wang, J. Xu, J. Li, J. Lv, M. Zhao, L. Wang, Quinacridone skeleton as a promising eficient leveler for smooth and conformal copper electrodeposition. Dyes Pigments (2020). https://doi.org/10.1016/j.dyepig.2020. 108594"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                210,
+                484,
+                288
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "44. Y. Feng, J. He, Y. Zhan, J. An, B. Tan, Insight into the anti-corrosion mechanism Veratrum root extract as a green corrosion inhibitor. J. Mol. Liq. 334, 1 (2021). https://doi. org/10.1016/j.molliq.2021.116110"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                291,
+                484,
+                355
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "45. Y. Xu, S. Zhang, W. Li, L. Guo, S. Xu, L. Feng, L.H. Madkour, Experimental and theoretical investigations of some pyrazolo-pyrimidine derivatives as corrosion inhibitors on copper in sulfuric acid solution. Appl. Surf. Sci. 459, 612–620 (2018). https://doi.org/10.1016/j.apsusc.2018.08. 037"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                356,
+                485,
+                451
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "46. S. Peljhan, A. Kokalj, DFT study of gas-phase adsorption of benzotriazole on Cu(111), Cu(100), Cu(110), and low coordinated defects thereon. Phys. Chem. Chem. Phys. 13, 20408–20417 (2011). https://doi.org/10.1039/c1cp21873e"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                456,
+                484,
+                520
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "47. J. Radilla, M. Boronat, A. Corma, F. Illas, Monitoring the interaction of adsorbates on metal surfaces by surface site engineering: the case of ethoxy on Cu, Pd, Ag and Au regular and stepped surfaces. Phys. Chem. Chem. Phys. 12, 6492–6498 (2010). https://doi.org/10.1039/c000405g"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                522,
+                485,
+                601
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "48. Z. Lai, S. Wang, C. Wang, Y. Hong, Y. Chen, H. Zhang, G. Zhou, W. He, K. Ai, Y. Peng, Computational analysis and experimental evidence of two typical levelers for acid copper electroplating. Electrochim. Acta 273, 318–326 (2018). https://doi.org/10.1016/j.electacta.2018.04.062"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                603,
+                484,
+                684
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "49. X. Wang, S. Zhang, S. Chen, B. Tan, H. Guo, Y. Wang, Y. Qiang, S. Fu, Y. Wen, Efects of 2,2-dithiodipyridine as a leveler for through-holes filling by copper electroplating. J. Electrochem. Soc. 166, D660–D668 (2019). https://doi. org/10.1149/2.0461913jes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                686,
+                484,
+                765
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "50. M.H. Lee, M.J. Kim, J.J. Kim, Competitive adsorption between bromide ions and bis(3-sulfopropyl)-disulfide for Cu microvia filling. Electrochim. Acta (2021). https://doi. org/10.1016/j.electacta.2020.137707"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                768,
+                484,
+                831
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "51. Z.V. Feng, X. Li, A.A. Gewirth, Inhibition due to the interaction of polyethylene glycol, chloride, and copper in plating baths: a surface-enhanced Raman study. J. Phys. Chem. B 107, 9415–9423 (2003). https://doi.org/10.1021/jp034 875m"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                834,
+                484,
+                912
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "52. K. Wang, J. Feng, J. Xu, J. Li, M. Mai, X. Wang, L. Wang, Engineering aromatic heterocycle strategy: Improving copper electrodeposition performance via tuning the bandgap of diketopyrrolopyrrole-based leveler. Tetrahedron (2020). https://doi.org/10.1016/j.tet.2019.130882"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                94,
+                915,
+                174
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "53. W.P. Dow, C.W. Liu, Evaluating the filling performance of a copper plating formula using a simple Galvanostat method. J. Electrochem. Soc. 153, C190–C194 (2006). https://doi.org/10.1149/1.2165743"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                175,
+                915,
+                239
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "54. X. Lu, L. Yao, S. Ren, Z. Wang, A study of bottom-up electroplated copper filling by the potential diference between two rotating speeds of a working electrode. J. Electroanal. Chem. 712, 25–32 (2014). https://doi.org/10.1016/j.jelec hem.2013.07.016"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                241,
+                915,
+                321
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "55. S. Huemann, N.T.M. Hai, P. Broekmann, K. Wandelt, H. Zajonz, H. Dosch, F. Renner, X-ray difraction and STM study of reactive surfaces under electrochemical control: Cl and I on Cu(100). J. Phys. Chem. B 110, 24955–24963 (2006). https://doi.org/10.1021/jp064764y"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                324,
+                915,
+                403
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "56. M. Nagar, A. Radisic, K. Strubbe, P.M. Vereecken, The effect of polyether suppressors on the nucleation and growth of copper on RuTa seeded substrate for direct copper plating. Electrochim. Acta 127, 315–326 (2014). https://doi.org/10.1016/j.electacta.2014.02.052"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                406,
+                915,
+                486
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "57. Y. Meng, M. Zhou, W. Huang, Y. Min, X. Shen, Q. Xu, Benzyl-containing quaternary ammonium salt as a new leveler for microvia copper electroplating. Electrochimica Acta (2022). https://doi.org/10.1016/j.electacta.2022. 141013"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                488,
+                915,
+                568
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "58. Z. Wang, Z. Li, T. Dai, C. Zong, Y. Liu, B. Liu, Addition of adipose-derived stem cells to mesenchymal stem cell sheets improves bone formation at an ectopic site. Int. J. Mol. Sci. (2016). https://doi.org/10.3390/ijms17020070"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                570,
+                915,
+                634
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "59. W. Qafsaoui, M.W. Kendig, S. Joiret, H. Perrot, H. Takenouti, Ammonium pyrrolidine dithiocarbamate adsorption on copper surface in neutral chloride media. Corros. Sci. 106, 96–107 (2016). https://doi.org/10.1016/j.corsci.2016. 01.029"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                636,
+                915,
+                715
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "60. I.A. Arkhipushkin, K.S. Shikhaliev, A.Y. Potapov, L.V. Sapronova, L.P. Kazansky, Inhibition of brass (80/20) by 5-mercaptopentyl-3-amino-1,2,4-triazole in neutral solutions. Metals (2017). https://doi.org/10.3390/met7110488"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                718,
+                915,
+                782
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "61. T.Y.B. Leung, M.C. Kang, B.F. Corry, A.A. Gewirth, Benzotriazole as an additive for copper electrodeposition— influence of triazole ring substitution. J. Electrochem. Soc. 147, 3326–3337 (2000). https://doi.org/10.1149/1.1393902"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                784,
+                915,
+                846
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "62. Z. Wang, Y. Gong, C. Jing, H. Huang, H. Li, S. Zhang, F. Gao, Synthesis of dibenzotriazole derivatives bearing alkylene linkers as corrosion inhibitors for copper in sodium chloride solution: a new thought for the design of organic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                512,
+                850,
+                915,
+                913
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                44,
+                121,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 16 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                44,
+                235,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                603,
+                44,
+                910,
+                60
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                932,
+                178,
+                953
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "inhibitors. Corros. Sci. 113, 64–77 (2016). https://doi.org/ 10.1016/j.corsci.2016.10.005"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                94,
+                484,
+                125
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "63. J. Seo, W.S. Chang, T.-S. Kim, Adhesion improvement of graphene/copper interface using UV/ozone treatments. Thin Solid Films 584, 170–175 (2015). https://doi.org/10. 1016/j.tsf.2015.01.007"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                127,
+                484,
+                189
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "64. L. Luo, S. Zhang, Y. Qiang, I. Bozdag, S. Chen, M. Tang, J. Gao, Z. Qin, Improving interfacial adhesion between copper foil and resin using amino acid in printed circuit board industry. J. Adhes. Sci. Technol. 32, 1452–1470 (2018). https://doi.org/10.1080/01694243.2017.1423159"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                193,
+                484,
+                272
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "65. C. Wang, L. Xiang, Y. Chen, S. Wang, D. Xiao, W. He, Study on brown oxidation process with imidazole group, mercapto group and heterocyclic compounds in printed"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                275,
+                485,
+                324
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "circuit board industry. J. Adhes. Sci. Technol. 29, 1178– 1189 (2015). https://doi.org/10.1080/01694243.2015. 1016596"
+                    }
+                ]
+            },
+            "bbox": [
+                544,
+                94,
+                915,
+                141
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional afiliations."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                156,
+                917,
+                205
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law."
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                218,
+                917,
+                317
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "J Mater Sci: Mater Electron (2025) 36:1088"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                44,
+                400,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 17 of 17"
+                    }
+                ]
+            },
+            "bbox": [
+                757,
+                43,
+                860,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1088"
+                    }
+                ]
+            },
+            "bbox": [
+                872,
+                44,
+                910,
+                56
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Springer"
+                    }
+                ]
+            },
+            "bbox": [
+                820,
+                932,
+                915,
+                953
+            ]
+        }
+    ]
+]

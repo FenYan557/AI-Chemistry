@@ -1,0 +1,233 @@
+Research Article
+
+Xiuren Ni, Chong Wang, Yuanzhang Su, Yuyao Luo, Yilin Ye, Xinhong Su, Wei He, Shouxu Wang, Yan Hong, Yuanming Chen\*, Guoyun Zhou, and Bingyun Liu
+
+# Efect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition
+
+https://doi.org/10.1515/ntrev-2022-0071
+
+received December 25, 2021; accepted February 16, 2022
+
+Abstract: Cobalt is a promising material for electronic interconnections in the post-Moore law period. However, the vertical cobalt pillar is not fully compatible with the current electroplating-involved manufacturing process due to hydrogen evolution at the cathode and poor throwing power of the products. In this article, electrodeposition with multiple organic additives was employed to realize the fabrication of cobalt pillars. Electrochemical measurements were used to investigate the depolarization of 3- mercapto-1-propane sulfonate sulfonic acid (MPS) and the polarization of the polyvinylpyrrolidone (PVP) during cobalt electrodeposition. Notably, the competitive adsorption between MPS and PVP was verified and discussed in cobalt electrodeposition. In order to understand the adsorption and functional groups of the additives, quantum chemical calculations were performed to simulate the distribution of electrostatic potential and molecular orbital energy of the additives. Accordingly, the thiol group of MPS and the amide group of PVP were speculated to be the molecular adsorption sites in cobalt electrodeposition. The mechanism including three stages was proposed for cobalt pillar electrodeposition in solution with MPS and PVP. The electrodeposition of practical cobalt pillars with a depth of 50 µm and diameters of 60, 80, and 100 µm was successfully achieved by electroplating experiments, thereby promoting the application of metal cobalt for electronic packaging.
+
+Keywords: cobalt electrodeposition, additive, cobalt pillar, adsorption
+
+## 1 Introduction
+
+With the booming development in the miniaturization of electronic products in the 5G era, the system-in-package technology and chip interconnection have reached the scale of a single micron in recent years [1,2]. However, copper as one of the major conductors can hardly fulfill all the needs of functions including low resistance and capacitance (RC) delay and low bulk resistivity for signal transmission embedded in chips because of the inherent long electron mean free path, high thermal expansion coeficient and low efective resistance at the contact interface of copper [3–9]. Cobalt as an alternative conductor is an excellent substitute for copper in particular electronic applications [10–13]. It has been widely attempted to use cobalt as a magnetic alloy material for miniaturized magnetic electronic components, memory devices, and other special apparatus [14]. As a good candidate of alternative metal in the post-Moore law period, cobalt exhibits several advantages such as the low electron mean free path and low thermal expansion coeficient [15,16]. In this way, it is reasonable to assume that the cobalt structures from the compatible electroplating process will promote the productivity and reliability of cobalt formation. Electronic interconnection in the vertical section can be realized by metal pillars in three-dimensional (3D) packaging.
+
+However, conventional pillar electrodeposition has not been widely implemented for cobalt yet because of the hydrogen evolution and poor electrodeposited throwing power [17,18]. In the cobalt pillar electrodeposition, the growth of cobalt along the wall of the hole is faster than that in the middle, leading to the overgrowth outside of the hole without enough cobalt deposition in the middle.
+
+It is well-known that organic additives can efectively improve the quality of electroplating, especially in coating uniformity and filling completeness. Additive mixtures facilitate the super-filling of holes by adjusting the overpotential and the kinetics of plating in damascene copper electrodeposition [19]. The accelerator and various levelers were investigated in copper micro-via filling, and the convection-dependent adsorption of additives was proposed [20,21]. In cobalt electrodeposition, the cobalt nucleation and the morphology of nanograin were also afected by organic additives and electrolytes [22,23]. The group of additives for metal electrodeposition mainly contains accelerators and inhibitors. The selective adsorption (such as convection adsorption) of accelerators and inhibitors causes a higher deposition rate at the bottom of the hole than the rate outside the hole. leading to a complete hole filling [24]. The accelerator for metal electrodeposition, such as 3-mercapto-1-propane sulfonate sulfonic acid (MPS), is a crucial additive in the copper hole filling [25]. Previous studies indicated that MPS molecules adsorbed on the surface of the co er la er through the sulfhydryl group, while the sulfonic acid group captured copper ions in solution to accelerate the deposition of copper [26]. Cobalt performs close electron-donating and -accepting ability similar to copper so similar additives could be chosen during electrodeposition. However, current studies on the mechanism of MPS are still insuficient to explain cobalt pillar electrodeposition and the cobalt hole filling. On the other hand, inhibitors are usually necessary for metal electrodeposition. The inhibitor molecules can selectively adsorb on the surface of the metal laver or generate complex with metal jons to improve the quality of the metal coating and electrodeposition eficiency [27]. For instance, polyvinylpyrrolidone (PVP) undergoes a convection-dependent adsorption inhibition efect on cobalt electrodeposition [28]. The PVP molecule has great absorption at sites with strong convection (such as the upper part of the hole). In contrast, the sites with weak convection (such as the bottom of the hole) has relatively low PVP absorption, thereby making PVP a suitable additive in the hole filling for cobalt electrodeposition [28]. However, PVP brings an inherent suppressing efect on the overall deposition rate and the quality of the deposited cobalt layer, so the practical application of
+
+PVP is hindered in the manufacture of cobalt devices. In this article, competitive adsorption of MPS and PVP in cobalt electrodeposition was proposed first and cobalt pillar was successfully realized. Notably, the morphology of cobalt particles was modified and the uniformity of the cobalt layer was improved.
+
+In this work, the polarization of PVP and depolarization of MPS in cobalt electrodeposition were investigated by the electrochemical method. The corresponding competitive adsorption of MPS and PVP was discussed during cobalt pillar electrodeposition. Quantum chemical calculations for simulation on the distribution of electrostatic potential and molecular orbital energy helps to explain the adsorption behavior of the additives. The mechanism of three stages was proposed for the electrodeposition of the cobalt pillar. Furthermore, cobalt pillar electrodeposition was successfully carried out in solution with MPS and PVP by galvanostatic electrodeposition.
+
+## 2 Experimental study
+
+## 2.1 Electrochemical measurements
+
+The electrochemical actions of MPS and PVP were analyzed by cyclic voltammetry (CV) and the galvanostatic method (GM). Metrohm electrochemical workstation (PGSTT302N) was used with a 5 mm-diameter platinum rotating disk electrode (Pt-RDE), a Pt rod, and a saturated $\mathrm { H g / H g } _ { 2 } \mathrm { S O } _ { 4 }$ reference electrode (0.615 V vs S.H.E.). The CV tests were conducted in a cell with 200 mL of electrolyte containing 0.3 mol/L cobalt sulfate heptahydrate $( \mathrm { C o S O } _ { 4 } { \cdot } 7 \mathrm { H } _ { 2 } 0 )$ 0.57 mol/L boric acid $\left( \mathrm { H } _ { 3 } \mathrm { B O } _ { 3 } \right)$ , and 0.84 mmol/L cobalt chloride hexahydrate $( \mathrm { C o C l } _ { 2 } { \cdot } 6 \mathrm { H } _ { 2 } 0 )$ , labeled as solution I. The solution with 0.3 mol/L $\mathrm { C o S O } _ { 4 } { \cdot } 7 \mathrm { H } _ { 2 } 0$ , 0.57 mol/L $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 } ,$ , 0.84 mmol/L ${ \mathrm { C o C l } } _ { 2 } { \cdot } 6 { \mathrm { H } } _ { 2 } 0$ , and 7 mg/L MPS was labeled as solution II. GM tests were performed in a cell containing 0.3 mol/L $\mathrm { C o S O } _ { 4 } { \cdot } 7 \mathrm { H } _ { 2 } 0$ and 0.57 mol/L $\mathrm { H } _ { 3 } \mathrm { B O } _ { 3 }$
+
+## 2.2 Quantum chemical calculation
+
+The quantum chemical calculation is a useful method in the simulation of interface interaction to analyze the highest occupied molecular orbital (HOMO), lowest unoccupied molecular orbital (LUMO), and molecule electrostatic potential (ESP) of PVP containing six monomers [29–34]. Gaussian 09 package was used to calculate the orbital energy and electrostatic potential [35,36]. The density functional theory (DFT) optimization was chosen in quantum chemical calculations. The settings for the Gaussian calculation include the B3LYP method in an aqueous solution, lanl2dz, and $6 { \cdot } 3 1 1 \mathsf { G } { + } ( \mathsf { d } , \mathsf { p } )$ settings [37–41]. The energy gap $E _ { \mathrm { G a p } }$ of molecules is a sum of $E _ { \mathrm { L U M O } }$ and $E _ { \mathrm { H O M O } }$ , and represents LUMO and HOMO values of molecules:
+
+$$
+E _ {\mathrm{Gap}} = E _ {\mathrm{LUMO}} - E _ {\mathrm{HOMO}}.\tag{1}
+$$
+
+## 2.3 Electrodeposition
+
+The cobalt electrodeposition was conducted in a 500 mL bath with a direct current from the DC power supply (INT-ERLOCK IPD-3305SLU). Cobalt electrodeposition was performed in the solution containing 0.3 mol/L $\mathrm { C o S O } _ { 4 } { \cdot } 7 \mathrm { H } _ { 2 } 0$ 0.57 $\mathrm { m o l / L H _ { 3 } B O _ { 3 } } ,$ and 0.84 mmol/L $\mathrm { C o C l } _ { 2 } { \cdot } 6 \mathrm { H } _ { 2 } 0$ . PVP (100 g/L) and 1 g/L MPS were prepared in advance for the injection in the electroplating solution before electrodeposition. $\mathtt { R u O } _ { 2 ^ { - } }$ coated titanium was connected to the cathode of the power and 2 L/min airflow was used to improve the convection in the electroplating solution. Cobalt was electrodeposited on the copper layer on a printed circuit board (PCB) with photopolymer film after imaging transfer at a current density of $1 0 \mathrm { m A } / \mathrm { c m } ^ { 2 } .$ . The depth of the hole in the photopolymer film was 50 µm and three diferent diameters of the holes were 100, 80, and $6 0 \mu \mathrm { m } .$ , respectively. A scanning electron microscope (SEM, HITACHI S3400) was used to analyze the morphology, while a metallographic microscope (ASIDA-JX23RT, China) was used to observe the top view and cross-section of the cobalt pillar. The crystal phases of the coating were measured by an X-ray difractometer (Rigaku MINIFLEX 600). The roughness tests of the coating were observed by a 3D measuring laser microscope (Olympus S4100) and the contact angle was measured by a contact angle tester (JY-PHa, China).
+
+## 3 Results and discussion
+
+## 3.1 Competitive adsorption of MPS and PVP
+
+The efect of MPS on cobalt electrodeposition was investigated to observe the electrochemical behavior with electrochemical measurements. As shown in Figure 1a, the oxidation peak current density (from 1.72 to $2 . 0 8 \mathrm { A } / \mathrm { d } \mathrm { m } ^ { 2 } )$ and the cobalt oxidation area increases when 7 mg/L MPS is added to solution I. The change of the peak current density and oxidation area indicates the promotion of the cobalt electroplating process. In addition, the potential during cobalt deposition is shifted positively, revealing that MPS with a depolarization efect accelerates the electrodeposition of cobalt. With the addition of MPS, the stripping peak current density further increases to enhance the depolarization behavior during cobalt electrodeposition. The GM tests were also employed to verify the depolarization efect of MPS in cobalt electrodeposition (Figure 1b). As shown in Figure 1b, the potential shifted positively from −1.476 V to −1.362 V after the addition of $7 { \mathrm { m g / L } } { \mathrm { M P S } }$ . This potential pattern indicates that MPS has a significant acceleration efect on cobalt electroplating.
+
+The electrochemical performance of the solution with MPS and PVP is further investigated to analyze the com petitive adsorption behavior of MPS and PVP. The inhibitive efect and adsorption behavior of PVP in cobalt electrodeposition has been reported in the previous work and the oxidation peak current density reduces obviously with the addition of PVP in the solution without MPS [28]. In this work, as shown in Figure $^ { \mathrm { 1 b , } }$ the inhibition behavior of PVP is also observed in the solution with MPS because the potential sharply dropped by 33 mV after the addition of 5 mg/L PVP. In addition, as presented in Figure 2a, the oxidation peak current density decreases when 5 mg/L PVP is injected into the plating solution with 7 mg/L MPS. In contrast. the decrease of the peak current density in the previous work is higher in the plating solution without MPS [28]. Overall, solution II containing both 7 mg/L MPS and 5 mg/L PVP still exhibits an inhibition behavior on cobalt electrode osition although the inhibi tion of PVP is attenuated by MPS. Meantime, in Figure 2b, a current density of −1.6 V for the solution with the addi tion of both MPS and PVP is generall lower than the one with only MPS or without additives. The above changes of the oxidation peak current density, deposition potential, and electrodeposition current density are attributed to the dynamic adsorption status of MPS and PVP molecules in the plating solution. In the first stage, the adsorption spon taneously occurred after MPS was added to the solution. In the presence of MPS in the solution, the sulfhydryl groups for the transfer of electrons and sulfonate groups for cap turing the metal cations synergistically contribute to accel erating the de osition of metal cations [42,43]. However, the adsorption sites of MPS are partially replaced with PVP when PVP is added in the solution with MPS because PVP is attracted to the cathode surface and weakens the accel eration level of MPS. In the previous work, convection dependent adsorption of PVP was verified to cause the diverged deposition rate between the bottom and the out side of the holes [28]. Therefore, the cobalt deposition rate on the outside of the hole could be relatively inhibited by PVP. Meanwhile, MPS, as a relatively small molecule, is able to difuse into the hole easily and accumulate in the bottom of the hole. As a result, the deposition rate of cobalt increases at the bottom of the hole.
+
+![](images/b55f3fba5ba0c0688d57acbf11a22105dbe10a31c46c21dc1d2385d6c096f71b.jpg)
+
+![](images/b5f6ea3523f81f93050243829bc14e7bbc76743fbd33ffc9bf06f9c479dbcda8.jpg)  
+Figure 1: CV plots of cobalt plating solutions with MPS (a) Time–potential curve with the addition of PVP and MPS (b). The basic solution in (a) contains 0.3 mol/L $\mathsf { C o S O } _ { 4 } . 7 \mathsf { H } _ { 2 } 0 ,$ 0.84 mmol/L $\mathsf { C o C l } _ { 2 } { \cdot } 6 \mathsf { H } _ { 2 } 0$ and 0.57 mol/L ${ \sf H } _ { 3 } { \sf B } { \sf O } _ { 3 }$ . The basic solution in (b) contains 0.3 mol/L $\mathsf { C o S O } _ { 4 } . 7 \mathsf { H } _ { 2 } 0$ and 0.57 mol/L ${ \sf H } _ { 3 } { \sf B } { \sf O } _ { 3 }$
+
+## 3.2 Quantum chemical calculation
+
+The quantum chemical calculation was considered to illustrate the adsorption and predict the potential adsorption sites of MPS and PVP. At first, the molecule was constructed. Then, the molecule was input into the Gaussian and calculated the structure optimization. The calculation results were displayed after visualization processing in Gauss View. The molecular frontier orbital theory claims that the energy value of HOMO and LUMO for the molecules are the dominant factors in chemical reactions [37]. Furthermore, the HOMO energy value $( E _ { \mathrm { H O M O } } )$ of a molecule suggests the tendency to lose electrons when the LUMO energy value $\left( E _ { \mathrm { L U M O } } \right)$ represents the tendency of accepting electrons.
+
+The molecule with higher $E _ { \mathrm { H O M O } }$ and $E _ { \mathrm { L U M O } }$ shows stronger electron-donating ability and stronger electron-accepting ability, respectively [44]. In this work, the calculation results in Figure 3 presented the status of HOMO and LUMO of PVP containing six monomers. As shown in Figure $3 , E _ { \mathrm { H O M O } }$ and $E _ { \mathrm { L U M O } }$ values of PVP are −6.623 and $- 0 . 3 4 3 \mathrm { e V } ,$ , respectively. Similar simulated values have been reported in another work for PVP (four monomers) [28]. The distribution of HOMO and LUMO orbitals of PVP in Figure 3a and c implies that the amide group of PVP mainly contributes to the HOMO. Amide groups in PVP are probably the electrophilic attack site for adsorption on the surface of the cobalt cathode.
+
+Multiple studies have reported that MPS molecules adsorb on the surface of the copper layer through the sulfhydryl groups, and the sulfonic acid group captures copper ions in solution to accelerate the deposition [45,46]. HOMO and LUMO of MPS were calculated in this work, and the energy values of HOMO and LUMO for MPS were −6.955 and −0.843 eV, respectively. The HOMO status of MPS in Figure 3d indicates that the thiol group of MPS possesses the major space of HOMO so the thiol group is probably the electrophilic attack site. Notably, the value of the energy gap of PVP (6.28 eV) is close to that of MPS (6.122 eV), indicating similar chemical reactivities of PVP and MPS on the surface of cobalt. The computational result is consistent with the fact that MPS and PVP sustain competitive adsorption in cobalt electrodeposition.
+
+![](images/e2a8fe7a65f20d765be7754fade4a7dd74dce1fde3b8959506cae562e6d7b6ed.jpg)
+
+![](images/8bb0f5320c2feaad28b7a140aeb38beef5b302920b8bf913b3f683027b935bde.jpg)  
+Figure 2: CV plots of cobalt plating solutions (a and b). Panel (b) is an enlarged view of the potential in Figure 1a from −1.6 to −1.0 V. The solution in this work contains 0.3 mol/L $\mathsf { C o S O } _ { 4 } . 7 \mathsf { H } _ { 2 } 0 ,$ , 0.84 mmol/L $\mathsf { C o C l } _ { 2 } { \cdot } 6 \mathsf { H } _ { 2 } 0 , 0 { . } 5 7$ mol/L $\mathsf { H } _ { 3 } \mathsf { B O } _ { 3 } ,$ and 7 mg/L MPS, labeled as solution II.
+
+![](images/bb1d4463a457f99f47fc2068aface17e4bb99c7aad32b1550da54e338f5ab20d.jpg)  
+Figure 3: The simulated LUMO of PVP (a) and MPS (b). The simulated HOMO of PVP (c) and MPS (d).
+
+The influence of functional groups of MPS and PVP on the cobalt electrodeposition was also illustrated by ESP results to understand the mechanism of adsorption and polarization of additives as displayed in Figure 4. The results of the ESP calculation graphically present the electron density contribution of groups to determine the possible chemical reaction sites. Figure 4a shows that the PVP containing six monomers has the lowest ESP value of −69.65 kJ/mol and a highest ESP value of 46.89 kJ/mol. A lower ESP value means higher electron density so the electron density distribution of PVP illustrates that amide groups with a high electron density contribute to the prob able adsorption site during cobalt electrodeposition. However, the MPS molecule shows the lowest ESP value of −32.74 kJ/mol and a highest ESP value of 59.01 kJ/mol as shown in Figure 4b. Thus, the thiol group of MPS with a high electron density could lead to the favorable site for the electrophilic attack reaction, so the thiol group is prob ably the adsorption site during cobalt electrodeposition.
+
+Based on the above electrochemical characterization and quantum chemical calculation, the mechanism including three stages is proposed for the cobalt pillar electrodeposition in Figure 5. In the first stage, cobalt atoms are electrodeposited on the bottom of the hole and then grow along the wall of the hole with the formation of the cobalt nanoparticles layer. In a solution with MPS and PVP, cobalt deposition is suppressed on the upper part of the hole but the rate of cobalt atom deposition is promoted on the bottom of the hole. In the second stage, MPS and PVP molecules both adsorb to the cobalt surface in the presence of chloride ions. In this way, PVP suppresses the growth of cobalt, especially in the area with stronger convection when MPS and PVP are added to the plating solution. In the third stage, the deposition of cobalt on the upper side of the hole is inhibited more than that in the hole. In fact, MPS with a small molecule structure easily difuses into the hole so that it accelerates the deposition process of cobalt. As a result, on the upper side of the hole, cobalt deposition is suppressed but on the bottom cobalt growth is accelerated, thereby leading to the balanced deposition rate and successful filling for regular manufacture.
+
+![](images/25f16f2d1909c2c8baac32a764da9e8a271098d4dac9a463f59f38295effa9a5.jpg)  
+Figure 4: Electrostatic potential distribution on the surface of molecular van der Waals of PVP containing six monomers (a) and MPS (b).
+
+![](images/fa2c1c61f7ba169ae55c8ffce5444fa8dd406a41892c381f657fa1d23ddad163.jpg)  
+Figure 5: The strategy of three stages for the pillar electrodeposition in solution with MPS and PVP.
+
+## 3.3 Cobalt electrodeposition
+
+With the aid of MPS and PVP, cobalt pillars are achieved by cobalt hole super-filling (Figure 6a and b). The cobalt electrodeposition was conducted in the bath and the cobalt pillar was fabricated in the solution with competitive adsorption of MPS and PVP (Figures S1 and S2). The cross-sectional slice and top view of the cobalt pillar were observed by a metallographic microscope. As displayed in Figure 6c, the diameter of the filled hole is 100 µm. In the case without additives, it is very hard to fully fill the hole that a large amount of cobalt is only electrodeposited on the upper edge (Figure 6d). The failed filling is caused by the stronger convection outside the hole of the photopolymer so that the cobalt deposition outside the hole is faster than that inside the hole and results in a conformal deposition. With the addition of 7 mg/L MPS and 300 mg/L PVP, the hole of the photopolymer is successfully filled to generate cobalt pillars. In cobalt pillar electrodeposition, 7 mg/L MPS was added in solution considering the depolarization efect of MPS and loss of MPS. PVP (300 mg/L) was chosen in order to ensure the efect of polarization and improve the morphology of the electrodeposited cobalt as a surfactant.
+
+![](images/3d50fd87e27f3b562ba843a2e0041a8ce9a78bccbf4001360b36ad933b3c79d7.jpg)  
+Figure 6: Cross-sectional slice of the holes before electrodeposition (a) and the electrodeposited cobalt-filled holes (b). Top view of the holes before cobalt electrodeposition (c). Top view of the hole after cobalt electrodeposition in solution without additives (d) and with 7 mg/L MPS and 300 mg/L PVP (e).
+
+![](images/d5fd3f2ec6244ad78e4871a742e2432c777472f2103f18fa4e32059b8e69576a.jpg)
+
+![](images/c91d11f13c8c02571455bfa3e70bf574c6c3cf320eaaa3254ab4392d9ac9b9f2.jpg)
+
+![](images/329c169b1e7273532e287121d64470962c5a6ddd282f0a6a4dd9019c26adef70.jpg)  
+▲ Z(μm)
+
+![](images/7b1e1e5c715116f2626e83bb4cda91b2bcd9b493866705929fd9287a60829f3c.jpg)
+
+![](images/48bfacf914a7c63be699af3ebefafa2dfae2959b14f13d2b97f3c7bfb4a6676f.jpg)  
+▲ Z(μm)
+
+(f)  
+![](images/7f755f5190b29cfe812d371a33243c66d4b7862226fe5160e974eeb5fef568fb.jpg)  
+Sa=0.28 μm⁴x(μm) 724
+
+![](images/4827727d24aea127c61c3512023961c366de7d7bed57746b7aeb9df2dc8cc676.jpg)  
+Sa=0.21 μm
+
+(h)  
+![](images/d552bf6c362c54fe0bd3f693ddf60439a9e96a23ca59a363ac258902039a3979.jpg)
+
+(i)  
+![](images/e7e3303b9e0dbecf9dc0764197dbb3a2f932087db1f4db2267b86e902277d1b3.jpg)  
+Figure 7: SEM images of the electrodeposited cobalt in solution without additives (a) and with only 7 mg/L MPS (b), only 300 mg/L PVP (c), 7 mg/L MPS, and 300 mg/L PVP (d). The XRD attern of the electrode osited cobalt (e). 3D roughness tests of the electro lated cobal surface and the contact angle images of the lating solution on the electrode osited cobalt without additives (f and h) and with 7 mg/L MPS and 300 mg/L PVP (g and i).
+
+The top view of the cobalt pillar in Figure 6e and the cross-sectional view of the pillar in Figure 6b both verify that the holes are filled without any overgrowth of cobalt extending outside the holes, thereby leading to the balanced deposition rate and successful filling for the regular manufacture.
+
+Besides, MPS and PVP have a considerable efect on the crystallization and morphology of the electrodeposited cobalt. As illustrated in Figure 7a, the solution without additives leads to scattered cobalt deposition, and the nanoparticles on the cobalt surface cover a wide range of sizes. In the solution with only 7 mg/L MPS, the result in Figure 7b indicates that MPS improves the formation of large size cobalt particles due to the acceleration of MPS in cobalt electrodeposition. As shown in Figure 7c, in the solution with only 300 mg/L PVP, the electrodeposited cobalt particles are refined to generate the flocculent structure on the surface. Notably, with the addition of MPS and PVP (Figure 7d), the cobalt particles turn to be electrodeposited compactly and uniformly because nano cobalt particles gradually grow to form the cobalt pillar. XRD patterns in Figure 7e show that (101̄0), (112̄1), (101̄1), (224̄0), and (314̄1) directions are observed for the cobalt growth with a hexagonal structure. In the solution with only PVP, cobalt electrodeposition is efectively inhibited wherein the XRD pattern of the copper substrate also appears. The XRD results indicate that MPS enhances the difraction peak intensity of the cobalt 224̄0 direction and PVP reduces it. The introduction of MPS accelerated the growth of the 224̄0 crystal plane, while PVP inhibited the growth of the 224̄0 surface due to the adsorption of MPS and PVP in the above discussion.
+
+The addition of two additives could synergistically make the cobalt surface finer and uniform. The uniformity of the electrodeposited cobalt surface was further examined by 3D roughness tests. The value of $S _ { \mathrm { a } }$ represents the arithmetic mean of the height values of all the peaks and troughs and a lower $S _ { \mathrm { a } }$ value indicates a better uniformity of the surface. As shown in Figure 7f and $^ { \mathrm { g , } }$ the $S _ { \mathrm { a } }$ value of the electrodeposited cobalt in solution with additives is significantly lower than the one without additives, verifying that the coexistence of MPS and PVP promotes uniformity of the cobalt surface. In addition, the wettability of the plated metal surface was evaluated. In Figure 7h and i, the contact angle of the solution on the cobalt substrate without additives is more than $7 5 ^ { \circ }$ and the surface contact angle is less than $3 6 ^ { \circ }$ with the addition of MPS and PVP. The wettability of the plating solution on the cobalt surface was substantially improved, which might be attributed to the interfacial reaction and hydrogen release in cobalt electrodeposition [47]. In summary, the additives efectively improved the uniformity of the electrodeposited cobalt and make the cobalt layer finer.
+
+## 4 Conclusion
+
+MPS and PVP as additives exhibit the function of acceleration and inhibition during cobalt electrodeposition, respectively. They undergo competitive adsorption behavior in cobalt electrodeposition and some adsorption sites of MPS are replaced by PVP. The adsorption site was calculated by quantum chemical calculations. The amide groups of PVP and thiol groups of MPS are probably the adsorption sites in cobalt electrodeposition. Besides, the amide groups of PVP mainly contribute to the HOMO orbital as a probable main electrophilic attack region. The cobalt pillars with diferent diameters are successfully fabricated with the use of competitive adsorption between MPS and PVP. In this way, the additives of cobalt electrodeposition can efectively control the process of electrodeposition and a uniform cobalt deposition could be obtained. Cobalt electrodeposition has great potential in system-in-package, and this work facilitates the theoretical research and application of cobalt pillar in electronic interconnection. Synthesis of additives and more theoretical studies focusing on the working mechanism of the additives in cobalt electrodeposition are expected in the future.
+
+Acknowledgements: The authors gratefully acknowledge the support of the National Natural Science Foundation of China (Nos. 51801018 and 61974020). The work is also supported by the Innovation Team Project of Zhuhai City (No. ZH0405190005PWC), and the projects of Sci & Tech planning of Guangdong Province (No. 2019B090910003) and Zhuhai City (No. ZH01084702180040HJL).
+
+Funding information: National Natural Science Foundation of China (Nos. 51801018 and 61974020). The work is also supported by Innovation Team Project of Zhuhai city (No. ZH0405190005PWC), and the projects of Sci & Tech planning of Guangdong Province (No. 2019B090910003) and Zhuhai City (No. ZH01084702180040HJL).
+
+Author contributions: All authors have accepted responsibility for the entire content of this article and approved its submission.
+
+Conflict of interest: The authors state no conflict of interest.
+
+Data availability statements: All data generated or analysed during this study are included in this published article [and its supplementary information files].
+
+## References
+
+[1] Hao HL, Hui D, Lau D. Material advancement in technological development for the 5G wireless communications. Nanotechnol Rev. 2020;9(1):683–99.
+
+[2] Shang ZW, Hsu HH, Zheng ZW, Cheng CH. Progress and challenges in p-type oxide-based thin film transistors. Nanotechnol Rev. 2019;8(1):422–43.
+
+[3] Gall D. Electron mean free path in elemental metals. J Appl Phys. 2016;119(8):1–5.
+
+[4] Huang Q, Lyons TW, Sides WD. Electrodeposition of cobalt for interconnect application: efect of dimethylglyoxime. J Electrochem Soc. 2016;163(13):D715–21.
+
+[5] Steinhögl W, Schindler G, Steinlesberger G, Engelhardt M. Size-dependent resistivity of metallic wires in the mesoscopic range. Phys Rev B. 2002;66(7):075414.
+
+[6] Shin H-AS, Kim B-J, Kim J-H, Hwang S-H, Budiman AS, Son H-Y, et al. Microstructure evolution and defect formation in cu through-silicon vias (TSVs) during thermal annealing. J Electron Mater. 2012;41(4):712–9.
+
+[7] Chen SH, Fu SL, Liang D, Chen XH, Mi XJ, Liu P, et al. Preparation and properties of 3D interconnected CNTs/Cu composites. Nanotechnol Rev. 2020;9(1):146–54.
+
+[8] Zhang XH, Zhang Y, Tian BH, Song KX, Liu P, Jia YL, et al. Review of nano-phase efects in high strength and conductivity copper alloys. Nanotechnol Rev. 2019;8(1):383–95.
+
+[9] Feng J, Liang SH, Guo XH, Zhang Y, Song KX. Electrical conductivity anisotropy of copper matrix composites reinforced with SiC whiskers. Nanotechnol Rev. 2019;8(1):285–92.
+
+[10] Beyne E. 3D system integration technologies. 2006 International Symposium on VLSI Technology, Systems, and Applications. Hsinchu: IEEE; 2006. p. 19–27.
+
+[11] Fischer AC, Forsberg F, Lapisa M, Bleiker SJ, Stemme G, Roxhed N, et al. Integrating MEMS and ICs. Microsyst Nanoeng. 2015;1(1):1–16.
+
+[12] Hu Y, Deb S, Li D, Huang Q. Efects of organic additives on the impurity and grain structure of electrodeposited cobalt. Electrochim Acta. 2021;368(13):1–8.
+
+[13] Hu Y, Huang Q. Oscillatory behavior in cobalt electrodeposition with 3-mercapto-1-propanesulfonate. J Phys Chem C. 2020;124(39):21608–16.
+
+[14] Luo X, Chen CY, Chang TFM, Sone M, Zhang Q, Zhang JZ. The Structure and micro-mechanical properties of
+
+electrodeposited cobalt films by micro-compression test. J Electrochem Soc. 2021;168(10):1–7.
+
+[15] Wu J, Wafula F, Branagan S, Suzuki H, van Eisden J. Mechanism of cobalt bottom-up filling for advanced node interconnect metallization. J Electrochem Soc. 2018;166(1):D3136–41.
+
+[16] Kelly J, Chen JHC, Huang H, Hu CK, Liniger E, Patlolla R et al. Experimental study of nanoscale co damascene BEOL interconnect structures. 2016 IEEE International Interconnect Technology Conference/Advanced Metallization Conference. IEEE International Interconnect Technology Conference IITC; 2016. p. 40–2.
+
+[17] Rigsby MA, Brogan LJ, Doubina NV, Liu YH, Opocensky EC, Spurlin TA, et al. The critical role of pH gradient formation in driving superconformal cobalt deposition. J Electrochem Soc. 2018;166(1):D3167–74.
+
+[18] Kang J, Sung M, Byun J, Kwon OJ, Kim JJ. Superconformal cobalt electrodeposition with a hydrogen evolution reaction suppressing additive. J Electrochem Soc. 2020;167(16):1–7.
+
+[19] Vereecken PM, Binstead RA, Deligianni H, Andricacos PC. The chemistry of additives in damascene copper plating. Ibm J Res Dev. 2005;49(1):3–18.
+
+[20] Dow WP, Li CC, Lin MW, Su GW, Huang CC. Copper fill of microvia using a thiol-modified Cu seed layer and various levelers. J Electrochem Soc. 2009;156(8):D314–20.
+
+[21] Dow WP, Huang HS, Yen MY, Huang HC. Influence of convection-dependent adsorption of additives on microvia filling by copper electroplating. J Electrochem Soc. 2005;152(6):C425–34.
+
+[22] Hu Y, Lyons T, Huang Q. Influence of furil dioxime on cobalt electrochemical nucleation and growth. J Electrochem Soc. 2020;167(2):1–11.
+
+[23] Kong DL, Zheng Z, Meng FY, Li N, Li DY. Electrochemical nucleation and growth of cobalt from methanesulfonic acid electrolyte. J Electrochem Soc. 2018;165(16):D783–9.
+
+[24] Chan PF, Chiu YD, Dow WP, Krug K, Lee YL, Yau SL. Use of 3,3- thiobis(1-propanesulfonate) to accelerate microvia filling by copper electroplating. J Electrochem Soc. 2013;160(12):D3271–7.
+
+[25] Dow WP, Huang HS, Yen MY, Chen HH. Roles of chloride ion in microvia filling by copper electrodeposition-II. Studies using EPR and galvanostatic measurements. J Electrochem Soc. 2005;152(2):C77–88.
+
+[26] Chiu YD, Dow WP. Accelerator screening by cyclic voltammetry for microvia filling by copper electroplating. J Electrochem Soc. 2013;160(12):D3021–7.
+
+[27] Jovic VD, Jovic GM. Copper electrodeposition from a copper acid baths in the presence of PEG and NaCl. J Serbian Chem Soc. 2001;66(11–12):935–52.
+
+[28] Ni XR, Chen YM, Jin XF, Wang C, Huang YZ, Hong Y, et al. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition. J Taiwan Inst Chem Eng. 2020;112:232–9.
+
+[29] Jiang Q, Tallury SS, Qiu YP, Pasquinelli MA. Interfacial characteristics of a carbon nanotube-polyimide nanocomposite by molecular dynamics simulation. Nanotechnol Rev. ( ) –
+
+[30] Khan S, Nandi CK. Optimizing the underlying parameters for protein-nanoparticle interaction: advancement in theoretical simulation. Nanotechnol Rev. 2014;3(4):347–59.
+
+[31] Saraireh SA, Altarawneh M, Tarawneh MA. Nanosystem’s density functional theory study of the chlorine adsorption on the Fe(100) surface. Nanotechnol Rev. 2021;10(1):719–27.
+
+[32] Hassan J, Diamantopoulos G, Homouz D, Papavassiliou G. Water inside carbon nanotubes: structure and dynamics. Nanotechnol Rev. 2016;5(3):341–54.
+
+[33] Wang CH, Chen Q, Guo TT, Zhang L. Preparation and adsorp tion properties of nano-graphene oxide/tourmaline composites. Nanotechnol Rev. 2021;10(1):1812–26.
+
+[34] Kim S-H, Zhang Y, Lee J-H, Lee S-Y, Kim Y-H, Rhee KY, et al. A study on interfacial behaviors of epoxy/graphene oxide derived from pitch-based graphite fibers. Nanotechnol Rev. 2021;10(1):1827–37.
+
+[35] Lu T, Chen FW. Multiwfn: a multifunctional wavefunction analyzer. J Comput Chem. 2012;33(5):580–92.
+
+[36] Premkumar S, Jawahar A, Mathavan T, Dhas MK, Sathe VG, Benial AMF. DFT calculation and vibrational spectroscopic studies of 2-(tert-butoxycarbonyl(Boc)-amino)-5-bromopyridine. Spectrochim Acta Part A-Mol Biomol Spectrosc. 2014;129:74–83.
+
+[37] Lee C, Yang W, Parr RG. Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density. Phys Rev B Condens Matter. 1988;37(2):785–9.
+
+[38] Lai Z, Wang S, Wang C, Hong Y, Zhou G, Chen Y, et al. A comparison of typical additives for copper electroplating based on theoretical computation. Comput Mater Sci. 2018;147:95–102.
+
+[39] Murray JS, Politzer P. The electrostatic potential: an overview. Wiley Interdiscip Rev Comput Mol Sci. 2011;1(2):153–63.
+
+[40] Hackett JC. Chemical reactivity theory: a density functional view. J Am Chem Soc. 2010;132(21):7558.
+
+[41] Wang C, An MZ, Yang PX, Zhang JQ. Prediction of a new leveler (N-butyl-methyl piperidinium bromide) for through-hole electroplating using molecular dynamics simulations. Electrochem Commun. 2012;18:104–7.
+
+[42] Kreider A, Barkey DP, Wong EH. On the displacement of adsorbed polyethylene glycol by 3-mercapto-1-propanesulfonate during copper electrodeposition. J Electrochem Soc. 2014;161(12):D663–5.
+
+[43] Zhong Q, Gu M, Li QA. Studies on the influence of sodium 3-mercaptopropanesulphonate additives on copper electro deposition. Acta Chim Sin. 2010;68(17):1707–12.
+
+[44] Gece G. The use of quantum chemical methods in corrosion inhibitor studies. Corros Sci. 2008;50(11):2981–92.
+
+[45] Tu HL, Yen PY, Wu HL, Chen S, Vogel W, Yau S, et al. In situ STM of 3-mercaptopropanesulfonate adsorbed on Pt(111) electrode and its efect on the electrodeposition of copper. J Electrochem Soc. 2010;157(4):D206–10.
+
+[46] Dow WP, Chiu YD, Yen MY. Microvia filling by Cu electroplating over a Au seed layer modified by a disulfide. J Electrochem Soc. 2009;156(4):D155–67.
+
+[47] Tarasevich YI. The surface energy of hydrophilic and hydrophobic adsorbents. Colloid J. 2007;69(2):212–20.

@@ -1,0 +1,2060 @@
+[
+    {
+        "type": "text",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            80,
+            103,
+            205,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Article",
+        "bbox": [
+            863,
+            103,
+            904,
+            115
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inhibitor Alkyne-PEG4-amine Contributes to Cobalt Superfilling",
+        "text_level": 1,
+        "bbox": [
+            80,
+            135,
+            868,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Yiting Tong, Dawei Lai, Ya Li, Tao Hang, Ming Li, and Yunwen Wu\\*",
+        "bbox": [
+            80,
+            165,
+            660,
+            183
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/fdc9a40b0f8508bdc538a55a712c0ced4317c7179df36283f19c6ec368697276.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            84,
+            205,
+            116,
+            230
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cite This: ACS Appl. Electron. Mater. 2024, 6, 5712−5719",
+        "bbox": [
+            118,
+            210,
+            443,
+            226
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/a3868e5638eeadc520f98053a5ca02bfee5729342db6a11b28a91e4209e0c685.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            514,
+            203,
+            548,
+            231
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Read Online",
+        "bbox": [
+            551,
+            211,
+            635,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ACCESS",
+        "bbox": [
+            80,
+            250,
+            174,
+            270
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Metrics & More",
+        "bbox": [
+            291,
+            255,
+            418,
+            270
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Article Recommendations",
+        "bbox": [
+            634,
+            255,
+            818,
+            270
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ABSTRACT: In the field of electronic plating, the addition of additives is the key to achieve cobalt superfilling, while finding and researching suitable additives is a major challenge. In this work, alkyne-PEG4-amine (AP4A) was used as an inhibitor to achieve nanometer scale superfilling of cobalt electrodeposition. The inhibition of AP4A was analyzed by electrochemical methods, including cyclic voltammetry and chronopotentiometry tests. AP4A efectively inhibits the cobalt electrodeposition, adsorbing onto the surface of the electrode and showing an outstanding ability for polarization. Quantum chemical calculations show that the amino group within AP4A may be the main active site for reaction, which possesses capacity for calculations show that the amino group within AP4A may be the main active site for donating electrons. Furthermore, surface morphology and crystalline structure characteriza tions indicate that, under the efect of AP4A, the cobalt film maintains excellent electrical properties while obtaining better flatness and preferential orientation of the AP4A, the cobalt film maintains excellent electrical properties while obtaining better flatn , AP4A was used and the bottom-up (101) crystal plane. In superfilling of nanometer scale structures with high aspect ratios electrodeposition of cobalt was successfully achieved, which demonstrates that AP4A is an efective inhibitor for cobalt superfilling electrodeposition of cobalt was successfully achieved, which demonstrates that AP4A is an and ofers an excellent solution strategy in electrodeposition area. and offers an excellent solution strategy in electrodeposition area",
+        "bbox": [
+            77,
+            285,
+            667,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/46d50e2fc5a5e4a168dc7f547b95e909f45c57377ec94210213b291e06a22888.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            675,
+            285,
+            914,
+            370
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            77,
+            381,
+            917,
+            466
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "KEYWORDS: Cobalt interconnection, Electrodeposition, Additive, Superfilling, IC interconnect",
+        "bbox": [
+            79,
+            467,
+            665,
+            483
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. INTRODUCTION",
+        "text_level": 2,
+        "bbox": [
+            80,
+            510,
+            225,
+            525
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "As the manufacture of integrated circuits advances toward smaller sizes and higher integration densities, the requirements for interconnect materials are becoming more stringent, while the limitations of traditional copper interconnection have become increasingly apparent.<sup>1−6</sup> The resistivity of copper interconnects increases exponentially when the width falls below the copper mean free path, primarily due to frequent electron scattering at interfaces and grain boundaries, which becomes the main factor determining the resistivity.<sup>7,8</sup> In contrast, cobalt interconnects possess better properties, such as very short electronic mean free path, relatively low price, and good compatibility in silicon-based electronic chips.<sup>9−11</sup> Besides, cobalt has a higher melting point, which is more beneficial to reduce the electromigration caused by atomic difusion.<sup>12</sup> These properties are particularly beneficial for applications in advanced integrated circuit assemblies in the post-Moore’s law era. Therefore, cobalt is expected to be a new generation of interconnection material instead of traditional copper. 13−15",
+        "bbox": [
+            77,
+            530,
+            482,
+            795
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The manufacture process of cobalt interconnects is similar to that of copper interconnects and is compatible with existing electrodeposition processes for copper damascene interconnects. The electrodeposition process for cobalt interconnection is an advanced interconnect technology for integrated circuits that utilizes a wet electrochemical deposition method to bottom-up fill the interconnect structures of semiconductor chips with cobalt metal. Electrodeposition has the advantages of simple operation, easy control of process parameters, and low cost and is considered to be the main technology for cobalt filling at present.<sup>16−18</sup> In recent years, the process of copper electrodeposition has been thoroughly studied, leading to a comprehensive understanding of the bottom-up electro deposition (superfilling) mechanism, which is also applied to cobalt electrodeposition to achieve defect-free interconnect structures.<sup>19,20</sup>",
+        "bbox": [
+            77,
+            795,
+            482,
+            935
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            512,
+            510,
+            917,
+            597
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The search for suitable additives is the core to fulfill the bottom-up electrodeposition mechanism. Generally, the electrodeposition rate of cobalt changes in diferent positions of the hole due to changing thermodynamics across the additive concentration gradient.<sup>21,22</sup> When the deposition rate at the bottom of the hole is higher than that at the upper part of the hole, it can obtain the void-free superfilling deposition of cobalt in the microvias, holes, or trenches from bottom to to p.<sup>23−25</sup> These additives have efects on controlling the deposition process and have influence on the surface morphology, crystal structure, and electrical properties of the cobalt films.<sup>26−29</sup> The research on cobalt electroplating additives has focused on finding compounds that can achieve superfilling while improving plating properties. However, there are few reports and research studies in this field, particularly for the superfilling processes at present.",
+        "bbox": [
+            510,
+            597,
+            917,
+            831
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/501d88f9a3d9ce5cd9b9101f15185dfcf61df6c65b42c528e911be66c66a4a32.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            843,
+            842,
+            914,
+            917
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "aside_text",
+        "text": "Downloaded via HARBIN INST OF TECHNOLOGY on October 2, 2025 at 03:06:42 (UTC). See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.",
+        "bbox": [
+            0,
+            295,
+            34,
+            701
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "ACSAPPLIED ELECTRONIC MATERIALS",
+        "bbox": [
+            82,
+            40,
+            345,
+            71
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "Received: April 28, 2024 Revised: July 12, 2024 Accepted: July 14, 2024 Published: August 5, 2024",
+        "bbox": [
+            512,
+            847,
+            680,
+            903
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "",
+        "bbox": [
+            80,
+            946,
+            120,
+            975
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "ACS Publications",
+        "bbox": [
+            123,
+            951,
+            275,
+            970
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "© 2024 American Chemical Society",
+        "bbox": [
+            303,
+            950,
+            462,
+            962
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "5712",
+        "bbox": [
+            482,
+            957,
+            514,
+            970
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS Appl, Electron, Mater, 2024, 6. 5712–5719",
+        "bbox": [
+            716,
+            950,
+            915,
+            968
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "In this work, we propose a cobalt electrodeposition additive which can be used for superfilling. The inhibition efect of alkyne-PEG4-amine (AP4A) was investigated by electrochemical methods, including cyclic voltammetry and chronopotentiometry. Quantum chemical calculations were applied to confirm the inhibition efect of the AP4A molecule on electrodeposition. The results of the cobalt electrodeposition experiment showed that AP4A has significant influence on electrical properties, surface morphology, and crystal structure. In superfilling of nanometer scale structures with high aspect ratios, the additive AP4A was used to achieve bottom-up cobalt electrodeposition successfully. This study provides a targeted solution for superfilled cobalt plating, which has a good role in promoting the development of electroplating in the future.",
+        "bbox": [
+            77,
+            71,
+            484,
+            267
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. EXPERIMENT",
+        "text_level": 2,
+        "bbox": [
+            79,
+            276,
+            205,
+            290
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1. Chemicals and Reagents. The cobalt electroplating solution was composed of cobalt sulfate heptahydrate $\\left( \\mathrm { C o S O } _ { 4 } \\right) .$ $\\mathrm { 7 H } _ { 2 } \\mathrm { O } )$ and boric acid $\\left( \\mathrm { H } _ { 3 } \\mathrm { B O } _ { 3 } \\right)$ , with the pH of the electroplating solution adjusted to 3.0 by using sulfuric acid $\\left( \\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 } ^ { - } \\right)$ . The concentrated solution of AP4A was made by dissolving an appropriate amount of reagent in purified water. Weight concentration of additives was used in the study, measured in parts per million (ppm).",
+        "bbox": [
+            77,
+            295,
+            482,
+            406
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.2. Electrochemical Tests. The electrochemical characteristics of the additive AP4A were assessed through cyclic voltammetry (CV) and chronopotentiometry tests. The experimental setup was established by utilizing a threeelectrode system linked to an electrochemical workstation (CHI660E, Chenhua). The configuration includes a platinum rotating disk electrode with a diameter of 5 mm (Pt-RDE, WE), a platinum plate electrodes (CE), and a saturated Hg/ $\\mathrm { H g } _ { 2 } \\mathrm { S O } _ { 4 }$ reference electrode (RE). The chronopotentiometry tests were conducted at a steady current of 0.4 ASD (0.4 A/ dm<sup>2</sup>). CV was performed with potential sweeps ranging from −1.5 to 0.2 V, with the scanning rate set at 50 mV/s. The electrode rotates at a speed of 500 rpm in most studies unless otherwise stated in the paper.",
+        "bbox": [
+            77,
+            405,
+            482,
+            598
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.3. Quantum Chemical Calculation. Quantum chemical calculations were executed with the Gaussian 16W software suite. The geometry optimizations of the AP4A molecule were conducted by density functional theory (DFT), using the B3LYP method with the $6 { \\cdot } 3 1 1 \\mathrm { G } { + } { + } ( \\mathrm { d } , \\mathrm { p } )$ basis set. The highest occupied molecular orbital (HOMO) and the lowest unoccupied molecular orbital (LUMO) were calculated. Besides, GaussView6.1 software was utilized to analyze the electrostatic potential (ESP) to determine the optimal reaction site and predict its adsorption properties.",
+        "bbox": [
+            77,
+            597,
+            482,
+            735
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.4. Electrodeposition. A cobalt plate of 99.99% purity served as the anode. Silicon wafers, measuring 1.5 cm by 1.5 cm, were prepared as cathodes, which were cleaved from a 12 in. diameter silicon wafer with a copper seed layer of 500 nm thickness deposited onto the adhesion layer. Unless otherwise noted, the cobalt films were electrodeposited at a current density of 0.4 ASD with a rotation speed of 500 rpm for a duration of 10 min. Electrodeposition experiments were performed at a constant environmental temperature of 25 ${ } ^ { \\circ } { \\mathrm { C } } .$ The morphology of cobalt films was characterized by scanning electron microscopy (SEM, TESCAN MIRA3). The surface roughness of the cobalt films was examined by atomic force microscopy (AFM, Oxford Instruments MFP-3D). The crystal structure of the cobalt film was obtained by an X-ray difractometer (XRD, Rigaku Mini Flex 600), operated at 40 kV and 15 mA, in the range from $3 0 ^ { \\circ }$ to ${ 8 0 ^ { \\circ } }$ with a step of $0 . 0 2 ^ { \\circ } .$ The depth profiles of various elements in the electrodeposited cobalt films were obtained using time-of flight secondary ion mass spectroscopy (TOF-SIMS, TESCAN GAIA3). The cobalt film sheet resistance was measured via a four-point probe setup. The silicon wafers with copper seed layer used for superfilling were nanometer-scale structures, with a diameter of approximately 100 nm and a high aspect ratio (AR) around 5.",
+        "bbox": [
+            77,
+            735,
+            484,
+            943
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            510,
+            71,
+            919,
+            197
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3. RESULTS AND DISCUSSION",
+        "text_level": 2,
+        "bbox": [
+            512,
+            208,
+            749,
+            223
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3.1. Electrochemical Tests. The inhibitive behaviors of AP4A on cobalt electrodeposition were investigated by electrochemical tests (Table 1). Figure 1a shows the CV",
+        "bbox": [
+            510,
+            226,
+            919,
+            270
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/7859219655554b3d8c532674b59684a571ab63be5684c908388f450e0aa11889.jpg",
+        "table_caption": [
+            "Table 1. Electrochemical Parameters"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Test</td><td>Parameter</td><td>Concentration of AP4A (ppm)</td><td>Rotation Speed (rpm)</td></tr><tr><td>cyclic voltammetry (CV)</td><td>-1.5–0.2 V</td><td>0–300</td><td>500</td></tr><tr><td>chronopotentiometry</td><td>0.4 ASD</td><td>0–300</td><td>100/500/1000</td></tr></table>",
+        "bbox": [
+            515,
+            302,
+            915,
+            382
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "results obtained at diferent concentrations of AP4A. The anodic stripping area in the CV curve decreases as the concentration of AP4A increases, which indicates the inhibition efects of AP4A in cobalt deposition. Moreover, the cobalt deposition potential decreases with increasing concentration of AP4A, which means AP4A displays a promotion efect on the polarization of cobalt electro deposition.",
+        "bbox": [
+            510,
+            405,
+            917,
+            515
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The inhibition efect at diferent concentrations and the saturation efect concentration of AP4A were investigated by using the linear fitting for the crossing point method (Figure 1b).<sup>30</sup> The integral value of the anodic stripping peak of CV curve is defined as $Q _ { 0 }$ without AP4A and as Q with AP4A. Significantly, the ratio $Q / Q _ { 0 }$ is influenced by the concentration of AP4A. This relationship can be categorized into three distinct phases, each characterized by a unique slope. The values of $Q / Q _ { 0 }$ show a significant decrease at low concentrations of AP4A but reach a stable stage at high concentrations of AP4A. Notably, a transitional slope is observed on the curve within the AP4A concentration range from 30 to 100 ppm. Upon further increasing the AP4A concentration above 100 ppm, the inhibition efect of AP4A on cobalt electrodeposition signifies the maximum.",
+        "bbox": [
+            510,
+            515,
+            917,
+            722
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The inhibition efect of AP4A was also demonstrated in the chronopotentiometry tests. Figure 1c shows the potential transients, with a transient polarization enhancement appearing immediately upon the addition of AP4A, followed by a gradual decrease in potential until a stable polarization behavior is achieved. The cathodic potential of cobalt deposition decreases from −1.428 V (additive-free) to −1.733 V (300 ppm AP4A). As the concentration of AP4A increased, the potential gradually decreased and the inhibition efect approached saturation, which is also consistent with the CV results. The additive AP4A can be considered as an inhibitor with a strong inhibition efect based on these electrochemical tests. The chronopotentiometry tests (Figure 1d) were also carried out to predict the superfilling capacity with high and low rotation speeds, respectively, simulating the top and bottom of the structures.<sup>31,32</sup> Within range from 5 to 200 ppm, the potential",
+        "bbox": [
+            510,
+            721,
+            919,
+            943
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "ACS Applied Electronic Materials",
+        "bbox": [
+            80,
+            46,
+            324,
+            61
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            523,
+            48,
+            652,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "Article",
+        "bbox": [
+            863,
+            48,
+            906,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS AppL Flectron Mater, 2024. 6. 5712–5719",
+        "bbox": [
+            716,
+            952,
+            917,
+            972
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "5713",
+        "bbox": [
+            482,
+            952,
+            514,
+            963
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(c)",
+        "bbox": [
+            255,
+            237,
+            273,
+            250
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(d)",
+        "bbox": [
+            504,
+            238,
+            525,
+            251
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a97d1abc800015ff193f5d6c21b2b55ccd03ddbcbab0c4deffcea1eb398ec654.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            243,
+            76,
+            485,
+            240
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/c0b548e6d3924b91bad029c361ac996073f6e98bb7bed7f5b84f95918f3286fb.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            497,
+            80,
+            749,
+            240
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/2efa38224ea88378f8a7bb6ff954609f842f1664c715cb3e4c7a6fb4ead86f80.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            235,
+            245,
+            497,
+            405
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/f9db392f74b66b69fae32912f39a4dc6f7b337fd3ea64c6d5a9a70733776fa8d.jpg",
+        "content": "",
+        "chart_caption": [
+            "Figure 1. (a) CV curves of various concentrations. (b) $Q / Q _ { 0 }$ as a function of AP4A concentration, (c) Potential change obtained in the chronopotentiometry tests with increasing concentration of AP4A, (d) Impact of diferent rotation speeds (100/1000 rpm) in chronopotentiometry tests with increasing concentration of AP4A."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            497,
+            247,
+            759,
+            405
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "of 100 rpm is higher than 1000 rpm for the same concentration, which means a weaker inhibition efect, and as a result, the deposition rate on the bottom should be higher than that on the surface, promoting bottom-up electrodeposition. From the above electrochemical characterization, AP4A is considered to show excellent potential for superfilling.",
+        "bbox": [
+            77,
+            465,
+            482,
+            548
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2. Quantum Chemical Calculations. Quantum chem ical calculations are used to predict the molecular properties and behaviors. Frontier molecular orbitals, including HOMO and LUMO, are important tools for investigating the interaction at the atomic level, utilized to predict interactions between molecules and metal surfaces, as well as elucidate adsorption and reaction mechanisms (Figure 2). A molecule’s HOMO reflects its capacity for donating electrons to metal ions, and its LUMO reflects its capacity for accepting electrons from the metal substrate. The lower the value of the energy gap $\\left( \\Delta E = E _ { \\mathrm { L U M O } } - E _ { \\mathrm { H O M O } } \\right)$ is, the more stable the adsorption 33−35",
+        "bbox": [
+            77,
+            548,
+            482,
+            716
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "As for molecule AP4A, the $E _ { \\mathrm { L O M O } }$ value is −0.348 eV (Figure 2a) and the $E _ { \\mathrm { H O M O } }$ value is −6.806 eV (Figure 2b), with ΔE equal to 6.458 eV, which suggests that AP4A can efectively adsorb onto the surface of the electrode and interact with cobalt cations, influencing the process of cobalt electrodeposition. The amino group is the main contributor to the HOMO orbital. Organics with higher $E _ { \\mathrm { H O M O } }$ values exhibit an enhanced ability to donate electrons, which facilitates their bonding with the d-orbital of metal. Thus, as for AP4A, it can enhance adsorption onto the electrode surface and inhibit cobalt deposition.",
+        "bbox": [
+            77,
+            716,
+            482,
+            871
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The electrostatic potential (ESP) map ofers a visual depiction of the electron density contributed by diferent atoms across its molecular surface, which is essential for predicting its electrophilic reaction sites and the interac tion.<sup>3,34,35</sup> In the visualization (Figure 2c), areas of high electron density are indicated by blue, reflecting lower ESP values, while areas of low electron density are indicated by red, reflecting higher ESP values. In the ESP map of AP4A, the amino group exhibits high electron density, which indicates that this group may function as the main active site to interact with cobalt during the electrodeposition reaction.",
+        "bbox": [
+            77,
+            870,
+            482,
+            942
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/2ad1117f5e81bfdbb6c4fb76dc56471e376b8f3a78e98f4a302cf1cb1e7528bf.jpg",
+        "image_caption": [
+            "Figure 2. Quantum chemistry calculation results of AP4A shown as ( ) − ( ) − ( ) AP4A. Color of atoms: H (white), C (gray), N (blue), and O (red)."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            514,
+            461,
+            914,
+            740
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            512,
+            803,
+            917,
+            886
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.3. Electrodeposition. Based on the above electrochemical tests and quantum chemical calculations, cobalt films were obtained by electrodeposition experiments, and various characterizations were conducted to investigate the efect of AP4A in cobalt electrodeposition. The SEM images (Figure 3) display the influence of AP4A on the surface morphology. Compared with the cobalt electrodeposited from the solution without AP4A (Figure 3a). the cobalt film changed significantly under the efect of AP4A (Figure 3b−d), with the cobalt film becoming flatter and denser and the grains becoming larger.",
+        "bbox": [
+            510,
+            886,
+            917,
+            942
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "ACS Applied Electronic Materials",
+        "bbox": [
+            80,
+            46,
+            324,
+            61
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            523,
+            48,
+            652,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Article",
+        "bbox": [
+            863,
+            48,
+            906,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "5714",
+        "bbox": [
+            482,
+            952,
+            514,
+            963
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS AppL Flectron Mater, 2024. 6. 5712–5719",
+        "bbox": [
+            716,
+            953,
+            915,
+            972
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/d94c1dc4b1c79aa6b01543d464eadfce6284775946828263d49cf07b7339f4c6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            105,
+            72,
+            485,
+            286
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/7c3766d5ce0dfea0f42f3647de3d665b7c7bf18d967539b08c1a954fc2494407.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            105,
+            287,
+            485,
+            500
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/26dbee8a1ffc1151952ca248d991abd61bbacce14b813b5812c73f8d72e9f78d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            485,
+            72,
+            866,
+            285
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/22e4977e2db9f696e20bcfe1b8640b0f2c675c46062520db12d1ef71b1d07f99.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            485,
+            286,
+            866,
+            500
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/15f1af14177a74e82c0c066bc09116bb4517e7fbb21a6766ed804c3b50490090.jpg",
+        "image_caption": [
+            "(e) without additives"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            84,
+            548,
+            487,
+            765
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/caff5b404528455866d8e28582afa0fcaa2c820fd7a201bdbcac641499d9afe8.jpg",
+        "image_caption": [
+            "(f)",
+            "5ppm AP4A",
+            "Figure 3. SEM images of cobalt film surfaces (a) without AP4A, (b) with 2 ppm AP4A, (c) with 5 ppm AP4A, and (d) with 10 ppm AP4A. AFM images of cobalt film surfaces (a) without AP4A and (f) with 5 ppm AP4A."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            492,
+            553,
+            915,
+            765
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            77,
+            810,
+            482,
+            912
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The surface roughness is quantified by AFM (Figure 3e,f), showing that the arithmetic mean roughness $\\left( R _ { \\mathrm { a } } \\right)$ of the cobalt film without any additive is 16.388 nm and with 5 ppm AP4A is 8.240 nm. The cobalt film with AP4A has a lower $R _ { \\mathfrak { a } }$ than the film without AP4A, confirming that AP4A enhances the uniformity and flatness of the cobalt film during electro deposition.",
+        "bbox": [
+            77,
+            912,
+            482,
+            943
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            512,
+            810,
+            917,
+            883
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "From XRD analysis, AP4A was also found to have a significant influence on the crystal structure of the cobalt films. The additive-free cobalt deposits exhibit a hexagonal close packed (HCP) structure, while the addition of AP4A diminishes the difraction peak intensity of the cobalt (100), (002), and (110) planes as shown in Figure 4a, suggesting that AP4A specifically inhibits the growth of these particular surfaces while the (101) plane becomes the main growth direction.",
+        "bbox": [
+            510,
+            883,
+            917,
+            942
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "ACS Applied Electronic Materials",
+        "bbox": [
+            80,
+            46,
+            324,
+            61
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            523,
+            48,
+            652,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "Article",
+        "bbox": [
+            863,
+            48,
+            906,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "5715",
+        "bbox": [
+            482,
+            952,
+            514,
+            963
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS Appl Flectron Mater, 2024, 6. 5712–5719",
+        "bbox": [
+            716,
+            952,
+            915,
+            972
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/ad8cabe8ab8e8d8cb6c8d8a7bfb4d6c820b4ec529949d38ef3aef160b03b6f9e.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)",
+            "(c)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            247,
+            75,
+            487,
+            233
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/18248068a3cb276200e6ffd4308aef78096b4a79da10cb70fcbc49d4cb07f501.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            500,
+            75,
+            744,
+            235
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/f242f82d105e41a747b6b78eda1d9baed8c2c8ca55f1a811ef08df03457ac16b.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            253,
+            245,
+            490,
+            400
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/be4675e035e5e27b4b16c1027c1634e6ef81de67829a8cf172ed6c723d6ede1f.jpg",
+        "content": "",
+        "chart_caption": [
+            "(d)",
+            "Figure 4. (a) XRD patterns of cobalt films deposited with diferent concentrations of AP4A. (b) Resistivity of the cobalt films with diferent concentrations of AP4A. TOF-SIMS patterns of cobalt films (c) without additive and (d) with 5 ppm AP4A."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            502,
+            243,
+            739,
+            400
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            77,
+            450,
+            482,
+            523
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "To assess the electrical performance of the cobalt films, resistivity measurements (Figure 4b) were conducted on the samples. The additive-free cobalt film demonstrates the lowest resistivity, approximately 10.2 μΩ·cm. After the addition of AP4A, the resistivity remains low and stabilizes at around 11− 12 μΩ·cm. The resistivity slightly increases as the concentration of AP4A increases, which may be attributed to the nonmetallic impurities added by additive doping in the electrodeposition process. The impurity distribution in cobalt films with and without 5 ppm AP4A was investigated by TOF-SIMS (Figure 4c,d). It is obvious that the content of some organic impurity elements (especially N) are increased, while the N element only originates from the additive AP4A, confirming the introduction of nonmetallic impurities by the additive.",
+        "bbox": [
+            77,
+            523,
+            482,
+            740
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.4. Cobalt Superfilling. In the electrodeposition process, the constraints of the hole geometry lead to higher electric field and mass-transport conditions at the top of the hole.<sup>36,37</sup> The current and ion concentration at the top of the hole is often higher than at the bottom; as a result, cobalt tends to deposit more rapidly at the top than at the bottom, resulting in the formation of structures containing voids. Besides, as the current density increases, the possibility of void formation also rises, which is attributed to a more pronounced concentration of current at the top of the hole and an increased restriction on mass-transport at the bottom. Therefore, in terms of current parameter settings, the electrodeposition was carried out using segmental currents and starting from a small current (Table 2) in order to optimize the filling process, improve the filling eficiency, and reduce the defects (such as pores and voids) in the process.",
+        "bbox": [
+            77,
+            740,
+            484,
+            945
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            512,
+            451,
+            915,
+            483
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/c318d9ca1c41cbd47bbed6d73b45cbb2400ce88dd34987568764b541fc8394cb.jpg",
+        "table_caption": [
+            "Table 2. Electrodeposition Procedures"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Steps</td><td>Current Density (ASD)</td><td>Time (s)</td><td>Purpose</td></tr><tr><td>preprocessing</td><td>0</td><td>5</td><td>preimmersion</td></tr><tr><td>step 1</td><td>0.4</td><td>60</td><td>fill the hole</td></tr><tr><td>step 2</td><td>0.7</td><td>80</td><td>fill the hole</td></tr><tr><td>step 3</td><td>1.0</td><td>90</td><td>thicken the surface layer</td></tr></table>",
+        "bbox": [
+            515,
+            516,
+            915,
+            602
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Based on the above study, cobalt superfilling electrodeposition was performed with AP4A. The cross-sectional view (Figure 5) confirms AP4A’s capability as an inhibitor in cobalt superfilling. In this work, the concentration of AP4A is 5 ppm, which achieved bottom-up cobalt electrodeposition. The bottom-up filling mechanism is depicted in Figure 6. During the process of cobalt electrodeposition, AP4A molecules are adsorbed on the surface of the electrode, modulating the partial electric field strength and current density distribution. In addition, under the influence of mass transport, the molecules have a higher concentration at the top of the hole, leading to a more significant inhibitory efect and slowing down the rate of reduction of the cobalt ions. As a result, the electric field and concentration gradient developed in the presence of the AP4A molecules lead to a higher rate of deposition of cobalt ions at the bottom of the hole than at the top, resulting in the expected bottom-up superfilling.",
+        "bbox": [
+            510,
+            623,
+            919,
+            860
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4. CONCLUSIONS",
+        "text_level": 2,
+        "bbox": [
+            512,
+            866,
+            655,
+            882
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "In summary, this research successfully achieved cobalt superfilling in high aspect ratio nanometer scale structures under the action of AP4A. From the analysis of electrochemical tests and quantum chemical calculations, the cobalt electro deposition inhibitor AP4A shows a splendid ability for polarization, mainly resulting from the capacity for donating electrons of the amino group. Furthermore, AP4A can afect the surface morphology and crystalline structure of the cobalt film. Under the efect of AP4A, the cobalt film maintains excellent electrical properties while obtaining better flatness with $R _ { \\mathrm { a } }$ reduced from 16.388 nm (without additive) to 8.240 nm (with AP4A) and preferential orientation of the (101) crystal plane.",
+        "bbox": [
+            512,
+            885,
+            917,
+            942
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "ACS Applied Electronic Materials",
+        "bbox": [
+            80,
+            46,
+            324,
+            61
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            523,
+            48,
+            652,
+            61
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "Article",
+        "bbox": [
+            863,
+            48,
+            906,
+            60
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5716",
+        "bbox": [
+            482,
+            952,
+            514,
+            963
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS Appl Flectron Mater, 2024, 6. 5712–5719",
+        "bbox": [
+            716,
+            953,
+            915,
+            972
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/47cd8ce48cf5bed29945b75c929c90a87200b0f482830013a754ae9bbe69235e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            166,
+            75,
+            830,
+            305
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/2cddef94c844aef3ec7839fb4796accdabe845d626e17f84aafba80174aaf64e.jpg",
+        "image_caption": [
+            "Figure 5. Cross-sectional FIB-SEM views of cobalt superfilling (a) before and (b) after electrodeposition with 5ppm AP4A.",
+            "Figure 6. Schemefor bottom up superfilling of cobalt electrodeposition."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            199,
+            345,
+            797,
+            570
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            77,
+            602,
+            482,
+            727
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "In this work, the feasibility for achieving superfilling with additives is assessed by electrochemical experiments and quantum chemical calculations in the first place, which is verified by practical filling of electrodeposition. This research successfully identifies an additive molecule that can be used for cobalt superfilling and investigates its inhibition mechanism as well as its film properties, providing helpful insights into the relationship between molecule and microstructure, which is meaningful for realizing high-quality nanoscale cobalt inter connections and for the search of other potential additives.",
+        "bbox": [
+            77,
+            726,
+            484,
+            866
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "■ AUTHOR INFORMATION",
+        "text_level": 2,
+        "bbox": [
+            80,
+            878,
+            294,
+            893
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Corresponding Author",
+        "text_level": 2,
+        "bbox": [
+            80,
+            897,
+            242,
+            912
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Yunwen Wu − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering,",
+        "bbox": [
+            95,
+            913,
+            457,
+            943
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Shanghai Jiao Tong University, Shanghai 200240, China; orcid.org/0000-0001-5404-607X; Email: tlwuyunwen@ sjtu.edu.cn",
+        "bbox": [
+            542,
+            602,
+            914,
+            645
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Authors",
+        "text_level": 2,
+        "bbox": [
+            514,
+            656,
+            576,
+            671
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "ref_text",
+        "text": "Yiting Tong − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China; orcid.org/0009-0007-7074-6966",
+        "bbox": [
+            530,
+            675,
+            907,
+            730
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "ref_text",
+        "text": "Dawei Lai − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China; orcid.org/0009-0009-7783-463X",
+        "bbox": [
+            530,
+            730,
+            907,
+            785
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "ref_text",
+        "text": "Ya Li − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China",
+        "bbox": [
+            530,
+            785,
+            909,
+            826
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "ref_text",
+        "text": "Tao Hang − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China; orcid.org/0000-0001-6902-0788",
+        "bbox": [
+            532,
+            826,
+            909,
+            881
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "ref_text",
+        "text": "Ming Li − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China",
+        "bbox": [
+            530,
+            881,
+            914,
+            923
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "ref_text",
+        "text": "Complete contact information is available at:",
+        "bbox": [
+            515,
+            927,
+            810,
+            942
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "ACS Applied Electronic Materials",
+        "bbox": [
+            80,
+            46,
+            324,
+            61
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            523,
+            48,
+            652,
+            61
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "Article",
+        "bbox": [
+            863,
+            48,
+            906,
+            60
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "5717",
+        "bbox": [
+            482,
+            951,
+            514,
+            963
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS Appl Flectron Mater, 2024, 6. 5712–5719",
+        "bbox": [
+            716,
+            952,
+            915,
+            972
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "https://pubs.acs.org/10.1021/acsaelm.4c00774",
+        "bbox": [
+            79,
+            72,
+            383,
+            87
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Notes",
+        "text_level": 2,
+        "bbox": [
+            80,
+            100,
+            126,
+            113
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The authors declare no competing financial interest.",
+        "bbox": [
+            80,
+            115,
+            420,
+            130
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "■ ACKNOWLEDGMENTS",
+        "text_level": 2,
+        "bbox": [
+            80,
+            145,
+            276,
+            160
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "This work was financially supported by the National Natural Science Foundation of China (No. 51991374).",
+        "bbox": [
+            79,
+            165,
+            482,
+            195
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "■ REFERENCES",
+        "text_level": 2,
+        "bbox": [
+            80,
+            208,
+            207,
+            223
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(1) de Oliveira Hansen, R.; Mátéfi-Tempfli, M.; Safonovs, R.; Adam, J.; Chemnitz, S.; Reimer, T.; Wagner, B.; Benecke, W.; Mátéfi-Tempfli, S. Magnetic films for electromagnetic actuation in MEMS switches. Microsyst. Technol. 2018, 24 (4), 1987−1994.",
+        "bbox": [
+            80,
+            230,
+            481,
+            280
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(2) Luo, X.; Chen, C.-Y.; Chang, T.-F. M.; Sone, M.; Zhang, Q.; Zhang, J. The Structure and Micro-Mechanical Properties of Electrodeposited Cobalt Films by Micro-Compression Test. J. Electrochem. Soc. 2021, 168 (10), 102502.",
+        "bbox": [
+            80,
+            280,
+            481,
+            330
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(3) Zhang, D.; Chen, Y.; Su, Y.; Hong, Y.; Wang, C.; Zhou, G.; Wang, S.; He, W.; Sun, Y.; Zhang, W.; et al. Additive-assisted cobalt electrodeposition as surface magnetic coating to enhance the inductance of spiral copper inductors. Surf. Interfaces 2022, 28, 101603.",
+        "bbox": [
+            80,
+            330,
+            481,
+            391
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(4) Broekmann, P.; Fluegel, A.; Emnet, C.; Arnold, M.; Roeger-Goepfert, C.; Wagner, A.; Hai, N. T. M.; Mayer, D. Classification of suppressor additives based on synergistic and antagonistic ensemble effects. Electrochim. Acta 2011, 56 (13), 4724−4734.",
+        "bbox": [
+            80,
+            391,
+            482,
+            441
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(5) He, M.; Zhang, X.; Nogami, T.; Lin, X.; Kelly, J.; Kim, H.; Spooner, T.; Edelstein, D.; Zhao, L. Mechanism of Co Liner as Enhancement Layer for Cu Interconnect Gap-Fill. J. Electrochem. Soc. 2013, 160 (12), D3040−D3044.",
+        "bbox": [
+            80,
+            441,
+            481,
+            491
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(6) Zheng, Y.; Gao, L.; Dong, R.; He, S. Role of CCUS in carbon neutral power system. Carb Neutrality 2022, 1, 19.",
+        "bbox": [
+            80,
+            492,
+            481,
+            516
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(7) Huang, Q.; Lyons, T. W.; Sides, W. D. Electrodeposition of Cobalt for Interconnect Application: Effect of Dimethylglyoxime. J. Electrochem. Soc. 2016, 163 (13), D715−D721.",
+        "bbox": [
+            80,
+            516,
+            481,
+            555
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(8) Hu, Y.; Huang, Q. Effects of Dimethylglyoxime and Cyclohexane Dioxime on the Electrochemical Nucleation and Growth of Cobalt. J. Electrochem. Soc. 2019, 166 (1), D3175−D3181.",
+        "bbox": [
+            80,
+            555,
+            481,
+            591
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(9) Hu, Y.; Huang, Q. Oscillatory Behavior in Cobalt Electrodeposition with 3-Mercapto-1-Propanesulfonate. J. Phys. Chem. C 2020, 124 (39), 21608−21616.",
+        "bbox": [
+            80,
+            591,
+            481,
+            630
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(10) Kang, J.; Sung, M.; Byun, J.; Kwon, O. J.; Kim, J. J. Superconformal Cobalt Electrodeposition with a Hydrogen Evolution Reaction Suppressing Additive. J. Electrochem. Soc. 2020, 167 (16), 162514.",
+        "bbox": [
+            80,
+            630,
+            481,
+            678
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(11) Ciofi, I.; Roussel, P. J.; Saad, Y.; Moroz, V.; Hu, C.; Baert, R.; Croes, K.; Contino, A.; Vandersmissen, K.; Gao, W.; et al. Modeling of Via Resistance for Advanced Technology Nodes. IEEE Trans. Electro. Dev. 2017, 64 (5), 2306−2313.",
+        "bbox": [
+            80,
+            680,
+            481,
+            728
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(12) Hu, Y.; Deb, S.; Li, D.; Huang, Q. Effects of organic additives on the impurity and grain structure of electrodeposited cobalt. Electrochim. Acta 2021, 368, 137594.",
+        "bbox": [
+            80,
+            728,
+            481,
+            766
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(13) Ma, X.; Li, Y.; Yang, P.; Zhang, J.; An, M. Influence of suppressing additive malachite green on superconformal cobalt electrodeposition. J. Electroanal. Chem. 2022, 921, 116696.",
+        "bbox": [
+            80,
+            766,
+            482,
+            803
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(14) Qiu, L.-N.; Ni, Z.-H.; Wang, Y.-J.; Hu, C.-F.; Qu, X.-P. Electroless Deposition of Pure Co on TaN Substrate for Interconnect Metallization. J. Electrochem. Soc. 2022, 169 (7), 072507.",
+        "bbox": [
+            80,
+            803,
+            479,
+            841
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(15) Wislicenus, M.; Liske, R.; Gerlich, L.; Vasilev, B.; Preusse, A. Cobalt advanced barrier metallization: A resistivity composition analysis. Microelectron. Eng. 2015, 137, 11−15.",
+        "bbox": [
+            80,
+            841,
+            479,
+            878
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(16) Song, Q.; Zhao, Y.; Wang, C.; Xie, H.; Yin, H.; Ning, Z. Bubble-assisted densification of cobalt deposit during electrowinning in CoCl2 solution. Hydrometall. 2019, 189, 105111.",
+        "bbox": [
+            80,
+            878,
+            481,
+            915
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(17) Su, F.; Liu, C.; Zuo, Q.; Huang, P.; Miao, M. A comparative study of electrodeposition techniques on the microstructure and",
+        "bbox": [
+            80,
+            915,
+            481,
+            941
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "property of nanocrystalline cobalt deposit. Mater. Chem. Phys. 2013, 139 (2−3), 663−673.",
+        "bbox": [
+            514,
+            72,
+            915,
+            97
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(18) Wu, J.; Wafula, F.; Branagan, S.; Suzuki, H.; van Eisden, J. Mechanism of Cobalt Bottom-Up Filling for Advanced Node Interconnect Metallization. J. Electrochem. Soc. 2019, 166 (1), D3136−D3141.",
+        "bbox": [
+            514,
+            97,
+            915,
+            148
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(19) Xiao, N.; Li, D.; Cui, G.; Li, N.; Li, Q.; Wu, G. Adsorption behavior of triblock copolymer suppressors during the copper electrodeposition. Electrochim. Acta 2014, 116, 284−291.",
+        "bbox": [
+            514,
+            150,
+            915,
+            186
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(20) Lyons, T. W.; Huang, Q. Effects of Cyclohexane- Monoxime and Dioxime on the Electrodeposition of Cobalt. Electrochim. Acta 2017, 245, 309−317.",
+        "bbox": [
+            514,
+            187,
+            915,
+            225
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(21) Kiruba, M.; Lakshminarasimhan, N.; Jeyabharathi, C. Butynediol’s Role beyond Brightening Additive during Electrodeposition of Cobalt. J. Electrochem. Soc. 2022, 169 (3), 032507.",
+        "bbox": [
+            514,
+            225,
+            915,
+            263
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(22) Lee, C. H.; Bonevich, J. E.; Davies, J. E.; Moffat, T. P. Superconformal Electrodeposition of Co and Co-Fe Alloys Using 2- Mercapto-5-benzimidazolesulfonic Acid. J. Electrochem. Soc. 2009, 156 (8), D301−D309.",
+        "bbox": [
+            514,
+            263,
+            915,
+            315
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(23) Josell, D.; Silva, M.; Moffat, T. P. Superconformal Bottom-Up Cobalt Deposition in High Aspect Ratio Through Silicon Vias. J. Electrochem. Soc. 2016, 163 (14), D809−D817.",
+        "bbox": [
+            515,
+            315,
+            915,
+            352
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(24) Rigsby, M. A.; Brogan, L. J.; Doubina, N. V.; Liu, Y.; Opocensky, E. C.; Spurlin, T. A.; Zhou, J.; Reid, J. D. Superconformal Cobalt Fill through the Use of Sacrificial Oxidants. ECS Trans. 2017, 80 (10), 767−776.",
+        "bbox": [
+            514,
+            353,
+            915,
+            403
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(25) Rigsby, M. A.; Brogan, L. J.; Doubina, N. V.; Liu, Y.; Opocensky, E. C.; Spurlin, T. A.; Zhou, J.; Reid, J. D. The Critical Role of pH Gradient Formation in Driving Superconformal Cobalt Deposition. J. Electrochem. Soc. 2019, 166 (1), D3167−D3174.",
+        "bbox": [
+            514,
+            405,
+            915,
+            455
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(26) Fukui, R.; Katayama, Y.; Miura, T. The effect of organic additives in electrodeposition of Co from an amide-type ionic liquid. Electrochim. Acta 2011, 56 (3), 1190−1196.",
+        "bbox": [
+            514,
+            455,
+            915,
+            493
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(27) Pan, B.; Zhang, Q.; Liu, Z.; Yang, Y. Influence of butynediol and tetrabutylammonium bromide on the morphology and structure of electrodeposited cobalt in the presence of saccharin. Mater. Chem. Phys. 2019, 228, 37−44.",
+        "bbox": [
+            514,
+            493,
+            915,
+            545
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(28) Manhabosco, T. M.; Müller, I. L. Influence of saccharin on morphology and properties of cobalt thin films electrodeposited ove n-Si(100). Surf. Coat. Technol. 2008, 202 (15), 3585−3590.",
+        "bbox": [
+            514,
+            545,
+            915,
+            583
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(29) Banbur-Pawlowska, S.; Mech, K.; Kowalik, R.; Zabinski, P. Analysis of electrodeposition parameters influence on cobalt deposi roughness. Appl. Surf. Sci. 2016, 388, 805−808.",
+        "bbox": [
+            514,
+            583,
+            915,
+            621
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(30) Zhang, M.; Chang, P.; Chen, P.; Hang, T.; Li, M.; Wu, Y. Super-flat and uni-oriented cobalt film electrodeposited by modulat ing the crystal nucleation and growth behavior. Appl. Surf. Sci. 2024, 645. 158795.",
+        "bbox": [
+            514,
+            621,
+            915,
+            671
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(31) Li, Y.; Ren, P.; Zhang, Y.; Li, R.; Zhang, J.; Yang, P.; Liu, A.; Wang, G.; An, M. Investigation of novel leveler Rhodamine B on copper superconformal electrodeposition of microvias by theoretical and experimental studies. Appl. Surf. Sci. 2023, 615, 156266.",
+        "bbox": [
+            514,
+            672,
+            915,
+            723
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(32) Ni, X.; Chen, Y.; Jin, X.; Wang, C.; Huang, Y.; Hong, Y.; Su, X.; Zhou, G.; Wang, S.; He, W.; et al. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition. J. Taiwan Inst. Chem. Eng. 2020, 112, 232−239.",
+        "bbox": [
+            514,
+            723,
+            915,
+            775
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(33) Feng, X.; Yu, N.; Hang, T.; Zhang, Y.; Li, M. Experimental and Theoretical Study on Self-Annealing Behavior of Copper Film Electroplated with 2-Mercaptopyridine and 2-Aminobenzothiazole as Additives. J. Electrochem. Soc. 2016, 163 (2), D57−D62",
+        "bbox": [
+            514,
+            775,
+            915,
+            826
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(34) Ni, X.; Wang, C.; Su, Y.; Luo, Y.; Ye, Y.; Su, X.; He, W.; Wang, S.; Hong, Y.; Chen, Y.; et al. Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pilla by electrodeposition. Nanotechnol. Rev. 2022, 11 (1), 1209−1218.",
+        "bbox": [
+            514,
+            826,
+            915,
+            876
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(35) Uzun, S.; Esen, Z.; Koç, E.; Usta, N. C.; Ceylan, M. Experimental and density functional theory (MEP, FMO, NLO, Fukui functions) and antibacterial activity studies on 2-amino-4- (4- nitrophenyl) −5,6-dihydrobenzo [h] quinoline-3-carbonitrile. J. Mol. Struct. 2019, 1178, 450−457.",
+        "bbox": [
+            514,
+            877,
+            915,
+            940
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "ACS Applied Electronic Materials",
+        "bbox": [
+            80,
+            46,
+            324,
+            61
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            523,
+            48,
+            652,
+            60
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Article",
+        "bbox": [
+            863,
+            48,
+            904,
+            60
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "5718",
+        "bbox": [
+            482,
+            952,
+            514,
+            963
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS Appl Electron Mater, 2024. 6. 5712–5719",
+        "bbox": [
+            716,
+            953,
+            915,
+            972
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "ref_text",
+        "text": "(36) Beica, R.; Sharbono, C.; Ritzdorf, T. Through silicon via copper electrodeposition for 3D integration. 58th Electro. Comp. & Tech. Conf. 2008, 577.",
+        "bbox": [
+            80,
+            72,
+            479,
+            108
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "(37) Kim, B.; Sharbono, C.; Ritzdorf, T.; Schmauch, D. Factors affecting copper filling process within high aspect ratio deep vias for 3D chip stacking. 56th Electro. Comp. & Tech. Conf. 2006, 1.",
+        "bbox": [
+            80,
+            110,
+            481,
+            147
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/10caf5d17f8e04fa88de60019a6040a4d6935ca7b538542c51530874457c33e0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            518,
+            541,
+            617,
+            940
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "CAS BIOFINDER DISCOVERY PLATFORMTM",
+        "bbox": [
+            640,
+            628,
+            876,
+            641
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "BRIDGE BIOLOGY AND CHEMISTRY FOR FASTER ANSWERS",
+        "text_level": 1,
+        "bbox": [
+            640,
+            645,
+            876,
+            755
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Analyze target relationships, compound effects, and disease pathways",
+        "bbox": [
+            639,
+            758,
+            866,
+            800
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Explore the platform",
+        "bbox": [
+            650,
+            812,
+            873,
+            832
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1021/acsaelm.4c00774 ACS AppL Flectron Mater, 2024. 6. 5712–5719",
+        "bbox": [
+            718,
+            953,
+            915,
+            971
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "ACS Applied Electronic Materials",
+        "bbox": [
+            80,
+            47,
+            322,
+            60
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "pubs.acs.org/acsaelm",
+        "bbox": [
+            523,
+            48,
+            650,
+            60
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Article",
+        "bbox": [
+            864,
+            48,
+            904,
+            60
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "CAS American Chemical Societ",
+        "bbox": [
+            780,
+            882,
+            896,
+            933
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "5719",
+        "bbox": [
+            482,
+            952,
+            512,
+            963
+        ],
+        "page_idx": 7
+    }
+]

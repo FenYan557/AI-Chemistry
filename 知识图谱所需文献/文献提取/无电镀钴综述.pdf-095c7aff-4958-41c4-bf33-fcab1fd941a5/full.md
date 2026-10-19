@@ -1,0 +1,617 @@
+REVIEW ARTICLE MECHANICAL ENGINEERING
+
+![](images/3615c070e2007637bf57c441c39017a7e167bf9e8eebc69f2226859a76f3aef4.jpg)
+
+# Unveiling the Potential of Electroless Cobalt Deposition: A Review
+
+Anurag Chakraborti<sup>1</sup> Suman Kalyan Das<sup>1</sup> Prasanta Sahoo<sup>1</sup>
+
+Received: 3 March 2025 / Accepted: 13 August 2025 © King Fahd University of Petroleum & Minerals 2025
+
+## Abstract
+
+This comprehensive review explores electroless cobalt deposition, an appealing surface modification technique that offers advantages such as uniform coverage on complex geometries and compatibility with diverse substrate materials without external power. The article systematically examines the critical impact of various bath constituents and operational variables on the characteristics of deposited films. It details the roles of the cobalt source, different reducing agents, complexing agents, pH regulators, and stabilizers. Additionally, the article scrutinizes the influence of deposition parameters like temperature, solution pH, agitation methods, and bath aging. The formation of numerous cobalt-based alloys and composite materials are also discussed. This review aims to guide the development of optimized electroless cobalt plating solutions, highlighting their wide-ranging utility in fields such as microelectronics, data storage, protective coatings, electrolytic green H₂ generation metal matrix composites, and electromagnetic shielding, thereby fostering advancements in intricate material fabrication
+
+Keywords Electroless Cobalt Protective coating Thin film
+
+## 1 Introduction
+
+Electroless cobalt plating stands out as a versatile and efficient method for depositing a thin layer of cobalt metal on any surface. Unlike traditional electroplating, which relies on external electrical current, electroless cobalt utilizes a chemical reduction process. This eliminates the need for exclusively conducting substrates, complex electrical setup and allows for more uniform deposition on intricate surfaces. The process is steadily gaining traction since its inception by Brenner and Riddell [1] in 1947 due to simplicity of the technique and lower cost of instrumentation. Electroless coating or autocatalytic coating is a category of chemical process that deposits one or more metal layers by autocatalytic reduction of metal cations in a liquid chemical bath. One of the significant advantages of electroless plating is its ability to achieve a more even and conformal coating compared to electroplating. Unlike electroplating, homogeneity of deposit thickness is maintained even in the sharp corners or intricate recesses of the substrate surface [2, 3]. This characteristic makes it ideal for applications where uniform coverage is crucial, such as in microelectronics and the fabrication of magnetic thin films. The composition of the electroless plating solution can be tailored to control the properties of the deposited cobalt layer. Electroless cobalt alloy finds applications in various fields. In the microelectronics industry, it is used to create diffusion barriers [4, 5] and seed layers [6, 7] for subsequent electroplating processes. The magnetic properties ofcobalt make it a valuable material for data storage devices and magnetic sensors [8, 9]. Since US Environmental Protection Agency (US EPA) categorized Cr<sup>6+</sup> containing baths (essential for hard chrome plating) as unsuitable for environment and stressed on alternative approaches [10], cobalt-based plating has also been explored and employed for wear [11–13] and corrosion [14, 15] protection of metallic components. While electroless plating excels at creating thin films, its potential extends far beyond simple flat surfaces. Deposition of 3D structures like cobalt microspheres [16, 17] and 1D structures like nanowires [18] or nanotubes [19] has been successfully demonstrated, paving the way for a new generation of micro and nanostructured materials with enhanced functionalities in various fields.
+
+As research in this area continues, advancements are being made to optimize electroless cobalt plating solutions for specific applications. Although a large volume of research work is available, comprehensive review article on this area is scarce. Shen et al. [20] in 2022 provided a summary on the progress of electroless cobalt deposition narrowly focusing on semiconductor-based electronics application. The main aim of the current article is to discuss and summarize past works on the influence of bath composition and coating parameters on autocatalytic cobalt deposition. The article also includes brief discussion on the development of Co-based alloys and composites structures obtained via electroless path and their intended applications.
+
+## 2 Electroless Cobalt Deposition Process
+
+The deposition process involves reduction ofcobalt cations in an aqueous solution ofmetal salt in the presence ofa reducing agent (R) at the surface of a catalytic substrate. Deposition then continues due to the catalytic action of the deposited metal ions. Hence, the process is also named as autocatalytic. In the course of time, four different detailed reaction mechanisms were proposed to account for electroless deposition process [21]. Among them, the electrochemical mechanism has been experimentally validated by Hwang et al. [22] specifically in case of cobalt deposition. According to this proposition catalyst particles jump start the oxidation (loss of electrons) of reducing agent by acting as anode whereas reduction (gain of electrons) of metal cations happens at a different cathodic site with less catalytic activity. General chemical reaction for the electroless metal deposition process can be expressed as:
+
+$$
+\text { Anodic   Reaction }: \mathrm{R} \rightarrow \mathrm{R} ^ {\mathrm{z} +} + \mathrm{ze} ^ {-}\tag{1}
+$$
+
+Cathodic Reaction : $\mathrm { C o } ^ { 2 + } + 2 \mathrm { e } ^ { - }  \mathrm { C o }$
+
+(2)
+
+## 2.1 Substrate Pre-treatment
+
+Figure 1 shows all the steps needed to be followed for successful deposition. Ensuring the substrate to be clean and free of contaminants like grease, oil, or oxides is of paramount importance in order to obtain good quality deposit. Electroless cobalt deposition thrives on the inherent catalytic nature of the substrate. However, advancements have opened doors to depositing cobalt on non-catalytic substrates as well. Iron, nickel, cobalt, gold, palladium, and aluminum substrates can act as catalysts [23], while non-catalytic substrates such as copper, magnesium, polymers, carbon, glass etc. are activated using $\mathrm { P d C l } _ { 2 }$ solution [23–25] because Pd nanoparticles act as seeds, providing numerous active sites for the cobalt ions to be reduced and initiate the electroless deposition process [26]. Non-catalytic substrates must be sensitized by dipping into stannous chloride $\left( \mathbf { S n C l } _ { 2 } \right)$ solution before palladium activation. It effectively prepares the surface by depositing $\mathrm { S n } ^ { 2 + }$ ions [25, 27]. The adsorbed $\mathrm { S n } ^ { 2 + }$ ions act as a reducing agent. They donate electrons to the $\mathrm { P d } ^ { 2 + }$ ions in the solution. As a result, the $\mathrm { P d } ^ { 2 + }$ ions are reduced to metallic palladium $( \mathrm { P d } ^ { 0 } )$ [28]. However, sensitization can be considered unnecessary when the substrate surface chemistry inherently provides sufficient sites for direct palladium ion adsorption and subsequent reduction to its catalytic metallic form [29, 30]. In an effort to find an activation process without using $\mathrm { P d } ^ { 2 + }$ , Zhang et al. [31] reported successful use of aluminum foil in conjunction with non-catalytic copper substrate. Mukherjee et al. [32] successfully replicated aluminum induced electroless cobalt alloy deposition on copper foil. Hu et al. [33] demonstrated a method of directly depositing a catalytic cobalt seed layer on a copper substrate using a process called galvanic replacement where a more reactive metal displaces a less reactive metal from an ionic solution.
+
+## 2.2 Bath Preparation and Deposition
+
+The aqueous bath primarily consists of a cobalt salt as the source of cobalt ions, a reducing agent to convert cobalt cations to cobalt atoms, complexing agent, pH regulator, and stabilizer. The prepared solution is heated and maintained at certain temperature, and activated substrate is immersed in the heated solution for deposition. Deposition process can take time ranging from few minutes to few hours depending on the required yield. Schematic diagram of instrumentation is shown in Fig. 2a. Figure 2b shows the electrochemical reaction scheme at the vicinity of the substrate. The effectiveness of the electroless deposition process, which involves heating the solution and immersing an activated substrate, is intrinsically linked to the chemical makeup of the aqueous bath. The specific constituents, including the cobalt salt, reducing agent, complexing agent, stabilizer, are paramount in dictating the deposition characteristics. Understanding these individual components is therefore essential for optimizing the electroless cobalt deposition.
+
+## 3 Electroless Co Bath Composition
+
+## 3.1 Cobalt Source
+
+Cobalt (II) salts like cobalt chloride (CoCl ) and cobalt sulfate $\mathrm { ( C o S O _ { 4 } ) }$ are most preferred sources of cobalt ions for depositing Co-based coatings. Deposition rate is slightly higher from sulfate bath than chloride bath [34]. Brenner and Riddell reported that more than 0.17 M Co salt in the bath results in darkening of coating with significantly lower deposition rate [23]. According to the findings of Magagnin et al. [5], 0.1 M cobalt sulfate results maximum deposition; then, the yield decreases. Consequently, usual practice is to keep the concentration of Co salt within 0.1 M. Although no other report is available for successful reduction of Co (III) salts, Djokic [35] in 1998 claimed to have successfully reduced hexamine cobalt sulfate $( \mathrm { [ C o ( N H _ { 3 } ) _ { 6 } ] _ { 2 } ( S O _ { 4 } ) _ { 3 } ) }$ into elemental cobalt using hydrazine as reducing agent.
+
+![](images/8b8a5d74556df7502abf94084b57cc3b11970fa3b2b13f9f1c2d40acdaec60da.jpg)  
+Fig. 2 a Instrumentation setup of deposition process, b Deposition reaction (reducing agent-hypophosphite) schematic at substrate surface vicinity
+
+## 3.2 Reducing Agent
+
+Reducing agent is the primary driving force for the electroless deposition reaction. They donate electrons to the metal ions in the plating solution. As the metal ions receive electrons, they are reduced to their metallic state. An effective reducing agent must contain two or more reactive hydrogen atoms as it is observed that metal ions are reduced to neutral atoms by autocatalytic dehydrogenation of the reducing agent [21]. Reducing agent can be classified into three different groups depending upon the resulting deposit—P containing reagents, B containing reagents and reagent which yields pure Co. The catalytic activity of the seed layer depends on the reducing agent. For optimal electroless plating, the potential ofcatalyst metal to reach a reference current density $( 1 \times 1 0 ^ { - 4 } \mathrm { A } . \mathrm { c m } ^ { - 2 }$ [36]) should be slightly more positive than the standard reduction potential of the reductant. Ohno et al. [36, 37] evaluated and summarized the catalytic activity of different metals in the presence of different reducing agents. Different reducing agents with different compositional yields and corresponding catalytic activity of different metals are furnished in Table 1.
+
+The role of sodium hypophosphite $( \mathrm { N a H } _ { 2 } \mathrm { P O } _ { 2 } { \cdot } \mathrm { H } _ { 2 } \mathrm { O } )$ has been widely investigated. Brenner et al. [23] initially reported negligible Co deposition at hypophosphite concentration of 0.1 M or less, while increasing concentration of hypophosphite increases deposition rate. Tarozait et al. [38] observed that increase of hypophosphite concentration up to 0.5 M increases the deposition rate of Co on substrate, with further increase in concentration, deposition rate increases very slightly. Magagnin et al. [5] reported maximum deposition rate at 1.5 M hypophosphite concentration, and further increase drastically reduces the deposition yield. Stoychev et al. [39] also found similar pattern of increasing, reaching a peak and then drastic fall of deposition rate with increasing hypophosphite concentration. The electroless deposition of cobalt using $\mathrm { N a H } _ { 2 } \mathrm { P O } _ { 2 }$ as a reducing agent can be described by the reaction:
+
+Table 1 Types of Reducing Agent
+
+<table><tr><td>Reducing Agent</td><td>Chemical Formula</td><td>Yield</td><td>Catalytic activity of seed layer</td></tr><tr><td>Sodium Hypophosphite</td><td> $NaH_{2}PO_{2}$ </td><td>Co-P</td><td>Pt &lt; Co &lt; Pd &lt; Ni &lt; Au</td></tr><tr><td>Dimethylamine borane (DMAB)</td><td> $(CH_{3})_{2}NH\cdot BH_{3}$ </td><td>Co-B</td><td>Pt &lt; Au &lt; Pd &lt; Co &lt; Ni</td></tr><tr><td>Sodium Borohydride</td><td> $NaBH_{4}$ </td><td>Co-B</td><td>Au &lt; Pt &lt; Pd &lt; Co &lt; Ni</td></tr><tr><td>Hydrazine</td><td> $N_{2}H_{4}$ </td><td>Pure Co</td><td>Au &lt; Pd &lt; Pt &lt; Ni &lt; Co</td></tr></table>
+
+$$
+\mathrm{Co} ^ {2 +} + 2 \mathrm{H} _ {2} \mathrm{PO} _ {2} ^ {-} + 3 \mathrm{OH} ^ {-} \rightarrow \mathrm{Co} + \mathrm{HPO} _ {3} ^ {2 -} + 3 \mathrm{H} _ {2} \mathrm{O}\tag{3}
+$$
+
+Use of sodium hypophosphite causes incorporation of P in the cobalt matrix. Miksic et al. [40] provided the earliest report on the amount of P present in Co matrix deposited with different hypophosphite concentration. They found that increasing hypophosphite concentration from 0.047 M to 0.24 M resulted in an increase of the P content from 0.5% to 2.5%. Frieze et al. [41] varied the hypophosphite concentration within slightly wider range (0.05 M to 0.5 M). They were able to increase the amount of P from 1% to 5%. Schlesinger et al. [42] obtained Co-P deposits with the amount of P ranging from 3% to 12% and found almost linear relationship between P content and hypophosphite concentration. They also conclusively observed the tendency of decreasing grain size with increasing amount ofP which was previously hinted by the observations of Cortijo et al. [43]. During nucleation and subsequent growth of Co film on the substrate surface, P atoms act as growth inhibitor resulting in smaller grain size [41, 44]. Dark field transmission electron micrograph [45] and energy dispersive X-ray spectroscopy [46] along the grain boundaries suggest that P atoms accumulate along the grain boundaries preventing further grain growth.
+
+Among boron containing reducing agents, Pearlstein et al. [47] initially investigated the role of DMAB as reducing agent and observed linear increase of deposition rate with increasing DMAB concentration up to 0.07 M. They were able to incorporate maximum of 1.7% B in the Co matrix resulting in a bright and smooth deposit. Addition of further DMAB caused rapid bath decomposition. Saito et al. [48] and Rohan et al. [49] also independently observed linear relationship between deposition rate and concentration of DMAB in the bath. Additionally, Saito et al. [48] reported that amount of B reaches at its peak at 0.075 M DMAB concentration. It is noteworthy that DMAB loses electrons more readily than Co at the vicinity of Cu substrate. Because of this Co can directly be reduced on the otherwise non-catalytic Cu surface without any pre-activation [50]. Morpholine borane (MB) acts in a similar manner as DMAB [51]. The generalized reaction can be expressed as:
+
+$$
+\begin{array}{r l}&\mathrm {R.NHBH_ {3}} + 4 \mathrm {H_ {2} O} + 1. 5 \mathrm {Co^ {2 + }}\\&\rightarrow 1. 5 \mathrm{Co} + \mathrm {R.NH^ {+}} + \mathrm{B(OH)} ^ {4 -} + 2 \mathrm {H_ {2}} + 6 \mathrm {H^ {+}}\end{array}\tag{4}
+$$
+
+Here, R is an organic group. Increase in deposition rate with MB concentration is significant up to a value of 0.05 M; further increase has a diminishing effect on the deposition rate. Sodium borohydride has also been successfully employed by Dai et al. [52, 53] to reduce electroless cobalt bath although its role as reducing agent was not the focus of the reports. It can be assumed that role of borohydride in reduction of cobalt is somewhat similar to nickel reduction.
+
+Reduction using hydrazine $\mathrm { ( N _ { 2 } H _ { 4 } ) }$ produces deposition of pure cobalt (> 99.85%) powder [35, 54] or thin film [55]. The relation between rate of deposition and hydrazine concentration is almost linear. The reduction mechanism can be expressed as [54]-
+
+$$
+\mathrm{N} _ {2} \mathrm{H} _ {4} + 4 \mathrm{OH} ^ {-} \rightarrow \mathrm{N} _ {2} + 4 \mathrm{H} _ {2} \mathrm{O} + 4 \mathrm{e} ^ {-}\tag{5}
+$$
+
+$$
+\mathrm{Co} ^ {2 +} + 2 \mathrm{e} ^ {-} \rightarrow \mathrm{Co}\tag{6}
+$$
+
+$$
+2 \mathrm{H} _ {2} \mathrm{O} + 2 \mathrm{e} ^ {-} \rightarrow \mathrm{H} _ {2} + 2 \mathrm{OH} ^ {-}\tag{7}
+$$
+
+Figure 3a, b, and c illustrate the impact of reducing agent concentration on electroless cobalt deposition. Specifically, these figures demonstrate that the phosphorus or boron content in the deposit typically increases with higher concentrations of hypophosphite (Fig. 3a) and DMAB (Fig. 3b), respectively. Concurrently, Fig. 3c shows that the deposition rate generally rises with increasing reductant concentration.
+
+(a)  
+![](images/ddb6c8ea046020a0670158c9e24f494d00d41736cdf1862fb97e7ea2e7a777be.jpg)
+
+![](images/8599907f39acc2e67cc3353fc968fcc58fb8c29816d0ecca6d870ca89e0a86fc.jpg)
+
+(c)  
+![](images/8d5e860e9fa8ebceedf9d3a8bf7c242f74b3e487cdd140f2352ec0142300ce8b.jpg)  
+Fig. 3 a Effect of hypophosphite concentration on the amount of P in deposit [42]. b effect of DMAB concentration on the amount of B in deposit [48], and c effect of hydrazine concentration on the deposition rate [54]
+
+## 3.3 Complexing Agents
+
+The complexing agent binds with cobalt ions $( \mathrm { C o } 2 ^ { + } )$ in the solution, forming meta-stable complexes [56]. This reduces the concentration of free cobalt ions available for immediate deposition. This controlled release of free cobalt ions help regulate the deposition rate and prevents uncontrolled precipitation of cobalt. By controlling the availability of free cobalt ions, the complexing agent promotes a more even deposition process across the substrate surface. This leads to smoother and more uniform cobalt films with better adherence to the substrate. The complexing agent used in electroless cobalt bath is usually either an organic acid (Citric acid, tartaric acid, succinic acid, malonic acid, glycine, EDTA etc.) or its salt. Cobalt complex formation is depicted in Fig. 4.
+
+Brenner and Riddell [23] compared citrate and tartarate salts and concluded that the former produces superior and less porous film than the latter. Pearlstein et al. [47] showed successful use of succinate salt but more than 0.037 M was needed to ensure bath stability. Homma et al. [57] used sodium malonate, a salt of malonic acid, as complexing agent to obtain Co-P film with preferential crystal orientation in perpendicular direction. Saito et al. [48] compared four different complexing agents namely succinic acid and sodium salts of tarataric, citric, and malonic acid in a Co-B bath. In all cases, deposition rates are almost constant up to a certain concentration of complexing agent, beyond which the deposition rate gradually decreases. Higher deposition rates were obtained from succinic acid bath and sodium malonate bath compared to other two. Apart from sodium tartarate, other three complexing agents do not influence B content in the deposit in any significant way. Addition of sodium tartarate favors the amount of B in the deposit. Tarozait et al. [38] explored the role of glycine in electroless Co-P formation and found that deposition rate initially increases with glycine concentration, reaches a peak and then diminishes. They also observed the negative effect of glycine in incorporating P in the Co matrix. Later, it is reported that glycine concentration in between 0.6 M and 0.8 M can be used to achieve directional crystal growth of Co-B, more than that retards the process [51]. EDTA (Ethylenediaminetetraacetic acid) [58] and ethylenediamine [59] are also reported to be useful as complexing agents. Ethylenediamine reportedly can be used as complexing agent in conjunction with trace amount of diethylenetriamine or triethylenetetramine to deposit Co-B from DMAB bath without any prior need of Pd activation [60]. Diethylenetriamene also enable the bath to accommodate higher DMAB concentration without premature decomposition [58, 60].
+
+![](images/e7279cfccb1f9d235ccaf3463a7479a52442ba415d1a2fdf203ca83ee661fa08.jpg)  
+Fig. 4 Formation of Co (II) complex with organic ligand  
+differences in bath pH. Although ammonia salts were initially believed to only impart buffering action to the bath, Toda et al. [62] confirmed via UV-visual spectroscopy that they readily participate in forming complexes with Co ions in alkaline solution. Moreover, Djokic [54] reported that at pH 12 or more presence of both NH <sup>+</sup> and $\mathrm { C _ { 6 } H _ { 5 } O _ { 7 } } ^ { - }$ are necessary to resist bath degradation by rapid ${ \mathrm { C o } } ( \mathrm { O H } ) _ { 2 }$ precipitation. Apart from ammonium salts, boric acid $\left( \mathrm { H } _ { 3 } \mathrm { B O } _ { 3 } \right)$ [63–65] can also be used for its buffering action.
+
+## 3.4 Buffer
+
+Primary function of a buffer is to maintain a stable pH within the desired range. One of the major differences between the composition of electroless Ni and Co bath arises from the fact that addition of ammonium salts in electroless Ni baths does not bring forth any kind of significant change while in Co bath it behaves differently. It was well observed from the beginning that presence of ammonia in the bath noticeably increases the quality of the deposit as well as the deposition rate especially in citrate baths [47, 61]. Variation of deposition rate with ammonium sulfate concentration is depicted in Fig. 5a. The plot clearly shows steady increase of deposition rates with ammonium salt concentration despite
+
+## 3.5 Stabilizer
+
+A Co plating bath can spontaneously decompose at any time which is indicated by increased volume of hydrogen gas evolution. To prevent it from happening trace amount of stabilizer such as thiourea can be used, Addition ofup to 0.3 mg/l increases deposition rate, more than that ensues rapid fall of deposition rate [66]. Trace amount of tyrosene [67] or 0.01 M maleic acid [68] can also reportedly stabilize the bath even for prolonged duration of deposition.
+
+## 3.6 pH Regulator
+
+NH OH [9, 23, 40], NaOH [24, 53], or KOH [50] are used as pH regulators for alkaline baths and $\mathrm { H } _ { 2 } \mathrm { S O } _ { 4 }$ [47] or acetic acid [60] for acid baths. pH regulator is added continuously to maintain certain predetermined pH level throughout the process. At a pH below 9, the presence of ammonia does not affect the deposition rate of Co-B. However, when the pH is raised above 9 adding NaOH, the deposition rate decreases but addition of $\mathrm { N H _ { 4 } O H }$ to raise the pH above 9 maintains a high deposition rate [69]. In order to avoid alkaline metal or foul-smelling ammonium hydroxide, Tarozaite et al. [51] successfully employed tetramethylammonium hydroxide for alkaline baths.
+
+(a)  
+![](images/ed0e3434fd994751ac8dd287be5b732fba7121e2e4e0461218b95e5389f23b72.jpg)
+
+![](images/0cdc107e4a2be890992d34be84f7acf90be6156ee642019cfbf69437065db1ce.jpg)  
+Fig. 5 a Influence of ammonium salt on Co-P deposition rate [61] and b Co-P film thickness versus plating time in different bath temperatures [77]
+
+## 3.7 Other Additives
+
+Wetting agents, also known as surfactants, are generally used to improve the wettability of a substrate by reducing its surface tension. This allows the electroless bath solution to make better contact with the entire surface, leading to more uniform deposition. Although use of surfactants is not very common in electroless cobalt bath, sodium lauryl sulfate (SLS) has been reportedly used in some cases where deposition was done on polyethylene terephthalate [24] or boron nitride substrate [70].
+
+Accelerators enhance the deposition rate on a substrate. They can be categorized into two types. The first type is an accelerator solution into which an activated substrate is dipped before being placed in an electroless bath. The second type is an accelerator that can be added directly to the electroless bath in small quantities. $\mathrm { N H _ { 4 } O H }$ , NaOH, $\mathrm { H } _ { 2 } \mathrm { S O } _ { 4 }$ etc. fall in the first category. Osaka et al. [71] compared the accelerating effects of 1 M $\mathrm { N H _ { 4 } O H } ,$ 1 M NaOH, and $1 . 1 2 \mathrm { M } \mathrm { H } _ { 2 } \mathrm { S } \mathrm { O } _ { 4 }$ during deposition of $\mathrm { { C o - P } } .$ NaOH reportedly demonstrated maximum accelerating effect although the differences between them were found to be small. Shen et al. [72] found that addition of triethanolamine (TEA) directly into a hydrazine bath as an accelerator enhanced the deposi tion rate of pure cobalt up to five times. TEA forms a complex with cobalt ions in the bath which is believed to be more easily reduced. Trace amount (up to \~ 0.01 mMol) of thiourea in the bath can also be considered as accelerator as it can increase the deposition rate [66, 73].
+
+## 4 Electroless Co Deposition Parameters
+
+## 4.1 Temperature
+
+Electroless deposition is possible at room temperature $( 2 5 { - } 4 0 ~ ^ { \circ } \mathrm { C } )$ [55, 74]. With increasing temperature, the deposition rate of metal ions increases almost linearly [75–77]. Figure 5b shows the plot of film thickness versus plating time in different bath temperature. From the plot, it is clearly evident that higher the temperature, lesser the needed time to attain a certain film thickness. Although it can be assumed that still higher deposition rate is possible at temperature more than $9 0 ^ { \circ } \mathbf { C } ,$ maintaining pH at this high temperature is very difficult. Hence, $7 0 – 9 0 \ ^ { \circ } \mathrm { C }$ is found to be the ideal range of bath temperature for electroless cobalt plating. Generally, increasing the bath temperature accelerates the deposition rate because higher temperatures promote faster chemical reactions and increase the diffusion rates of ions to the substrate surface. However, excessively high temperatures can lead to bath instability and spontaneous decomposition. Optimal temperature control is thus crucial for achieving desired plating kinetics and obtaining uniform, dense, and welladhered coatings. Rahman et al. [75] observed that at higher temperature, P content seems to increase in deposited Co-P layer contradicting the earlier claim of Liu et al. [77] who found no dependence of amount of P in the deposit on bath temperature.
+
+## 4.2 pH
+
+Controlling the pH of an electroless Co bath appears to be effective in controlling the deposition rate of the film. Higher pH causes higher deposition rate in cases ofboth pure Co [54] and Co-B [51] plating. Initially, Nicholson et al. [78] reported
+
+(a)  
+![](images/3a827f08097d5be249e59767e01aecaef2bb274a2122e93911d0eb85409fd56f.jpg)
+
+![](images/24c35286c2b379c62ae4971b76ed5239fba7da7ef40f56abb6931620917a88b6.jpg)  
+Fig. 6 a Influence of pH on deposition rate [64], b Influence of pH on P [38] and B[51] content in the deposit
+
+decreasing deposit thickness with increasing pH in alkaline regime in case of Co-P deposition. Equations 3–5 also indicate that higher pH values (i.e., higher OH− concentration) favor cobalt deposition, an observation consistent with findings in electroless nickel plating [79]. Later, it was found that the variation of deposition rate with pH was heavily influenced by the concentration and the type of the complexing agent. As can be seen in Fig. 6a, in alkaline ammoniacal tartarate bath, higher pH favors deposition rate whereas in alkaline non-ammoniacal citrate bath, deposition rate peaks at around pH 7.5–8 and then gradually diminishes. In alkaline citrate bath with low complexing agent concentration (\~ 30 g/l), deposition rate peaks at pH 7.8 but with high concentration (\~ 100 g/l) of complexing agent, highest deposition rate can be observed at pH 8.5 [80]. Yu et al. [81] observed when Rochelle salt (potassium sodium tartrate) is employed as a complexing agent, the deposition rate initially rises with increasing pH, peaking around pH 10. For optimum deposition rate of Co-P, pH should be kept in between 8 and 10. Exceeding this value can lead to the formation of cobalt hydroxide depositions, which in turn decrease the deposition rate. Deposition of Co-B is possible from acidic bath. Increasing pH of an acidic DMAB bath from 3.5 to 5 significantly improves deposition rate although at pH 5.5 the bath quickly degrades [47]. Reports on the effect of pH on the amount of P inclusion in the deposit matrix are conflicting. While Chow et al. [44] reportedly observed decreasing P in the matrix with increasing pH, Tarozait et al. [38] observed slight increase in the amount of P inclusion for the same. As discussed earlier in case of deposition rate, here also the differences may arise from the variation in addition of complexing agent. Amount ofB in the Co-B deposit sharply drops and then flattens with increasing pH of morpholine borane bath [51]. Influence of bath pH on the P and B content is shown in Fig. 6b.
+
+## 4.3 Ultrasonication and Stirring
+
+In electroless plating, both ultrasonication and stirring serve the same overall purpose, which is to ensure a uniform and high-quality metal deposition on the surface of the object being plated. Ultrasonication uses high-frequency sound waves to create microscopic vibrations in the solution to dislodge gas bubbles and enhance mass transfer [82]. In electroless Co-P plating, particularly in solutions with low cobalt sulfate concentration as fewer cobalt ions available, the diffusion process becomes more critical for maintaining a steady supply of ions to the substrate surface. The ability of ultrasonication to improve diffusion has a greater impact on accelerating the deposition rate in such scenarios [64]. Ultrasound irradiation reduces the activation energy of the electroless deposition reaction. This essentially means the reaction requires less energy to occur, allowing for a comparable deposition rate at a lower temperature [83]. The mechanism behind this improvement is attributed to ultrasonic cavitation. The collapse of cavitation bubbles on the solid surface generates micro-jets which effectively clean the catalytic surface by removing contaminants leading to a larger active surface area for catalysis [84]. Yu et al. [85] found that at high ultrasonication power (100 W), the film exhibits cracks on the surface. This is likely because excessive agitation disrupts the film growth process, leading to weak bonding between the deposited particles and creating cracks. They recommend 90 W for deposition of relatively smaller and more regular shaped crystallites.
+
+A linear increase in film thickness is observed with a rise in stirring rate. In order to investigate the effect of stirring, Kim et al. [86] deposited Co-W–P film in different stirring speeds. They found that after 60 s of deposition, the obtained film at rest (0 rpm) is only 50 nm thick, while the film deposited with strong agitation (1280 rpm) reaches a thickness of92 nm implying increased reaction rate at higher stirring speed.
+
+## 4.4 Bath Aging
+
+Ammonia free alkaline cobalt baths do not show any decrease in deposition rate with aging. Alkaline ammoniacal cobalt bath has short span of deposition life due to dissolution of atmospheric oxygen. The bath ceases to provide significant deposition after 240 min of aging time. Continuous charging of nitrogen gas can prevent this kind of deterioration [63]. Thermally treating the bath by increasing its temperature to $2 0 ~ ^ { \circ } \mathrm { C }$ higher than operating temperature, keeping there for 45 min and then cooling it back to operating temperature can also reportedly rejuvenate the solution [87]. Various types of electroless cobalt-based deposition baths, including Co-P, Co-B, and pure $\mathrm { C o } ,$ have been developed. A comprehensive overview ofthe different bath formulations and their resulting deposit compositions is presented in Table 2, providing a valuable resource for researchers and engineers in this field.
+
+## 5 Electroless Co Alloys with Other Metals
+
+Apart from hydrazine baths, all electroless Co baths yield binary alloys with either P or B depending on the reducing agent present in the solution. During earlier decades of electroless cobalt research Pearlstein et al. [88] observed that it is possible to produce cobalt alloys by adding other metal salts in the ammoniacal Co-P bath. Although addition of stannate $\left( \mathrm { S n O } _ { 3 } ^ { 2 - } \right)$ ions fail to produce zinc or tin alloy of cobalt, adding nickel, tungstate, rhenium, or ferrous ions readily produces Ni, W, Re, or Fe alloys of Cobalt. In the following years several binary (Co–Ni [89], Co–Re [90], Co–Sn [32], Co–Fe [91] etc.), ternary (Co–Ni–P [92, 93], Co–W–P [65], Co–Ni–B [94, 95], Co–W–B [50], Co–Fe–P [96], Co–Fe–B [73], Co–Zn–P [97], Co–Mo–P [98], Co–Mo–B [53], Co–Re–P [99], Co–Re–B [100] etc.), and quaternary (Co–Ni–Re–P [99, 101], Co–W–Zn–P [102] etc.) alloys with other metals have been developed. In contrast with the findings of Pearlstein et al. [88], $\mathrm { C o { - } Z n { - } P }$ was developed by Zheng et al. [97] by adding $\mathrm { Z n S O _ { 4 } }$ as Zn precursor in the Co–P bath. Electroless Co–Sn was developed using SnCl as $\mathrm { S n } ^ { 2 + }$ source [32] but no report is available for successful use of $\mathrm { \ S n O } _ { 3 } { } ^ { 2 - }$ as Sn precursor. Addition of $\mathrm { N i } ^ { 2 + } [ 9 2 ] \mathrm { o r } Z \mathrm { n } ^ { 2 + }$ [97] to the bath suppresses the reduction of $\mathrm { C o } ^ { 2 + }$ , and promotes the amount of Ni or Zn in the deposit at the expense of cobalt. Co–Ni or Co–W-based alloys are the most explored ones. In case of Co–Ni-P alloys, within pH range 8.0–9.0 rising pH seems to favor Ni content in the alloy [92] but pH
+
+10 or more favors the amount of Co in the deposit [103]. It is noted that addition of even small amount of Ni salt significantly increases the deposition rate and in general favors Ni content in the deposit [104]. Presence of sodium tungstate $( \mathrm { N a } _ { 2 } \mathrm { W O } _ { 4 } )$ in Co bath produces Co-W alloy. While use of hypophosphite as reducing agent produces Co-W–P alloys [105], use of DMAB or borohydride yields Co-W-B alloys [106] and using both hypophosphite and DMAB can result in Co-W–P-B alloy [107]. Various electroless Co ternary alloy baths are furnished in Table 3.
+
+## 6 Electroless Co 0D and 1D Structures
+
+Electroless process is capable to create structures other than spherical grained thin films of Co-P (Fig. 7a) or Co-B (Fig. 7b) on flat surface. Zero-dimensional (0-D) Co nanoparticles (Fig. 7c) can be obtained via electroless route from a bath prepared by dissolving cobalt acetate tetrahydrate in boiling $( 1 5 0 - 1 6 5 ~ ^ { \circ } \mathrm { C } )$ caustic propylene glycol $( \mathrm { C } _ { 3 } \mathrm { H } _ { 8 } \mathrm { O } _ { 2 } )$ Without any nucleating agent, Co nanoparticles with a diameter of150–400 nm are formed. Addition ofnucleating agents like silver nitrate $( \mathrm { { A g N O } } _ { 3 } )$ , palladium chloride (PdCl<sub>2</sub>), or chloroplatinic acid $\mathrm { ( H _ { 2 } P t C l _ { 6 } ) }$ significantly reduces particle size (40–120 nm) [109]. $\mathrm { H } _ { 2 } \mathrm { P t C l } _ { 6 }$ can act as a catalyst and enables the formation of metallic Co nanoparticles from hydrazine-propylene glycol bath at room temperature [74]. Yagi et al. [89]produced Co–Ni alloy nanoparticles by adding NiCl<sub>2</sub> in the aforementioned hydrazine-propylene glycol Co bath. $\mathrm { H } _ { 2 } \mathrm { P t C l } _ { 6 }$ provides specific locations for cobalt atoms to deposit on, initiating the formation of small cobalt nanoparticles. It also helps to create a more uniform size distribution for the nanoparticles. This suggests that the presence of $\mathrm { H } _ { 2 } \mathrm { P t C l } _ { 6 }$ separates the process into two stages—formation of minute Pt nuclei and growth of cobalt nanoparticles on these Pt sites [110].
+
+One-dimensional Co nanowires and nanotubes were successfully produced by combining modified template synthesis method and electroless plating. Porous alumina membranes with average pore diameter 200–300 nm were used as templates. While activating the bottom surface of the pores with Pd and then vertically filling them by electroless cobalt plating produce nanowires [111], activating the vertical walls of the pore and then lateral deposition of Co on the wall produces hollow nanotube [112]. The process scheme is shown in Fig. 8a, 8b, and the electron micrographs of resulting structures are shown in Fig. 8a’, 8b’. Also keeping an electroless Co bath described by Balela et al. [18, 109] at room temperature causes tiny cobalt nanoparticles to form, over time influenced by a strong external magnetic field these nanoparticles line up head-to-tail like a magnetic train (Fig. 8d, 8d’) and eventually get attached together with more cobalt to form long, thin nanowires. Later Gavasheli et al.
+
+Table2DifferenttypesofelectrolessCobath
+
+<table><tr><td>Sl no</td><td>Co salt</td><td>Reducing agent</td><td>Complexing agent</td><td>pH</td><td>Temperature (°C)</td><td>Deposit Composition</td><td>References</td></tr><tr><td>1</td><td> $CoCl_2,6H_2O$  (7.5 g/l)</td><td> $NaH_2PO_2, H_2O$  (3.52 g/l)</td><td> $Na_3C_6H_5O_7,2H_2O$  (17.9 g/l) +  $NH_4Cl$  (12.5 g/l)</td><td>8.2</td><td>80</td><td>Co-P (4%)</td><td>[24]</td></tr><tr><td>2</td><td> $CoCl_2,6H_2O$  (20 g/l)</td><td>Hydrazine (9.6 g/l)</td><td> $Na_3C_6H_5O_7,2H_2O$  (77.4 g/l) +  $NH_4Cl$  (5.35 g/l)</td><td>12.1–12.6</td><td>60–70</td><td>99.85% Co</td><td>[54]</td></tr><tr><td>3</td><td> $CoCl_2,6H_2O$  (25 g/l)</td><td>DMAB (4 g/l)</td><td>Sodium succinate (25 g/l)</td><td>5</td><td>70</td><td>Co-B (1.7%)</td><td>[47]</td></tr><tr><td>4</td><td> $CoSO_4,7H_2O$  (14 g/l)</td><td>Morpholine borane (5.048 g/l)</td><td>Glycine (7.5 g/l)</td><td>7</td><td>30</td><td>Co-B (0.8–1%)</td><td>[51]</td></tr><tr><td>5</td><td> $CoSO_4,7H_2O$  (30 g/l)</td><td> $NaH_2PO_2, H_2O$  (12 g/l)</td><td> $Na_3C_6H_5O_7,2H_2O$  (25 g/l) +  $NH_4(SO_4)_2$  (50 g/l)</td><td>8.5</td><td>80</td><td>Co-P (~ 11%)</td><td>[75]</td></tr><tr><td>6</td><td> $CoSO_4,7H_2O$  (30 g/l)</td><td> $NaH_2PO_2, H_2O$  (30 g/l)</td><td> $Na_3C_6H_5O_7,2H_2O$  (35 g/l) +  $NH_4HF_2$  (8 g/l)</td><td>9.2</td><td>95</td><td>Co-P (3.29%)</td><td>[14]</td></tr><tr><td>7</td><td> $CoCl_2,6H_2O$  (20 g/l)</td><td> $NaH_2PO_2, H_2O$  (7.8 g/l)</td><td> $KNaC_4H_4O_6\cdot4H_2O$  (49.9 g/l)</td><td>10</td><td>25–30 (Al foil induced)</td><td>Co-P (1.1%)</td><td>[31]</td></tr><tr><td>8</td><td> $CoSO_4,7H_2O$  (23.3 g/l)</td><td>Ammonia borane (1.15 g/l)</td><td>ammonium citrate (52 g/l)</td><td>9</td><td>50</td><td>&gt;99% Co</td><td>[49]</td></tr><tr><td>9</td><td> $CoCl_2,6H_2O$  (50 g/l)</td><td> $NaBH_4$  (40 g/l)</td><td> $NH_4Cl$  (80 g/l)</td><td>14</td><td>45</td><td>Co-B (9.2%)</td><td>[52]</td></tr><tr><td>10</td><td> $CoSO_4,7H_2O$  (25.3 g/l)</td><td> $NaH_2PO_2, H_2O$  (24.4 g/l)</td><td> $Na_3C_6H_5O_7$  (136.7 g/l) +  $NH_4(SO_4)_2$  (40 g/l)</td><td>8.5</td><td>85</td><td>Amorphous Co-P</td><td>[68]</td></tr><tr><td>11</td><td> $Co(C_2H_3O_2)_2, 4H_2O$  (0.1 M)</td><td>Alkaline Propylene glycol (also acts as solvent)</td><td>Nucleating agent –  $AgNO_3$  +  $PdCl_2$  +  $H_2PtCl_6$ ,  $H_2O$  (2.5 mM)</td><td>Non-aqueous</td><td>150–165</td><td>Pure Co nanoparticle</td><td>[74]</td></tr></table>
+
+<table><tr><td>Sl no</td><td>Co salt</td><td>Alloy metal source</td><td>Reducing agent</td><td>Complexing agent(s) + Buffer (if any)</td><td>pH</td><td>Temperature (°C)</td><td>Deposit composition</td><td>References</td></tr><tr><td>1</td><td> $CoSO_{4},7H_{2}O$ (0.025 M)</td><td> $NiSO_{4},6H_{2}O$ (0.025 M)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (0.2 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.1 M)+  $C_{4}H_{4}Na_{2}O_{6}$ (0.15 M)+  $NH_{4}(SO_{4})_{2}$ (0.5 M)</td><td>9</td><td>90</td><td>Co-Ni (50%)-P (10%)</td><td>[92]</td></tr><tr><td>2</td><td> $CoSO_{4},7H_{2}O$ (30 g/l)</td><td> $NiSO_{4},6H_{2}O$ (12 g/l)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (20 g/l)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (35 g/l)+  $NH_{4}(SO_{4})_{2}$ (30 g/l)</td><td>10</td><td>85</td><td>Co-Ni (52.4%)-P (2.6%)</td><td>[11]</td></tr><tr><td>3</td><td> $CoSO_{4},7H_{2}O$ (15 g/l)</td><td> $NiSO_{4},6H_{2}O$ (7.5 g/l)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (25 g/l)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (50 g/l)+  $H_{3}BO_{3}$ (30 g/l)</td><td>9</td><td>60 ± 5</td><td>Co-Ni (30%)-P (9.5%)</td><td>[108]</td></tr><tr><td>4</td><td> $CoSO_{4},7H_{2}O$ (0.1 M)</td><td> $NiSO_{4},6H_{2}O$ (0.1 M)</td><td>DMAB (0.05 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.1 M)+  $C_{4}H_{4}Na_{2}O_{6}$ (0.1 M)</td><td>7.5</td><td>60</td><td>Co-Ni (3.4%)-B (2.6%)</td><td>[48]</td></tr><tr><td>5</td><td> $CoCl_{2},6H_{2}O$ (7 g/l)</td><td> $NiCl_{2},6H_{2}O$ (3 g/l)</td><td> $NaBH_{4}$ (1 g/l)</td><td> $Borax$ (4 g/l)+  $C_{4}H_{4}Na_{2}O_{6}$ (60 g/l)</td><td>10</td><td>25</td><td>Co-Ni (0.69%)-B (6%)</td><td>[95]</td></tr><tr><td>6</td><td> $CoSO_{4},7H_{2}O$ (0.07 M)</td><td> $NiSO_{4},6H_{2}O$ (0.03 M)</td><td>DMAB (0.024 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.1 M)</td><td>7.5</td><td>75</td><td>Co-Ni 8.1%)-B (1%)</td><td>[94]</td></tr><tr><td>7</td><td> $CoSO_{4},7H_{2}O$ (0.08 M)</td><td> $Na_{2}WO_{4} \cdot 2H_{2}O$ (0.03 M)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (0.169 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.492 M)</td><td>9</td><td>85-95</td><td>Co-W (1.5-2.5%) - P(8-10%)</td><td>[105]</td></tr><tr><td>8</td><td> $CoCl_{2},6H_{2}O$ (0.1 M)</td><td> $Na_{2}WO_{4} \cdot 2H_{2}O$ (0.03 M)</td><td>DMAB (0.06 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.3 M)</td><td>9.5</td><td>75</td><td>Co-W (20%)-B (&lt; 1%)</td><td>[50]</td></tr><tr><td>9</td><td> $CoSO_{4},7H_{2}O$ (0.08 M)</td><td> $FeSO_{4}.7H_{2}O$ (0.02 M)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (0.2 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.3 M)+  $H_{3}BO_{3}$ (0.5 M)</td><td>8</td><td>90</td><td>Co-Fe (~ 37.8%)-P(3.36%)</td><td>[96]</td></tr><tr><td>10</td><td> $CoSO_{4},7H_{2}O$ (0.06 M)</td><td> $FeSO_{4}.7H_{2}O$ (0.01 M)</td><td>DMAB (0.45 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.05 M)+  $C_{4}H_{4}Na_{2}O_{6}$ (0.2 M)+  $NH_{4}(SO_{4})_{2}$ </td><td>5.5</td><td>75</td><td>Co-Fe (12%)-B (0.9%)</td><td>[73]</td></tr><tr><td>11</td><td> $CoSO_{4},7H_{2}O$ (2.8 g/l)</td><td> $ZnSO_{4}.7H_{2}O$ (1.6 g/l)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (2 g/l)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (9 g/l)+  $H_{3}BO_{3}$ (3.1 g/l)</td><td>8.8-9.2</td><td>98 ± 1</td><td>Co-Zn (59.6%)-P (13.4%)</td><td>[97]</td></tr><tr><td>12</td><td> $CoSO_{4},7H_{2}O$ (0.05 M)</td><td> $Na_{2}MoO_{4}.2H_{2}O$ ( $10^{-4}$  M)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (0.1 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.1 M)+ Maleic acid (0.01 M)+  $H_{3}BO_{3}$ (0.2 M)</td><td>9.2</td><td>82</td><td>Co-Mo (1.23%)-P(9.39%)</td><td>[98]</td></tr><tr><td>13</td><td> $CoSO_{4},7H_{2}O$ (0.05 M)</td><td> $KReO_{4}$ (0.002 M)</td><td> $NaH_{2}PO_{2}, H_{2}O$ (0.114 M)</td><td> $Na_{3}C_{6}H_{5}O_{7},2H_{2}O$ (0.17 M)</td><td>8.2-9.2</td><td>90 ± 1</td><td>Co-Re (6.8%)-P (&lt; 1%)</td><td>[99]</td></tr></table>
+
+![](images/451b9519bf46bfc92f250291e150f0814cb15e950043378f026d14fa30197e83.jpg)  
+Fig. 7 a Co-P thin film [68], b Co-B thin film [51], and c Co nanoparticles [109]
+
+[113] and Gegechkori et al. [114]demonstrated formation of Co nanowire under the influence of external magnetic field from alkaline aqueous cobalt sulfate and hydrazine bath kept at 85<sup>0</sup> C. To control particle size and to prevent premature agglomeration, toluene was added as surfactant.
+
+## 7 Electroless Co composites
+
+Co composites formed from electroless bath can be of two types – Co matrix composite and core shell composite. Evenly dispersing inorganic foreign particles like WS [115], SiC [116], or BN [70] in the electroless Co bath with the help of a surfactant (CTAB or SLS) and then depositing Co from this bath on an activated surface yield Co-WS , Co-SiC, or Co-BN composite films, respectively. In this type of composites, these nano or micron-sized inorganic particles are evenly distributed in the Co film to form metal matrix composites.
+
+In case of core shell composites, ceramic particle cores or any fiber can be coated with Co to form the composites. The process scheme is shown in Fig. 8c, and SEM image of a core shell composite is shown in Fig. 8c’. Micron-sized WC particles [117, 118], MgO nanoparticles [119], zirconia alumina (ZTA) composite macroparticles [120], or micronsized hydroxyapatite (HA) particles [121] were activated and immersed in the Co bath to coat each particle with cobalt to, respectively, form Co-WC, Co-MgO, Co-ZTA, or Co-HA core shell composite microspheres. A fibrous material like glass fibers [75, 122], SiC whiskers [123], or multiwall carbon nanotubes (MWCNT) [124] can also be activated and placed in the electroless bath to coat each fiber with cobalt in a similar manner to form core shell composite fibers.
+
+## 8 Applications
+
+Electroless cobalt, a versatile thin film deposited through a chemical process, boasts a distinct set of properties that have driven its adoption in various established industries. However, recent research is also exploring its potential in exciting new frontiers. Major areas of applications are schematically represented in Fig. 9.
+
+## 8.1 Traditional Applications
+
+## 8.1.1 Magnetic Recording
+
+Magnetic properties ofelectroless Co films, particularly coercivity, have been extensively studied from the beginning. Coercivity is the ability of a ferromagnetic material to resist external magnetic field without being magnetized. Tuneable coercivity of electroless Co-P combined with ultra-thin nature of the deposited film makes it a candidate of interest for high density magnetic recording medium [8, 9, 78]. Ouchi et al. [125] fabricated CoNiP nanodot arrays shorter than 50 nm with high perpendicular magnetic coercivities, using electroless deposition process (Fig. 10a). This is a crucial property for perpendicular magnetic recording technology to increase storage density. Co-P films are promising for magnetic rotary encoders, enabling magnetization into 2048 magnetic pole pairs with uniform output [126]. This improves resolution and accuracy for angle and displacement measurements.
+
+## 8.1.2 Tribological Applications
+
+Electroless Co-P deposits typically have a fine-grained structure, which contributes to their low friction coefficients and good wear resistance. However, the wear and friction behavior of the deposit can be further improved by annealing the deposit at an elevated temperature. Annealing causes the metal grains to grow, which results in a more uniform and stronger deposit. Klingenberg et al. [127]reported the microhardness (VHN) of Co-B to be 716 kg-f/mm<sup>2</sup> and of Co-P to be 883 kg-f/mm<sup>2</sup> after heat treatment at 350 °C. Composite coating like Co-SiC can exhibit high hardness even without heat treatment [116]. Self-lubricating Co-WS film (Fig. 10b) with very low coefficient of friction can be produced via electroless route [115]. It is also reported that presence of cobalt in electroless film enhances corrosion resistance in acidic [128] and saline environment [14].
+
+![](images/b794c5c24228932024f0dba13104a062047b0f737a02fad18af7874fcbb87f19.jpg)
+
+![](images/8e90e119229a4aaaf3d7a91a261167c54b95366bb744e5d22906948e6740090f.jpg)
+
+![](images/a6e0bd97a8208c842e6899918e0f67831df4e7ca60721f54af8dbb85226a0c62.jpg)
+
+![](images/5d1ec13ed302d9660bce05bc4d98c58e7eaabdc715f954564b3ccf26a9a0bb87.jpg)
+
+![](images/de26dc594de3eb3f435954f7932c2e2f50072650e69f3493a89d68119ed06634.jpg)
+
+![](images/b34f1031fc9ca40d56500868c32bbd5752200322b58ed7996d5bf29bd784448a.jpg)
+
+![](images/c0db179547bf9908448bdc7260b444d8225926209f2e6d5cec7dc867cb52d188.jpg)  
+Fig. 8 a Co nanotube plating scheme, (a’) Co nanotube [112], b Co nanowire bottom-up plating schematic, (b’) Co nanorod [111], c Core
+
+![](images/72ed6e83724479e105104787ba839ccf216a5f2058ae9efb30492cb710321530.jpg)  
+shell composite plating scheme, (c’) glass core cobalt shell microsphere[17], d Formation schematic of Co nanoparticle magnetic chain, and (d’) Co nanoparticle chain/nanowire [18]
+
+## 8.2 Emerging Applications
+
+## 8.2.1 Catalytic Activity
+
+Electrolytic hydrogen generation or "green hydrogen" production is a crucial component of a sustainable energy future.
+
+Electrolysis involves the decomposition of water into hydrogen and oxygen gases. The material of the electrodes can affect the rate of hydrogen and oxygen production. Noble metals (Ru and Pt) are often used due to their catalytic properties but they are expensive. Transition metal-based catalysts (Co–B[52], Co-Mo-B [53], Co-P [31, 129], Co-P-B [130] etc.) offer more economical options. Electroless deposition is explored as a promising method for achieving uniform and adherent catalyst layers on electrode surface. Catalytic activity of Co-P significantly depends on phosphorus content, with the coating containing 11 wt% P achieving optimal hydrogen evolution reaction (HER) performance, notably a low overpotential of 98.9 mV at 10 mA $\mathrm { c m } ^ { - 2 }$ [131]. Efficiency of Co-P-B catalysts stems from synergistic electronic interactions, where electron transfer from B to Co, often modulated by P, creates active sites and optimizes adsorption capabilities [132, 133]. Whether synthesized as coatings on Ni foam for enhanced hydrogen evolution from ammonia borane [132] and sodium borohydride hydrolysis [134], or as amorphous nanoparticles [133] for overall water splitting, Co-P-B materials demonstrate superior reaction rates, lower activation energies, and excellent stability, making them promising candidates for sustainable hydrogen production. Electron micrograph of Co-coated Ni foam developed for catalytic water splitting is shown in Fig. 10c.
+
+![](images/16f50675dc932e4c4ba3485da8c8615cca1cac094f877829c1141f0392e0f497.jpg)  
+Fig. 9 Major applications of electroless cobalt
+
+## 8.2.2 Advanced Finishing and Polishing Applications
+
+The ability to form composite coatings with diamond particles on substrates such as plastic balls [138] or polyethylene terephthalate cloth [39] showcases versatility of electroless cobalt in creating magnetic abrasive particles and flexible polishing disks. This is crucial for achieving high-quality surface finishes, which is increasingly important in diverse industries from microelectronics to material processing.
+
+## 8.2.3 Coating of Composite Reinforcements and Ceramic Particles
+
+Adding small percentage of micro or nano-sized ceramic particles $( \mathrm { A l } _ { 2 } \mathrm { O } _ { 3 }$ , SiC, MgO, WC, etc.) to metals can make them stronger and tougher as the hard ceramic particles act like tiny obstacles, making it harder for the metal to deform or break. Poor wettability can be a problem in metal matrix composites. If the metal does not adhere well to the ceramic particles, the composite material will be weaker and more likely to fail. One way to improve wettability is to coat the ceramic particles with a different material. This coating can act as a bridge between the metal and the ceramic, making it easier for the metal matrix to spread out and cover the ceramic particles. In recent decades, cobalt is being proven to be a good choice for coating ceramic particles in metal matrix composites [70, 119, 120]. Nambiar et al. [139] successfully developed aluminum matrix composites reinforced with cobalt-coated carbon nanotubes and Al2024 powder, designed for aircraft and automotive applications. A crucial finding was that a 10 µm electroless cobalt coating thickness was essential for maintaining reinforcement integrity and preventing defects during fabrication, thereby enhancing composite properties for these uses.
+
+![](images/611ac50cfb444dc25ef9769eb38740a248776999acfc057e5c9fdc0c1122dbee.jpg)  
+Fig. 10 a Ferromagnetic Co–Ni-P nanodot array [125], b Selflubricating Co-WS composite film [115], c Co-coated Ni foam for HER catalysis [135], d Co-coated glass fiber for electromagnetic shielding [75], e Co-coated WC particle [136], f Co-W–P barrier layer [137],  
+g Co-coated MWCNT for EM absorption application [124], h Co-Fecoated Al2O3 particle for catalytic contaminant removal from polluted water [91]
+
+Electroless plating significantly enhances the performance of ceramic particle-based composite coatings obtained through cladding or thermal spraying, particularly for wearresistant applications. By coating SiC [140], WC [136, 141–143], or WC–Co [144–147] powder particles with Ni–P, Co-P, or Ni-Co, desirable features like a more uniform distribution of the binder, higher sintered densities, and improved interfacial bonding can be ensured.
+
+## 8.2.4 Electromagnetic Shielding Applications
+
+The ability to deposit uniform and compact cobalt layers on substrates like fibers and microspheres, combined with inherent magnetic properties, makes them ideal for creating conductive fillers for polymer composites. This is crucial for developing flexible and lightweight electromagnetic shield ing materials, which are increasingly vital for protecting sensitive electronics from interference and ensuring data integrity in an increasingly pervasive electronic environment. With reported volume resistivities as low as $4 . 2 \times 1 0 ^ { - 3 }$ - cm on glass fibers [148], electroless cobalt demonstrates excellent electrical conductivity comparable to or exceeding that of electroless copper $( 6 . 6 3 \times 1 0 ^ { - 3 }$ - cm [149] to 0.0010 - cm [150]) and nickel $( 5 . 5 0 \times 1 0 ^ { - 3 }$ -·cm [151] to $6 . 2 5 \times$ $1 0 ^ { - 3 }$ - cm [152]) in similar applications. Notably, this conductivity is not as low as that achieved with electroless silver $( 6 . 5 4 \times 1 0 ^ { - 4 } \Omega { \cdot } \mathrm { c m } )$ [153]. In sophisticated electromagnetic (EM) absorption systems, the outer matching layer is engineered to progressively align the impedance of the ambient air with that of the internal absorbing material. This design ensures minimal surface reflection, facilitating efficient entry of electromagnetic waves for subsequent absorption by the inner layer. Hollow Ni structures coated with magnetic Co-P [154] and Co-MWCNT composite films [124] are developed to address the need for effective matching layer of EM absorbers. They have the potential to be used in stealth technology.
+
+## 8.2.5 Diffusion Barrier
+
+Diffusion barriers (Fig. 10f) are crucial in microelectronic devices to prevent unwanted interdiffusion of atoms between different materials, which can lead to device failure. Electroless Co-P [4, 5, 108], Co-W–P [86, 105, 155], and Co-W-B [50] can be employed as interfacial layer in microelectronic contacts to prevent the inter diffusion of materials such as copper [156] and lead-free solders [5], ensuring the long-term reliability of electronic devices. A minimal 0.1% addition of manganese oxide (MnO) particles to electroless Co also reportedly improves its resistance to electromigration by physically blocking atomic movement [157]. Electroless deposited Co-P-W films, particularly those with over 12% P and 2% W, serve as excellent barrier layers in structures like through-silicon vias [158]. Compared to chloride free Pd activation, a PdCl /HCl-based activation process is noted to yield superior, residue-free deposition for such Co-P-W capping layers [159].
+
+## 8.2.6 Bio-Medical Applications
+
+Electroless cobalt, particularly in the form of iron-cobalt (FeCo) plated carbon nanotubes (CNTs), presents significant biomedical potential, notably in cancer thermotherapy where these magnetic CNTs serve as heat providers to selectively eliminate cancer cells [160]. Beyond direct therapeutic uses, cobalt-based catalysts, such as $\mathrm { C o { - } F e / A l _ { 2 } O _ { 3 } }$ system (Fig. 10h), are also highly effective in environmental health applications like the advanced oxidation-based removal of harmful emerging contaminants, including antibiotics, from polluted water, showcasing a broader contribution to human well-being through cleaner environments [91].
+
+## 8.2.7 Other Microelectronics/Electrical Applications
+
+Selective electroless cobalt deposition shows promise as a potential replacement for copper in future CMOS devices [59]. Its ability to achieve high selectivity, good film properties, and self-alignment makes it a promising candidate for overcoming the challenges associated with continued device scaling. By enabling bottom-up fill of high aspect ratio features and providing potential benefits in terms of performance and reliability, electroless cobalt could play a significant role in future generations of advanced logic and DRAM technologies [161]. Goel et al.[162] showed that hysteresis loss of grain-oriented high silicon steels, extensively used to manufacture transformer core, can be minimized by applying a coating of Co–Ni-P thin film via electroless route. Yu et al. [163] successfully fabricated thin electroless Co film as flexible electrode for Li–S batteries. This current collector offers advantages over conventional metallic foils, such as aluminum or copper, because it is less dense and exhibits excellent electrical conduction, stemming from its unbroken formation and intimate interface with the electrode material.
+
+## 9 Outlook
+
+Electroless cobalt deposition is a versatile technique with significant potential in microelectronics, data storage, corrosion/wear protection, HER catalysis, and nanostructure fabrication. Despite advancements, several areas need further investigation for broader industrial adoption:
+
+Enhanced Deposition Rate and Bath Efficiency: A persistent challenge is the low deposition rate and bath efficiency. Future research should focus on novel reducing agents, catalysts, or additives to accelerate kinetics without compromising quality or stability.
+
+Tailoring Deposit Properties: More in-depth studies are needed to precisely tailor magnetic, mechanical, anticorrosion, and catalytic properties of electroless cobalt and its alloys for specialized applications. Understanding relationships between bath chemistry, parameters, microstructure, and performance is crucial.
+
+Environmentally Friendly Practices: Efforts are vital to develop sustainable plating processes, including nontoxic components, reduced waste, and efficient recycling. Pd-free activation can be a promising step in this direction.
+
+Advanced Characterization and Modeling: A deeper understanding of nucleation and growth mechanisms is vital. In situ and ex situ characterization, coupled with computational modeling, can provide insights into reaction pathways and film development, leading to more rational bath design.
+
+Addressing these research directions will advance electroless cobalt deposition, leading to more efficient, versatile, and sustainable coating solutions with enhanced properties for future technological applications.
+
+## 10 Conclusions
+
+Electroless cobalt plating is a versatile technique capable of depositing a wide range of cobalt-based coatings, including pure cobalt and various binary and ternary alloys such as Co-P, Co-B, Co–Ni-P, Co-W–P, and Co-W-B. By carefully adjusting the composition of the plating bath and operating conditions, it is possible to tailor the properties of the deposited coatings to meet specific application requirements. These coatings offer numerous advantages, including improved corrosion and wear resistance, enhanced magnetic information storage capabilities, ability to serve as effective barrier layers against copper diffusion or acting as a catalyst in H generation via electrolysis. While many potential applications have been explored, there is still significant room for further research and development in this area. This review aims to provide a comprehensive understanding of the electroless cobalt plating process by serving as a valuable resource for information on the various chemical baths and operating conditions employed by previous researchers.
+
+## References
+
+1. Brenner, A.; Riddell, G.E.: Nickel plating on steel by chemical reduction. J. Res. Natl. Bur. Stand. 37, 31 (1934). https://doi.org/ 10.6028/jres.037.019
+
+2. Rhoda, R.N.: Electroless palladium plating. Trans. IMF. 36, 82–85 (1959). https://doi.org/10.1080/00202967.1959.11869775
+
+3. Sullivan, M.V.; Eigler, J.H.: Electroless nickel plating for making ohmic contacts to silicon. J. Electrochem. Soc. 104, 226 (1957). https://doi.org/10.1149/1.2428541
+
+4. Kohn, A.; Eizenberg, M.; Shacham-Diamand, Y.: Copper grain boundary diffusion in electroless deposited cobalt based films and its influence on diffusion barrier integrity for copper metallization. J. Appl. Phys. 94, 3015–3024 (2003). https://doi.org/10.1063/1. 1598635
+
+5. Magagnin, L.; Sirtori, V.; Seregni, S.; Origo, A.; Cavallotti, P.L.: Electroless Co–P for diffusion barrier in Pb-free soldering. Electrochim. Acta 50, 4621–4625 (2005). https://doi.org/10.1016/j.el ectacta.2004.10.098
+
+6. Simpson, D.E.; Johnson, C.A.; Roy, D.: Pulsed galvanostatic electrodeposition of copper on cobalt using a pH-neutral plating bath and electroless seeds. J. Electrochem. Soc. 166. D3142–D3154 (2019). https://doi.org/10.1149/2.0171901jes
+
+7. Dubin, V.M.; Lopatin, S.; Kohn, A.; Petrov, N.; Elzenberg, M.; Shacham-Diamand, Y.: Electroless barrier and seed layers for onchip metallization. In: Datta, M.; Osaka, T. (Eds.) Microelectronic Packaging, pp. 65–110. CRC Press, USA (2004)
+
+8. Osaka, T.; Koiwa, I.; Okabe, Y.; Yamanishi, K.: Correlation between magnetic properties and composition of electrolessplated cobalt alloy films for perpendicular magnetic recording media. Jpn. J. Appl. Phys. 26, 1674 (1987). https://doi.org/10. 1143/JJAP.26.1674
+
+9. Chen, T.; Rogowski, D.A.; White, R.M.: Microstructure and magnetic properties ofelectroless Co-P thin films grown on an aluminum base disk substrate. J. Appl. Phys. 49, 1816–1818 (1978). https://doi.org/10.1063/1.324822
+
+10. Stern, A.H.: A quantitative assessment of the carcinogenicity of hexavalent chromium by the oral route and its relevance to human exposure. Environ. Res. 110, 798–807 (2010). https://doi.org/10. 1016/j.envres.2010.08.002
+
+11. Theeratatpong, K.; Danchaivijit, S.; Boonyongmaneerat, Y.: Effects of Co content and heat treatment on mechanical properties of electrolessly deposited Ni-Co-P alloys. Surf. Interface Anal. 46, 276–282 (2014). https://doi.org/10.1002/sia.5410
+
+12. Weston, D.P.; Shipway, P.H.; Harris, S.J.; Cheng, M.K.: Friction and sliding wear behaviour of electrodeposited cobalt and cobalt–tungsten alloy coatings for replacement of electrodeposited chromium. Wear 267, 934–943 (2009). https://doi.org 10.1016/j.wear.2009.01.006
+
+13. Chakraborti, A.; Das, S.K.; Sahoo, P.: Impact of progressive Co incorporation on mechanical and tribological performance of electroless Ni-Co-P films obtained from acidic bath. Surf. Coat. Technol. 513, 132536 (2025). https://doi.org/10.1016/j.surfcoat. 2025.132536
+
+14. Seifzadeh, D.; Farhoudi, L.: Electroless Co–P plating on magnesium alloy and its anti-corrosion properties. Surf. Eng. 32, 348–355 (2016). https://doi.org/10.1179/1743294415Y.000000 0034
+
+15. Chakraborti, A.; Das, S.K.; Sahoo, P.: Tailoring the tribomechanical and corrosion behavior of reverse pulse deposited Ni–Co–P coating through cobalt content modulation. J. Tribol. (2025). https://doi.org/10.1115/1.4067283
+
+16. Tierno, P.; Goedel, W.A.: Using electroless deposition for the preparation ofmicron sized polymer/metal core/shell particles and hollow metal spheres. J. Phys. Chem. B 110, 3043–3050 (2006). https://doi.org/10.1021/jp054213s
+
+17. Zhou, R.; Chen, H.; Liu, G.; Zhao, G.; Liu, Y.: Conductive and magnetic glass microsphere/cobalt composites prepared via an electroless plating route. Mater. Lett. 112, 97–100 (2013). https:// doi.org/10.1016/j.matlet.2013.08.127
+
+18. Balela, M.D.L.; Yagi, S.; Matsubara, E.: Electroless deposition of cobalt nanowires in an aqueous solution under external magnetic field. Electrochem. Solid-State Lett. 14, D68 (2011). https://doi. org/10.1149/1.3568829
+
+19. Richardson, D.; Kingston, S.; Rhen, F.M.F.: Investigation of the magnetization reversal mechanism of electrolessly deposited Co-B nanotubes. AIP Adv. (2016). https://doi.org/10.1063/1.4943603
+
+20. Shen, Y.; Li, B.-B.; Ma, Y.; Wang, Z.-L.: Research progress in electroless cobalt plating and the bottom-up filling of electroless plating. J. Electrochem. 28, 2213002 (2022)
+
+21. Van Den Meerakker, J.E.A.M.: On the mechanism of electroless plating. I. Oxidation of formaldehyde at different electrode surfaces. J. Appl. Electrochem. 11, 387–393 (1981). https://doi.org/ 10.1007/BF00613959
+
+22. Hwang, B.J.; Lin, S.H.: Reaction mechanism of electroless deposition: observations of morphology evolution during nucleation and growth via tapping mode AFM. J. Electrochem. Soc. 142, 3749–3754 (1995). https://doi.org/10.1149/1.2048408
+
+23. Brenner, A.; Riddell, G.: Deposition of nickel and cobalt by chemical reduction. J. Res. Natl. Bur. Stand. 39, 385 (1947). https://doi. org/10.6028/jres.039.024
+
+24. Fisher, R.D.; Chilton, W.H.: Preparation and magnetic characteristics of chemically deposited cobalt for high-density storage. J. Electrochem. Soc. 109, 485 (1962). https://doi.org/10.1149/1.24 25452
+
+25. Zhao, Y.; Zhang, R.; Zhang, T.; Duan, Y.: Effect of different pretreatments to electroless nickel or cobalt plating on hollow microspheres. Int. J. Mod. Phys. B 24, 2706–2711 (2010). https:// doi.org/10.1142/S0217979210065507
+
+26. Kuo, L.-C.; Huang, Y.-C.; Lee, C.-L.; Yen, Y.-W.: The activation effect of Pd nanoparticles on electroless nickel–phosphorous deposition. Electrochim. Acta 52, 353–360 (2006). https://doi. org/10.1016/j.electacta.2006.05.017
+
+27. Schlesinger, M.; Kisel, J.: Effect of Sn(II)-based sensitizer adsorption in electroless deposition. J. Electrochem. Soc. 136, 1658–1661 (1989). https://doi.org/10.1149/1.2096988
+
+28. Uysal, M.; Karslio˘glu, R.; Alp, A.; Akbulut, H.: The preparation of core–shell Al O /Ni composite powders by electroless plating. Ceram. Int. 39, 5485–5493 (2013). https://doi.org/10.1016/j.cera mint.2012.12.060
+
+29. Sun, R.D.; Tryk, D.A.; Hashimoto, K.; Fujishima, A.: Formation of catalytic Pd on ZnO thin films for electroless metal deposition. J. Electrochem. Soc. 145, 3378–3382 (1998). https://doi.org/10. 1149/1.1838815
+
+30. Tang, P.; Jiang, S.; Yan, J.; Li, X.: Electroless Ni-P deposition on WC powders through direct PdCl2 activation and study on the underlying mechanisms. Next Mater. 6, 100496 (2025). https:// doi.org/10.1016/j.nxmate.2025.100496
+
+31. Zhang, X.; Wang, F.; Zhou, Y.; Liang, A.; Zhang, J.: Aluminuminduced direct electroless deposition of Co and Co-P coatings on copper and their catalytic performance for electrochemical water splitting. Surf. Coat. Technol. 352, 42–48 (2018). https://doi.org/ 10.1016/j.surfcoat.2018.07.092
+
+32. Mukherjee, S.; Ghosh, S.: Investigation of Al-induced electroless cobalt–tin alloy deposition on Cu substrate. J. Mater. Sci. 58, 2334–2346 (2023). https://doi.org/10.1007/s10853-023-08172-5
+
+33. Hu, G.; Li, R.; Liao, W.; Bai, C.; Zhang, X.; Zhao, Q.; Zhang, J.: Cobalt layer prepared on copper using galvanic replacement as an alternative to palladium for activating electroless Ni–P plating. J. Appl. Electrochem. 55, 395–407 (2025). https://doi.org/10.1007/ s10800-024-02177-x
+
+34. Judge, J.S.; Morrison, J.R.; Speliotis, D.E.; Bate, G.: Magnetic properties and corrosion behavior of thin electroless Co-P deposits. J. Electrochem. Soc. 112, 681 (1965). https://doi.org/10. 1149/1.2423663
+
+35. Djokic, S.S.: Electroless reduction of cobalt(III): production of cobalt powder. Electrochem. Solid-State Lett. 1, 27 (1999). https:// doi.org/10.1149/1.1390623
+
+36. Ohno, I.; Wakabayashi, O.; Haruyama, S.: Anodic oxidation of reductants in electroless plating. J. Electrochem. Soc. 132, 2323–2330 (1985). https://doi.org/10.1149/1.2113572
+
+37. Ohno, I.: Electrochemistry of electroless plating. Mater. Sci. Eng. A 146, 33–49 (1991). https://doi.org/10.1016/0921-5093(91)90 266-P
+
+38. Tarozait , R.; Kurtinaitien , M.; Dži¯uv , A.; Jusys, Z.: Composition, microstructure and magnetic properties of electrolessplated thin Co–P films. Surf. Coat. Technol. 115, 57–65 (1999). https://doi.org/10.1016/S0257-8972(99)00161-9
+
+39. Stoychev, D.; Koteva, N.; Stoycheva, M.; Velkova, E.; Dobrev, D.: Electroless deposition of cobalt matrix for co-deposition of high-hard nano-and microparticles. Mat. Bulgaration Sci. Fund Project ID 2(102), 7 (2009)
+
+40. Miksic, M.G.; Travieso, R.; Arcus, A.; Wright, R.H.: The relationship between coercivity and the structure and composition
+
+of electroless cobalt-phosphorus films. J. Electrochem. Soc. 113, 360 (1966). https://doi.org/10.1149/1.2423961
+
+41. Frieze, A.S.; Sard, R.; Weil, R.: Some properties of electroless cobalt. J. Electrochem. Soc. 115, 586 (1968). https://doi.org/10. 1149/1.2411348
+
+42. Schlesinger, M.; Meng, X.; Evans, W.T.; Saunders, D.A.; Kampert, W.P.: Micromorphology and magnetic studies of electroless cobalt/phosphorus thin films. J. Electrochem. Soc. 137, 1706–1709 (1990). https://doi.org/10.1149/1.2086774
+
+43. Cortijo, R.O.; Schlesinger, M.: Structural studies of electroless thin Co-P films. J. Electrochem. Soc. 131, 2800–2803 (1984). https://doi.org/10.1149/1.2115411
+
+44. Chow, S.L.; Hedgecock, N.E.; Schlesinger, M.; Rezek, J.: Electron microscope study of the nucleation and growth of electroless cobalt and nickel. J. Electrochem. Soc. 119, 1614 (1972). https:// doi.org/10.1149/1.2404059
+
+45. Jones, G.A.; Middleton, B.K.: The structure of electroless cobalt films as revealed by electron microscopy. J. Mater. Sci. 3, 519–523 (1968). https://doi.org/10.1007/BF00549735
+
+46. Hono, K.; Laughlin, D.E.: Evidence of phosphorous segregation in grain boundaries in electroless-plated Co-P thin film. J. Magn. Magn. Mater. 80, L137–L141 (1989). https://doi.org/10. 1016/0304-8853(89)90107-8
+
+47. Pearlstein, F.; Weightman, R.F.: Electroless cobalt deposition from acid baths. J. Electrochem. Soc. 121, 1023 (1974). https:// doi.org/10.1149/1.2401971
+
+48. Saito, T.; Sato, E.; Matsuoka, M.; Iwakura, C.: Electroless deposition of Ni–B, Co–B and Ni–Co–B alloys using dimethylamineborane as a reducing agent. J. Appl. Electrochem. 28, 559–563 (1998). https://doi.org/10.1023/A:1003233715362
+
+49. Rohan, J.F.; Nagle, L.C.; Loughlin, A.: Electroless cobalt deposition from ammonia borane solutions. ECS Trans. 2, 51–59 (2007). https://doi.org/10.1149/1.2408863
+
+50. Nakano, H.; Itabashi, T.; Akahoshi, H.: Electroless deposited cobalt-tungsten-boron capping barrier metal on Damascene copper interconnection. J. Electrochem. Soc. 152. C163 (2005). https://doi.org/10.1149/1.1860512
+
+51. Tarozait˙e, R.; Sudaviˇcius, A.; Sukackien˙e, Z.; Norkus, E.: Electroless cobalt deposition from a glycinate solution using morpholine borane as a reducing agent. Trans. IMF 92, 146–152 (2014). https://doi.org/10.1179/0020296714Z.000000000172
+
+52. Dai, H.-B.; Liang, Y.; Wang, P.; Cheng, H.-M.: Amorphous cobalt–boron/nickel foam as an effective catalyst for hydrogen generation from alkaline sodium borohydride solution. J. Power. Sources 177, 17–23 (2008). https://doi.org/10.1016/j.jpowsour. 2007.11.023
+
+53. Dai, H.-B.; Gao, L.-L.; Liang, Y.; Kang, X.-D.; Wang, P.: Promoted hydrogen generation from ammonia borane aqueous solution using cobalt–molybdenum–boron/nickel foam catalyst. J. Power. Sources 195, 307–312 (2010). https://doi.org/10.1016 j.jpowsour.2009.06.094
+
+54. Djoki´c, S.S.: Electroless deposition of cobalt using hydrazine as a reducing agent. J. Electrochem. Soc. 144, 2358–2363 (1997). https://doi.org/10.1149/1.1837818
+
+55. Cheng, S.L.; Hsu, T.L.; Lee, T.; Lee, S.W.; Hu, J.C.; Chen, L.T.: Characterization and kinetic investigation of electroless deposition of pure cobalt thin films on silicon substrates. Appl. Surf. Sci. 264, 732–736 (2013). https://doi.org/10.1016/j.apsusc.2012. 10.111
+
+56. Muench, F.: Electroless plating of metal nanomaterials. Chem-ElectroChem 8, 2993–3012 (2021). https://doi.org/10.1002/celc. 202100285
+
+57. Homma, T.; Saito, K.; Osaka, T.: Electroless cobalt alloy perpendicular anisotropy films plated from a simplified malonate bath. Jpn. J. Appl. Phys. 29, 1701 (1990). https://doi.org/10.1143/JJAP. 29.1701
+
+58. Wu, X.C.; Bittner, A.M.; Kern, K.: Spatially selective electroless deposition of cobalt on oxide surfaces directed by microcontact printing of dendrimers. Langmuir 18, 4984–4988 (2002). https:// doi.org/10.1021/la0200764
+
+59. Zyulkov, I.; Armini, S.; Opsomer, K.; Detavernier, C.; De Gendt, S.: Selective electroless deposition of cobalt using aminoterminated SAMs. J. Mater. Chem. C 7, 4392–4402 (2019). https:// doi.org/10.1039/C9TC00145J
+
+60. Stankeviˇcien˙e, I.; Jagminien˙e, A.; Tamašauskait˙e-Tamaši¯unait˙e, L.; Sukackien˙e, Z.; Gedvilas, M.; Norkus, E.: Investigation of electroless deposition of cobalt films by EQCM in the presence of different amines. Mater. Sci. Eng. B 241, 9–12 (2019). https:// doi.org/10.1016/j.mseb.2019.02.004
+
+61. Alberts, G.S.; Wright, R.H.; Parker, C.C.: Effect of NH on deposition from alkaline electroless nickel and cobalt plating baths. J. Electrochem. Soc. 113, 687 (1966). https://doi.org/10.1149/1.24 24091
+
+62. Toda, A.; Chivavibul, P.; Enoki, M.: Effects of plating conditions on electroless Ni-Co-P coating prepared from lactate-citrateammonia solution. Mater. Trans. 54, 337–343 (2013). https://doi. org/10.2320/matertrans.M2012292
+
+63. Matsuda, H.; Takano, O.: The effect of dissolved oxygen on the deposition process in electroless cobalt plating. J. Appl. Electrochem. (1993). https://doi.org/10.1007/BF00241906
+
+64. Matsuda, H.; Takano, O.: Influence of ultrasonic radiation on electroless cobalt phosphorus deposition. Trans. IMF. 71, 138–141 (1993). https://doi.org/10.1080/00202967.1993.11871007
+
+65. Yu, Y.; Wei, G.; Ge, H.; Gao, Y.; Zhao, Z.; Jiang, L.: Preparation of co–W–P magnetic thin films by electroless deposition. Surf. Rev. Lett. 16, 635–642 (2009). https://doi.org/10.1142/S0218625 X09012950
+
+66. Kivel, J.; Sallo, J.S.: The effect of thiourea on alkaline electroless deposition. J. Electrochem. Soc. 112, 1201 (1965). https://doi.org/ 10.1149/1.2423399
+
+67. EL Haloui, A.; Driouch, M.; EL Assiri, E.H.; Sfaira, M.; Ebn Touhami, M.: Zarrouk. A.: Investigation of the effect of MoO₄²– and Co<sup>2+</sup> up on electroless Ni–Mo–P and Ni–Co–P alloys in acidic solution using tyrosine as stabilizer: characterization and electrochemical study. Arab. J. Sci. Eng. 47, 7157–7169 (2022). https:// doi.org/10.1007/s13369-022-06703-x
+
+68. Rudnik, E.; Gorgosz, J.: The influence of maleic acid on the Co–P electroless deposition. Surf. Coat. Technol. 201, 6953–6959 (2007). https://doi.org/10.1016/j.surfcoat.2006.12.025
+
+69. Ribeiro, M.C.; Frank, A.C.; Sumodjo, P.T.A.: The influence of ammonia on the electroless deposition ofCoB alloys from alkaline citrate containing baths. Electrochim. Acta 147, 752–757 (2014). https://doi.org/10.1016/j.electacta.2014.10.009
+
+70. Chakarova, V.; Georgieva, M.; Petrova, M.; Dobreva, E.; Stoychev, D.: Electroless deposition and investigation of composite coatings based on nickel or cobalt matrix, including boron nitrides as dispersoids, on polyethylene terephthalate substrate. Trans. IMF 94, 259–264 (2016). https://doi.org/10.1080/0020 2967.2016.1208386
+
+71. Osaka, T.; Nagasaka, H.; Goto, F.: Effects of activation and acceleration on magnetic properties of chemically deposited Co-P thin films. J. Electrochem. Soc. 128, 1686–1691 (1981). https://doi. org/10.1149/1.2127711
+
+72. Shen, Y.; Guo, J.; Wang, L.; Han, H.; Ma, Y.; Xin, B.; Wang, Z.: Acceleration mechanism of triethanolamine in electroless bath for pure cobalt deposition. J. Electrochem. Soc. 170, 112503 (2023). https://doi.org/10.1149/1945-7111/ad0a74
+
+73. Dadvand, N.; Jarjoura, G.; Kipouros, G.J.: Preparation and characterization of Co–Fe–B thin films produced by electroless deposition. J. Mater. Sci. Mater. Electron. 19, 51–59 (2008). https://doi.org/10.1007/s10854-007-9341-2
+
+74. Balela, M.D.L.; Yagi, S.; Matsubara, E.: Room-temperature synthesis of cobalt nanoparticles by electroless deposition in aqueous solution. Electrochem. Solid-State Lett. 13, D4 (2010). https://doi. org/10.1149/1.3265525
+
+75. Rahaman, A.; Kar, K.K.: Effect ofcoating time and temperature on electroless deposition ofcobalt-phosphorous for the growth ofcarbon nanotubes on the surface of E-glass fibers/fabric. Fullerenes Nanotub. Carbon Nanostruct. 19, 373–397 (2011). https://doi.org/ 10.1080/15363831003722797
+
+76. Rudnik, E.; Skrzyniarz, P.: Influence of temperature on electroless deposition of Co–P. Trans. IMF. 85, 82–86 (2007). https://doi.org/ 10.1179/174591907X177723
+
+77. Liu, W.L.; Hsieh, S.H.; Tsai, T.K.; Chen, W.J.: Growth kinetics of electroless cobalt deposition by TEM. J. Electrochem. Soc. 151, C680 (2004). https://doi.org/10.1149/1.1793691
+
+78. Nicholson, E.L.; Khan, M.R.: Microstructure and magnetic properties of electroless plated Co-Ni-P and Co-P thin films for magnetic recording. J. Electrochem. Soc. 133, 2342–2345 (1986). https://doi.org/10.1149/1.2108404
+
+79. Hu, B.; Sun, R.; Yu, G.; Liu, L.; Xie, Z.; He, X.; Zhang, X.: Effect of bath pH and stabilizer on electroless nickel plating of magnesium alloys. Surf. Coat. Technol. 228, 84–91 (2013). https://doi. org/10.1016/j.surfcoat.2013.04.011
+
+80. Paunovic, M.; Nguyen, T.; Mukherjee, R.; Sambucetti, C.; Romankiw, L.T.: Empirical modeling and response surfaces for electroless Co deposition process. J. Electrochem. Soc. 142, 1495–1500 (1995). https://doi.org/10.1149/1.2048603
+
+81. Yu, Y.D.; Li, M.G.; Wei, G.Y.; Ge, H.L.: Effects of pH values on electroless deposition of CoP films. Surf. Eng. 29, 767–771 (2013). https://doi.org/10.1179/1743294413Y.0000000196
+
+82. Cobley, A.J.; Mason, T.J.; Saez, V.: Review of effect of ultrasound on electroless plating processes. Trans. IMF. 89, 303–309 (2011). https://doi.org/10.1179/174591911X13170500147670
+
+83. Lin, C.C.; Chuang, C.C.; Li, X.H.; Chin, T.S.; Chang, J.Y.; Sung, C.K.; Wang, S.C.: Ultrasound-assisted electroless deposition of Co-P hard magnetic films. Surf. Coat. Technol. 388, 125577 (2020). https://doi.org/10.1016/j.surfcoat.2020.125577
+
+84. Touyeras, F.; Hihn, J.Y.; Delalande, S.; Viennet, R.; Doche, M.L.: Ultrasound influence on the activation step before electroless coating. Ultrason. Sonochem. 10, 363–368 (2003). https://doi.org/10. 1016/S1350-4177(03)00098-1
+
+85. Yu, Y.; Song, Z.; Ge, H.; Wei, G.: Preparation of CoP films by ultrasonic electroless deposition at low initial temperature. Prog. Nat. Sci. Mater. Int. 24, 232–238 (2014). https://doi.org/10.1016 j.pnsc.2014.04.004
+
+86. Kim, T.H.; Dulal, S.M.S.I.; Park, C.H.; Chae, H.; Kim, C.-K.: Optimisation of process parameters for electroless plating of Co–W–P capping layers from an alkali-metal-free bath. Surf. Coat. Technol. 202, 4861–4867 (2008). https://doi.org/10.1016/j. surfcoat.2008.04.077
+
+87. Kalu, E.E.: Aging effects of electroless cobalt bath on microstructure & magnetic properties of Co-P films. Plat. Surf. Finish. 85, 74–78 (1998)
+
+88. Pearlstein, F.; Weightman, R.F.: Electroless deposition of nickel and cobalt based alloys. Electrochem. Technol. 6, 427–430 (1968)
+
+89. Yagi, S.; Kawamori, M.; Matsubara, E.: Electrochemical study on the synthesis process of Co–Ni alloy nanoparticles via electroless deposition. J. Electrochem. Soc. 157, E92 (2010). https://doi.org 10.1149/1.3352893
+
+90. Duhin, A.; Inberg, A.; Eliaz, N.; Gileadi, E.: Electroless plating of rhenium-based alloys with nickel, cobalt and iron. Electrochim. Acta 174, 660–666 (2015). https://doi.org/10.1016/j.electacta. 2015.06.033
+
+91. Zhang, H.; Zhao, J.; Liu, F.; Yin, J.; Li, W.; Dai, X.; Zhou, P.; Liu, Y.; Lai, B.: Immobilizing cobalt-iron bimetal on Al2O3 by electroless plating-calcination for peroxymonosulfate activation:
+
+performance, mechanistic and practicality. Chem. Eng. J. 488, 150866 (2024). https://doi.org/10.1016/j.cej.2024.150866
+
+92. Kim, D.; Aoki, K.; Takano, O.: Soft magnetic films by electroless Ni-Co-P plating. J. Electrochem. Soc. 142, 3763–3767 (1995). https://doi.org/10.1149/1.2048410
+
+93. Armyanov, S.A.; Sotirova, G.S.: Electroless Co-Ni-P thin films for magnetic recording. J. Electrochem. Soc. 136, 1575–1578 (1989). https://doi.org/10.1149/1.2096967
+
+94. Sankara Narayanan, T.S.N.; Stephan, A.; Guruskanthan, S.: Electroless Ni–Co–B ternary alloy deposits: preparation and characteristics. Surf. Coat. Technol. 179, 56–62 (2004). https://doi. org/10.1016/S0257-8972(03)00788-6
+
+95. Xuan, T.; Zhang, L.; Huang, Q.: Crystallization behavior of electroless Co-Ni-B alloy plated in magnetic field in presence of cerium. Trans. Nonferrous Met. Soc. China 16, 363–367 (2006). https://doi.org/10.1016/S1003-6326(06)60062-9
+
+96. Wang, S.; Zeng, F.: Effect of electroless deposition conditions on the structures and the magnetic performances of the Co-Fe-P alloy. Acta Metallurgica Sinica (English Letters). 19, 307–312 (2006). https://doi.org/10.1016/S1006-7191(06)60060-4
+
+97. Zheng, Z.X.; Wang, R.; Wang, C.M.: Electroless plating of Co–Zn–P thin film onto nanodiamond cores. Curr. Appl. Phys. 11, 227–230 (2011). https://doi.org/10.1016/j.cap.2010.07.012
+
+98. Rudnik, E.; Mucha, M.: Electroless deposition of Co–Mo–P alloys. Surf. Eng. 27, 683–689 (2011). https://doi.org/10.1179/ 1743294410Y.0000000023
+
+99. Valova, E.; Armyanov, S.; Dille, J.; Van Ingelgem, Y.; Hubin, A.; Steenhaut, O.: Electroless deposited Co–Re–P and Co–Re–Ni–P coatings: elemental state of the alloy components and their localization. J. Electrochem. Soc. 155, D449 (2008). https://doi.org/ 10.1149/1.2898862
+
+100. Krutskikh, V.M.; Drovosekov, A.B.; Gamburg, Y.D.; Aliev, A.D.; Lyakhov, B.F.; Martynenko, V.M.; Shul’ga, Y.M.: Electroless deposition and properties of Co–Re–B alloys. Russ. J. Electrochem. 52, 106–114 (2016). https://doi.org/10.1134/S1023193 516020075
+
+101. Koiwa, I.; Osaka, T.; Yamazaki, Y.; Namikawa, T.: A study on the crystal growth of electroless plated Co-Ni-Re-P alloy films for perpendicular magnetic recording. IEEE Trans. Magn. 23, 2800–2802 (1987). https://doi.org/10.1109/TMAG.1987.10 65363
+
+102. Yae, S.; Kanki, T.; Fukumuro, N.; Yamada, Y.; Matsuda, H.: Electroless co-W-Zn-P films having high coercivity and high corrosion resistance. Trans. IMF. 81, 45–47 (2003). https://doi.org/10.1080/ 00202967.2003.11871488
+
+103. Farr, J.P.G.; Noshani, A.A.: Some properties of electroless Ni-P, Co-P, and Ni-Co-P deposits. Trans. IMF. 74, 221–225 (1996). https://doi.org/10.1080/00202967.1996.11871130
+
+104. Liu, W.L.; Chen, W.J.; Tsai, T.K.; Hsieh, S.H.; Chang, S.Y.: Effect of nickel on the initial growth behavior of electroless Ni–Co–P alloy on silicon substrate. Appl. Surf. Sci. 253, 3843–3848 (2007). https://doi.org/10.1016/j.apsusc.2006.08.017
+
+105. Kohn, A.; Eizenberg, M.; Shacham-Diamand, Y.; Sverdlov, Y.: Characterization of electroless deposited Co(W,P) thin films for encapsulation of copper metallization. Mater. Sci. Eng. A 302, 18–25 (2001). https://doi.org/10.1016/S0921-5093(00)01348-4
+
+106. Sverdlov, Y.; Shacham-Diamand, Y.: Electroless deposition of Co(W) thin films. Microelectron. Eng. 70, 512–518 (2003). https://doi.org/10.1016/S0167-9317(03)00459-3
+
+107. Shacham-Diamand, Y.; Sverdlov, Y.; Bogush, V.; Ofek-Almog, R.: A surface adsorption model for electroless cobalt alloy thin films. J. Solid State Electrochem. 11. 929–938 (2007). https://doi org/10.1007/s10008-007-0285-5
+
+108. Zhu, L.; Sun, D.; Li, X.; Liu, W.; Huang, J.; Liang, C.; Hu, X.: Electroless plating ofiron-group metals and electrochemical comparison for thermoelectric contacts. Solid State Sci. 154, 107613 (2024). https://doi.org/10.1016/j.solidstatesciences.2024.107613
+
+109. Balela, M.D.L.; Yagi, S.; Lockman, Z.; Aziz, A.; Amorsolo, A.V.; Matsubara, E.: Electroless deposition of ferromagnetic cobalt nanoparticles in propylene glycol. J. Electrochem. Soc. 156, E139 (2009). https://doi.org/10.1149/1.3169776
+
+110. Yagi, S.; Kawamori, M.; Matsubara, E.: Electrochemical QCM study of the synthesis process of cobalt nanoparticles via electroless deposition. Electrochem. Solid-State Lett. 13, E1 (2010). https://doi.org/10.1149/1.3269051
+
+111. Dadvand, N.; Kipouros, G.J.: Electroless fabrication of cobalt alloys nanowires within alumina template. J. Nanomater. 2007, 1–6 (2007). https://doi.org/10.1155/2007/46919
+
+112. Wang, W.; Li, N.; Li, X.; Geng, W.; Qiu, S.: Synthesis of metallic nanotube arrays in porous anodic aluminum oxide template through electroless deposition. Mater. Res. Bull. 41, 1417–1423 (2006). https://doi.org/10.1016/j.materresbull.2006.02.011
+
+113. Gavasheli, T.A.; Mamniashvili, G.I.; Shermadini, Z.G.; Zedginidze, T.I.; Petriashvili, T.G.; Gegeckori, T.O.; Janjalia, M.V.: Investigation of the pinning and mobility of domain walls in cobalt micro- and nanowires by the nuclear spin echo method under the additional influence of a magnetic video pulse. J. Magn. Magn. Mater. 500, 166310 (2020). https://doi.org/10. 1016/j.jmmm.2019.166310
+
+114. Gegechkori, T.; Mamniashvili, G.; Zedginidze, T.; Petriashvili, T.: Electroless synthesis of cobalt nanowires in magnetic field and their characterization by resonant magnetometry methods. Eng. Technol. Appl. Sci. Res. 14, 18805–18809 (2024). https://doi.org 10.48084/etasr.8192
+
+115. Friedman, H.; Eidelman, O.; Feldman, Y.; Moshkovich, A.; Perfiliev, V.; Rapoport, L.; Cohen, H.; Yoffe, A.; Tenne, R.: Fabrication of self-lubricating cobalt coatings on metal surfaces. Nanotechnology 18, 115703 (2007). https://doi.org/10.1088/0957-4484/ 18/11/115703
+
+116. Rudnik, E.; Jucha, T.: Electroless and electrolytic deposition of Co–SiC composite coatings on aluminum. Surf. Coat. Technol. 232, 389–395 (2013). https://doi.org/10.1016/j.surfcoat.2013.05 .040
+
+117. Tong, J.; Zhang, J.; Wang, Y.; Min, F.; Wang, X.; Zhang, H.; Ma, J.: Preparation of co-plated WC powders by a non-precious-Co-activation triggered electroless plating strategy. Adv. Powder Technol. 30, 2311–2319 (2019). https://doi.org/10.1016/j.apt. 2019.07.012
+
+118. Shanmugapriya, K.; Rajagopal, D.; Karthikeyan, S.: An improvement in aluminium composites interface strength and microhardness through electroless cobalt coatings on tungsten carbide. Mater. Lett. 352, 135105 (2023). https://doi.org/10.1016/j.matlet. 2023.135105
+
+119. Kurt, H.I.; Ergul, E.; Yilmaz, N.F.; Oduncuoglu, M.: Surface functionalization of nano MgO particles with nickel and cobalt. Mater. Res. Express 6, 0850f1 (2019). https://doi.org/10.1088 2053-1591/ab278f
+
+120. Wang, S.; Sun, Y.; Li, G.: Study on cobalt coating on ZTA particles by electroless plating and impact-abrasive wear behavior of ZTAp reinforced iron matrix composite. Wear 510, 204489 (2022). https://doi.org/10.1016/j.wear.2022.204489
+
+121. Mohd Zaheruddin, K.; Rahmat, A.; Shamsul, J.B.; Mohd Nazree, B.D.: Aimi Noorlivana. H: Synthesis of dense nano cobalthydroxyapatite by modified electroless deposition technique. AIP Conf, Proc. 1756, 090009 (2016). https://doi.org/10.1063/1.49 58790
+
+122. Tai, Y.; Chen, H.; Xu, C.; Liu, Y.: Glass fabric@cobalt core-shell composites: electroless plating fabrication and their enhanced
+
+magnetic properties. Mater. Lett. 188, 80–83 (2017). https://doi. org/10.1016/j.matlet.2016.10.101
+
+123. Jiang, J.T.; Zhen, L.; Xu, C.Y.; Shao, W.Z.: Microstructure evolution of cobalt coating electroless plated on SiC whisker during electroless plating and heat treatment. Surf. Coat. Technol. 201, 6059–6062 (2007). https://doi.org/10.1016/j.surfcoat.2006. 10.032
+
+124. Tianjiao, B.; Yan, Z.; Xiaofeng, S.; Yuexin, D.: A study ofthe electromagnetic properties of Cobalt-multiwalled carbon nanotubes (Co-MWCNTs) composites. Mater. Sci. Eng. B 176, 906–912 (2011). https://doi.org/10.1016/j.mseb.2011.05.016
+
+125. Ouchi, T.; Shimano, N.; Homma, T.: CoNiP electroless deposition process for fabricating ferromagnetic nanodot arrays. Electrochim. Acta 56, 9575–9580 (2011). https://doi.org/10.1016/j.el ectacta.2011.04.085
+
+126. Wang, H.-C.; Yu, G.-H.; Cao, J.-L.; Wang, L.-J.: Electroless plating Co–P films for high performance magnetic rotary encoders. Sensors Actuators A Phys. 165, 216–220 (2011). https://doi.org/ 10.1016/j.sna.2010.10.024
+
+127. Klingenberg, M.L.: Evaluation of Nano-Composite Coatings as Environmentally Acceptable Alternatives to Hard Chromium Plating. In: AESF/EPA Conf. on Environmental and Process Excellence (2004)
+
+128. Gao, Y.; Huang, L.; Zheng, Z.J.; Li, H.; Zhu, M.: The influence of cobalt on the corrosion resistance and electromagnetic shielding of electroless Ni–Co–P deposits on Al substrate. Appl. Surf. Sci. 253, 9470–9475 (2007). https://doi.org/10.1016/j.apsusc.2007.06 .010
+
+129. Eom, K.; Kwon, H.: Effects of deposition time on the H2 generation kinetics of electroless-deposited cobalt–phosphorous catalysts from NaBH4 hydrolysis, and its cyclic durability. Int. J. Hydrogen Energy 35, 5220–5226 (2010). https://doi.org/10.1016/ j.ijhydene.2010.03.005
+
+130. Hao, W.; Huang, H.; Chen, Z.; Wang, L.; Ma, X.; Huang, M.; Ou, X.; Guo, Y.: Electroless plating-induced morphology selfassembly of free-standing Co–P–B enabling efficient overall water splitting. Electrochim. Acta 354, 136645 (2020). https:// doi.org/10.1016/j.electacta.2020.136645
+
+131. Amber, H.; Balˇci¯unait˙e, A.; Sukackien˙e, Z.; Tamašauskait˙e-Tamaši¯unait˙e, L.; Norkus, E.: Electrolessly deposited cobaltphosphorus coatings for efficient hydrogen and oxygen evolution reactions. Catalysts 15, 8 (2024). https://doi.org/10.3390/catal1 5010008
+
+132. Patel, N.; Kale, A.; Miotello, A.: Improved dehydrogenation of ammonia borane over Co-P-B coating on Ni: a single catalyst for both hydrolysis and thermolysis. Appl. Catal. B 111–112, 178–184 (2012). https://doi.org/10.1016/j.apcatb.2011.09.032
+
+133. Chunduri, A.; Gupta, S.; Bapat, O.; Bhide, A.; Fernandes, R.; Patel, M.K.; Bambole, V.; Miotello, A.; Patel, N.: A unique amorphous cobalt-phosphide-boride bifunctional electrocatalyst for enhanced alkaline water-splitting. Appl. Catal. B 259, 118051 (2019). https://doi.org/10.1016/j.apcatb.2019.118051
+
+134. Han, Y.; Ma, J.; Wang, X.; Wang, Y.; Zhang, K.; Cao, Z.; Wu, S.; Li, G.: Preparation of Co–P–B/foam Ni catalyst and its catalytic performance for hydrogen production by hydrolysis of NaBH solution. Fuel 372, 132262 (2024). https://doi.org/10.1016/j.fuel. 2024.132262
+
+135. Eom, K.; Kim, M.; Kim, R.; Nam, D.; Kwon, H.: Characterization of hydrogen generation for fuel cells via borane hydrolysis using an electroless-deposited Co–P/Ni foam catalyst. J. Power. Sources 195, 2830–2834 (2010). https://doi.org/10.1016/j.jpowsour.2009. 11.084
+
+136. Guo, L.; Zhao, X.J.; Xiao, L.R.; Tang, C.R.; Zhang, W.Y.; Tu, X.X.; Liu, X.Z.; Nie, Y.C.: Kinetic study of electroless cobalt deposition on WC particles. J. Alloys Compd. 750, 774–780 (2018). https://doi.org/10.1016/j.jallcom.2018.04.064
+
+137. Tsai, T.K.; Wu, S.S.; Hsu, C.S.; Fang, J.S.: Effect of phosphorus on the copper diffusion barrier properties of electroless CoWP films. Thin Solid Films 519, 4958–4962 (2011). https://doi.org/ 10.1016/j.tsf.2011.01.061
+
+138. Yoshihara, S.: Co-Ni electroless composite plating of nanometerleveled diamond particles on micrometer-leveled plastic balls and the application of thus prepared devices to various electronics processes. ECS Trans. 75, 35–41 (2017). https://doi.org/10.1149 07534.0035ecst
+
+139. Nambiar, S.; Sharma, S.; Anne, G.; Agarwal, P.; Agrawal, T.; Adiga, S.; Chickkannan, V.: Mechanical and microstructural analysis of cobalt coated CNT/Al2024 reinforced aluminum based composites for aerospace and automotive applications. Cogent Eng. (2024). https://doi.org/10.1080/23311916.2024.2436642
+
+140. Heidarzadeh, A.; Mousavian, R.T.; Khosroshahi, R.A.; Afkham, Y.A.; Pouraliakbar, H.: Empirical model to predict mass gain of cobalt electroless deposition on ceramic particles using response surface methodology. Rare Met. 36, 209–219 (2017). https://doi. org/10.1007/s12598-015-0564-8
+
+141. Mahdi, M.S.; Sanjabi, S.: Synthesis and characterization of Ni-based infiltration brazed coating reinforced with Co-P shellcoated WC. J. Alloys Compd. 1010, 177036 (2025). https://doi. org/10.1016/j.jallcom.2024.177036
+
+142. Jiang, H.; Tong, J.; Zhan, Z.; Yao, Z.; Yu, S.; Min, F.; Wang, C.; Noudem, J.G.; Zhang, J.: Comparative study on the densification, microstructure and properties of WC-10(Ni, Ni/Co) cemented carbides using electroless plated and coprecipitated powders. Materials 16, 1977 (2023). https://doi.org/10.3390/ma 16051977
+
+143. Moustafa, S.F.; Abdel-Hamid, Z.; Baheig, O.G.; Hussien, A.: Synthesis of WC hard materials using coated powders. Adv. Powder Technol. 22, 596–601 (2011). https://doi.org/10.1016/j.apt.2010. 08.011
+
+144. Jafari, M.; Enayati, M.H.; Salehi, M.; Nahvi, S.M.; Park, C.G.: Microstructural and mechanical characterizations of a novel HVOF-sprayed WC-Co coating deposited from electroless Ni–P coated WC-12Co powders. Mater. Sci. Eng. A 578, 46–53 (2013). https://doi.org/10.1016/j.msea.2013.04.064
+
+145. Han. J.-C.: Jafari, M.: Park. C.-G.: Seol. J.-B.: Microstructureproperty relations in WC-Co coatings sprayed from combinatorial Ni-plated and nanostructured powders. Mater Charact 129, 207–216 (2017). https://doi.org/10.1016/j.matchar.2017.05.005
+
+146. Erfanmanesh, M.; Shoja-Razavi, R.; Abdollah-Pour, H.; Mohammadian-Semnani, H.: Influence of using electroless Ni-P coated WC-Co powder on laser cladding of stainless steel. Surf. Coat. Technol. 348, 41–54 (2018). https://doi.org/10.1016/j.surf coat.2018.05.016
+
+147. He, R.; Wang, J.; He, M.; Yang, H.; Ruan, J.: Synthesis of WC composite powder with nano-cobalt coatings and its application in WC-4Co cemented carbide. Ceram. Int. 44, 10961–10967 (2018). https://doi.org/10.1016/j.ceramint.2018.03.174
+
+148. Zhou, R.; Tan, B.; Li, H.: Flexible and anisotropically conductive film by assembly of silicone rubber and cobalt-coated glass fiber composites. AIP Adv. (2024). https://doi.org/10.1063/5.0226566
+
+149. Chen, H.; Liu, G.; Xu, C.; Hou, X.; Liu, Y.: Copper@carbon fiber composites prepared by a simple electroless plating technique. Mater. Lett. 173, 211–213 (2016). https://doi.org/10.1016/j.ma tlet.2016.03.055
+
+150. Xu, C.; Liu, G.; Chen, H.; Zhou, R.; Liu, Y.: Fabrication ofconductive copper-coated glass fibers through electroless plating process. J. Mater. Sci. Mater. Electron. 25, 2611–2617 (2014). https://doi. org/10.1007/s10854-014-1919-x
+
+151. Liao, F.; Han, X.; Zhang, Y.; Xu, C.; Chen, H.: Carbon fabrics coated with nickel film through alkaline electroless plating technique. Mater. Lett. 205, 165–168 (2017). https://doi.org/10.1016 j.matlet.2017.06.087
+
+152. Tai, Y.; Chen, H.; Xu, C.; Liu, Y.: Conductive glass fabrics@nickel composites prepared by a facile electroless deposition method. Mater. Lett. 171, 158–161 (2016). https://doi.org/10.1016/j.ma tlet.2016.02.079
+
+153. Tai, Y.; Xu, C.; Chen, H.: Silver-coated glass fabric composites prepared by electroless plating. Mater. Lett. 180, 144–147 (2016). https://doi.org/10.1016/j.matlet.2016.05.118
+
+154. Li, Z.; Shen, B.; Deng, Y.; Liu, L.; Hu, W.: Preparation and microwave absorption properties of electroless Co–P-coated nickel hollow spheres. Appl. Surf. Sci. 255, 4542–4546 (2009). https://doi.org/10.1016/j.apsusc.2008.11.066
+
+155. Fang, J.-S.; Su, T.-H.; Cheng, Y.-L.; Huang, C.-W.; Chen, G.-S.: Influence of trace tungsten contents on thin-film properties and electromigration behaviors of electroless-deposited cobalt interconnect lines. Mater. Res. Bull. 186, 113343 (2025). https://doi org/10.1016/j.materresbull.2025.113343
+
+156. Shao, Y.-H., Ni, Z.-H., Chen, G., Wang, H., Qu, X.-P.: Low contact resistance copper-copper bonding with selective electroless plating cobalt interlayer. In: 2024 IEEE International Interconnect Technology Conference (IITC). pp. 1–3. IEEE (2024). https://doi. org/10.1109/IITC61274.2024.10732083
+
+157. Fang, J.-S.; Chen, G.-S.; Chang, C.-C.; Hsiao, C.-N.; Chen, W.-C.; Cheng, Y.-L.: Understanding electromigration failure behaviors of narrow cobalt lines and the mechanism of reliability enhancement for extremely dilute alloying of manganese oxide. J. Alloys Compd. 970, 172591 (2024). https://doi.org/10.1016/j.jallcom. 2023 172591
+
+158. Dubin, V.M.; Gindilis, A.L.; Walton, B.L.; Bauers, S.R.; Norelli K.M.; Liyanage, A.U.; Albrecht, A.; Johnson, D.C.: Electroless metallization of dielectric surfaces. ECS Trans. 75, 27–33 (2017). https://doi.org/10.1149/07534.0027ecst
+
+159. Cui, Y.; Choi, E.; Shim, H.J.; Gao, Y.; Kim, K.S.; Pyo, S.G.: Characterization of electroless-deposited ternary M1M2-R (M1 Co, Ni, M2 W, Mo, R P, B) nano thin film for optical-sensor interconnects. Sci. Adv. Mater. 9, 2026–2031 (2017). https://doi. org/10.1166/sam.2017.3206
+
+160. Kalu, E.E.; Wilson, L.; McHenry, M.: Decoration of surface of carbon nanotubes with iron-cobalt (FeCo) alloy using a two-step electroless deposition technique. ECS Meeting Abstracts. (2010). https://doi.org/10.1149/MA2010-01/33/1568
+
+161. van der Veen, M.H., Vandersmissen, K., Dictus, D., Demuynck, S., Liu, R., Bin, X., Nalla, P., Lesniewska, A., Hall, L., Croes, K., Zhao, L., Bommels, J., Kolics, A., Tokei, Zs.: Cobalt bottom-up contact and via prefill enabling advanced logic and DRAM technologies. In: 2015 IEEE International Interconnect Technology Conference and 2015 IEEE Materials for Advanced Metallization Conference (IITC/MAM). pp. 25–28. IEEE (2015). https:/ doi.org/10.1109/IITC-MAM.2015.7325605
+
+162. Goel, V.; Anderson, P.; Hall, J.; Robinson, F.; Bohm, S.: Application of Co–Ni–P coating on grain-oriented electrical steel. IEEE Trans. Magn. 52, 1–8 (2016). https://doi.org/10.1109/TMAG. 2015.2496315
+
+163. Yu, Y.; Tang, Z.; Wang, Y.; Zhang, H.; Zhang, H.; Li, X.: Cobalt-based current collectors for flexible electrodes and their application in lithium–sulfur batteries. J. Mater. Chem. A 12, 5760–5767 (2024). https://doi.org/10.1039/D3TA06966D
+
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.

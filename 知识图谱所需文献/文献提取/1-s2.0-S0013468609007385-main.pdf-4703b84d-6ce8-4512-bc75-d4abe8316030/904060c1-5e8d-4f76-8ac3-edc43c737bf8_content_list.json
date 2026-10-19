@@ -1,0 +1,1834 @@
+[
+    {
+        "type": "text",
+        "text": "Microvia filling by copper electroplating using diazine black as a leveler",
+        "text_level": 1,
+        "bbox": [
+            48,
+            205,
+            823,
+            226
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Wei-Ping Dow<sup>a,</sup>∗<sup>,1</sup>, Chih-Chan Li<sup>a</sup>, Yong-Chih Su<sup>b</sup>, Shao-Ping Shen<sup>a</sup>, Chen-Chia Huang<sup>b</sup>, Cliff Lee<sup>c</sup>, Bob Hsu<sup>c</sup>, Shar Hsu<sup>c</sup>",
+        "bbox": [
+            47,
+            237,
+            796,
+            269
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>a</sup> Department ofChemical Engineering, National Chung Hsing University, Taichung 40227, Taiwan",
+        "bbox": [
+            48,
+            277,
+            531,
+            288
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>b</sup> Department ofChemical and Materials Engineering, National Yunlin University ofScience & Technology, Yunlin 64002, Taiwan",
+        "bbox": [
+            48,
+            287,
+            678,
+            298
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>c</sup> OMG (Asia) Electronic Chemicals Co., Ltd., Chung-Li 32062, Taiwan",
+        "bbox": [
+            48,
+            298,
+            388,
+            311
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a r t i c l e i n f o",
+        "text_level": 2,
+        "bbox": [
+            48,
+            339,
+            215,
+            351
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Article history: Received 25 February 2009 Received in revised form 28 April 2009 Accepted 13 May 2009 Available online 21 May 2009",
+        "bbox": [
+            48,
+            365,
+            253,
+            419
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Keywords: Copper electroplating Leveler Microvia filling",
+        "bbox": [
+            48,
+            432,
+            166,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "a b s t r a c t",
+        "text_level": 2,
+        "bbox": [
+            329,
+            339,
+            445,
+            351
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "An organic additive, Diazine Black (DB), was employed as a leveler for microvia filling using copper electroplating. DB is a derivative of Janus Green B (JGB), which is a common leveler used for copper fill of submicron or micron circuit metallization in electronic products. This study determined the optimal DB concentration for achieving the best filling performance. The electrochemical behavior of DB and its interaction with other additives, such as a suppressor and an accelerator were characterized using galvanostatic measurements. These electrochemical analyses helped explaining the filling mechanism of the plating formula containing the DB. Various surface morphologies and the crystalline orientation of the plated copper films caused by different DB concentrations were characterized by a scanning electron microscope (SEM) and X-ray diffraction (XRD), respectively. The corresponding chemical activity of the surface atoms of the plated copper films caused by different DB concentrations was characterized using a test of etching rate.",
+        "bbox": [
+            327,
+            364,
+            932,
+            498
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "© 2009 Elsevier Ltd. All rights reserved.",
+        "bbox": [
+            697,
+            496,
+            929,
+            510
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Introduction",
+        "text_level": 2,
+        "bbox": [
+            50,
+            547,
+            159,
+            559
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Recently, multifunction and portable electronic products have become part of the mainstream of consumer electronic products. Not only the motherboard of electronic products but also the packaging substrates of integrated circuit (IC) chips need a high-density interconnection (HDI) made by a process using stacked microvias [1,2]. For example, the motherboard of cellular phones uses HDI to integrate more functions.",
+        "bbox": [
+            48,
+            577,
+            478,
+            670
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Because the diameter of the microvia has shrunk to less than 65 -m, and even as low as 50 -m, several metallization technologies such as filling with resin and conductive paste have not met the demands of process integration [1,2]. Instead, researchers believe that a more promising technology is to fill microvia using copper electroplating because this filling technique has been employed successfully to fabricate the interconnections of IC chips, such as via and trench metallization [3–13]. The microvia filling technology using copper electroplating is implemented using a specific plating formula that contains a suppressor, an accelerator, and a leveler [14–17]. The suppressor and the accelerator are basic additives for the microvia filling; the addition of a leveler can significantly improve the filling yield and extend the operative range of the accelerator concentration [16,17].",
+        "bbox": [
+            47,
+            670,
+            478,
+            829
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            547,
+            929,
+            573
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Janus Green B (JGB) is a familiar leveler that bears one quaternary ammonium cation and one chloride ion. It preferentially adsorbs at the protrusion to inhibit the copper deposition rate because of the selective adsorption of the quaternary ammonium cation [18]. Therefore, a proper addition of JGB results in a copper deposit with a mirror-like surface. It is an effective reagent for carrying out a void-free filling in dual damascene metallization [4,5,7,8,10]. With regard to the electrochemical and adsorptive behaviors of JGB on the copper electrodeposition, Li et al. [18] and Bozzini et al. [19] presented detailed results using various instruments to identify the molecular structures of adsorbed JGB and the byproduct thereof. In addition, JGB can interact with polyethylene glycol (PEG) to form a composite suppressor whose adsorptive behavior is strongly convection dependent [16,17]. Hence, the addition of JGB can significantly enhance the filling performance of a plating formula because the forced convection acting on the board surface is always stronger than that at the bottom of the microvia during electroplating [20,21]. The behavior of the convection-dependent adsorption (CDA) of a plating formula has been demonstrated to be an indicator that can determine whether the plating formula is a good candidate or not for the microvia filling [17,22,23].",
+        "bbox": [
+            499,
+            573,
+            932,
+            851
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Recently, many new levelers have been evaluated to determine their effectiveness as additives to copper electroplating for submicron via filling [11–13,24]. These new levelers also have the quaternary ammonium cations, except for polyvinylpyrrolidone (PVP) [13]. A preliminary evaluation of filling performance using the CDA metrology has shown that the derivative of JGB, namely, Diazine Black (DB), can compete with JGB in filling performance [17]. However, except for a patent [25] which claimed that DB is an effective leveler for copper fill, no detailed research has been undertaken to study DB as a leveler for the microvia filling. Therefore, in this study, we investigated the use of DB as a leveler, including the filling performance of the plating formula, the chemical interactions among the additives, the surface morphology of the copper deposit, and the influence of DB on the crystalline structure. In PCB fabrication, the etching process for patterning circuits is a subsequent step after copper plating. In this study, the influence of the DB concentration on the etching rate of the plated copper film was examined using an etching solution composed of $\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }$ and $\\mathrm { H } _ { 2 } S 0 _ { 4 }$",
+        "bbox": [
+            500,
+            851,
+            932,
+            905
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta 54 (2009) 5894–590",
+        "bbox": [
+            379,
+            42,
+            600,
+            56
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            50,
+            74,
+            152,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Contents lists available at ScienceDirect",
+        "bbox": [
+            364,
+            76,
+            621,
+            90
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            52,
+            146,
+            152,
+            162
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Electrochimica Acta",
+        "bbox": [
+            381,
+            105,
+            608,
+            126
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "journal homepage: www.elsevier.com/locate/electacta",
+        "bbox": [
+            277,
+            146,
+            707,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Acta",
+        "bbox": [
+            831,
+            68,
+            929,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "木 Corresponding author. Tel.: +886 4 22859152; fax: +886 4 22854734.",
+        "bbox": [
+            58,
+            870,
+            426,
+            885
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "E-mail address: dowwp@dragon.nchu.edu.tw (W.-P. Dow).",
+        "bbox": [
+            67,
+            882,
+            371,
+            892
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "<sup>1</sup> ISE member.",
+        "bbox": [
+            60,
+            892,
+            139,
+            905
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "0013-4686/\\$ – see front matter © 2009 Elsevier Ltd. All rights reserved. doi:10.1016/j.electacta.2009.05.053",
+        "bbox": [
+            48,
+            914,
+            418,
+            938
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            65,
+            66,
+            497,
+            267
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Experimental",
+        "text_level": 2,
+        "bbox": [
+            67,
+            277,
+            184,
+            291
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1. Electroplating",
+        "text_level": 2,
+        "bbox": [
+            65,
+            303,
+            186,
+            317
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The electroplating conditions, procedures, and pretreatment methods have been detailed elsewhere [16,17]. PCB fragments with microvias formed by ${ \\mathrm { C O } } _ { 2 }$ laser ablation were used as test samples for filling plating. The size of the PCB fragment was $1 0 \\times 6 \\mathrm { c m } ^ { 2 }$ The via density was 500 in array of $2 0 \\times 2 5$ . The distance between two microvias was $2 2 0 \\mu \\mathrm { m }$ or $3 2 0 \\mu \\mathrm { m }$ (from center to center), depending on the diameter of the microvia. The specification of the microvias was described in the caption of cross-section images of these microvias. Before metallization, the microvias were conducted through a so-called desmear process to remove the smear that was formed by laser ablation on the microvia bottom. The desmear process can thoroughly clean copper surface of the via bottom to make sure of good conductivity at the interface between the filled copper and the inner copper pad after plating. Following the desmear process, electroless copper plating was used for sidewall metallization of the microvia. Following that, a plated copper layer with a thickness of $^ { 2 - 3 }$ -m was deposited on the sidewall to increase the thickness of the copper seed layer for the prevention of oxidation.",
+        "bbox": [
+            65,
+            330,
+            497,
+            581
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The PCB fragment was plated at a current density of $1 9 . 4 \\mathrm { m A c m } ^ { - 2 }$ for 70 min. Two phosphorus-containing copper slices were used as anodes and directly placed in the plating bath with a working volume of 1500 mL. Constant agitation was performed by continuous air bubble flow with a flow rate of $2 . 5 \\mathrm { L h } ^ { - 1 }$ during electroplating. The composition of the base electrolyte used for all plating tests was 0.88 M $\\mathrm { C u S O _ { 4 } }$ (Riedel-de Haën, ACS) and 0.54 M $\\mathrm { H } _ { 2 } S 0 _ { 4 }$ (Merck, 96%, Ultrapure). The additives used herein were PEG with a molecular weight of 8000 (Fluka), NaCl (Fisher, Certified ACS), bis(3-sulfopropyl) disulfide (SPS) (Raschig GmbH, Germany), and DB (Aldrich). They were individually added to the plating bath through dilution from stock solutions that were prepared with properly concentrated contents. The temperature ofthe plating solution was maintained at $2 5 ^ { \\circ } \\mathsf C$ The filling performance of a plating formula was examined through an image of the microvia cross-section obtained from an optical microscope (OM) (Olympus BX51).",
+        "bbox": [
+            65,
+            580,
+            497,
+            805
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.2. Electrochemical analyses",
+        "text_level": 2,
+        "bbox": [
+            65,
+            819,
+            255,
+            832
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The electrochemical characteristics and interaction of various additives were characterized by galvanostatic measurements (GMs) using a PGSTAT30 (Auto-Lab) potentiostat with a three-electrode cell. The base electrolyte formulated for the GM was the same as that ofplating $\\left( \\mathrm { i . e . , 0 . 8 8 M C u S O _ { 4 } } \\right.$ and $0 . 5 4 \\mathrm { M } \\mathrm { H } _ { 2 } \\mathrm { S } 0 _ { 4 } )$ . The volume of the tested electrolyte was 100 mL and the temperature of the electrolyte was maintained at $2 5 ^ { \\circ } \\mathsf C$ during analysis. A 3-mm-diameter platinum rotating disk electrode (Pt-RDE) was employed as a base of WE. Before each electrochemical analysis, a thin copper layer with a thickness of 500 nm was predeposited onto the Pt-RDE in a predeposition bath, which only contained 0.88 M $\\mathrm { C u S O _ { 4 } }$ and 0.54 M $\\mathrm { H } _ { 2 } S O _ { 4 } ,$ to prepare a Cu-RDE. The counter electrode (CE) was a small copper bar, which was placed in a small glass tube containing the base electrolyte. The end of the small glass tube was sealed with a porous material to prevent direct contact of the additives with the CE during analysis, which in turn produced certain byproducts. A saturated mercurous sulfate electrode (SMSE) served as a reference electrode (RE).",
+        "bbox": [
+            65,
+            844,
+            497,
+            938
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            517,
+            66,
+            949,
+            211
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The GM of the additive injection was performed using the Cu-RDE at a current density of 19.4 mA cm−<sup>2</sup>. At the beginning of the GM, the glass vessel contained only the base electrolyte. After the GM was performed for a period, one additive with a given content was injected into the glass vessel to achieve the desired concentration. The potential variation ofthe Cu-RDE could clearly indicate the electrochemical effect of these additives on copper deposition. The GM was carried out twice. One was carried out using the Cu-RDE at 100 rpm, and the other was carried out at 1000 rpm. A potential difference, $\\Delta \\eta ,$ defined by $\\Delta \\eta = \\eta$ (average at 100 rpm) \u0003 (average at 1000 rpm), was evaluated from the GM. This value is a good indicator offilling performance [17,22,23]. Ifthe value is positive, it means that strong convection results in less copper deposition; thus, the plating solution may be effective for bottom-up filling (BUF) of microvia, whereas it is ineffective for BUF when the $\\Delta \\eta$ value is zero or negative. This approach was also adopted for this study to characterize the electrochemical behavior of these additives, providing further information for the BUF mechanism.",
+        "bbox": [
+            517,
+            211,
+            949,
+            451
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.3. Measurements of physical properties of copper deposits",
+        "text_level": 2,
+        "bbox": [
+            519,
+            462,
+            892,
+            477
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The surface morphologies of the copper deposits formed from different plating solutions were examined by a scanning electron microscope (SEM) (Hitachi S-3500N). Before the SEM examination, a possible copper oxide existing on the samples was removed by immersion in a diluted sulfuric acid solution. The structure orientation of the copper deposits was examined by X-ray diffraction (XRD) (MXP3, MAC SCIENCE) using Cu $\\mathrm { K } _ { \\alpha 1 }$ radiation $( \\lambda = 1 . 5 4 0 5 \\mathring { \\mathsf { A } } )$ .",
+        "bbox": [
+            517,
+            488,
+            949,
+            593
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The etching rate ofthe copper deposits was obtained by measur ing the weight loss of a copper foil $( 3 \\mathsf { c m } \\times 5 \\mathsf { c m } )$ after immersing the copper foil in an etching solution that was composed of4% $\\scriptstyle ( \\mathbf { v } / \\mathbf { v } )$ $\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }$ and $1 0 \\% \\left( \\mathrm { v / v } \\right) \\mathrm { H } _ { 2 } \\mathrm { S } 0 _ { 4 }$ . The temperature ofthe etching solution was maintained at $2 8 ^ { \\circ } \\mathsf C$ . The copper foil with a thickness of 50 -m was formed by plating on a stainless steel plate using the required copper plating formula. It was then peeled off from the stainless steel plate. The etching solution contacted only one side ofthe copper foil that did not attach the surface of the stainless steel plate. The other side of the copper foil that was directly attached to the surface of the stainless steel plate was stuck tightly with tape to prevent corrosion. The etching time was 60 min. Each etching rate was measured three times to minimize the possibility of error.",
+        "bbox": [
+            517,
+            593,
+            949,
+            767
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3. Results and discussion",
+        "text_level": 2,
+        "bbox": [
+            519,
+            779,
+            697,
+            793
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3.1. Effect ofDB addition onfilling performance",
+        "text_level": 2,
+        "bbox": [
+            519,
+            805,
+            818,
+            819
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Fig. 1 shows the molecular structures of DB and JGB. They are very similar, except for that DB has a functional alcohol group. Alcohol may be oxidized by $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 }$ or by anodic current to be a carboxyl group, which forms a chelating complex with metallic ions and has the ability to form hydrogen bonds with each other or with $\\mathrm { H } _ { 2 } \\mathrm { O } .$ Hence, small amounts of precipitate always appear in the plating solution after electroplating. Table 1 lists the plating results obtained from various plating formulas, showing that only two formulas resulted in BUF of microvia. One formula had 0.3 ppm SPS and no DB, and the other formula had 1 ppm SPS and 1 ppm DB. The rest of these formulas did not led to BUF but to conformal deposition. PEG–Cl is a well-known suppressor, and SPS–Cl has been confirmed to be an accelerator for copper electrodeposition [5,7,8,10,26–52]. Hence, the results listed in Table 1 indicate that the BUF behavior is caused by a synergistic interaction between the suppressor and the accelerator and that when the accelerator concentration is high, a leveler is an indispensable additive for achieving BUF.",
+        "bbox": [
+            517,
+            832,
+            949,
+            939
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "W.-P. Dow et al. / Electrochimica Acta 54 (2009) 5894–5901",
+        "bbox": [
+            359,
+            42,
+            655,
+            55
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "5895",
+        "bbox": [
+            919,
+            44,
+            949,
+            54
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/e8412dbed258e2be9470b166a927fe787879be8fe68388d8d859af4185944882.jpg",
+        "image_caption": [
+            "Fig. 1. Molecular structures of (a) DB and (b) JGB."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            58,
+            68,
+            465,
+            298
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            47,
+            337,
+            478,
+            470
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The SPS concentration must be low for the BUF of microvia when DB is absent in the plating solution. Considering the function of SPS–Cl, the failure in the microvia filling caused by the high SPS concentration is attributable to the loss of synergy between suppression and acceleration; that is, the ratio of acceleration to inhibition is too high to effectively inhibit copper deposition on the board surface. This is also the reason why the surface appearance of the copper deposit is not bright and smooth but matte and rough.",
+        "bbox": [
+            47,
+            470,
+            478,
+            576
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "However, the conformal deposition caused by the high SPS concentration, as in case 7 listed in Table 1, can be turned into BUF, that is, case 8 listed in Table 1, due to the presence of 1 ppm DB. This result implies that the addition of 1 ppm DB enhances the inhibiting effect of PEG–Cl and in turn relieves the accelerating effect of SPS–Cl. The electrochemical role of DB is characterized in Section 3.2.",
+        "bbox": [
+            47,
+            575,
+            478,
+            667
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The representative OM images ofthe cross-section and top view of the filled microvias are shown in Fig. 2. The formula of case 3, as shown in Fig. 2a and b, led to superfilling, namely, a hemispheric bump was formed on top of the filled microvia. When the",
+        "bbox": [
+            47,
+            667,
+            478,
+            722
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/40cd09db8214a5a16e52546ac90d29cd49d9ccab3566494795e9b98cc5a7a529.jpg",
+        "table_caption": [
+            "Plating formulas and filling results.<sup>a</sup>."
+        ],
+        "table_footnote": [
+            "<sup>a</sup> The diameters ofthe microvias are 85 -m and 105 -m. The depth ofthe microvia is 55 -m.",
+            "<sup>b</sup> The base electrolyte is composed of 0.88 M CuSO and 0.54 M H SO ."
+        ],
+        "table_body": "<table><tr><td rowspan=\"3\">Case</td><td colspan=\"4\"> $Additives^b$ </td><td>Deposition mode</td><td>Surface appearance</td></tr><tr><td rowspan=\"2\">SPS (ppm)</td><td rowspan=\"2\">PEG (ppm)</td><td rowspan=\"2\"> $Cl^-$ (ppm)</td><td rowspan=\"2\">DB (ppm)</td><td>-</td><td>-</td></tr><tr><td>-</td><td>-</td></tr><tr><td>1</td><td>0.3</td><td>0</td><td>60</td><td>0</td><td>Conformal</td><td>Matte and rough</td></tr><tr><td>2</td><td>0</td><td>200</td><td>60</td><td>0</td><td>Conformal</td><td>Matte and rough</td></tr><tr><td>3</td><td>0.3</td><td>200</td><td>60</td><td>0</td><td>Superfill</td><td>Bright but uneven</td></tr><tr><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>Conformal</td><td>Matte and rough</td></tr><tr><td>5</td><td>1</td><td>0</td><td>0</td><td>1</td><td>Conformal</td><td>Matte and rough</td></tr><tr><td>6</td><td>0</td><td>200</td><td>60</td><td>1</td><td>Conformal</td><td>Matte and rough</td></tr><tr><td>7</td><td>1</td><td>200</td><td>60</td><td>0</td><td>Semi-Buf</td><td>Bright but uneven</td></tr><tr><td>8</td><td>1</td><td>200</td><td>60</td><td>1</td><td>Superfill</td><td>Mirror-like bright</td></tr></table>",
+        "bbox": [
+            48,
+            762,
+            475,
+            900
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "SPS concentration was increased from 0.3 to 1.0 ppm, the filling performance correspondingly decreased, especially in the case of a big microvia, as shown in Fig. 2c and d. The surface ofthe copper deposit also became more uneven than that ofcase 3. Many hill-like copper deposits were formed on the surface and a doughnut-like copper deposit was formed around the opening of the filled microvia. This result implies that the accelerator dominates copper deposition under this condition. Therefore, copper was preferentially deposited around the opening of the microvia due to a protrusive structure and the locally high current density. These negative results can be overcome by adding 1 ppm DB into the plating solution. A mirror-like copper surface as well as an excellent filling performance was obtained in case 8, as shown in Fig. 2e and f. The addition of 1 ppm DB could not only enhance the filling performance of the plating formula with 1 ppm SPS, but it could also flatten the plated Cu surface thoroughly. In addition, adding DB reduced the extent of overplating on the filled microvia. In particular, the doughnut-like copper deposit completely disappeared due to the addition of DB. This result strongly suggests that the good performance stems from the interaction among PEG, SPS, DB, and chloride ions.",
+        "bbox": [
+            499,
+            66,
+            932,
+            345
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "However, when SPS was absent and DB was present in the plating solution, a conformal deposition occurred, as shown in Fig. 2g and h. An extremely rough copper surface is seen in Fig. 2g and h, although the doughnut-like copper deposit around the opening of the microvia does not appear. This result implies that the interaction between the inhibitor and the accelerator must exist such that equal deposition rates in a locally vertical and lateral direction can function well. This outcome also suggests that the leveling effect does not result from the leveler itselfbut from the interaction among the suppressor, leveler, and accelerator.",
+        "bbox": [
+            497,
+            344,
+            932,
+            477
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2. Electrochemical behavior ofthe additives",
+        "text_level": 2,
+        "bbox": [
+            500,
+            489,
+            788,
+            501
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Fig. 3 shows potential variations in galvanostatic measurements on a Cu-RDE at two rotating speeds. The individual additive was injected into the base electrolyte in sequence. Fig. 3A shows that DB interacts with chloride ions to be a depolarizer for copper deposition. This electrochemical behavior is different from that of JGB, which exhibits a slight inhibition of copper deposition in the presence of chloride ions [16,18]. The deposition rate was Cu(II) diffusion-controlled before PEG was added in the plating solution because the cathodic potential decreased as the rotating speed increased $( \\mathrm { i } . \\mathbf { e } . , \\Delta \\eta < 0 )$ . After PEG was injected into the plating solution, the cathodic potential suddenly dropped by a wide margin, and the value of-\u0003 equaled zero. These results mean that the main contribution for inhibiting copper deposition comes from PEG–Cl, and the deposition rate of copper is not Cu(II) diffusion-controlled but charge-transfer-controlled owing to the existence of PEG–Cl. Interestingly, after SPS was subsequently injected in the plating solution, the value of $\\Delta \\eta$ thereupon became positive, suggesting that forced convection is unfavorable to the copper deposition. This phenomenon stems from a convection-dependent competitive adsorption ofadditives, whose original occasion is attributed to the potential-dependent adsorption of chloride ions [16,17,23,26].",
+        "bbox": [
+            497,
+            515,
+            932,
+            793
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Fig. 3B shows that the cathodic potential was not significantly changed after SPS injection, implying that there was no significant interaction among DB, chloride ion, and SPS at the low potential. The CDA behavior (i.e., -\u0003 > 0) only occurred after PEG was also present in the plating solution. To further clarify the interaction of these additives, the injective sequence was changed again, as shown in Fig. 4. There was no potential difference (i.e., $\\Delta \\eta = 0 )$ until SPS was injected into the plating solution, showing that copper deposition is not diffusion-controlled in the presence of PEG–Cl–DB. This result, combining with that of Fig. 3, also strongly suggests that the CDA behavior, which leads to BUF, is caused by the interaction of these four additives. This synergy ofadditives results in a slow copper deposition on the board surface and a relatively rapid copper deposition at the bottom of the microvia, which is characterized by the positive $\\Delta \\eta$ shown in Figs. 3 and 4. Fig. 4 also shows that DB does not enhance the inhibiting effect of PEG–Cl on copper deposition, which is different from that ofJGB [16]. The synergy of these additives stems from the adsorptive and transport characteristics of chloride ions and from the competitive interaction between the suppressor, accelerator, and leveler [5,7,8,10,26–52]. All the organic additives need to interact with chloride ion to exert individual function on copper deposition [5,7,8,10,26–52]. The establishment ofthe synergistic interaction between these additives reflects the positive $\\Delta \\eta .$",
+        "bbox": [
+            499,
+            793,
+            932,
+            939
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "5896",
+        "bbox": [
+            50,
+            44,
+            80,
+            54
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "W.-P. Dow et al. / Electrochimica Acta 54 (2009) 5894–590",
+        "bbox": [
+            342,
+            42,
+            636,
+            55
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/185be5fceb3f5a70c28ceb26f392f2206e7fe141bbcfaa3b0df866034d1a8cbb.jpg",
+        "image_caption": [
+            "Fig, 2. Representative OM images of microvias after electroplating, Plating formulas are (a and b) case 3: (c and d) case 7: (e and f) case 8: and (g and h) case 6 listed in Table 1 Dash 1 is a cross-section and dash 2 is the corresponding top view. Via diameter is (a, c, e, and g) 85 -m; (b, d, f, and h) 105 -m. Via depth is 55 -m."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            144,
+            69,
+            870,
+            472
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            65,
+            528,
+            497,
+            701
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.3. Effect ofDB concentration onfilling performance",
+        "text_level": 2,
+        "bbox": [
+            67,
+            712,
+            400,
+            727
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Fig. 5 shows the influence of DB concentration on filling performance. The filling performance of a plating solution is defined by a ratio percentage of two heights, $\\mathrm { i . e . , } \\left( h _ { 2 } / h _ { 1 } \\right) \\times 1 0 0 \\% ,$ , where h is the copper thickness plated inside the microvia and $h _ { 1 }$ is the thickness ofdielectric layer plus the thickness ofcopper plated on the top surface of PCB [37]. A small amount of DB could markedly improve the filling performance of the plating formula composed of 200 ppm PEG, 60 ppm Cl−, and 1 ppm SPS. The optimal DB concentration causing the best filling performance ranged from 0.5 to 1 ppm, depending on the diameter of the microvias. Similar results were also obtained from the system usingJGB as a leveler [17]. When the DB concentration was higher than 1 ppm, the filling performance declined with the DB concentration, particularly in the big microvia. This result is attributed to the CDA behavior [16,17,23,26] caused by the synergy of these additives, which is characterized by the $\\Delta \\eta$ values recorded by curve (c) shown in Fig. 5. Three representative -\u0003 values were evaluated from Fig. 6.",
+        "bbox": [
+            65,
+            738,
+            497,
+            939
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            517,
+            528,
+            947,
+            554
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The trend of the $\\Delta \\eta$ value with the increased DB concentration varies with the variation in filling performance. The positive value of $\\Delta \\eta$ implies that that the rate ofthe copper deposition is inversely proportional to the strength of forced convection [16,17,23,26], which leads to a slow copper deposition on the board surface and a relatively rapid copper deposition at the bottom of the microvia. Hence, the larger the $\\Delta \\eta$ value, the better will be the filling performance. These results also reveal that $\\Delta \\eta$ defined in this study is a useful indicator to evaluate the filling performance ofa plating solution employed for microvia filling. However, this evaluation tool is conditional, that is, a leveler must be present in the plating solution [26]. If there is no leveler in the plating solution, a poor filling performance may be obtained, even though a positive $\\Delta \\eta$ value is correspondingly obtained, as confirmed in Fig. 2c and d. It is notable that the positive $\\Delta \\eta$ value was obtained at lower cathodic potential because of the leveler-free plating solution, as recorded by curves (a) and (b) shown in Fig. 6. A significant continuous depolarization was observed in the case ofthe leveler-free solution. In other words, this plating solution was accelerator dominated. Hence, copper was preferentially deposited on the board surface, such that a conformal deposition occurred, as shown in Fig. 2d.",
+        "bbox": [
+            517,
+            554,
+            949,
+            832
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The depolarization behavior proceeding with the plating time was immediately suppressed by adding DB, as recorded by curves (c)–(f) of Fig. 6, indicating that the steady-state cathodic potentials were immediately shifted from the range of approximately 0.55 to 0.56 V to the range of approximately 0.6 to about 0.64 V. In addition, an \u0003 wave that represents a transient surface composition change, which varies from an accelerator-dominated composition to a leveler-dominated one, appears in Fig. 6. The transient time depends on the DB concentration and the strength of convection. A higher DB concentration or a stronger forced convection leads to a shorter transient time. Moffat et al. [53] proposed a model to explain the competitive adsorption between an accelerator and a leveler and simulated similar transient curves during plating.",
+        "bbox": [
+            517,
+            831,
+            949,
+            939
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "W.-P. Dow et al. / Electrochimica Acta 54 (2009) 5894–5901",
+        "bbox": [
+            359,
+            42,
+            655,
+            55
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "5897",
+        "bbox": [
+            919,
+            44,
+            949,
+            54
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/13635a8acb322e743cfa2f90b677381ea89f7140087c1e633b3c7e433bf6d2ae.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            67,
+            66,
+            460,
+            292
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/d408a1a5d785c6938744eb2155e0a02a5e9c997ccb18c6260744bd81bb0df36d.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 3. Galvanostatic measurements with injection of various additives. The base electrolyte is composed of 0.88 M $\\mathrm { C u S O _ { 4 } }$ and 0.54 M $\\mathrm { H } _ { 2 } S 0 _ { 4 } .$ Rotation speeds of the Cu-RDE are (a) 100 rpm and (b) 1000 rpm. The current density of the Cu-RDE is maintained at 19.4 mA cm−<sup>2</sup>. The average potential difference (-\u0003) is evaluated by subtracting the potential of curve (b) from that of curve (a)."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            65,
+            298,
+            458,
+            525
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/b0084e8f24d149daa3f95aec65dbd296459f812b9458fad20e00f5cda8fc9c3f.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 4. Galvanostatic measurements with injection of additives. Experimental conditions and the description are the same as those in Fig. 3 except for the iniection sequence of additives."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            58,
+            653,
+            468,
+            889
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/538660907d3f6514fd7548ada4b74bce81336e65b6ffc7b51edecaf5a6f32310.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 5. Relationships among filling performance, -\u0003 value, and DB concentration. Three typical -\u0003 values are obtained from Fig. 6. The base electrolyte is composed of 0.88 M CuSO , 0.54 M H SO , 200 ppm PEG, 1 ppm SPS, and 60 ppm Cl−. \u0005 is the diameter of the microvia. The depth of the mocrovia is 85 -m."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            509,
+            65,
+            919,
+            284
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            356,
+            931,
+            424
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.4. Influence ofthe additives on physical properties ofcopper deposit",
+        "text_level": 2,
+        "bbox": [
+            500,
+            438,
+            887,
+            465
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The influence ofthe additives on the surface morphology ofcopper deposit was observed using SEM. Fig. 7 shows the top views of the copper deposits obtained from different plating formulas. Only two formulas, namely, $\\mathsf { P E G } + \\mathsf { C l } ^ { - } + \\mathsf { S P S }$ and PEG + Cl− + SPS + DB, led to a flat plane within a micron range, as shown in Fig. 7e and f. Particularly, only the formula with PEG + Cl− + SPS + DB resulted in an overall mirror-like surface. The other formulas resulted in a marked micron roughness on the copper deposits. In the absence of SPS, the copper deposit had a small crystal size, as shown in Fig. 7d. The largest copper crystal size was obtained from the plating solution containing SPS only, as shown in Fig. 7b. In addition, the plating formula composed of PEG, Cl−, and SPS could not give rise to a macro flatness of copper deposit, as shown in Fig. 2c and d, but only resulted in a local flatness within a range in micron scale, as shown in Fig. 7e. These results give us an insight into the interaction of these additives, which shows that DB, a nominal leveler, cannot flatten the surface of the copper deposit by itself, and SPS, a nominal brightener, cannot brighten the surface of the copper deposit. The mirror-like copper surface results from the interaction of these additives, which causes an equal copper growth rate in the vertical and horizontal directions.",
+        "bbox": [
+            500,
+            477,
+            932,
+            532
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "chart",
+        "img_path": "images/5aca6b94aed5bd9a06c6d304da7705bbd04551c2e24ba2889847486b4ee18410.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 6. Galvanostatic measurements ofplating solutions. The base electrolyte is composed of0.88 M CuSO , 0.54 M $\\mathrm { H } _ { 2 } S O _ { 4 } ,$ , 200 ppm PEG, 1 ppm SPS, and 60 ppm Cl−. DB concentrations are (a and b) 0 ppm; (c and d) 0.5 ppm; (e and f) 2 ppm. Rotation speeds of the Cu-RDE are 100 rpm in (a, c, and e) and 1000 rpm in (b, d, and f). The current density of the Cu-RDE is maintained at 19.4 mA cm−<sup>2</sup>. Potential difference, -\u0003, is defined by \u0003 (average at 100 rpm) \u0003 (average at 1000 rpm)."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            510,
+            626,
+            919,
+            862
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5898",
+        "bbox": [
+            50,
+            42,
+            80,
+            54
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "W.-P. Dow et al. / Electrochimica Acta 54 (2009) 5894–590",
+        "bbox": [
+            341,
+            42,
+            636,
+            55
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            63,
+            66,
+            497,
+            292
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The surface flatness of the copper deposit caused by the participation of DB in the plating formula with multiple components did not vary with the increase in the DB concentration until the DB concentration was higher than 15 ppm. These results were demonstrated by the SEM images, as shown in Fig. 8. As can be seen from Fig. 8, as the DB concentration increased, the surface flatness of the copper deposit was maintained until the DB concentration increased to 16 ppm. The plating formula that contained a DB concentration higher than 10 ppm would forfeit the synergistic effect on forming a mirror-like surface, implying that a high concentration of DB dominated the surface composition on the plated copper, resulting in an SEM image similar to that shown in Fig. 7a.",
+        "bbox": [
+            63,
+            291,
+            497,
+            359
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            515,
+            66,
+            949,
+            172
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The crystalline orientation ofthe copper deposits was characterized by XRD, as plotted in Fig. 9. Not only the surface morphology but also the crystalline orientation was subject to the addition of DB. The intensity of[1 1 1] and [2 0 0] orientation peaks significantly decreased after DB was added in the plating solution. On the other hand, the intensity of [2 2 0] orientation peak obviously increased due to the addition of DB. A similar result was also found in other copper plating systems [54–56]. Honma et al. [54] reported that the addition of a leveler in a plating bath causes the [2 2 0] orientation to be dominant. After annealing at 120 ◦C for 1 h, the [1 1 1] orientation rather than the [2 2 0] orientation becomes dominant [54]. The change in the preferential orientation will lead to a change in the chemical activity of the surface copper atoms, which can be characterized by an etching test.",
+        "bbox": [
+            515,
+            172,
+            951,
+            359
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/55db98b428eff1367a2c6b8b9443718cb7974bb73c3d812f789d9409591ac8a2.jpg",
+        "image_caption": [
+            "Fig. 7. SEM images of surface morphology of the plated copper films obtained from various plating formulas. The plating solution is composed of (a) 1 ppm DB, (b) 1 ppm SPS (c) 1 ppm DB + 1 ppm SPS (d) 200 ppm PEG + 60 ppm Cl- + 1 ppm DB (e) 200 ppm PEG + 60 ppm Cl- + 1 ppm SPS and (f) 200 ppm PEG + 60 ppm Cl- + 1 ppm SPS + 1 ppm DB. The base electrolyte is composed of 0.88 M CuSO and 0.54 M H SO ."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            201,
+            385,
+            813,
+            895
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "W.-P. Dow et al. / Electrochimica Acta 54 (2009) 5894–5901",
+        "bbox": [
+            359,
+            42,
+            655,
+            55
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "5899",
+        "bbox": [
+            917,
+            42,
+            949,
+            54
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/0c942d5db7ebb55b40b7aaecc71675b11a594cf352e25808ada001fef426d9c6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            186,
+            69,
+            485,
+            406
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/e9eaf80960db5beecd64aac29ecbd6ab1ff15f91cbaaebde6d63d56ed68f6067.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            494,
+            69,
+            791,
+            234
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/30324463450ee8eebb41a1bc477447d2448a00016a3be330b451db81fe0ddf28.jpg",
+        "image_caption": [
+            "Fig. 8. SEM images of surface morphology of the plated copper films obtained from different DB concentrations. The plating solution contains (a) 2 ppm DB, (b) 4 ppm DB, (c) 8 ppm DB, and (d) 16 DB. The base electrolyte is composed of 0.88 M CuSO , 0.54 M H SO , 200 ppm PEG, 1 ppm SPS, and 60 ppm Cl−."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            494,
+            240,
+            793,
+            406
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "As can be seen from Fig. 10, the etching rate ofthe copper deposit decreased with an increased DB concentration in the plating solution. However, when the DB concentration was higher than 4 ppm, the etching rate did not vary with the DB concentration. The results are attributable to the difference in the atomic densities ofdifferent orientation and to the change in the preferential orientation ofthese copper films caused by DB addition. The grain size of [2 2 0], which was determined using Scherrer equation [57,58], also decreased with the DB concentration. A significant drop occurred at 1 ppm DB, indicating that DB is refining agent, that can lead to fine grains. Hence, the appearance ofthe copper film looked like a mirror when DB was present in the plating bath mixed with PEG, SPS, and chlo-",
+        "bbox": [
+            47,
+            455,
+            478,
+            616
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "chart",
+        "img_path": "images/8939be336f6135faae2eb6a657d3c2d37471506f3837d24e859a0ffff85cb20e.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 9. XRD patterns of plated copper films obtained from different DB concentrations. The base electrolyte is composed of 0.88 M CuSO , 0.54 M H SO , 200 ppm PEG, 1 ppm SPS, and 60 ppm Cl−. DB concentrations are (a) 0 ppm, (b) 1 ppm, (c) 2 ppm, (d) 4 ppm, and (e) 8 ppm."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            58,
+            634,
+            463,
+            883
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "chart",
+        "img_path": "images/0dd1e8e87d62935ea4867a1388f82f80eb21d980a4d70819977086822a44d756.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 10. Plots of etching rates and grain sizes of plated copper films versus DB concentrations. The grain sizes were determined by XRD of Fig. 9 from the (2 2 0) peak widths at half maximum."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            504,
+            453,
+            924,
+            684
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "ride ions. However, the etching rate is dominated by the [1 1 1] orientation because of its high atomic density. Therefore, when the preferential orientation changed from [1 1 1] to [2 2 0], the etching rate correspondingly declined as well.",
+        "bbox": [
+            499,
+            746,
+            931,
+            800
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4. Conclusions",
+        "text_level": 2,
+        "bbox": [
+            500,
+            819,
+            610,
+            832
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "A leveler, namely DB, employed for microvia filling was tested in this study. An excellent filling performance is obtained from a copper plating formula composed of 200 ppm PEG, 60 ppm Cl−, 1 ppm SPS, and 1 ppm DB. This plating formula not only results in BUF of microvias but also leads to a mirror-like copper surface. According to electrochemical analyses, the root cause for achieving BUF in the plating solution was attributed to the CDA behavior ofthis formula.",
+        "bbox": [
+            497,
+            844,
+            932,
+            939
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "5900",
+        "bbox": [
+            50,
+            42,
+            80,
+            54
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "W.-P. Dow et al. / Electrochimica Acta 54 (2009) 5894–590",
+        "bbox": [
+            342,
+            42,
+            636,
+            55
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Although DB is a derivative of JGB, their electrochemical behaviors are somewhat different. DB cannot enhance the suppression of PEG–Cl on copper deposition, whereas JGB can do that. Nevertheless, DB can effectively suppress the acceleration of SPS–Cl on copper deposition in the presence of PEG. The preferential orientation of the plated copper films is changed from [1 1 1] to [2 2 0] because of the addition of DB, which causes a decrease in the etching rate of the plated copper film and results in fine grains and mirror-like copper surfaces.",
+        "bbox": [
+            65,
+            66,
+            497,
+            187
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgements",
+        "text_level": 2,
+        "bbox": [
+            67,
+            200,
+            205,
+            213
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "This work was supported by the National Science Council ofTaiwan under contract no. NSC 96-2628-E-005-013-MY3 and by OMG (Asia) Electronic Chemicals Co., Ltd., Taiwan.",
+        "bbox": [
+            65,
+            226,
+            495,
+            267
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "References",
+        "text_level": 2,
+        "bbox": [
+            67,
+            279,
+            146,
+            293
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[1] K. Takagi, H. Honma, T. Sasabe, IEEE Electrical Insulation Mag. 19 (2003) 27.",
+        "bbox": [
+            73,
+            303,
+            480,
+            315
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[2] V. Sundaram, R.R. Tummala, F. Liu, P.A. Kohl,J. Li, S.A. Bidstrup-Allen, Y. Fukuoka, IEEE Trans. Adv. Packaging 27 (2004) 315.",
+        "bbox": [
+            73,
+            315,
+            495,
+            335
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[3] P.C. Andricacos, C. Uzoh, J.O. Dukovic, J. Horkans, H. Deligianni, IBM J. Res. Dev. 42(1998)567",
+        "bbox": [
+            73,
+            334,
+            495,
+            354
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[4] J.J. Kelly, A.C. West, Electrochem. Solid-State Lett. 2 (1999) 561.",
+        "bbox": [
+            73,
+            355,
+            416,
+            365
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[5] P. Taephaisitphongse, Y. Cao, A.C. West, J. Electrochem. Soc. 148 (2001) C492.",
+        "bbox": [
+            73,
+            365,
+            485,
+            374
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[6] A.C. West, S. Mayer, J. Reid, Electrochem. Solid-State Lett. 4 (2001) C50.",
+        "bbox": [
+            73,
+            375,
+            458,
+            385
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[7] K. Kondo, N. Yamakawa, Z. Tanaka, K. Hayashi, J. Electroanal. Chem. 559 (2003) 137.",
+        "bbox": [
+            73,
+            385,
+            495,
+            404
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[8] K. Kondo, T. Matsumoto, K. Watanabe, J. Electrochem. Soc. 151 (2004) C250.",
+        "bbox": [
+            73,
+            404,
+            480,
+            414
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[9] T.P. Moffat, D. Wheeler, M.D. Edelstein, D. Josell, IBM J. Res. Dev. 49 (2005) 19.",
+        "bbox": [
+            73,
+            414,
+            490,
+            426
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[10] M. Hasegawa, Y. Negishi, T. Nakanishi, T. Osaka, J. Electrochem. Soc. 152 (2005) C221.",
+        "bbox": [
+            68,
+            426,
+            494,
+            445
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[11] S.-K. Kim, D. Josell, T.P. Moffat, J. Electrochem. Soc. 153 (2006) C616.",
+        "bbox": [
+            68,
+            445,
+            442,
+            456
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[12] S.-K. Kim, D. Josell, T.P. Moffat, J. Electrochem. Soc. 153 (2006) C826.",
+        "bbox": [
+            68,
+            455,
+            443,
+            465
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[13] M.J. Willey, J. Reid, A.C. West, Electrochem. Solid-State Lett. 10 (2007) D38.",
+        "bbox": [
+            68,
+            466,
+            477,
+            475
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[14] T. Kobayashi, J. Kawasaki, K. Mihara, H. Honma, Electrochim. Acta 47 (2001) 85.",
+        "bbox": [
+            68,
+            476,
+            494,
+            486
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[15] S. Miura, H. Honma, Surf. Coat. Technol. 169–170 (2003) 91.",
+        "bbox": [
+            68,
+            486,
+            400,
+            496
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[16] W.-P. Dow, H.-S. Huang, M.-Y. Yen, H.-C. Huang, J. Electrochem. Soc. 152 (2005) C425.",
+        "bbox": [
+            68,
+            496,
+            495,
+            515
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[17] W.-P. Dow, C.-W. Liu, J. Electrochem. Soc. 153 (2006) C190.",
+        "bbox": [
+            68,
+            515,
+            394,
+            525
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[18] Y.-B. Li, W. Wang, Y.-L. Li, J. Electrochem. Soc. 156 (2009) D119.",
+        "bbox": [
+            68,
+            525,
+            415,
+            535
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[19] B. Bozzini, C. Mele, L. D’Urzo, V. Romanello,J. Appl. Electrochem. 36 (2006) 973.",
+        "bbox": [
+            68,
+            535,
+            494,
+            546
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[20] J.-J. Sun, K. Kondo, T. Okamura, S.J. Oh, M. Tomisaka, H. Yonemura, M. Hoshino, K. Takahashi, J. Electrochem. Soc. 150 (2003) G355.",
+        "bbox": [
+            68,
+            546,
+            494,
+            564
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[21] K. Kondo, T. Yonezawa, D. Mikami, T. Okubo, Y. Taguchi, K. Takahashi, D.P. Barkey, J. Electrochem. Soc. 152 (2005) H173.",
+        "bbox": [
+            521,
+            69,
+            947,
+            90
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[22] T. Okubo, Y. Mizuno, K. Naoi, J. Jpn. Inst. Electron. Packaging 8 (2005) 318 (in Japanese).",
+        "bbox": [
+            521,
+            89,
+            947,
+            109
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[23] W.-P. Dow, M.-Y. Yen, C.-W. Chou, C.-W. Liu, W.-H. Yang, C.-H. Chen, Electrochem. Solid-State Lett. 9 (2006) C134.",
+        "bbox": [
+            519,
+            109,
+            947,
+            129
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[24] B. Bozzini, L. D’Urzo, C. Mele, Electrochim. Acta 52 (2007) 4767.",
+        "bbox": [
+            521,
+            129,
+            870,
+            139
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[25] M. Ishikawa, H. Hagiwara, R. Kimizuka, U.S. Patent 6,518,182 (2003).",
+        "bbox": [
+            521,
+            139,
+            895,
+            150
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[26] W.P. Dow, M.Y. Yen, S.Z. Liao, Y.D. Chiu, H.C. Huang, Electrochim. Acta 53 (2008) 8228.",
+        "bbox": [
+            521,
+            150,
+            947,
+            168
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[27] M. Yokoi, S. Konishi, T. Hayashi, Denki Kagaku oyobi Kogyo Butsuri Kagaku 52 (1984) 218.",
+        "bbox": [
+            521,
+            170,
+            947,
+            189
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[28] J.D. Reid, A.P. David, Plat. Surf. Finish. 74 (1987) 66.",
+        "bbox": [
+            521,
+            189,
+            806,
+            200
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[29] J.P. Healy, D. Pletcher, M. Goodenough, J. Electroanal. Chem. 338 (1992) 155.",
+        "bbox": [
+            521,
+            199,
+            932,
+            210
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[30] D. Stoychev, C. Tsvetanov, J. Appl. Electrochem. 26 (1996) 741.",
+        "bbox": [
+            521,
+            210,
+            860,
+            220
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[31] J.J. Kelly, A.C. West, J. Electrochem. Soc. 145 (1998) 3472.",
+        "bbox": [
+            521,
+            220,
+            836,
+            230
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[32] J.J. Kelly, A.C. West, J. Electrochem. Soc. 145 (1998) 3477.",
+        "bbox": [
+            521,
+            230,
+            836,
+            240
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[33] V.D. Jovic, B.M. Jovi´ c, J. Serb. Chem. Soc. 66 (2001) 935.´",
+        "bbox": [
+            521,
+            240,
+            828,
+            250
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[34] K. Doblhofer, S. Wasle, D.M. Soares, K.G. Weil, G. Ertl, J. Electrochem. Soc. 150 (2003) C657.",
+        "bbox": [
+            519,
+            250,
+            947,
+            269
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[35] Z.V. Feng, X. Li, A.A. Gewirth, J. Phys. Chem. B 107 (2003) 9415.",
+        "bbox": [
+            519,
+            269,
+            868,
+            281
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[36] K.R. Hebert, J. Electrochem. Soc. 152 (2005) C283.",
+        "bbox": [
+            521,
+            281,
+            801,
+            291
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[37] W.P. Dow, M.Y. Yen, W.B. Lin, S.W. Ho, J. Electrochem. Soc. 152 (2005) C769",
+        "bbox": [
+            521,
+            291,
+            931,
+            301
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[38] J.G. Long, P.C. Searson, P.M. Vereecken, J. Electrochem. Soc. 153 (2006) C258.",
+        "bbox": [
+            521,
+            301,
+            936,
+            311
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[39] W. Wang, Y.B. Li, J. Electrochem. Soc. 155 (2008) D263",
+        "bbox": [
+            521,
+            311,
+            828,
+            321
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[40] M.E. Huerta Garrido, M.D. Pritzker, J. Electrochem. Soc. 155 (2008) D332.",
+        "bbox": [
+            521,
+            321,
+            919,
+            331
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[41] H.M. Chen, S.J. Parulekar, A. Zdunek, J. Electrochem. Soc. 155 (2008) D341.",
+        "bbox": [
+            521,
+            331,
+            924,
+            340
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[42] J.P. Healy, D. Pletcher, M. Goodenough, J. Electroanal. Chem. 338 (1992) 179.",
+        "bbox": [
+            521,
+            340,
+            934,
+            351
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[43] E.E. Farndon, F.C. Walsh, S.A. Campbell, J. Appl. Electrochem. 25 (1995) 574",
+        "bbox": [
+            521,
+            351,
+            932,
+            361
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[44] M. Tan, J.N. Harb, J. Electrochem. Soc. 150 (2003) C420.",
+        "bbox": [
+            521,
+            360,
+            828,
+            370
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[45] M. Kang, A.A. Gewirth, J. Electrochem. Soc. 150 (2003) C426.",
+        "bbox": [
+            521,
+            370,
+            858,
+            380
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[46] T.P. Moffat, D. Wheeler, D. Josell, J. Electrochem. Soc. 151 (2004) C262.",
+        "bbox": [
+            522,
+            380,
+            905,
+            390
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[47] P.M. Vereecken, R.A. Binstead, H. Deligianni, P.C. Andricacos, IBM J. Res. Dev. 49 (2005) 3.",
+        "bbox": [
+            521,
+            390,
+            947,
+            409
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[48] Z.D. Schultz, Z.V. Feng, M.E. Biggin, A.A. Gewirth,J. Electrochem. Soc. 153 (2006) C97.",
+        "bbox": [
+            519,
+            409,
+            947,
+            430
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[49] B. Bozzini, L. D’Urzo, V. Romanello, C. Mele,J. Electrochem. Soc. 153 (2006) C254.",
+        "bbox": [
+            521,
+            430,
+            947,
+            441
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[50] M.L. Walker, L.J. Richter, T.P. Moffat, J. Electrochem. Soc. 153 (2006) C557.",
+        "bbox": [
+            521,
+            441,
+            919,
+            451
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[51] M. Tan, C. Guymon, D.R. Wheeler,J.N. Harb,J. Electrochem. Soc. 154 (2007) D78.",
+        "bbox": [
+            521,
+            451,
+            947,
+            461
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[52] M.L. Walker, L.J. Richter, T.P. Moffat, J. Electrochem. Soc. 154 (2007) D277.",
+        "bbox": [
+            522,
+            461,
+            921,
+            471
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[53] T.P. Moffat, D. Wheeler, S.-K. Kim, D.Josell,J. Electrochem. Soc. 153 (2006) C127.",
+        "bbox": [
+            522,
+            471,
+            947,
+            481
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[54] H. Hagiwara, R. Kimizuka, H. Honma, Trans. Inst. Met. Finish. 84 (2006) 260.",
+        "bbox": [
+            522,
+            481,
+            937,
+            491
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[55] V.A. Vas’ko, I. Tabakovic, S.C. Riemer, M.T. Kief, Microelectron. Eng. 75 (2004) 71.",
+        "bbox": [
+            521,
+            491,
+            947,
+            510
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[56] A. Ibanez, E. Fatás, Surf. Coat. Technol. 191 (2005) 7.˜",
+        "bbox": [
+            521,
+            511,
+            811,
+            522
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[57] G.C. Bond, Heterogeneous Catalysis—Principles and Applications, 2nd ed., Oxford University Press, 1987, p. 84.",
+        "bbox": [
+            521,
+            520,
+            946,
+            540
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "ref_text",
+        "text": "[58] J.M. Thomas, W.J. Thomas, Principles and Practice of Heterogeneous Catalysis, VCHPublisgers Inc., 1997, p. 152.",
+        "bbox": [
+            519,
+            540,
+            947,
+            561
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "W.-P. Dow et al. / Electrochimica Acta 54 (2009) 5894–5901",
+        "bbox": [
+            359,
+            42,
+            655,
+            55
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "5901",
+        "bbox": [
+            919,
+            44,
+            947,
+            54
+        ],
+        "page_idx": 7
+    }
+]

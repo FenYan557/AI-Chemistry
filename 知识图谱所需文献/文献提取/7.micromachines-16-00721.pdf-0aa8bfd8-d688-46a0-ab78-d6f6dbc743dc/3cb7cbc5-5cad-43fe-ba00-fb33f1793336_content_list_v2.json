@@ -1,0 +1,4785 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Article"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                114,
+                110,
+                129
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Integrated Electrochemical and Computational Elucidation of Nitro Blue Tetrazolium Chloride as an Efficient Leveler for Copper Microvia Superfilling"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                53,
+                130,
+                905,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Dong Xing <sup>1</sup>, Xiangfu Wei <sup>1,2,</sup>*, Jinge Ye <sup>1</sup>, Mingsong Lin <sup>2,3</sup>, Shengchang Tang <sup>1,</sup>* and Hui You <sup>1</sup>"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                217,
+                811,
+                236
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1 School of Mechanical Engineering, Guangxi University, Nanning 530004, China; xdd0721@st.gxu.edu.cn (D.X.); yjg3301225@163.com (J.Y.); usmlhy@iim.ac.cn (H.Y.)"
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                258,
+                796,
+                285
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2 College of Automotive Engineering, Guangxi Transport Vocational and Technical College, Nanning 530023, China; lmsong9@126.com"
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                284,
+                836,
+                310
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3 School of Mechanical and Automotive Engineering, Guangxi University of Science and Technology, Liuzhou 545006, China"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                310,
+                890,
+                335
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Correspondence: fuxiang_wei@163.com (X.W.); shengchangtang@st.gxu.edu.cn (S.T.)"
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                335,
+                808,
+                350
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a32dcdbf01bcc4a79759b13cf917e535d4e41d983769b7876ca7c938b3547196.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                55,
+                567,
+                147,
+                590
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Academic Editor: Weidong Wang"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                596,
+                233,
+                609
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Received: 25 May 2025 Revised: 11 June 2025 Accepted: 13 June 2025 Published: 19 June 2025"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                615,
+                181,
+                670
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Citation: Xing, D.; Wei, X.; Ye, J.; Lin, M.; Tang, S.; You, H. Integrated Electrochemical and Computational Elucidation of Nitro Blue Tetrazolium Chloride as an Efficient Leveler for Copper Microvia Superfilling. Micromachines 2025, 16, 721. https://doi.org/10.3390/ mi16060721"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                677,
+                255,
+                803
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Copyright: © 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/ licenses/by/4.0/)."
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                810,
+                248,
+                923
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract: Levelers are indispensable additives for achieving void-free, bottom-up superconformal copper filling of microvias. Establishing the molecular-level correlation between leveler structure and performance is therefore essential to the continued advancement of microelectronic copper-plating technology. Herein, nitro blue tetrazolium chloride (NBT) is identified as an efficient leveler for copper microvia superfilling. A multiscale strategy—combining electrochemical measurements, X-ray photoelectron spec troscopy (XPS), density functional theory (DFT) calculations, and molecular dynamics (MD) simulations—is employed to elucidate the action mechanism of NBT and pinpoint its electroactive sites. Electrochemical tests show that NBT markedly suppresses copper deposition and, together with polyethylene glycol (PEG), effectively resists competitive ad sorption by bis-(3-sulfopropyl) disulfide (SPS), thereby enhancing the microvia superfilling performance of the PEG–SPS–NBT additive system. DFT results reveal that the nitro groups and tetrazolium rings constitute the primary adsorption centers on the copper surface; the nitro groups additionally strengthen intermolecular interactions between NBT and PEG. MD simulations further confirm that NBT anchors onto the Cu(111) surface predominantly through these "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Nu { \\cal O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "groups and the tetrazolium ring, while co-adsorbed PEG enhances the overall adsorption strength of NBT. The electroplating experiment demonstrates that NBT can act as an effective leveler for microvia superfilling. Moreover, XPS analyses further confirm the synergistic co-adsorption of NBT and PEG and verify that the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Nu { \\cal O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "groups and tetrazolium rings are the dominant adsorption sites of NBT. Collectively, the electroplating, XPS, electrochemical, DFT, and MD findings clarify the structure–activity relationship of NBT and provide rational guidelines for designing next-generation copper-plating levelers."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                363,
+                944,
+                730
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Keywords: microvias filling; electroplating leveler; copper electroplating; quantum chemical calculation; molecular dynamics simulations"
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                741,
+                942,
+                776
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Introduction"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                821,
+                418,
+                837
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Electrochemical copper deposition offers distinct advantages for constructing microand nano-scale features and is therefore indispensable in manufacturing advanced interconnects such as integrated circuits (ICs) [1,2]. For high-aspect-ratio structures—including Damascene trenches in ICs and microvias in substrates and printed-circuit boards (PCBs)— voids generated during plating remain a persistent threat to electrical performance and reliability [3,4]. Eliminating these defects has therefore become a primary objective in microvia electroplating [5,6]."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                841,
+                946,
+                926
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                57,
+                36,
+                117,
+                79
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "micromachines"
+                    }
+                ]
+            },
+            "bbox": [
+                121,
+                49,
+                278,
+                68
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "MDPI"
+                    }
+                ]
+            },
+            "bbox": [
+                862,
+                43,
+                939,
+                80
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025 16"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                953,
+                220,
+                966
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "https://doi.org/10.3390/mi16060721"
+                    }
+                ]
+            },
+            "bbox": [
+                714,
+                952,
+                939,
+                967
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                272,
+                84,
+                942,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Industrial practice predominantly relies on organic additive systems to locally regulate the deposition rate for achieving superfilling of microvias. In two-component systems the competitive adsorption of a suppressor and an accelerator is often sufficient for sub-100 nm Damascene features [7–9]; larger microvias, however, require a third component—a leveler— to suppress copper deposition at high-current-density sites (feature mouths and protrusions), thereby ensuring void-free bottom-up growth and surface planarization [10–12]. Among the numerous levelers reported, Janus Green B (JGB) is the most classic, as it can achieve not only superfilling in microvias [13] but also high throwing power (TP) electroplated in through-holes [14]. Additionally, previous studies have demonstrated that the azo group and the positively charged quaternary-ammonium group are the primary active functional groups in JGB [13,15]."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                118,
+                944,
+                300
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Building on this insight, numerous researchers have designed levelers that incorporate either the azo or quaternary-ammonium group. Wang et al. employed gentian violet, which contains a positively charged quaternary-ammonium group, as a leveler for through-hole electrodeposition and demonstrated that this leveler exhibited plating performance as excellent as that of JGB [16]. However, other researchers introduced quaternary-ammonium groups with varying chain lengths onto the quinacridone skeleton to develop a novel leveler [17], and the novel leveler exhibited superior plating performance compared to JGB. Additionally, they also grafted quaternary-ammonium chains onto the Sudan I scaffold, reinforcing electrostatic adsorption while preserving the azo-naphthalene π–π interactions, thereby further enhancing plating performance [18]. Another group employed quaternary-ammonium salts of varying alkyl-chain lengths as plating levelers and further observed that these levelers delivered suppression performance superior to that of polyethylene glycol (PEG) [19]. Taken together, these studies further confirm that the positively charged quaternary-ammonium group constitutes the key active functional moiety of leveler molecules."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                300,
+                944,
+                548
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "However, growing evidence indicates that, beyond the classic active groups— positively charged quaternary-ammonium and azo groups—auxiliary modification groups such as electronegative substituents or heteroaromatic rings can markedly reinforce leveler adsorption [20], alter the diffusion ability of molecules [21,22], and enhance synergism with other additives [23]. Dow et al. compared JGB with its derivative Diamond Black (DB), revealing significant electrochemical differences despite the two molecules differing by only a single peripheral functional substituent [24]. Similarly, Wang et al. observed that Safranine T (ST), which lacks several peripheral functional substituents present in JGB, exhibited significantly reduced through-hole throwing power compared to JGB [25], whereas Zhu et al. restored microvia superfilling by introducing hydroxyl (-OH) groups into ST [20]. Therefore, using density functional theory (DFT) calculations and molecular dynamics (MD) simulations to unravel how individual functional groups dictate adsorption energetics and electron distribution is very necessary. For example, many research groups have used DFT and MD simulations to examine how different modifying functional groups affect the leveling performance of tetrazolium derivatives, because the tetrazolium scaffold is an excellent leveler backbone: the tetrazolium ring carries an intrinsic positive charge comparable to that of quaternary-ammonium groups, while offering high structural stability and low cost. Lei et al. used DFT calculations to show that introducing N/O heteroatom substituents alters the electronic structure of tetrazolium derivatives, increases their electron activity, and thereby markedly improves microvia superfilling [26]. Similarly, combined DFT and MD studies by Wei et al. revealed that electronegative groups such as "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Nu { \\cal O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and I redistribute the electrostatic potential of the tetrazolium backbone, create additional chemically active sites, and strengthen intermolecular interactions, ultimately enhancing microvia filling [23]. In the same vein, Teng et al. [27] combined DFT with experiments to elucidate how various tetrazolium derivatives interact synergistically with a propylene-oxide–ethylene-oxide–propylene-oxide (PEP) triblock copolymer; highly electronegative substituents were found to promote stronger cooperation with the suppressor PEP and thus further boost superfilling performance."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                548,
+                944,
+                913
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                42,
+                942,
+                55
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                270,
+                85,
+                942,
+                183
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "As is well known, nitro blue tetrazolium chloride (NBT), a commercially available tetrazolium dye, has demonstrated excellent performance as a leveler in through-hole copper filling [28–30]. In contrast, blind microvias present a far more challenging environment: with only one opening, electrolyte circulation is severely restricted, the diffusion layer thickens, and a pronounced ohmic and activation overpotential gradient develops. These factors make void-free filling in blind microvias significantly more difficult than in through-holes. To date, however, the suitability of NBT for blind-microvia superfilling has not been reported, nor has its structure–performance relationship been elucidated—an omission that limits the molecular-level insight into tetrazolium-based levelers and the rational design of cost-effective additives. Accordingly, NBT was chosen as the leveler in this study to assess its effectiveness in copper superfilling of microvias, of which the molecular structure is shown in Figure 1. By combining electrochemical analyses, electroplating experiments, X-ray photoelectron spectroscopy (XPS), MD simulations, and DFT calculations, we elucidate how NBT’s NO<sub>2</sub> groups and tetrazolium ring govern the adsorption on Cu(111) and synergism with PEG and other species. The insights provide rational guidelines for engineering the next-generation, robust, and economical levelers."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                184,
+                944,
+                450
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8722baf9a6d59e863fc7cf22f72ec8c8c1c2d20a3b5ea635a191b45cd8889282.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 1. Schematic illustration of copper superfilling electrodeposition in microvias, and the chemical structure of the nitro blue tetrazolium chloride (NBT) molecule."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                97,
+                458,
+                897,
+                741
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Experimental"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                795,
+                426,
+                813
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.1. Microvia Electrodeplating and Electrochemical Measurements"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                816,
+                731,
+                832
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Rectangular PCB fragments containing microvias with a diameter of 120 µm and a depth of 100 µm were employed as substrates for copper electrodeposition experiments. The electrodeposition experiments were performed in the basic plating solutions containing 0.88 M "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u S O _ { 4 } { \\cdot } 5 H _ { 2 } O , 0 . 5 4 M H _ { 2 } S O _ { 4 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(98%, analytical reagent), and 50 ppm HCl along with three-component system additives where NBT functioned as the leveler, PEG acted as the suppressor, and bis-(3-sulfopropyl) disulfide (SPS) served as the accelerator. The PCB substrates were electroplated at a constant current density of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- 1 0 \\mathrm { m A } / \\mathrm { c m } ^ { 2 }"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                835,
+                942,
+                919
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                41,
+                942,
+                55
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                272,
+                85,
+                942,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Electrochemical behaviors of the additives were investigated using galvanostatic measurements (GMs) and cyclic voltammetry (CV), performed in a standard three-electrode electrochemical cell with a ParStat 4000A Electrochemical Workstation. A saturated mer curous sulfate electrode (SSE) acted as the reference electrode. GM tests were conducted under different convection conditions at a constant current density "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ) f } - 1 0 \\mathrm { m A } / \\mathrm { c m } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The potential difference (∆η) of the GM curves was calculated by Equation (1):"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                118,
+                944,
+                217
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta \\eta = \\eta_ {1 0 0 \\mathrm{rpm}} - \\eta_ {1 0 0 0 \\mathrm{rpm}}\\tag{1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/45472d7c3d9fd48cf2c5875dc2e84f0cad5cee4eb4e5bdfa85b4e098cc76e541.jpg"
+                }
+            },
+            "bbox": [
+                515,
+                231,
+                700,
+                248
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where η<sub>100rpm</sub> and η<sub>1000rpm</sub> are the cathodic potentials measured at rotational speeds of 100 rpm and 1000 rpm, respectively. The CV measurements were conducted by scanning from 0.8 V to −0.8 V (vs. SSE) at a sweep rate of 20 mV/s and the rotational speed was set at 100 rpm or 1000 rpm."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                261,
+                942,
+                326
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A clean copper foil was immersed for 20 min in deionized water containing 30 ppm NBT, 200 ppm PEG, and 50 ppm HCl, rinsed in fresh deionized water for 5 min, vacuumdried, and then measured by XPS. Spectra were acquired at a take-off angle of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4 5 ^ { \\circ } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ", with a pass energy of 90 eV and an Al Kα excitation source (1253.6 eV)."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                326,
+                942,
+                394
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.2. Theory and Computation"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                405,
+                482,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "All quantum-chemical calculations were carried out with Gaussian 09, using the B3LYP functional. Geometry optimizations for the isolated NBT molecule, a PEG fragment, and the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { N B T } } { \\mathrm { - } } { \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "complex were carried out with the def2-SVP basis set, and single point energies were refined at the def2-TZVP level to improve accuracy. The optimized structures and electronic properties were analyzed with Multiwfn [31,32], and the graphical representations were prepared with VMD [33]."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                425,
+                944,
+                524
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "MD simulations were conducted using Materials Studio software (version 17.1) to investigate the adsorption behavior of the additives on the Cu(111) surface. The MD simulation box (46.1 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathring { \\mathrm { A } } \\times 4 4 . 3 \\mathring { \\mathrm { A } } \\times 7 7 . 4 \\mathring { \\mathrm { A } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "included nine layers of copper atoms, 1500 water molecules, additive molecules (NBT, TB, PEG, and Cl<sup>−</sup>), and a vacuum layer (~3 nm) at the top. The simulations, which were performed within an NVT ensemble at a temperature of 298 K using the COMPASS force field, were conducted over a total duration of 1000 ps. The adsorption energy of the additives on the Cu (111) surface "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ( E _ { a d s } ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "was calculated by Equation (2):"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                524,
+                944,
+                657
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm {E_ {ads} = E_ {total} - E_ {Cu} - E_ {additive}}\\tag{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c232052a10e1986a941773ac47c784f388b8491101ac601a668e7e6c71c436f2.jpg"
+                }
+            },
+            "bbox": [
+                495,
+                657,
+                719,
+                674
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E _ { t o t a l } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the total energy of the Cu surface with adsorbed additive molecules, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E _ { C u } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the energy of the copper layer, and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\operatorname { E } _ { \\mathrm { a d d i t i v e } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the energy of the isolated additive."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                681,
+                942,
+                715
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Results and Discussion"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                728,
+                517,
+                744
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.1. Electrochemical Analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                747,
+                482,
+                763
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Electrochemical measurements were carried out to investigate the effect of NBT on cathodic polarization, as shown in Figure 2. From the GM curves at 1000 rpm, it can be seen that injecting just 10 ppm NBT immediately shifts the electrode potential negatively by approximately 160 mV, demonstrating that NBT strongly inhibits "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "reduction (Figure 2a). With further increases in NBT concentration, the cathodic potential shift becomes more pronounced, indicating that NBT’s inhibition strength is concentration-dependent. Moreover, pronounced electrode-potential oscillations occur at 100 rpm but are largely attenuated at 1000 rpm, indicating that adsorbed NBT forms labile complexes with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { + } / { \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "whose stability is governed by "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "mass transport rather than by NBT diffusion. As shown in"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                769,
+                944,
+                917
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                42,
+                941,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Figure "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ 2 } \\mathbf { b } , \\mathbf { c } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "this mass-transport sensitivity appears only at lower NBT concentrations; at higher concentrations, adsorption saturates and becomes insensitive to convection. Therefore, the observed instability of the NBT–Cu complex originates from diffusion-limited "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "depletion. Specifically, a dense NBT adlayer rapidly complexes "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { + } / { \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at the cathode surface, depleting the local "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "concentration; under weak convection, insufficient replenishment forces the electrode to shift to more negative potentials to maintain the set current density. Once the overpotential reaches the threshold for "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N B T - C u ^ { + } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "complex breakdown, the suppressor film collapses, releasing "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and causing a sudden depolar ization. As the potential drifts positive beyond the collapse window, the NBT–Cu complex re-forms, re-establishing the suppressor layer and driving the potential back negative— thus generating large-amplitude, periodic oscillations. In contrast, vigorous stirring at 1000 rpm continuously supplies "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", prevents local depletion and complex collapse, and thereby damps these oscillations. Clearly, this oscillatory behavior arises from the interplay between electrode polarization and mass transport."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                84,
+                944,
+                317
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/1ccd365d08339af86c8451879b50bcae350d724cec78fd6739993003abe6bd7b.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                114,
+                326,
+                495,
+                557
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/ab80f89174b986480e8b8f004d372d978a6a00f709d9cda021cf4f52b1ecfaa9.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                502,
+                328,
+                882,
+                557
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/541b1ee32620705cbea90e67d0aa9ab6cef3862a0ba13d2e0dbe53b193bca3d3.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                117,
+                563,
+                494,
+                790
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/de314346323dc1b3771240a70c7b5fba957bf26a96fd318055c6d01702d41b86.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "(d)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Figure 2. Electrochemical characterization curves of the basic plating solutions containing various concentration of NBT: (a,b) galvanostatic measurement (GM) curves obtained at a constant current density "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { o f - } 1 0 \\mathrm { m A } / \\mathrm { c m } ^ { 2 } ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(c) linear sweep voltammetry (LSV) curves; and (d) cyclic voltammetry (CV) curves recorded at a scan rate of 20 mV/s."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                505,
+                565,
+                880,
+                794
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The CV profiles recorded at 1000 rpm (Figure 2b) show that, in the additive-free bath, copper deposition onset occurs at −0.38 V (vs. SSE). The addition of 10 ppm NBT shifts the onset to −0.68 V, with further negative shifts at higher NBT concentrations. On the reverse scan, a pronounced hysteresis loop appears; we define its width "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\mathrm { E } _ { \\mathrm { h y s } } = \\mathrm { E } _ { \\mathrm { b r e a k } } - \\mathrm { E } _ { \\mathrm { l } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "<sub>recover</sub>, where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E _ { b r e a k } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the forward-scan potential at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- 2 5 \\mathrm { m A } / \\mathrm { c m } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "onset and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E _ { r e c o v e r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the reversescan potential at the same current. Thus, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\mathrm { E _ { h y s } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "quantifies the relative ease of suppressorfilm breakdown and re-formation. As NBT concentration increases, the hysteresis loop narrows, indicating that the enhanced mass-transport and adsorption capacity of NBT more rapidly rebuilds the suppressor layer [34–36]. This potential-dependent adsorption also explains the oscillatory polarization under weak convection: once the cathode potential becomes sufficiently negative to collapse the NBT film "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\mathrm { E _ { b r e a k } } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the film breakdown releases "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and causes depolarization, and as the potential drifts positive toward "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E } _ { \\mathrm { r e c o v e r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the NBT adlayer instantly re-forms, driving the periodic oscillations."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                875,
+                942,
+                925
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                41,
+                942,
+                55
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                272,
+                85,
+                942,
+                250
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To elucidate the cooperative action of NBT with the suppressor PEG, GM and CV were performed (Figure 3). The addition of 200 ppm PEG alone shifts the potential by approximately 210 mV in the negative direction (Figure 3a), reflecting formation of a dense "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { P E G } / \\mathrm { C l ^ { - } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "adlayer that impedes "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "access to the cathode [37]. Upon introducing 10 ppm NBT into the PEG bath, the potential shifts an additional ∼36 mV negative at 1000 rpm, indicating synergistic co-adsorption of NBT and PEG and the formation of a more compact suppressor film (PEG–NBT) [27]. Because NBT adsorption is diffusionlimited (at low concentration), its inhibitory effect is substantially weaker under low convection (100 rpm) than high convection (1000 rpm), resulting in a large difference potential "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\mathfrak { n } _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of about 30 mV and underscoring the mass-transport sensitivity of the process. Increasing the NBT concentration in the PEG bath further enhances cathodic polarization. The potential difference "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\mathfrak { n }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "between 100 rpm and 1000 rpm gradually narrows. Importantly, ∆η remains positive, indicating that under these conditions the system transitions from NBT-diffusion control to being governed by the adsorption/desorption behavior of the PEG–NBT suppressor film. However, at high NBT concentrations, pronounced electrodepotential oscillations still occur, reflecting that the denser PEG–NBT adlayer forms stronger complexes with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u } ^ { + } / \\mathrm { C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and it remains sensitive to convection."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                250,
+                944,
+                532
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/afeb25616bb6a3fb8cf82dad9d58dacdcc3eba1f861475a45a10b51060bd7939.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                100,
+                542,
+                492,
+                775
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/0b7444b4cd89db69c64717894cd502281554a4b83ee0f2c4e4cf1a8ecd9bd098.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 3. Electrochemical characterization curves of the basic plating solutions containing 200 ppm PEG and various concentrations of NBT: (a) galvanostatic measurement (GM) curves obtained at a constant current density of − "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 \\mathrm { m A } / \\mathrm { c m } ^ { 2 } ; ( \\mathbf { b } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cyclic voltammetry (CV) curves recorded at a scan rate of 20 mV/s."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                512,
+                543,
+                899,
+                775
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The CV profiles further validate the strong synergistic suppression by PEG and NBT (Figure 3b). Compared with the PEG-only baseline, the onset of copper deposition shifts progressively negative as NBT concentration increases, confirming enhanced inhibition. Unlike NBT alone (Figure 2b), the PEG–NBT curves display a large "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\mathrm { E _ { h y s } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "value that largens with rising NBT concentration, while the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E _ { r e c o v e r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "remains essentially constant across all NBT concentrations—indicating the formation of a potential-sensitive PEG–NBT complex film. Higher NBT concentrations produce a denser suppressor layer that is more resistant to breakdown by electrode potential. Taken together, the PEG–NBT suppressor exhibits pronounced sensitivity to both convection and potential—properties that favor PEG–NBT-selective coverage at the microvia mouth rather than microvia bottom and promote void-free superfilling. This is due to the fact that the PEG–NBT concentration is relatively low at microvia bottom (weak convection) compared to the microvia mouth (strong convection), making the suppressor film at microvia bottom more susceptible to potential-induced collapse and thereby facilitating "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "reduction. Conversely, at the microvia mouth the higher local PEG–NBT coverage resists breakdown and, once collapsed, rapidly re-forms, ensuring sustained suppression [38,39]."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                858,
+                942,
+                926
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                42,
+                941,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                272,
+                84,
+                942,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Although NBT and PEG exhibit electrochemical behaviors that facilitate the superfilling of microvias, the achievement of efficient microvia superfilling electroplating often necessitates the synergistic effect of SPS. Specifically, SPS focuses on accelerating copper deposition at the bottom of the microvias, while PEG–NBT is responsible for suppressing copper deposition in the microvias’ entrance region. GM for the PEG–SPS–NBT additive system (Figure 4a) further confirmed the distinct yet synergistic functions of each component. After the electrode-potential drop caused by 200 ppm PEG, injection of 1 ppm SPS partially breaks through the PEG– "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- \\mathrm { C l ^ { - } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "film, producing a marked depolarization [40]. Subsequent addition of 10 ppm NBT immediately reverses this trend: the potential shifts to values even more negative than those recorded with PEG alone, indicating that the PEG– NBT co-adsorbate effectively resists displacement by SPS and restores a robust suppressor layer. The differences between the depolarization curves at 100 rpm and 1000 rpm indicate that the system still exhibits a certain sensitivity to convection "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\Delta \\mathfrak { n } _ { 4 } , \\Delta \\mathfrak { n } _ { 5 } , \\Delta \\mathfrak { n } _ { 6 } > 0 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", which is consistent with the characteristics of PEG–NBT adsorption being diffusion-limited."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                282,
+                944,
+                514
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/6fbddc77b59d2fa893b156b0795226988c555e8ede306a5d4f8f2664aee4f82a.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                99,
+                524,
+                492,
+                760
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/cd4b74fac76b6f8c1d056911e408a041933fcb24df354d61318d2831c01b9cc8.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 4. Electrochemical characterization curves of the basic plating solutions containing 200 ppm PEG, 1 ppm SPS, and various concentration of NBT: (a) galvanostatic measurement (GM) curves obtained at a constant current density "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { o f } - 1 0 \\mathrm { m A } / \\mathrm { c m } ^ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; (b) cyclic voltammetry (CV) curves recorded at a scan rate of 20 mV/s."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                514,
+                525,
+                897,
+                758
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The CV curves validated the observations obtained from the GM curves, as shown in Figure 4b. Relative to the PEG–SPS baseline, increasing NBT concentration again shifts the copper deposition onset to more negative potentials and produces a larger "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta \\mathrm { E _ { h y s } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "value, while the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { E _ { r e c o v e r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "remains unchanged across all NBT concentrations. This behavior indicates that higher NBT concentrations generate a denser PEG–NBT suppressor film that not only resists breakdown by applied potential but also effectively withstands SPS attack. Collectively, these electrochemical features indicate that the PEG–NBT layer remains strongly adsorbed at the microvia mouth (as discussed above in Figure 3b)—blocking SPS there—and confines accelerator action to the convection-limited via the bottom, thereby achieving void-free, bottom-up superfilling."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                841,
+                942,
+                925
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                38,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                41,
+                941,
+                55
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                272,
+                85,
+                942,
+                168
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.2. Theoretical Calculations"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                179,
+                477,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Quantum-chemical calculations are a powerful means of elucidating reaction mechanisms and predicting chemical reactivity. Accordingly, DFT computations were performed to analyze the electronic properties and active sites of NBT. For the frontier molecular orbitals (FMOs), the highest occupied molecular orbital (HOMO) identifies the sites most prone to donate electrons, whereas the lowest unoccupied molecular orbital (LUMO) pinpoints the sites most susceptible to accept electrons. As shown in Figure 5, the HOMO of NBT is mainly localized on the two central phenyl rings (Ph1/Ph1<sup>′</sup>) and their adjacent methoxy groups (MeO/ MeO<sup>′</sup>), indicating that these π-rich regions are the preferred electrophilic-reaction sites when NBT interacts with other species. Because the HOMO energy (−7.15 eV) is close to the Fermi level of copper (−4.5~−5 eV) [41], these sites can readily donate electron density to surface Cu orbitals, forming σ- or π-type adsorption bonds that anchor the molecule to the surface. In contrast, the LUMO is concen trated on the two tetrazolium rings (Tz/Tz<sup>′</sup>) and the nitro-substituted phenyl rings (Ph1- Nitro/Ph1<sup>′</sup>-Nitro<sup>′</sup>). LUMO-dominated sites readily accept electrons—especially from Cu 3d orbitals—thereby constituting the primary adsorption centers where feedback π-bonding occurs [42]. The dual nitro groups thus endow NBT with a strong affinity for copper. NBT displays a relatively narrow HOMO–LUMO gap "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\Delta \\mathrm { E } _ { \\mathrm { g } } = \\mathrm { E } _ { \\mathrm { L U M O } } - \\mathrm { E } _ { \\mathrm { H O M O } } = 3 . 5 3 \\ : \\mathrm { e V } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "). Such a small gap promotes frontier-orbital overlap, facilitating charge transfer between NBT and the copper surface and, consequently, establishing a robust adsorption strength that underpins its leveling performance [43]."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                199,
+                944,
+                532
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/811cf038b15ffafed005ce7be2063236d6e1d8ee8d37f5c1532e941cdd28612c.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 5. DFT calculation results for frontier molecular orbitals of the NBT molecule: (a) optimized molecular geometry; (b) lowest unoccupied molecular orbital (LUMO); (c) highest occupied molecular orbital (HOMO)."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                100,
+                545,
+                894,
+                669
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Molecular electrostatic potential (ESP), defined as the potential energy experienced by a unit positive test charge in the electrostatic field of a molecule, is a convenient descriptor for analyzing intermolecular electrostatic interactions. As illustrated in Figure 6a,b, the lowpotential regions (blue) lie on the nitro groups (Nitro/Nitro<sup>′</sup>), whereas the high-potential regions (red) appear mainly on the tetrazolium rings themselves "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { { T } } z / \\mathrm { { T } } z ^ { \\prime } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and on the methoxy-substituted phenyl rings (Ph3-Meo/Ph3<sup>′</sup>-Meo<sup>′</sup>). Because the nitro groups are strongly electronegative, its inclusion redistributes charge and makes the ESP surface more symmetric (Figure 6b), thereby improving the ability of NBT to interact electrostatically with the copper surface or with additives such as PEG [44]."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                737,
+                944,
+                887
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                41,
+                942,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8492b6480a585583e18024363e0ec3e885cdb8b78530898d34638e35c289bc32.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                278,
+                87,
+                589,
+                231
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/5240d58ef19625f34d408419cc05f424bbe26cf699c733a4310508da112f2e27.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b)"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                610,
+                86,
+                910,
+                241
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/35411a85e542be14814604c0103cfdeff42506b13ed22ff6fcfa6778e3c366b1.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                295,
+                260,
+                593,
+                414
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/911eae3e56ddb44a8738b15ad964f69788a2c58aa35130bfb8ead7dbe490e371.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 6. DFT calculation results for NBT molecule: (a) electrostatic potential (ESP) map and (b) corresponding histogram distribution of ESP values; (c) average local ionization energy (ALIE); (d) local electron-attachment energy (LEAE)."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                613,
+                260,
+                884,
+                414
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The average local ionization energy (ALIE) quantifies the local propensity for electron removal within a molecule. The lowest ALIE values (≈219 kcal "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { m o l } ^ { - 1 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "occur on themethoxy-substituted phenyl rings (Ph3-Meo, Ph3<sup>′</sup>-Meo<sup>′</sup>) and the adjacent phenyl rings (Ph2, Ph2<sup>′</sup>) (Figure 6c), indicating that these sites are most susceptible to electrophilic attack and can donate electron density to positive species at the cathode, strengthening chemisorp tion [44,45]. In contrast, the local electron-attachment energy (LEAE) quantifies the ability to accept electrons; smaller values mean stronger nucleophilicity [46]. The minimum LEAE (−46.32 kcal mol<sup>−1</sup>) is found on the tetrazolium rings and the neighboring nitro-substituted phenyl rings (Figure 6d). This confirms that the nitro groups greatly enhance the nu cleophilic reactivity of NBT, enabling efficient electron uptake from Cu 3d orbitals and the formation of robust back-donation π bonds. Such strong adsorption—especially at high-field sites such as microvia mouths—rationalizes the superior leveling performance of NBT. Moreover, this conclusion is fundamentally consistent with the findings derived from FMO."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                482,
+                944,
+                713
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To fully predict a leveler’s performance, one must assess not only its electronic active sites but also its interactions with other species and their corresponding adsorption sites. Accordingly, DFT calculations were carried out to investigate NBT’s interactions with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ions and with the suppressor PEG. Atom in Molecules (AIM) and interaction region indicator (IRI) calculations were carried out for the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { N B T } } { \\mathrm { - } } { \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "complex, while the NBT–PEG interaction was analyzed with the independent-gradient model based on Hirshfeld parti tion (IGMH), as shown in Figure 7. As shown in Figure "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^ { 7 } \\mathbf { a } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "the shortest contact between "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and NBT is the Cu–N bond to the tetrazolium nitrogen (1.994 Å). The Cu–O distance to the methoxy group is longer (2.177 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathring \\mathrm { A } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", indicating that the Cu–N interaction is stronger than the Cu–O one. To evaluate the bond nature, we calculated the bond-critical-point (BCP) parameters (Table 1). For both Cu–N and Cu–O bonds, the electron density at the BCP (ρ ) is below 0.10 a.u. and the Laplacian of electron density "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\nabla ^ { 2 } \\rho _ { \\mathrm { B C P } } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "value is positive, showing that the two bonds for Cu–N and Cu–O are ionic bonds [47,48]. However, only the Cu–N bond has negative energy density "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\mathrm { H } _ { \\mathrm { B C P } } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and negative potential energy density (Vr ), which confirms that the Cu–N bond is the stronger bond [49]. IRI analysis (Figure 7b) reveals blue isosurfaces between "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the tetrazolium nitrogen, as well as between "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the methoxy oxygen, indicating strong Cu–N and Cu–O interactions. The two-dimensional IRI map (Figure 7c) further supports these observations, confirming robust coordination between NBT and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ions. These findings indicate that NBT coordi nates predominantly with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "via the nitrogen atom of the tetrazolium ring, forming a strong ionic bond that retards "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "reduction. This selective coordination promotes NBT adsorption at Cu-rich sites—such as microvia mouths or cathode protrusions—thereby efficiently inhibiting local deposition."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                714,
+                944,
+                913
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                42,
+                941,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                270,
+                84,
+                942,
+                267
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c2c0fae200c772f5919c1a98d1f5e607498a48024ba6c4a1cdb7cc4f566b3adf.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                151,
+                279,
+                470,
+                443
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3983018b34411b694d29bef5338f11bfb3d10ecc548077909d2356fb9bca6066.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                507,
+                275,
+                831,
+                422
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a57a01f5295b59ed7d530e518195e35ef065f5429c3d85c8fb9b626272a570fd.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(c)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                164,
+                470,
+                468,
+                678
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3c8b925bad813520b4f3a166ea2cf7979f277f3d2d2fd983550f74c078543ed0.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 7. Interactions between the NBT molecule and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ion and PEG fragment: (a) Atom in Molecules (AIM) calculation illustrating the interactions between NBT and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + } ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; (b) interaction region indicator (IRI) analysis of the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N B T - C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "interaction; (c) two-dimensional planar colored IRI images displaying interaction regions between NBT and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { C u } } ^ { 2 + } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; (d) interaction between PEG and NBT visualized using the independent gradient model based on Hirshfeld partition."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                521,
+                442,
+                845,
+                684
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/41c921736d4ae326d4021c61e108a6d264aaff350e60d70b5441f20e5f75ae2b.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 1. The key parameters for AIM analysis."
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Bond-Atoms</td><td> $\\rho_{\\text{BCP}} \\times 10^{2}$  (a.u.)</td><td> $\\nabla^{2}\\rho_{\\text{BCP}} \\times 10^{2}$  (a.u.)</td><td> $H_{\\text{BCP}} \\times 10^{3}$  (a.u.)</td><td> $Vr_{\\text{BCP}} \\times 10^{2}$  (a.u.)</td></tr><tr><td> $Cu^{2+}-N$ </td><td>8.07</td><td>50.64</td><td>-1.37</td><td>-12.93</td></tr><tr><td> $Cu^{2+}-O$ </td><td>4.77</td><td>26.66</td><td>2.91</td><td>-6.08</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                58,
+                808,
+                937,
+                870
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An effective leveler must not only coordinate with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "but also work synergistically with suppressors such as PEG to further enhance cathodic polarization. DFT calculations (Figure 7d) reveal that NBT–PEG interactions are dominated by van der Waals forces and a key hydrogen bond between the nitro oxygen of NBT and a hydroxyl hydrogen of PEG. The presence of this hydrogen bond drives the PEG–NBT binding energy to as high as −30.98 kcal/mol, significantly exceeding the −15.19 kcal/mol reported for the INT–PEG system (Wei et al. [23]) and the −26.47 kcal/mol for HPTT–PEP (Teng et al. [27]). The strong NBT–PEG affinity underpins the pronounced synergistic suppression observed electrochemically and underscores the pivotal role of the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Nu { \\cal O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "groups in both reinforcing NBT chemisorption on copper and enhancing co-adsorption with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { P E G } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "thus improving overall leveling efficiency."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                892,
+                942,
+                925
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                38,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                41,
+                942,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                272,
+                84,
+                942,
+                233
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "MD simulations were conducted to elucidate NBT adsorption on the Cu(111) surface; the simulation results are shown in Figure 8. After equilibration without PEG, both nitrosubstituted phenyl rings (Ph1-Nitro/Ph1<sup>′</sup>-Nitro<sup>′</sup>) of NBT lie flat on the Cu(111) surface, whereas the tetrazolium ring "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { { T } } z / \\mathrm { { T } } z ^ { \\prime } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the methoxy-bearing phenyl ring (Ph3-Meo/Ph3<sup>′</sup>- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { M e o } ^ { \\prime } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and the remaining phenyl ring (Ph2) stay farther from the surface (Figure 8a,b). This observation already points to the nitro groups as the primary adsorption sites."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                234,
+                944,
+                332
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/06cbd7e665c33ca614d7ed490eb77e13ecaf2baafce5c423497188b6a732a2f0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                282,
+                344,
+                588,
+                550
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/58bf610879bcbda3c9741f7072d890c517fc7efdd42f5213db3a64e3d911dbd8.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                600,
+                343,
+                905,
+                551
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/16b7cac63edad50825bda4ac6fc19b4c86c175e32cce4a2f7f89c11ca10f5b75.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                278,
+                555,
+                591,
+                731
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/13421d53c5d80128a73cf05b4fb43ed07f498a0aeef9573b0e43d92d36f09b6d.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 8. MD simulation results of the adsorption behavior of NBT molecules on the Cu(111) surface in the absence of PEG: (a,b) equilibrium adsorption configurations of NBT molecule on Cu(111) surface; (c,d) radial distribution functions (RDF) between Cu atoms on the Cu(111) surface and the centers of each NBT fragment."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                588,
+                554,
+                905,
+                730
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To quantify these interactions between NBT and the Cu(111) surface, radial distribution functions (RDFs) were calculated between the centers of each NBT fragment and the surface Cu atoms, as shown in Figure 8c,d. Some studies [50,51] generally classify an adsorption peak at 1–3.5 Å as chemisorption, whereas peaks at >3.5 Å indicate physisorption. The nitro groups (Nitro/Nitro<sup>′</sup>) show peaks at 3.19 Å and 3.03 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathring { \\mathrm { A } } ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "the directly attached phenyl rings (Ph1/Ph1<sup>′</sup>) at 3.18 Å and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3 . 1 7 \\mathring { \\mathrm { A } } ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and one Ph2 ring at 3.15 Å—all within the chemisorption range. By contrast, the tetrazolium rings "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { T z } / \\mathrm { T z } ^ { \\prime } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "exhibit broader peaks at 4.83 Å and"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                809,
+                942,
+                926
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                41,
+                942,
+                55
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5.32 Å, consistent with electrostatic attraction between its positive charge and the metal. Peaks for the methoxy phenyl ring "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { P h } 3 { - } \\mathrm { M e o } / \\mathrm { P h } 3 ^ { \\prime } { - } \\mathrm { M e o } ^ { \\prime } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the remaining fragments appear beyond "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "6 \\mathring { \\mathrm { A } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "implying only weak van der Waals interaction. These results confirm that the electron-withdrawing nitro groups are the key chemisorption centers that give NBT its strong inhibitory effect, while the positively charged tetrazolium rings provide an additional electrostatic anchor."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                84,
+                942,
+                183
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To elucidate the effect of PEG on NBT adsorption at the Cu(111) surface, MD simulations were performed on systems containing both NBT and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { P E G } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "as shown in Figure 9. Under the cooperative influence of PEG, the entire NBT molecule adopts an almost flat orientation on the Cu(111) surface, resulting in markedly tighter contact compared to the PEG-free system. The RDF analysis confirms this rearrangement: The RDF peaks for both tetrazolium rings "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathrm { { T } } z / \\mathrm { { T } } z ^ { \\prime } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "shift to distances below 3.5 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathring { \\mathrm { A } } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "indicating a transi tion from weak physisorption to strong chemisorption. By contrast, one methoxy group (Meo<sup>′</sup>) remains distant from the surface "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\mathbf { r } = 8 . 6 7 \\mathring \\mathrm { A } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and the two remaining phenyl rings (Ph3/Ph3<sup>′</sup>) only partially adsorb in a tilted orientation. Overall, PEG markedly strengthens NBT’s interfacial binding, with the calculated adsorption energy rising from −128.27 to −191.51 kcal/mol—an enhancement of nearly 50%. In short, the MD simulations demonstrate that PEG markedly enhances the chemisorption of NBT on copper, most likely through the strong NBT–PEG interaction identified by DFT. This finding is fully consistent with the synergistic suppression behavior observed in electrochemical analysis and with the DFT calculations."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                184,
+                944,
+                432
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3e935ab7eb524cdbcee53c2f4bda085c428b6280fba24f1bdb2a2827414a1911.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                282,
+                444,
+                583,
+                646
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ee93331cab797b9eea7d0a758767f6aeedb9a56bb59a5b41992d62c6038c1c57.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                596,
+                442,
+                912,
+                646
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3ccc1cb650f304809954318f1a961cb2e04aa5ba84d5a787bbf0a732cfbb657a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                278,
+                652,
+                586,
+                826
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/eca632a87a9dcfe67262780ce87806433287dc7515f635e0da6eb24f87c9bdcb.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 9. MD simulation results of the adsorption behavior of NBT molecules on the Cu(111) surface in the presence of PEG: (a,b) equilibrium adsorption configurations of NBT molecule on Cu(111) surface; (c,d) radial distribution functions (RDFs) between Cu atoms on the Cu(111) surface and the centers of each NBT fragment."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                586,
+                652,
+                899,
+                825
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                41,
+                942,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.3. Electrodeposition and Characterization Analysis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                85,
+                638,
+                99
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The study above indicates that NBT possesses the key attributes required of an electroplating leveler. To assess its practical performance, the microvia electrodeposition was carried out with 10–40 ppm NBT, and the cross-sectional results are given in Figure 10. At a low concentration of 10–20 ppm, NBT fails to support bottom-up filling: only little copper grows at the microvia’s bottom, while accelerated deposition at the mouth causes premature closure and large voids. This behavior is attributed to an insufficiently dense PEG–NBT suppressor film; its inhibition strength and potential sensitivity are too low, consistent with the narrow CV hysteresis observed in electrochemical analysis above."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                105,
+                944,
+                237
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/55a6d6b0efba2c90e1e642b6ebd22a8c51f18bb15c15af8b288ad195f696e2df.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                89,
+                254,
+                285,
+                372
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/22f3bc9ac420170df4b15100bf3aef3d88b8a486ecfbbbb69dc5f74f8d9c8428.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                295,
+                254,
+                495,
+                373
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/db7005956dfe802e424f8f04cbf596b6697cc88fadb67c809f9f0df86df65d26.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                504,
+                254,
+                702,
+                374
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/033d99da8e6f9f776a42238d50c1113911e942cacf5e2a81a85d439b91cca535.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 10. Cross-sectional optical microscope images for the microvias after being electroplated from basic plating solutions containing 200 ppm PEG, 1 ppm SPS, and various concentrations of NBT: (a) 10 ppm NBT, (b) 20 ppm NBT, (c) 30 ppm NBT, (d) 40 ppm NBT."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                712,
+                255,
+                910,
+                374
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "However, when the NBT concentration is raised to 30–40 ppm, the filling mode switches to void-free bottom-up superfilling. The higher NBT level forms a denser, higherpotential-sensitivity PEG–NBT film that adsorbs preferentially at the relatively positive microvia’s mouth, strongly suppressing copper there. Meanwhile, SPS adsorbed at the microvia bottom—where convection is weak—accelerates copper deposition in that region, enabling void-free microvia superfilling. These plating results confirm the findings derived from electrochemical analysis, DFT calculations, and MD simulations: NBT synergizes with PEG to form a robust suppressor film that localizes at high-potential, high-convection regions, thereby enabling reliable void-free bottom-up copper filling of microvias."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                444,
+                942,
+                593
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Besides filling performance, the surface-flattening ability of a leveler is a key metric. An atomic force microscope (AFM) was therefore used to examine the local morphology of the copper deposit, and the root-mean-square roughness "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ( R _ { q } ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and average roughness "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\mathrm { R _ { a } } \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "were quantified (Figure 11 and Table 2). With only PEG and SPS present, the deposit exhibited pronounced surface non-uniformity, with an "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { R _ { q } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of 113.0 nm and an "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { R } _ { \\mathrm { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of 131.9 nm. Introducing NBT progressively smoothed the surface: both roughness metrics declined as the NBT concentration increased, and at 40 ppm NBT the deposit displayed an "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { R _ { q } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of 27.8 nm and an "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { R _ { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of 37.2 nm. However, some isolated nodules emerged at the higher concentration of NBT, likely due to uneven NBT coverage or to local cathodic reduction of excess NBT into insoluble species that hinder normal leveling."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                593,
+                944,
+                759
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/3b2cfca7f16619adb0707e99d10c62b94b3f1bd4746b26e1b3a641c112a28aae.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table 2. Roughness parameters of copper layer electroplated under the basic plating solutions containing 200 PEG, 1 ppm SPS, and various concentrations of NBT."
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>NBT</td><td>0 ppm</td><td>10 ppm</td><td>20 ppm</td><td>30 ppm</td><td>40 ppm</td></tr><tr><td> $R_q$  (nm)</td><td>113.0</td><td>87.7</td><td>53.8</td><td>56.8</td><td>26.7</td></tr><tr><td> $R_a$  (nm)</td><td>131.9</td><td>105.1</td><td>71.0</td><td>74.5</td><td>35.7</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                275,
+                808,
+                939,
+                870
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                41,
+                941,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4033a635abe8be2c09e12b8c592ba7f85177f50aa073accdfdb2d0b327be216b.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 11. AFM plots of electroplated copper layer obtained under the basic plating solutions containing 200 PEG, 1 ppm SPS, and various concentrations of NBT: (a) 0 ppm NBT, (b) 10 ppm NBT, (c) 20 ppm NBT, (d) 30 ppm NBT, (e) 40 ppm NBT."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                70,
+                84,
+                929,
+                285
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To investigate the interactions of PEG and NBT with the copper surface, XPS was employed to analyze the elemental composition and chemical states of species adsorbed on Cu foils. Because the C, N, and O atoms in these organic additives are prone to contamination by adventitious "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { N } _ { 2 } , \\mathrm { O } _ { 2 } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "from air adsorbed onto the copper foil— which can obscure subtle binding-energy features—many researchers [11,17,52,53] adopt a “soak–rinse–dry” protocol to minimize interference. Accordingly, in this study the polished Cu foils were immersed for 20 min in an aqueous solution containing 200 ppm PEG and 30 ppm NBT, rinsed with deionized water, vacuum-dried, and transferred under an inert atmosphere into the XPS chamber, and the results are shown in Figure 12. The survey spectrum (Figure 12a) shows clear C 1s, O 1s, N 1s, and Cu 2p peaks, indicating that the additives are adsorbed on the copper foil surface."
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                355,
+                942,
+                536
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The deconvoluted C 1s spectrum (Figure 12b) contains four peaks centered at 284.5 eV (C–C or C=C from PEG chains and NBT phenyl rings) [54], 285.1 eV (C–N of NBT) [55], 286.2 eV (C–O/C–O–C from ether groups in PEG or NBT) [56], and 289.2 eV (carbonate species, probably formed by trace "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "uptake during immersion) [28]. These assign ments indicate that both PEG and the aromatic/ether fragments of NBT are present on the surface. The N 1s signal (Figure 12c) is resolved into six peaks at 399.6 eV (C–N/C=N of NBT) [28,52,55], 400.2 eV (Cu–N, evidence of NBT binding through nitrogen) [28,57], 401.7 eV (N–N/N=N in tetrazolium) [52,55], 402.4 eV (protonated amine or quaternary nitrogen generated after interaction with Cu) [17,55], 404.1 eV (positively charged tetra zolium N<sup>+</sup>) [52], and 406.3 eV (nitro-group nitrogen) [52,58]. These results indicate that the tetrazolium ring and nitro groups in NBT can accept electrons from the Cu 3d orbitals and form stable coordination/back-donation π interactions with the surface. These moieties therefore act as the primary adsorption sites of NBT on copper, fully consistent with the DFT predictions. The O 1s spectrum (Figure 12d) shows peaks at 530.3 eV (Cu–O formed by interaction of ether or nitro oxygen with copper) [59], 531.0 eV (O–N from nitro and methoxy groups) [18,55], and 532.7 eV (non-bonded ether oxygen in PEG or NBT) [18,55]."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                537,
+                944,
+                801
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Overall, the C 1s, N 1s, and O 1s spectra demonstrate adsorption of both PEG and NBT onto the copper surface. NBT utilizes its phenyl, nitro, methoxy, and tetrazolium functionalities to anchor on the Cu surface, while PEG adsorbs on the Cu surface primarily through ether oxygens and carbon backbones. These findings are in full agreement with the electrochemical analysis, DFT calculations, and MD simulations."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                801,
+                942,
+                884
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                42,
+                941,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/76f5219f65bef158ea57f2e7a19a8362b03ebe333fb2f78a24532081be605b19.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                84,
+                85,
+                480,
+                332
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/086b0582472f467440cec868ece6a0f1aef0afa0118c27c96dd77e961d7126a1.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                507,
+                85,
+                914,
+                334
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/636f29009c422a2968dc817089b4c325c5fe8d011c37669ac336bd98e954f46d.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                82,
+                344,
+                478,
+                592
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/4040b00d792370163e04834bc46cfa91e051c43cba68a6fad31ce9dc7c1b0595.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Figure 12. XPS deconvolution spectra of the electroplated Cu film: (a) full spectrum, (b) C 1s, (c) N 1s, and (d) O 1s."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                504,
+                343,
+                904,
+                590
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4. Conclusions"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                273,
+                645,
+                418,
+                662
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In this work, the tetrazolium derivative NBT was assessed as a leveler for copper superfilling of microvias. A combination of GM tests, CV, AFM, and XPS was applied, together with DFT calculations and MD simulations. The major findings are as follows:"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                667,
+                942,
+                715
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) Electrochemical tests show that NBT alone suppresses copper deposition and shows strong synergism with PEG, forming a dense suppressor film that resists displacement by SPS. The NBT–PEG synergy is convection-sensitive and potential-sensitive, and its incorporation markedly improves the plating performance of the PEG–SPS–NBT additive system;"
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                719,
+                942,
+                801
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) DFT calculations identify the nitro groups and the tetrazolium ring as the principal reactive sites: both accept back-donated electrons from Cu 3d orbitals, thereby reinforcing surface adsorption. The tetrazolium nitrogens coordinate strongly with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C u } ^ { 2 + }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ions, and the nitro oxygens act as hydrogen-bond acceptors for PEG hydroxyls, giving a robust NBT–PEG interaction with a binding energy of −30.98 kcal/mol;"
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                802,
+                942,
+                884
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) MD simulations indicate that NBT alone adsorbs stably on Cu(111) through its nitrosubstituted phenyl rings, with an adsorption energy of −128.27 kcal/mol. The presence of PEG increases this value to −191.51 kcal/mol and enables chemisorption via nitro, tetrazolium, and methoxy sites, an effect attributable to strong NBT–PEG intermolecular forces;"
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                885,
+                944,
+                919
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                38,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                41,
+                942,
+                55
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                310,
+                85,
+                942,
+                133
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4) Electroplating experiments confirm that 30–40 ppm NBT yields void-free bottom-up filling in microvias. XPS verifies co-adsorption of PEG and NBT; the NBT anchors to the copper surface through its nitro, tetrazolium, methoxy, and aromatic sites. These mutually consistent results clarify the structure–function relationship that underlies the effectiveness of NBT as a leveler for microvia superfilling."
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                135,
+                942,
+                217
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Author Contributions: D.X. built the device structure, performed experiments, analyzed the results, and wrote the paper. X.W. performed the numerical calculations, analyzed the results, wrote the paper, and analyzed the results. J.Y., M.L. and S.T. conducted a discussion and analyzed the results. H.Y. supervised the whole work. All authors have read and agreed to the published version of the manuscript."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                235,
+                942,
+                311
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Funding: This research was supported by the Science and Technology Major Project of Guangxi (Guike AA22117005 and Guike AA22117007), the Innovation Development Multiplier Plan of Guangxi University (no. 202201343 and no. 202201369), Key Project of the Special Project on the Development of Modern Vocational Education in Guangxi in 2024 (No. 2024ZJY1263), funding by Guangxi Science and Technology Major Projects (AA22068101), and the Project of Improving the Basic Scientific Research Ability of Young and Middle-aged Teachers in Guangxi Universities under grant nos. 2025KY1535, 2024KY1173, and 2024KY1183."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                318,
+                942,
+                426
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Data Availability Statement: Data will be made available on request."
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                434,
+                742,
+                448
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Conflicts of Interest: The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                456,
+                942,
+                487
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "References"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                55,
+                500,
+                163,
+                516
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1. Zhu, K.; Wang, C.; Wang, J.; Hong, Y.; Chen, Y.; He, W.; Zhou, J.; Miao, H.; Chen, Q. Convection-Dependent Competitive Adsorption between SPS and EO/PO on Copper Surface for Accelerating Trench Filling. J. Electrochem. Soc. 2019, 166, D93–D98. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                521,
+                942,
+                565
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2. Lau, J.H. Recent Advances and New Trends in Flip Chip Technology. J. Electron. Packag. 2016, 138, 030802. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                567,
+                875,
+                581
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3. Kim, M.J.; Seo, Y.; Kim, H.C.; Lee, Y.; Choe, S.; Kim, Y.G.; Cho, S.K.; Kim, J.J. Galvanostatic Bottom-up Filling of TSV-like Trenches: Choline-Based Leveler Containing Two Quaternary Ammoniums. Electrochim. Acta 2015, 163, 174–181. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                582,
+                942,
+                611
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4. Tan, T.; Liu, R.; Guo, L.; He, Z.; Fan, X.; Ye, R.; Tao, C. Investigation of 2-Mercapto-1-Methylimidazole as a New Type of Leveler in Wafer Electroplating Copper. Materials 2025, 18, 1622. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                613,
+                939,
+                642
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5. Zhu, Q.S.; Zhang, X.; Liu, C.Z.; Liu, H.Y. Effect of Reverse Pulse on Additives Adsorption and Copper Filling for Through Silicon Via. J. Electrochem. Soc. 2018, 166, D3006–D3012. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                643,
+                939,
+                671
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "6. Li, Y.; Li, C.; Li, R.; Peng, X.; Zhang, J.; Yang, P.; Wang, G.; Wang, B.; Broekmann, P.; An, M. Experimental and Theoretical Study of the New Leveler Basic Blue 1 during Copper Superconformal Growth. ACS Appl. Mater. Interfaces 2023, 15, 47628–47639. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                674,
+                942,
+                717
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "7. Moffat, T.P.; Wheeler, D.; Huber, W.H.; Josell, D. Superconformal Electrodeposition of Copper. Electrochem. Solid-State Lett. 2001, 4, C26. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                719,
+                942,
+                747
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8. Moffat, T.P.; Bonevich, J.E.; Huber, W.H.; Stanishevsky, A.; Kelly, D.R.; Stafford, G.R.; Josell, D. Superconformal Electrodeposition of Copper in 500–590 Nm Features. J. Electrochem. Soc. 2000, 147, 4524. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                749,
+                941,
+                778
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9. Akolkar, R.; Landau, U. A Time-Dependent Transport-Kinetics Model for Additive Interactions in Copper Interconnect Metalliza tion. J. Electrochem. Soc. 2004, 151, C702–C711. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                780,
+                942,
+                808
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "10. Lee, M.H.; Kim, M.J.; Kim, J.J. Competitive Adsorption between Bromide Ions and Bis(3-Sulfopropyl)-Disulfide for Cu Microvia Filling. Electrochim. Acta 2021, 370, 137707. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                810,
+                939,
+                838
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "11. Tang, M.; Zhang, S.; Qiang, Y.; Chen, S.; Luo, L.; Gao, J.; Feng, L.; Qin, Z. 4,6-Dimethyl-2-Mercaptopyrimidine as a Potential Leveler for Microvia Filling with Electroplating Copper. RSC Adv. 2017, 7, 40342–40353. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                840,
+                939,
+                869
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "12. Tao, Z.; Long, Z.; Tengxu, L.; Liu, G.; Tao, X. The Synergistic Effects of Additives on the Micro Vias Copper Filling. J. Electroanal. Chem. 2022, 918, 116456. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                871,
+                941,
+                898
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                42,
+                941,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "13. Dow, W.-P.; Yen, M.-Y.; Liao, S.-Z.; Chiu, Y.-D.; Huang, H.-C. Filling Mechanism in Microvia Metallization by Copper Electroplating. Electrochim. Acta 2008, 53, 8228–8237. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                85,
+                942,
+                115
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "14. Wang, Z.-Y.; Jin, L.; Yang, J.-Q.; Li, W.-Q.; Wu, D.-Y.; Zhan, D.; Yang, F.-Z.; Sun, S.-G. A Transfer-Adsorption Model for Forward Understanding the Synergistic Effects of Additives in through-Hole Uniform Copper Thickening. J. Electroanal. Chem. 2023, 936, 117373. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                116,
+                942,
+                160
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "15. Li, Y.-B.; Wang, W.; Li, Y.-L. Adsorption Behavior and Related Mechanism of Janus Green B during Copper Via-Filling Process. J. Electrochem. Soc. 2009, 156, D119–D124. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                161,
+                942,
+                191
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "16. Wang, Z.-Y.; Jin, L.; Li, G.; Yang, J.-Q.; Li, W.-Q.; Zhan, D.; Jiang, Y.-X.; Yang, F.-Z.; Sun, S.-G. Electrochemical and In-Situ FTIR Spectroscopic Studies of Gentian Violet as a Novel Leveler in through-Holes Metallization for Printed Circuit Board Applications. Electrochim. Acta 2022, 410, 140018. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                192,
+                942,
+                236
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "17. Wang, X.; Wang, K.; Xu, J.; Li, J.; Lv, J.; Zhao, M.; Wang, L. Quinacridone Skeleton as a Promising Efficient Leveler for Smooth and Conformal Copper Electrodeposition. Dye. Pigment. 2020, 181, 108594. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                237,
+                942,
+                267
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "18. Zhou, W.; Yuan, B.; Li, X.; Zou, P.; Du, K.; Zhou, N.; Wang, L. Investigation on Synthesis and Mechanism of a Sudan I Copper Electrodeposition Leveler Based on Influencing Ion Diffusion Strategy. Dye. Pigment. 2024, 227, 112156. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                267,
+                942,
+                297
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "19. Zhang, Y.; Shen, X.; Zhou, M.; Huang, W.; Xu, Q. The Effect of Quaternary Ammonium Salts with Different Chain Lengths on Copper Filling Behavior in Blind Holes of Printed Circuit Board. J. Micromech. Microeng. 2022, 32, 125004. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                298,
+                942,
+                328
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "20. Zhu, H.P.; Zhu, Q.S.; Zhang, X.; Liu, C.Z.; Wang, J.J. Microvia Filling by Copper Electroplating Using a Modified Safranine T as a Leveler. J. Electrochem. Soc. 2017, 164, D645–D651. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                328,
+                942,
+                357
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "21. Jin, L.; Wang, Z.-Y.; Cai, Z.-Y.; Yang, J.-Q.; Zheng, A.-N.; Yang, F.-Z.; Wu, D.-Y.; Zhan, D. 1-(2-Pyridylazo)-2-Naphthol as a Synergistic Additive for Improving Throwing Power of through Hole Copper Electronic Electroplating. J. Ind. Eng. Chem. 2023, 125, 269–276. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                359,
+                942,
+                403
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "22. Yang, J.-Q.; Qiu, J.-P.; Jin, L.; Wang, Z.-Y.; Song, T.; Zhao, Y.; Yang, X.-H.; Cheng, J.; Yang, F.-Z.; Zhan, D.-P. Molecular Structure Impacts of Tetrazole Derivatives on Their Diffusion and Adsorption Behaviors for Microvia Copper Void-Free Filling. Surf. Interfaces 2023, 44, 103679. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                404,
+                942,
+                448
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "23. Wei, X.; Tang, S.; Ye, J.; Liu, X.; Dai, P.; He, W.; Huang, G.; Cai, Y.; Sun, C.; You, H. Experimental and Theoretical Study of Tetrazolium Derivatives as Levelers for Copper Superfilling in Microvias. Appl. Surf. Sci. 2025, 689, 162456. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                450,
+                942,
+                480
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "24. Dow, W.-P.; Li, C.-C.; Su, Y.-C.; Shen, S.-P.; Huang, C.-C.; Lee, C.; Hsu, B.; Hsu, S. Microvia Filling by Copper Electroplating Using Diazine Black as a Leveler. Electrochim. Acta 2009, 54, 5894–5901. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                480,
+                942,
+                508
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "25. Wang, C.; Zhang, J.; Yang, P.; An, M. Electrochemical Behaviors of Janus Green B in Through-Hole Copper Electroplating: An Insight by Experiment and Density Functional Theory Calculation Using Safranine T as a Comparison. Electrochim. Acta 2013, 92, 356–364. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                511,
+                942,
+                554
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "26. Lei, Z.; Chen, L.; Wang, W.; Wang, Z.; Zhao, C. Tetrazole Derived Levelers for Filling Electroplated Cu Microvias: Electrochemical Behaviors and Quantum Calculations. Electrochim. Acta 2015, 178, 546–554. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                556,
+                942,
+                585
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "27. Teng, X.; Tao, Z.; Long, Z.; Liu, G.; Tao, X. 1-(4-Hydroxyphenyl)-2 H-Tetrazole-5-Thione as a Leveler for Acid Copper Electroplating of Microvia. RSC Adv. 2022, 12, 16153–16164. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                586,
+                942,
+                615
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "28. Wang, Q.; Liu, J.; Lei, Z.; Mou, Y.; Chen, M. Computational and Experiments Exploration of Convection on Cu Filling Characteris tics of Multiple Aspect-Ratio Micro through-Holes. Electrochim. Acta 2022, 416, 140218. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                615,
+                942,
+                646
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "29. Wang, Q.; Peng, Y.; Mou, Y.; Chen, M. Promotion of High-Speed Copper-Filling Performance for Interconnections with Increasing Aspect-Ratio Using Compound Additives. Micromachines 2022, 13, 1539. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                646,
+                942,
+                676
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "30. Wang, Q.; Lei, Z.; Peng, Y.; Su, P.; Luo, X.; Chen, M. Numerical and Experimental Investigation of 2-Thiazoline-2-Thiol and Nitrotetrazolium Blue Chloride Compound as Levelers for through-Hole Copper Electroplating. Mater. Today Commun. 2024, 40, 110003. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                677,
+                942,
+                721
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "31. Lu, T.; Chen, F. Multiwfn: A Multifunctional Wavefunction Analyzer. J. Comput. Chem. 2011, 33, 580–592. [CrossRef] [PubMed]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                722,
+                939,
+                737
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "32. Lu, T.; Chen, Q. Independent Gradient Model Based on Hirshfeld Partition: A New Method for Visual Study of Interactions in Chemical Systems. J. Comput. Chem. 2022, 43, 539–555. [CrossRef] [PubMed]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                738,
+                942,
+                766
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "33. Humphrey, W.; Dalke, A.; Schulten, K. VMD: Visual Molecular Dynamics. J. Mol. Graph. 1996, 14, 33–38. [CrossRef] [PubMed]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                768,
+                934,
+                783
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "34. Hebert, K.R. Analysis of Current-Potential Hysteresis during Electrodeposition of Copper with Additives. J. Electrochem. Soc. 2001, 148, C726–C732. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                784,
+                942,
+                812
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "35. Wei. X.-E.: Zhu. O.-S.: Guo, I-D.: Shang, I-K. Obtaining Ultra-High Throwing Power in Cu Electroplating of Flexible Printed Circuit by Fast Consumption of a Suppressor. J. Solid State Electr. 2021, 26, 171–181. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                813,
+                942,
+                843
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "36. Braun, T.M.; Josell, D.; Moffat, T.P. Microelectrode Studies of S-NDR Copper Electrodeposition: Potentiodynamic and Galvanody namic Measurements and Simulations. J. Electrochem. Soc. 2020, 167, 082509. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                844,
+                942,
+                873
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "37. Feng, Z.V.; Li, X.; Gewirth, A.A. Inhibition Due to the Interaction of Polyethylene Glycol, Chloride, and Copper in Plating Baths: A Surface-Enhanced Raman Study. J. Phys. Chem. B 2003, 107, 9415–9423. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                873,
+                942,
+                903
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                41,
+                942,
+                54
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "38. Josell, D.; Wheeler, D.; Moffat, T.P. Modeling Extreme Bottom-Up Filling of Through Silicon Vias. J. Electrochem. Soc. 2012, 159, D570–D576. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                85,
+                942,
+                115
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "39. Yan, J.-J.; Chang, L.-C.; Lu, C.-W.; Dow, W.-P. Effects of Organic Acids on Through-Hole Filling by Copper Electroplating. Electrochim. Acta 2013, 109, 1–12. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                116,
+                942,
+                145
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "40. Kondo, K.; Matsumoto, T.; Watanabe, K. Role of Additives for Copper Damascene Electrodeposition. J. Electrochem. Soc. 2004, 151, C250–C255. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                146,
+                942,
+                175
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "41. Takeuchi, K.; Suda, A.; Ushioda, S. Local Variation of the Work Function of Cu(111) Surface Deduced from the Low Energy Photoemission Spectra. Surf. Sci. 2001, 489, 100–106. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                175,
+                942,
+                206
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "42. Lai, Z.; Wang, S.; Wang, C.; Hong, Y.; Chen, Y.; Zhang, H.; Zhou, G.; He, W.; Ai, K.; Peng, Y. Computational Analysis and Experimental Evidence of Two Typical Levelers for Acid Copper Electroplating. Electrochim. Acta 2018, 273, 318–326. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                206,
+                942,
+                237
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "43. Lai, Z.; Wang, S.; Wang, C.; Hong, Y.; Zhou, G.; Chen, Y.; He, W.; Peng, Y.; Xiao, D. A Comparison of Typical Additives for Copper Electroplating Based on Theoretical Computation. Comp. Mater. Sci. 2018, 147, 95–102. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                237,
+                942,
+                267
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "44. Li, X.; Zou, P.; Chen, X.; Wang, L. Quantum Chemical Calculations and Molecular Dynamics Simulations to Investigate the Mechanism of Interaction of Six Dye Levelers with Copper Surface. J. Electroanal. Chem. 2024, 961, 118230. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                267,
+                942,
+                297
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "45. Fu, R.; Lu, T.; Chen, F.W. Comparing Methods for Predicting the Reactive Site of Electrophilic Substitution. Acta Phys.-Chim. Sin. 2014, 30, 628–639. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                298,
+                942,
+                326
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "46. Brinck, T.; Carlqvist, P.; Stenlid, J.H. Local Electron Attachment Energy and Its Use for Predicting Nucleophilic Reactions and Halogen Bonding. J. Phys. Chem. A 2016, 120, 10023–10032. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                328,
+                941,
+                357
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "47. Peng, X.; Li, L.; Jiang, J.; Li, Y.; Li, X.; Wang, G.; Liu, A.; Zhang, M.; Li, R.; An, M. Mechanistic Insight into the Janus Green B on Electrochemical Roughening Layer of Copper Foil. Colloids Surf. A Physicochem. Eng. Asp. 2024, 698, 134523. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                359,
+                942,
+                388
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "48. Lipkowski, P.; Grabowski, S.J.; Robinson, T.L.; Leszczynski, J. Properties of the C−H···H Dihydrogen Bond: An Ab Initio and Topological Analysis. J. Phys. Chem. A 2004, 108, 10865–10872. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                388,
+                941,
+                419
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "49. Jenkins, S.; Morrison, I. The Chemical Character of the Intermolecular Bonds of Seven Phases of Ice as Revealed by Ab Initio Calculation of Electron Densities. Chem. Phys. Lett. 2000, 108, 10865–10872. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                419,
+                942,
+                449
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "50. Iravani, D.; Esmaeili, N.; Berisha, A.; Akbarinezhad, E.; Aliabadi, M.H. The Quaternary Ammonium Salts as Corrosion Inhibitors for X65 Carbon Steel under Sour Environment in NACE 1D182 Solution: Experimental and Computational Studies. Colloids Surf. A Physicochem. Eng. Asp. 2022, 656, 130544. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                450,
+                942,
+                494
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "51. Hsissou, R.; Benhiba, F.; Abbout, S.; Dagdag, O.; Benkhaya, S.; Berisha, A.; Erramli, H.; Elharfi, A. Trifunctional Epoxy Polymer as Corrosion Inhibition Material for Carbon Steel in 1.0 M HCl: MD Simulations, DFT and Complexation Computations. Inorg. Chem. Commun. 2020, 115, 107858. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                495,
+                942,
+                539
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "52. Wang, C.; Zhang, J.; Yang, P.; Zhang, B.; An, M. Through-Hole Copper Electroplating Using Nitrotetrazolium Blue Chloride as a Leveler. J. Electrochem. Soc. 2013, 160, D85–D88. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                539,
+                942,
+                570
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "53. Li, J.; Xu, J.; Wang, X.; Wei, X.; Lv, J.; Wang, L. Novel 2,5-Bis(6-(Trimethylamonium)Hexyl)-3,6-Diaryl-1,4-Diketopyrrolo[3,4- c]Pyrrole Pigments as Levelers for Efficient Electroplating Applications. Dye. Pigment. 2021, 186, 109064. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                571,
+                942,
+                601
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "54. Anbu, P.; Gopinath, S.C.B.; Yun, H.S.; Lee, C.-G. Temperature-Dependent Green Biosynthesis and Characterization of Silver Nanoparticles Using Balloon Flower Plants and Their Antibacterial Potential. J. Mol. Struct. 2019, 1177, 302–309. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                601,
+                942,
+                631
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "55. Ahmed, M.; Byrne, J.A.; McLaughlin, J.A.D. Glycine Adsorption onto DLC and N-DLC Thin Films Studied by XPS and AFM. e-J. Surf. Sci. Nanotechnol. 2009, 7, 217–224. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                631,
+                942,
+                661
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "56. Seo, J.; Chang, W.S.; Kim, T.-S. Adhesion Improvement of Graphene/Copper Interface Using UV/Ozone Treatments. Thin Solid Film. 2015, 584, 170–175. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                662,
+                942,
+                690
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "57. Vimal Kumar, K.; Appa Rao, B.V.; Hebalkar, N.Y. Phosphorylated Chitin as a Chemically Modified Polymer for Ecofriendl Corrosion Inhibition of Copper in Aqueous Chloride Environment. Res. Chem. Intermed. 2017, 43, 5811–5828. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                692,
+                942,
+                722
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "58. Batich, C.D.; Donald, D.S. X-Ray Photoelectron Spectroscopy of Nitroso Compounds: Relative Ionicity of the Closed and Open Forms. J. Am. Chem. Soc. 1984, 106, 2758–2761. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                722,
+                941,
+                752
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "59. Nohira, H.; Tsai, W.; Besling, W.; Young, E.; Petry, J.; Conard, T.; Vandervorst, W.; De Gendt, S.; Heyns, M.; Maes, J.; et al. Characterization of ALCVD-Al O and ZrO Layer Using X-Ray Photoelectron Spectroscopy. J. Non-Cryst. Solids 2002, 303, 83–87. [CrossRef]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                753,
+                944,
+                797
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Micromachines 2025, 16, 721"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                39,
+                221,
+                52
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18 of 18"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                42,
+                942,
+                54
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+                    }
+                ]
+            },
+            "bbox": [
+                52,
+                816,
+                942,
+                864
+            ]
+        }
+    ]
+]

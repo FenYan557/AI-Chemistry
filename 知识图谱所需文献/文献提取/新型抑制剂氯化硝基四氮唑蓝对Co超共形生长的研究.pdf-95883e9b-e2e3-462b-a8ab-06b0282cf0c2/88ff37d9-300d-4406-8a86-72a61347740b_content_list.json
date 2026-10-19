@@ -1,0 +1,2434 @@
+[
+    {
+        "type": "text",
+        "text": "Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth",
+        "text_level": 1,
+        "bbox": [
+            57,
+            205,
+            813,
+            249
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/85bc9db049846381029b717f92fd50bdaa7a78a73a38a82e4c975b9cb07e980d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            838,
+            185,
+            887,
+            221
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Yaqiang Li <sup>a,c</sup>, Xiaochuan Ma <sup>a</sup>, Chengzhi Li <sup>a</sup>, Ruopeng Li <sup>a</sup>, Jinqiu Zhang <sup>a</sup>, Peixia Yang Xinyu Liu <sup>b</sup>, Peter Broekmann <sup>c</sup>, Bo Wang <sup>a,b,\\*</sup>, Wenquan Lv <sup>d,\\*\\*</sup>, Maozhong An a,\\*\\*",
+        "bbox": [
+            57,
+            262,
+            773,
+            296
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>a</sup> MIIT Key Laboratory of Critical Materials Technology for New Energy Conversion and Storage, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin 150001, China",
+        "bbox": [
+            58,
+            303,
+            808,
+            326
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>b</sup> Watt Lab, Central Research Institute, Huawei Technologies, Shenzhen, China",
+        "bbox": [
+            58,
+            325,
+            420,
+            337
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>c</sup> Department of Chemistry, Biochemistry and Pharmaceutical Science, University of Bern, Freiestrasse 3, 3012 Bern, Switzerland",
+        "bbox": [
+            58,
+            336,
+            650,
+            346
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "<sup>d</sup> State Key Laboratory of Solid Lubrication, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences, Lanzhou 730000, China",
+        "bbox": [
+            58,
+            346,
+            694,
+            359
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A R T I C L E I N F O",
+        "text_level": 2,
+        "bbox": [
+            58,
+            388,
+            194,
+            399
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Keywords: Cobalt electrodeposition Suppressor NBT Theoretical calculation Raman spectra",
+        "bbox": [
+            58,
+            412,
+            179,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A B S T R A C T",
+        "text_level": 2,
+        "bbox": [
+            334,
+            388,
+            436,
+            399
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "It is significantly important to develop novel suppressor to achieve cobalt superconformal filling. Linear sweeping voltammetry (LSV) and impedance spectra (EIS) were coupled together to study the effect of novel dye suppressor nitrotetrazolium blue chloride (NBT) on cobalt electrodeposition. The adsorption behavior of NBT on cobalt substrate was investigated by applying density functional theory (DFT) calculation, molecular dynamics (MD) simulation and in situ Raman spectra, while the interaction between NBT and cobalt ions $( \\mathsf { C o } ^ { 2 + } )$ is analyzed based on topology analysis and interaction region indicator (IRI) analysis. Synergistic suppressing mechanism, namely adsorption effect and coordination effect, was proposed to explain the suppressing effect of NBT during cobalt electrodeposition. The cobalt surface morphology analysis under the influence of NBT demonstrates that NBT is of grain refinement, while XRD analysis indicates that the formation of Co hcp (100) is formed preferentially. The superconformal filling of cobalt is achieved in microvias with different diameters. The cobalt layer is of excellent quality due to low surface deposit thickness (SDT). The SDT values are 15.9 μm, 8.8 μm and 4.9 μm for 150 m, 100 m and 50 m.",
+        "bbox": [
+            332,
+            411,
+            939,
+            559
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Introduction",
+        "text_level": 2,
+        "bbox": [
+            58,
+            593,
+            164,
+            607
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "With semiconductor technology evolving continuously along the way based on Moore’s Law, the traditional copper damascene process is facing enormous challenges in terms of yield and reliability [1,2]. On one hand, when trench size is decreased to lower than Mean electron free path of copper, the intensified electron scattering at external surfaces and grain boundaries leads to the exponential growth of resistivity of copper interconnect, resulting in severely increased RC delay and IR drop [3,4]. On the other hand, the seed layer and barrier layer increase the proportion of non-conductive material within copper interconnect, further increasing the resistivity [5]. Meanwhile, it is hard to achieve void-defect filling of copper in downscaling interconnect line width since the current density at the opening is increased due to edge effect, which has a negative effect on reliability [6,7]. Among alternative metals, cobalt [8] is regarded as candidate interconnect metal as a result of low line resistivity at advanced node and compatibility to electroplating process compared with Ni [9,10], Ru [11], Au [12], graphene [13,14] etc.",
+        "bbox": [
+            55,
+            619,
+            487,
+            793
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            593,
+            939,
+            646
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Electroplating technology is key fabrication process to obtain cobalt interconnect [14]. It is essentially important to introduce proper additives to achieve superconformal growth of cobalt [15,16] since the growth rate at the plane and opening of vias is higher than that in the bottom and sidewalls as a result of mass transfer limitation within vias and edge effect at the opening [17,18]. Several additives used for cobalt superconformal filling has been reported in the literature. Josell et al. investigated branched polyethyleneimine (PEI) as suppressor and proposed S-shaped negative differential resistance (S-NDR) model to predict bottowm-up filling of cobalt [19], while Huang et al. studied the effect of oxime additive and believed that amine groups could coordinate with ${ \\mathsf { C o } } ^ { 2 + }$ to suppress the cobalt electrodeposition [20–22]. He et al. studied the influence of inhibitor polyvinylpyrrolidone (PVP) on cobalt electrodeposition as well as cobalt superconformal electrodeposition was achieved at trench with high aspect ratio [23]. In contrast, Ma et al. proposed adsorption-coordination inhibition mechanism to explain the suppressing effect of malachite green (MG) during cobalt electrodeposition and achieve superconformal filling [24].",
+        "bbox": [
+            507,
+            646,
+            939,
+            793
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            349,
+            42,
+            647,
+            56
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            58,
+            75,
+            161,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Contents lists available at ScienceDirect",
+        "bbox": [
+            379,
+            75,
+            621,
+            89
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes",
+        "bbox": [
+            312,
+            105,
+            689,
+            126
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "ELSEVIER",
+        "bbox": [
+            60,
+            146,
+            161,
+            162
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "journal homepage: www.elsevier.com/locate/manpro",
+        "bbox": [
+            327,
+            145,
+            672,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "MANUFACTURINGNG PROCESSES VA",
+        "bbox": [
+            838,
+            68,
+            936,
+            158
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "\\*\\* Corresponding authors.",
+        "bbox": [
+            62,
+            843,
+            215,
+            856
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "\\* Correspondence to: B. Wang, MIIT Key Laboratory of Critical Materials Technology for New Energy Conversion and Storage, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin 150001, China",
+        "bbox": [
+            58,
+            818,
+            937,
+            844
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "E-mail addresses: wangbo19880804@163.com (B. Wang), wqlv@licp.cas.cn (W. Lv), mzan@hit.edu.cn (M. An).",
+        "bbox": [
+            75,
+            854,
+            682,
+            868
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "https://doi.org/10.1016/j.jmapro.2023.05.059 Received 13 March 2023; Received in revised form 1 May 2023; Accepted 18 May 2023 Available online 7 June 2023 1526-6125/© 2023 The Society of Manufacturing Engineers. Published by Elsevier Ltd. All rights reserved.",
+        "bbox": [
+            57,
+            877,
+            640,
+            925
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/813cf5c67ff530cb902d5036b1918339e6e477051fb078d9fdab1c66a0201f7f.jpg",
+        "table_caption": [
+            "Table 1",
+            "The bath composition and electroplating process parameters."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Bath composition and process parameters</td><td>Optimum values</td></tr><tr><td> $CoSO_{4} \\bullet 7H_{2}O$  (mol/L)</td><td>0.4</td></tr><tr><td> $H_{3}BO_{3}$  (mol/L)</td><td>0.5</td></tr><tr><td> $Cl^{-}$  (mg/L)</td><td>6</td></tr><tr><td>NBT (mg/L)</td><td>15</td></tr><tr><td>pH</td><td>4</td></tr><tr><td>Cathode potential v.s. SSE (V)</td><td>-1.2</td></tr></table>",
+        "bbox": [
+            60,
+            92,
+            484,
+            180
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            199,
+            487,
+            292
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Although several additives have been investigated, researchers pay little attention to the suppressing mechanism and effective special groups of additives based on experimental analysis and theoretical analysis. Advanced analyzing methods, including in situ Fourier Trans form Infrared Spectroscopy (FTIR) [25], in situ Surface Enhanced Raman Spectroscopy (SERS) [26,27] and Scanning Tunneling Microscopy [28], are widely used to study the adsorption behavior of additives. Besides, another emerging method, theoretical calculation is regarded as an effective method for exploiting the suppressing mechanism of additive [29]. For example, molecular dynamics (MD) simulation is widely accepted to analyze the adsorption ability of additive [30,31], while density functional theory (DFT) is often used to predict the effect of additive based on calculated parameters [32] and analyze interaction between metal ions and additive [33,34]. As a result, operando method and theoretical calculation can help researchers better understand the influencing mechanism, which can provide support for future molecule design.",
+        "bbox": [
+            55,
+            292,
+            489,
+            465
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            65,
+            939,
+            118
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "In this work, a kind of dye molecule Nitrotetrazolium Blue chloride (NBT), was used as novel suppressor on cobalt electrodeposition. Electrochemical methods including linear sweeping voltammetry (LSV) and electrochemical impedance spectra (EIS) were used together to study the influence of NBT on kinetics of ${ \\mathsf { C o } } ^ { 2 + }$ reduction. Density functional theory (DFT) calculation was accepted to obtain the quantum chemical parameters of NBT. Besides, theoretical calculation, molecular dynamics (MD) simulation and in situ Raman spectra were used to study the adsorption of NBT on cobalt substrate. Topology analysis and interaction region indicator (IRI) analysis were accepted to study the coordination between NBT and cobalt ions $( \\mathsf { C o } ^ { 2 + } )$ . The suppressing mechanism of NBT is explained by proposing synergistic suppressing mechanism. The influence of NBT on morphology and crystal orientation is investi gated by SEM and XRD, respectively. Cobalt superconformal growth is achieved at microvias with different diameters.",
+        "bbox": [
+            507,
+            118,
+            939,
+            317
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Experiments",
+        "text_level": 2,
+        "bbox": [
+            509,
+            329,
+            618,
+            343
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1. Chemicals and regents",
+        "text_level": 2,
+        "bbox": [
+            509,
+            355,
+            673,
+            369
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Chemicals used in this work were bought from Shanghai Aladdin Biochemical Technology, including CoSO • 7H O, H BO , NaCl and dye additive Nitrotetrazolium Blue chloride (NBT) of CAS no. 298–83–9. All chemicals and additives are analytical grade (AR). The electroplating solution is made up by using deionized water.",
+        "bbox": [
+            507,
+            380,
+            939,
+            448
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "chart",
+        "img_path": "images/bf692f4a063321ce06b70f0c9cc12ae25b69f16c3e41d8bbf46918c1a531bddd.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            243,
+            482,
+            532,
+            687
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "chart",
+        "img_path": "images/47151662818db2a4ad4dada45caab9993dbdff69cca7b97189ad87ed8bbf2d70.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            527,
+            482,
+            786,
+            688
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "chart",
+        "img_path": "images/7aa9553fdd072b8b5f80e6e37229b71eead7d146de8033213ad6c4d951d4b931.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 1. (a) Linear sweep voltammetry (LSV) curves measured with scan rate of 5 mV/s and (b) Electrochemical impedance spectra (EIS) measured at −1.2 V v.s. SSE, 1000 rpm with different NBT concentration introduced into VMS solution. The inserted figure in figure (b) is equivalent circuit. (c) Histogram of simulated charge transfer impedance (Rct) and solution impedance (Rs) under the influence of NBT calculated from EIS."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            211,
+            694,
+            786,
+            892
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            112,
+            54
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            684,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+            490,
+            952,
+            507,
+            960
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/e82bf7d09456a872292f652db30114352a35dcffcef670940f564f1675e5257a.jpg",
+        "image_caption": [
+            "(a)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            77,
+            68,
+            376,
+            201
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/ed7dacad039e062fe4f15cea1a47aef79dde0782e3292bf36dbcecec25b2e261.jpg",
+        "content": "",
+        "chart_caption": [
+            "(c)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            68,
+            223,
+            381,
+            397
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/c8cdf9cc93845560fd2f177e61e656df8bdcdc2057ecc3c0744b89f7a8a09b69.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            400,
+            94,
+            648,
+            370
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/473f0265ce8cf99208d75c83c7f02a12efd8e270b3b63fc102c8b1a67190cb8b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            653,
+            66,
+            917,
+            206
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/9452f975b60150bc97d7b04f69b3a9bb8f46ae74c021f88d888fe8a2cef2a5f3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            648,
+            230,
+            929,
+            369
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/098d3abd2b69b50e4e7bf9b707441bcbd615b0e0e23d0b0add87026c2f0b4e8d.jpg",
+        "image_caption": [
+            "Fig. 2. (a) Optimized structure of NBT, (b) highest occupied molecular orbits (HOMO) and lowest occupied molecular orbits (LUMO), and (c) Electrostatic potential distribution of NBT.",
+            "(a)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            132,
+            438,
+            497,
+            639
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/8a1a518ad54243807a0d2be6371f80b3313659abc1f7b4b9b87669f398db42e8.jpg",
+        "image_caption": [
+            "(b)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            552,
+            440,
+            912,
+            640
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/3a9a50e856ba4a66b9413ee40f32e72e1b468dc8340568a3401919d4bae302ae.jpg",
+        "content": "",
+        "chart_caption": [
+            "(c)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            78,
+            665,
+            495,
+            912
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/126937112701d07404f167ca41b39e62be3bd3b788682c46041326eb191263dd.jpg",
+        "content": "",
+        "chart_caption": [
+            "(d)",
+            "Fig. 3. (a) The initial state before adsorption equilibrium is achieved, (b) the adsorption equilibrium between Co substrate and NBT, (c) the energy change and (d) temperature change with calculated time."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            524,
+            665,
+            922,
+            911
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            112,
+            54
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            490,
+            950,
+            507,
+            960
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "chart",
+        "img_path": "images/f4409b64df63a6484e69a4c11c26df6b8dafd1ea1cfdcc7cada5d04f3353a40f.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            280,
+            66,
+            719,
+            345
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/2d1b482bf8184c45ab86b50201fc2b0490d81e48939d77554278e66d03bb0a39.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 4. (a) Raman spectra of NBT powder and (b) in situ Raman spectra of NBT obtained in 20 mM $\\mathrm { C o S O } _ { 4 } { \\bullet 7 } \\mathrm { H } _ { 2 } \\mathrm { O } + 5 0$ mM $\\mathrm { H } _ { 3 } \\mathrm { B O } _ { 3 } + 1 5$ mg/L NBT+ 5 mM Cl<sup>−</sup> , pH = 4."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            248,
+            385,
+            784,
+            708
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/3c56ff76eb9302e52749bfcb76001771036fa83867e8f174cd509498b3e9ee60.jpg",
+        "table_caption": [
+            "Raman spectra characteristic band assignments for Nitrotetrazolium Blue chloride."
+        ],
+        "table_footnote": [
+            "δ: bending modes; ν: stretching modes."
+        ],
+        "table_body": "<table><tr><td>Band position/cm-1</td><td>Band assignment</td><td>Ref</td></tr><tr><td>991</td><td>ν (tetrazole ring N—N)</td><td>[45]</td></tr><tr><td>1126</td><td>δ (aromatic C—H)</td><td>[49]</td></tr><tr><td>1186</td><td>δ (aromatic C—H)</td><td>[50]</td></tr><tr><td>1222</td><td>δ (tetrazole ring N—N)</td><td>[47]</td></tr><tr><td>1316</td><td>ν (tetrazole ring N—N)</td><td>[46]</td></tr><tr><td>1364</td><td>δ (−tetrazole)</td><td>[48]</td></tr><tr><td>1435</td><td>ν (aromatic C—C)</td><td>[50]</td></tr><tr><td>1502</td><td>ν (C—N)</td><td>[51]</td></tr><tr><td>1597</td><td>ν (NO2)</td><td>[48]</td></tr></table>",
+        "bbox": [
+            58,
+            799,
+            484,
+            920
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.2. Electrochemical tests",
+        "text_level": 2,
+        "bbox": [
+            510,
+            747,
+            663,
+            761
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Electrochemical measurements including linear sweeping voltammetry (LSV) and electrochemical impedance spectra (ESI) were carried out in a three-electrode cell by Gamry Framework. The rotating disk Pt electrode was used as working electrode, while saturated mercury sulfate electrode (SSE) and platinum were used as reference electrode and counter electrode, respectively. Before carrying out electrochemical tests, $\\Nu _ { 2 }$ was added into electroplating solution to remove the dissolved $\\mathrm { O } _ { 2 } .$ The linear sweeping voltammetry was measured with a scan rate of 5 mV/s at 1000 rpm. The pre-plating was carried out with $2 \\mathsf { A } / \\mathsf { d m } ^ { 2 }$ for 60 s in virgin makeup solution (VMS) consisting of 0.4 M g/L $\\mathrm { C o S O _ { 4 } \\bullet 7 H _ { 2 } O , 0 . 5 { \\bf M } g / L { \\bf H } _ { 3 } B O _ { 3 } , 6 m g / L { \\bf C l } ^ { - } , p H = 4 , }$ after which EIS was tested at −1.2 V v.s. SSE with the frequency ranging from 100,000 HZ to",
+        "bbox": [
+            507,
+            775,
+            939,
+            933
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            112,
+            54
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+            490,
+            950,
+            509,
+            960
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/85838d29e974fbb1d1f6a1080d95b8fea7d9d7ff1fa3df72c6f0706e7558d2aa.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            67,
+            68,
+            425,
+            254
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/5c713564df1f5537237a85700137fb4bd91029e311baaf6cb1c8b7935a035bf7.jpg",
+        "image_caption": [
+            "(b)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            475,
+            69,
+            899,
+            245
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/6fb41745806065ddd8f9dc493e0acbf76bf1e2e9f7f94abda960a2a8d487f982.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            67,
+            259,
+            455,
+            437
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/d53d8c39ae7aba060f5b4763efe2ede304bf01a552f0f3a57b725155c1ba805e.jpg",
+        "image_caption": [
+            "(d)",
+            "Fig. 5. (a) Electrostatic potential mapped surface of NBT, (b) optimized structure of ${ \\mathrm { N B T } } { \\mathrm { - } } { \\mathrm { C o } } ^ { 2 + }$ complexes, (c) Isosurface map of IRI of ${ \\tt N B T - C O } ^ { 2 + }$ complexes with IRI isovalue of 1.0, The inserted rainbow represents the coloring method and value range of sign (λ ) ρ, and (d) 2D plane IRI map of ${ \\bf N B T - C O } ^ { 2 + }$ complexes."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            514,
+            259,
+            929,
+            440
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/a30bfa71ef09993ac3656c1e7261b0b751d0fd67fa1a9de2c7c65c978e640bfb.jpg",
+        "table_caption": [
+            "Electron density (ρ ), Laplacian of electron density $( \\nabla ^ { 2 } \\rho _ { \\mathrm { B C P } } )$ and energy density $\\left( H _ { \\mathrm { B C P } } \\right)$ , and potential energy density $\\left( V \\mathbf { r _ { B C P } } \\right)$ at bond critical point from AIM Analysis."
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Bond atoms</td><td> $\\rho_{\\text{BCP}} \\times 10^{2}$  (a.u.)</td><td> $\\nabla^{2} \\rho_{\\text{BCP}} \\times 10^{2}$  (a.u.)</td><td> $H_{\\text{BCP}} \\times 10^{3}$  (a.u.)</td><td> $V_{\\text{rBCP}} \\times 10^{3}$  (a.u.)</td></tr><tr><td>N1⋯Co1 $^{2+}$ </td><td>8.27</td><td>62.25</td><td>-8.06</td><td>-171.75</td></tr><tr><td>N2⋯Co1 $^{2+}$ </td><td>7.83</td><td>56.78</td><td>-6.66</td><td>-155.26</td></tr><tr><td>N3⋯Co2 $^{2+}$ </td><td>7.83</td><td>56.78</td><td>-6.65</td><td>-155.24</td></tr><tr><td>N4⋯Co2 $^{2+}$ </td><td>8.27</td><td>62.26</td><td>-8.06</td><td>-171.75</td></tr></table>",
+        "bbox": [
+            60,
+            527,
+            936,
+            593
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "0.01 HZ and amplitude of 10 mV.",
+        "bbox": [
+            58,
+            612,
+            265,
+            626
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.3. DFT calculation",
+        "text_level": 2,
+        "bbox": [
+            58,
+            643,
+            184,
+            655
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The NBT structure was optimized by Gaussian at B3LYP/6-311G level [35]. Gaussview was used to visualize the highest occupied molecular orbits (HOMO) and lowest unoccupied molecular orbits (LUMO). The mapped electrostatic potential (ESP) surface was obtained by VMD 1.9.3 [36], while topology analysis was used to calculate the interaction between NBT and ${ \\bar { \\mathrm { C o } } } ^ { 2 + }$ based on atoms-in-molecule (AIM) theory. The interaction region indicator (IRI) analysis was applied to visualize the bonding region by Multiwfn 3.8 [37].",
+        "bbox": [
+            55,
+            669,
+            487,
+            775
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.4. MD simulation",
+        "text_level": 2,
+        "bbox": [
+            58,
+            791,
+            179,
+            804
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Molecular dynamics (MD) simulation was accepted to calculate the adsorption behavior of NBT on Co substrate. The universal force field in Material Studio was used to calculate the dynamics in the NVT ensemble and simulation time was 500 ps with a time step of 1 ps. Ten layers of cobalt atoms were cleaved along (100) crystal surface based on XRD patterns. The periodic boundary conditions were accepted and the length and width of simulation box are 30 nm and the height is 80 nm. The NBT density and water density is 1 $g / { \\mathrm { c m } } ^ { 3 }$ in 298 K. The adsorption energy $E _ { \\mathrm { e n e r g y } }$ between NBT and Co substrate were obtained by Eq. (1) as",
+        "bbox": [
+            55,
+            818,
+            487,
+            938
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "follows [38,39]:",
+        "bbox": [
+            509,
+            612,
+            613,
+            625
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nE _ {\\text { energy }} = E _ {\\text { Total }} - E _ {\\text { substrate }} - E _ {\\text { NBT }}\\tag{1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            510,
+            633,
+            689,
+            646
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "In which $E _ { \\mathrm { T o t a l } }$ represents the total energy of this system, $E _ { \\mathrm { s u b s t r a t e } } { \\mathrm { i } } s$ the energy of Co substrate while $E _ { \\mathrm { N B T } }$ is the energy of additive NBT.",
+        "bbox": [
+            509,
+            653,
+            939,
+            680
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.5. Characterization",
+        "text_level": 2,
+        "bbox": [
+            510,
+            696,
+            640,
+            709
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "In situ Raman spectra tests were performed in RENISHAW (excitation wavelength of 432 nm) to study the adsorption behavior of NBT on cobalt surface. The applied testing potential is controlled by Gamry Framework station.",
+        "bbox": [
+            507,
+            722,
+            939,
+            775
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The surface morphology of cobalt layer under the influence of NBT was measured by scanning electron microscope (SEM, Helios Nanolab 600i), while the crystal structure and growth orientation were analyzed by X-ray diffraction (XRD, D/max-γβ) with Cu Kα radiation of 40 kV and 40 mA with λ of 0.1546 nm. The 2θ ranged from $2 0 ^ { \\circ }$ to 100◦ and the scan rate is $0 . 0 2 ^ { \\circ } \\ s ^ { - 1 }$",
+        "bbox": [
+            507,
+            775,
+            939,
+            854
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.6. Electroplating",
+        "text_level": 2,
+        "bbox": [
+            509,
+            871,
+            625,
+            883
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The virgin-makeup solution (VMS) is made up with 0.4 mol/L CoSO • 7H O, 0.5 mol/L $\\mathrm { H _ { 3 } B O _ { 3 } }$ and 6 mg/L NaCl. The electroplating was carried out in microvias with Cu seed layers. The diameters of different microvias were 150 μm, 100 μm and 50 μm, respectively, while the depth was 100 μm. The high-purity cobalt plate was used as counter electrode, while saturated mercury sulfate electrode (SSE) was used as reference electrode. The micovias was activated in 10 wt% $\\mathrm { H } _ { 2 } S 0 _ { 4 }$ for 1 min before electroplating. Gas pump with a rate of 8 L/h was used to boost the mass transfer during electroplating. The cross-sectional images of blind holes were pictured by OLYMPUS confocal laser microscope (DSX510). The electroplating bath composition and process parameters were shown in Table 1.",
+        "bbox": [
+            507,
+            897,
+            939,
+            936
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            110,
+            52
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "19",
+        "bbox": [
+            492,
+            950,
+            507,
+            960
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/4e40d17e88bf4874fd382737ccbd77f067e1967ccb21b5b2df53b7767febab5d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            211,
+            69,
+            497,
+            228
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/bc1813d5704e133cefce4cb7456bd2ce24366d956dfd30cce008d21315fe0c51.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            500,
+            68,
+            784,
+            228
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/84604331724f56a86b408d3021faa4199e161047ad23c3c8b94d65470708cd34.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            211,
+            234,
+            497,
+            394
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/55c1f7a04c86cfc60b9683bb8af885abbc60fa7ebdd5d3c38a11e5e535682512.jpg",
+        "image_caption": [
+            "Fig. 6. SEM images of cobalt interconnect layer electrodeposited at −1.2 V v.s. SSE for 10 min with different NBT concentration: (a) 0 mg/L, (b) 5 mg/L, (c) 10 mg/L, (d) 15 mg/L. The inserted figure shows the particle size distribution. The plating bath consists of 0.4 M $\\mathrm { C o S O } _ { 4 } { \\cdot } 7 \\mathrm { H } _ { 2 } \\mathrm { O } , 0 . 5$ M $\\mathrm { H _ { 3 } B O _ { 3 } } ,$ 6 mg/L Cl<sup>−</sup> ."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            500,
+            235,
+            784,
+            394
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            57,
+            445,
+            487,
+            564
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3. Results and discussion",
+        "text_level": 2,
+        "bbox": [
+            58,
+            577,
+            230,
+            588
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.1. Electrochemical study",
+        "text_level": 2,
+        "bbox": [
+            58,
+            602,
+            218,
+            616
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The suppressing effect of NBT on the reduction of ${ \\mathrm { C o } } ^ { 2 + }$ is analyzed by electrochemical method including linear sweeping voltammetry (LSV) and electrochemical impedance spectra (EIS).",
+        "bbox": [
+            58,
+            627,
+            485,
+            668
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Fig. 1 (a) shows the effect of NBT on electrochemical reaction. Generally, the increased cathodic polarization indicates that the metal electrodeposition is suppressed. In order to exclude the influence of NBT on hydrogen evolution reaction, LSV curves were measured without the existence of cobalt ions, as shown in Fig. S1. It can be seen that NBT can improve HER at a limited extent. As a result, the strengthened cathodic polarization will reflect the suppressing effect of NBT on cobalt deposition. The cathodic polarization is −1.180 V when NBT concentration is 0 mg/L. After the introduction of NBT, it can be found that even trace NBT can effectively increase the overpotential (more than 35 mV for 5 mg/L). Besides, the cathodic polarization sees an increase from −1.215 V to lower than −1.250 V with NBT increasing from 5 mg/L to 20 mg/L, which illustrates that suppressing effect for the electrodeposition of cobalt is intensified with the increase of NBT concentration and NBT is an effective suppressor for cobalt electrodeposition.",
+        "bbox": [
+            55,
+            669,
+            487,
+            867
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Electrochemical impedance spectra (EIS) are also used to confirm the suppressing effect of NBT on ${ \\mathsf { C o } } ^ { 2 + }$ reduction, as shown in Fig. 1 (b) and Figs. S1 to S3. Generally, the reaction energy barrier increases with impedance ring diameters [40]. As a result, the phenomenon of increasing impedance ring diameters with NBT illustrates that the suppressing effect is intensified by NBT regardless of applied measuring potential, consistent with the analysis from Fig. 1 (a). Besides, the equivalent circuit is established to calculate the charge transfer impedance (Rct) and solution impedance (Rs) by fitting parameters. The calculated results are shown in Fig. 1(c). Rs range from 30.1 to 30.8 Ω, indicating that NBT almost has no influence on solution impedance. The impedance with 5 mg/L is 596.6 Ω, far higher than that of VMS (400.5 Ω), which confirms that trace NBT can lead to strong cathodic polarization. When NBT is higher than 15 mg/L, the increased impedance become larger than 1250 Ω, which is two times higher than VMS, illustrating that NBT is of excellent suppressing effect during cobalt electrodeposition.",
+        "bbox": [
+            57,
+            867,
+            487,
+            933
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            445,
+            939,
+            602
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.2. Density functional theory analysis",
+        "text_level": 2,
+        "bbox": [
+            510,
+            620,
+            737,
+            633
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The quantum chemical information of molecule is used widely to predict the possible effect [41]. Fig. 2 (a) shows the optimized NBT molecule structure. The benzene and heterocyclic structures connected by carbon chains is regarded to have potential to adsorb on surface compactly. Besides, molecular orbital properties, namely highest occupied molecular orbits (HOMO) and lowest unoccupied molecular orbits (LUMO), are usually used to analyze the adsorption property of additive [42]. The HOMO and LUMO for NBT are calculated and is shown in ${ \\mathrm { F i g . ~ } } 2 \\left( \\mathbf { b } \\right)$ and (c), in which the HOMO and LUMO are mainly distributed on pi electron cloud of benzene and nitrogenous heterocyclic ring, illustrating that adsorption of NBT occurs preferentially on ring structures.",
+        "bbox": [
+            507,
+            646,
+            939,
+            804
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "The energy of HOMO and LUMO indicates the electron donating ability and electron accepting ability according to the frontier molecular orbital theory. The relatively low ΔE $( E _ { \\mathrm { L U M O } ^ { - } } E _ { \\mathrm { H O M O } } )$ illustrates that it is easier for the additive molecule to accept and donate electrons at the electrode surface. As a result, there is relationship between the value of ΔE (E<sub>LUMO</sub>-E<sub>HOMO</sub>) and the adsorption intensity of additives [43]. Generally, less ΔE means stronger adsorption [44]. E<sub>LUMO</sub> and E<sub>HOMO</sub> is - 0.15179 Ha and - 0.26626 Ha, respectively. And the ΔE is 0.11447 Ha, demonstrating that NBT is of potential to adsorb on the cobalt surface during electrodeposition.",
+        "bbox": [
+            507,
+            804,
+            939,
+            936
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            112,
+            52
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "20",
+        "bbox": [
+            490,
+            950,
+            507,
+            960
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/5935d78eb4f8d12f24302ed676faa6f10b99f76b7e8e775a35add47c24cf748b.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            87,
+            66,
+            465,
+            303
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "chart",
+        "img_path": "images/7ee225302611307cafc31dcf42deb262ec083ccef5eb0e6b7acda5ef13c35f15.jpg",
+        "content": "",
+        "chart_caption": [
+            "Fig. 7. (a) XRD patterns of cobalt interconnect layer obtained with different NBT concentration at −1.2 V for 8 h. (b) Histograms of the calculated texture coefficient with different NBT concentration."
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            80,
+            317,
+            463,
+            559
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.3. Adsorption analysis",
+        "text_level": 2,
+        "bbox": [
+            58,
+            622,
+            206,
+            635
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Electrostatic potential (ESP) distribution and molecular dynamics (MD) simulation were applied to study NBT adsorption behavior. $\\mathrm { F i g . 2 }$ (c) shows the ESP distribution histogram and the average potential is 101.15 kcal/mol. Besides, the ESP ranges from 30 kcal/mol to 160 kcal/ mol, indicating that the positively charged NBT is of adsorption potential on cathodic surface due to electrostatic interaction between NBT and cobalt substrate during electrodeposition.",
+        "bbox": [
+            57,
+            648,
+            487,
+            740
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Fig. 3 (b) and 3 (c) shows the initial state and the adsorption equi librium state of MD simulation at 298 K with time step of 1 ps and simulation time of 500 ps. It can be seen from cross section image in Fig. 3 (b) that NBT adsorb on the surface with benzene and heterocyclic structures parallel to the substrate, in accordance with prediction of HOMO/LUMO analysis discussed in 3.2. Fig. 3 (c) and 3 (d) show the energy curves and temperature curves. The basically unchanged plots of energy and temperature illustrate that the adsorption equilibrium is achieved. The adsorption energy of NBT is 342.2 kJ/mol, which demonstrates that NBT is of excellent adsorption ability.",
+        "bbox": [
+            55,
+            740,
+            487,
+            872
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "In order to verify the calculated results, in situ Raman spectra is carried out, as shown in Fig. 4. The typical peaks of NBT appears at 991, 1126, 1186, 1222, 1316, 1364, 1435, 1502, 1597 $\\mathrm { c m } ^ { - 1 }$ , respectively, when cathodic potential changes from open circuit potential (OCP) to $- 2 . 2 \\mathrm { V } .$ It can be seen from Table 2 that characteristic peaks appeared at 991 and 1316 $\\mathrm { c m } ^ { - 1 }$ attribute to stretching vibration of tetrazole ring $\\mathsf { N { - N } } [ 4 5 , 4 6 ]$ , while 1222 $\\mathrm { c m } ^ { - 1 }$ and 1364 $\\mathrm { c m } ^ { - 1 }$ are due to tetrazole ring $\\mathrm { N - N }$ bending vibration and -tetrazole bending vibration [47,48]. The characteristic peaks of 1126 $\\mathrm { c m } ^ { - 1 }$ and $1 1 8 6 ~ \\mathrm { { c m } ^ { - 1 } }$ is aromatic $\\mathrm { C - H }$ bending vibration [49,50] as well as 1435 $\\mathrm { c m } ^ { - 1 }$ is aromatic $\\mathrm { C - H }$ stretching vibration [51]. In contrast, C–N stretching vibration and $\\mathrm { N O } _ { 2 }$ stretching vibration appear at $1 5 0 2 ~ \\mathrm { c m } ^ { - 1 }$ and 1597 $\\mathrm { c m } ^ { - 1 }$ separately $[ 4 8 , 5 1 ]$ . Overall, the theoretical calculation analysis and in situ Raman spectra analysis illustrate that NBT can absorb well on cobalt surface to reduce active sites and suppress the cobalt electrodeposition.",
+        "bbox": [
+            57,
+            873,
+            487,
+            926
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            66,
+            939,
+            211
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.4. Coordination analysis",
+        "text_level": 2,
+        "bbox": [
+            510,
+            224,
+            670,
+            238
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "During the electrodeposition, the nitrogenous heterocyclic ring of the adsorbed NBT will accept electrons from cathodic surface due to the local minima appear at nitrogenous heterocyclic ring, as shown in Fig. 5 (a), and later the nitrogenous heterocyclic ring is opened [52,53]. When cobalt ions move toward the cathode surface, a possible coordination interaction would be formed between cobalt ions and opened nitrogenous heterocyclic ring.",
+        "bbox": [
+            507,
+            250,
+            939,
+            341
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Topology analysis based on atoms in molecules (AIM) theory was carried out to study the potential interaction [54] and the calculated results were shown in ${ \\mathrm { F i g . ~ } } 5 \\left( \\mathbf { b } \\right)$ and relevant properties of bond critical point (BCP) were summarized in Table 3. The electron density $( \\rho _ { \\mathrm { B C P } } )$ and Laplacian of electron density $( \\bigtriangledown ^ { 2 } \\rho _ { \\mathtt { B C P } } )$ are used widely to judge the bond property. The bond properties among N1, N2 and cobalt ions are similar to that among $\\mathrm { N } 3 ,$ N4 and cobalt ions, indicating symmetry of NBT. The $\\rho _ { \\mathrm { B C P } }$ and $\\bigtriangledown ^ { 2 } \\rho _ { \\mathrm { B C P } }$ formed between N1 and cobalt ions are 0.0827 a.u. and 0.6225 a.u., indicating that the interaction between N1 and cobalt ion is of ionic bond property since $\\rho _ { \\mathrm { B C P } }$ is lower than 0.1 a.u. and $\\bigtriangledown ^ { 2 } \\rho _ { \\mathrm { B C P } }$ is positive. Likewise, the interaction between N2 and cobalt ions is also within the criterion for ionic bonding interaction. Besides, the energy density $\\left( H _ { \\mathrm { B C P } } \\right)$ and potential energy density $\\left( V \\mathbf { r } _ { \\mathrm { B C P } } \\right)$ at bond critical point are used to compare the bond strength. It can be seen that the values formed between N1 and cobalt ions are larger than that formed between N2 and cobalt ions, indicating that the interaction between N1 and cobalt ions is stronger.",
+        "bbox": [
+            507,
+            341,
+            939,
+            566
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Similar conclusion can be found in Fig. 5 (b) since the bond length (1.96 Å) between N1 and cobalt ion is lower than that between N2 and cobalt ions $( 1 . 9 7 \\mathring { \\mathrm { A } } ) .$ The strong coordination between NBT and cobalt ions can effectively increase the energy barrier when cobalt ions are reduced to cobalt layer.",
+        "bbox": [
+            509,
+            566,
+            939,
+            633
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The visualization of coordination interaction in ${ \\mathrm { N B T } } { \\mathrm { - } } { \\mathrm { C o } } ^ { 2 + }$ complexes was drawn according to IRI analysis [37], in which the sign(λ<sub>2</sub>) ρ function can be drawn as isosurfaces to show the bonding region more directly and intuitively. $\\rho$ represents the electron density and the sign $\\left( \\lambda _ { 2 } \\right)$ is the second largest eigenvalue of Hessian of ${ \\bf { \\dot { \\rho } } } _ { \\bf { \\dot { \\rho } } }$ . As shown in Fig. 5 (c), the blue region indicates the interatomic interaction. It can be seen clearly that the interatomic interaction exists between ${ \\mathsf { C o } } ^ { 2 + }$ and NBT, illustrating that NBT can coordinate with ${ \\mathsf { C o } } ^ { 2 + }$ . Fig. 5 (d) shows the 2D color-filled plane IRI map. Obviously, the interaction region between ${ \\mathsf { C o } } ^ { 2 + }$ and NBT can be observed. As a result, it can be concluded that there is strong coordination interaction between ${ \\mathrm { C o } } ^ { 2 + }$ and NBT.",
+        "bbox": [
+            507,
+            631,
+            939,
+            778
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "In summary, synergistic suppressing mechanism was proposed to illustrate the excellent suppressing ability of NBT during cobalt electrodeposition. On one hand, NBT is of excellent adsorption ability on cathodic surface since it is positively charged and is full of $\\mathfrak { p i }$ electron cloud of benzene and nitrogenous heterocyclic ring, which can reduce the active sites for reduction of ${ \\mathsf { C o } } ^ { 2 + }$ (Adsorption effect). On the other hand, the nitrogenous heterocyclic ring opening due to accepting electrons from cathodic surface leads to that NBT can coordinate with ${ \\mathsf { C o } } ^ { 2 + }$ when ${ \\mathrm { C o } } ^ { 2 + }$ go through the NBT adsorption layer, which further increase the energy barrier (Coordination effect).",
+        "bbox": [
+            507,
+            778,
+            939,
+            911
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            112,
+            54
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "21",
+        "bbox": [
+            490,
+            950,
+            505,
+            960
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/0ae946a22980646a70add10f7a23da40aac2c948e87569c830304f20d9273bec.jpg",
+        "image_caption": [
+            "Fig. 8. The shape evolution of cobalt layer in micovias with different diameters of (a) 150 μm, (b) 100 μm and (c) 50 μm. The applied cathodic potential is −1.2 V. The electroplating solution consists of 0.4 M CoSO ⋅7H O, 0.5 M $\\mathrm { H } _ { 3 } \\mathrm { B O } _ { 3 } ,$ 6 mg/L Cl<sup>−</sup> , 15 mg/L NBT, pH = 4, i = 1.6 mA/cm<sup>2</sup> and $\\eta = 4 0$ %."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            104,
+            66,
+            892,
+            552
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/0d9b7c18b858d90c05e34abe19dee0d8752d238e4b5360a66a48511cdf703ac7.jpg",
+        "image_caption": [
+            "Fig. 9. Cobalt superconformal growth schematic diagram under the influence of NBT."
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            144,
+            607,
+            853,
+            747
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.5. Effect of NBT on morphology",
+        "text_level": 2,
+        "bbox": [
+            58,
+            784,
+            262,
+            798
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The effect of NBT on cobalt layer morphology was studied by SEM, as shown in Fig. 6. The inserted figure shows the grain size distribution and mean grain size. The cobalt layer is relatively compact when NBT ranges from 0 mg/L to 15 mg/L. However, it should be noted that the cobalt layer is full of large and coarse grains (mean grain size of about 416 nm) without NBT. The quality of cobalt layer can be effectively improved by introducing NBT, as shown in Fig. 6 (b) to (d). The cobalt layer becomes more uniform when NBT concentration rises from 5 mg/L to 15 mg/L, indicating that NBT can improve the surface morphology. Besides, the grain size is about 356 nm when NBT concentration is 5 mg/L. In contrast, the grain size is reduced to about 264 nm and lower than 240 nm when NBT concentration is 10 mg/L and 15 mg/L, respectively. The phenomenon of decreased grain size with rising of NBT concentration indicates that NBT is of grain refinement and the improved surface smoothness is conducive to lowering the losses of signal transmission.",
+        "bbox": [
+            55,
+            810,
+            487,
+            931
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            507,
+            784,
+            939,
+            865
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.6. Effect of NBT on crystal orientation",
+        "text_level": 2,
+        "bbox": [
+            509,
+            883,
+            751,
+            897
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Fig. 7 shows the effect of NBT concentration on crystal orientation. The peaks appeared at 43.3◦, 50.4◦ and 74.1◦ attribute to Cu (111), (200), and (220) plane, respectively, since cobalt is electrodeposited at copper substrate. The typical peaks of Co (hcp) appear at 41.7◦, $4 7 . 6 ^ { \\circ }$ and 75.9◦, which attributes to Co (100), (101) and (110) separately. Fig. 7 (a) shows that the peak intensity of Co (110) decreases with the increase of NBT concentration, while peak intensity of Co (100) is strengthened with the rising of NBT. Texture coefficient $\\left( R _ { \\mathrm { C T } } \\left( h l k \\right) \\right)$ is used as indicator to obtain the influence of NBT on orientation degree of crystal planes [55]:",
+        "bbox": [
+            509,
+            910,
+            939,
+            936
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            112,
+            54
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "22",
+        "bbox": [
+            490,
+            950,
+            509,
+            960
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            55,
+            66,
+            487,
+            171
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {\\mathrm{CT} (h k l)} = \\frac {I _ {(h k l)} / I _ {0 (h k l)}}{\\sum \\left(I _ {(h k l)} / I _ {0 (h k l)}\\right)}\\tag{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            57,
+            179,
+            206,
+            209
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "wheres $I _ { ( h k l ) }$ represent the normalized intensity of cobalt layer and $I _ { 0 ( h k l ) }$ is the intensity of standard sample. The histograms of the calculated texture coefficient are shown in Fig. 7 (b). The $R _ { \\mathrm { C T } ~ ( 1 0 0 ) }$ sees an increase when NBT rises from 0 mg/L to 20 mg/L, while the $R _ { \\mathrm { C T } ( 1 0 1 ) }$ and $R _ { \\mathrm { C T } ( 1 1 0 ) }$ decreases with the increase of NBT, illustrating that the introduction of NBT is beneficial to the formation of Co (100).",
+        "bbox": [
+            55,
+            219,
+            487,
+            298
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.7. Electroplating",
+        "text_level": 2,
+        "bbox": [
+            58,
+            316,
+            173,
+            330
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The superconformal growth of cobalt within microvias is achieved to confirm the effect of NBT, as shown in Fig. 8. The current transients are provided in supplementary (Fig. S5) and the current density is about 1.6 mA/cm<sup>2</sup> while calculated current efficiency is 40 %. Fig. 8 (a) shows the shape evolution in microvias of 150 μm during cobalt electrodeposition. The cobalt electrodeposition at the opening of microvias is effectively suppressed due to fast mass transfer of NBT near the plane and opening. In contrast, the supplementary rate of NBT at the bottom is lowered than consuming rate as a result of relatively slow mass transfer of NBT from bulk solution into microvias. Cobalt layer began to grow from the bottom to the top of the microvias, as shown in a2 (8h) in Fig. 8 (a). After being electrodeposited for 16 h, cobalt layer grows near the opening of microvias while the surface deposit thickness (SDT) is lowered than 16 μm, indicating that NBT is of excellent selectivity.",
+        "bbox": [
+            55,
+            341,
+            487,
+            527
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Likewise, the superconformal electrodeposition of cobalt is achieved at microvias with 100 μm and 50 μm, as shown in Fig. 8 (b) and (c). The electrodeposition time for b2 and b3 in microvias of 100 μm is 6 h and 12 h, while the electroplating time for c2 and c3 in 50 μm is 4 h and 8 h. The SDT values obtained in 100 μm and 50 μm are 8.8 μm and 4.9 μm, respectively. Overall, NBT is of excellent performance to achieve cobalt superconformal growth.",
+        "bbox": [
+            55,
+            527,
+            487,
+            619
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "In order to further illustrate the influence of NBT on cobalt growth within microvias, schematic diagram is shown in Fig. 9. At the initial stage (a), NBT is distributed uniformly on plating solution and the growth rate is the same. After that, due to continuously consummation in microvias, the concentration gradient of NBT is gradually formed since the supply rate of NBT provided by mass transfer from bulk solution into microvias is lower than the consuming rate, leading to that the growth rate within microvias is higher than plane and opening. Cobalt layer begin to grow from bottom to top, as is shown in stage b and stage c. Finally, cobalt superconformal growth is achieved.",
+        "bbox": [
+            55,
+            619,
+            487,
+            752
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "4. Conclusion",
+        "text_level": 2,
+        "bbox": [
+            58,
+            765,
+            157,
+            778
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The suppressing effect of dye molecule Nitrotetrazolium Blue chloride (NBT) on cobalt electrodeposition is investigated by LSV and EIS. DFT calculation and MD simulation is used to study the suppressing mechanism. Quantum chemical calculation, MD simulation and in situ Raman spectra confirms the strong adsorption effect of NBT on cobalt substrate. Besides, topology analysis and IRI analysis were applied to study the coordination effect between NBT and ${ \\mathrm { C o } } ^ { 2 + }$ . Synergistic sup pressing mechanism (adsorption effect and coordination effect) is proposed to demonstrate the influence of NBT. The effect of NBT on morphology of cobalt layer is studied and NBT is of grain refinement. What’s more, the introduction of NBT is conducive for the formation of",
+        "bbox": [
+            55,
+            791,
+            487,
+            936
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Co (1 0 0) and can suppress the Co (1 1 0) crystal plane. Superconformal electrodeposition is achieved at micovias with different diameters. The relatively low SDT values (15.9 μm for 150 μm, 8.8 μm for 100 μm and 4.9 μm for 50 μm) indicates that NBT is of excellent selectivity.",
+        "bbox": [
+            507,
+            66,
+            939,
+            119
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "CRediT authorship contribution statement",
+        "text_level": 2,
+        "bbox": [
+            509,
+            134,
+            789,
+            148
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Writing- Original draft preparation, Investigation, Conceptualization, Methodology, Formal analysis: Yaqiang Li; Writing- Reviewing and Editing, Data curation: Xiaochuan Ma; Investigation: Ruopeng Li; Supervision: Jinqiu Zhang; Resources: Peixia Yang; Visualization: Xinyu Liu; Validation: Peter Broekmann; Supervision, Resources, Validation: Bo Wang; Funding management, Formal analysis: Wenquan Lv; Funding acquisition and project administration: Maozhong An.",
+        "bbox": [
+            507,
+            161,
+            939,
+            255
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Declaration of competing interest",
+        "text_level": 2,
+        "bbox": [
+            510,
+            279,
+            732,
+            292
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "No conflict of interest exists in the submission of this manuscript.",
+        "bbox": [
+            529,
+            306,
+            924,
+            319
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Data availability",
+        "text_level": 2,
+        "bbox": [
+            509,
+            332,
+            623,
+            346
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "All data that support the findings of this study are included in this manuscript.",
+        "bbox": [
+            509,
+            359,
+            939,
+            385
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Acknowledgements",
+        "text_level": 2,
+        "bbox": [
+            509,
+            401,
+            640,
+            414
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "This work was supported by the National Natural Science Foundation of China [No. 21972037] and State Key Laboratory of Urban Water Resource and Environment, Harbin Institute of Technology, China [No. 2021TS07]. Numerical computations were performed on Hefei advanced computing center.",
+        "bbox": [
+            507,
+            428,
+            939,
+            494
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Appendix A. Supplementary data",
+        "text_level": 2,
+        "bbox": [
+            510,
+            510,
+            732,
+            523
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Supplementary data to this article can be found online at https://doi. org/10.1016/j.jmapro.2023.05.059.",
+        "bbox": [
+            509,
+            535,
+            937,
+            563
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "References",
+        "text_level": 2,
+        "bbox": [
+            510,
+            578,
+            584,
+            592
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[1] Wu J, Wafula F, Branagan S, et al. Mechanism of cobalt bottom-up filling for advanced node interconnect metallization [J]. J Electrochem Soc 2018;166: D3136 41. https://doi.org/10.1149/2.0161901je.",
+        "bbox": [
+            517,
+            604,
+            912,
+            633
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[2] Yaqiang L, Xiaochuan M, Jinqiu Z, et al. Research Progress of metal interconnection technology and related theory in chip fabrication [J]. Surf Technol 2021;50(7):24–43, 164. https://doi.org/10.16490/j.cnki.issn.1001- 3660.2021.07.002.",
+        "bbox": [
+            517,
+            635,
+            934,
+            673
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[3] Graham RL, Alers GB, Mountsier T, et al. Resistivity dominated by surface scattering in sub-50 nm Cu wires [J]. Appl Phys Lett 2010;96:042116. https://doi. org/10.1063/1.3292022.",
+        "bbox": [
+            517,
+            674,
+            932,
+            703
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[4] Dutta S, Sankaran K, Moors K, et al. Thickness dependence of the resistivity of platinum-group metal thin films [J]. J Appl Phys 2017;122:025107. https://doi org/10.1063/1.4992089.",
+        "bbox": [
+            517,
+            704,
+            927,
+            733
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[5] Mingtan C, Roy A. Electromigration in ULSI interconnects [J]. Mater Sci Eng R Rep 2007;58(1–2):1–75. https://doi.org/10.1016/j.mser.2007.04.002.",
+        "bbox": [
+            517,
+            735,
+            932,
+            754
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[6] Rigsby MA, Brogan LJ, Doubina NV, et al. The critical role of pH gradient formation in driving superconformal cobalt deposition [J]. J Electrochem Soc 2018;166:D3167–74. https://doi.org/10.1149/2.0211901jes.",
+        "bbox": [
+            517,
+            755,
+            917,
+            784
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[7] Rigsby MA, Brogan LJ, Doubina NV, et al. Superconformal cobalt fill through the use of sacrificial oxidants [J]. ESC Trans 2017;80(10):767–76. https://doi.org/ 10.1149/08010.0767ecst.",
+        "bbox": [
+            517,
+            785,
+            934,
+            814
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[8] Cheng YL, Huang HC, Lee CY, et al. Comparison of cu and co integration with porous low-k SiOCH dielectrics [J]. Thin Solid Films 2020;704(30):138010. https://doi.org/10.1016/j.tsf.2020.138010.",
+        "bbox": [
+            517,
+            815,
+            919,
+            844
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[9] Josell D, Moffat TP. Superconformal bottom-up nickel deposition in high aspect ratio through silicon vias [J]. J Electrochem Soc 2016;163(7):D322 31. https:/ doi.org/10.1149/2.1151607jes.",
+        "bbox": [
+            517,
+            844,
+            927,
+            873
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[10] Milosevic E, Zheng PY, Gall D. Electron scattering at epitaxial Ni (001) surfaces [J]. IEEE Trans Electron Devices 2019;66(10):4326–30. https://doi.org/10.1109/ TED.2019.2934636",
+        "bbox": [
+            512,
+            875,
+            932,
+            904
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[11] Yoon SJ, Lee S, Lee TI, et al. Large grain ruthenium for alternative interconnects [J]. IEEE Electron Device Lett 2019;40(1):91–4. https://doi.org/10.1109/ LED.2018.2879932.",
+        "bbox": [
+            512,
+            905,
+            931,
+            934
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            112,
+            54
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "23",
+        "bbox": [
+            490,
+            952,
+            507,
+            960
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "[12] Hu Z, Ritzdorf T. Superconformal electrochemical deposition of gold for metallization in microelectronic devices [J]. J Electrochem Soc 2006;153(7): C467–71. https://doi.org/10.1149/1.2196670.",
+        "bbox": [
+            60,
+            66,
+            460,
+            95
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[13] Backes C, Abdelkader AM, Alonso C, et al. Production and Processing of Graphene and Related Materials [J]. 2D Mater 2020;7(2):022001. https://doi.org/10.1088 2053-1583/ab1e0a.",
+        "bbox": [
+            60,
+            97,
+            482,
+            126
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[14] Hu Y, Huang Q. Effects of dimethylglyoxime and cyclohexane dioxime on the electrochemical nucleation and growth of cobalt [J]. J Electrochem Soc 2018;166 (1):D3175–81. https://doi.org/10.1149/2.0241901jes.",
+        "bbox": [
+            60,
+            127,
+            482,
+            156
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[15] L. Zheng, C. Wang, J. Li, et al. Investigation of Benzoquinone as a New Type of Cu Electroplating Additive [C]. 2017 12th International Microsystems, Packaging, Assembly and Circuits Technology Conference (IMPACT). IEEE, 2017: 231–233 doi:https://doi.org/10.1109/IMPACT.2017.8255907.",
+        "bbox": [
+            60,
+            157,
+            482,
+            196
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[16] Li J, Xu J, Wang X, et al. Diketopyrrolopyrrole-based supramolecular nano-leveler for the enhancement of conformal copper electrodeposition [J]. Appl Surf Sci 2021;569(15):150982. https://doi.org/10.1016/j.apsusc.2021.150982.",
+        "bbox": [
+            60,
+            197,
+            482,
+            226
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[17] Zheng L, He W, Zhu K, et al. Investigation of poly (1-vinyl imidazole co 1, 4- Butanediol Diglycidyl ether) as a leveler for copper electroplating of through-hole [J]. Electrochim Acta 2018;283:560–7. https://doi.org/10.1016/j. electacta.2018.06.132.",
+        "bbox": [
+            60,
+            226,
+            482,
+            266
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[18] Zhu K, Wang C, Wang JZ, et al. Convection-dependent competitive adsorption between SPS and EO/PO on copper surface for accelerating trench filling [J]. J Electrochem Soc 2019;166(4):D93–8. https://doi.org/10.1149/2.0491904jes.",
+        "bbox": [
+            60,
+            267,
+            472,
+            297
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[19] Josell D, Silva M, Moffat TP. Superconformal bottom-up cobalt deposition in high aspect ratio through silicon vias [J]. J Electrochem Soc 2016;163(14):D809–17. https://doi.org/10.1149/2.0861614jes.",
+        "bbox": [
+            60,
+            297,
+            480,
+            327
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[20] Huang Q, Lyons TW, Sides WD. Electrodeposition of cobalt for interconnect application: effect of dimethylglyoxime [J]. J Electrochem Soc 2016;163(13): D715–21. https://doi.org/10.1149/2.1111613jes.",
+        "bbox": [
+            60,
+            327,
+            463,
+            356
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[21] Lyons TW, Huang Q. Effects of cyclohexane-monoxime and dioxime on the electrodeposition of cobalt [J]. Electrochim Acta 2017;245(10):309–17. https:// doi.org/10.1016/j.electacta.2017.05.130.",
+        "bbox": [
+            60,
+            358,
+            477,
+            387
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[22] Hu Y, Lyons T, Huang Q. Influence of furil dioxime on cobalt electrochemical nucleation and growth [J]. J Electrochem Soc 2020;167(2):022509. https://doi. org/10.1149/1945-7111/ab69fb.",
+        "bbox": [
+            60,
+            388,
+            475,
+            417
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[23] Ni X, Chen Y, Jin X, et al. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition [J]. J Taiwan Inst Chem Eng 2020; 112:232–9. https://doi.org/10.1016/j.jtice.2020.06.010.",
+        "bbox": [
+            60,
+            418,
+            482,
+            448
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[24] Ma X, Li Y, Yang P, et al. Influence of suppressing additive malachite green on superconformal cobalt electrodeposition [J]. J Electroanal Chem 2022;921(15): 11696. https://doi.org/10.1016/j.jelechem.2022.116696.",
+        "bbox": [
+            60,
+            448,
+            473,
+            477
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[25] Wang ZY, Jin L, Li G, et al. Electrochemical and in situ FTIR spectroscopic studies of gentian violet as a novel leveler in through-holes metallization for printed circuit board applications [J]. Electrochim Acta 2022;410(1):140018. https://doi.org/ 10.1016/j.electacta.2022.140018.",
+        "bbox": [
+            60,
+            477,
+            482,
+            518
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[26] Li Y, Ren P, Zhang Y, et al. The influence of leveler brilliant green on copper superconformal electroplating based on electrochemical and theoretical study [J]. J Ind Eng Chem 2023;118:78–90.",
+        "bbox": [
+            60,
+            518,
+            480,
+            548
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[27] Liu GK, Zou S, Josell D. SEIRAS study of chloride mediated polyether adsorption on Cu [J]. J Phys Chem C 2018;122(38):21933–51. https://doi.org/10.1021/acs. jpcc.8b06644.",
+        "bbox": [
+            60,
+            548,
+            480,
+            578
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[28] N. T. M. Hai, T. M. T. Huynh, A. Fluegel, et al. Adsorption behavior of redox-active suppressor additives: combined electrochemical and STM studies [J]. Electrochim Acta, 56 (21): 7361–7370. doi:https://doi.org/10.1016/j.electacta.2011.06.008.",
+        "bbox": [
+            60,
+            578,
+            482,
+            609
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[29] Lan J, Rybkin VV, Iannuzzi M. Ionization of water as an effect of quantum delocalization at aqueous electrode interfaces [J]. J Phys Chem Lett 2020;11(9): 3724 30. https://doi.org/10.1021/acs.jpclett.0c01025.",
+        "bbox": [
+            60,
+            609,
+            478,
+            638
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[30] Wang F, Le Y. Bis-(3-sulfopropyl) disulfide acceleration of copper electrodeposition via molecular dynamics and quantum chemical calculations [J]. Int J Electrochem Sci 2020;15:4931–43. https://doi.org/10.20964/2020.06.11.",
+        "bbox": [
+            60,
+            639,
+            482,
+            669
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[31] Lai Z, Wang S, Wang C, et al. A comparison of typical additives for copper electroplating based on theoretical computation [J]. Comput Mater Sci 2018;147: 95–102. https://doi.org/10.1016/j.commatsci.2017.11.049.",
+        "bbox": [
+            60,
+            670,
+            480,
+            699
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[32] Dong L, Zhong S, Yuan B, et al. Reconstruction of solid electrolyte interphase with SrI2 reactivates dead Li for durable anode-free Li-metal batteries [J]. Angew Chem Int Ed 2023:e202301073. https://doi.org/10.1002/anie.202301073.",
+        "bbox": [
+            60,
+            699,
+            482,
+            728
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[33] Ma XC, Li YQ, Yang PX, et al. Influences of suppressing additive malachite green on Superconformal cobalt filling and nucleation [J]. J Electrochem 2022;28(6): 2104521. https://doi.org/10.13208/j.electrochem.210452.",
+        "bbox": [
+            60,
+            728,
+            482,
+            759
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[34] Li Y, Ren P, Zhang Y, et al. Investigation of novel leveler rhodamine B on copper superconformal electrodeposition of microvias by theoretical and experimenta studies [J]. Appl Surf Sci 2022:156266. https://doi.org/10.1016/j. apsusc.2022.156266",
+        "bbox": [
+            512,
+            66,
+            934,
+            105
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[35] Frisch MJ, Trucks GW, Schlegel HB, Scuseria GE, Robb MA, Cheeseman JR, et al. Gaussian 03, Revision C.02. Wallingford CT: Gaussian, Inc.; 2004.",
+        "bbox": [
+            512,
+            107,
+            932,
+            126
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[36] Humphrey W, Dalke A, Schulten K. VMD: visual molecular dynamics. J Mol Graph Model 1996;14(1):33–8. https://doi.org/10.1016/0263-7855(96)00018-5.",
+        "bbox": [
+            512,
+            127,
+            934,
+            146
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[37] Lu T, Chen F. Multiwfn: a multifunctional wavefunction analyzer [J]. J Comput Chem 2012;33(5):580–92. https://doi.org/10.1002/jcc.22885.",
+        "bbox": [
+            512,
+            147,
+            927,
+            166
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[38] Li RP, Li YQ, Yang PX, et al. Key Roles of Interfacial OH− ion Distribution on Proton Coupled Electron Transfer Kinetics Toward Urea Oxidation Reaction [J]. Small 2022:2302151. https://doi.org/10.1002/smll.202302151.",
+        "bbox": [
+            512,
+            167,
+            926,
+            197
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[39] Li RP, Li YQ, Yang PX, et al. Synergistic Interface engineering and structural optimization of non-noble metal telluride-nitride electrocatalysts for sustainably overall seawater electrolysis [J]. Appl Catal Environ 2022;318:121834. https:// doi.org/10.1016/j.apcatb.2022.121834.",
+        "bbox": [
+            512,
+            197,
+            927,
+            235
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[40] Kelly JJ, West AC. Copper deposition in the presence of polyethylene glycol II. Electrochemical impedance spectroscopy [J]. J Electrochem Soc 1998;145(10): 3477–81. https://doi.org/10.1149/1.1838830",
+        "bbox": [
+            512,
+            237,
+            922,
+            267
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[41] Liu A, Guan W, Zhao X, et al. Investigation on the interfacial behavior of polyorganic inhibitors on a metal surface by DFT study and MD simulation [J]. Appl Surf Sci 2021;541(1):148570.",
+        "bbox": [
+            512,
+            267,
+            924,
+            297
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[42] Xia S, Qiu M, Yu L, et al. Molecular dynamics and density functional theory study on relationship between structure of Imidazoline derivatives and inhibition performance [J]. Corros Sci 2008;50(7):2021–9. https://doi.org/10.1016/j. corsci.2008.04.021.",
+        "bbox": [
+            512,
+            297,
+            932,
+            336
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[43] Li Y, Ren P, Lu X, et al. Elucidating the role of P on Mn- and N-doped graphene catalysts in promoting oxygen reduction: density functional theory studies [J]. SusMat 2023. https://doi.org/10.1002/sus2.127.",
+        "bbox": [
+            512,
+            337,
+            927,
+            366
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[44] Li Y, Ren P, Li R, et al. A novel bright additive for copper electroplating: electrochemical and theoretical study [J]. Ionics 2022;156:1–13. https://doi.org/ 10.1007/s11581-022-04799-7.",
+        "bbox": [
+            512,
+            368,
+            932,
+            397
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[45] Geiger U, Elyashiv A, Fraenkel R, et al. The Raman spectrum of dimethylaminophenyl pentazole (DMAPP) [J]. Chem Phys Lett 2013;556:127–31. https://doi.org/10.1016/j.cplett.2012.11.082.",
+        "bbox": [
+            512,
+            399,
+            934,
+            428
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[46] A. Gomez-Zavaglia, ´ A. Ismaelb, L. I. L. Cabral, et al. Structural Investigation of Nitrogen-linked Saccharinate–tetrazole [J]. J Mol Struct, 1003, 1–8 (28): 103–110. doi:https://doi.org/10.1016/j.molstruc.2011.07.044.",
+        "bbox": [
+            512,
+            428,
+            932,
+            457
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[47] Villamil RFV, Corio P, Agostinho SML, et al. Effect of sodium dodecylsulfate on copper corrosion in sulfuric acid media in the absence and presence of benzotriazole [J]. J Electroanal Chem 1999;472(2):112–9. https://doi.org/ 10.1016/S0022-0728(99)00267-3.",
+        "bbox": [
+            512,
+            457,
+            926,
+            498
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[48] Katturi NK, G SD, Kommu N, et al. Ultrafast coherent anti-stokes Raman spectroscopic studies of nitro/nitrogen rich aryl-tetrazole derivatives [J]. Chem Phys Lett 2020;756:137843. https://doi.org/10.1016/j.cplett.2020.137843.",
+        "bbox": [
+            512,
+            498,
+            924,
+            529
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[49] Chen SN, Li X, Guo Y, et al. A ag-molecularly imprinted polymer composite for efficient surface-enhanced Raman scattering activities under a low-energy laser [J]. Analyst 2015;140(9):3239–43. https://doi.org/10.1039/C4AN02301C.",
+        "bbox": [
+            512,
+            529,
+            924,
+            559
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[50] Yong D, Fang Yan. Effects of the halide ion adsorption competition on the near infrared surface enhanced Raman spectroscopy of rhodamine B-au colloid system [J]. J Optoelect Laser 2003;14(8):881–5. https://doi.org/10.1023/A: 1022289509702.",
+        "bbox": [
+            512,
+            559,
+            932,
+            597
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[51] Bugalho SCS, Maçoas ˆ EMS, Cristiano MLS, et al. Low temperature matrix-isolation and solid state vibrational spectra of tetrazole [J]. Phys Chem Chem Phys 2001;3 (17):3541–7. https://doi.org/10.1039/B103344C.",
+        "bbox": [
+            512,
+            598,
+            934,
+            629
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[52] Lin GY, Yan JJ, Yen MY, et al. Characterization of through-hole filling by copper electroplating using a tetrazolium salt inhibitor [J]. J Electrochem Soc 2013;160 (12):D3028–34. https://doi.org/10.1149/2.005312jes.",
+        "bbox": [
+            512,
+            629,
+            932,
+            658
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[53] Dow WP, Chen HH, Yen MY, et al. Through-hole filling by copper electroplating [J]. J Electrochem Soc 2008;155(12):D750–7. https://doi.org/10.1149/ 1.2988134.",
+        "bbox": [
+            512,
+            659,
+            929,
+            688
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[54] Li Y, Liu L, Wei Q, et al. Highly selective separation of acetic acid and hydrochloric acid by alkylamide based on double hydrogen bond coupling mechanism [J]. Sep Purif Technol 2021;275(15):119110. https://doi.org/10.1016/j seppur.2021.119110.",
+        "bbox": [
+            512,
+            689,
+            934,
+            728
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "ref_text",
+        "text": "[55] Ren HZ, Li S, Wang B, et al. Molecular-crowding effect mimicking cold-resistan plants to stabilize the zinc anode with wider service temperature range [J]. Adv Mater 2022:2208237. https://doi.org/10.1002/adma.202208237.",
+        "bbox": [
+            512,
+            728,
+            929,
+            760
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "Y. Li et al.",
+        "bbox": [
+            58,
+            42,
+            110,
+            52
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "Journal of Manufacturing Processes 101 (2023) 15–24",
+        "bbox": [
+            685,
+            42,
+            939,
+            54
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "24",
+        "bbox": [
+            490,
+            952,
+            507,
+            960
+        ],
+        "page_idx": 9
+    }
+]
