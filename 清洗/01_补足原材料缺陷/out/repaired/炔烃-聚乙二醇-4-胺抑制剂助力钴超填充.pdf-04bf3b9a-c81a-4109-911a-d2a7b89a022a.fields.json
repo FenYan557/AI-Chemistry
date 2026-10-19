@@ -1,0 +1,75 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "may be the main active site for reaction, which possesses capacity for calculations"
+      },
+      {
+        "value": "sse",
+        "context": " be the main active site for reaction, which possesses capacity for calculations sh"
+      },
+      {
+        "value": "sse",
+        "context": "istivity. 7,8 In contrast, cobalt interconnects possess better properties, such as "
+      },
+      {
+        "value": "sse",
+        "context": " for applications in advanced integrated circuit assemblies in the post-Moore’s law"
+      },
+      {
+        "value": "sse",
+        "context": "s compatible with existing electrodeposition processes for copper damascene interco"
+      },
+      {
+        "value": "sce",
+        "context": "isting electrodeposition processes for copper damascene interconnects. The electrod"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "0.4 ASD",
+        "context": "metry tests were conducted at a steady current of 0.4 ASD (0.4 A/dm2). CV was performed"
+      },
+      {
+        "value": "0.4 A/dm2",
+        "context": "ts were conducted at a steady current of 0.4 ASD (0.4 A/dm2). CV was performed with poten"
+      },
+      {
+        "value": "0.4 ASD",
+        "context": "lms were electrodeposited at a current density of 0.4 ASD with a rotation speed of 500 "
+      },
+      {
+        "value": "0.4 ASD",
+        "context": ">500</td></tr><tr><td>chronopotentiometry</td><td>0.4 ASD</td><td>0–300</td><td>100/500"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "Spooner, T.; Edelstein, D.; Zhao, L. Mechanism of Co Liner as Enhancement Layer fo"
+      },
+      {
+        "value": "Cu",
+        "context": "L. Mechanism of Co Liner as Enhancement Layer for Cu Interconnect Gap-Fill. J. Ele"
+      },
+      {
+        "value": "Ni",
+        "context": "roanal. Chem. 2022, 921, 116696.\n(14) Qiu, L.-N.; Ni, Z.-H.; Wang, Y.-J.; Hu, C.-F"
+      },
+      {
+        "value": "Co",
+        "context": ", C.-F.; Qu, X.-P. Electroless Deposition of Pure Co on TaN Substrate for Intercon"
+      },
+      {
+        "value": "Co",
+        "context": "Moffat, T. P. Superconformal Electrodeposition of Co and Co-Fe Alloys Using 2- Mer"
+      },
+      {
+        "value": "Co",
+        "context": " T. P. Superconformal Electrodeposition of Co and Co-Fe Alloys Using 2- Mercapto-5"
+      }
+    ]
+  }
+}

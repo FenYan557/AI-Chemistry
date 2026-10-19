@@ -1,0 +1,1745 @@
+{
+  "coords": {
+    "normalized0_1000": 98
+  },
+  "docs": {
+    "1-s2.0-S0013468609007385-main.pdf-4703b84d-6ce8-4512-bc75-d4abe8316030": [
+      {
+        "tid": "1-s2.0-S0013468609007385:2:1",
+        "page": 3,
+        "n_values": 12,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          28.6,
+          604.8,
+          282.8,
+          714.3
+        ],
+        "bbox_found": 12,
+        "bbox_agreement": 1.0,
+        "page_found": 30,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "1-s2.0-S0013468621017357-main.pdf-b4b16965-80d9-4fd4-be41-470060d85970": [
+      {
+        "tid": "1-s2.0-S0013468621017357:6:1",
+        "page": 7,
+        "n_values": 16,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          119.6,
+          555.0,
+          472.6,
+          593.1
+        ],
+        "bbox_found": 16,
+        "bbox_agreement": 1.0,
+        "page_found": 50,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "1-s2.0-S0013468626014507-main.pdf-06bf1a3e-81e4-49ed-8495-7f052065c78d": [
+      {
+        "tid": "1-s2.0-S0013468626014507:4:1",
+        "page": 5,
+        "n_values": 8,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          711.9,
+          557.2,
+          738.9
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 0.875,
+        "page_found": 48,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "1-s2.0-S0257897223003018-main.pdf-2afcc459-aaa3-4765-81e8-c5419e3a411d": [
+      {
+        "tid": "1-s2.0-S0257897223003018:6:1",
+        "page": 7,
+        "n_values": 27,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          335.7,
+          557.2,
+          397.6
+        ],
+        "bbox_found": 27,
+        "bbox_agreement": 1.0,
+        "page_found": 49,
+        "page_agreement": 0.852,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0257897223003018:6:2",
+        "page": 7,
+        "n_values": 13,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          442.1,
+          288.7,
+          527.8
+        ],
+        "bbox_found": 13,
+        "bbox_agreement": 1.0,
+        "page_found": 49,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0257897223003018:7:3",
+        "page": 8,
+        "n_values": 35,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          297.6,
+          288.1,
+          366.7
+        ],
+        "bbox_found": 35,
+        "bbox_agreement": 1.0,
+        "page_found": 58,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0257897223003018:9:4",
+        "page": 10,
+        "n_values": 57,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          304.8,
+          407.2,
+          557.8,
+          581.0
+        ],
+        "bbox_found": 58,
+        "bbox_agreement": 1.0,
+        "page_found": 115,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0257897223003018:9:5",
+        "page": 10,
+        "n_values": 17,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          109.5,
+          622.3,
+          482.8,
+          740.5
+        ],
+        "bbox_found": 15,
+        "bbox_agreement": 0.824,
+        "page_found": 115,
+        "page_agreement": 0.765,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "1-s2.0-S0927775723007902-main.pdf-372c5dca-8439-4a36-8be3-433cbf3b0104": [
+      {
+        "tid": "1-s2.0-S0927775723007902:1:1",
+        "page": 2,
+        "n_values": 8,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          669.9,
+          288.7,
+          738.9
+        ],
+        "bbox_found": 8,
+        "bbox_agreement": 0.875,
+        "page_found": 45,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0927775723007902:3:2",
+        "page": 4,
+        "n_values": 10,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          82.5,
+          288.1,
+          135.7
+        ],
+        "bbox_found": 10,
+        "bbox_agreement": 1.0,
+        "page_found": 41,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0927775723007902:4:3",
+        "page": 5,
+        "n_values": 18,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          82.5,
+          288.7,
+          161.9
+        ],
+        "bbox_found": 18,
+        "bbox_agreement": 1.0,
+        "page_found": 58,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0927775723007902:4:4",
+        "page": 5,
+        "n_values": 10,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          304.8,
+          82.5,
+          557.8,
+          127.0
+        ],
+        "bbox_found": 10,
+        "bbox_agreement": 1.0,
+        "page_found": 58,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S0927775723007902:5:5",
+        "page": 6,
+        "n_values": 15,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          347.6,
+          288.1,
+          451.6
+        ],
+        "bbox_found": 14,
+        "bbox_agreement": 0.933,
+        "page_found": 56,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "1-s2.0-S1572665718302236-main.pdf-e8833fca-1492-415a-bb70-bc45f3ed2a40": [
+      {
+        "tid": "1-s2.0-S1572665718302236:3:1",
+        "page": 4,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          86.5,
+          286.9,
+          154.0
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 1.0,
+        "page_found": 45,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S1572665718302236:4:2",
+        "page": 5,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          369.1,
+          288.1,
+          451.6
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 1.0,
+        "page_found": 47,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "1-s2.0-S2352492825007378-main.pdf-d1aa8062-c12e-4608-bbde-9f1e257f92f7": [
+      {
+        "tid": "1-s2.0-S2352492825007378:3:1",
+        "page": 4,
+        "n_values": 19,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          69.6,
+          305.6,
+          253.6,
+          435.7
+        ],
+        "bbox_found": 20,
+        "bbox_agreement": 1.0,
+        "page_found": 55,
+        "page_agreement": 0.632,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S2352492825007378:3:2",
+        "page": 4,
+        "n_values": 12,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          69.6,
+          479.4,
+          253.6,
+          549.2
+        ],
+        "bbox_found": 12,
+        "bbox_agreement": 1.0,
+        "page_found": 55,
+        "page_agreement": 0.75,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1-s2.0-S2352492825007378:7:3",
+        "page": 8,
+        "n_values": 22,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          303.6,
+          454.0,
+          557.8,
+          506.4
+        ],
+        "bbox_found": 24,
+        "bbox_agreement": 1.0,
+        "page_found": 61,
+        "page_agreement": 0.909,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "1.在PD结构中引入二氧化硫对通孔镀铜的影响.pdf-b125fd96-e98c-4982-baa9-aa5dbb96f82b": [
+      {
+        "tid": "1.在PD结构中引入二氧化硫对通孔镀铜的影响.p:4:1",
+        "page": 5,
+        "n_values": 6,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          303.6,
+          359.5,
+          557.8,
+          396.1
+        ],
+        "bbox_found": 6,
+        "bbox_agreement": 1.0,
+        "page_found": 30,
+        "page_agreement": 0.5,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "1.在PD结构中引入二氧化硫对通孔镀铜的影响.p:7:2",
+        "page": 8,
+        "n_values": 34,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          316.7,
+          286.9,
+          400.0
+        ],
+        "bbox_found": 34,
+        "bbox_agreement": 1.0,
+        "page_found": 62,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "2.采用1-(4-羧基苯基)-5-巯基-1H-四氮唑添加剂的表面铜微导通孔填充电镀工艺评估.pdf-b0ad4144-1bba-4c98-971a-218a33c9da5c": [
+      {
+        "tid": "2.采用1-(4-羧基苯基)-5-巯基-1H-四:8:1",
+        "page": 9,
+        "n_values": 54,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          377.0,
+          288.1,
+          481.0
+        ],
+        "bbox_found": 54,
+        "bbox_agreement": 1.0,
+        "page_found": 84,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2.采用1-(4-羧基苯基)-5-巯基-1H-四:14:2",
+        "page": 15,
+        "n_values": 6,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          492.1,
+          288.1,
+          527.0
+        ],
+        "bbox_found": 6,
+        "bbox_agreement": 1.0,
+        "page_found": 27,
+        "page_agreement": 0.333,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "2023_Shen_Study on the Effects of Additives on the Performance of NiCo.pdf-d3d16d8a-80c2-4714-a560-78bab91e3c82": [
+      {
+        "tid": "2023_Shen_Study on the E:1:1",
+        "page": 2,
+        "n_values": 15,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          153.0,
+          555.2,
+          269.9
+        ],
+        "bbox_found": 15,
+        "bbox_agreement": 0.933,
+        "page_found": 50,
+        "page_agreement": 0.867,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:2:2",
+        "page": 3,
+        "n_values": 8,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          548.6,
+          555.8,
+          612.7
+        ],
+        "bbox_found": 8,
+        "bbox_agreement": 1.0,
+        "page_found": 56,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:3:3",
+        "page": 4,
+        "n_values": 53,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          48.6,
+          72.9,
+          555.2,
+          278.7
+        ],
+        "bbox_found": 52,
+        "bbox_agreement": 0.981,
+        "page_found": 109,
+        "page_agreement": 0.981,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:3:4",
+        "page": 4,
+        "n_values": 44,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          301.1,
+          554.0,
+          477.3
+        ],
+        "bbox_found": 44,
+        "bbox_agreement": 1.0,
+        "page_found": 109,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:4:5",
+        "page": 5,
+        "n_values": 45,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          556.6,
+          554.0,
+          724.8
+        ],
+        "bbox_found": 45,
+        "bbox_agreement": 0.978,
+        "page_found": 72,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:7:6",
+        "page": 8,
+        "n_values": 3,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          54.7,
+          426.1,
+          298.8,
+          508.6
+        ],
+        "bbox_found": 3,
+        "bbox_agreement": 1.0,
+        "page_found": 50,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:7:7",
+        "page": 8,
+        "n_values": 3,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          309.2,
+          426.1,
+          550.3,
+          508.6
+        ],
+        "bbox_found": 3,
+        "bbox_agreement": 1.0,
+        "page_found": 50,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:7:8",
+        "page": 8,
+        "n_values": 17,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          314.0,
+          562.2,
+          555.2,
+          654.3
+        ],
+        "bbox_found": 17,
+        "bbox_agreement": 1.0,
+        "page_found": 50,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:7:9",
+        "page": 8,
+        "n_values": 17,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          684.8,
+          555.2,
+          751.2
+        ],
+        "bbox_found": 17,
+        "bbox_agreement": 1.0,
+        "page_found": 50,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:8:10",
+        "page": 9,
+        "n_values": 21,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          48.6,
+          72.9,
+          555.8,
+          157.8
+        ],
+        "bbox_found": 21,
+        "bbox_agreement": 1.0,
+        "page_found": 78,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:8:11",
+        "page": 9,
+        "n_values": 10,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          385.2,
+          292.2,
+          432.5
+        ],
+        "bbox_found": 11,
+        "bbox_agreement": 0.9,
+        "page_found": 78,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "2023_Shen_Study on the E:8:12",
+        "page": 9,
+        "n_values": 7,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.2,
+          396.4,
+          550.9,
+          433.3
+        ],
+        "bbox_found": 7,
+        "bbox_agreement": 1.0,
+        "page_found": 78,
+        "page_agreement": 0.857,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "2024_Guo_Influence of PUB2 on the Leveling Effect of Chip Copper Conn.pdf-793db7e5-c4c9-455a-9f87-89d12fb88927": [
+      {
+        "tid": "2024_Guo_Influence of PU:1:1",
+        "page": 2,
+        "n_values": 5,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          48.6,
+          73.7,
+          555.2,
+          168.2
+        ],
+        "bbox_found": 5,
+        "bbox_agreement": 0.8,
+        "page_found": 36,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pdf-4ed881b7-dde6-4d6e-84b1-e36c83ed4aca": [
+      {
+        "tid": "3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pd:3:1",
+        "page": 4,
+        "n_values": 7,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          300.0,
+          262.7,
+          553.0,
+          295.4
+        ],
+        "bbox_found": 7,
+        "bbox_agreement": 1.0,
+        "page_found": 42,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pd:7:2",
+        "page": 8,
+        "n_values": 15,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          38.7,
+          309.5,
+          292.9,
+          378.1
+        ],
+        "bbox_found": 15,
+        "bbox_agreement": 1.0,
+        "page_found": 62,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pd:8:3",
+        "page": 9,
+        "n_values": 24,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          38.7,
+          385.9,
+          291.7,
+          459.1
+        ],
+        "bbox_found": 24,
+        "bbox_agreement": 0.667,
+        "page_found": 49,
+        "page_agreement": 0.667,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pd:8:4",
+        "page": 9,
+        "n_values": 11,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          39.9,
+          503.6,
+          291.7,
+          570.6
+        ],
+        "bbox_found": 11,
+        "bbox_agreement": 1.0,
+        "page_found": 49,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用.pdf-417a2c15-9f5e-4198-9544-75b103c0b54f": [
+      {
+        "tid": "4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂:5:1",
+        "page": 6,
+        "n_values": 16,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          42.9,
+          499.3,
+          288.1,
+          568.4
+        ],
+        "bbox_found": 15,
+        "bbox_agreement": 0.688,
+        "page_found": 44,
+        "page_agreement": 0.875,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂:6:2",
+        "page": 7,
+        "n_values": 21,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          42.9,
+          349.4,
+          550.0,
+          419.3
+        ],
+        "bbox_found": 21,
+        "bbox_agreement": 1.0,
+        "page_found": 38,
+        "page_agreement": 0.952,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂:7:3",
+        "page": 8,
+        "n_values": 18,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          43.5,
+          296.4,
+          548.8,
+          379.7
+        ],
+        "bbox_found": 17,
+        "bbox_agreement": 0.944,
+        "page_found": 41,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-bd394d2b-265b-4fb6-81fa-1972f158738e": [
+      {
+        "tid": "5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-b:2:1",
+        "page": 3,
+        "n_values": 10,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          318.8,
+          292.2,
+          388.4
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 0.7,
+        "page_found": 46,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": true
+      },
+      {
+        "tid": "5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-b:3:2",
+        "page": 4,
+        "n_values": 17,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          48.6,
+          73.7,
+          555.8,
+          112.9
+        ],
+        "bbox_found": 17,
+        "bbox_agreement": 1.0,
+        "page_found": 62,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-b:8:3",
+        "page": 9,
+        "n_values": 45,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          360.4,
+          555.2,
+          517.4
+        ],
+        "bbox_found": 46,
+        "bbox_agreement": 1.0,
+        "page_found": 82,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑与咪唑)作为盲孔镀铜整平剂的研究.pdf-f8f8f14f-efa6-4974-bd53-edf37f68a543": [
+      {
+        "tid": "5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑:5:1",
+        "page": 6,
+        "n_values": 3,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          303.6,
+          411.3,
+          544.1,
+          472.1
+        ],
+        "bbox_found": 3,
+        "bbox_agreement": 1.0,
+        "page_found": 37,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑:8:2",
+        "page": 9,
+        "n_values": 28,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          47.6,
+          537.0,
+          544.7,
+          582.9
+        ],
+        "bbox_found": 28,
+        "bbox_agreement": 1.0,
+        "page_found": 65,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "6.香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究.pdf-7b59e4c3-3759-46e2-be68-eaac0fc9264b": [
+      {
+        "tid": "6.香豆素衍生物的合成及其作为印刷电路板通孔电镀:4:1",
+        "page": 5,
+        "n_values": 17,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          447.6,
+          288.1,
+          507.2
+        ],
+        "bbox_found": 17,
+        "bbox_agreement": 1.0,
+        "page_found": 53,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "6.香豆素衍生物的合成及其作为印刷电路板通孔电镀:6:2",
+        "page": 7,
+        "n_values": 7,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          458.8,
+          288.1,
+          485.7
+        ],
+        "bbox_found": 7,
+        "bbox_agreement": 1.0,
+        "page_found": 23,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "6.香豆素衍生物的合成及其作为印刷电路板通孔电镀:7:3",
+        "page": 8,
+        "n_values": 12,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          73.0,
+          286.9,
+          142.9
+        ],
+        "bbox_found": 12,
+        "bbox_agreement": 1.0,
+        "page_found": 24,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "7.micromachines-16-00721.pdf-0aa8bfd8-d688-46a0-ab78-d6f6dbc743dc": [
+      {
+        "tid": "7.micromachines-16-00721:9:1",
+        "page": 10,
+        "n_values": 11,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          680.2,
+          557.8,
+          732.4
+        ],
+        "bbox_found": 11,
+        "bbox_agreement": 0.818,
+        "page_found": 25,
+        "page_agreement": 0.909,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "7.micromachines-16-00721:12:2",
+        "page": 13,
+        "n_values": 15,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          163.7,
+          680.2,
+          559.0,
+          732.4
+        ],
+        "bbox_found": 15,
+        "bbox_agreement": 1.0,
+        "page_found": 30,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "8.s12678-025-00960-8.pdf-bce689cf-4e28-4777-931f-0f8fffca1702": [
+      {
+        "tid": "8.s12678-025-00960-8.pdf:3:1",
+        "page": 4,
+        "n_values": 16,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          175.6,
+          665.1,
+          544.7,
+          713.4
+        ],
+        "bbox_found": 16,
+        "bbox_agreement": 1.0,
+        "page_found": 44,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "8.s12678-025-00960-8.pdf:11:2",
+        "page": 12,
+        "n_values": 45,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          47.6,
+          79.1,
+          288.1,
+          273.6
+        ],
+        "bbox_found": 45,
+        "bbox_agreement": 1.0,
+        "page_found": 74,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "8.s12678-025-00960-8.pdf:11:3",
+        "page": 12,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          175.6,
+          578.1,
+          288.7,
+          714.2
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 1.0,
+        "page_found": 74,
+        "page_agreement": 0.889,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "8.s12678-025-00960-8.pdf:11:4",
+        "page": 12,
+        "n_values": 8,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          301.8,
+          79.9,
+          544.7,
+          136.0
+        ],
+        "bbox_found": 8,
+        "bbox_agreement": 1.0,
+        "page_found": 74,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "9molecules-28-02783.pdf-477052f4-57e1-4d07-b535-4f2a61bc1f23": [
+      {
+        "tid": "9molecules-28-02783.pdf-:5:1",
+        "page": 6,
+        "n_values": 11,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          163.7,
+          337.6,
+          559.0,
+          415.1
+        ],
+        "bbox_found": 11,
+        "bbox_agreement": 1.0,
+        "page_found": 36,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "ao3c05248.pdf-225b0f64-1546-4d0d-9ee6-2b1159cfcb20": [
+      {
+        "tid": "ao3c05248.pdf-225b0f64-1:2:1",
+        "page": 3,
+        "n_values": 6,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          714.4,
+          290.9,
+          751.2
+        ],
+        "bbox_found": 6,
+        "bbox_agreement": 1.0,
+        "page_found": 32,
+        "page_agreement": 0.5,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "ao3c05248.pdf-225b0f64-1:4:2",
+        "page": 5,
+        "n_values": 54,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          648.7,
+          554.0,
+          752.8
+        ],
+        "bbox_found": 53,
+        "bbox_agreement": 0.981,
+        "page_found": 92,
+        "page_agreement": 0.963,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "ao3c05248.pdf-225b0f64-1:5:3",
+        "page": 6,
+        "n_values": 12,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          328.4,
+          290.9,
+          389.2
+        ],
+        "bbox_found": 12,
+        "bbox_agreement": 1.0,
+        "page_found": 44,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "ao4c01707.pdf-4d9db1e3-6d13-4554-9852-8d7ed0b41db2": [
+      {
+        "tid": "ao4c01707.pdf-4d9db1e3-6:3:1",
+        "page": 4,
+        "n_values": 0,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          664.7,
+          555.2,
+          749.6
+        ],
+        "bbox_found": 1,
+        "bbox_agreement": null,
+        "page_found": 17,
+        "page_agreement": null,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "ao4c01707.pdf-4d9db1e3-6:5:2",
+        "page": 6,
+        "n_values": 8,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          273.1,
+          554.0,
+          312.4
+        ],
+        "bbox_found": 8,
+        "bbox_agreement": 1.0,
+        "page_found": 36,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "d4nj05470a.pdf-6dd75b4d-c95e-41bb-b634-a5b1fafae590": [
+      {
+        "tid": "d4nj05470a.pdf-6dd75b4d-:1:1",
+        "page": 2,
+        "n_values": 12,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          298.8,
+          614.3,
+          553.0,
+          717.2
+        ],
+        "bbox_found": 11,
+        "bbox_agreement": 0.917,
+        "page_found": 57,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "d4nj05470a.pdf-6dd75b4d-:6:2",
+        "page": 7,
+        "n_values": 24,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          38.7,
+          643.9,
+          291.7,
+          716.4
+        ],
+        "bbox_found": 24,
+        "bbox_agreement": 1.0,
+        "page_found": 57,
+        "page_agreement": 0.958,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "la6c01870.pdf-d957388a-5e47-42cf-aa7f-7ef4cc67f79a": [
+      {
+        "tid": "la6c01870.pdf-d957388a-5:2:1",
+        "page": 3,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          341.2,
+          554.0,
+          424.5
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 1.0,
+        "page_found": 61,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "la6c01870.pdf-d957388a-5:6:2",
+        "page": 7,
+        "n_values": 7,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          49.8,
+          84.1,
+          555.2,
+          112.9
+        ],
+        "bbox_found": 8,
+        "bbox_agreement": 0.857,
+        "page_found": 51,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "Simultaneously filling process and mechanism of through-hole and blind hole by copper electroplating.pdf-e0931c5b-1cf5-4ea3-b0b5-1cf910f3d0d1": [
+      {
+        "tid": "Simultaneously filling p:6:1",
+        "page": 7,
+        "n_values": 15,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          44.6,
+          69.0,
+          291.7,
+          143.1
+        ],
+        "bbox_found": 16,
+        "bbox_agreement": 1.0,
+        "page_found": 48,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "Simultaneously filling p:6:2",
+        "page": 7,
+        "n_values": 15,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          300.0,
+          69.0,
+          548.2,
+          130.5
+        ],
+        "bbox_found": 15,
+        "bbox_agreement": 1.0,
+        "page_found": 48,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川.pdf-19b4d41d-5a4f-4216-be1e-f2742ba2126d": [
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:15:1",
+        "page": 16,
+        "n_values": 146,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          82.7,
+          461.4,
+          509.0,
+          743.4
+        ],
+        "bbox_found": 146,
+        "bbox_agreement": 0.993,
+        "page_found": 157,
+        "page_agreement": 0.993,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:33:2",
+        "page": 34,
+        "n_values": 23,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          82.7,
+          272.8,
+          519.7,
+          749.3
+        ],
+        "bbox_found": 23,
+        "bbox_agreement": 1.0,
+        "page_found": 27,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:34:3",
+        "page": 35,
+        "n_values": 12,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          82.7,
+          186.1,
+          507.8,
+          570.0
+        ],
+        "bbox_found": 12,
+        "bbox_agreement": 1.0,
+        "page_found": 21,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:47:4",
+        "page": 48,
+        "n_values": 24,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          82.7,
+          240.8,
+          510.2,
+          570.0
+        ],
+        "bbox_found": 25,
+        "bbox_agreement": 1.0,
+        "page_found": 29,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:53:5",
+        "page": 54,
+        "n_values": 16,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          82.7,
+          324.1,
+          510.8,
+          511.9
+        ],
+        "bbox_found": 17,
+        "bbox_agreement": 1.0,
+        "page_found": 30,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:55:6",
+        "page": 56,
+        "n_values": 0,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          86.9,
+          120.4,
+          504.8,
+          731.6
+        ],
+        "bbox_found": 4,
+        "bbox_agreement": null,
+        "page_found": 5,
+        "page_agreement": null,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:59:7",
+        "page": 60,
+        "n_values": 11,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          82.7,
+          570.8,
+          510.2,
+          682.0
+        ],
+        "bbox_found": 12,
+        "bbox_agreement": 0.818,
+        "page_found": 26,
+        "page_agreement": 0.909,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研:60:8",
+        "page": 61,
+        "n_values": 16,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          82.7,
+          492.5,
+          509.0,
+          591.0
+        ],
+        "bbox_found": 19,
+        "bbox_agreement": 0.938,
+        "page_found": 24,
+        "page_agreement": 0.938,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "先进芯片制造中的钴电镀互连技术综述.pdf-a92174f5-254b-4da1-9ef0-59b6de33530c": [
+      {
+        "tid": "先进芯片制造中的钴电镀互连技术综述.pdf-a9:3:1",
+        "page": 4,
+        "n_values": 14,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          47.6,
+          318.7,
+          288.1,
+          390.7
+        ],
+        "bbox_found": 14,
+        "bbox_agreement": 0.929,
+        "page_found": 28,
+        "page_agreement": 0.857,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "六亚基四甲四胺.pdf-721d45d2-ab0e-46c7-8c08-1c9ab1788e9d": [
+      {
+        "tid": "六亚基四甲四胺.pdf-721d45d2-ab0:9:1",
+        "page": 10,
+        "n_values": 11,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          304.8,
+          575.4,
+          557.2,
+          653.2
+        ],
+        "bbox_found": 10,
+        "bbox_agreement": 0.909,
+        "page_found": 46,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "六亚基四甲四胺.pdf-721d45d2-ab0:9:2",
+        "page": 10,
+        "n_values": 21,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          696.1,
+          557.2,
+          740.5
+        ],
+        "bbox_found": 20,
+        "bbox_agreement": 0.952,
+        "page_found": 46,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响.pdf-cb7932c5-d442-4559-8249-67ab0e7f32f1": [
+      {
+        "tid": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的:5:1",
+        "page": 6,
+        "n_values": 25,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          36.9,
+          665.1,
+          288.1,
+          738.9
+        ],
+        "bbox_found": 28,
+        "bbox_agreement": 1.0,
+        "page_found": 81,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的:5:2",
+        "page": 6,
+        "n_values": 24,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          304.8,
+          658.0,
+          557.2,
+          730.2
+        ],
+        "bbox_found": 23,
+        "bbox_agreement": 0.958,
+        "page_found": 81,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究.pdf-95883e9b-e2e3-462b-a8ab-06b0282cf0c2": [
+      {
+        "tid": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究:1:1",
+        "page": 2,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          73.0,
+          288.1,
+          142.9
+        ],
+        "bbox_found": 10,
+        "bbox_agreement": 1.0,
+        "page_found": 63,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究:3:2",
+        "page": 4,
+        "n_values": 18,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          634.2,
+          288.1,
+          730.2
+        ],
+        "bbox_found": 19,
+        "bbox_agreement": 0.944,
+        "page_found": 46,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究:4:3",
+        "page": 5,
+        "n_values": 16,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          418.3,
+          557.2,
+          470.7
+        ],
+        "bbox_found": 19,
+        "bbox_agreement": 0.938,
+        "page_found": 63,
+        "page_agreement": 0.688,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "无电镀钴综述.pdf-095c7aff-4958-41c4-bf33-fcab1fd941a5": [
+      {
+        "tid": "无电镀钴综述.pdf-095c7aff-4958:3:1",
+        "page": 4,
+        "n_values": 3,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          173.8,
+          58.5,
+          544.7,
+          140.0
+        ],
+        "bbox_found": 3,
+        "bbox_agreement": 1.0,
+        "page_found": 35,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "无电镀钴综述.pdf-095c7aff-4958:9:2",
+        "page": 10,
+        "n_values": 68,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          160.7,
+          51.4,
+          435.7,
+          715.7
+        ],
+        "bbox_found": 58,
+        "bbox_agreement": 0.779,
+        "page_found": 57,
+        "page_agreement": 0.779,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "无电镀钴综述.pdf-095c7aff-4958:10:3",
+        "page": 11,
+        "n_values": 85,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          104.8,
+          51.4,
+          488.7,
+          717.3
+        ],
+        "bbox_found": 78,
+        "bbox_agreement": 0.847,
+        "page_found": 78,
+        "page_agreement": 0.871,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速效应.pdf-c20b85ee-fcc4-4c47-bf96-1a1779e88cad": [
+      {
+        "tid": "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速:1:1",
+        "page": 2,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          73.8,
+          288.1,
+          142.9
+        ],
+        "bbox_found": 10,
+        "bbox_agreement": 0.889,
+        "page_found": 54,
+        "page_agreement": 0.889,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速:4:2",
+        "page": 5,
+        "n_values": 18,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          35.7,
+          550.8,
+          288.1,
+          646.1
+        ],
+        "bbox_found": 19,
+        "bbox_agreement": 1.0,
+        "page_found": 60,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "炔烃-聚乙二醇-4-胺抑制剂助力钴超填充.pdf-04bf3b9a-c81a-4109-911a-d2a7b89a022a": [
+      {
+        "tid": "炔烃-聚乙二醇-4-胺抑制剂助力钴超填充.pdf:1:1",
+        "page": 2,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          241.9,
+          555.8,
+          305.9
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 1.0,
+        "page_found": 43,
+        "page_agreement": 0.889,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "炔烃-聚乙二醇-4-胺抑制剂助力钴超填充.pdf:4:2",
+        "page": 5,
+        "n_values": 10,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          312.8,
+          413.3,
+          555.8,
+          482.1
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 0.9,
+        "page_found": 44,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.pdf-177a78a1-de48-42ee-8220-c539ec771618": [
+      {
+        "tid": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.p:4:1",
+        "page": 5,
+        "n_values": 9,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          163.7,
+          628.9,
+          559.0,
+          688.7
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 1.0,
+        "page_found": 20,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.p:8:2",
+        "page": 9,
+        "n_values": 42,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          33.9,
+          644.9,
+          557.8,
+          740.0
+        ],
+        "bbox_found": 43,
+        "bbox_agreement": 1.0,
+        "page_found": 67,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的实验与分子模拟研究.pdf-95850e69-6ba6-453d-9edb-e0441a9581b4": [
+      {
+        "tid": "烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的:3:1",
+        "page": 4,
+        "n_values": 34,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          389.7,
+          286.9,
+          477.8
+        ],
+        "bbox_found": 33,
+        "bbox_agreement": 0.971,
+        "page_found": 73,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的:4:2",
+        "page": 5,
+        "n_values": 25,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          304.8,
+          81.8,
+          557.8,
+          148.4
+        ],
+        "bbox_found": 24,
+        "bbox_agreement": 0.88,
+        "page_found": 63,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      },
+      {
+        "tid": "烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的:7:3",
+        "page": 8,
+        "n_values": 10,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          34.5,
+          73.0,
+          557.2,
+          117.5
+        ],
+        "bbox_found": 9,
+        "bbox_agreement": 0.9,
+        "page_found": 40,
+        "page_agreement": 0.9,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "糖精对镀钴层结构、导电能力的改变.pdf-3ecc0fb7-5acf-4f3f-bd5f-0591659b1140": [
+      {
+        "tid": "糖精对镀钴层结构、导电能力的改变.pdf-3ec:1:1",
+        "page": 2,
+        "n_values": 23,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          100.6,
+          619.9,
+          491.1,
+          733.4
+        ],
+        "bbox_found": 23,
+        "bbox_agreement": 0.957,
+        "page_found": 66,
+        "page_agreement": 0.957,
+        "bbox_content_mismatch": false
+      }
+    ],
+    "腺苷作为具有协同加速-抑制作用的整平剂用于X型通孔中超共形钴填充的研究.pdf-7743386f-303b-4a5e-9d24-855c300af904": [
+      {
+        "tid": "腺苷作为具有协同加速-抑制作用的整平剂用于X型通:5:1",
+        "page": 6,
+        "n_values": 8,
+        "coord": "normalized0_1000",
+        "bbox_pts": [
+          304.8,
+          73.0,
+          557.8,
+          125.4
+        ],
+        "bbox_found": 8,
+        "bbox_agreement": 1.0,
+        "page_found": 51,
+        "page_agreement": 1.0,
+        "bbox_content_mismatch": false
+      }
+    ]
+  }
+}

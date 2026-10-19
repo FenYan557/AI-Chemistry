@@ -1,0 +1,240 @@
+{
+  "doc_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充",
+  "title": "Inhibitor Alkyne-PEG4-amine Contributes to Cobalt Superfilling",
+  "doi": "10.1021/acsaelm.4c00774",
+  "journal": "其他期刊",
+  "year": "2024",
+  "pages": 8,
+  "printed_page_map": {
+    "1": 5712,
+    "2": 5713,
+    "3": 5714,
+    "4": 5715,
+    "5": 5716,
+    "6": 5717,
+    "7": 5718,
+    "8": 5719
+  },
+  "references": [
+    {
+      "n": null,
+      "page": 6,
+      "raw": "Yiting Tong − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China; orcid.org/0009-0007-7074-6966"
+    },
+    {
+      "n": null,
+      "page": 6,
+      "raw": "Dawei Lai − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China; orcid.org/0009-0009-7783-463X"
+    },
+    {
+      "n": null,
+      "page": 6,
+      "raw": "Ya Li − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China"
+    },
+    {
+      "n": null,
+      "page": 6,
+      "raw": "Tao Hang − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China; orcid.org/0000-0001-6902-0788"
+    },
+    {
+      "n": null,
+      "page": 6,
+      "raw": "Ming Li − State Key Laboratory of Metal Matrix Composites, School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China"
+    },
+    {
+      "n": null,
+      "page": 6,
+      "raw": "Complete contact information is available at:"
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(1) de Oliveira Hansen, R.; Mátéfi-Tempfli, M.; Safonovs, R.; Adam, J.; Chemnitz, S.; Reimer, T.; Wagner, B.; Benecke, W.; Mátéfi-Tempfli, S. Magnetic films for electromagnetic actuation in MEMS switches. Microsyst. Technol. 2018, 24 (4), 1987−1994."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(2) Luo, X.; Chen, C.-Y.; Chang, T.-F. M.; Sone, M.; Zhang, Q.; Zhang, J. The Structure and Micro-Mechanical Properties of Electrodeposited Cobalt Films by Micro-Compression Test. J. Electrochem. Soc. 2021, 168 (10), 102502."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(3) Zhang, D.; Chen, Y.; Su, Y.; Hong, Y.; Wang, C.; Zhou, G.; Wang, S.; He, W.; Sun, Y.; Zhang, W.; et al. Additive-assisted cobalt electrodeposition as surface magnetic coating to enhance the inductance of spiral copper inductors. Surf. Interfaces 2022, 28, 101603."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(4) Broekmann, P.; Fluegel, A.; Emnet, C.; Arnold, M.; Roeger-Goepfert, C.; Wagner, A.; Hai, N. T. M.; Mayer, D. Classification of suppressor additives based on synergistic and antagonistic ensemble effects. Electrochim. Acta 2011, 56 (13), 4724−4734."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(5) He, M.; Zhang, X.; Nogami, T.; Lin, X.; Kelly, J.; Kim, H.; Spooner, T.; Edelstein, D.; Zhao, L. Mechanism of Co Liner as Enhancement Layer for Cu Interconnect Gap-Fill. J. Electrochem. Soc. 2013, 160 (12), D3040−D3044."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(6) Zheng, Y.; Gao, L.; Dong, R.; He, S. Role of CCUS in carbon neutral power system. Carb Neutrality 2022, 1, 19."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(7) Huang, Q.; Lyons, T. W.; Sides, W. D. Electrodeposition of Cobalt for Interconnect Application: Effect of Dimethylglyoxime. J. Electrochem. Soc. 2016, 163 (13), D715−D721."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(8) Hu, Y.; Huang, Q. Effects of Dimethylglyoxime and Cyclohexane Dioxime on the Electrochemical Nucleation and Growth of Cobalt. J. Electrochem. Soc. 2019, 166 (1), D3175−D3181."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(9) Hu, Y.; Huang, Q. Oscillatory Behavior in Cobalt Electrodeposition with 3-Mercapto-1-Propanesulfonate. J. Phys. Chem. C 2020, 124 (39), 21608−21616."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(10) Kang, J.; Sung, M.; Byun, J.; Kwon, O. J.; Kim, J. J. Superconformal Cobalt Electrodeposition with a Hydrogen Evolution Reaction Suppressing Additive. J. Electrochem. Soc. 2020, 167 (16), 162514."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(11) Ciofi, I.; Roussel, P. J.; Saad, Y.; Moroz, V.; Hu, C.; Baert, R.; Croes, K.; Contino, A.; Vandersmissen, K.; Gao, W.; et al. Modeling of Via Resistance for Advanced Technology Nodes. IEEE Trans. Electro. Dev. 2017, 64 (5), 2306−2313."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(12) Hu, Y.; Deb, S.; Li, D.; Huang, Q. Effects of organic additives on the impurity and grain structure of electrodeposited cobalt. Electrochim. Acta 2021, 368, 137594."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(13) Ma, X.; Li, Y.; Yang, P.; Zhang, J.; An, M. Influence of suppressing additive malachite green on superconformal cobalt electrodeposition. J. Electroanal. Chem. 2022, 921, 116696."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(14) Qiu, L.-N.; Ni, Z.-H.; Wang, Y.-J.; Hu, C.-F.; Qu, X.-P. Electroless Deposition of Pure Co on TaN Substrate for Interconnect Metallization. J. Electrochem. Soc. 2022, 169 (7), 072507."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(15) Wislicenus, M.; Liske, R.; Gerlich, L.; Vasilev, B.; Preusse, A. Cobalt advanced barrier metallization: A resistivity composition analysis. Microelectron. Eng. 2015, 137, 11−15."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(16) Song, Q.; Zhao, Y.; Wang, C.; Xie, H.; Yin, H.; Ning, Z. Bubble-assisted densification of cobalt deposit during electrowinning in CoCl2 solution. Hydrometall. 2019, 189, 105111."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(17) Su, F.; Liu, C.; Zuo, Q.; Huang, P.; Miao, M. A comparative study of electrodeposition techniques on the microstructure and"
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "property of nanocrystalline cobalt deposit. Mater. Chem. Phys. 2013, 139 (2−3), 663−673."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(18) Wu, J.; Wafula, F.; Branagan, S.; Suzuki, H.; van Eisden, J. Mechanism of Cobalt Bottom-Up Filling for Advanced Node Interconnect Metallization. J. Electrochem. Soc. 2019, 166 (1), D3136−D3141."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(19) Xiao, N.; Li, D.; Cui, G.; Li, N.; Li, Q.; Wu, G. Adsorption behavior of triblock copolymer suppressors during the copper electrodeposition. Electrochim. Acta 2014, 116, 284−291."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(20) Lyons, T. W.; Huang, Q. Effects of Cyclohexane- Monoxime and Dioxime on the Electrodeposition of Cobalt. Electrochim. Acta 2017, 245, 309−317."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(21) Kiruba, M.; Lakshminarasimhan, N.; Jeyabharathi, C. Butynediol’s Role beyond Brightening Additive during Electrodeposition of Cobalt. J. Electrochem. Soc. 2022, 169 (3), 032507."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(22) Lee, C. H.; Bonevich, J. E.; Davies, J. E.; Moffat, T. P. Superconformal Electrodeposition of Co and Co-Fe Alloys Using 2- Mercapto-5-benzimidazolesulfonic Acid. J. Electrochem. Soc. 2009, 156 (8), D301−D309."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(23) Josell, D.; Silva, M.; Moffat, T. P. Superconformal Bottom-Up Cobalt Deposition in High Aspect Ratio Through Silicon Vias. J. Electrochem. Soc. 2016, 163 (14), D809−D817."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(24) Rigsby, M. A.; Brogan, L. J.; Doubina, N. V.; Liu, Y.; Opocensky, E. C.; Spurlin, T. A.; Zhou, J.; Reid, J. D. Superconformal Cobalt Fill through the Use of Sacrificial Oxidants. ECS Trans. 2017, 80 (10), 767−776."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(25) Rigsby, M. A.; Brogan, L. J.; Doubina, N. V.; Liu, Y.; Opocensky, E. C.; Spurlin, T. A.; Zhou, J.; Reid, J. D. The Critical Role of pH Gradient Formation in Driving Superconformal Cobalt Deposition. J. Electrochem. Soc. 2019, 166 (1), D3167−D3174."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(26) Fukui, R.; Katayama, Y.; Miura, T. The effect of organic additives in electrodeposition of Co from an amide-type ionic liquid. Electrochim. Acta 2011, 56 (3), 1190−1196."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(27) Pan, B.; Zhang, Q.; Liu, Z.; Yang, Y. Influence of butynediol and tetrabutylammonium bromide on the morphology and structure of electrodeposited cobalt in the presence of saccharin. Mater. Chem. Phys. 2019, 228, 37−44."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(28) Manhabosco, T. M.; Müller, I. L. Influence of saccharin on morphology and properties of cobalt thin films electrodeposited ove n-Si(100). Surf. Coat. Technol. 2008, 202 (15), 3585−3590."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(29) Banbur-Pawlowska, S.; Mech, K.; Kowalik, R.; Zabinski, P. Analysis of electrodeposition parameters influence on cobalt deposi roughness. Appl. Surf. Sci. 2016, 388, 805−808."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(30) Zhang, M.; Chang, P.; Chen, P.; Hang, T.; Li, M.; Wu, Y. Super-flat and uni-oriented cobalt film electrodeposited by modulat ing the crystal nucleation and growth behavior. Appl. Surf. Sci. 2024, 645.158795."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(31) Li, Y.; Ren, P.; Zhang, Y.; Li, R.; Zhang, J.; Yang, P.; Liu, A.; Wang, G.; An, M. Investigation of novel leveler Rhodamine B on copper superconformal electrodeposition of microvias by theoretical and experimental studies. Appl. Surf. Sci. 2023, 615, 156266."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(32) Ni, X.; Chen, Y.; Jin, X.; Wang, C.; Huang, Y.; Hong, Y.; Su, X.; Zhou, G.; Wang, S.; He, W.; et al. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition. J. Taiwan Inst. Chem. Eng. 2020, 112, 232−239."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(33) Feng, X.; Yu, N.; Hang, T.; Zhang, Y.; Li, M. Experimental and Theoretical Study on Self-Annealing Behavior of Copper Film Electroplated with 2-Mercaptopyridine and 2-Aminobenzothiazole as Additives. J. Electrochem. Soc. 2016, 163 (2), D57−D62"
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(34) Ni, X.; Wang, C.; Su, Y.; Luo, Y.; Ye, Y.; Su, X.; He, W.; Wang, S.; Hong, Y.; Chen, Y.; et al. Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pilla by electrodeposition. Nanotechnol. Rev. 2022, 11 (1), 1209−1218."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(35) Uzun, S.; Esen, Z.; Koç, E.; Usta, N. C.; Ceylan, M. Experimental and density functional theory (MEP, FMO, NLO, Fukui functions) and antibacterial activity studies on 2-amino-4- (4- nitrophenyl) −5,6-dihydrobenzo [h] quinoline-3-carbonitrile. J. Mol. Struct. 2019, 1178, 450−457."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(36) Beica, R.; Sharbono, C.; Ritzdorf, T. Through silicon via copper electrodeposition for 3D integration. 58th Electro. Comp. & Tech. Conf. 2008, 577."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(37) Kim, B.; Sharbono, C.; Ritzdorf, T.; Schmauch, D. Factors affecting copper filling process within high aspect ratio deep vias for 3D chip stacking. 56th Electro. Comp. & Tech. Conf. 2006, 1."
+    }
+  ]
+}

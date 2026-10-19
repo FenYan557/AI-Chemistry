@@ -1,0 +1,67 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "NA molecules produce a single or multilayer self-assembled Co(II)-NA film on the co"
+      },
+      {
+        "value": "sse",
+        "context": " galvanometer. Although it is confirmed that NA possesses an inhibition effect on c"
+      },
+      {
+        "value": "sse",
+        "context": "lvanometer. Although it is confirmed that NA possesses an inhibition effect on coba"
+      },
+      {
+        "value": "SCE",
+        "context": "rking electrode, and saturated mercury electrode (SCE) and platinum (Pt) electrode "
+      },
+      {
+        "value": "sse",
+        "context": " surface to attract more inhibitor molecules to possess a thicker and denser inhibi"
+      },
+      {
+        "value": "sse",
+        "context": "or NA and its relative products can successfully assemble on the cobalt surface, is"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "VT thermodynamics with an absolute temperature of 298 K, a time step of 1 fs, and a t"
+      },
+      {
+        "value": "298 K",
+        "context": "right)$ [31]:\nwhere the absolute temperature is T=298 K,, the molarity of water is C "
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": " form a passivation film which adsorbs on cobalt (Co) surface so as to strengthen "
+      },
+      {
+        "value": "Co",
+        "context": " and cobalt atom, Nic 2− ions are appealed to the Co(OH) 2, leading to the appeara"
+      },
+      {
+        "value": "Co",
+        "context": "led to the Co(OH) 2, leading to the appearance of Co(II)-NA molecule groups. NA mo"
+      },
+      {
+        "value": "Co",
+        "context": "les produce a single or multilayer self-assembled Co(II)-NA film on the cobalt sur"
+      },
+      {
+        "value": "Co",
+        "context": "obalt surface and further preven the corrosion on Co film.\nARTICLEINFO\nKeywords: C"
+      },
+      {
+        "value": "Co",
+        "context": "trochemistry Molecule simulation\nABSTRACT\nCobalt (Co) is the interconnect metal of"
+      }
+    ]
+  }
+}

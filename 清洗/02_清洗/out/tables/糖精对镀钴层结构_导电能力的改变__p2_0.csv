@@ -1,0 +1,8 @@
+﻿Step,Content,Condition
+Degreasing,"NaOH\ 80\ g· L^-1,\ NaCO_3\ 15\ g· L^-1,\ Na_3PO_4\ 30\ g· L^-1","80 °C, 15 min"
+Swelling,"NMP\ 100\ ml· L^-1,\ NaOH,\ 90\ g· L^-1,\ DGBE\ 20\ ml· L^-1","60 °C, 10 min"
+Micro-etching,"H_2SO_4\ 12.3\ mol· L^-1,\ MnO_2,\ 30\ g· L^-1","70 °C, 20 min"
+Neutralization,"98% H_2SO_4\ 100\ ml· L^-1,\ OA\ 28.2\ g· L^-1","60 °C, 10 min"
+Presoak,OPC-SALT\ 250\ g· L^-1,"Room Temp., 2 min"
+Activation,"35% HCl\ 30\ ml· L^-1,\ OPC-SALT\ 170\ g· L^-1,\ OPC-80\ 50\ ml· L^-1","Room Temp., 6 min"
+Sensitization,5% HCl\ 100\ ml· L^-1,"Room Temp., 10 min"

@@ -1,0 +1,83 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "r and gas in- and outlet\nPAT-Solid-Core for easy assembly and reproducible results!"
+      },
+      {
+        "value": "sce",
+        "context": "ferential deposition at the bottom of a small damascene feature. © The Author(s) 20"
+      },
+      {
+        "value": "sce",
+        "context": "s with shorter electron mean free path are less susceptible to the effect of scalin"
+      },
+      {
+        "value": "Saturated calomel",
+        "context": "ompartments was used for electrochemical studies. Saturated calomel electrode (SCE) was used as r"
+      },
+      {
+        "value": "SCE",
+        "context": "trochemical studies. Saturated calomel electrode (SCE) was used as reference electr"
+      },
+      {
+        "value": "SCE",
+        "context": "e. All potential in this paper is with respect to SCE. A 99.95 wt% Co foil was used"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "10 mA/cm2",
+        "context": "ere then stripped at an anodic current density of 10 mA/cm2 in the HCl stripping solution"
+      },
+      {
+        "value": "2 mA/cm2",
+        "context": "started at 0.7 V and reached a current density of 2 mA/cm2 at 0.8 V and 4 mA/cm2 at 0.85"
+      },
+      {
+        "value": "4 mA/cm2",
+        "context": "eached a current density of 2 mA/cm2 at 0.8 V and 4 mA/cm2 at 0.85 V. The forward and ba"
+      },
+      {
+        "value": "10 mA/cm2",
+        "context": "100 rpm rotation and two current densities, 3 and 10 mA/cm2. It is evident from Figure 3 "
+      },
+      {
+        "value": "3 mA/cm2",
+        "context": "ffect. For example, the deposition potential at - 3 mA/cm2 increased by 40 mV and 100 mV"
+      },
+      {
+        "value": "10 mA/cm2",
+        "context": "effect was saturated at 300 ppm. The transient at 10 mA/cm2 followed the same trend.\nThe "
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "bama 35487, USA\nThe effect of dimethylglyoxime on Co electrodeposition was investi"
+      },
+      {
+        "value": "Co",
+        "context": "lished upon agitation. A reverse relation between Co deposition rate and rotation "
+      },
+      {
+        "value": "Ni",
+        "context": "ication. For example, transition metals including Ni, Co, Mo and Ru were predicted"
+      },
+      {
+        "value": "Co",
+        "context": "ion. For example, transition metals including Ni, Co, Mo and Ru were predicted to "
+      },
+      {
+        "value": "Cu",
+        "context": "e predicted to be potential candidates to replace Cu. 6\nIn addition to the advanta"
+      },
+      {
+        "value": "Cu",
+        "context": "sly studied to replace the Ta diffusion barrier – Cu seed stack. 7–9\nCo has recent"
+      }
+    ]
+  }
+}

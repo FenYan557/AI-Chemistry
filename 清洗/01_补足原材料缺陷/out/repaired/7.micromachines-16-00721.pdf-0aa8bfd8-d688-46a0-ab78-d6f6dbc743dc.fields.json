@@ -1,0 +1,73 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "n leveler structure and performance is therefore essential to the continued advance"
+      },
+      {
+        "value": "sse",
+        "context": "lectrochemical tests show that NBT markedly suppresses copper deposition and, toget"
+      },
+      {
+        "value": "sce",
+        "context": "]. For high-aspect-ratio structures—including Damascene trenches in ICs and microvi"
+      },
+      {
+        "value": "sce",
+        "context": "ccelerator is often sufficient for sub-100 nm Damascene features [7–9]; larger micr"
+      },
+      {
+        "value": "sse",
+        "context": ", NBT was chosen as the leveler in this study to assess its effectiveness in copper"
+      },
+      {
+        "value": "SSE",
+        "context": "tation. A saturated mer curous sulfate electrode (SSE) acted as the reference elect"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "0 mA/cm2",
+        "context": "lectroplated at a constant current density of - 1 0 mA/cm2\n\nElectrochemical behaviors of"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": "on conditions at a constant current density)f - 1 0 mA/cm2. The potential difference (∆η"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "formed within an NVT ensemble at a temperature of 298 K using the COMPASS force field"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "lations further confirm that NBT anchors onto the Cu(111) surface predominantly th"
+      },
+      {
+        "value": "Cu",
+        "context": "ups and tetrazolium ring govern the adsorption on Cu(111) and synergism with PEG a"
+      },
+      {
+        "value": "Cu",
+        "context": "lated NBT molecule, a PEG fragment, and the NBT - Cu ^ 2 + complex were carried ou"
+      },
+      {
+        "value": "Cu",
+        "context": "e the adsorption behavior of the additives on the Cu(111) surface. The MD simulati"
+      },
+      {
+        "value": "Cu",
+        "context": "ps. The adsorption energy of the additives on the Cu (111) surface (E_ads) was cal"
+      },
+      {
+        "value": "Cu",
+        "context": "ion (2):\nwhere E_total is the total energy of the Cu surface with adsorbed additiv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "doc_id": "1_s2_0_S1572665718302236_main",
+  "title": "Thermodynamic aspects of bis(3‑sulfopropyl) disulfide and 3‑mercapto‑1‑propanesulfonic acid in Cu electrodeposition",
+  "doi": "10.1016/j.jelechem.2018.03.048",
+  "journal": "Journal of Electroanalytical Chemistry",
+  "year": "2018",
+  "pages": 6,
+  "printed_page_map": {
+    "2": 133,
+    "3": 134,
+    "4": 135,
+    "5": 136,
+    "6": 137
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 6,
+      "raw": "[1] T.P. Mo f at, D. Wheeler, W.H. Huber, D. Jossell, Superconformal electrodeposition of copper, Electrochem. Solid-State Lett. 4 (2001) C26–C29."
+    },
+    {
+      "n": 2,
+      "page": 6,
+      "raw": "[2] D.P. Barkey, Acceleration e f ect, in: K. Kondo, R.N. Akolkar, D.P. Barkey, M. Yokoi (Eds.), Copper Electrodeposition for Nanofabrication of Electronics Devices, Springer, New York, 2014, pp. 45–61."
+    },
+    {
+      "n": 3,
+      "page": 6,
+      "raw": "[3] M. Tan, J.N. Harb, Additive behavior during copper electrodeposition in solutions containing Cl −, PEG, and SPS, J. Electrochem. Soc. 150 (2003) C420–C425."
+    },
+    {
+      "n": 4,
+      "page": 6,
+      "raw": "[4] Y. Jin, Y. Sui, L. Wen, F. Ye, M. Sun, Q. Wang, Competitive adsorption of PEG and SPS on copper surface in acidic electrolyte containing Cl −, J. Electrochem. Soc. 160 (2013) D20–D27."
+    },
+    {
+      "n": 5,
+      "page": 6,
+      "raw": "[5] M.J. Willey, A.C. West, SPS adsorption and desorption during copper electrodeposition and its impact on PEG adsorption, J. Electrochem. Soc. 154 (2007) D156–D162."
+    },
+    {
+      "n": 6,
+      "page": 6,
+      "raw": "[6] M.L. Walker, L.J. Richter, T.P. Mo f at, Potential dependence of competitive ad sorption of PEG, Cl-, and SPS/MPS on Cu: an in situ ellipsometric study, J. Electrochem. Soc. 154 (2007) D277–D282."
+    },
+    {
+      "n": 7,
+      "page": 6,
+      "raw": "[7] Y.S. Ham, S.K. Cho, J.J. Kim, Cu seed layer damage caused by insoluble anode in Cu electrodeposition, Korean J. Chem. Eng. 34 (2017) 1490–1494."
+    },
+    {
+      "n": 8,
+      "page": 6,
+      "raw": "[8] S.K. Cho, H.C. Kim, M.J. Kim, J.J. Kim, Voltammetric observation of transient catalytic behavior of SPS in copper electrodeposition-its interaction with cuprous ion from comproportionation, J. Electrochem. Soc. 163 (2016) D428–D433."
+    },
+    {
+      "n": 9,
+      "page": 6,
+      "raw": "[9] H.-M. Chen, S.J. Parulekar, A. Zdunek, Interactions of chloride and 3-mercapto-1- propanesulfonic acid in acidic copper sulfate electrolyte, J. Electrochem. Soc. 155 (2008) D349–D356."
+    },
+    {
+      "n": 10,
+      "page": 6,
+      "raw": "[10] J.P. Healy, D. Pletcher, M. Goodenough, The chemistry of the additives in an acid copper electroplating bath: part II. The instability 4,5-dithiaoctane-1,8-disulphonic acid in the bath on open circuit, J. Electroanal. Chem. 338 (1992) 167–177."
+    },
+    {
+      "n": 11,
+      "page": 6,
+      "raw": "[11] A. Frank, A.J. Bard, The decomposition of the sulfonate additive sulfopropyl sulfonate in acid copper electroplating chemistries, J. Electrochem. Soc. 150 (2003) C244-C250."
+    },
+    {
+      "n": 12,
+      "page": 6,
+      "raw": "[12] J.J. Kim, S.K. Kim, Y.S. Kim, Catalytic behavior of 3-mercapto-1-propane sulfonic acid on Cu electrodeposition and its e f ect on Cu fi lm properties for CMOS devic metallizationJ. Flectroanal Chem 542 (2003) 61-66"
+    },
+    {
+      "n": 13,
+      "page": 6,
+      "raw": "[13] P.M. Vereecken, R.A. Binstead, H. Deligianni, P.C. Andricacos, The chemistry of additives in damascene copper plating, IBM J. Res. Dev. 49 (2005) 3–18."
+    },
+    {
+      "n": 14,
+      "page": 6,
+      "raw": "[14] C.C. Hung, W.H. Lee, S.C. Chang, K.W. Chen, Y.L. Wang, Suppression e f ect of low"
+    },
+    {
+      "n": null,
+      "page": 6,
+      "raw": "concentration bis-(3-sodiumsulfopropyl disul fi de) on copper electroplating, J. Electrochem. Soc. 155 (2008) D133–D136."
+    },
+    {
+      "n": 15,
+      "page": 6,
+      "raw": "[15] A.J. Bard, R. Parsons, J. Jordan, Standard Potentials in Aqueous Solution, CRC Press, New York. 1985, p. 292"
+    },
+    {
+      "n": 16,
+      "page": 6,
+      "raw": "[16] P.K. Glasoe, F.A. Long, Use of glass electrodes to measure acidities in deuterium oxide, J. Phys. Chem. 64 (1960) 188–190."
+    },
+    {
+      "n": 17,
+      "page": 6,
+      "raw": "[17] W.J. Lees, G.M. Whitesides, Equilibrium constants for thiol-disul fi de interchange reactions: a coherent, corrected set, J. Org. Chem. 58 (1993) 642–647."
+    },
+    {
+      "n": 18,
+      "page": 6,
+      "raw": "[18] E. G-Cardona, E.H. Wong, D.P. Barkey, NMR spectral studies of interactions between the accelerants SPS and MPS and copper chlorides, J. Electrochem. Soc. 158 (2011) D143–D148."
+    },
+    {
+      "n": 19,
+      "page": 6,
+      "raw": "[19] R. Singh, G.M. Whitesides, Thiol-disul fi de interchange, in: S. Patai, Z. Rappoport (Eds.), The Chemistry of Sulphur-Containing Functional Groups, Wiley, New York, 2010, pp. 633–658 (Supplement S)."
+    },
+    {
+      "n": 20,
+      "page": 6,
+      "raw": "[20] P.C. Jocelyn, Biochemistry of the SH Group: The Occurrence, Chemical Properties, Metabolism and Biological Function of Thiols and Disulphides, Academic Press, London. 1972"
+    },
+    {
+      "n": 21,
+      "page": 6,
+      "raw": "[21] H.F. Gilbert, Molecular and cellular aspects of thiol-disul fi de exchange, in: A. Meister (Ed.), Advances in Enzymology and Related Areas of Molecular Biology, vol. 63, Wiley, New York, 2006, pp. 69–172."
+    },
+    {
+      "n": 22,
+      "page": 6,
+      "raw": "[22] J.M. Wilson, R.J. Bayer, D.J. Hupe, Structure-reactivity correlations for the thiol disulfide interchange reaction, J. Am, Chem, Soc, 99 (1977) 7922–7926."
+    },
+    {
+      "n": 23,
+      "page": 6,
+      "raw": "[23] P.C. Jocelyn, The standard redox potential of cysteine-cystine from the thiol-disul fi de exchange reaction with glutathione and lipoic acid, Eur. J. Biochem. 2 (1967) 327-331."
+    },
+    {
+      "n": 24,
+      "page": 6,
+      "raw": "[24] D.L. Rabenstein, K.H. Weaver, Kinetics and equilibria of the thiol/disul fi de ex change reactions of somatostatin with glutathione, J. Org. Chem. 61 (1996) 7391–7399."
+    },
+    {
+      "n": 25,
+      "page": 6,
+      "raw": "[25] S. Choe, M.J. Kim, H.C. Kim, S.K. Cho, S.H. Ahn, S.-K. Kim, J.J. Kim, Degradation of bis(3-sulfopropyl) disul fi de and its in fl uence on copper electrodeposition for feature filling, J. Electrochem. Soc. 160 (2013) D3179–D3185."
+    },
+    {
+      "n": 26,
+      "page": 6,
+      "raw": "[26] R.G. Brennan, M.M. Phillips, L.-Y.O. Yang, T.P. Mo f at, Characterization and pur i fi cation of commercial SPS and MPS by ion chromatography and mass spectrometry, J. Electrochem. Soc. 158 (2011) D178–D186"
+    },
+    {
+      "n": 27,
+      "page": 6,
+      "raw": "[27] J.M. Berger, R. Winand, Solubilities, densities and electrical conductivities of aqueous copper(I) and copper(II) chlorides in solutions containing other chlorides such as iron, zinc, sodium and hydrogen chlorides, Hydrometallurgy 12 (1984) 61–81."
+    }
+  ]
+}

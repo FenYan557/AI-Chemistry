@@ -1,0 +1,67 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "ontrol for advanced cobalt electrodeposition processes.\nKeywords: electrochemistry;"
+      },
+      {
+        "value": "sse",
+        "context": "ma-enhanced chemical vapor deposition [26]. ALD possesses the unique characteristic"
+      },
+      {
+        "value": "sse",
+        "context": "enhanced chemical vapor deposition [26]. ALD possesses the unique characteristic of"
+      },
+      {
+        "value": "sce",
+        "context": "plating technology is extensively utilized in damascene copper interconnect process"
+      },
+      {
+        "value": "sse",
+        "context": "ly utilized in damascene copper interconnect processes, where it enables bottom-up "
+      },
+      {
+        "value": "sse",
+        "context": " been extensively applied to the overfilling processes of various metals, including"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "3 mA/cm2",
+        "context": "e Pt electrode, deposited at a current density of 3 mA/cm2 for 56.5 min. Linear sweep vo"
+      },
+      {
+        "value": "3 mA/cm2",
+        "context": "he reaction was conducted at a current density of 3 mA/cm2. The major side-reaction is t"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "110) planes of hexagonal close-packed cobalt (HCP-Co) due to their differential ad"
+      },
+      {
+        "value": "Co",
+        "context": " 9.9 9 %, Shanghai Aladdin Biochemical Technology Co.,Ltd., Shanghai, China) and 0"
+      },
+      {
+        "value": "Co",
+        "context": ", 99.99%, Shanghai Aladdin Biochemical Technology Co., Ltd., Shanghai, China). The"
+      },
+      {
+        "value": "Co",
+        "context": "_2,, 99%, Shanghai Aladdin Biochemical Technology Co., Ltd., Shanghai, China), BEO"
+      },
+      {
+        "value": "Co",
+        "context": "_4,, 95%, Shanghai Macklin Biochemical Technology Co., Ltd., Shanghai, China), and"
+      },
+      {
+        "value": "Co",
+        "context": "de (Tianjin Aida Hengsheng Technology Development Co.,Ltd., Tianjin, China) as the"
+      }
+    ]
+  }
+}

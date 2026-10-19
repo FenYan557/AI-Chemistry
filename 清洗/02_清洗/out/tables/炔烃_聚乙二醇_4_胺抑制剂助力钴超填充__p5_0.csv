@@ -1,0 +1,5 @@
+﻿Steps,Current Density (ASD),Time (s),Purpose
+preprocessing,0,5,preimmersion
+step 1,0.4,60,fill the hole
+step 2,0.7,80,fill the hole
+step 3,1.0,90,thicken the surface layer

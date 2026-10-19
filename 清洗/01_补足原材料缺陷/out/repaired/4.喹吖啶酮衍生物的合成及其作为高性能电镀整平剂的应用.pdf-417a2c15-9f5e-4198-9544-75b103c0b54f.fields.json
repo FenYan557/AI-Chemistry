@@ -1,0 +1,63 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "ocal current density at the aperture opening surpasses that of other hole regions, "
+      },
+      {
+        "value": "Ag/AgCl",
+        "context": "er electrode (CE), and a silver/ silver chloride (Ag/AgCl/sat KCl) electrode as the ref"
+      },
+      {
+        "value": "Ag/AgCl",
+        "context": " of plating solution at the hole’s\nPotential/V vs Ag/AgCl/sat KCl\nmouth is higher than "
+      },
+      {
+        "value": "sse",
+        "context": "ion\nMolecular dynamics simulation is employed to assess the adsorption state of add"
+      },
+      {
+        "value": "sse",
+        "context": "in the weakest inhibition efect.\nBinding energy, essential for overcoming attractio"
+      },
+      {
+        "value": "sse",
+        "context": " molecules on the copper surface). It can be expressed by the equation E _ interact"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1.5 A/dm2",
+        "context": "GMs) were conducted at a fixed current density of 1.5 A/dm2\n2.3 Computational details\nThe"
+      },
+      {
+        "value": "1.5 A/dm2",
+        "context": "he plating process, a constant current density of 1.5 A/dm2 was maintained for 75 minutes"
+      },
+      {
+        "value": "8A/dm2",
+        "context": "nhibition, dropping peak current density to 1 8.1 8A/dm2 compared to 3 4.3 6A/dm2 with"
+      },
+      {
+        "value": "6A/dm2",
+        "context": "current density to 1 8.1 8A/dm2 compared to 3 4.3 6A/dm2 with JGB. DCQA -C_8 -QI L and"
+      },
+      {
+        "value": "8A/dm2",
+        "context": " inhibition, with a peak current density of 3 6.5 8A/dm2, suggesting poorer performanc"
+      },
+      {
+        "value": "1.5 A/dm2",
+        "context": "larization was tested and the current density was 1.5 A/dm2. In Fig. 5, with the base pla"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "RDE underwent a 120 s pretreatment to form Pt-RDE-Cu. Potentiodynamic polarization"
+      }
+    ]
+  }
+}

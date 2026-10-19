@@ -1,0 +1,10 @@
+﻿Case,Additives^b | SPS (ppm),Additives^b | PEG (ppm),Additives^b | Cl^- (ppm),Additives^b | DB (ppm),Deposition mode | -,Surface appearance | -
+Case,SPS (ppm),PEG (ppm),Cl^- (ppm),DB (ppm),-,-
+1,0.3,0,60,0,Conformal,Matte and rough
+2,0,200,60,0,Conformal,Matte and rough
+3,0.3,200,60,0,Superfill,Bright but uneven
+4,0,0,0,1,Conformal,Matte and rough
+5,1,0,0,1,Conformal,Matte and rough
+6,0,200,60,1,Conformal,Matte and rough
+7,1,200,60,0,Semi-Buf,Bright but uneven
+8,1,200,60,1,Superfill,Mirror-like bright

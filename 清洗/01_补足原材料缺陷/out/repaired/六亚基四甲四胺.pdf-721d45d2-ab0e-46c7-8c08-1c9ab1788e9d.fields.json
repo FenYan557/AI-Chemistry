@@ -1,0 +1,73 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": " leveling agent for the cobalt interconnects processes.\n1. Introduction\nCu intercon"
+      },
+      {
+        "value": "sse",
+        "context": "generation of interconnect materials in chip processes due to its lower average fre"
+      },
+      {
+        "value": "sse",
+        "context": "f the research hotspots in the field of chip processes in recent years. The current"
+      },
+      {
+        "value": "sce",
+        "context": "ng copper process of electroplating copper in damascene, recent research on cobalt "
+      },
+      {
+        "value": "sse",
+        "context": " 19 May 2025\n* Corresponding authors.\nE-mail addresses: shenxixun@shiep.edu.cn (X. "
+      },
+      {
+        "value": "sse",
+        "context": " spectroscopy of a solid leveling agent (HMTA) pressed on a slide. The working elec"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1A/dm2",
+        "context": "complete the filling at a current density of 0.5 -1A/dm2; and the cobalt coating thick"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "FF is used in simulation, temperature is fixed at 298 K, NVT ensemble is used, step l"
+      },
+      {
+        "value": "room temperature",
+        "context": " plating bath and DC electrodeposition process at room temperature with current density of $\\mat"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "ai 200092, China\nc Shanghai Meadville Electronics Co., Ltd., Shanghai 201600, Chin"
+      },
+      {
+        "value": "Cu",
+        "context": "e cobalt interconnects processes.\n1. Introduction\nCu interconnect has become a typ"
+      },
+      {
+        "value": "Cu",
+        "context": "ocess decreases to below 10 nm, the resistance of Cu interconnect will significant"
+      },
+      {
+        "value": "Ni",
+        "context": " $\\left( - S 0 _ { 3 } \\right)$ [7]. For example, Ni Xiuren [8] used a series of e"
+      },
+      {
+        "value": "Co",
+        "context": "logy After adding BYD, the crystal surface of the Co film changed from a mixture o"
+      },
+      {
+        "value": "Co",
+        "context": "orm coordination bonds with the cobalt surface or Co ^ 2 + [17–20] by utilizing th"
+      }
+    ]
+  }
+}

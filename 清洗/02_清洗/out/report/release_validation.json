@@ -1,0 +1,71 @@
+{
+  "status": "structural_checks_passed",
+  "scope": "stage-one to stage-two consistency; not PDF accuracy or losslessness",
+  "documents": 48,
+  "raw_blocks": 10975,
+  "repaired_blocks": 10975,
+  "blocks": 5316,
+  "chunks": 5638,
+  "types": {
+    "heading": 987,
+    "image": 762,
+    "text": 2700,
+    "chart": 620,
+    "table": 98,
+    "equation": 149
+  },
+  "table_csvs": 98,
+  "image_references_resolved": 1382,
+  "structured_references": 2758,
+  "deletion_records": 5796,
+  "chunk_source_missing": 0,
+  "chunk_source_empty": 0,
+  "cross_section_chunks": 0,
+  "truncated_tables": [
+    {
+      "doc_id": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川",
+      "csv": "tables/两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川__p16_0.csv"
+    },
+    {
+      "doc_id": "无电镀钴综述",
+      "csv": "tables/无电镀钴综述__p10_0.csv"
+    },
+    {
+      "doc_id": "无电镀钴综述",
+      "csv": "tables/无电镀钴综述__p11_0.csv"
+    }
+  ],
+  "text_terminal_rate": 0.89037,
+  "text_section_rate": 0.994074,
+  "text_chunk_mean_chars": 471.69,
+  "chunks_over_900_chars": 14,
+  "table_evidence": {
+    "text_layer": 82,
+    "None": 12,
+    "raster_or_image": 4
+  },
+  "table_ocr_status": {
+    "confirmed": 86,
+    "partial": 9,
+    "unreadable": 3
+  },
+  "numeric_diagnostic": {
+    "method": "per-document signed decimal tokens; full captions and CSV; multiset intersection",
+    "baseline_occurrences": 25718,
+    "matched_occurrences": 25028,
+    "occurrence_recall": 0.973171,
+    "baseline_distinct_per_doc": 6927,
+    "matched_distinct_per_doc": 6827,
+    "distinct_recall": 0.985564,
+    "documents_with_occurrence_differences": 39,
+    "caveat": "Includes citations, formula subscripts and removed author data; not experimental-data loss rate."
+  },
+  "known_limitations": [
+    "Sentence-terminal target 95% is not met; punctuation is a heuristic.",
+    "PDF semantic/numeric correctness has not been fully manually reviewed.",
+    "Truncated table chunks are recall previews; full CSV must be read.",
+    "Historical retention.json measures stage one against PDF text, not stage two.",
+    "Deletion log exists; correctness/completeness of every deletion is not established."
+  ],
+  "errors": []
+}

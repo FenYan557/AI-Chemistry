@@ -1,0 +1,309 @@
+{
+  "doc_id": "1_s2_0_S0013468609007385_main",
+  "title": "Microvia filling by copper electroplating using diazine black as a leveler",
+  "doi": "10.1016/j.electacta.2009.05.053",
+  "journal": "Electrochimica Acta",
+  "year": "2009",
+  "pages": 8,
+  "printed_page_map": {
+    "2": 5895,
+    "3": 5896,
+    "4": 5897,
+    "5": 5898,
+    "6": 5899,
+    "7": 5900,
+    "8": 5901
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 8,
+      "raw": "[1] K. Takagi, H. Honma, T. Sasabe, IEEE Electrical Insulation Mag. 19 (2003) 27."
+    },
+    {
+      "n": 2,
+      "page": 8,
+      "raw": "[2] V. Sundaram, R.R. Tummala, F. Liu, P.A. Kohl,J. Li, S.A. Bidstrup-Allen, Y. Fukuoka, IEEE Trans. Adv. Packaging 27 (2004) 315."
+    },
+    {
+      "n": 3,
+      "page": 8,
+      "raw": "[3] P.C. Andricacos, C. Uzoh, J.O. Dukovic, J. Horkans, H. Deligianni, IBM J. Res. Dev. 42(1998)567"
+    },
+    {
+      "n": 4,
+      "page": 8,
+      "raw": "[4] J.J. Kelly, A.C. West, Electrochem. Solid-State Lett. 2 (1999) 561."
+    },
+    {
+      "n": 5,
+      "page": 8,
+      "raw": "[5] P. Taephaisitphongse, Y. Cao, A.C. West, J. Electrochem. Soc. 148 (2001) C492."
+    },
+    {
+      "n": 6,
+      "page": 8,
+      "raw": "[6] A.C. West, S. Mayer, J. Reid, Electrochem. Solid-State Lett. 4 (2001) C50."
+    },
+    {
+      "n": 7,
+      "page": 8,
+      "raw": "[7] K. Kondo, N. Yamakawa, Z. Tanaka, K. Hayashi, J. Electroanal. Chem. 559 (2003) 137."
+    },
+    {
+      "n": 8,
+      "page": 8,
+      "raw": "[8] K. Kondo, T. Matsumoto, K. Watanabe, J. Electrochem. Soc. 151 (2004) C250."
+    },
+    {
+      "n": 9,
+      "page": 8,
+      "raw": "[9] T.P. Moffat, D. Wheeler, M.D. Edelstein, D. Josell, IBM J. Res. Dev. 49 (2005) 19."
+    },
+    {
+      "n": 10,
+      "page": 8,
+      "raw": "[10] M. Hasegawa, Y. Negishi, T. Nakanishi, T. Osaka, J. Electrochem. Soc. 152 (2005) C221."
+    },
+    {
+      "n": 11,
+      "page": 8,
+      "raw": "[11] S.-K. Kim, D. Josell, T.P. Moffat, J. Electrochem. Soc. 153 (2006) C616."
+    },
+    {
+      "n": 12,
+      "page": 8,
+      "raw": "[12] S.-K. Kim, D. Josell, T.P. Moffat, J. Electrochem. Soc. 153 (2006) C826."
+    },
+    {
+      "n": 13,
+      "page": 8,
+      "raw": "[13] M.J. Willey, J. Reid, A.C. West, Electrochem. Solid-State Lett. 10 (2007) D38."
+    },
+    {
+      "n": 14,
+      "page": 8,
+      "raw": "[14] T. Kobayashi, J. Kawasaki, K. Mihara, H. Honma, Electrochim. Acta 47 (2001) 85."
+    },
+    {
+      "n": 15,
+      "page": 8,
+      "raw": "[15] S. Miura, H. Honma, Surf. Coat. Technol. 169–170 (2003) 91."
+    },
+    {
+      "n": 16,
+      "page": 8,
+      "raw": "[16] W.-P. Dow, H.-S. Huang, M.-Y. Yen, H.-C. Huang, J. Electrochem. Soc. 152 (2005) C425."
+    },
+    {
+      "n": 17,
+      "page": 8,
+      "raw": "[17] W.-P. Dow, C.-W. Liu, J. Electrochem. Soc. 153 (2006) C190."
+    },
+    {
+      "n": 18,
+      "page": 8,
+      "raw": "[18] Y.-B. Li, W. Wang, Y.-L. Li, J. Electrochem. Soc. 156 (2009) D119."
+    },
+    {
+      "n": 19,
+      "page": 8,
+      "raw": "[19] B. Bozzini, C. Mele, L. D’Urzo, V. Romanello,J. Appl. Electrochem. 36 (2006) 973."
+    },
+    {
+      "n": 20,
+      "page": 8,
+      "raw": "[20] J.-J. Sun, K. Kondo, T. Okamura, S.J. Oh, M. Tomisaka, H. Yonemura, M. Hoshino, K. Takahashi, J. Electrochem. Soc. 150 (2003) G355."
+    },
+    {
+      "n": 21,
+      "page": 8,
+      "raw": "[21] K. Kondo, T. Yonezawa, D. Mikami, T. Okubo, Y. Taguchi, K. Takahashi, D.P. Barkey, J. Electrochem. Soc. 152 (2005) H173."
+    },
+    {
+      "n": 22,
+      "page": 8,
+      "raw": "[22] T. Okubo, Y. Mizuno, K. Naoi, J. Jpn. Inst. Electron. Packaging 8 (2005) 318 (in Japanese)."
+    },
+    {
+      "n": 23,
+      "page": 8,
+      "raw": "[23] W.-P. Dow, M.-Y. Yen, C.-W. Chou, C.-W. Liu, W.-H. Yang, C.-H. Chen, Electrochem. Solid-State Lett. 9 (2006) C134."
+    },
+    {
+      "n": 24,
+      "page": 8,
+      "raw": "[24] B. Bozzini, L. D’Urzo, C. Mele, Electrochim. Acta 52 (2007) 4767."
+    },
+    {
+      "n": 25,
+      "page": 8,
+      "raw": "[25] M. Ishikawa, H. Hagiwara, R. Kimizuka, U.S. Patent 6518,182 (2003)."
+    },
+    {
+      "n": 26,
+      "page": 8,
+      "raw": "[26] W.P. Dow, M.Y. Yen, S.Z. Liao, Y.D. Chiu, H.C. Huang, Electrochim. Acta 53 (2008) 8228."
+    },
+    {
+      "n": 27,
+      "page": 8,
+      "raw": "[27] M. Yokoi, S. Konishi, T. Hayashi, Denki Kagaku oyobi Kogyo Butsuri Kagaku 52 (1984) 218."
+    },
+    {
+      "n": 28,
+      "page": 8,
+      "raw": "[28] J.D. Reid, A.P. David, Plat. Surf. Finish. 74 (1987) 66."
+    },
+    {
+      "n": 29,
+      "page": 8,
+      "raw": "[29] J.P. Healy, D. Pletcher, M. Goodenough, J. Electroanal. Chem. 338 (1992) 155."
+    },
+    {
+      "n": 30,
+      "page": 8,
+      "raw": "[30] D. Stoychev, C. Tsvetanov, J. Appl. Electrochem. 26 (1996) 741."
+    },
+    {
+      "n": 31,
+      "page": 8,
+      "raw": "[31] J.J. Kelly, A.C. West, J. Electrochem. Soc. 145 (1998) 3472."
+    },
+    {
+      "n": 32,
+      "page": 8,
+      "raw": "[32] J.J. Kelly, A.C. West, J. Electrochem. Soc. 145 (1998) 3477."
+    },
+    {
+      "n": 33,
+      "page": 8,
+      "raw": "[33] V.D. Jovic, B.M. Jovi´ c, J. Serb. Chem. Soc. 66 (2001) 935.´"
+    },
+    {
+      "n": 34,
+      "page": 8,
+      "raw": "[34] K. Doblhofer, S. Wasle, D.M. Soares, K.G. Weil, G. Ertl, J. Electrochem. Soc. 150 (2003) C657."
+    },
+    {
+      "n": 35,
+      "page": 8,
+      "raw": "[35] Z.V. Feng, X. Li, A.A. Gewirth, J. Phys. Chem. B 107 (2003) 9415."
+    },
+    {
+      "n": 36,
+      "page": 8,
+      "raw": "[36] K.R. Hebert, J. Electrochem. Soc. 152 (2005) C283."
+    },
+    {
+      "n": 37,
+      "page": 8,
+      "raw": "[37] W.P. Dow, M.Y. Yen, W.B. Lin, S.W. Ho, J. Electrochem. Soc. 152 (2005) C769"
+    },
+    {
+      "n": 38,
+      "page": 8,
+      "raw": "[38] J.G. Long, P.C. Searson, P.M. Vereecken, J. Electrochem. Soc. 153 (2006) C258."
+    },
+    {
+      "n": 39,
+      "page": 8,
+      "raw": "[39] W. Wang, Y.B. Li, J. Electrochem. Soc. 155 (2008) D263"
+    },
+    {
+      "n": 40,
+      "page": 8,
+      "raw": "[40] M.E. Huerta Garrido, M.D. Pritzker, J. Electrochem. Soc. 155 (2008) D332."
+    },
+    {
+      "n": 41,
+      "page": 8,
+      "raw": "[41] H.M. Chen, S.J. Parulekar, A. Zdunek, J. Electrochem. Soc. 155 (2008) D341."
+    },
+    {
+      "n": 42,
+      "page": 8,
+      "raw": "[42] J.P. Healy, D. Pletcher, M. Goodenough, J. Electroanal. Chem. 338 (1992) 179."
+    },
+    {
+      "n": 43,
+      "page": 8,
+      "raw": "[43] E.E. Farndon, F.C. Walsh, S.A. Campbell, J. Appl. Electrochem. 25 (1995) 574"
+    },
+    {
+      "n": 44,
+      "page": 8,
+      "raw": "[44] M. Tan, J.N. Harb, J. Electrochem. Soc. 150 (2003) C420."
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "raw": "[45] M. Kang, A.A. Gewirth, J. Electrochem. Soc. 150 (2003) C426."
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "raw": "[46] T.P. Moffat, D. Wheeler, D. Josell, J. Electrochem. Soc. 151 (2004) C262."
+    },
+    {
+      "n": 47,
+      "page": 8,
+      "raw": "[47] P.M. Vereecken, R.A. Binstead, H. Deligianni, P.C. Andricacos, IBM J. Res. Dev. 49 (2005) 3."
+    },
+    {
+      "n": 48,
+      "page": 8,
+      "raw": "[48] Z.D. Schultz, Z.V. Feng, M.E. Biggin, A.A. Gewirth,J. Electrochem. Soc. 153 (2006) C97."
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "raw": "[49] B. Bozzini, L. D’Urzo, V. Romanello, C. Mele,J. Electrochem. Soc. 153 (2006) C254."
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "raw": "[50] M.L. Walker, L.J. Richter, T.P. Moffat, J. Electrochem. Soc. 153 (2006) C557."
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "raw": "[51] M. Tan, C. Guymon, D.R. Wheeler,J.N. Harb,J. Electrochem. Soc. 154 (2007) D78."
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "raw": "[52] M.L. Walker, L.J. Richter, T.P. Moffat, J. Electrochem. Soc. 154 (2007) D277."
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "raw": "[53] T.P. Moffat, D. Wheeler, S.-K. Kim, D.Josell,J. Electrochem. Soc. 153 (2006) C127."
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "raw": "[54] H. Hagiwara, R. Kimizuka, H. Honma, Trans. Inst. Met. Finish. 84 (2006) 260."
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "raw": "[55] V.A. Vas’ko, I. Tabakovic, S.C. Riemer, M.T. Kief, Microelectron. Eng. 75 (2004) 71."
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "raw": "[56] A. Ibanez, E. Fatás, Surf. Coat. Technol. 191 (2005) 7.˜"
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "raw": "[57] G.C. Bond, Heterogeneous Catalysis—Principles and Applications, 2nd ed., Oxford University Press, 1987, p. 84."
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "raw": "[58] J.M. Thomas, W.J. Thomas, Principles and Practice of Heterogeneous Catalysis, VCHPublisgers Inc., 1997, p. 152."
+    }
+  ]
+}

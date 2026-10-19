@@ -1,0 +1,5 @@
+﻿Electrolyte,VMS,VMS + SA
+Q_strip @200 r/min,1535.54,1865.62
+Δ Q_200 r/min /%,21.50 ± 0.04,
+Q_strip @1200 r/min,1693.40,1912.23
+Δ Q_1200 r/min /%,12.92 ± 0.05,

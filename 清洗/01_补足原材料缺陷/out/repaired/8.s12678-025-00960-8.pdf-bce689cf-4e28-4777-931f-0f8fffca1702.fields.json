@@ -1,0 +1,89 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": " high molecular weight and complex synthesis processes often lead to issues such as"
+      },
+      {
+        "value": "sce",
+        "context": " quality of microvia filling in high—aspect—ratio scenarios remains suboptimal. Mor"
+      },
+      {
+        "value": "sse",
+        "context": "entally friendly and eficient electroplating processes, meeting the growing demands"
+      },
+      {
+        "value": "SMSE",
+        "context": "xperiment utilized a mercurous sulfate electrode (SMSE) as the reference electrode. "
+      },
+      {
+        "value": "sse",
+        "context": " µm and a via depth of 75 µm. Electroplating processes were conducted in a haring c"
+      },
+      {
+        "value": "sse",
+        "context": "boards underwent a series of decontamination processes before plating. The specific"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "2 A/dm2",
+        "context": "ctrodeposition for 60 min at a current density of 2 A/dm2. Quantum chemical calculation"
+      },
+      {
+        "value": "2.0 A/dm2",
+        "context": "h the current density maintained at 0.5, 1.0, and 2.0 A/dm2 for various plating durations"
+      },
+      {
+        "value": "15.69 A/dm2",
+        "context": "ode peak current density is the highest, reaching 15.69 A/dm2 and 18.82 A/dm2 respectively."
+      },
+      {
+        "value": "18.82 A/dm2",
+        "context": " density is the highest, reaching 15.69 A/dm2 and 18.82 A/dm2 respectively. When Cl- and TW"
+      },
+      {
+        "value": "6.35 A/dm2",
+        "context": "west values of the anode peak current density are 6.35 A/dm2 and 4.95 A/dm2 respectively. "
+      },
+      {
+        "value": "4.95 A/dm2",
+        "context": "the anode peak current density are 6.35 A/dm2 and 4.95 A/dm2 respectively. Meanwhile, the "
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "he Material Studio software at the temperature of 298 K. The COMPASSII force field wa"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "u 610054, China\n3 3D Chips (Guangdong) Technology Co, Ltd, Dongguan 523808, China\n"
+      },
+      {
+        "value": "Cu",
+        "context": "l conductivity between the copper plating and the Cu seed layer, the test boards u"
+      },
+      {
+        "value": "Cu",
+        "context": " correspond to another capacitive arc, indicating Cu + asd relaxation on the elect"
+      },
+      {
+        "value": "Cu",
+        "context": "tion behavior of TW-20 and TW-80 molecules on the Cu(111) surface was simulated us"
+      },
+      {
+        "value": "Cu",
+        "context": "r><td>TW-20</td><td>Energy(eV)</td></tr><tr><td>E(Cu + TW-20)</td><td>1665.085</td"
+      },
+      {
+        "value": "Cu",
+        "context": "<tr><td>E(TW-20)</td><td>7.355</td></tr><tr><td>E(Cu)</td><td>1657.924</td></tr><t"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "：哈尔滨工业大学\nClassified Index: TQ153.1\nU.D.C: 621.3\nDissertation for the Doctoral Degre"
+      },
+      {
+        "value": "sse",
+        "context": "table for use as a Co plating inhibitor, and discussed the electrochemical behavior"
+      },
+      {
+        "value": "sce",
+        "context": "] ANDRICACOS P C, UZOH C, DUKOVIC J O, et al. Damascene copper electroplating for c"
+      },
+      {
+        "value": "sce",
+        "context": "of electromigration failure mechanism in dual-damascene Cu interconnect tree struct"
+      },
+      {
+        "value": "sce",
+        "context": " H, et al. Experimental study of nanoscale Co damascene BEOL interconnect structure"
+      },
+      {
+        "value": "sce",
+        "context": " and CVD cobalt liners on 22nmgroundrule dual-damascene Cu interconnects[C]. 2013 I"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "0 mA/cm2",
+        "context": "9 中可以看出，在-1.25V 的还原过电位下，当转速为 0 rpm 时，还原的电流密度为 5.8 0 mA/cm2 ，随着转速增加，电流密度开始下降。当转速从0 rpm 增加"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": "随着转速增加，电流密度开始下降。当转速从0 rpm 增加到 100 rpm 时，电流密度从 5.8 0 mA/cm2 下降到约 4.8 5 mA/cm2 ，对流增强了 MG 的"
+      },
+      {
+        "value": "5 mA/cm2",
+        "context": "速从0 rpm 增加到 100 rpm 时，电流密度从 5.8 0 mA/cm2 下降到约 4.8 5 mA/cm2 ，对流增强了 MG 的抑制作用。同时，MG 的传质速度慢，"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": "G 的传质速度慢，吸附速度快，便于在孔道内形成 MG 浓度梯度。当无转速时，电流密度恢复到 5.8 0 mA/cm2 左右。而且随着转速再次增加，还原电流逐渐变小，说明 MG "
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": " 对应的时间(s)\n从图 4-11(a,b)可以看出，阴极电位为-1.10 V 时，电流密度几乎为 0 mA/cm2 测试过程中没有出现电流峰值，说明低电位下没有钴离子还原，出"
+      },
+      {
+        "value": "5 mA/cm2",
+        "context": "速的影响，如图 5-4 所示。\n由图中可知，在 恒电势下，镀液在无搅拌情况下，其电流密度为 3.8 5 mA/cm2 ，但是当圆盘电极旋转速度达到 800 rpm 时，电流密度"
+      }
+    ],
+    "温度": [
+      {
+        "value": "25°C",
+        "context": "通过不同温度下沉积的镀层形貌发现，镀液的温度越高，沉积的 Co 镀层越粗糙。因此，本文中选择在常温（25°C）条件下研究 Co 电镀和填充过程。\n1.3.2 金属 Co"
+      },
+      {
+        "value": "298 K",
+        "context": "子填充周期性盒子来模拟实际镀液体系。由于实际电沉积过程中选择的室温，因此在动力学模拟中选择的温度为 298 K。计算时间步长设置为 1 fs，总的模拟时间设置为 500 "
+      },
+      {
+        "value": "298 K",
+        "context": " cm ^ 3 的水分子（约 900 个），并在添加剂盒子上设置 1nm 厚度的真空层，模拟温度为 298 K。采用 COMPASS 力场进行计算，借助 NVT 模块进行"
+      },
+      {
+        "value": "298K",
+        "context": "分子和 1g/ cm ^ 3 的水分子，在模拟的添加剂盒子上设置 1nm 厚度的真空层，模拟温度为 298K。采用 NVT 模块中 COMPASS 力场进行计算，其中模"
+      },
+      {
+        "value": "298 K",
+        "context": "O _ 3 ，10 mmol/L Cl - ，20 mg/LMPS 和 10 mg/L MG，温度 298 K。采用三电极体系，工作电极为预镀钴的 Pt圆盘电极，对电极 "
+      },
+      {
+        "value": "298 K",
+        "context": " H_3 BO _ 3 ，10 mmol/LNaCl 以及不同浓度的 NBT，其中 pH=4，温度 298 K。\n从图 5-1(a)中可以看出，在未添加 NBT 条件下，"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "着集成电路的集成度越来越高，晶体管的尺寸已经达到纳米级别。在 14nm 节点下，由于尺寸效应的影响，Cu 互连线的电阻率呈现指数级升高，需要新的材料替代部分金属 C"
+      },
+      {
+        "value": "Cu",
+        "context": "14nm 节点下，由于尺寸效应的影响，Cu 互连线的电阻率呈现指数级升高，需要新的材料替代部分金属 Cu 作为互连线。金属 Co 因其电子平均自由程较短，电阻率低，"
+      },
+      {
+        "value": "Co",
+        "context": "寸效应的影响，Cu 互连线的电阻率呈现指数级升高，需要新的材料替代部分金属 Cu 作为互连线。金属 Co 因其电子平均自由程较短，电阻率低，性能稳定和较低的电迁移能"
+      },
+      {
+        "value": "Co",
+        "context": "稳定和较低的电迁移能引起广泛关注。但是，由于新型芯片技术的发展时间短和工艺技术不成熟，对于适合金属 Co 填充过程的抑制剂结构以及抑制剂的分子结构仍需要进一步分析研"
+      },
+      {
+        "value": "Co",
+        "context": "于适合金属 Co 填充过程的抑制剂结构以及抑制剂的分子结构仍需要进一步分析研究。因此，研究无缝填充 Co 技术具有非常重要的理论和实际价值。本论文首先通过理论计算和"
+      },
+      {
+        "value": "Co",
+        "context": "o 技术具有非常重要的理论和实际价值。本论文首先通过理论计算和赫尔槽实验，对比了不同结构的添加剂对 Co 镀液的分散能力，确定了适合作为抑制剂的分子结构，并对抑制剂"
+      }
+    ]
+  }
+}

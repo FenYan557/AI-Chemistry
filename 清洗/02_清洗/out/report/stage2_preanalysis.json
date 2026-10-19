@@ -1,0 +1,40 @@
+{
+  "docs": 48,
+  "types": {
+    "text": 4178,
+    "image": 762,
+    "header": 1204,
+    "page_footnote": 122,
+    "footer": 396,
+    "page_number": 643,
+    "chart": 620,
+    "ref_text": 2758,
+    "table": 98,
+    "equation": 149,
+    "aside_text": 45
+  },
+  "noise_total": 5168,
+  "text_len": {
+    "count": 4178,
+    "p50": 120,
+    "p90": 1204,
+    "p99": 2376,
+    "gt2000": 86,
+    "lt80": 1876
+  },
+  "headings": 988,
+  "refs": 0,
+  "equations": 149,
+  "figs": 1382,
+  "figs_cap": 690,
+  "figs_paired": 7,
+  "tables": 98,
+  "tabs_cap": 93,
+  "tabs_raster": 28,
+  "tabs_ocr_confirmed": 20,
+  "nonbody": 110,
+  "dup": 615,
+  "zh_docs": 1,
+  "est_chunks_600_80": 6063,
+  "total_chars": 1692986
+}

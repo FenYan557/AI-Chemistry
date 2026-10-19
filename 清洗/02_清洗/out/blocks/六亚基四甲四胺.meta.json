@@ -1,0 +1,182 @@
+{
+  "doc_id": "六亚基四甲四胺",
+  "title": "Study on the electrochemical deposition behavior and blind hole filling behavior of Cobalt under the regulation of hexamethylenetetramine as a leveling agent",
+  "doi": "10.1016/j.electacta.2025.146509",
+  "journal": "Electrochimica Acta",
+  "year": "2025",
+  "pages": 11,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 11,
+      "raw": "[1] W. Wu, S.H. Brongersma, M. Van Hove, et al., Influence of surface and grainboundary scattering on the resistivity of copper in reduced dimensions, Appl.Phys. Lett. 84 (15) (2004) 2838–2840, https://doi.org/10.1063/1.1703844."
+    },
+    {
+      "n": 2,
+      "page": 11,
+      "raw": "[2] D. Gall, The search for the most conductive metal for narrow interconnect lines, J. Appl. Phys. 127 (5) (2020) 050901, https://doi.org/10.1063/1.5133671."
+    },
+    {
+      "n": 3,
+      "page": 11,
+      "raw": "[3] Y.-L. Cheng, H.-C. Huang, C.-Y. Lee, et al., Comparison of Cu and Co integration with porous low-k SiOCH dielectrics, Thin Solid Films 704 (2020) 138010, https:// doi.org/10.1016/j.tsf.2020.138010."
+    },
+    {
+      "n": 4,
+      "page": 11,
+      "raw": "[4] Q. Huang, T.W. Lyons, W.D. Sides, Electrodeposition of cobalt for interconnect application: effect of dimethylglyoxime, J. Electrochem. Soc. 163 (13) (2016) D715, https://doi.org/10.1149/2.1111613jes."
+    },
+    {
+      "n": 5,
+      "page": 11,
+      "raw": "[5] T.W. Lyons, Q. Huang, Effects of cyclohexane- monoxime and dioxime on the electrodeposition of cobalt, Electrochim. Acta. 245 (2017) 309–317, https://doi. org/10.1016/j.electacta.2017.05.130."
+    },
+    {
+      "n": 6,
+      "page": 11,
+      "raw": "[6] M.A. Rigsby, L.J. Brogan, N.V. Doubina, et al., The critical role of pH gradient formation in driving superconformal cobalt deposition, J. Electrochem.Soc. 166 (1) (2019) D3167, https://doi.org/10.1149/2.0211901jes."
+    },
+    {
+      "n": 7,
+      "page": 11,
+      "raw": "[7] R. Kimizuka, H. Toda, T. Eda, et al., Influence of SPS decomposition product 1,3- propane disulfonic acid on electrolytic copper via filling performance, J. Electrochem. Soc. 162 (12) (2015) D584, https://doi.org/10.1149/ 2.0781512jes."
+    },
+    {
+      "n": 8,
+      "page": 11,
+      "raw": "[8] X. Ni, C. Wang, Y. Su, et al., Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition, Nanotechnol. Rev. 11 (1) (2022) 1209–1218, https://doi.org/10.1515/ntrev-2022- 0071."
+    },
+    {
+      "n": 9,
+      "page": 11,
+      "raw": "[9] W. Cao, Z. Zhu, Q. Li, et al., Effect of butanedione oxime, 3-mercapto-2-propanesulfonate, and histidine on growth and magnetic properties of electrodeposited cobalt on copper substrate[J], J Mater Sci: Mater Electron 35 (36) (2024) 2268, https://doi.org/10.1007/s10854-024-13997-0."
+    },
+    {
+      "n": 10,
+      "page": 11,
+      "raw": "[10] N. Zech, D. Landolt, The influence of boric acid and sulfate ions on the hydrogen formation in Ni-Fe plating electrolytess, J. Electrochem. Soc. 45 (21) (2000) 3461 3471, https://doi.org/10.1016/S0013-4686(00)00415-1."
+    },
+    {
+      "n": 11,
+      "page": 11,
+      "raw": "[11] Y. Hu, Q. Huang, Effects of dimethylglyoxime and cyclohexane dioxime on the electrochemical nucleation and growth of cobalt, J. Electrochem. Soc. 166 (1) (2019) D3175, https://doi.org/10.1149/2.0241901jes."
+    },
+    {
+      "n": 12,
+      "page": 11,
+      "raw": "[12] M. Kiruba, C. Jeyabharathi, Discerning the oscillatory electrochemical response during electrodeposition of cobalt in the presence of but-2-yne-1,4-diol, J. Solid State Electrochem. 24 (11) (2020) 2997 3002, https://doi.org/10.1007/s10008 020-04735-7."
+    },
+    {
+      "n": 13,
+      "page": 11,
+      "raw": "[13] X. Ma, Y. Li, P. Yang, et al., Influence of suppressing additive malachite green on superconformal cobalt electrodeposition, J. Electroanal. Chem. 921 (2022) 116696, https://doi.org/10.1016/j.jelechem.2022.116696."
+    },
+    {
+      "n": 14,
+      "page": 11,
+      "raw": "[14] Y. Li, X. Ma, C. Li, et al., Investigation of novel suppressor nitrotetrazolium blue chloride on cobalt superconformal growth, J. Manuf Process. 101 (2023) 15–24, https://doi.org/10.1016/j.jmapro.2023.05.059."
+    },
+    {
+      "n": 15,
+      "page": 11,
+      "raw": "[15] Y. Wu, S. Ju, F. Li, et al., Tailoring crystalline orientation of electrodeposited cobalt by alkynol additives, Electrochim. Acta 497 (2024) 144593, https://doi.org 10.1016/j.electacta.2024.144593."
+    },
+    {
+      "n": 16,
+      "page": 11,
+      "raw": "[16] Y. Wu, M. Zhang, Y. Jiang, et al., Investigation of phenyl methyl sulfoxide as an additive for cobalt super-filling in 3D interconnect, Surf. Interf 56 (2025) 105652, https://doi.org/10.1016/j.surfin.2024.105652."
+    },
+    {
+      "n": 17,
+      "page": 11,
+      "raw": "[17] R.A.J. Critelli, P.T.A Sumodjo, Influence of glycine as additive on cobal electrodeposition, ECS Trans. 50 (52) (2013) 75, https://doi.org/10.1149/ 05052.0075ecst"
+    },
+    {
+      "n": 18,
+      "page": 11,
+      "raw": "[18] R.A.J. Critelli, P.C. Isolani, P.T.A Sumodjo, Situ ftirs study of glycine effects on cobalt electrodeposition on gold electrodes, ECS Meet. Abstr. (15) (2015) 1172 https://doi.org/10.1149/MA2015-01/15/1172. MA2015-01."
+    },
+    {
+      "n": 19,
+      "page": 11,
+      "raw": "[19] E.S. Safiullina, I.A. Nikovskii, A.A. Dan’shina, et al., Spin states of the cobalt(II) complex with bis(pyrazol-3-yl)pyridine and pH-sensitive functional groups and its deprotonated derivatives, Russ. J. Coord. Chem. 50 (11) (2024) 978–986, https:/ doi.org/10.1134/S1070328424600682."
+    },
+    {
+      "n": 20,
+      "page": 11,
+      "raw": "[20] I.M.A. Omar, K.M. Emran, M. Aziz, et al., A novel viewpoint of an imidazole derivative ionic liquid as an additive for cobalt and nickel electrodeposition, Rsc Adv. 10 (53) (2020) 32113–32126, https://doi.org/10.1039/D0RA06510B."
+    },
+    {
+      "n": 21,
+      "page": 11,
+      "raw": "[21] C.H. Lee, J.E. Bonevich, J.E. Davies, et al., Superconformal electrodeposition of Co and Co–Fe alloys using 2-mercapto-5-benzimidazolesulfonic acid, J. Electrochem. Soc. 156 (8) (2009) D301, https://doi.org/10.1149/1.3142427."
+    },
+    {
+      "n": 22,
+      "page": 11,
+      "raw": "[22] W. Liu, G. Hong, D. Dai, et al., The Beijing four-component density functional program package (BDF) and its application to EuO, EuS, YbO and YbS, Theor. Chem. Acta 96 (2) (1997) 75–83, https://doi.org/10.1007/s002140050207."
+    },
+    {
+      "n": 23,
+      "page": 11,
+      "raw": "[23] Y. Zhang, B. Suo, Z. Wang, et al., BDF: a relativistic electronic structure program packageJ, Chem. Phys. 152 (6) (2020), https://doi.org/10.1063/1.5143173."
+    },
+    {
+      "n": 24,
+      "page": 11,
+      "raw": "[24] Z. Lai, S. Wang, C. Wang, et al., A comparison of typical additives for copper electroplating based on theoretical computation, Comput. Mater. Sci. 147 (2018) 95–102, https://doi.org/10.1016/j.commatsci.2017.11.049."
+    },
+    {
+      "n": 25,
+      "page": 11,
+      "raw": "[25] Y. Zhang, X. Shen, M. Zhou, et al., The effect of quaternary ammonium salts with different chain lengths on copper filling behavior in blind holes of printed circuit board, J. Micromech. Microeng. 32 (12) (2022) 125004, https://doi.org/10.1088 1361-6439/ac9d46."
+    },
+    {
+      "n": 26,
+      "page": 11,
+      "raw": "[26] T. Zhang, C. Zheng, H. Li, et al., Five-membered heterocyclic small molecule compounds as novel levelling agents for blind-hole copper plating, J. Electroanal. Chem. 956 (2024) 118100, https://doi.org/10.1016/j.jelechem.2024.118100."
+    },
+    {
+      "n": 27,
+      "page": 11,
+      "raw": "[27] Y. Li, X. Ma, R. Li, et al., Suppressing-accelerating effect of nitrotetrazolium Blu chloride in boosting superconformal cobalt filling, J. Electroanal. Chem. 945 (2023) 117671, https://doi.org/10.1016/j.jelechem.2023.117671."
+    },
+    {
+      "n": 28,
+      "page": 11,
+      "raw": "[28] H. Li, T. Zhang, S. Song, et al., Study of 5-alkynylpyrimidines as cobalt superfilling inhibitors, J. Phys. Chem. C. 129 (1) (2025) 232–243, https://doi.org/10.1021 acs.jpcc.4c05741."
+    },
+    {
+      "n": 29,
+      "page": 11,
+      "raw": "[29] Y. Hu, T. Lyons, Q. Huang, Influence of furil dioxime on cobalt electrochemical nucleation and growth, J. Electrochem. Soc. 167 (2) (2020) 022509, https://doi. org/10.1149/1945-7111/ab69fb."
+    },
+    {
+      "n": 30,
+      "page": 11,
+      "raw": "[30] B. Scharifker, G. Hills, Theoretical and experimental studies of multiple nucleation, Electrochim. Acta. 28 (7) (1983) 879–889, https://doi.org/10.1016/0013-4686 (83)85163-9."
+    },
+    {
+      "n": 31,
+      "page": 11,
+      "raw": "[31] C.B. Whitehead, S. Ozkar, ¨ R.G. Finke, LaMer’s 1950 model for particle formation of instantaneous nucleation and diffusion-controlled growth: a historical look at the model’s origins, assumptions, equations, and underlying sulfur sol formation kinetics data, Chem. Mater. 31 (18) (2019) 7116–7132, https://doi.org/10.1021 acs.chemmater.9b01273."
+    },
+    {
+      "n": 32,
+      "page": 11,
+      "raw": "[32] J.A. Dirksen, T.A. Ring, Fundamentals of crystallization: kinetic effects on particle size distributions and morphology, Chem. Eng. Sci. 46 (10) (1991) 2389–2427, https://doi.org/10.1016/0009-2509(91)80035-W."
+    }
+  ]
+}

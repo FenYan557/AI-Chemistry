@@ -1,0 +1,83 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "roved the deposition current efficiency and suppressed hydrogen production, thereby"
+      },
+      {
+        "value": "saturated calomel",
+        "context": "electrode (5.0 mm in diameter), nickel foam and a saturated calomel electrode (SCE, Hg | Hg _ 2 C"
+      },
+      {
+        "value": "SCE",
+        "context": "), nickel foam and a saturated calomel electrode (SCE, Hg | Hg _ 2 Cl _ 2) as the w"
+      },
+      {
+        "value": "sse",
+        "context": "mization of additives in electroless plating processes.\nConflicts of interest\nThe a"
+      },
+      {
+        "value": "sse",
+        "context": "/doi.org/10.1016/j.electacta.2013.01.064.\n[25] Kresse G, Furthmüller J. Efficiency "
+      },
+      {
+        "value": "sse",
+        "context": "tps://doi.org/10.1103/Phys-RevB.50.17953.\n[27] Kresse G, Joubert D. From ultrasoft "
+      }
+    ],
+    "温度": [
+      {
+        "value": "65 °C",
+        "context": " from 0.5 to 2 h, and the plating temperature was 65 °C. The pH was adjusted to 12.70"
+      },
+      {
+        "value": "300 °C",
+        "context": "nnealed in the tube furnace (OTF-1200X, KJMTI) at 300 °C for 60 min under argon atmosp"
+      },
+      {
+        "value": "80 °C",
+        "context": "O_3\\ 15\\ g· L^-1,\\ Na_3PO_4\\ 30\\ g· L^-1 </td><td>80 °C, 15 min</td></tr><tr><td>Swel"
+      },
+      {
+        "value": "60 °C",
+        "context": " NaOH,\\ 90\\ g· L^-1,\\ DGBE\\ 20\\ ml· L^-1 </td><td>60 °C, 10 min</td></tr><tr><td>Micr"
+      },
+      {
+        "value": "70 °C",
+        "context": "4\\ 12.3\\ mol· L^-1,\\ MnO_2,\\ 30\\ g· L^-1 </td><td>70 °C, 20 min</td></tr><tr><td>Neut"
+      },
+      {
+        "value": "60 °C",
+        "context": "2SO_4\\ 100\\ ml· L^-1,\\ OA\\ 28.2\\ g· L^-1 </td><td>60 °C, 10 min</td></tr><tr><td>Pres"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "ization were provided by Hangzhou Aoye Technology Co., Ltd. The electroless cobalt"
+      },
+      {
+        "value": "Co",
+        "context": "tion behavior of N_2H_4 and reduction behavior of Co ^ 2 + ion. The electrochemica"
+      },
+      {
+        "value": "Co",
+        "context": " the electroless cobalt bath without cobalt ion ( Co ^ 0 on the working electrode)"
+      },
+      {
+        "value": "Cu",
+        "context": "ker D8 Advance). The X-ray source was selected as Cu /K_α^′ with an incident angle"
+      },
+      {
+        "value": "Co",
+        "context": "tructed a slab model of saccharin adsorbed on the Co (002) surface ( 6 × 6 × 2). S"
+      },
+      {
+        "value": "Co",
+        "context": "e seen that the diffraction peak of the deposited Co film was located between (002"
+      }
+    ]
+  }
+}

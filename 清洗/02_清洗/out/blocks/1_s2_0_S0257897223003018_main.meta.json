@@ -1,0 +1,325 @@
+{
+  "doc_id": "1_s2_0_S0257897223003018_main",
+  "title": "Investigation of synthesized carbazole derivative Cz-BPDB as a high-performance leveler for copper electroplating",
+  "doi": "10.1016/j.surfcoat.2023.129526",
+  "journal": "其他期刊",
+  "year": "2023",
+  "pages": 14,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 13,
+      "raw": "[1] W. Dow, H. Chen, A novel copper electroplating formula for laser-drilled micro via and through hole filling, Circuit World. 30 (2004) 33 36, https://doi.org/10.1108/ 03056120410520597."
+    },
+    {
+      "n": 2,
+      "page": 13,
+      "raw": "[2] W.-P. Dow, H.-H. Chen, M.-Y. Yen, W.-H. Chen, K.-H. Hsu, P.-Y. Chuang, H. Ishizuka, N. Sakagawa, R. Kimizuka, Through-hole filling by copper electroplating, J. Electrochem. Soc. 155 (2008), D750, https://doi.org/10.1149/ 1.2988134."
+    },
+    {
+      "n": 3,
+      "page": 13,
+      "raw": "[3] L. Xu, P. Dixit, J. Miao, J.H.L. Pang, X. Zhang, K.N. Tu, R. Preisser, Through-wafer electroplated copper interconnect with ultrafine grains and high density of nanotwins, Appl. Phys. Lett. 90 (2007), 033111, https://doi.org/10.1063/ 1.2432284."
+    },
+    {
+      "n": 4,
+      "page": 13,
+      "raw": "[4] P. Dixit, J. Miao, R. Preisser, Fabrication of high aspect ratio 35 μm pitch throughwafer copper interconnects by electroplating for 3-D wafer stacking, Electrochem. Solid-State Lett. 9 (2006), G305, https://doi.org/10.1149/1.2236374."
+    },
+    {
+      "n": 5,
+      "page": 13,
+      "raw": "[5] P. Dixit, J. Miao, Aspect-ratio-dependent copper electrodeposition technique for very high aspect-ratio through-hole plating, J. Electrochem. Soc. 153 (2006), G552, https://doi.org/10.1149/1.2189238."
+    },
+    {
+      "n": 6,
+      "page": 13,
+      "raw": "[6] F.-Y. Shen, W.-P. Dow, A.-H. Liu, J.-Y. Lin, P.-H. Chang, S.-M. Huang, Periodic pulse reverse cu plating for through-hole filling, ECS Electrochem. Lett. 2 (2013) D23, https://doi.org/10.1149/2.003305eel."
+    },
+    {
+      "n": 7,
+      "page": 13,
+      "raw": "[7] S.H. Chan, H.Y. Cheh, Modelling of through-hole electrodeposition part II: experimental study, J. Appl. Electrochem. 31 (2001) 617–622, https://doi.org/ 10.1023/A:1017550129955."
+    },
+    {
+      "n": 8,
+      "page": 13,
+      "raw": "[8] Y. Chang, Y. Tao, Q. Zhang, Z.-G. Yang, Selective adsorption of catalyst and copper plating for additive fabrication of conductive patterns and through-holes, Electrochim. Acta 158 (2015) 7–12, https://doi.org/10.1016/j. electacta.2015.01.161."
+    },
+    {
+      "n": 9,
+      "page": 13,
+      "raw": "[9] H. Kanemoto, T. Kawamura, H. Suzuki, T. Miyazaki, H. Mozumi, Y. Kaneko, Electroless copper plating process by applying alternating one-side air stirring method for high-aspect-ratio through-holes, J. Electrochem. Soc. 164 (2017), D771, https://doi.org/10.1149/2.1321712jes."
+    },
+    {
+      "n": 10,
+      "page": 13,
+      "raw": "[10] W.-P. Dow, H.-S. Huang, Roles of chloride ion in microvia filling by copper electrodeposition: I. Studies using SEM and optical microscope, J. Electrochem. Soc. 152 (2005), C67, https://doi.org/10.1149/1.1849934."
+    },
+    {
+      "n": 11,
+      "page": 13,
+      "raw": "[11] W.-P. Dow, H.-S. Huang, M.-Y. Yen, H.-C. Huang, Influence of convection dependent adsorption of additives on microvia filling by copper electroplating, J. Electrochem. Soc. 152 (2005), C425, https://doi.org/10.1149/1.1901670."
+    },
+    {
+      "n": 12,
+      "page": 13,
+      "raw": "[12] Y. Zhang, M. An, P. Yang, J. Zhang, Recent advances in electroplating of throughhole copper interconnection, Electrocatalysis 12 (2021) 619 627, https://doi.org 10.1007/s12678-021-00687-2."
+    },
+    {
+      "n": 13,
+      "page": 13,
+      "raw": "[13] M. Hayase, M. Taketani, K. Aizawa, T. Hatsuzawa, K. Hayabusa, Copper bottom-up deposition by breakdown of PEG-cl inhibition, Electrochem. Solid-State Lett. 5 (2002), C98, https://doi.org/10.1149/1.1507942."
+    },
+    {
+      "n": 14,
+      "page": 13,
+      "raw": "[14] Z.V. Feng, X. Li, A.A. Gewirth, Inhibition due to the interaction of polyethylene glycol, chloride, and copper in plating baths: a surface-enhanced raman study, J. Phys. Chem. B 107 (2003) 9415–9423, https://doi.org/10.1021/jp034875m."
+    },
+    {
+      "n": 15,
+      "page": 13,
+      "raw": "[15] H. Yang, A. Dianat, M. Bobeth, G. Cuniberti, Copper electroplating with polyethylene glycol, J. Electrochem. Soc. 164 (2017), D196, https://doi.org/ 10.1149/2.1051704jes."
+    },
+    {
+      "n": 16,
+      "page": 13,
+      "raw": "[16] J.W. Gallaway, A.C. West, PEG, PPG, and their triblock copolymers as suppressors in copper electroplating, J. Electrochem. Soc. 155 (2008), D632, https://doi.org 10.1149/1.2958309"
+    },
+    {
+      "n": 17,
+      "page": 13,
+      "raw": "[17] S.K. Cho, H.C. Kim, M.J. Kim, J.J. Kim, Voltammetric observation of transient catalytic behavior of SPS in copper electrodeposition—its interaction with cuprous ion from comproportionation, J. Electrochem. Soc. 163 (2016), D428, https://doi. org/10.1149/2.1101608jes."
+    },
+    {
+      "n": 18,
+      "page": 13,
+      "raw": "[18] J. Luo, Z. Li, M. Shi, J. Chen, Z. Hao, J. He, Effects of accelerator alkyl chain length on the microvia filling performance in copper superconformal electroplating, J. Electrochem. Soc. 166 (2019), D104, https://doi.org/10.1149/2.0571904jes."
+    },
+    {
+      "n": 19,
+      "page": 13,
+      "raw": "[19] W.-P. Dow, H.-S. Huang, Z. Lin, Interactions between brightener and chloride ions on copper electroplating for laser-drilled via-hole filling, Electrochem. Solid-State Lett. 6 (2003), C134, https://doi.org/10.1149/1.1595311."
+    },
+    {
+      "n": 20,
+      "page": 13,
+      "raw": "[20] R.G. Brennan, M.M. Phillips, L.-Y.O. Yang, T.P. Moffat, Characterization and purification of commercial SPS and MPS by ion chromatography and mass spectrometry, J. Electrochem. Soc. 158 (2011), D178, https://doi.org/10.1149/ 1.3537819."
+    },
+    {
+      "n": 21,
+      "page": 13,
+      "raw": "[21] Y.B. Li, W. Wei, Y.L. Li, Mechanism of JGB during copper via filling process, Chinese J. Inorg. Chem. 24 (2008) 534–540. https://xueshu.baidu.com/usercenter /paper/show?paperid=f59221ee3f142a8e7bc81fb90b3b8099&site=xueshu_se. (Accessed 4 December 2022)."
+    },
+    {
+      "n": 22,
+      "page": 13,
+      "raw": "[22] W.-P. Dow, C.-C. Li, M.-W. Lin, G.-W. Su, C.-C. Huang, Copper fill of microvia using a thiol-modified cu seed layer and various levelers, J. Electrochem. Soc. 156 (2009), D314, https://doi.org/10.1149/1.3147273."
+    },
+    {
+      "n": 23,
+      "page": 13,
+      "raw": "[23] C. Wang, J. Zhang, P. Yang, M. An, Electrochemical behaviors of janus green B in through-hole copper electroplating: an insight by experiment and density functional theory calculation using safranine T as a comparison, Electrochim. Acta 92 (2013) 356–364, https://doi.org/10.1016/j.electacta.2013.01.064."
+    },
+    {
+      "n": 24,
+      "page": 13,
+      "raw": "[24] W.-P. Dow, C.-C. Li, Y.-C. Su, S.-P. Shen, C.-C. Huang, C. Lee, B. Hsu, S. Hsu, Microvia filling by copper electroplating using diazine black as a leveler, Electrochim. Acta 54 (2009) 5894–5901, https://doi.org/10.1016/j. electacta.2009.05.053."
+    },
+    {
+      "n": 25,
+      "page": 13,
+      "raw": "[25] H.P. Zhu, Q.S. Zhu, X. Zhang, C.Z. Liu, J.J. Wang, Microvia filling by copper electroplating using a modified safranine T as a leveler, J. Electrochem. Soc. 164 (2017), D645, https://doi.org/10.1149/2.0111712jes."
+    },
+    {
+      "n": 26,
+      "page": 13,
+      "raw": "[26] C. Chang, 2-Mercaptopyridine as a new leveler for bottom-up filling of micro-vias in copper electroplating, Electrochim. Acta 208 (2016) 33–38."
+    },
+    {
+      "n": 27,
+      "page": 13,
+      "raw": "[27] Y. Zhang, T. Hang, M. Dong, Y. Wu, H. Ling, A. Hu, M. Li, Effects of 2-mercaptopyridine and janus green B as levelers on electrical resistance of electrodeposited copper thin film for interconnects, Thin Solid Films 677 (2019) 39 44, https://doi. org/10.1016/j.tsf.2019.03.012."
+    },
+    {
+      "n": 28,
+      "page": 13,
+      "raw": "[28] X. Wang, S. Zhang, S. Chen, B. Tan, H. Guo, Y. Wang, Y. Qiang, S. Fu, Y. Wen Effects of 2,2-dithiodipyridine as a leveler for through-holes filling by copper electroplating, J. Electrochem. Soc. (2019) 9, https://doi.org/10.1149/ 2.0461913jes."
+    },
+    {
+      "n": 29,
+      "page": 13,
+      "raw": "[29] A. Wang, B. Chen, L. Fang, J. Yu, L. Wang, Influence of branched quaternary ammonium surfactant molecules as levelers for copper electroplating from acidic sulfate bath, Electrochim. Acta 108 (2013) 698–706, https://doi.org/10.1016/j. electacta.2013.07.017."
+    },
+    {
+      "n": 30,
+      "page": 13,
+      "raw": "[30] B. Chen, A. Wang, S. Wu, L. Wang, Polyquaternium-2: a new levelling agent for copper electroplating from acidic sulphate Bath, Electrochemistry 84 (2016) 414–419, https://doi.org/10.5796/electrochemistry.84.414."
+    },
+    {
+      "n": 31,
+      "page": 13,
+      "raw": "[31] J. Lv, X. Zhao, X. Jie, J. Li, X. Wei, B. Chen, G. Hong, W. Wu, L. Wang, Fatty acid quaternary ammonium surfactants based on renewable resources as a leveler for copper electroplating, ChemElectroChem 6 (2019) 3254–3263, https://doi.org/ 10.1002/celc.201900116."
+    },
+    {
+      "n": 32,
+      "page": 13,
+      "raw": "[32] B. Chen, J. Xu, L. Wang, L. Song, S. Wu, Synthesis of quaternary ammonium salts based on diketopyrrolopyrroles skeletons and their applications in copper electroplating, ACS Appl. Mater. Interfaces 9 (2017) 7793–7803, https://doi.org/ 10.1021/acsami.6b15400."
+    },
+    {
+      "n": 33,
+      "page": 13,
+      "raw": "[33] J. Xu, B. Chen, J. Lv, D. Chang, D. Niu, S. Hu, X. Zhang, Z. Xin, L. Wang, Aryl modification of diketopyrrolopyrrole-based quaternary ammonium salts and their applications in copper electrodeposition, Dyes Pigments 170 (2019), 107559, https://doi.org/10.1016/j.dyepig.2019.107559."
+    },
+    {
+      "n": 34,
+      "page": 13,
+      "raw": "[34] K. Wang, J. Feng, J. Xu, J. Li, M. Mai, X. Wang, L. Wang, Engineering aromatic heterocycle strategy: improving copper electrodeposition performance via tuning the bandgap of diketopyrrolopyrrole-based leveler, Tetrahedron 76 (2020), 130882, https://doi.org/10.1016/j.tet.2019.130882."
+    },
+    {
+      "n": 35,
+      "page": 13,
+      "raw": "[35] X. Wang, K. Wang, J. Xu, J. Li, J. Lv, M. Zhao, L. Wang, Quinacridone skeleton as a promising efficient leveler for smooth and conformal copper electrodeposition, Dyes Pigments 181 (2020), https://doi.org/10.1016/j.dyepig.2020.108594, 108594."
+    },
+    {
+      "n": 36,
+      "page": 13,
+      "raw": "[36] J. Lv, J. Xu, X. Zhao, J. Han, B. Chen, X. Wang, Y. He, J. Li, L. Wang, Interface adhesion enhancement by condensed aromatic ring expansion of naphthalene imide derivatives for microvia metallization by copper electroplating, Thin Solid Films 727 (2021), 138671, https://doi.org/10.1016/j.tsf.2021.138671."
+    },
+    {
+      "n": 37,
+      "page": 13,
+      "raw": "[37] J. Li, J. Xu, X. Wang, X. Wei, J. Lv, L. Wang, Novel 2,5-bis(6-(trimethylamonium) hexyl)-3,6-diaryl-1,4-diketopyrrolo[3,4-c]pyrrole pigments as levelers for efficient electroplating applications, Dyes Pigments 186 (2021) 109064, https://doi.org 10.1016/j.dyepig.2020.109064."
+    },
+    {
+      "n": 38,
+      "page": 13,
+      "raw": "[38] J. Li, J. Xu, X. Wang, X. Wei, L. Wang, Diketopyrrolopyrrole-based supramolecular nano-leveler for the enhancement of conformal copper electrodeposition, Appl. Surf. Sci. 569 (2021), 150982, https://doi.org/10.1016/j.apsusc.2021.150982."
+    },
+    {
+      "n": 39,
+      "page": 14,
+      "raw": "[39] X. Li, X. Yin, J. Li, B. Yuan, C. Xiang, P. Zou, L. Wang, Synthesis of coplanar quaternary ammonium salts with excellent electrochemical properties based on an anthraquinone skeleton and their application in copper plating, Electrochim. Acta 437 (2023), 141541, https://doi.org/10.1016/j.electacta.2022.141541."
+    },
+    {
+      "n": 40,
+      "page": 14,
+      "raw": "[40] T. Lu, F. Chen, Multiwfn: a multifunctional wavefunction analyzer, J. Comput. Chem. 33 (2012) 580–592, https://doi.org/10.1002/jcc.22885."
+    },
+    {
+      "n": 41,
+      "page": 14,
+      "raw": "[41] T. Lu, Q. Chen, Van der waals potential: an important complement to molecular electrostatic potential in studying intermolecular interactions, J. Mol. Model. 26 (2020) 315, https://doi.org/10.1007/s00894-020-04577-0."
+    },
+    {
+      "n": 42,
+      "page": 14,
+      "raw": "[42] T. Lu, Q. Chen, mwfn: A Strict, Concise and Extensible Format for Electronic Wavefunction Storage and Exchange, 2021, https://doi.org/10.26434/ chemrxiv.11872524.v4."
+    },
+    {
+      "n": 43,
+      "page": 14,
+      "raw": "[43] J. Zhang, T. Lu, Efficient evaluation of electrostatic potential with computerized optimized code, Phys. Chem. Chem. Phys. 23 (2021) 20323–20328, https://doi. org/10.1039/d1cp02805g."
+    },
+    {
+      "n": 44,
+      "page": 14,
+      "raw": "[44] C. Wang, J. Zhang, P. Yang, B. Zhang, M. An, Through-hole copper electroplating using nitrotetrazolium blue chloride as a leveler, J. Electrochem. Soc. 160 (2013) D85–D88, https://doi.org/10.1149/2.035303jes."
+    },
+    {
+      "n": 45,
+      "page": 14,
+      "raw": "[45] M. Sung, Y. Yoon, J. Hong, M.J. Kim, J.J. Kim, Bromide ion as a leveler for highspeed TSV filling, J. Electrochem. Soc. 166 (2019) D546–D550, https://doi.org/ 10.1149/2.0181913jes."
+    },
+    {
+      "n": 46,
+      "page": 14,
+      "raw": "[46] G.-Y. Lin, J.-J. Yan, M.-Y. Yen, W.-P. Dow, S.-M. Huang, Characterization of through-hole filling by copper electroplating using a tetrazolium salt inhibitor, J. Electrochem. Soc. 160 (2013) D3028–D3034, https://doi.org/10.1149/ 2.005312jes."
+    },
+    {
+      "n": 47,
+      "page": 14,
+      "raw": "[47] Z. Tao, Z. Long, L. Tengxu, G. Liu, X. Tao, The synergistic effects of additives on the micro vias copper filling, J. Electroanal. Chem. 918 (2022), 116456, https://doi. org/10.1016/j.jelechem.2022.116456."
+    },
+    {
+      "n": 48,
+      "page": 14,
+      "raw": "[48] C. Wang, J. Zhang, P. Yang, M. An, Electrochemical behaviors of janus green B in through-hole copper electroplating: an insight by experiment and density functional theory calculation using safranine T as a comparison, Electrochim. Acta 92 (2013) 356–364, https://doi.org/10.1016/j.electacta.2013.01.064."
+    },
+    {
+      "n": 49,
+      "page": 14,
+      "raw": "[49] Z. Tao, L. Tengxu, Z. Long, X. Tao, Evaluating the via filling performance with thin surface cu by the synergistic effect of different additives, Thin Solid Films 757 (2022), 139390, https://doi.org/10.1016/j.tsf.2022.139390"
+    },
+    {
+      "n": 50,
+      "page": 14,
+      "raw": "[50] Z. Lai, S. Wang, C. Wang, Y. Hong, G. Zhou, Y. Chen, W. He, Y. Peng, D. Xiao, A comparison of typical additives for copper electroplating based on theoretical computation, Comput. Mater. Sci. 147 (2018) 95–102, https://doi.org/10.1016/j. commatsci.2017.11.049."
+    },
+    {
+      "n": 51,
+      "page": 14,
+      "raw": "[51] Z. Lai, S. Wang, C. Wang, Y. Hong, Y. Chen, H. Zhang, G. Zhou, W. He, K. Ai, Y. Peng, Computational analysis and experimental evidence of two typical levelers for acid copper electroplating, Electrochim. Acta 273 (2018) 318–326, https://doi. org/10.1016/j.electacta.2018.04.062"
+    },
+    {
+      "n": 52,
+      "page": 14,
+      "raw": "[52] W.-P. Dow, C.-C. Li, Y.-C. Su, S.-P. Shen, C.-C. Huang, C. Lee, B. Hsu, S. Hsu, Microvia filling by copper electroplating using diazine black as a leveler, Electrochim. Acta 54 (2009) 5894–5901, https://doi.org/10.1016/j. electacta.2009.05.053."
+    },
+    {
+      "n": 53,
+      "page": 14,
+      "raw": "[53] Z. Li, B. Tan, J. Luo, J. Qin, G. Yang, C. Cui, L. Pan, Structural influence of nitrogen containing groups on triphenylmethane-based levelers in super-conformal copper electroplating, Electrochim. Acta 401 (2022), 139445, https://doi.org/10.1016/j. electacta.2021.139445."
+    },
+    {
+      "n": 54,
+      "page": 14,
+      "raw": "[54] B. Scharifker, G. Hills, Theoretical and experimental studies of multiple nucleation, Electrochim. Acta 28 (1983) 879–889, https://doi.org/10.1016/0013-4686(83) 85163-9."
+    },
+    {
+      "n": 55,
+      "page": 14,
+      "raw": "[55] M. Palomar-Pardav´e, B.R. Scharifker, E.M. Arce, M. Romero-Romo, Nucleation and diffusion-controlled growth of electroactive centers: reduction of protons during cobalt electrodeposition, Electrochim. Acta 50 (2005) 4736–4745, https://doi.org 10.1016/j.electacta.2005.03.004."
+    },
+    {
+      "n": 56,
+      "page": 14,
+      "raw": "[56] P. Ren, M. An, P. Yang, J. Zhang, Revealing the acceleration effect of SPS and cl - on copper surface: instantaneous nucleation and multi-step energy change, Appl. Surf. Sci. 583 (2022), 152523, https://doi.org/10.1016/j.apsusc.2022.152523."
+    },
+    {
+      "n": 57,
+      "page": 14,
+      "raw": "[57] Z. Lei, L. Chen, W. Wang, Z. Wang, C. Zhao, Tetrazole derived levelers for filling electroplated cu microvias: electrochemical behaviors and quantum calculations, Electrochim. Acta 178 (2015) 546–554, https://doi.org/10.1016/j. electacta.2015.08.037."
+    },
+    {
+      "n": 58,
+      "page": 14,
+      "raw": "[58] Q. Wang, J. Liu, Z. Lei, Y. Mou, M. Chen, Computational and experiments exploration of convection on cu filling characteristics of multiple aspect-ratio micro through-holes, Electrochim. Acta 416 (2022), 140218, https://doi.org/ 10.1016/j.electacta.2022.140218."
+    },
+    {
+      "n": 59,
+      "page": 14,
+      "raw": "[59] J. Xiang, C. Wang, Y. Chen, F. Xia, W. He, H. Miao, J. Zhou, Q. Chen, X. Jin, Numerical simulation and experiments to improve throwing power for practica PCB through-holes plating, Circuit World 45 (2019) 221–230, https://doi.org/ 10.1108/CW-05-2018-0033."
+    },
+    {
+      "n": 60,
+      "page": 14,
+      "raw": "[60] X. Teng, Z. Tao, Z. Long, G. Liu, X. Tao, 1-(4-Hydroxyphenyl)-2 H -tetrazole-5- thione as a leveler for acid copper electroplating of microvia, RSC Adv. 12 (2022) 16153–16164, https://doi.org/10.1039/D2RA02274E."
+    }
+  ]
+}

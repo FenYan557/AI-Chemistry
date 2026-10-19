@@ -1,0 +1,51 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "ted the Cu ^ 2 + → Cu ^ + reaction but also suppressed the Cu ^ + → Cu reaction. Th"
+      },
+      {
+        "value": "sce",
+        "context": " R.; Jaworski, A. Review�Management of Copper Damascene Plating. J. Electrochem. So"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "20 mA/cm2",
+        "context": "ween 100 and 900 rpm under the current density of 20 mA/cm2.. The EIS test is conducted u"
+      },
+      {
+        "value": "2ASD",
+        "context": "ment: 10, 30, and 50 mg/L. The current density is 2ASD, and the electroplating time "
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "pper precipitation by inhibiting the reactions of Cu ^ 2 + → Cu ^ + and Cu ^ + Cu."
+      },
+      {
+        "value": "Cu",
+        "context": "itation by inhibiting the reactions of Cu ^ 2 + → Cu ^ + and Cu ^ + Cu. According "
+      },
+      {
+        "value": "Cu",
+        "context": "inhibiting the reactions of Cu ^ 2 + → Cu ^ + and Cu ^ + Cu. According to electrop"
+      },
+      {
+        "value": "Cu",
+        "context": "ing the reactions of Cu ^ 2 + → Cu ^ + and Cu ^ + Cu. According to electroplating "
+      },
+      {
+        "value": "Cu",
+        "context": " of the studied molecules JGB and thiamine on the Cu(111) crystal plane. After wai"
+      },
+      {
+        "value": "Co",
+        "context": "kstation purchased by Shanghai Chenhua Instrument Co., Ltd. is used to test the CV"
+      }
+    ]
+  }
+}

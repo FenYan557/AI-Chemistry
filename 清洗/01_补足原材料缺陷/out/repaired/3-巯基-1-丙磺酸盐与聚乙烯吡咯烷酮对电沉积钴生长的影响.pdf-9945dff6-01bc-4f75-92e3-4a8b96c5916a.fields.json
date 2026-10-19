@@ -1,0 +1,67 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "orption between MPS and PVP was verified and discussed in cobalt electrodeposition."
+      },
+      {
+        "value": "sce",
+        "context": " overpotential and the kinetics of plating in damascene copper electrodeposition [1"
+      },
+      {
+        "value": "sse",
+        "context": "ng competitive adsorption of MPS and PVP was discussed during cobalt pillar electro"
+      },
+      {
+        "value": "sse",
+        "context": "Figure 3d indicates that the thiol group of MPS possesses the major space of HOMO s"
+      },
+      {
+        "value": "sse",
+        "context": "ure 3d indicates that the thiol group of MPS possesses the major space of HOMO so t"
+      },
+      {
+        "value": "sse",
+        "context": "tion with MPS and PVP, cobalt deposition is suppressed on the upper part of the hol"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "0 mA/cm2",
+        "context": " after imaging transfer at a current density of 1 0 mA/cm2.. The depth of the hole in th"
+      },
+      {
+        "value": "8A/dm2",
+        "context": " oxidation peak current density (from 1.72 to 2.0 8A/dm2) and the cobalt oxidation are"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Ni",
+        "context": "Research Article\nXiuren Ni, Chong Wang, Yuanzhang Su, Yu"
+      },
+      {
+        "value": "Co",
+        "context": " Zhuhai Founder Sci-Tech High-density Electronics Co., Ltd and Zhuhai Founder Sci-"
+      },
+      {
+        "value": "Co",
+        "context": " Zhuhai Founder Sci-Tech Multilayer Circuit Board Co., Ltd, Zhuhai 519175, China, "
+      },
+      {
+        "value": "Ni",
+        "context": "519175, China, e-mail: ymchen@uestc.edu.cn Xiuren Ni, Chong Wang, Yuanzhang Su, Sh"
+      },
+      {
+        "value": "Co",
+        "context": " Zhuhai Founder Sci-Tech High-density Electronics Co., Ltd and Zhuhai Founder Sci-"
+      },
+      {
+        "value": "Co",
+        "context": " Zhuhai Founder Sci-Tech Multilayer Circuit Board Co., Ltd, Zhuhai 519175, China\nB"
+      }
+    ]
+  }
+}

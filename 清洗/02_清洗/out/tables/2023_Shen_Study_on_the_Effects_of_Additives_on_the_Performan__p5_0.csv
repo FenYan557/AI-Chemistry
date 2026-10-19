@@ -1,0 +1,15 @@
+﻿source of variation,sum of squares,degree of freedom,mean square,F-value,P-value,significance
+model,"11,349.79",9,1261.09,49.47,&lt;0.0001,significant
+A-SDS,66.13,1,66.13,2.59,0.1513,
+B-thiourea,1682.00,1,1682.00,65.98,&lt;0.0001,
+C-sodium allyl sulfonate,253.13,1,253.13,9.93,0.0161,
+AB,256.00,1,256.00,10.04,0.0157,
+AC,0.2500,1,0.2500,0.0098,0.9239,
+BC,4096.00,1,4096.00,160.67,&lt;0.0001,
+A^2,0.4447,1,0.4447,0.0174,0.8986,
+B^2,182.02,1,182.02,7.14,0.0319,
+C^2,4676.02,1,4676.02,183.42,&lt;0.0001,
+residual error,178.45,7,25.49,,,
+loss of fit term,27.25,3,9.08,0.2403,0.8645,nonsignificant
+error,151.20,4,37.80,,,
+total,"11,528.24",16,,,,

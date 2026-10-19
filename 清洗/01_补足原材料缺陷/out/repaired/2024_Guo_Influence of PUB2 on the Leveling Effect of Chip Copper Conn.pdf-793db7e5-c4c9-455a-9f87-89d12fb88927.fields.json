@@ -1,0 +1,71 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "s\nABSTRACT: The copper connectivity technique is essential for achieving electrical"
+      },
+      {
+        "value": "sse",
+        "context": "system in packaging (SiP), and 3D packaging. The essential processing material for "
+      },
+      {
+        "value": "sse",
+        "context": "ing the complexity and broad variety of chip processes, there are diferences betwee"
+      },
+      {
+        "value": "sse",
+        "context": " plating solutions used for diferent plating processes, plating machines, and semic"
+      },
+      {
+        "value": "sse",
+        "context": "ientations of electrodeposited copper layers and assess the leveling process facili"
+      },
+      {
+        "value": "sse",
+        "context": "nd through-hole filling height were observed and assessed. A metallographic microsc"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1 ASD",
+        "context": "de. The primary solution had a current density of 1 ASD and contained the following i"
+      },
+      {
+        "value": "1 ASD",
+        "context": "g was conducted for 1 min at a current density of 1 ASD, followed by 8 min of electro"
+      },
+      {
+        "value": "1 ASD",
+        "context": " spacing values of 10 mm and a current density of 1 ASD.\n2.6. Analysis and Testing Pr"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "rcaptopyridine has a stronger inhibitory efect on Cu deposition than JGB. Consider"
+      },
+      {
+        "value": "Co",
+        "context": "2O </td><td>Hubei Sinophorus Electronic Materials Co., Ltd.</td><td>electroplating"
+      },
+      {
+        "value": "Co",
+        "context": "_4 </td><td>Hubei Sinophorus Electronic Materials Co., Ltd.</td><td>electronic gra"
+      },
+      {
+        "value": "Co",
+        "context": "td></tr><tr><td>PEG-2000</td><td>Shanghai Aladdin Co., Ltd.</td><td>AR</td></tr><t"
+      },
+      {
+        "value": "Co",
+        "context": ">AR</td></tr><tr><td>SPS</td><td>Shanghai Aladdin Co., Ltd.</td><td>AR</td></tr><t"
+      },
+      {
+        "value": "Co",
+        "context": ">AR</td></tr><tr><td>JGB</td><td>Shanghai Aladdin Co., Ltd.</td><td></td></tr><tr>"
+      }
+    ]
+  }
+}

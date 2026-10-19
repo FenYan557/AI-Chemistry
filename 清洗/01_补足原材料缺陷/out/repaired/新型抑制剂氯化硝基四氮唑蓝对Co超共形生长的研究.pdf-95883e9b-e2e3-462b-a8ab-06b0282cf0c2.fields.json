@@ -1,0 +1,77 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "rmaceutical Science, University of Bern, Freiestrasse 3, 3012 Bern, Switzerland\nd S"
+      },
+      {
+        "value": "sce",
+        "context": " based on Moore’s Law, the traditional copper damascene process is facing enormous "
+      },
+      {
+        "value": "sse",
+        "context": "rocess to obtain cobalt interconnect [14]. It is essentially important to introduce"
+      },
+      {
+        "value": "sse",
+        "context": "e of Technology, Harbin 150001, China\nE-mail addresses: wangbo19880804@163.com (B. "
+      },
+      {
+        "value": "SSE",
+        "context": "/td><td>4</td></tr><tr><td>Cathode potential v.s. SSE (V)</td><td>-1.2</td></tr></t"
+      },
+      {
+        "value": "SSE",
+        "context": "trode, while saturated mercury sulfate electrode (SSE) and platinum were used as re"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "2A/dm2",
+        "context": "at 1000 rpm. The pre-plating was carried out with 2A/dm2 for 60 s in virgin makeup sol"
+      },
+      {
+        "value": "1.6 mA/cm2",
+        "context": "entary (Fig. S5) and the current density is about 1.6 mA/cm2 while calculated current effi"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "he NBT density and water density is 1g/ cm ^ 3 in 298 K. The adsorption energy E _ en"
+      },
+      {
+        "value": "298 K",
+        "context": "adsorption equi librium state of MD simulation at 298 K with time step of 1 ps and si"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "ile the interaction between NBT and cobalt ions ( Co ^ 2 +) is analyzed based on t"
+      },
+      {
+        "value": "Co",
+        "context": "hile XRD analysis indicates that the formation of Co hcp (100) is formed preferent"
+      },
+      {
+        "value": "Ni",
+        "context": "atibility to electroplating process compared with Ni [9,10], Ru [11], Au [12], gra"
+      },
+      {
+        "value": "Co",
+        "context": " believed that amine groups could coordinate with Co ^ 2 + to suppress the cobalt "
+      },
+      {
+        "value": "Co",
+        "context": "ther to study the influence of NBT on kinetics of Co ^ 2 + reduction. Density func"
+      },
+      {
+        "value": "Co",
+        "context": "dy the coordination between NBT and cobalt ions ( Co ^ 2 +). The suppressing mecha"
+      }
+    ]
+  }
+}

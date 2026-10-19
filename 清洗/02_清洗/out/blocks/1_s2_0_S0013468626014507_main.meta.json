@@ -1,0 +1,286 @@
+{
+  "doc_id": "1_s2_0_S0013468626014507_main",
+  "title": "Investigation of single additive ZPS on performance of copper foil",
+  "doi": "10.1016/j.electacta.2026.149561",
+  "journal": "Electrochimica Acta",
+  "year": "2026",
+  "pages": 10,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] C.C. Vu, S.J. Kim, J. Kim, Flexible wearable sensors-an update in view of touchsensing, Sci. Technol. Adv. Mater. 22 (1) (2021) 26–36, https://doi.org/10.1080 14686996.2020.1862629."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] L. Yaqiang, R. Penghui, Z. Yuanhang, et al., Investigation of novel leveler rhodamine B on copper superconformal electrodeposition of microvias by theoretical and experimental studies, Appl. Surf. Sci. 615 (2023) 156266, https:// doi.org/10.1016/j.apsusc.2022.156266."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] L. Kui, T. Lifen, J. Kun, et al., Design of flexible copper clad laminate with outstanding adhesion strength induced by chemical bonding, J. Mater. Sci. Mater. Electron. 25 (12) (2014) 5446 5451, https://doi.org/10.1007/s10854-014-2327- y."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] H. Jing, F. Binfeng, W. Zhong, et al., Research progress on the texture of electrolytic copper foils, J. Electron. Mater. 53 (2024) 3460–3473, https://doi.org 10.1007/s11664-024-11118-5."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] X. Yin, P. Lijun, H.K. Saif, et al., Mechanical properties and microstructure of rolled and electrodeposited thin copper foil, Rare Met. 35 (12) (2016) 909–914, https:// doi.org/10.1007/s12598-016-0806-4."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] L. Zhuang, W.B. Cai, H.X. Ji, et al., Development trends and priority research fields of electrochemical discipline in the 15th five year plan period, J. Electrochem. 31 (10) (2025) 31, https://doi.org/10.61558/2993-074X.3590."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] S. Kawai, M. Ogawa, K. Ishibashi, et al., Transient mass transfer rate of Cu ^ 2 + caused by copper electrodeposition with alternating electrolytic current, Electrochim. Acta 55 (12) (2010) 3987–3994, https://doi.org/10.1016/j. electacta 2010.02.039"
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] P. Xuesong, L. Lanchen, J. Jie, et al., Mechanistic insight into the Janus Green B on electrochemical roughening layer of copper foil, Colloids Surf. A: Physicochem. Eng. Asp. 698 (2024) 134523, https://doi.org/10.1016/j.colsurfa.2024.134523."
+    },
+    {
+      "n": 9,
+      "page": 10,
+      "raw": "[9] S. Gui, L. Xiaodong, L. Youzhi, et al., High-efficiency and low-consumption preparation of ultra-thin and high-performance nanotwinned copper foils by highgravity intensified direct current electrodeposition, Chem. Eng. Sci. 296 (2024) 120248, https://doi.org/10.1016/j.ces.2024.120248."
+    },
+    {
+      "n": 10,
+      "page": 10,
+      "raw": "[10] Z. Ran, Y. Sen, Q. Shuiping, et al., Effects of DPS on surface roughness and mechanical properties of electrodeposited copper foils, Cystal. Res. Technol. 58 (2023) 2200260, https://doi.org/10.1002/crat.202200260."
+    },
+    {
+      "n": 11,
+      "page": 10,
+      "raw": "[11] X. Yan, S. Wan-chang, B. Zhong-bo, et al., Effect of additives on microstructure and properties of the coarsened layer of very low profile (HVLP) copper foil, J. Appl. Electrochem. 53 (2023) 2331 2346, https://doi.org/10.1007/s10800-023-01930- y."
+    },
+    {
+      "n": 12,
+      "page": 10,
+      "raw": "[12] P.W. Shao, X.W. Kun, W. Wei, et al., Enhancing surface roughness and tensile strength of electrodeposited copper foils by composite additives, Phys. Status Solid (A) 219 (5) (2022) 2100735, https://doi.org/10.1002/pssa.202100735."
+    },
+    {
+      "n": 13,
+      "page": 10,
+      "raw": "[13] B. Zhang, W.C. Sun, E.Y. Liu, et al., Influences of composite additives and technological parameters on the microstructure and properties of electrolytic copper foil, Mater. Sci. Eng. Technol. 56 (2025) 235–250, https://doi.org 10.1002/mawe.202400186."
+    },
+    {
+      "n": 14,
+      "page": 10,
+      "raw": "[14] Y.X. Luo, J.J. Wang, L. Wang, et al., Effect of saccharin on crystallization behavior of electroless cobalt plating, J. Electrochem. 31 (8) (2025) 2412231, https://doi. org/10.61558/2993-074X.3533."
+    },
+    {
+      "n": 15,
+      "page": 10,
+      "raw": "[15] L. Yaqiang, M. Xiaochuan, L. Chengzhi, et al., Investigation of novel suppressor nitrotetrazolium blue chloride on cobalt superconformal growth, J. Manuf. Process. 101 (2023) 15–24, https://doi.org/10.1016/j.jmapro.2023.05.059."
+    },
+    {
+      "n": 16,
+      "page": 10,
+      "raw": "[16] T.M.T. Huynh, N.T.M. Hai, P. Broekmann, Quasi-reversible interaction of MPS and chloride on Cu (100) studied by In situ STM, J. Electrochem. Soc. 160 (12) (2013) D3063–D3069, https://doi.org/10.1149/2.012312jes"
+    },
+    {
+      "n": 17,
+      "page": 10,
+      "raw": "[17] L. Yaqiang, P. Xuesong, L. Ruopeng, et al., Insight into leveler basic blue 7 towards copper superfilling within microvias, New. J. Chem. 49 (2025) 12079–12089, https://doi.org/10.1039/d5nj02092a."
+    },
+    {
+      "n": 18,
+      "page": 10,
+      "raw": "[18] L. Mingjie, P. Xuesong, J. Jie, et al., Filling performance of an acid blue 1 leveler on blind microvias, New. J. Chem. 49 (2025) 4538–4546, https://doi.org/10.1039/ d4nj05470a."
+    },
+    {
+      "n": 19,
+      "page": 10,
+      "raw": "[19] C.G. Guymon, J.N. Harb, R.L. Rowley, et al., MPSA effects on copper electrodeposition investigated by molecular dynamics simulations, J. Chem. Phys. 128 (2008) 044717, https://doi.org/10.1063/1.2824928."
+    },
+    {
+      "n": 20,
+      "page": 10,
+      "raw": "[20] N.T.M. Hai, T.T.M. Huynh, A. Fluegel, et al., Competitive anion/anion interactions on copper surfaces relevant for Damascene electroplating, Electrochim. Acta 70 (2012) 286–295, https://doi.org/10.1016/j.electacta.2012.03.054."
+    },
+    {
+      "n": 21,
+      "page": 10,
+      "raw": "[21] L. Yaqiang, L. Lijuan, W. Qifeng, et al., Highly selective separation of acetic acid and hydrochloric acid by alkylamide based on double hydrogen bond coupling mechanism, Sep. Purif. Technol. 275 (2021) 119110, https://doi.org/10.1016/j. seppur.2021.119110."
+    },
+    {
+      "n": 22,
+      "page": 10,
+      "raw": "[22] W. Humphrey, A. Dalke, K. Schulten, VMD: visual molecular dynamics, J. Mol. Graph. 14 (1) (1996) 33 38, https://doi.org/10.1016/0263-7855(96)00018-5."
+    },
+    {
+      "n": 23,
+      "page": 10,
+      "raw": "[23] T. Lu, F. Chen, Multiwfn: a multifunctional wavefunction analyzer, J. Comput. Chem. 33 (5) (2012) 580–592, https://doi.org/10.1002/jcc.22885."
+    },
+    {
+      "n": 24,
+      "page": 10,
+      "raw": "[24] G. Kresse, J. Furthmiiller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set, Comput. Mater. Sci. 6 (1) (1996) 15–50, https://doi.org/10.1016/0927-0256(96)00008-0."
+    },
+    {
+      "n": 25,
+      "page": 10,
+      "raw": "[25] G. Kresse, J. Furthmiiller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B 54 (16) (1996) 11169–11186, https://doi.org/10.1103/PhysRevB.54.11169."
+    },
+    {
+      "n": 26,
+      "page": 10,
+      "raw": "[26] L. Yaqiang, R. Penghui, Y. Zhang, et al., The influence of leveler Brilliant Green on copper superconformal electroplating based on electrochemical and theoretical study, J. Ind. Eng. Chem. 118 (2023) 78–90, https://doi.org/10.1016/j. jiec.2022.10.047."
+    },
+    {
+      "n": 27,
+      "page": 10,
+      "raw": "[27] L. Mingjie, L. Xin, P. Xuesong, et al., Investigation of novel brightener acid blue 1 on copper electroplating coating, Ion 31 (2025) 1061–1075, https://doi.org/ 10.1007/s11581-024-05930-6."
+    },
+    {
+      "n": 28,
+      "page": 10,
+      "raw": "[28] L. Yaqiang, L. Chengzhi, L. Ruopeng, et al., Experimental and theoretical study of the new leveler basic blue 1 during copper superconformal growth, ACS. Appl. Mater. Interfaces. 15 (2023) 47628–47639, https://doi.org/10.1021/ acsami.3c06567."
+    },
+    {
+      "n": 29,
+      "page": 10,
+      "raw": "[29] L. Yaqiang, M. Xiaochuan, L. Ruopeng, et al., Suppressing-accelerating effect of nitrotetrazolium Blue chloride in boosting superconformal cobalt filling, J. Electroanal. Chem. 945 (2023) 117671, https://doi.org/10.1016/j. jelechem.2023.117671."
+    },
+    {
+      "n": 30,
+      "page": 10,
+      "raw": "[30] C. Youchi, X. Shuzhou, J. Jie, et al., Deciphering the role of chromotrope 2R in conformal copper electrodeposition and microstructural control for PCB through-"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "hole metallization, Electrochim. Acta 550 (2026) 148106, https://doi.org 10.1016/j.electacta.2025.148106."
+    },
+    {
+      "n": 31,
+      "page": 10,
+      "raw": "[31] P. Xuesong, J. Jie, W. Xinrui, et al., Substrate engineering for high-performance ultrathin copper foils: unveiling the electronic-geometric synergy of low-rangeorder Ni-W alloys, Adv. Funct. Mater. 36 (39) (2026) e74586, https://doi.org 10.1002/adfm.74586."
+    },
+    {
+      "n": 32,
+      "page": 10,
+      "raw": "[32] B. Scharifker, G. Hills, Theoretical and experimental studies of multiple nucleation, Electrochim. Acta 28 (1983) 879–889, https://doi.org/10.1016/0013-4686(83) 85163-9."
+    },
+    {
+      "n": 33,
+      "page": 10,
+      "raw": "[33] G. Gunawardena, G. Hills, I. Montenegro, et al., Electrochemical nucleation: part I. General considerations, J. Electroanal. Chem. 138 (1982) 225–239, https://doi. org/10.1016/0022-0728(82)85080-8."
+    },
+    {
+      "n": 34,
+      "page": 10,
+      "raw": "[34] P. Xuesong, Z. Xu, J. Jie, et al., Theoretical research and application of additive DPS in the electrochemical microroughening layer of copper foil, Langmuir 41 (2025) 6081–6091, https://doi.org/10.1021/acs.langmuir.4c04932."
+    },
+    {
+      "n": 35,
+      "page": 10,
+      "raw": "[35] Z. Vivian Feng, X. Li, A.A Gewirth, Inhibition due to the interaction of polyethylene glycol, chloride, and copper in plating baths: a surface-enhanced Raman study, J. Phys. Chem. B 107 (2003) 9415–9423, https://doi.org/10.1021/jp034875m"
+    },
+    {
+      "n": 36,
+      "page": 10,
+      "raw": "[36] M. Linghui, J. Jiang, P. Xuesong, et al., Theoretical and experimental study of functional additives in Au(I) DMH cyanide-free gold electroplating system, Langmuir 41 (2025) 20683–20696, https://doi.org/10.1021/acs. langmuir.5c02124."
+    },
+    {
+      "n": 37,
+      "page": 10,
+      "raw": "[37] E.V. Bartashevich, D.K. Nikulov, M.V. Vener, et al., QTAIMC study of the X-H/HO bond order indices (X = O, N, C) in molecular systems, Comput. Theor. Chem. 973 (2011) 33–39, https://doi.org/10.1016/j.comptc.2011.06.025."
+    },
+    {
+      "n": 38,
+      "page": 10,
+      "raw": "[38] R. Yiming, T. Hao, S. Lang, et al., Theoretical study on complexation of U(VI) with ODA, IDA and TDA based on density functional theory, RSC Adv. 6 (6) (2016) 46467–46474, https://doi.org/10.1039/C6RA05382C."
+    },
+    {
+      "n": 39,
+      "page": 10,
+      "raw": "[39] L.J. Ren, G.M. Li, Z.X. Zhu, et al., Numerical simulation of the pitting corrosion behavior of stainless steel bellows influenced by varying liquid film thicknesses, J. Electrochem. 31 (7) (2025) 2502161, https://doi.org/10.61558/2993- 074X.3539."
+    },
+    {
+      "n": 40,
+      "page": 10,
+      "raw": "[40] M.A. Orekhov, Improving molecular dynamics calculation of diffusivity in liquids with theoretical models, J. Mol. Liq. 322 (2021) 114554, https://doi.org/10.1016 j.molliq.2020.114554."
+    },
+    {
+      "n": 41,
+      "page": 10,
+      "raw": "[41] B. Lindsay, L. Uziel, Additives Co-injection: a test for determining the efficacy and process parameters of bottom-up plating, J. Electrochem. Soc. 163 (7) (2016) D314–D321, https://doi.org/10.1149/2.0971607jes."
+    },
+    {
+      "n": 42,
+      "page": 10,
+      "raw": "[42] Y. Liu, R. Aleksandar, D. Johan, et al., Modeling the bottom-up filling of through silicon vias through suppressor adsorption/desorption mechanism, J. Electrochem. Soc. 160 (12) (2013) D3051–D3056, https://doi.org/10.1149/2.010312jes."
+    },
+    {
+      "n": 43,
+      "page": 10,
+      "raw": "[43] S. Kondo, T. Miura, Reaction-diffusion model as a framework for understanding biological pattern formation, Science 329 (2010) 1616–1620, https://doi.org/ 10.1126/science.1179047."
+    },
+    {
+      "n": 44,
+      "page": 10,
+      "raw": "[44] Z. Tan, S. Chen, X. Peng, L. Zhang, C. Gao, Polyamide membranes with nanoscale turing structures for water purification, Science 360 (2018) 518–521, https://doi. org/10.1126/science.aar6308."
+    },
+    {
+      "n": 45,
+      "page": 10,
+      "raw": "[45] J. Lin, L. Zhu, X. Peng, et al., Enhancing corrosion resistance of electrodeposited Ni-P alloy coatings vias glycine-modified, Surf. Coat. Technol. 533 (2026) 133640, https://doi.org/10.1016/j.surfcoat.2026.133640."
+    },
+    {
+      "n": 46,
+      "page": 10,
+      "raw": "[46] X. Peng, F. Meng, J. Jiang, et al., Electrodeposition of low ordered Ni-W as a release layer for ultrathin Cu foils: experimental and theoretical insights, Appl. Surf. Sci. 718 (2026) 164968, https://doi.org/10.1016/j.apsusc.2025.164968."
+    },
+    {
+      "n": 47,
+      "page": 10,
+      "raw": "[47] L. Linbo, C. Jiawen, S. Xixun, Influence of annealing temperature on microstructure and mechanical properties of nanocrystalline copper, Mater. Mech. Eng. 46 (8) (2022) 22–27, https://doi.org/10.11973/jxgccl202208004."
+    },
+    {
+      "n": 48,
+      "page": 10,
+      "raw": "[48] Z. Shichao, J. Tao, B. Zhiming, et al., Preferred orientation of electrolytic copper foil, J. Beijing Univ. Aeronaut. Astronaut. 30 (10) (2004) 1008–1012, https://doi. org/10.13700/j.bh.1001-5965.2004.10.022."
+    },
+    {
+      "n": 49,
+      "page": 10,
+      "raw": "[49] P. Chuan, Z. Yuehui, C. Xianming, et al., Structure performance correlation of N heterocyclic oligomer leveler for acid copper plating of advanced interconnects, Molecules 28 (2023) 2783, https://doi.org/10.3390/molecules28062783."
+    },
+    {
+      "n": 50,
+      "page": 10,
+      "raw": "[50] L.L. Lu, H.T. Liu, Z.D. Wang, et al., Advances in electrolytic copper foils: fabrication, microstructure, and mechanical properties, Rare Met. 44 (2) (2025) 757–792, https://doi.org/10.1007/s12598-024-02965-6."
+    },
+    {
+      "n": 51,
+      "page": 10,
+      "raw": "[51] R. Zheng, J.P. Du, S. Gao, et al., Transition of dominant deformation mode in bulk polycrystalline pure Mg by ultra-grain refinement down to sub-micrometer, Acta Mater. 198 (2020) 35 46, https://doi.org/10.1016/j.actamat.2020.07.055."
+    },
+    {
+      "n": 52,
+      "page": 10,
+      "raw": "[52] W. Sang, L. Ma, M. Ji, Effect of grain size on tensile properties at different temperatures of 304L stainless steel, Mater. Mech. Eng. 93 (2) (2014) 10–23, https://doi.org/10.1016/j.matchar.2014.03.013."
+    }
+  ]
+}

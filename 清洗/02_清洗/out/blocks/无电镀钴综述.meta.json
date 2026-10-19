@@ -1,0 +1,841 @@
+{
+  "doc_id": "无电镀钴综述",
+  "title": "Unveiling the Potential of Electroless Cobalt Deposition: A Review",
+  "doi": "10.1007/s13369-025-10584-1",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 22,
+  "printed_page_map": {},
+  "references": [
+    {
+      "n": 1,
+      "page": 17,
+      "raw": "1. Brenner, A.; Riddell, G.E.: Nickel plating on steel by chemical reduction. J. Res. Natl. Bur. Stand. 37, 31 (1934). https://doi.org/ 10.6028/jres.037.019"
+    },
+    {
+      "n": 2,
+      "page": 17,
+      "raw": "2. Rhoda, R.N.: Electroless palladium plating. Trans. IMF. 36, 82–85 (1959). https://doi.org/10.1080/00202967.1959.11869775"
+    },
+    {
+      "n": 3,
+      "page": 17,
+      "raw": "3. Sullivan, M.V.; Eigler, J.H.: Electroless nickel plating for making ohmic contacts to silicon. J. Electrochem. Soc. 104, 226 (1957). https://doi.org/10.1149/1.2428541"
+    },
+    {
+      "n": 4,
+      "page": 17,
+      "raw": "4. Kohn, A.; Eizenberg, M.; Shacham-Diamand, Y.: Copper grain boundary diffusion in electroless deposited cobalt based films and its influence on diffusion barrier integrity for copper metallization. J. Appl. Phys. 94, 3015–3024 (2003). https://doi.org/10.1063/1.1598635"
+    },
+    {
+      "n": 5,
+      "page": 17,
+      "raw": "5. Magagnin, L.; Sirtori, V.; Seregni, S.; Origo, A.; Cavallotti, P.L.: Electroless Co–P for diffusion barrier in Pb-free soldering. Electrochim. Acta 50, 4621–4625 (2005). https://doi.org/10.1016/j.el ectacta.2004.10.098"
+    },
+    {
+      "n": 6,
+      "page": 17,
+      "raw": "6. Simpson, D.E.; Johnson, C.A.; Roy, D.: Pulsed galvanostatic electrodeposition of copper on cobalt using a pH-neutral plating bath and electroless seeds. J. Electrochem. Soc. 166. D3142–D3154 (2019). https://doi.org/10.1149/2.0171901jes"
+    },
+    {
+      "n": 7,
+      "page": 17,
+      "raw": "7. Dubin, V.M.; Lopatin, S.; Kohn, A.; Petrov, N.; Elzenberg, M.; Shacham-Diamand, Y.: Electroless barrier and seed layers for onchip metallization. In: Datta, M.; Osaka, T. (Eds.) Microelectronic Packaging, pp. 65–110. CRC Press, USA (2004)"
+    },
+    {
+      "n": 8,
+      "page": 17,
+      "raw": "8. Osaka, T.; Koiwa, I.; Okabe, Y.; Yamanishi, K.: Correlation between magnetic properties and composition of electrolessplated cobalt alloy films for perpendicular magnetic recording media. Jpn. J. Appl. Phys. 26, 1674 (1987). https://doi.org/10.1143/JJAP.26.1674"
+    },
+    {
+      "n": 9,
+      "page": 17,
+      "raw": "9. Chen, T.; Rogowski, D.A.; White, R.M.: Microstructure and magnetic properties ofelectroless Co-P thin films grown on an aluminum base disk substrate. J. Appl. Phys. 49, 1816–1818 (1978). https://doi.org/10.1063/1.324822"
+    },
+    {
+      "n": 10,
+      "page": 17,
+      "raw": "10. Stern, A.H.: A quantitative assessment of the carcinogenicity of hexavalent chromium by the oral route and its relevance to human exposure. Environ. Res. 110, 798–807 (2010). https://doi.org/10.1016/j.envres.2010.08.002"
+    },
+    {
+      "n": 11,
+      "page": 17,
+      "raw": "11. Theeratatpong, K.; Danchaivijit, S.; Boonyongmaneerat, Y.: Effects of Co content and heat treatment on mechanical properties of electrolessly deposited Ni-Co-P alloys. Surf. Interface Anal. 46, 276–282 (2014). https://doi.org/10.1002/sia.5410"
+    },
+    {
+      "n": 12,
+      "page": 17,
+      "raw": "12. Weston, D.P.; Shipway, P.H.; Harris, S.J.; Cheng, M.K.: Friction and sliding wear behaviour of electrodeposited cobalt and cobalt–tungsten alloy coatings for replacement of electrodeposited chromium. Wear 267, 934–943 (2009). https://doi.org 10.1016/j.wear.2009.01.006"
+    },
+    {
+      "n": 13,
+      "page": 17,
+      "raw": "13. Chakraborti, A.; Das, S.K.; Sahoo, P.: Impact of progressive Co incorporation on mechanical and tribological performance of electroless Ni-Co-P films obtained from acidic bath. Surf. Coat. Technol. 513, 132536 (2025). https://doi.org/10.1016/j.surfcoat. 2025.132536"
+    },
+    {
+      "n": 14,
+      "page": 17,
+      "raw": "14. Seifzadeh, D.; Farhoudi, L.: Electroless Co–P plating on magnesium alloy and its anti-corrosion properties. Surf. Eng. 32, 348–355 (2016). https://doi.org/10.1179/1743294415Y.000000 0034"
+    },
+    {
+      "n": 15,
+      "page": 17,
+      "raw": "15. Chakraborti, A.; Das, S.K.; Sahoo, P.: Tailoring the tribomechanical and corrosion behavior of reverse pulse deposited Ni–Co–P coating through cobalt content modulation. J. Tribol. (2025). https://doi.org/10.1115/1.4067283"
+    },
+    {
+      "n": 16,
+      "page": 17,
+      "raw": "16. Tierno, P.; Goedel, W.A.: Using electroless deposition for the preparation ofmicron sized polymer/metal core/shell particles and hollow metal spheres. J. Phys. Chem. B 110, 3043–3050 (2006). https://doi.org/10.1021/jp054213s"
+    },
+    {
+      "n": 17,
+      "page": 17,
+      "raw": "17. Zhou, R.; Chen, H.; Liu, G.; Zhao, G.; Liu, Y.: Conductive and magnetic glass microsphere/cobalt composites prepared via an electroless plating route. Mater. Lett. 112, 97–100 (2013). https:// doi.org/10.1016/j.matlet.2013.08.127"
+    },
+    {
+      "n": 18,
+      "page": 17,
+      "raw": "18. Balela, M.D.L.; Yagi, S.; Matsubara, E.: Electroless deposition of cobalt nanowires in an aqueous solution under external magnetic field. Electrochem. Solid-State Lett. 14, D68 (2011). https://doi. org/10.1149/1.3568829"
+    },
+    {
+      "n": 19,
+      "page": 17,
+      "raw": "19. Richardson, D.; Kingston, S.; Rhen, F.M.F.: Investigation of the magnetization reversal mechanism of electrolessly deposited Co-B nanotubes. AIP Adv. (2016). https://doi.org/10.1063/1.4943603"
+    },
+    {
+      "n": 20,
+      "page": 17,
+      "raw": "20. Shen, Y.; Li, B.-B.; Ma, Y.; Wang, Z.-L.: Research progress in electroless cobalt plating and the bottom-up filling of electroless plating. J. Electrochem. 28, 2213002 (2022)"
+    },
+    {
+      "n": 21,
+      "page": 17,
+      "raw": "21. Van Den Meerakker, J.E.A.M.: On the mechanism of electroless plating. I. Oxidation of formaldehyde at different electrode surfaces. J. Appl. Electrochem. 11, 387–393 (1981). https://doi.org/ 10.1007/BF00613959"
+    },
+    {
+      "n": 22,
+      "page": 17,
+      "raw": "22. Hwang, B.J.; Lin, S.H.: Reaction mechanism of electroless deposition: observations of morphology evolution during nucleation and growth via tapping mode AFM. J. Electrochem. Soc. 142, 3749–3754 (1995). https://doi.org/10.1149/1.2048408"
+    },
+    {
+      "n": 23,
+      "page": 18,
+      "raw": "23. Brenner, A.; Riddell, G.: Deposition of nickel and cobalt by chemical reduction. J. Res. Natl. Bur. Stand. 39, 385 (1947). https://doi. org/10.6028/jres.039.024"
+    },
+    {
+      "n": 24,
+      "page": 18,
+      "raw": "24. Fisher, R.D.; Chilton, W.H.: Preparation and magnetic characteristics of chemically deposited cobalt for high-density storage. J. Electrochem. Soc. 109, 485 (1962). https://doi.org/10.1149/1.24 25452"
+    },
+    {
+      "n": 25,
+      "page": 18,
+      "raw": "25. Zhao, Y.; Zhang, R.; Zhang, T.; Duan, Y.: Effect of different pretreatments to electroless nickel or cobalt plating on hollow microspheres. Int. J. Mod. Phys. B 24, 2706–2711 (2010). https:// doi.org/10.1142/S0217979210065507"
+    },
+    {
+      "n": 26,
+      "page": 18,
+      "raw": "26. Kuo, L.-C.; Huang, Y.-C.; Lee, C.-L.; Yen, Y.-W.: The activation effect of Pd nanoparticles on electroless nickel–phosphorous deposition. Electrochim. Acta 52, 353–360 (2006). https://doi. org/10.1016/j.electacta.2006.05.017"
+    },
+    {
+      "n": 27,
+      "page": 18,
+      "raw": "27. Schlesinger, M.; Kisel, J.: Effect of Sn(II)-based sensitizer adsorption in electroless deposition. J. Electrochem. Soc. 136, 1658–1661 (1989). https://doi.org/10.1149/1.2096988"
+    },
+    {
+      "n": 28,
+      "page": 18,
+      "raw": "28. Uysal, M.; Karslio˘glu, R.; Alp, A.; Akbulut, H.: The preparation of core–shell Al O /Ni composite powders by electroless plating. Ceram. Int. 39, 5485–5493 (2013). https://doi.org/10.1016/j.cera mint.2012.12.060"
+    },
+    {
+      "n": 29,
+      "page": 18,
+      "raw": "29. Sun, R.D.; Tryk, D.A.; Hashimoto, K.; Fujishima, A.: Formation of catalytic Pd on ZnO thin films for electroless metal deposition. J. Electrochem. Soc. 145, 3378–3382 (1998). https://doi.org/10.1149/1.1838815"
+    },
+    {
+      "n": 30,
+      "page": 18,
+      "raw": "30. Tang, P.; Jiang, S.; Yan, J.; Li, X.: Electroless Ni-P deposition on WC powders through direct PdCl2 activation and study on the underlying mechanisms. Next Mater. 6, 100496 (2025). https:// doi.org/10.1016/j.nxmate.2025.100496"
+    },
+    {
+      "n": 31,
+      "page": 18,
+      "raw": "31. Zhang, X.; Wang, F.; Zhou, Y.; Liang, A.; Zhang, J.: Aluminuminduced direct electroless deposition of Co and Co-P coatings on copper and their catalytic performance for electrochemical water splitting. Surf. Coat. Technol. 352, 42–48 (2018). https://doi.org/ 10.1016/j.surfcoat.2018.07.092"
+    },
+    {
+      "n": 32,
+      "page": 18,
+      "raw": "32. Mukherjee, S.; Ghosh, S.: Investigation of Al-induced electroless cobalt–tin alloy deposition on Cu substrate. J. Mater. Sci. 58, 2334–2346 (2023). https://doi.org/10.1007/s10853-023-08172-5"
+    },
+    {
+      "n": 33,
+      "page": 18,
+      "raw": "33. Hu, G.; Li, R.; Liao, W.; Bai, C.; Zhang, X.; Zhao, Q.; Zhang, J.: Cobalt layer prepared on copper using galvanic replacement as an alternative to palladium for activating electroless Ni–P plating. J. Appl. Electrochem. 55, 395–407 (2025). https://doi.org/10.1007/ s10800-024-02177-x"
+    },
+    {
+      "n": 34,
+      "page": 18,
+      "raw": "34. Judge, J.S.; Morrison, J.R.; Speliotis, D.E.; Bate, G.: Magnetic properties and corrosion behavior of thin electroless Co-P deposits. J. Electrochem. Soc. 112, 681 (1965). https://doi.org/10.1149/1.2423663"
+    },
+    {
+      "n": 35,
+      "page": 18,
+      "raw": "35. Djokic, S.S.: Electroless reduction of cobalt(III): production of cobalt powder. Electrochem. Solid-State Lett. 1, 27 (1999). https:// doi.org/10.1149/1.1390623"
+    },
+    {
+      "n": 36,
+      "page": 18,
+      "raw": "36. Ohno, I.; Wakabayashi, O.; Haruyama, S.: Anodic oxidation of reductants in electroless plating. J. Electrochem. Soc. 132, 2323–2330 (1985). https://doi.org/10.1149/1.2113572"
+    },
+    {
+      "n": 37,
+      "page": 18,
+      "raw": "37. Ohno, I.: Electrochemistry of electroless plating. Mater. Sci. Eng. A 146, 33–49 (1991). https://doi.org/10.1016/0921-5093(91)90 266-P"
+    },
+    {
+      "n": 38,
+      "page": 18,
+      "raw": "38. Tarozait, R.; Kurtinaitien, M.; Dži¯uv, A.; Jusys, Z.: Composition, microstructure and magnetic properties of electrolessplated thin Co–P films. Surf. Coat. Technol. 115, 57–65 (1999). https://doi.org/10.1016/S0257-8972(99)00161-9"
+    },
+    {
+      "n": 39,
+      "page": 18,
+      "raw": "39. Stoychev, D.; Koteva, N.; Stoycheva, M.; Velkova, E.; Dobrev, D.: Electroless deposition of cobalt matrix for co-deposition of high-hard nano-and microparticles. Mat. Bulgaration Sci. Fund Project ID 2(102), 7 (2009)"
+    },
+    {
+      "n": 40,
+      "page": 18,
+      "raw": "40. Miksic, M.G.; Travieso, R.; Arcus, A.; Wright, R.H.: The relationship between coercivity and the structure and composition"
+    },
+    {
+      "n": null,
+      "page": 18,
+      "raw": "of electroless cobalt-phosphorus films. J. Electrochem. Soc. 113, 360 (1966). https://doi.org/10.1149/1.2423961"
+    },
+    {
+      "n": 41,
+      "page": 18,
+      "raw": "41. Frieze, A.S.; Sard, R.; Weil, R.: Some properties of electroless cobalt. J. Electrochem. Soc. 115, 586 (1968). https://doi.org/10.1149/1.2411348"
+    },
+    {
+      "n": 42,
+      "page": 18,
+      "raw": "42. Schlesinger, M.; Meng, X.; Evans, W.T.; Saunders, D.A.; Kampert, W.P.: Micromorphology and magnetic studies of electroless cobalt/phosphorus thin films. J. Electrochem. Soc. 137, 1706–1709 (1990). https://doi.org/10.1149/1.2086774"
+    },
+    {
+      "n": 43,
+      "page": 18,
+      "raw": "43. Cortijo, R.O.; Schlesinger, M.: Structural studies of electroless thin Co-P films. J. Electrochem. Soc. 131, 2800–2803 (1984). https://doi.org/10.1149/1.2115411"
+    },
+    {
+      "n": 44,
+      "page": 18,
+      "raw": "44. Chow, S.L.; Hedgecock, N.E.; Schlesinger, M.; Rezek, J.: Electron microscope study of the nucleation and growth of electroless cobalt and nickel. J. Electrochem. Soc. 119, 1614 (1972). https:// doi.org/10.1149/1.2404059"
+    },
+    {
+      "n": 45,
+      "page": 18,
+      "raw": "45. Jones, G.A.; Middleton, B.K.: The structure of electroless cobalt films as revealed by electron microscopy. J. Mater. Sci. 3, 519–523 (1968). https://doi.org/10.1007/BF00549735"
+    },
+    {
+      "n": 46,
+      "page": 18,
+      "raw": "46. Hono, K.; Laughlin, D.E.: Evidence of phosphorous segregation in grain boundaries in electroless-plated Co-P thin film. J. Magn. Magn. Mater. 80, L137–L141 (1989). https://doi.org/10.1016/0304-8853(89)90107-8"
+    },
+    {
+      "n": 47,
+      "page": 18,
+      "raw": "47. Pearlstein, F.; Weightman, R.F.: Electroless cobalt deposition from acid baths. J. Electrochem. Soc. 121, 1023 (1974). https:// doi.org/10.1149/1.2401971"
+    },
+    {
+      "n": 48,
+      "page": 18,
+      "raw": "48. Saito, T.; Sato, E.; Matsuoka, M.; Iwakura, C.: Electroless deposition of Ni–B, Co–B and Ni–Co–B alloys using dimethylamineborane as a reducing agent. J. Appl. Electrochem. 28, 559–563 (1998). https://doi.org/10.1023/A:1003233715362"
+    },
+    {
+      "n": 49,
+      "page": 18,
+      "raw": "49. Rohan, J.F.; Nagle, L.C.; Loughlin, A.: Electroless cobalt deposition from ammonia borane solutions. ECS Trans. 2, 51–59 (2007). https://doi.org/10.1149/1.2408863"
+    },
+    {
+      "n": 50,
+      "page": 18,
+      "raw": "50. Nakano, H.; Itabashi, T.; Akahoshi, H.: Electroless deposited cobalt-tungsten-boron capping barrier metal on Damascene copper interconnection. J. Electrochem. Soc. 152. C163 (2005). https://doi.org/10.1149/1.1860512"
+    },
+    {
+      "n": 51,
+      "page": 18,
+      "raw": "51. Tarozait˙e, R.; Sudaviˇcius, A.; Sukackien˙e, Z.; Norkus, E.: Electroless cobalt deposition from a glycinate solution using morpholine borane as a reducing agent. Trans. IMF 92, 146–152 (2014). https://doi.org/10.1179/0020296714Z.000000000172"
+    },
+    {
+      "n": 52,
+      "page": 18,
+      "raw": "52. Dai, H.-B.; Liang, Y.; Wang, P.; Cheng, H.-M.: Amorphous cobalt–boron/nickel foam as an effective catalyst for hydrogen generation from alkaline sodium borohydride solution. J. Power. Sources 177, 17–23 (2008). https://doi.org/10.1016/j.jpowsour. 2007.11.023"
+    },
+    {
+      "n": 53,
+      "page": 18,
+      "raw": "53. Dai, H.-B.; Gao, L.-L.; Liang, Y.; Kang, X.-D.; Wang, P.: Promoted hydrogen generation from ammonia borane aqueous solution using cobalt–molybdenum–boron/nickel foam catalyst. J. Power. Sources 195, 307–312 (2010). https://doi.org/10.1016 j.jpowsour.2009.06.094"
+    },
+    {
+      "n": 54,
+      "page": 18,
+      "raw": "54. Djoki´c, S.S.: Electroless deposition of cobalt using hydrazine as a reducing agent. J. Electrochem. Soc. 144, 2358–2363 (1997). https://doi.org/10.1149/1.1837818"
+    },
+    {
+      "n": 55,
+      "page": 18,
+      "raw": "55. Cheng, S.L.; Hsu, T.L.; Lee, T.; Lee, S.W.; Hu, J.C.; Chen, L.T.: Characterization and kinetic investigation of electroless deposition of pure cobalt thin films on silicon substrates. Appl. Surf. Sci. 264, 732–736 (2013). https://doi.org/10.1016/j.apsusc.2012.10.111"
+    },
+    {
+      "n": 56,
+      "page": 18,
+      "raw": "56. Muench, F.: Electroless plating of metal nanomaterials. Chem-ElectroChem 8, 2993–3012 (2021). https://doi.org/10.1002/celc. 202100285"
+    },
+    {
+      "n": 57,
+      "page": 18,
+      "raw": "57. Homma, T.; Saito, K.; Osaka, T.: Electroless cobalt alloy perpendicular anisotropy films plated from a simplified malonate bath. Jpn. J. Appl. Phys. 29, 1701 (1990). https://doi.org/10.1143/JJAP. 29.1701"
+    },
+    {
+      "n": 58,
+      "page": 19,
+      "raw": "58. Wu, X.C.; Bittner, A.M.; Kern, K.: Spatially selective electroless deposition of cobalt on oxide surfaces directed by microcontact printing of dendrimers. Langmuir 18, 4984–4988 (2002). https:// doi.org/10.1021/la0200764"
+    },
+    {
+      "n": 59,
+      "page": 19,
+      "raw": "59. Zyulkov, I.; Armini, S.; Opsomer, K.; Detavernier, C.; De Gendt, S.: Selective electroless deposition of cobalt using aminoterminated SAMs. J. Mater. Chem. C 7, 4392–4402 (2019). https:// doi.org/10.1039/C9TC00145J"
+    },
+    {
+      "n": 60,
+      "page": 19,
+      "raw": "60. Stankeviˇcien˙e, I.; Jagminien˙e, A.; Tamašauskait˙e-Tamaši¯unait˙e, L.; Sukackien˙e, Z.; Gedvilas, M.; Norkus, E.: Investigation of electroless deposition of cobalt films by EQCM in the presence of different amines. Mater. Sci. Eng. B 241, 9–12 (2019). https:// doi.org/10.1016/j.mseb.2019.02.004"
+    },
+    {
+      "n": 61,
+      "page": 19,
+      "raw": "61. Alberts, G.S.; Wright, R.H.; Parker, C.C.: Effect of NH on deposition from alkaline electroless nickel and cobalt plating baths. J. Electrochem. Soc. 113, 687 (1966). https://doi.org/10.1149/1.24 24091"
+    },
+    {
+      "n": 62,
+      "page": 19,
+      "raw": "62. Toda, A.; Chivavibul, P.; Enoki, M.: Effects of plating conditions on electroless Ni-Co-P coating prepared from lactate-citrateammonia solution. Mater. Trans. 54, 337–343 (2013). https://doi. org/10.2320/matertrans.M2012292"
+    },
+    {
+      "n": 63,
+      "page": 19,
+      "raw": "63. Matsuda, H.; Takano, O.: The effect of dissolved oxygen on the deposition process in electroless cobalt plating. J. Appl. Electrochem. (1993). https://doi.org/10.1007/BF00241906"
+    },
+    {
+      "n": 64,
+      "page": 19,
+      "raw": "64. Matsuda, H.; Takano, O.: Influence of ultrasonic radiation on electroless cobalt phosphorus deposition. Trans. IMF. 71, 138–141 (1993). https://doi.org/10.1080/00202967.1993.11871007"
+    },
+    {
+      "n": 65,
+      "page": 19,
+      "raw": "65. Yu, Y.; Wei, G.; Ge, H.; Gao, Y.; Zhao, Z.; Jiang, L.: Preparation of co–W–P magnetic thin films by electroless deposition. Surf. Rev. Lett. 16, 635–642 (2009). https://doi.org/10.1142/S0218625 X09012950"
+    },
+    {
+      "n": 66,
+      "page": 19,
+      "raw": "66. Kivel, J.; Sallo, J.S.: The effect of thiourea on alkaline electroless deposition. J. Electrochem. Soc. 112, 1201 (1965). https://doi.org/ 10.1149/1.2423399"
+    },
+    {
+      "n": 67,
+      "page": 19,
+      "raw": "67. EL Haloui, A.; Driouch, M.; EL Assiri, E.H.; Sfaira, M.; Ebn Touhami, M.: Zarrouk. A.: Investigation of the effect of MoO₄²– and Co 2+ up on electroless Ni–Mo–P and Ni–Co–P alloys in acidic solution using tyrosine as stabilizer: characterization and electrochemical study. Arab. J. Sci. Eng. 47, 7157–7169 (2022). https:// doi.org/10.1007/s13369-022-06703-x"
+    },
+    {
+      "n": 68,
+      "page": 19,
+      "raw": "68. Rudnik, E.; Gorgosz, J.: The influence of maleic acid on the Co–P electroless deposition. Surf. Coat. Technol. 201, 6953–6959 (2007). https://doi.org/10.1016/j.surfcoat.2006.12.025"
+    },
+    {
+      "n": 69,
+      "page": 19,
+      "raw": "69. Ribeiro, M.C.; Frank, A.C.; Sumodjo, P.T.A.: The influence of ammonia on the electroless deposition ofCoB alloys from alkaline citrate containing baths. Electrochim. Acta 147, 752–757 (2014). https://doi.org/10.1016/j.electacta.2014.10.009"
+    },
+    {
+      "n": 70,
+      "page": 19,
+      "raw": "70. Chakarova, V.; Georgieva, M.; Petrova, M.; Dobreva, E.; Stoychev, D.: Electroless deposition and investigation of composite coatings based on nickel or cobalt matrix, including boron nitrides as dispersoids, on polyethylene terephthalate substrate. Trans. IMF 94, 259–264 (2016). https://doi.org/10.1080/0020 2967.2016.1208386"
+    },
+    {
+      "n": 71,
+      "page": 19,
+      "raw": "71. Osaka, T.; Nagasaka, H.; Goto, F.: Effects of activation and acceleration on magnetic properties of chemically deposited Co-P thin films. J. Electrochem. Soc. 128, 1686–1691 (1981). https://doi. org/10.1149/1.2127711"
+    },
+    {
+      "n": 72,
+      "page": 19,
+      "raw": "72. Shen, Y.; Guo, J.; Wang, L.; Han, H.; Ma, Y.; Xin, B.; Wang, Z.: Acceleration mechanism of triethanolamine in electroless bath for pure cobalt deposition. J. Electrochem. Soc. 170, 112503 (2023). https://doi.org/10.1149/1945-7111/ad0a74"
+    },
+    {
+      "n": 73,
+      "page": 19,
+      "raw": "73. Dadvand, N.; Jarjoura, G.; Kipouros, G.J.: Preparation and characterization of Co–Fe–B thin films produced by electroless deposition. J. Mater. Sci. Mater. Electron. 19, 51–59 (2008). https://doi.org/10.1007/s10854-007-9341-2"
+    },
+    {
+      "n": 74,
+      "page": 19,
+      "raw": "74. Balela, M.D.L.; Yagi, S.; Matsubara, E.: Room-temperature synthesis of cobalt nanoparticles by electroless deposition in aqueous solution. Electrochem. Solid-State Lett. 13, D4 (2010). https://doi. org/10.1149/1.3265525"
+    },
+    {
+      "n": 75,
+      "page": 19,
+      "raw": "75. Rahaman, A.; Kar, K.K.: Effect ofcoating time and temperature on electroless deposition ofcobalt-phosphorous for the growth ofcarbon nanotubes on the surface of E-glass fibers/fabric. Fullerenes Nanotub. Carbon Nanostruct. 19, 373–397 (2011). https://doi.org/ 10.1080/15363831003722797"
+    },
+    {
+      "n": 76,
+      "page": 19,
+      "raw": "76. Rudnik, E.; Skrzyniarz, P.: Influence of temperature on electroless deposition of Co–P. Trans. IMF. 85, 82–86 (2007). https://doi.org/ 10.1179/174591907X177723"
+    },
+    {
+      "n": 77,
+      "page": 19,
+      "raw": "77. Liu, W.L.; Hsieh, S.H.; Tsai, T.K.; Chen, W.J.: Growth kinetics of electroless cobalt deposition by TEM. J. Electrochem. Soc. 151, C680 (2004). https://doi.org/10.1149/1.1793691"
+    },
+    {
+      "n": 78,
+      "page": 19,
+      "raw": "78. Nicholson, E.L.; Khan, M.R.: Microstructure and magnetic properties of electroless plated Co-Ni-P and Co-P thin films for magnetic recording. J. Electrochem. Soc. 133, 2342–2345 (1986). https://doi.org/10.1149/1.2108404"
+    },
+    {
+      "n": 79,
+      "page": 19,
+      "raw": "79. Hu, B.; Sun, R.; Yu, G.; Liu, L.; Xie, Z.; He, X.; Zhang, X.: Effect of bath pH and stabilizer on electroless nickel plating of magnesium alloys. Surf. Coat. Technol. 228, 84–91 (2013). https://doi. org/10.1016/j.surfcoat.2013.04.011"
+    },
+    {
+      "n": 80,
+      "page": 19,
+      "raw": "80. Paunovic, M.; Nguyen, T.; Mukherjee, R.; Sambucetti, C.; Romankiw, L.T.: Empirical modeling and response surfaces for electroless Co deposition process. J. Electrochem. Soc. 142, 1495–1500 (1995). https://doi.org/10.1149/1.2048603"
+    },
+    {
+      "n": 81,
+      "page": 19,
+      "raw": "81. Yu, Y.D.; Li, M.G.; Wei, G.Y.; Ge, H.L.: Effects of pH values on electroless deposition of CoP films. Surf. Eng. 29, 767–771 (2013). https://doi.org/10.1179/1743294413Y.0000000196"
+    },
+    {
+      "n": 82,
+      "page": 19,
+      "raw": "82. Cobley, A.J.; Mason, T.J.; Saez, V.: Review of effect of ultrasound on electroless plating processes. Trans. IMF. 89, 303–309 (2011). https://doi.org/10.1179/174591911X13170500147670"
+    },
+    {
+      "n": 83,
+      "page": 19,
+      "raw": "83. Lin, C.C.; Chuang, C.C.; Li, X.H.; Chin, T.S.; Chang, J.Y.; Sung, C.K.; Wang, S.C.: Ultrasound-assisted electroless deposition of Co-P hard magnetic films. Surf. Coat. Technol. 388, 125577 (2020). https://doi.org/10.1016/j.surfcoat.2020.125577"
+    },
+    {
+      "n": 84,
+      "page": 19,
+      "raw": "84. Touyeras, F.; Hihn, J.Y.; Delalande, S.; Viennet, R.; Doche, M.L.: Ultrasound influence on the activation step before electroless coating. Ultrason. Sonochem. 10, 363–368 (2003). https://doi.org/10.1016/S1350-4177(03)00098-1"
+    },
+    {
+      "n": 85,
+      "page": 19,
+      "raw": "85. Yu, Y.; Song, Z.; Ge, H.; Wei, G.: Preparation of CoP films by ultrasonic electroless deposition at low initial temperature. Prog. Nat. Sci. Mater. Int. 24, 232–238 (2014). https://doi.org/10.1016 j.pnsc.2014.04.004"
+    },
+    {
+      "n": 86,
+      "page": 19,
+      "raw": "86. Kim, T.H.; Dulal, S.M.S.I.; Park, C.H.; Chae, H.; Kim, C.-K.: Optimisation of process parameters for electroless plating of Co–W–P capping layers from an alkali-metal-free bath. Surf. Coat. Technol. 202, 4861–4867 (2008). https://doi.org/10.1016/j. surfcoat.2008.04.077"
+    },
+    {
+      "n": 87,
+      "page": 19,
+      "raw": "87. Kalu, E.E.: Aging effects of electroless cobalt bath on microstructure & magnetic properties of Co-P films. Plat. Surf. Finish. 85, 74–78 (1998)"
+    },
+    {
+      "n": 88,
+      "page": 19,
+      "raw": "88. Pearlstein, F.; Weightman, R.F.: Electroless deposition of nickel and cobalt based alloys. Electrochem. Technol. 6, 427–430 (1968)"
+    },
+    {
+      "n": 89,
+      "page": 19,
+      "raw": "89. Yagi, S.; Kawamori, M.; Matsubara, E.: Electrochemical study on the synthesis process of Co–Ni alloy nanoparticles via electroless deposition. J. Electrochem. Soc. 157, E92 (2010). https://doi.org 10.1149/1.3352893"
+    },
+    {
+      "n": 90,
+      "page": 19,
+      "raw": "90. Duhin, A.; Inberg, A.; Eliaz, N.; Gileadi, E.: Electroless plating of rhenium-based alloys with nickel, cobalt and iron. Electrochim. Acta 174, 660–666 (2015). https://doi.org/10.1016/j.electacta. 2015.06.033"
+    },
+    {
+      "n": 91,
+      "page": 19,
+      "raw": "91. Zhang, H.; Zhao, J.; Liu, F.; Yin, J.; Li, W.; Dai, X.; Zhou, P.; Liu, Y.; Lai, B.: Immobilizing cobalt-iron bimetal on Al2O3 by electroless plating-calcination for peroxymonosulfate activation:"
+    },
+    {
+      "n": null,
+      "page": 20,
+      "raw": "performance, mechanistic and practicality. Chem. Eng. J. 488, 150866 (2024). https://doi.org/10.1016/j.cej.2024.150866"
+    },
+    {
+      "n": 92,
+      "page": 20,
+      "raw": "92. Kim, D.; Aoki, K.; Takano, O.: Soft magnetic films by electroless Ni-Co-P plating. J. Electrochem. Soc. 142, 3763–3767 (1995). https://doi.org/10.1149/1.2048410"
+    },
+    {
+      "n": 93,
+      "page": 20,
+      "raw": "93. Armyanov, S.A.; Sotirova, G.S.: Electroless Co-Ni-P thin films for magnetic recording. J. Electrochem. Soc. 136, 1575–1578 (1989). https://doi.org/10.1149/1.2096967"
+    },
+    {
+      "n": 94,
+      "page": 20,
+      "raw": "94. Sankara Narayanan, T.S.N.; Stephan, A.; Guruskanthan, S.: Electroless Ni–Co–B ternary alloy deposits: preparation and characteristics. Surf. Coat. Technol. 179, 56–62 (2004). https://doi. org/10.1016/S0257-8972(03)00788-6"
+    },
+    {
+      "n": 95,
+      "page": 20,
+      "raw": "95. Xuan, T.; Zhang, L.; Huang, Q.: Crystallization behavior of electroless Co-Ni-B alloy plated in magnetic field in presence of cerium. Trans. Nonferrous Met. Soc. China 16, 363–367 (2006). https://doi.org/10.1016/S1003-6326(06)60062-9"
+    },
+    {
+      "n": 96,
+      "page": 20,
+      "raw": "96. Wang, S.; Zeng, F.: Effect of electroless deposition conditions on the structures and the magnetic performances of the Co-Fe-P alloy. Acta Metallurgica Sinica (English Letters). 19, 307–312 (2006). https://doi.org/10.1016/S1006-7191(06)60060-4"
+    },
+    {
+      "n": 97,
+      "page": 20,
+      "raw": "97. Zheng, Z.X.; Wang, R.; Wang, C.M.: Electroless plating of Co–Zn–P thin film onto nanodiamond cores. Curr. Appl. Phys. 11, 227–230 (2011). https://doi.org/10.1016/j.cap.2010.07.012"
+    },
+    {
+      "n": 98,
+      "page": 20,
+      "raw": "98. Rudnik, E.; Mucha, M.: Electroless deposition of Co–Mo–P alloys. Surf. Eng. 27, 683–689 (2011). https://doi.org/10.1179/ 1743294410Y.0000000023"
+    },
+    {
+      "n": 99,
+      "page": 20,
+      "raw": "99. Valova, E.; Armyanov, S.; Dille, J.; Van Ingelgem, Y.; Hubin, A.; Steenhaut, O.: Electroless deposited Co–Re–P and Co–Re–Ni–P coatings: elemental state of the alloy components and their localization. J. Electrochem. Soc. 155, D449 (2008). https://doi.org/ 10.1149/1.2898862"
+    },
+    {
+      "n": 100,
+      "page": 20,
+      "raw": "100. Krutskikh, V.M.; Drovosekov, A.B.; Gamburg, Y.D.; Aliev, A.D.; Lyakhov, B.F.; Martynenko, V.M.; Shul’ga, Y.M.: Electroless deposition and properties of Co–Re–B alloys. Russ. J. Electrochem. 52, 106–114 (2016). https://doi.org/10.1134/S1023193 516020075"
+    },
+    {
+      "n": 101,
+      "page": 20,
+      "raw": "101. Koiwa, I.; Osaka, T.; Yamazaki, Y.; Namikawa, T.: A study on the crystal growth of electroless plated Co-Ni-Re-P alloy films for perpendicular magnetic recording. IEEE Trans. Magn. 23, 2800–2802 (1987). https://doi.org/10.1109/TMAG.1987.10 65363"
+    },
+    {
+      "n": 102,
+      "page": 20,
+      "raw": "102. Yae, S.; Kanki, T.; Fukumuro, N.; Yamada, Y.; Matsuda, H.: Electroless co-W-Zn-P films having high coercivity and high corrosion resistance. Trans. IMF. 81, 45–47 (2003). https://doi.org/10.1080/ 00202967.2003.11871488"
+    },
+    {
+      "n": 103,
+      "page": 20,
+      "raw": "103. Farr, J.P.G.; Noshani, A.A.: Some properties of electroless Ni-P, Co-P, and Ni-Co-P deposits. Trans. IMF. 74, 221–225 (1996). https://doi.org/10.1080/00202967.1996.11871130"
+    },
+    {
+      "n": 104,
+      "page": 20,
+      "raw": "104. Liu, W.L.; Chen, W.J.; Tsai, T.K.; Hsieh, S.H.; Chang, S.Y.: Effect of nickel on the initial growth behavior of electroless Ni–Co–P alloy on silicon substrate. Appl. Surf. Sci. 253, 3843–3848 (2007). https://doi.org/10.1016/j.apsusc.2006.08.017"
+    },
+    {
+      "n": 105,
+      "page": 20,
+      "raw": "105. Kohn, A.; Eizenberg, M.; Shacham-Diamand, Y.; Sverdlov, Y.: Characterization of electroless deposited Co(W,P) thin films for encapsulation of copper metallization. Mater. Sci. Eng. A 302, 18–25 (2001). https://doi.org/10.1016/S0921-5093(00)01348-4"
+    },
+    {
+      "n": 106,
+      "page": 20,
+      "raw": "106. Sverdlov, Y.; Shacham-Diamand, Y.: Electroless deposition of Co(W) thin films. Microelectron. Eng. 70, 512–518 (2003). https://doi.org/10.1016/S0167-9317(03)00459-3"
+    },
+    {
+      "n": 107,
+      "page": 20,
+      "raw": "107. Shacham-Diamand, Y.; Sverdlov, Y.; Bogush, V.; Ofek-Almog, R.: A surface adsorption model for electroless cobalt alloy thin films. J. Solid State Electrochem. 11.929–938 (2007). https://doi org/10.1007/s10008-007-0285-5"
+    },
+    {
+      "n": 108,
+      "page": 20,
+      "raw": "108. Zhu, L.; Sun, D.; Li, X.; Liu, W.; Huang, J.; Liang, C.; Hu, X.: Electroless plating ofiron-group metals and electrochemical comparison for thermoelectric contacts. Solid State Sci. 154, 107613 (2024). https://doi.org/10.1016/j.solidstatesciences.2024.107613"
+    },
+    {
+      "n": 109,
+      "page": 20,
+      "raw": "109. Balela, M.D.L.; Yagi, S.; Lockman, Z.; Aziz, A.; Amorsolo, A.V.; Matsubara, E.: Electroless deposition of ferromagnetic cobalt nanoparticles in propylene glycol. J. Electrochem. Soc. 156, E139 (2009). https://doi.org/10.1149/1.3169776"
+    },
+    {
+      "n": 110,
+      "page": 20,
+      "raw": "110. Yagi, S.; Kawamori, M.; Matsubara, E.: Electrochemical QCM study of the synthesis process of cobalt nanoparticles via electroless deposition. Electrochem. Solid-State Lett. 13, E1 (2010). https://doi.org/10.1149/1.3269051"
+    },
+    {
+      "n": 111,
+      "page": 20,
+      "raw": "111. Dadvand, N.; Kipouros, G.J.: Electroless fabrication of cobalt alloys nanowires within alumina template. J. Nanomater. 2007, 1–6 (2007). https://doi.org/10.1155/2007/46919"
+    },
+    {
+      "n": 112,
+      "page": 20,
+      "raw": "112. Wang, W.; Li, N.; Li, X.; Geng, W.; Qiu, S.: Synthesis of metallic nanotube arrays in porous anodic aluminum oxide template through electroless deposition. Mater. Res. Bull. 41, 1417–1423 (2006). https://doi.org/10.1016/j.materresbull.2006.02.011"
+    },
+    {
+      "n": 113,
+      "page": 20,
+      "raw": "113. Gavasheli, T.A.; Mamniashvili, G.I.; Shermadini, Z.G.; Zedginidze, T.I.; Petriashvili, T.G.; Gegeckori, T.O.; Janjalia, M.V.: Investigation of the pinning and mobility of domain walls in cobalt micro- and nanowires by the nuclear spin echo method under the additional influence of a magnetic video pulse. J. Magn. Magn. Mater. 500, 166310 (2020). https://doi.org/10.1016/j.jmmm.2019.166310"
+    },
+    {
+      "n": 114,
+      "page": 20,
+      "raw": "114. Gegechkori, T.; Mamniashvili, G.; Zedginidze, T.; Petriashvili, T.: Electroless synthesis of cobalt nanowires in magnetic field and their characterization by resonant magnetometry methods. Eng. Technol. Appl. Sci. Res. 14, 18805–18809 (2024). https://doi.org 10.48084/etasr.8192"
+    },
+    {
+      "n": 115,
+      "page": 20,
+      "raw": "115. Friedman, H.; Eidelman, O.; Feldman, Y.; Moshkovich, A.; Perfiliev, V.; Rapoport, L.; Cohen, H.; Yoffe, A.; Tenne, R.: Fabrication of self-lubricating cobalt coatings on metal surfaces. Nanotechnology 18, 115703 (2007). https://doi.org/10.1088/0957-4484/ 18/11/115703"
+    },
+    {
+      "n": 116,
+      "page": 20,
+      "raw": "116. Rudnik, E.; Jucha, T.: Electroless and electrolytic deposition of Co–SiC composite coatings on aluminum. Surf. Coat. Technol. 232, 389–395 (2013). https://doi.org/10.1016/j.surfcoat.2013.05.040"
+    },
+    {
+      "n": 117,
+      "page": 20,
+      "raw": "117. Tong, J.; Zhang, J.; Wang, Y.; Min, F.; Wang, X.; Zhang, H.; Ma, J.: Preparation of co-plated WC powders by a non-precious-Co-activation triggered electroless plating strategy. Adv. Powder Technol. 30, 2311–2319 (2019). https://doi.org/10.1016/j.apt. 2019.07.012"
+    },
+    {
+      "n": 118,
+      "page": 20,
+      "raw": "118. Shanmugapriya, K.; Rajagopal, D.; Karthikeyan, S.: An improvement in aluminium composites interface strength and microhardness through electroless cobalt coatings on tungsten carbide. Mater. Lett. 352, 135105 (2023). https://doi.org/10.1016/j.matlet. 2023.135105"
+    },
+    {
+      "n": 119,
+      "page": 20,
+      "raw": "119. Kurt, H.I.; Ergul, E.; Yilmaz, N.F.; Oduncuoglu, M.: Surface functionalization of nano MgO particles with nickel and cobalt. Mater. Res. Express 6, 0850f1 (2019). https://doi.org/10.1088 2053-1591/ab278f"
+    },
+    {
+      "n": 120,
+      "page": 20,
+      "raw": "120. Wang, S.; Sun, Y.; Li, G.: Study on cobalt coating on ZTA particles by electroless plating and impact-abrasive wear behavior of ZTAp reinforced iron matrix composite. Wear 510, 204489 (2022). https://doi.org/10.1016/j.wear.2022.204489"
+    },
+    {
+      "n": 121,
+      "page": 20,
+      "raw": "121. Mohd Zaheruddin, K.; Rahmat, A.; Shamsul, J.B.; Mohd Nazree, B.D.: Aimi Noorlivana. H: Synthesis of dense nano cobalthydroxyapatite by modified electroless deposition technique. AIP Conf, Proc. 1756, 090009 (2016). https://doi.org/10.1063/1.49 58790"
+    },
+    {
+      "n": 122,
+      "page": 20,
+      "raw": "122. Tai, Y.; Chen, H.; Xu, C.; Liu, Y.: Glass fabric@cobalt core-shell composites: electroless plating fabrication and their enhanced"
+    },
+    {
+      "n": null,
+      "page": 21,
+      "raw": "magnetic properties. Mater. Lett. 188, 80–83 (2017). https://doi. org/10.1016/j.matlet.2016.10.101"
+    },
+    {
+      "n": 123,
+      "page": 21,
+      "raw": "123. Jiang, J.T.; Zhen, L.; Xu, C.Y.; Shao, W.Z.: Microstructure evolution of cobalt coating electroless plated on SiC whisker during electroless plating and heat treatment. Surf. Coat. Technol. 201, 6059–6062 (2007). https://doi.org/10.1016/j.surfcoat.2006.10.032"
+    },
+    {
+      "n": 124,
+      "page": 21,
+      "raw": "124. Tianjiao, B.; Yan, Z.; Xiaofeng, S.; Yuexin, D.: A study ofthe electromagnetic properties of Cobalt-multiwalled carbon nanotubes (Co-MWCNTs) composites. Mater. Sci. Eng. B 176, 906–912 (2011). https://doi.org/10.1016/j.mseb.2011.05.016"
+    },
+    {
+      "n": 125,
+      "page": 21,
+      "raw": "125. Ouchi, T.; Shimano, N.; Homma, T.: CoNiP electroless deposition process for fabricating ferromagnetic nanodot arrays. Electrochim. Acta 56, 9575–9580 (2011). https://doi.org/10.1016/j.el ectacta.2011.04.085"
+    },
+    {
+      "n": 126,
+      "page": 21,
+      "raw": "126. Wang, H.-C.; Yu, G.-H.; Cao, J.-L.; Wang, L.-J.: Electroless plating Co–P films for high performance magnetic rotary encoders. Sensors Actuators A Phys. 165, 216–220 (2011). https://doi.org/ 10.1016/j.sna.2010.10.024"
+    },
+    {
+      "n": 127,
+      "page": 21,
+      "raw": "127. Klingenberg, M.L.: Evaluation of Nano-Composite Coatings as Environmentally Acceptable Alternatives to Hard Chromium Plating. In: AESF/EPA Conf. on Environmental and Process Excellence (2004)"
+    },
+    {
+      "n": 128,
+      "page": 21,
+      "raw": "128. Gao, Y.; Huang, L.; Zheng, Z.J.; Li, H.; Zhu, M.: The influence of cobalt on the corrosion resistance and electromagnetic shielding of electroless Ni–Co–P deposits on Al substrate. Appl. Surf. Sci. 253, 9470–9475 (2007). https://doi.org/10.1016/j.apsusc.2007.06.010"
+    },
+    {
+      "n": 129,
+      "page": 21,
+      "raw": "129. Eom, K.; Kwon, H.: Effects of deposition time on the H2 generation kinetics of electroless-deposited cobalt–phosphorous catalysts from NaBH4 hydrolysis, and its cyclic durability. Int. J. Hydrogen Energy 35, 5220–5226 (2010). https://doi.org/10.1016/ j.ijhydene.2010.03.005"
+    },
+    {
+      "n": 130,
+      "page": 21,
+      "raw": "130. Hao, W.; Huang, H.; Chen, Z.; Wang, L.; Ma, X.; Huang, M.; Ou, X.; Guo, Y.: Electroless plating-induced morphology selfassembly of free-standing Co–P–B enabling efficient overall water splitting. Electrochim. Acta 354, 136645 (2020). https:// doi.org/10.1016/j.electacta.2020.136645"
+    },
+    {
+      "n": 131,
+      "page": 21,
+      "raw": "131. Amber, H.; Balˇci¯unait˙e, A.; Sukackien˙e, Z.; Tamašauskait˙e-Tamaši¯unait˙e, L.; Norkus, E.: Electrolessly deposited cobaltphosphorus coatings for efficient hydrogen and oxygen evolution reactions. Catalysts 15, 8 (2024). https://doi.org/10.3390/catal1 5010008"
+    },
+    {
+      "n": 132,
+      "page": 21,
+      "raw": "132. Patel, N.; Kale, A.; Miotello, A.: Improved dehydrogenation of ammonia borane over Co-P-B coating on Ni: a single catalyst for both hydrolysis and thermolysis. Appl. Catal. B 111–112, 178–184 (2012). https://doi.org/10.1016/j.apcatb.2011.09.032"
+    },
+    {
+      "n": 133,
+      "page": 21,
+      "raw": "133. Chunduri, A.; Gupta, S.; Bapat, O.; Bhide, A.; Fernandes, R.; Patel, M.K.; Bambole, V.; Miotello, A.; Patel, N.: A unique amorphous cobalt-phosphide-boride bifunctional electrocatalyst for enhanced alkaline water-splitting. Appl. Catal. B 259, 118051 (2019). https://doi.org/10.1016/j.apcatb.2019.118051"
+    },
+    {
+      "n": 134,
+      "page": 21,
+      "raw": "134. Han, Y.; Ma, J.; Wang, X.; Wang, Y.; Zhang, K.; Cao, Z.; Wu, S.; Li, G.: Preparation of Co–P–B/foam Ni catalyst and its catalytic performance for hydrogen production by hydrolysis of NaBH solution. Fuel 372, 132262 (2024). https://doi.org/10.1016/j.fuel. 2024.132262"
+    },
+    {
+      "n": 135,
+      "page": 21,
+      "raw": "135. Eom, K.; Kim, M.; Kim, R.; Nam, D.; Kwon, H.: Characterization of hydrogen generation for fuel cells via borane hydrolysis using an electroless-deposited Co–P/Ni foam catalyst. J. Power. Sources 195, 2830–2834 (2010). https://doi.org/10.1016/j.jpowsour.2009.11.084"
+    },
+    {
+      "n": 136,
+      "page": 21,
+      "raw": "136. Guo, L.; Zhao, X.J.; Xiao, L.R.; Tang, C.R.; Zhang, W.Y.; Tu, X.X.; Liu, X.Z.; Nie, Y.C.: Kinetic study of electroless cobalt deposition on WC particles. J. Alloys Compd. 750, 774–780 (2018). https://doi.org/10.1016/j.jallcom.2018.04.064"
+    },
+    {
+      "n": 137,
+      "page": 21,
+      "raw": "137. Tsai, T.K.; Wu, S.S.; Hsu, C.S.; Fang, J.S.: Effect of phosphorus on the copper diffusion barrier properties of electroless CoWP films. Thin Solid Films 519, 4958–4962 (2011). https://doi.org/ 10.1016/j.tsf.2011.01.061"
+    },
+    {
+      "n": 138,
+      "page": 21,
+      "raw": "138. Yoshihara, S.: Co-Ni electroless composite plating of nanometerleveled diamond particles on micrometer-leveled plastic balls and the application of thus prepared devices to various electronics processes. ECS Trans. 75, 35–41 (2017). https://doi.org/10.1149 07534.0035ecst"
+    },
+    {
+      "n": 139,
+      "page": 21,
+      "raw": "139. Nambiar, S.; Sharma, S.; Anne, G.; Agarwal, P.; Agrawal, T.; Adiga, S.; Chickkannan, V.: Mechanical and microstructural analysis of cobalt coated CNT/Al2024 reinforced aluminum based composites for aerospace and automotive applications. Cogent Eng. (2024). https://doi.org/10.1080/23311916.2024.2436642"
+    },
+    {
+      "n": 140,
+      "page": 21,
+      "raw": "140. Heidarzadeh, A.; Mousavian, R.T.; Khosroshahi, R.A.; Afkham, Y.A.; Pouraliakbar, H.: Empirical model to predict mass gain of cobalt electroless deposition on ceramic particles using response surface methodology. Rare Met. 36, 209–219 (2017). https://doi. org/10.1007/s12598-015-0564-8"
+    },
+    {
+      "n": 141,
+      "page": 21,
+      "raw": "141. Mahdi, M.S.; Sanjabi, S.: Synthesis and characterization of Ni-based infiltration brazed coating reinforced with Co-P shellcoated WC. J. Alloys Compd. 1010, 177036 (2025). https://doi. org/10.1016/j.jallcom.2024.177036"
+    },
+    {
+      "n": 142,
+      "page": 21,
+      "raw": "142. Jiang, H.; Tong, J.; Zhan, Z.; Yao, Z.; Yu, S.; Min, F.; Wang, C.; Noudem, J.G.; Zhang, J.: Comparative study on the densification, microstructure and properties of WC-10(Ni, Ni/Co) cemented carbides using electroless plated and coprecipitated powders. Materials 16, 1977 (2023). https://doi.org/10.3390/ma 16051977"
+    },
+    {
+      "n": 143,
+      "page": 21,
+      "raw": "143. Moustafa, S.F.; Abdel-Hamid, Z.; Baheig, O.G.; Hussien, A.: Synthesis of WC hard materials using coated powders. Adv. Powder Technol. 22, 596–601 (2011). https://doi.org/10.1016/j.apt.2010.08.011"
+    },
+    {
+      "n": 144,
+      "page": 21,
+      "raw": "144. Jafari, M.; Enayati, M.H.; Salehi, M.; Nahvi, S.M.; Park, C.G.: Microstructural and mechanical characterizations of a novel HVOF-sprayed WC-Co coating deposited from electroless Ni–P coated WC-12Co powders. Mater. Sci. Eng. A 578, 46–53 (2013). https://doi.org/10.1016/j.msea.2013.04.064"
+    },
+    {
+      "n": 145,
+      "page": 21,
+      "raw": "145. Han. J.-C.: Jafari, M.: Park. C.-G.: Seol. J.-B.: Microstructureproperty relations in WC-Co coatings sprayed from combinatorial Ni-plated and nanostructured powders. Mater Charact 129, 207–216 (2017). https://doi.org/10.1016/j.matchar.2017.05.005"
+    },
+    {
+      "n": 146,
+      "page": 21,
+      "raw": "146. Erfanmanesh, M.; Shoja-Razavi, R.; Abdollah-Pour, H.; Mohammadian-Semnani, H.: Influence of using electroless Ni-P coated WC-Co powder on laser cladding of stainless steel. Surf. Coat. Technol. 348, 41–54 (2018). https://doi.org/10.1016/j.surf coat.2018.05.016"
+    },
+    {
+      "n": 147,
+      "page": 21,
+      "raw": "147. He, R.; Wang, J.; He, M.; Yang, H.; Ruan, J.: Synthesis of WC composite powder with nano-cobalt coatings and its application in WC-4Co cemented carbide. Ceram. Int. 44, 10961–10967 (2018). https://doi.org/10.1016/j.ceramint.2018.03.174"
+    },
+    {
+      "n": 148,
+      "page": 21,
+      "raw": "148. Zhou, R.; Tan, B.; Li, H.: Flexible and anisotropically conductive film by assembly of silicone rubber and cobalt-coated glass fiber composites. AIP Adv. (2024). https://doi.org/10.1063/5.0226566"
+    },
+    {
+      "n": 149,
+      "page": 21,
+      "raw": "149. Chen, H.; Liu, G.; Xu, C.; Hou, X.; Liu, Y.: Copper@carbon fiber composites prepared by a simple electroless plating technique. Mater. Lett. 173, 211–213 (2016). https://doi.org/10.1016/j.ma tlet.2016.03.055"
+    },
+    {
+      "n": 150,
+      "page": 21,
+      "raw": "150. Xu, C.; Liu, G.; Chen, H.; Zhou, R.; Liu, Y.: Fabrication ofconductive copper-coated glass fibers through electroless plating process. J. Mater. Sci. Mater. Electron. 25, 2611–2617 (2014). https://doi. org/10.1007/s10854-014-1919-x"
+    },
+    {
+      "n": 151,
+      "page": 21,
+      "raw": "151. Liao, F.; Han, X.; Zhang, Y.; Xu, C.; Chen, H.: Carbon fabrics coated with nickel film through alkaline electroless plating technique. Mater. Lett. 205, 165–168 (2017). https://doi.org/10.1016 j.matlet.2017.06.087"
+    },
+    {
+      "n": 152,
+      "page": 22,
+      "raw": "152. Tai, Y.; Chen, H.; Xu, C.; Liu, Y.: Conductive glass fabrics@nickel composites prepared by a facile electroless deposition method. Mater. Lett. 171, 158–161 (2016). https://doi.org/10.1016/j.ma tlet.2016.02.079"
+    },
+    {
+      "n": 153,
+      "page": 22,
+      "raw": "153. Tai, Y.; Xu, C.; Chen, H.: Silver-coated glass fabric composites prepared by electroless plating. Mater. Lett. 180, 144–147 (2016). https://doi.org/10.1016/j.matlet.2016.05.118"
+    },
+    {
+      "n": 154,
+      "page": 22,
+      "raw": "154. Li, Z.; Shen, B.; Deng, Y.; Liu, L.; Hu, W.: Preparation and microwave absorption properties of electroless Co–P-coated nickel hollow spheres. Appl. Surf. Sci. 255, 4542–4546 (2009). https://doi.org/10.1016/j.apsusc.2008.11.066"
+    },
+    {
+      "n": 155,
+      "page": 22,
+      "raw": "155. Fang, J.-S.; Su, T.-H.; Cheng, Y.-L.; Huang, C.-W.; Chen, G.-S.: Influence of trace tungsten contents on thin-film properties and electromigration behaviors of electroless-deposited cobalt interconnect lines. Mater. Res. Bull. 186, 113343 (2025). https://doi org/10.1016/j.materresbull.2025.113343"
+    },
+    {
+      "n": 156,
+      "page": 22,
+      "raw": "156. Shao, Y.-H., Ni, Z.-H., Chen, G., Wang, H., Qu, X.-P.: Low contact resistance copper-copper bonding with selective electroless plating cobalt interlayer. In: 2024 IEEE International Interconnect Technology Conference (IITC). pp. 1–3. IEEE (2024). https://doi. org/10.1109/IITC61274.2024.10732083"
+    },
+    {
+      "n": 157,
+      "page": 22,
+      "raw": "157. Fang, J.-S.; Chen, G.-S.; Chang, C.-C.; Hsiao, C.-N.; Chen, W.-C.; Cheng, Y.-L.: Understanding electromigration failure behaviors of narrow cobalt lines and the mechanism of reliability enhancement for extremely dilute alloying of manganese oxide. J. Alloys Compd. 970, 172591 (2024). https://doi.org/10.1016/j.jallcom. 2023 172591"
+    },
+    {
+      "n": 158,
+      "page": 22,
+      "raw": "158. Dubin, V.M.; Gindilis, A.L.; Walton, B.L.; Bauers, S.R.; Norelli K.M.; Liyanage, A.U.; Albrecht, A.; Johnson, D.C.: Electroless metallization of dielectric surfaces. ECS Trans. 75, 27–33 (2017). https://doi.org/10.1149/07534.0027ecst"
+    },
+    {
+      "n": 159,
+      "page": 22,
+      "raw": "159. Cui, Y.; Choi, E.; Shim, H.J.; Gao, Y.; Kim, K.S.; Pyo, S.G.: Characterization of electroless-deposited ternary M1M2-R (M1 Co, Ni, M2 W, Mo, R P, B) nano thin film for optical-sensor interconnects. Sci. Adv. Mater. 9, 2026–2031 (2017). https://doi. org/10.1166/sam.2017.3206"
+    },
+    {
+      "n": 160,
+      "page": 22,
+      "raw": "160. Kalu, E.E.; Wilson, L.; McHenry, M.: Decoration of surface of carbon nanotubes with iron-cobalt (FeCo) alloy using a two-step electroless deposition technique. ECS Meeting Abstracts. (2010). https://doi.org/10.1149/MA2010-01/33/1568"
+    },
+    {
+      "n": 161,
+      "page": 22,
+      "raw": "161. van der Veen, M.H., Vandersmissen, K., Dictus, D., Demuynck, S., Liu, R., Bin, X., Nalla, P., Lesniewska, A., Hall, L., Croes, K., Zhao, L., Bommels, J., Kolics, A., Tokei, Zs.: Cobalt bottom-up contact and via prefill enabling advanced logic and DRAM technologies. In: 2015 IEEE International Interconnect Technology Conference and 2015 IEEE Materials for Advanced Metallization Conference (IIT"
+    },
+    {
+      "n": 162,
+      "page": 22,
+      "raw": "162. Goel, V.; Anderson, P.; Hall, J.; Robinson, F.; Bohm, S.: Application of Co–Ni–P coating on grain-oriented electrical steel. IEEE Trans. Magn. 52, 1–8 (2016). https://doi.org/10.1109/TMAG. 2015.2496315"
+    },
+    {
+      "n": 163,
+      "page": 22,
+      "raw": "163. Yu, Y.; Tang, Z.; Wang, Y.; Zhang, H.; Zhang, H.; Li, X.: Cobalt-based current collectors for flexible electrodes and their application in lithium–sulfur batteries. J. Mater. Chem. A 12, 5760–5767 (2024). https://doi.org/10.1039/D3TA06966D"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "doc_id": "2024_Guo_Influence_of_PUB2_on_the_Leveling_Effect_of_Chip_Co",
+  "title": "Influence of PUB2 on the Leveling Effect of Chip Copper Connection Electroplating: Mechanism and Applications",
+  "doi": "10.1021/acsomega.3c09548",
+  "journal": "ACS Omega",
+  "year": "2024",
+  "pages": 9,
+  "printed_page_map": {
+    "1": 14092,
+    "2": 14093,
+    "3": 14094,
+    "4": 14095,
+    "5": 14096,
+    "6": 14097,
+    "7": 14098,
+    "8": 14099,
+    "9": 14100
+  },
+  "references": [
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(1) Tu, K. N. Reliability Challenges in 3D IC Packaging Technology. Microelectron. Reliab. 2011, 51 (3), 517−523."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(2) Cao, H.; Hang, T.; Ling, H.; Luo, W.; Feng, X.; Li, M. Study on the Behaviors of Cu Filling in Special Through-Silicon-Vias by the Simulation of Electric Field Distribution. Microelectron. Eng. 2014, 116, 1−5."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(3) Carpio, R.; Jaworski, A. Review-Management of Copper Damascene Plating. J. Electrochem. Soc. 2019, 166 (1), D3072−D3096."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(4) Kim, B.; Sharbono, C.; Ritzdorf, T.; Schmauch, D. Factors Afecting Copper Filling Process within High Aspect Ratio Deep Vias"
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "for 3D Chip Stacking. 56th Electronic Components and Technology Conference 2006, 2006.."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(5) Yang, Y.; Zeng, H.; Wang, D.; Wu, Y.; Chen, J.; Huang, Y.; Wang, P.; Feng, W. Fractal Growth of Quasi Two-Dimensional Copper Dendrites by Template-Free Electrodeposition. Langmuir 2023, 39 (8), 3045−3051."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(6) Beica, R.; Sharbono, C.; Ritzdorf, T. Through Silicon via Copper Electrodeposition for 3D Integration. 2008 58th Electronic Components and Technology Conference, 2008; pp 577−583.."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(7) Barbosa, L. L.; de Almeida, M. R. H.; Carlos, R. M.; Yonashiro, M.; Oliveira, G. M.; Carlos, I. A. Study and Development of an Alkaline Bath for Copper Deposition Containing Sorbitol as Complexing Agent and Morphological Characterization of the Copper Film. Surf. Coat. Technol. 2005, 192 (2−3), 145−153."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(8) Li, Y.-B.; Wang, W.; Li, Y.-L. Adsorption Behavior and Related Mechanism of Janus Green B during Copper Via-Filling Process. J. Electrochem. Soc. 2009, 156 (4), D119."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(9) Taephaisitphongse, P.; Cao, Y.; West, A. C. Electrochemical and Fill Studies of a Multicomponent Additive Package for Copper Deposition. J. Electrochem. Soc. 2001, 148 (7), C492−C497."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(10) Dow, W.-P.; Yen, M.-Y.; Lin, W.-B.; Ho, S.-W. Influence of Molecular Weight of Polyethylene Glycol on Microvia Filling by Copper Electroplating. J. Electrochem. Soc. 2005, 152 (11), C769."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(11) Wang, C.; Zhang, J.; Yang, P.; An, M. Electrochemical Behaviors ofJanus Green B in Through-Hole Copper Electroplating: An Insight by Experiment and Density Functional Theory Calculation Using Safranine T as a Comparison. Electrochim. Acta 2013, 92, 356−364."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(12) Dow, W.-P.; Li, C.-C.; Su, Y.-C.; Shen, S.-P.; Huang, C.-C.; Lee, C.; Hsu, B.; Hsu, S. Microvia Filling by Copper Electroplating Using Diazine Black as a Leveler. Electrochim. Acta 2009, 54 (24), 5894−5901."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(13) Chang, C.; Lu, X.; Lei, Z.; Wang, Z.; Zhao, C. 2- Mercaptopyridine as a New Leveler for Bottom-up Filling of Micro Vias in Copper Electroplating. Electrochim. Acta 2016, 208, 33−38."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(14) Bhat, R. S.; Shetty, S. M.; Kumar, N. A. Electroplating of Zn-Ni Alloy Coating on Mild Steel and Its Electrochemical Studies. J. Mater. Eng. Perform. 2021, 30 (11), 8188−8195."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(15) Bhat, R. S.; Shet, V. B. Development and Characterization of Zn-Ni, Zn-Co and Zn-Ni-Co Coatings. Surf. Eng. 2020, 36 (4), 429−437."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(16) Liao, C. Research on Levelers for Filling Electroplated Copper Microvias in Printed Circuit Board Industry; Chongqing University, 2021."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(17) Li, J.; Zhou, G.; Hong, Y.; Wang, C.; He, W.; Wang, S.; Chen, Y.; Wen, Z.; Wang, Q. Copolymer ofPyrrole and 1,4-Butanediol Diglycidy as an Efficient Additive Leveler for Through-Hole Copper Electroplating. ACS Omega 2020, 5 (10), 4868−4874."
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "(18) Zheng, L.; He, W.; Zhu, K.; Wang, C.; Wang, S.; Hong, Y.; Chen, Y. _ j Zhou. G.; Miao, H.; Zhou, J. Investigation of Poly (1-Viny"
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "Imidazole Co 1, 4-Butanediol Diglycidyl Ether) as a Leveler for Copper Electroplating of through-Hole. Electrochim. Acta 2018, 283, 560−567."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(19) Lai, Z.; Wang, S.; Wang, C.; Hong, Y.; Chen, Y.; Zhang, H.; Zhou, G.; He, W.; Ai, K.; Peng, Y. Computational Analysis and Experimental Evidence of Two Typical Levelers for Acid Copper Electroplating. Electrochim. Acta 2018, 273, 318−326."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(20) Qiang, Y.; Zhang, S.; Yan, S.; Zou, X.; Chen, S. Three Indazole Derivatives as Corrosion Inhibitors of Copper in a Neutral Chloride Solution. Corros. Sci. 2017, 126, 295−304."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(21) Li, J.; Zhou, G.; Wang, J.; Hong, Y.; He, W.; Wang, S.; Wang, C.; Chen, Y.; Yang, W.; Ma, C.; Miao, H.; Zhou, J.; Chen, Q. Nickel-Nanoparticles-Assisted Direct Copper-Electroplating on Polythiophene Conductive Polymers for PCB Dielectric Holes. J. Taiwan Inst. Chem. Eng. 2019, 100, 262−268."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(22) Xu, Y.; Zhang, S.; Li, W.; Guo, L.; Xu, S.; Feng, L.; Madkour, L. H. Experimental and Theoretical Investigations of Some Pyrazolo-Pyrimidine Derivatives as Corrosion Inhibitors on Copper in Sulfuric Acid Solution. Appl. Surf. Sci. 2018, 459, 612−620."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(23) Tang, M.; Zhang, S.; Qiang, Y.; Chen, S.; Luo, L.; Gao, J.; Feng, L.; Qin, Z. 4,6-Dimethyl-2-Mercaptopyrimidine as a Potential Leveler for Microvia Filling with Electroplating Copper. RSC Adv. 2017, 7 (64), 40342−40353."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(24) Zheng, L. Investigation on Electrochemical Performance and Tuning Property of the Organic-Additive-System for Copper Electrodeposition; University of Electronic Science and Technology of China, 2021."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(25) Wang, Z.-Y.; Jin, L.; Li, G.; Yang, J.-Q.; Li, W.-Q.; Zhan, D.; Jiang, Y.-X.; Yang, F.-Z.; Sun, S.-G. Electrochemical and in Situ FTIR Spectroscopic Studies ofGentian Violet as a Novel Leveler in Through-Holes Metallization for Printed Circuit Board Applications. Electrochim. Acta 2022, 410, 140018."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(26) Yung, K. C.; Wang, J.; Yue, T. M. Surface Characterization of Pre-Treated Copper Foil Used for PCB Lamination. J. Adhes. Sci. Technol. 2007, 21 (5−6), 363−377."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(27) Kelly, J. J.; West, A. C. Copper Deposition in the Presence of Polyethylene Glycol: I. Quartz Crystal Microbalance Study. J. Electrochem. Soc. 1998, 145 (10), 3472−3476."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(28) Taei, M.; Hasanpour, F.; Dehghani, E. Electrodepositing of Copper Nanowires on Layered Double Hydroxide Film Modified Glassy Carbon Electrode for the Determination of Doxorubicin. J. Taiwan Inst. Chem. Eng. 2015, 54, 183−190."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(29) Zheng, L.; Wang, C.; Li, J.; Chen, Y.; Li, Y.; Peng, Y.; Xiao, D.; Tan, Z.; He, W. Investigation of Benzoquinone as a New Type of Cu Electroplating Additive. 2017 12th International Microsystems, Packaging, Assembly and Circuits Technology Conference (IMPACT), 2017; pp 231−233.."
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "(30) Millán-Ocampo, D. E.; Porcayo-Calderón, J.; A ́ lvarez-Gallegos, A.; Solís-Pérez, J. E.; Hernández-Pérez, J. A.; Silva-Martínez, S. Electrochemical Deposition of Copper Using a Modified Electrode with Polyaniline Film: Experimental Analysis and ANN-Based Prediction. J. Taiwan Inst. Chem. Eng. 2021, 123, 272−283."
+    }
+  ]
+}

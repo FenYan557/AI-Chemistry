@@ -1,0 +1,53 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sce",
+        "context": " for carrying out a void-free filling in dual damascene metallization [4,5,7,8,10]."
+      },
+      {
+        "value": "SMSE",
+        "context": "roducts. A saturated mercurous sulfate electrode (SMSE) served as a reference electr"
+      },
+      {
+        "value": "sse",
+        "context": "mA cm− 2. At the beginning of the GM, the glass vessel contained only the base elec"
+      },
+      {
+        "value": "sse",
+        "context": "ith a given content was injected into the glass vessel to achieve the desired conce"
+      },
+      {
+        "value": "sse",
+        "context": "eding with the plating time was immediately suppressed by adding DB, as recorded by"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "n 64002, Taiwan\nc OMG (Asia) Electronic Chemicals Co., Ltd., Chung-Li 32062, Taiwa"
+      },
+      {
+        "value": "Cu",
+        "context": "\\mathrm { H } _ { 2 } S O _ { 4 } ,$ to prepare a Cu-RDE. The counter electrode (C"
+      },
+      {
+        "value": "Cu",
+        "context": "of the additive injection was performed using the Cu-RDE at a current density of 1"
+      },
+      {
+        "value": "Cu",
+        "context": "ired concentration. The potential variation ofthe Cu-RDE could clearly indicate th"
+      },
+      {
+        "value": "Cu",
+        "context": " carried out twice. One was carried out using the Cu-RDE at 100 rpm, and the other"
+      },
+      {
+        "value": "Cu",
+        "context": "X-ray diffraction (XRD) (MXP3, MAC SCIENCE) using Cu K_α1 radiation ( λ = 1.5 4 0 "
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "ronic interconnection applications encompass processes such as electroless copper p"
+      },
+      {
+        "value": "SMSE",
+        "context": "e electrode used the mercurous sulfate electrode (SMSE). The deposition potential at"
+      },
+      {
+        "value": "SMSE",
+        "context": "z–0.01 Hz at a steady potential of −0.65 V versus SMSE.\n2.2. Cross section analysis "
+      },
+      {
+        "value": "sse",
+        "context": "pth ranged from 80 to 100um.\nAll the plating processes took place in a Haring cell "
+      },
+      {
+        "value": "sse",
+        "context": "ere cleaned with a series of decontamination processes prior to plating in order to"
+      },
+      {
+        "value": "SMSE",
+        "context": "rresponding deposition potential is −0.602 V (vs. SMSE) in the absence of Cl − with "
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "2 A/dm2",
+        "context": "depth of 80 µm by the electrodepositing 60 min of 2 A/dm2. The quantum chemical calcula"
+      },
+      {
+        "value": "3.0 A/dm2",
+        "context": "and the current density was remained at 1.0, 2.0, 3.0 A/dm2 for distinct plating times. T"
+      },
+      {
+        "value": "15.55 A/dm2",
+        "context": "the highest peak current density at the anode was 15.55 A/dm2 in the absence of the leveler"
+      },
+      {
+        "value": "2A/dm2",
+        "context": "n the absence of Cl − with the current density of 2A/dm2 for the electroplating soluti"
+      },
+      {
+        "value": "25A/dm2",
+        "context": "ting solution.\n\nThe anode peak current density is 25A/dm2 in the absence of PEP in the "
+      },
+      {
+        "value": "3A/dm2",
+        "context": "to SPS concentration, and it has a minimum of 4.3 3A/dm2 and a maximum of 1 5.2 9A/dm2"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": " bath. The electroplating test was carried out at room temperature and the current density was r"
+      },
+      {
+        "value": "298 K",
+        "context": "for CMHT in the aqueous phase at a temperature of 298 K. The COMPASS II force field w"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": " process for filling micro vias with thin surface Cu by the 1-(4-carboxyphenyl)-5-"
+      },
+      {
+        "value": "Cu",
+        "context": "ormances, but also only have 19.1 μm thin surface Cu for micro blind vias with a d"
+      },
+      {
+        "value": "Cu",
+        "context": "inum spinning disk electrode to convert Pt-RDE to Cu-RDE. The electrolyte temperat"
+      },
+      {
+        "value": "Cu",
+        "context": "aring cell. The plating solution included 200 g/L Cu S0_4·5H_2O and 50 g/L\\H_2SO_ "
+      },
+      {
+        "value": "Cu",
+        "context": "dopted to investigate the interaction between the Cu (1 1 1) surface and CMHT usin"
+      },
+      {
+        "value": "Cu",
+        "context": "ion as a leveler.\nThe CV test in Fig. 2 shows the Cu electrode potentialcurrent va"
+      }
+    ]
+  }
+}

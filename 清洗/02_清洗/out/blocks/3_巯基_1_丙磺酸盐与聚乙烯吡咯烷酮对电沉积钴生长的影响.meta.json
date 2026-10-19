@@ -1,0 +1,261 @@
+{
+  "doc_id": "3_巯基_1_丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响",
+  "title": "Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition",
+  "doi": "10.1515/ntrev-2022-0071",
+  "journal": "其他期刊",
+  "year": "2022",
+  "pages": 10,
+  "printed_page_map": {
+    "2": 1210,
+    "3": 1211,
+    "4": 1212,
+    "5": 1213,
+    "6": 1214,
+    "7": 1215,
+    "8": 1216,
+    "9": 1217,
+    "10": 1218
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] Hao HL, Hui D, Lau D. Material advancement in technological development for the 5G wireless communications. Nanotechnol Rev. 2020;9(1):683–99."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] Shang ZW, Hsu HH, Zheng ZW, Cheng CH. Progress and challenges in p-type oxide-based thin film transistors. Nanotechnol Rev. 2019;8(1):422–43."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] Gall D. Electron mean free path in elemental metals. J Appl Phys. 2016;119(8):1–5."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] Huang Q, Lyons TW, Sides WD. Electrodeposition of cobalt for interconnect application: efect of dimethylglyoxime. J Electrochem Soc. 2016;163(13):D715–21."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] Steinhögl W, Schindler G, Steinlesberger G, Engelhardt M. Size-dependent resistivity of metallic wires in the mesoscopic range. Phys Rev B. 2002;66(7):075414."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] Shin H-AS, Kim B-J, Kim J-H, Hwang S-H, Budiman AS, Son H-Y, et al. Microstructure evolution and defect formation in cu through-silicon vias (TSVs) during thermal annealing. J Electron Mater. 2012;41(4):712–9."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] Chen SH, Fu SL, Liang D, Chen XH, Mi XJ, Liu P, et al. Preparation and properties of 3D interconnected CNTs/Cu composites. Nanotechnol Rev. 2020;9(1):146–54."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] Zhang XH, Zhang Y, Tian BH, Song KX, Liu P, Jia YL, et al. Review of nano-phase efects in high strength and conductivity copper alloys. Nanotechnol Rev. 2019;8(1):383–95."
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] Feng J, Liang SH, Guo XH, Zhang Y, Song KX. Electrical conductivity anisotropy of copper matrix composites reinforced with SiC whiskers. Nanotechnol Rev. 2019;8(1):285–92."
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] Beyne E. 3D system integration technologies. 2006 International Symposium on VLSI Technology, Systems, and Applications. Hsinchu: IEEE; 2006. p. 19–27."
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] Fischer AC, Forsberg F, Lapisa M, Bleiker SJ, Stemme G, Roxhed N, et al. Integrating MEMS and ICs. Microsyst Nanoeng. 2015;1(1):1–16."
+    },
+    {
+      "n": 12,
+      "page": 9,
+      "raw": "[12] Hu Y, Deb S, Li D, Huang Q. Efects of organic additives on the impurity and grain structure of electrodeposited cobalt. Electrochim Acta. 2021;368(13):1–8."
+    },
+    {
+      "n": 13,
+      "page": 9,
+      "raw": "[13] Hu Y, Huang Q. Oscillatory behavior in cobalt electrodeposition with 3-mercapto-1-propanesulfonate. J Phys Chem C. 2020;124(39):21608–16."
+    },
+    {
+      "n": 14,
+      "page": 9,
+      "raw": "[14] Luo X, Chen CY, Chang TFM, Sone M, Zhang Q, Zhang JZ. The Structure and micro-mechanical properties of"
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "electrodeposited cobalt films by micro-compression test. J Electrochem Soc. 2021;168(10):1–7."
+    },
+    {
+      "n": 15,
+      "page": 9,
+      "raw": "[15] Wu J, Wafula F, Branagan S, Suzuki H, van Eisden J. Mechanism of cobalt bottom-up filling for advanced node interconnect metallization. J Electrochem Soc. 2018;166(1):D3136–41."
+    },
+    {
+      "n": 16,
+      "page": 9,
+      "raw": "[16] Kelly J, Chen JHC, Huang H, Hu CK, Liniger E, Patlolla R et al. Experimental study of nanoscale co damascene BEOL interconnect structures. 2016 IEEE International Interconnect Technology Conference/Advanced Metallization Conference. IEEE International Interconnect Technology Conference IITC; 2016. p. 40–2."
+    },
+    {
+      "n": 17,
+      "page": 9,
+      "raw": "[17] Rigsby MA, Brogan LJ, Doubina NV, Liu YH, Opocensky EC, Spurlin TA, et al. The critical role of pH gradient formation in driving superconformal cobalt deposition. J Electrochem Soc. 2018;166(1):D3167–74."
+    },
+    {
+      "n": 18,
+      "page": 9,
+      "raw": "[18] Kang J, Sung M, Byun J, Kwon OJ, Kim JJ. Superconformal cobalt electrodeposition with a hydrogen evolution reaction suppressing additive. J Electrochem Soc. 2020;167(16):1–7."
+    },
+    {
+      "n": 19,
+      "page": 9,
+      "raw": "[19] Vereecken PM, Binstead RA, Deligianni H, Andricacos PC. The chemistry of additives in damascene copper plating. Ibm J Res Dev. 2005;49(1):3–18."
+    },
+    {
+      "n": 20,
+      "page": 9,
+      "raw": "[20] Dow WP, Li CC, Lin MW, Su GW, Huang CC. Copper fill of microvia using a thiol-modified Cu seed layer and various levelers. J Electrochem Soc. 2009;156(8):D314–20."
+    },
+    {
+      "n": 21,
+      "page": 9,
+      "raw": "[21] Dow WP, Huang HS, Yen MY, Huang HC. Influence of convection-dependent adsorption of additives on microvia filling by copper electroplating. J Electrochem Soc. 2005;152(6):C425–34."
+    },
+    {
+      "n": 22,
+      "page": 9,
+      "raw": "[22] Hu Y, Lyons T, Huang Q. Influence of furil dioxime on cobalt electrochemical nucleation and growth. J Electrochem Soc. 2020;167(2):1–11."
+    },
+    {
+      "n": 23,
+      "page": 9,
+      "raw": "[23] Kong DL, Zheng Z, Meng FY, Li N, Li DY. Electrochemical nucleation and growth of cobalt from methanesulfonic acid electrolyte. J Electrochem Soc. 2018;165(16):D783–9."
+    },
+    {
+      "n": 24,
+      "page": 9,
+      "raw": "[24] Chan PF, Chiu YD, Dow WP, Krug K, Lee YL, Yau SL. Use of 3,3- thiobis(1-propanesulfonate) to accelerate microvia filling by copper electroplating. J Electrochem Soc. 2013;160(12):D3271–7."
+    },
+    {
+      "n": 25,
+      "page": 9,
+      "raw": "[25] Dow WP, Huang HS, Yen MY, Chen HH. Roles of chloride ion in microvia filling by copper electrodeposition-II. Studies using EPR and galvanostatic measurements. J Electrochem Soc. 2005;152(2):C77–88."
+    },
+    {
+      "n": 26,
+      "page": 9,
+      "raw": "[26] Chiu YD, Dow WP. Accelerator screening by cyclic voltammetry for microvia filling by copper electroplating. J Electrochem Soc. 2013;160(12):D3021–7."
+    },
+    {
+      "n": 27,
+      "page": 9,
+      "raw": "[27] Jovic VD, Jovic GM. Copper electrodeposition from a copper acid baths in the presence of PEG and NaCl. J Serbian Chem Soc. 2001;66(11–12):935–52."
+    },
+    {
+      "n": 28,
+      "page": 9,
+      "raw": "[28] Ni XR, Chen YM, Jin XF, Wang C, Huang YZ, Hong Y, et al. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition. J Taiwan Inst Chem Eng. 2020;112:232–9."
+    },
+    {
+      "n": 29,
+      "page": 9,
+      "raw": "[29] Jiang Q, Tallury SS, Qiu YP, Pasquinelli MA. Interfacial characteristics of a carbon nanotube-polyimide nanocomposite by molecular dynamics simulation. Nanotechnol Rev. () –"
+    },
+    {
+      "n": 30,
+      "page": 9,
+      "raw": "[30] Khan S, Nandi CK. Optimizing the underlying parameters for protein-nanoparticle interaction: advancement in theoretical simulation. Nanotechnol Rev. 2014;3(4):347–59."
+    },
+    {
+      "n": 31,
+      "page": 10,
+      "raw": "[31] Saraireh SA, Altarawneh M, Tarawneh MA. Nanosystem’s density functional theory study of the chlorine adsorption on the Fe(100) surface. Nanotechnol Rev. 2021;10(1):719–27."
+    },
+    {
+      "n": 32,
+      "page": 10,
+      "raw": "[32] Hassan J, Diamantopoulos G, Homouz D, Papavassiliou G. Water inside carbon nanotubes: structure and dynamics. Nanotechnol Rev. 2016;5(3):341–54."
+    },
+    {
+      "n": 33,
+      "page": 10,
+      "raw": "[33] Wang CH, Chen Q, Guo TT, Zhang L. Preparation and adsorp tion properties of nano-graphene oxide/tourmaline composites. Nanotechnol Rev. 2021;10(1):1812–26."
+    },
+    {
+      "n": 34,
+      "page": 10,
+      "raw": "[34] Kim S-H, Zhang Y, Lee J-H, Lee S-Y, Kim Y-H, Rhee KY, et al. A study on interfacial behaviors of epoxy/graphene oxide derived from pitch-based graphite fibers. Nanotechnol Rev. 2021;10(1):1827–37."
+    },
+    {
+      "n": 35,
+      "page": 10,
+      "raw": "[35] Lu T, Chen FW. Multiwfn: a multifunctional wavefunction analyzer. J Comput Chem. 2012;33(5):580–92."
+    },
+    {
+      "n": 36,
+      "page": 10,
+      "raw": "[36] Premkumar S, Jawahar A, Mathavan T, Dhas MK, Sathe VG, Benial AMF. DFT calculation and vibrational spectroscopic studies of 2-(tert-butoxycarbonyl(Boc)-amino)-5-bromopyridine. Spectrochim Acta Part A-Mol Biomol Spectrosc. 2014;129:74–83."
+    },
+    {
+      "n": 37,
+      "page": 10,
+      "raw": "[37] Lee C, Yang W, Parr RG. Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density. Phys Rev B Condens Matter. 1988;37(2):785–9."
+    },
+    {
+      "n": 38,
+      "page": 10,
+      "raw": "[38] Lai Z, Wang S, Wang C, Hong Y, Zhou G, Chen Y, et al. A comparison of typical additives for copper electroplating based on theoretical computation. Comput Mater Sci. 2018;147:95–102."
+    },
+    {
+      "n": 39,
+      "page": 10,
+      "raw": "[39] Murray JS, Politzer P. The electrostatic potential: an overview. Wiley Interdiscip Rev Comput Mol Sci. 2011;1(2):153–63."
+    },
+    {
+      "n": 40,
+      "page": 10,
+      "raw": "[40] Hackett JC. Chemical reactivity theory: a density functional view. J Am Chem Soc. 2010;132(21):7558."
+    },
+    {
+      "n": 41,
+      "page": 10,
+      "raw": "[41] Wang C, An MZ, Yang PX, Zhang JQ. Prediction of a new leveler (N-butyl-methyl piperidinium bromide) for through-hole electroplating using molecular dynamics simulations. Electrochem Commun. 2012;18:104–7."
+    },
+    {
+      "n": 42,
+      "page": 10,
+      "raw": "[42] Kreider A, Barkey DP, Wong EH. On the displacement of adsorbed polyethylene glycol by 3-mercapto-1-propanesulfonate during copper electrodeposition. J Electrochem Soc. 2014;161(12):D663–5."
+    },
+    {
+      "n": 43,
+      "page": 10,
+      "raw": "[43] Zhong Q, Gu M, Li QA. Studies on the influence of sodium 3-mercaptopropanesulphonate additives on copper electro deposition. Acta Chim Sin. 2010;68(17):1707–12."
+    },
+    {
+      "n": 44,
+      "page": 10,
+      "raw": "[44] Gece G. The use of quantum chemical methods in corrosion inhibitor studies. Corros Sci. 2008;50(11):2981–92."
+    },
+    {
+      "n": 45,
+      "page": 10,
+      "raw": "[45] Tu HL, Yen PY, Wu HL, Chen S, Vogel W, Yau S, et al. In situ STM of 3-mercaptopropanesulfonate adsorbed on Pt(111) electrode and its efect on the electrodeposition of copper. J Electrochem Soc. 2010;157(4):D206–10."
+    },
+    {
+      "n": 46,
+      "page": 10,
+      "raw": "[46] Dow WP, Chiu YD, Yen MY. Microvia filling by Cu electroplating over a Au seed layer modified by a disulfide. J Electrochem Soc. 2009;156(4):D155–67."
+    },
+    {
+      "n": 47,
+      "page": 10,
+      "raw": "[47] Tarasevich YI. The surface energy of hydrophilic and hydrophobic adsorbents. Colloid J. 2007;69(2):212–20."
+    }
+  ]
+}

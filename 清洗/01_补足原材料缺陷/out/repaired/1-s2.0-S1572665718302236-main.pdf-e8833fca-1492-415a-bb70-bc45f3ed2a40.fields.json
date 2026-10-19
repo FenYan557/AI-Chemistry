@@ -1,0 +1,83 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "small quantities of organic additives, which are essential to regulate fi lm growth"
+      },
+      {
+        "value": "sse",
+        "context": "odeposition.\n⁎ Corresponding authors.\nE-mail addresses: taeholim@ssu.ac.kr (T. Lim)"
+      },
+      {
+        "value": "Ag/AgCl",
+        "context": "Cu rod, and Ag / AgCl, /saturated KCl electrode ( Ag/AgCl) as the working electrode, th"
+      },
+      {
+        "value": "Ag/AgCl",
+        "context": "ctrode was swept from 0.15 V to - 0.8 5 \\: V (vs. Ag/AgCl) at a scan rate of 10 mV/s us"
+      },
+      {
+        "value": "sse",
+        "context": "(thiolate) were then obtained. As Eq. (1) is expressed by combining Eqs. (2) and ^ "
+      },
+      {
+        "value": "sse",
+        "context": "es\n[1] T.P. Mo f at, D. Wheeler, W.H. Huber, D. Jossell, Superconformal electrodepo"
+      }
+    ],
+    "温度": [
+      {
+        "value": "303 K",
+        "context": "ode, respectively. Temperature was held at 30^°C (303 K) by thermostat during the ana"
+      },
+      {
+        "value": "room temperature",
+        "context": "oethylene (PTFE) tape and then kept on shelves at room temperature for 0–45 h before acquiring N"
+      },
+      {
+        "value": "room temperature",
+        "context": "te) formation reactions. The solution was kept at room temperature for 0–15 h in a 5–mm NMR tube"
+      },
+      {
+        "value": "room temperature",
+        "context": "d out under nitrogen atmosphere (99.9% purity) at room temperature (298 K) to avoid any oxidatio"
+      },
+      {
+        "value": "298 K",
+        "context": "en atmosphere (99.9% purity) at room temperature (298 K) to avoid any oxidation of co"
+      },
+      {
+        "value": "room temperature",
+        "context": "dissolved in 0.25 M H SO and stirred overnight at room temperature. The concentration of Cu ^ 2 "
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "isulfide and 3‑mercapto‑1‑propanesulfonic acid in Cu electrodeposition\nHuizi Shen "
+      },
+      {
+        "value": "Cu",
+        "context": "ul 06978, Republic of Korea\nARTICLEINFO\nKeywords: Cu electrodeposition Accelerator"
+      },
+      {
+        "value": "Cu",
+        "context": "role in regulating fi lm growth and properties in Cu electrodeposition. 3‑Mercapto"
+      },
+      {
+        "value": "Cu",
+        "context": "SPS) are representative accelerators that promote Cu electrodeposition rate. In th"
+      },
+      {
+        "value": "Cu",
+        "context": "Based on this calculation, the cell potentials of Cu(I)(thiolate) formation reacti"
+      },
+      {
+        "value": "Cu",
+        "context": "ve cell potential indicates that the formation of Cu(I)(thiolate) complexes is the"
+      }
+    ]
+  }
+}

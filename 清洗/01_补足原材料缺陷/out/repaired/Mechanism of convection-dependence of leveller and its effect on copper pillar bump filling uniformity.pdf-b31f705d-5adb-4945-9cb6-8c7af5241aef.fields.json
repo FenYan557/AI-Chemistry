@@ -1,0 +1,59 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "e’s Republic of China\nABSTRACT\nMetallisation processes, represented by copper pilla"
+      },
+      {
+        "value": "sse",
+        "context": "r takes an important role in plating-related processes such as copper damascene int"
+      },
+      {
+        "value": "sce",
+        "context": "e in plating-related processes such as copper damascene interconnection, 1–3 copper"
+      },
+      {
+        "value": "sse",
+        "context": "n product on the higher flow rate side, and suppressed the deposition of copper on "
+      },
+      {
+        "value": "sse",
+        "context": "trode (MCE) (aspect ratio, AR ∼1) was etched and assembled in an in-situ observatio"
+      },
+      {
+        "value": "sse",
+        "context": "ymerisation reactions during electrochemical processes. 17 The reduced species do n"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "e CHI 660D Potentiostat (CH Instrument, China) at room temperature.\n\n2.4. EC-SERS measurement\nTh"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "0) were purchased from Sinopharm Chemical Reagent Co. Ltd. (China). CuSO _4·5H_2O_"
+      },
+      {
+        "value": "Cu",
+        "context": "formed with a potential window of −0.4–1.0 V (vs. Cu/CuSO (sat.), CCSE) at a scan "
+      },
+      {
+        "value": "Cu",
+        "context": "actor was defined as the ratio of the area of the Cu stripping peaks after and bef"
+      },
+      {
+        "value": "Cu",
+        "context": "ion ability will slow down the deposition rate of Cu, which further leads to a dec"
+      },
+      {
+        "value": "Cu",
+        "context": "ch further leads to a decrease in the area of the Cu dissolution peak at around 0 "
+      }
+    ]
+  }
+}

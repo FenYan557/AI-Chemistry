@@ -1,0 +1,51 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sce",
+        "context": "Dr., Tualatin, Oregon 97062, USA\nConventional damascene electroplating utilizes a c"
+      },
+      {
+        "value": "sce",
+        "context": "ase, the extendibility of conventional copper damascene processing becomes increasi"
+      },
+      {
+        "value": "sce",
+        "context": "mation during seed deposition. The thin seed is susceptible to agglomeration, which"
+      },
+      {
+        "value": "sse",
+        "context": " increase in resistivity with decreasing line crosssection (1-2). As such, the spac"
+      },
+      {
+        "value": "sce",
+        "context": "s much more valuable.\nTo address these copper damascene extendibility issues, alter"
+      },
+      {
+        "value": "sce",
+        "context": " cobalt fill does not follow the conventional damascene process, with suppressors, "
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "0.1 mA/cm2",
+        "context": "tial, the cobalt partial current density is only ~0.1 mA/cm2. corresponding to about 20% c"
+      },
+      {
+        "value": "0.4 mA/cm2",
+        "context": "ent density at the feature base has increased to ~0.4 mA/cm2, corresponding to ~80% curren"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": " the Pt RDE and the Au EQCM electrode, a layer of Co was pre-plated onto the catho"
+      },
+      {
+        "value": "Co",
+        "context": " from cobalt-seeded wafers. The typical stack was Co / TiN / SiO _ 2. For most exp"
+      }
+    ]
+  }
+}

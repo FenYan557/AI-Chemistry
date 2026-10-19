@@ -1,0 +1,81 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "sudden crash will occur and cause huge economic losses when the electronic devices "
+      },
+      {
+        "value": "sse",
+        "context": "and 2-amino-4-methylbenzothiazole (AMBT) play an essential role in greatly hinderin"
+      },
+      {
+        "value": "sse",
+        "context": "ndicating that the microvia fi lling plating processes regardless of the solution f"
+      },
+      {
+        "value": "sse",
+        "context": " { - 1 }$ . Therefore, Equation (2) could be expressed as:\nThe K value showed a neg"
+      },
+      {
+        "value": "sse",
+        "context": "1 were related to mainly chemical adsorption processes [42].\nGenerally, the chronoa"
+      },
+      {
+        "value": "sse",
+        "context": "s associated with mainly chemical adsorption processes. The optical microscope meas"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "2 ASD",
+        "context": "to the bath, into VAS with the current density of 2 ASD, indicating that the com bine"
+      },
+      {
+        "value": "2.0 A/dm2",
+        "context": "ture of 298 K and the current density was kept at 2.0 A/dm2 for 45 min. To enhance the mi"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "olyte was controlled at a constant temperature of 298 K and the current density was 2"
+      },
+      {
+        "value": "room temperature",
+        "context": "ing. The electroplating test was carried out at a room temperature of 298 K and the current dens"
+      },
+      {
+        "value": "298 K",
+        "context": "ing test was carried out at a room temperature of 298 K and the current density was k"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "tigated as a new leveler to develop the microvias Cu fi lling with or without crac"
+      },
+      {
+        "value": "Cu",
+        "context": "lues (Potential difference at different speeds of Cu rotating disk electrode) are "
+      },
+      {
+        "value": "Cu",
+        "context": "approximately 24 mV which usually suggests better Cu fi lling performance for the "
+      },
+      {
+        "value": "Cu",
+        "context": "]. To achieve high-reliability interconnection by Cu fi lling blind holes between "
+      },
+      {
+        "value": "Cu",
+        "context": "ntial role in greatly hindering the deposition of Cu ion and smooth the surface of"
+      },
+      {
+        "value": "Cu",
+        "context": "ace [29–30]. The Q was the integral area value of Cu stripping peaks as a function"
+      }
+    ]
+  }
+}

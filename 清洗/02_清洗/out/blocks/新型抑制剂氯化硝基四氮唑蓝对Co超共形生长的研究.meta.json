@@ -1,0 +1,296 @@
+{
+  "doc_id": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究",
+  "title": "Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth",
+  "doi": "10.1016/j.jmapro.2023.05.059",
+  "journal": "其他期刊",
+  "year": "2023",
+  "pages": 10,
+  "printed_page_map": {
+    "2": 16,
+    "3": 17,
+    "4": 18,
+    "5": 19,
+    "6": 20,
+    "7": 21,
+    "8": 22,
+    "9": 23,
+    "10": 24
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] Wu J, Wafula F, Branagan S, et al. Mechanism of cobalt bottom-up filling for advanced node interconnect metallization [J]. J Electrochem Soc 2018;166: D3136 41. https://doi.org/10.1149/2.0161901je."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] Yaqiang L, Xiaochuan M, Jinqiu Z, et al. Research Progress of metal interconnection technology and related theory in chip fabrication [J]. Surf Technol 2021;50(7):24–43, 164. https://doi.org/10.16490/j.cnki.issn.1001- 3660.2021.07.002."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] Graham RL, Alers GB, Mountsier T, et al. Resistivity dominated by surface scattering in sub-50 nm Cu wires [J]. Appl Phys Lett 2010;96:042116. https://doi. org/10.1063/1.3292022."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] Dutta S, Sankaran K, Moors K, et al. Thickness dependence of the resistivity of platinum-group metal thin films [J]. J Appl Phys 2017;122:025107. https://doi org/10.1063/1.4992089."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] Mingtan C, Roy A. Electromigration in ULSI interconnects [J]. Mater Sci Eng R Rep 2007;58(1–2):1–75. https://doi.org/10.1016/j.mser.2007.04.002."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] Rigsby MA, Brogan LJ, Doubina NV, et al. The critical role of pH gradient formation in driving superconformal cobalt deposition [J]. J Electrochem Soc 2018;166:D3167–74. https://doi.org/10.1149/2.0211901jes."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] Rigsby MA, Brogan LJ, Doubina NV, et al. Superconformal cobalt fill through the use of sacrificial oxidants [J]. ESC Trans 2017;80(10):767–76. https://doi.org/ 10.1149/08010.0767ecst."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] Cheng YL, Huang HC, Lee CY, et al. Comparison of cu and co integration with porous low-k SiOCH dielectrics [J]. Thin Solid Films 2020;704(30):138010. https://doi.org/10.1016/j.tsf.2020.138010."
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] Josell D, Moffat TP. Superconformal bottom-up nickel deposition in high aspect ratio through silicon vias [J]. J Electrochem Soc 2016;163(7):D322 31. https:/ doi.org/10.1149/2.1151607jes."
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] Milosevic E, Zheng PY, Gall D. Electron scattering at epitaxial Ni (001) surfaces [J]. IEEE Trans Electron Devices 2019;66(10):4326–30. https://doi.org/10.1109/ TED.2019.2934636"
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] Yoon SJ, Lee S, Lee TI, et al. Large grain ruthenium for alternative interconnects [J]. IEEE Electron Device Lett 2019;40(1):91–4. https://doi.org/10.1109/ LED.2018.2879932."
+    },
+    {
+      "n": 12,
+      "page": 10,
+      "raw": "[12] Hu Z, Ritzdorf T. Superconformal electrochemical deposition of gold for metallization in microelectronic devices [J]. J Electrochem Soc 2006;153(7): C467–71. https://doi.org/10.1149/1.2196670."
+    },
+    {
+      "n": 13,
+      "page": 10,
+      "raw": "[13] Backes C, Abdelkader AM, Alonso C, et al. Production and Processing of Graphene and Related Materials [J]. 2D Mater 2020;7(2):022001. https://doi.org/10.1088 2053-1583/ab1e0a."
+    },
+    {
+      "n": 14,
+      "page": 10,
+      "raw": "[14] Hu Y, Huang Q. Effects of dimethylglyoxime and cyclohexane dioxime on the electrochemical nucleation and growth of cobalt [J]. J Electrochem Soc 2018;166 (1):D3175–81. https://doi.org/10.1149/2.0241901jes."
+    },
+    {
+      "n": 15,
+      "page": 10,
+      "raw": "[15] L. Zheng, C. Wang, J. Li, et al. Investigation of Benzoquinone as a New Type of Cu Electroplating Additive [C]. 2017 12th International Microsystems, Packaging, Assembly and Circuits Technology Conference (IMPACT). IEEE, 2017: 231–233 doi:https://doi.org/10.1109/IMPACT.2017.8255907."
+    },
+    {
+      "n": 16,
+      "page": 10,
+      "raw": "[16] Li J, Xu J, Wang X, et al. Diketopyrrolopyrrole-based supramolecular nano-leveler for the enhancement of conformal copper electrodeposition [J]. Appl Surf Sci 2021;569(15):150982. https://doi.org/10.1016/j.apsusc.2021.150982."
+    },
+    {
+      "n": 17,
+      "page": 10,
+      "raw": "[17] Zheng L, He W, Zhu K, et al. Investigation of poly (1-vinyl imidazole co 1, 4- Butanediol Diglycidyl ether) as a leveler for copper electroplating of through-hole [J]. Electrochim Acta 2018;283:560–7. https://doi.org/10.1016/j. electacta.2018.06.132."
+    },
+    {
+      "n": 18,
+      "page": 10,
+      "raw": "[18] Zhu K, Wang C, Wang JZ, et al. Convection-dependent competitive adsorption between SPS and EO/PO on copper surface for accelerating trench filling [J]. J Electrochem Soc 2019;166(4):D93–8. https://doi.org/10.1149/2.0491904jes."
+    },
+    {
+      "n": 19,
+      "page": 10,
+      "raw": "[19] Josell D, Silva M, Moffat TP. Superconformal bottom-up cobalt deposition in high aspect ratio through silicon vias [J]. J Electrochem Soc 2016;163(14):D809–17. https://doi.org/10.1149/2.0861614jes."
+    },
+    {
+      "n": 20,
+      "page": 10,
+      "raw": "[20] Huang Q, Lyons TW, Sides WD. Electrodeposition of cobalt for interconnect application: effect of dimethylglyoxime [J]. J Electrochem Soc 2016;163(13): D715–21. https://doi.org/10.1149/2.1111613jes."
+    },
+    {
+      "n": 21,
+      "page": 10,
+      "raw": "[21] Lyons TW, Huang Q. Effects of cyclohexane-monoxime and dioxime on the electrodeposition of cobalt [J]. Electrochim Acta 2017;245(10):309–17. https:// doi.org/10.1016/j.electacta.2017.05.130."
+    },
+    {
+      "n": 22,
+      "page": 10,
+      "raw": "[22] Hu Y, Lyons T, Huang Q. Influence of furil dioxime on cobalt electrochemical nucleation and growth [J]. J Electrochem Soc 2020;167(2):022509. https://doi. org/10.1149/1945-7111/ab69fb."
+    },
+    {
+      "n": 23,
+      "page": 10,
+      "raw": "[23] Ni X, Chen Y, Jin X, et al. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition [J]. J Taiwan Inst Chem Eng 2020; 112:232–9. https://doi.org/10.1016/j.jtice.2020.06.010."
+    },
+    {
+      "n": 24,
+      "page": 10,
+      "raw": "[24] Ma X, Li Y, Yang P, et al. Influence of suppressing additive malachite green on superconformal cobalt electrodeposition [J]. J Electroanal Chem 2022;921(15): 11696. https://doi.org/10.1016/j.jelechem.2022.116696."
+    },
+    {
+      "n": 25,
+      "page": 10,
+      "raw": "[25] Wang ZY, Jin L, Li G, et al. Electrochemical and in situ FTIR spectroscopic studies of gentian violet as a novel leveler in through-holes metallization for printed circuit board applications [J]. Electrochim Acta 2022;410(1):140018. https://doi.org/ 10.1016/j.electacta.2022.140018."
+    },
+    {
+      "n": 26,
+      "page": 10,
+      "raw": "[26] Li Y, Ren P, Zhang Y, et al. The influence of leveler brilliant green on copper superconformal electroplating based on electrochemical and theoretical study [J]. J Ind Eng Chem 2023;118:78–90."
+    },
+    {
+      "n": 27,
+      "page": 10,
+      "raw": "[27] Liu GK, Zou S, Josell D. SEIRAS study of chloride mediated polyether adsorption on Cu [J]. J Phys Chem C 2018;122(38):21933–51. https://doi.org/10.1021/acs. jpcc.8b06644."
+    },
+    {
+      "n": 28,
+      "page": 10,
+      "raw": "[28] N. T. M. Hai, T. M. T. Huynh, A. Fluegel, et al. Adsorption behavior of redox-active suppressor additives: combined electrochemical and STM studies [J]. Electrochim Acta, 56 (21): 7361–7370. doi:https://doi.org/10.1016/j.electacta.2011.06.008."
+    },
+    {
+      "n": 29,
+      "page": 10,
+      "raw": "[29] Lan J, Rybkin VV, Iannuzzi M. Ionization of water as an effect of quantum delocalization at aqueous electrode interfaces [J]. J Phys Chem Lett 2020;11(9): 3724 30. https://doi.org/10.1021/acs.jpclett.0c01025."
+    },
+    {
+      "n": 30,
+      "page": 10,
+      "raw": "[30] Wang F, Le Y. Bis-(3-sulfopropyl) disulfide acceleration of copper electrodeposition via molecular dynamics and quantum chemical calculations [J]. Int J Electrochem Sci 2020;15:4931–43. https://doi.org/10.20964/2020.06.11."
+    },
+    {
+      "n": 31,
+      "page": 10,
+      "raw": "[31] Lai Z, Wang S, Wang C, et al. A comparison of typical additives for copper electroplating based on theoretical computation [J]. Comput Mater Sci 2018;147: 95–102. https://doi.org/10.1016/j.commatsci.2017.11.049."
+    },
+    {
+      "n": 32,
+      "page": 10,
+      "raw": "[32] Dong L, Zhong S, Yuan B, et al. Reconstruction of solid electrolyte interphase with SrI2 reactivates dead Li for durable anode-free Li-metal batteries [J]. Angew Chem Int Ed 2023:e202301073. https://doi.org/10.1002/anie.202301073."
+    },
+    {
+      "n": 33,
+      "page": 10,
+      "raw": "[33] Ma XC, Li YQ, Yang PX, et al. Influences of suppressing additive malachite green on Superconformal cobalt filling and nucleation [J]. J Electrochem 2022;28(6): 2104521. https://doi.org/10.13208/j.electrochem.210452."
+    },
+    {
+      "n": 34,
+      "page": 10,
+      "raw": "[34] Li Y, Ren P, Zhang Y, et al. Investigation of novel leveler rhodamine B on copper superconformal electrodeposition of microvias by theoretical and experimenta studies [J]. Appl Surf Sci 2022:156266. https://doi.org/10.1016/j. apsusc.2022.156266"
+    },
+    {
+      "n": 35,
+      "page": 10,
+      "raw": "[35] Frisch MJ, Trucks GW, Schlegel HB, Scuseria GE, Robb MA, Cheeseman JR, et al. Gaussian 03, Revision C.02. Wallingford CT: Gaussian, Inc.; 2004."
+    },
+    {
+      "n": 36,
+      "page": 10,
+      "raw": "[36] Humphrey W, Dalke A, Schulten K. VMD: visual molecular dynamics. J Mol Graph Model 1996;14(1):33–8. https://doi.org/10.1016/0263-7855(96)00018-5."
+    },
+    {
+      "n": 37,
+      "page": 10,
+      "raw": "[37] Lu T, Chen F. Multiwfn: a multifunctional wavefunction analyzer [J]. J Comput Chem 2012;33(5):580–92. https://doi.org/10.1002/jcc.22885."
+    },
+    {
+      "n": 38,
+      "page": 10,
+      "raw": "[38] Li RP, Li YQ, Yang PX, et al. Key Roles of Interfacial OH− ion Distribution on Proton Coupled Electron Transfer Kinetics Toward Urea Oxidation Reaction [J]. Small 2022:2302151. https://doi.org/10.1002/smll.202302151."
+    },
+    {
+      "n": 39,
+      "page": 10,
+      "raw": "[39] Li RP, Li YQ, Yang PX, et al. Synergistic Interface engineering and structural optimization of non-noble metal telluride-nitride electrocatalysts for sustainably overall seawater electrolysis [J]. Appl Catal Environ 2022;318:121834. https:// doi.org/10.1016/j.apcatb.2022.121834."
+    },
+    {
+      "n": 40,
+      "page": 10,
+      "raw": "[40] Kelly JJ, West AC. Copper deposition in the presence of polyethylene glycol II. Electrochemical impedance spectroscopy [J]. J Electrochem Soc 1998;145(10): 3477–81. https://doi.org/10.1149/1.1838830"
+    },
+    {
+      "n": 41,
+      "page": 10,
+      "raw": "[41] Liu A, Guan W, Zhao X, et al. Investigation on the interfacial behavior of polyorganic inhibitors on a metal surface by DFT study and MD simulation [J]. Appl Surf Sci 2021;541(1):148570."
+    },
+    {
+      "n": 42,
+      "page": 10,
+      "raw": "[42] Xia S, Qiu M, Yu L, et al. Molecular dynamics and density functional theory study on relationship between structure of Imidazoline derivatives and inhibition performance [J]. Corros Sci 2008;50(7):2021–9. https://doi.org/10.1016/j. corsci.2008.04.021."
+    },
+    {
+      "n": 43,
+      "page": 10,
+      "raw": "[43] Li Y, Ren P, Lu X, et al. Elucidating the role of P on Mn- and N-doped graphene catalysts in promoting oxygen reduction: density functional theory studies [J]. SusMat 2023. https://doi.org/10.1002/sus2.127."
+    },
+    {
+      "n": 44,
+      "page": 10,
+      "raw": "[44] Li Y, Ren P, Li R, et al. A novel bright additive for copper electroplating: electrochemical and theoretical study [J]. Ionics 2022;156:1–13. https://doi.org/ 10.1007/s11581-022-04799-7."
+    },
+    {
+      "n": 45,
+      "page": 10,
+      "raw": "[45] Geiger U, Elyashiv A, Fraenkel R, et al. The Raman spectrum of dimethylaminophenyl pentazole (DMAPP) [J]. Chem Phys Lett 2013;556:127–31. https://doi.org/10.1016/j.cplett.2012.11.082."
+    },
+    {
+      "n": 46,
+      "page": 10,
+      "raw": "[46] A. Gomez-Zavaglia, ´ A. Ismaelb, L. I. L. Cabral, et al. Structural Investigation of Nitrogen-linked Saccharinate–tetrazole [J]. J Mol Struct, 1003, 1–8 (28): 103–110. doi:https://doi.org/10.1016/j.molstruc.2011.07.044."
+    },
+    {
+      "n": 47,
+      "page": 10,
+      "raw": "[47] Villamil RFV, Corio P, Agostinho SML, et al. Effect of sodium dodecylsulfate on copper corrosion in sulfuric acid media in the absence and presence of benzotriazole [J]. J Electroanal Chem 1999;472(2):112–9. https://doi.org/ 10.1016/S0022-0728(99)00267-3."
+    },
+    {
+      "n": 48,
+      "page": 10,
+      "raw": "[48] Katturi NK, G SD, Kommu N, et al. Ultrafast coherent anti-stokes Raman spectroscopic studies of nitro/nitrogen rich aryl-tetrazole derivatives [J]. Chem Phys Lett 2020;756:137843. https://doi.org/10.1016/j.cplett.2020.137843."
+    },
+    {
+      "n": 49,
+      "page": 10,
+      "raw": "[49] Chen SN, Li X, Guo Y, et al. A ag-molecularly imprinted polymer composite for efficient surface-enhanced Raman scattering activities under a low-energy laser [J]. Analyst 2015;140(9):3239–43. https://doi.org/10.1039/C4AN02301C."
+    },
+    {
+      "n": 50,
+      "page": 10,
+      "raw": "[50] Yong D, Fang Yan. Effects of the halide ion adsorption competition on the near infrared surface enhanced Raman spectroscopy of rhodamine B-au colloid system [J]. J Optoelect Laser 2003;14(8):881–5. https://doi.org/10.1023/A: 1022289509702."
+    },
+    {
+      "n": 51,
+      "page": 10,
+      "raw": "[51] Bugalho SCS, Maçoas ˆ EMS, Cristiano MLS, et al. Low temperature matrix-isolation and solid state vibrational spectra of tetrazole [J]. Phys Chem Chem Phys 2001;3 (17):3541–7. https://doi.org/10.1039/B103344C."
+    },
+    {
+      "n": 52,
+      "page": 10,
+      "raw": "[52] Lin GY, Yan JJ, Yen MY, et al. Characterization of through-hole filling by copper electroplating using a tetrazolium salt inhibitor [J]. J Electrochem Soc 2013;160 (12):D3028–34. https://doi.org/10.1149/2.005312jes."
+    },
+    {
+      "n": 53,
+      "page": 10,
+      "raw": "[53] Dow WP, Chen HH, Yen MY, et al. Through-hole filling by copper electroplating [J]. J Electrochem Soc 2008;155(12):D750–7. https://doi.org/10.1149/ 1.2988134."
+    },
+    {
+      "n": 54,
+      "page": 10,
+      "raw": "[54] Li Y, Liu L, Wei Q, et al. Highly selective separation of acetic acid and hydrochloric acid by alkylamide based on double hydrogen bond coupling mechanism [J]. Sep Purif Technol 2021;275(15):119110. https://doi.org/10.1016/j seppur.2021.119110."
+    },
+    {
+      "n": 55,
+      "page": 10,
+      "raw": "[55] Ren HZ, Li S, Wang B, et al. Molecular-crowding effect mimicking cold-resistan plants to stabilize the zinc anode with wider service temperature range [J]. Adv Mater 2022:2208237. https://doi.org/10.1002/adma.202208237."
+    }
+  ]
+}

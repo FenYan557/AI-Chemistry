@@ -1,0 +1,69 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "e the TP value [14,15]. As a critical metric for assessing the performance of throu"
+      },
+      {
+        "value": "sse",
+        "context": "lecular dynamics simulations showed that VIBDGE possesses the highest adsorption en"
+      },
+      {
+        "value": "sse",
+        "context": "ular dynamics simulations showed that VIBDGE possesses the highest adsorption energ"
+      },
+      {
+        "value": "sse",
+        "context": " a scan rate of 0.05◦ s ^ - 1. The data were processed using Jade 5, with backgroun"
+      },
+      {
+        "value": "sse",
+        "context": "ompared to PDS, the addition of PD results in a lesser reduction in anodic strippin"
+      },
+      {
+        "value": "sse",
+        "context": "ration of 50 mg/L, the potential of the solution essentially ceases to decrease, in"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "2A/dm2",
+        "context": "h a copper-coated surface. The current was set at 2A/dm2 and the electroplating durati"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "y electrochemical impedance spectroscopy (EIS) at room temperature[J], Mater. Today Proc. 66 (20"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": " orbitals, and differential charge density on the Cu (111) surface for both leveli"
+      },
+      {
+        "value": "Co",
+        "context": "ased from Shanghai Aladdin Biochemical Technology Co., Ltd. Polyethylene glycol (P"
+      },
+      {
+        "value": "Co",
+        "context": "ined from Shanghai Aladdin Biochemical Technology Co., Ltd. All chemicals and reag"
+      },
+      {
+        "value": "Cu",
+        "context": "nalyzed by X-ray diffraction (XRD, D/max-γβ) with Cu Kα radiation at 40 kV and 40 "
+      },
+      {
+        "value": "Cu",
+        "context": " charge density of DADMAC and DS molecules on the Cu(111) crystal surface[29]. Det"
+      },
+      {
+        "value": "Cu",
+        "context": "ives antagonize PEG and promote the deposition of Cu 2+. However, the potential in"
+      }
+    ]
+  }
+}

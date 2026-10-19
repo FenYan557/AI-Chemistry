@@ -1,0 +1,9 @@
+{
+  "tables": 98,
+  "coords": {
+    "normalized0_1000": 98
+  },
+  "bbox_mean": 0.96,
+  "page_mean": 0.946,
+  "bbox_mismatch": 1
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "利用牺牲氧化剂实现钴的超共形填充",
+  "title": "Superconformal Cobalt Fill through the Use of Sacrificial Oxidants",
+  "doi": "10.1149/08010.0767ecst",
+  "journal": "其他期刊",
+  "year": "2017",
+  "pages": 11,
+  "printed_page_map": {
+    "2": 767,
+    "3": 768,
+    "4": 769,
+    "5": 770,
+    "6": 771,
+    "7": 772,
+    "8": 773,
+    "9": 774,
+    "10": 775,
+    "11": 776
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 10,
+      "raw": "1. C. Adelmann, L. G. Wen, A. P. Peter, Y. K. Siew, K. Croes, J. Swerts, M. Popovici, K. Sankaran, G. Pourtois, S. Van Elshocht, J. Bommels, and Z. Tokei, Proc. of IEEE IITC/AMC, 173 (2014)."
+    },
+    {
+      "n": 2,
+      "page": 10,
+      "raw": "2. O. V. Pedreira, K. Croes, A. Lesniewska, C. Wu, M. H. Van der Veen, J. De Messemaeker, K. Vandersmissen, N. Jourdan, L. G. Wen, C. Adelmann, B. Briggs, V. Vega Gonzalez, J. Bommels, Z. Tokei, Proc. Of IEEE IRPS, 6B-2.1 (2017)."
+    },
+    {
+      "n": 3,
+      "page": 11,
+      "raw": "3. G. Gall, J. Appl. Phys., 119, 085101 (2016)."
+    },
+    {
+      "n": 4,
+      "page": 11,
+      "raw": "4. D. Josell, M. Silva, and T. P. Moffat, J. Electrochem. Soc., 163 (14), D809 (2016)."
+    },
+    {
+      "n": 5,
+      "page": 11,
+      "raw": "5. C. H. Lee, J. E. Bonevich, J. E. Davies, and T. P. Moffat, J. Electrochem. Soc., 156 (8), D301 (2009)."
+    },
+    {
+      "n": 6,
+      "page": 11,
+      "raw": "6. Q. Huang, T. W. Lyons, and W. D. Sides, J. Electrochem. Soc., 163 (13), D715 (2016)."
+    },
+    {
+      "n": 7,
+      "page": 11,
+      "raw": "7. S. Bozdech, K. Krischer, D. A. Crespo-Yapur, E. Savinova, and A. Bonnefont, Faraday Discuss., 193, 187 (2016)."
+    },
+    {
+      "n": 8,
+      "page": 11,
+      "raw": "8. T. M. Braun and T. P. Moffat, 232 nd Meeting of the Electrochemical Society, National Harbor, MD, Abstract MA2017-02 930 (2017)."
+    },
+    {
+      "n": 9,
+      "page": 11,
+      "raw": "9. O. E. Kongstein, G. M. Haarberg, and J. Thonstad, J. Appl. Electrochem., 37, 669 (2007)."
+    },
+    {
+      "n": 10,
+      "page": 11,
+      "raw": "10. M. I. Jeffrey, W. L. Choo, and P. L. Breuer, Minerals Engin., 13, 1231 (2000)."
+    }
+  ]
+}

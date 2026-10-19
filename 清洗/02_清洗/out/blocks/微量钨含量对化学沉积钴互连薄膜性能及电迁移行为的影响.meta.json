@@ -1,0 +1,296 @@
+{
+  "doc_id": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响",
+  "title": "Influence of trace tungsten contents on thin-film properties and electromigration behaviors of electroless-deposited cobalt interconnect lines",
+  "doi": "10.1016/j.materresbull.2025.113343",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 10,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] Institute of Electrical and Electronics Engineers (IEEE). International Roadmap for Devices and System: Section 4.5. Interconnect Technology Requirements, 2023 edition, More Moore, 2023."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] D. Gall, Electron mean free path in elemental metals, J. Appl. Phys. 119 (2016) 08510, https://doi.org/10.1063/1.4942216."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] N. Yoshida, S. Hassan, W. Tang, Y. Yang, W. Zhang, S.C. Chen, L. Dong, H. Zhou, M. Jin, M. Okazaki, J. Park, N. Bekiaris, R. Hung, J. Zhou, Y. Lei, P. Ma, X. Tang, T. Miyashita, N. Kim, E. Yieh, Highly conductive metal gate fill integration solution for extremely scaled RMG stack for 5 nm & beyond, in: Proceedings of the IEEE International Electron Devices Meeting, 2017, https://doi.org/10.110"
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] I. Ciofi, O.V. Pedreira, B. Parvais, K. Croes, RC benefits of advanced metallization options, IEEE Trans. Electron Devices 66 (2019) 2339–2345, https://doi.org/ 10.1109/TED.2019.2902031."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] D. Tierno, I. Ciofi, O.V. Pedreira, B. Parvais, K. Croes, Exploring the benefits of cryogenic temperatures for Co and Ru metallizations, in: Proceedings of the 2023 IEEE International Interconnect Technology Conference and IEEE Materials fo Advanced Metallization Conference, 2023, pp. 1–3, https://doi.org/10.1109/IITC/ MAM57687.2023.10154717."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] R. Hen, Z.Y. Wu, N. Bekiaris, J. Tseng, G. How, X.G. Xie, W. Lei, R. Tao, R. Shaviv, J.J. Lee, R. Vinnakota, K. Kashefizadeh, M. Gage, M. Naik, Resistance scaling of Cu interconnect and alternate metal (Co, Ru) benchmark toward sub 10 nm dimension, in: Proceedings of the 2018 IEEE International Interconnect Technology Conference, 2018, pp. 166 168, https://doi.org/10.1109/IITC.2018.8430411."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] M.H. van der Veen, N. Heylen, O.V. Pedreira, I. Ciofi, S. Decoster, V.V. Gonzalez, N. Jourdan, H. Struyf, K. Croes, C.J. Wilson, Zs. Tokei, Damascene benchmark of Ru, Co and Cu in scaled dimensions, in: Proceedings of the 2018 IEEE International Interconnect Technology Conference, 2018, pp. 172–174, https://doi.org/ 10.1109/IITC.2018.8430407."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] P.S. Ho, T. Kwok, Electromigration in metals, Rep. Prog. Phys. 52 (1989) 301–349, https://doi.org/10.1088/0034-4885/52/3/002."
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] J.P. Dekker, A. Lodder, Calculated electromigration wind force in face-centeredcubic and body-centered-cubic metals, J. Appl. Phys. 84 (1998) 1958–1962, https://doi.org/10.1063/1.368327."
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] O. Clauben, S. Gerlach, C. Russel, Self-diffusivity of polyvalent ions in silicate liquids, J. Non Cryst. Solids 253 (1999) 76–83, https://doi.org/10.1016/S0022- 3093(99)00345-2."
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] A.S. Oates, Strategies to ensure electromigration reliability of Cu/low-k interconnects at 10 nm, ECS J. Solid State Sci. Technol. 4 (2015) N3168 N3175, https://doi.org/10.1149/2.0171501JSS."
+    },
+    {
+      "n": 12,
+      "page": 9,
+      "raw": "[12] O. Varela Pedreira, M. Lofrano, H. Zahedmanesh, Ph.J. Roussel, M. van der Veen, V. Simons, E. Chery, I. Ciofi, K. Croes, Assessment of critical Co electromigration parameters, in: Proceedings of the 2022 IEEE International Reliability Physics Symposium (IRPS), Dallas, TX, USA, 2022, https://doi.org/10.1109 IRPS48227.2022.9764427, 8C.2-1-8C.2-7."
+    },
+    {
+      "n": 13,
+      "page": 9,
+      "raw": "[13] Y. Shacham-Diamand, T. Osaka, Y. Okinaka, A. Sugiyama, V. Dubin, 30 years of electroless plating for semiconductor and polymer micro-systems, Microelectron. Eng. 132 (2015) 35 45, https://doi.org/10.1016/j.mee.2014.09.003"
+    },
+    {
+      "n": 14,
+      "page": 9,
+      "raw": "[14] Z. Sukackiene, L. Tamasauskaite-Tamasiunaite, V. Jasulaitiene, A. Balciunaite, A. Naujokaitis, E. Norkus, Electroless deposition of CoBW coatings using"
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "morpholine borane as a reducing agent, Thin Solid Films 636 (2017) 425–430, https://doi.org/10.1016/j.tsf.2017.06.034"
+    },
+    {
+      "n": 15,
+      "page": 9,
+      "raw": "[15] K. Nishizawa, A. Matsumoto, Y. Nakagawa, H. Sakuma, S. Goto, N. Fukumuro, S. Yae, Comparison of electroless Ni-P and Co-W-P diffusion properties against GaAs substrate, J. Electron. Mater. 52 (2023) 4080–4090, https://doi.org 10.1007/s11664-023-10380-3."
+    },
+    {
+      "n": 16,
+      "page": 9,
+      "raw": "[16] Y. Shacham-Diamand, Y. Sverdlov, N. Petrov, Electroless deposition of thin-film cobalt-tungsten-phosphorus layers using tungsten phosphoric acid (H 3 [P (W O) ]) for ULSI and MEMS applications, J. Electrochem. Soc. 148 (2001) C162–C167, https://doi.org/10.1149/1.1346605."
+    },
+    {
+      "n": 17,
+      "page": 9,
+      "raw": "[17] J. Gambino, J. Wynne, J. Gill, S. Mongeon, D. Meatyard, B. Lee, H. Bamnolker, L. Hall, N. Li, M. Hernandez, P. Little, M. Hamed, I. Ivanov, C.L. Gan, Self-aligned metal capping layers for copper interconnects using electroless plating Microelectron. Eng. 83 (2006) 2059–2067, https://doi.org/10.1016/j. mee.2006.09.008."
+    },
+    {
+      "n": 18,
+      "page": 9,
+      "raw": "[18] M. Malki, A. Rozenblat-Raz, A. Duhin, A. Inberg, D. Horvitz, Y. Shacham-Diamand, Thin electroless Co(W,P) film growth on titanium-nitride layer modified by self assembled monolayer, Surf. Coat. Technol. 252 (2014) 1–7, https://doi.org 10.1016/j.surfcoat.2014.04.041"
+    },
+    {
+      "n": 19,
+      "page": 9,
+      "raw": "[19] J.S. Fang, G.S. Chen, C.C. Chang, C.N. Hsiao, W.C. Chen, Y.L. Cheng, Understanding electromigration failure behaviors of narrow cobalt lines and the mechanism of reliability enhancement for extremely dilute alloying of manganese oxide, J. Alloy. Compd. 970 (2024) 172591, https://doi.org/10.1016/j. jallcom.2023.172591."
+    },
+    {
+      "n": 20,
+      "page": 9,
+      "raw": "[20] J.S. Fang, T.M. Yang, Y.C. Pan, G.Y. Lai, Y.L. Cheng, G.S. Chen, Chemical-structure evolution model for the self-assembling of amine-terminated monolayers on nanoporous carbon-doped organosilicate in tightly controlled environments, Langmuir 36 (2020) 15153–15161, https://doi.org/10.1021/acs langmuir.0c02801."
+    },
+    {
+      "n": 21,
+      "page": 9,
+      "raw": "[21] G.S. Chen, W.H. Chang, C.C. Chang, Y.H. Chien, J.S. Fang, Y.L. Cheng, Structural models and barrier properties of amine-terminated trialkoxysilane monolayers incubated in nonpolar vs. polar protic solvents, Mater. Chem. Phys. 274 (2021) 125113, https://doi.org/10.1016/j.matchemphys.2021.125113."
+    },
+    {
+      "n": 22,
+      "page": 9,
+      "raw": "[22] G.S. Chen, T.M. Yang, S.T. Chen, Y.L. Cheng, J.S. Fang, A new alternative self assembled-monolayer activation process for electroless deposition of copper interconnects without a conventional barrier, Electrochem. Commun. 87 (2018) 9 12, https://doi.org/10.1016/j.elecom.2017.12.015"
+    },
+    {
+      "n": 23,
+      "page": 9,
+      "raw": "[23] J.R. Lloyd, Black’s law revisited—Nucleation and growth in electromigration failure, Microelectron. Reliab. 47 (2007) 1468–1472, https://doi.org/10.1016/j. microrel.2007.07.094."
+    },
+    {
+      "n": 24,
+      "page": 9,
+      "raw": "[24] D.K. Owens, R.C. Wendt, Estimation of the surface free energy of polymers, J. Appl. Polym. Sci. 13 (1969) 1741 1747, https://doi.org/10.1002/app.1969.070130815."
+    },
+    {
+      "n": 25,
+      "page": 9,
+      "raw": "[25] N. Petrov, Y. Sverdlov, Y. Shacham-Diamand, Electrochemical study of the electroless deposition of Co(P) and Co(W, P) alloys, J. Electrochem. Soc. 149 (2002) C187 C194, https://doi.org/10.1149/1.1452118."
+    },
+    {
+      "n": 26,
+      "page": 9,
+      "raw": "[26] Y. Sverdlov, V. Bogush, H. Einati, Y. Shacham-Diamand, Electrochemical study of the electroless deposition of Co(W, B) alloys, J. Electrochem. Soc. 152 (2005) C631–C638, https://doi.org/10.1149/1.1997167"
+    },
+    {
+      "n": 27,
+      "page": 9,
+      "raw": "[27] Y. Sverdlov, V. Bogush, Y. Shacham-Diamand, Microstructure and material properties of electroless CoWP films obtained from sulfamate solutions, Microelectron. Eng. 83 (2006) 2243–2247, https://doi.org/10.1016/j. mee.2006.10.012."
+    },
+    {
+      "n": 28,
+      "page": 9,
+      "raw": "[28] R. Tarozaite, Z. Sukackiene, A. Sudavicius, R. Juskenas, A. Selskis, A. Jagminiene, E. Norkus, Application of glycine containing solutions for electroless deposition of Co-P and Co-W-P films and their behavior as barrier layers, Mater. Chem. Phys. 117 (2009) 117–124, https://doi.org/10.1016/j.matchemphys.2009.05.016."
+    },
+    {
+      "n": 29,
+      "page": 9,
+      "raw": "[29] A.A. Aal, H. Barakat, Z.A. Hamid, Synthesis and characterization of electroless deposited Co-W-P thin films as diffusion barrier layer, Surf. Coat. Technol. 202 (2008) 4591–4597, https://doi.org/10.1016/j.surfcoat.2008.03.023."
+    },
+    {
+      "n": 30,
+      "page": 9,
+      "raw": "[30] J. Lienig, M. Thiele, Fundamentals of Electromigration—Aware Integrated Circuit Design, Springer, 2018."
+    },
+    {
+      "n": 31,
+      "page": 9,
+      "raw": "[31] Y.X. Lin, A. Gusak, S.Y. Jing, K.N. Tu, Fast prediction of electromigration lifetime with modified mean-time-to-failure equation, Mater. Lett. 325 (2022) 132880, https://doi.org/10.1016/j.matlet.2022.132880"
+    },
+    {
+      "n": 32,
+      "page": 9,
+      "raw": "[32] J.R. Lloyd, Electromigration in integrated circuit conductors, J. Phys. D Appl. Phys. 32 (1999) R109–R118, https://doi.org/10.1088/0022-3727/32/17/201."
+    },
+    {
+      "n": 33,
+      "page": 9,
+      "raw": "[33] S.J. Bull, D.S. Rickerby, New developments in the modelling of the hardness and scratch adhesion of thin films, Surf. Coat. Technol. 42 (1990) 149 164, https://doi. org/10.1016/0257-8972(90)90121-R."
+    },
+    {
+      "n": 34,
+      "page": 9,
+      "raw": "[34] S.Y. Chang, S.Y. Lin, Y.C. Huang, C.L. Wu, Mechanical properties, deformation behaviors and interface adhesion of (AlCrTaTiZr)N multi-component coatings, Surf. Coat. Technol. 204 (2010) 3307–3314, https://doi.org/10.1016/j. surfcoat.2010.03.041."
+    },
+    {
+      "n": 35,
+      "page": 9,
+      "raw": "[35] X.F. Wang, P. Xu, R. Han, J. Ren, L.Y. Li, N. Han, F. Xing, J.H. Zhu, A review on the mechanical properties for thin film and block structure characterised by using nanoscratch test, Nanotechnol. Rev. 8 (2019) 628–644, https://doi.org/10.1515 ntrev-2019-0055."
+    },
+    {
+      "n": 36,
+      "page": 9,
+      "raw": "[36] J.A. Williams, Analytical models of scratch hardness, Tribol. Int. 29 (1996) 675 694, https://doi.org/10.1016/0301-679X(96)00014-X."
+    },
+    {
+      "n": 37,
+      "page": 9,
+      "raw": "[37] E.J. Chibowksi, Surface free energy and wettability of silyl layers on silicon determined from contact angle hysteresis, Adv. Colloid Interface Sci. 113 (2005) 121 131, https://doi.org/10.1016/j.cis.2005.01.005."
+    },
+    {
+      "n": 38,
+      "page": 9,
+      "raw": "[38] D. Janssen, R. De Palma, S. Verlaak, P. Heremans, W. Dehaen, Static solvent contact angle measurements, surface free energy and wettability determination of various self-assembled monolayers on silicon dioxide, Thin Solid Films 515 (2006) 1433–1438, https://doi.org/10.1016/j.tsf.2006.04.006."
+    },
+    {
+      "n": 39,
+      "page": 10,
+      "raw": "[39] K. Malecha, I. Gancarz, W. Tylus, Argon plasma-assisted PDMS-LTCC bonding technique for microsystem applications, J. Micromech. Microeng. 20 (2010) 115006, https://doi.org/10.1088/0960-1317/20/11/115006."
+    },
+    {
+      "n": 40,
+      "page": 10,
+      "raw": "[40] G. Cappelletti, S. Ardizzone, D. Meroni, G. Soliveri, M. Ceotto, C. Biaggi, M. Benaglia, L. Raimondi, Wettability of bare and fluorinated silanes: a combined approach based on surface free energy evaluations and dipole moment calculations, J. Colloid Interface Sci. 389 (2013) 284–291, https://doi.org/ 10.1016/j.jcis.2012.09.008."
+    },
+    {
+      "n": 41,
+      "page": 10,
+      "raw": "[41] A.O. Lindahl, P. Andersson, C. Diehl, O. Forstner, P. Klason, D. Hanstorp, The electron affinity of tungsten, Eur. Phys. J. D 60 (2010) 219–222, https://doi.org/ 10.1140/epjd/e2010-00199-y."
+    },
+    {
+      "n": 42,
+      "page": 10,
+      "raw": "[42] X. Chen, C. Ning, Accurate electron affinity of Co and fine-structure splittings of Co − via slow-electron velocity-map imaging, Phys. Rev. A 93 (2016) 052508, https://doi.org/10.1103/PhysRevA.93.052508."
+    },
+    {
+      "n": 43,
+      "page": 10,
+      "raw": "[43] Y. Yamada, M. Yahagi, J. Koike, Thermodynamic evaluation of the liner and barrier properties of a single-phase interlayer for advanced Cu interconnections, in: Proceedings of the IEEE International Interconnect Technology Conference (IITC), Kyoto, Japan, 2021, pp. 1–3, https://doi.org/10.1109/IITC51362.2021.9537369."
+    },
+    {
+      "n": 44,
+      "page": 10,
+      "raw": "[44] H. Einati, V. Bogush, Y. Sverdlov, Y. Rosenberg, Y. Shacham-Diamand, The effect of tungsten and boron on the Cu barrier and oxidation properties of thin electroless cobalt–tungsten–boron films, Microelectron. Eng. 82 (2005) 623–628, https://doi. org/10.1016/j.mee.2005.07.082."
+    },
+    {
+      "n": 45,
+      "page": 10,
+      "raw": "[45] H.B. Huntington, A.R. Grone, Current-induced marker motion in gold wires, J. Phys. Chem. Solids 20 (1961) 76–87, https://doi.org/10.1016/0022-3697(61) 90138-X."
+    },
+    {
+      "n": 46,
+      "page": 10,
+      "raw": "[46] C.S. Hau-Riege, An introduction to Cu electromigration, Microelectron. Reliab. 44 (2004) 195–205, https://doi.org/10.1016/j.microrel.2003.10.020."
+    },
+    {
+      "n": 47,
+      "page": 10,
+      "raw": "[47] R.L. de Orio, H. Ceric, S. Selberherr, Physically based models of electromigration: from Black’s equation to modern TCAD models, Microelectron. Reliab. 50 (2010) 775–789, https://doi.org/10.1016/j.microrel.2010.01.007."
+    },
+    {
+      "n": 48,
+      "page": 10,
+      "raw": "[48] J. Niehof, H.C. De Graaff, A.J. Mouthaan, J.F. Verwey, An empirical model for early resistance changes due to electromigration, Solid State Electron. 38 (1995) 1817 1827, https://doi.org/10.1016/0038-1101(94)00285-N"
+    },
+    {
+      "n": 49,
+      "page": 10,
+      "raw": "[49] K.N. Tu, Recent advances on electromigration in very-large-scale-integration of interconnects, J. Appl. Phys. 94 (2003) 5451 5473, https://doi.org/10.1063 1.1611263."
+    },
+    {
+      "n": 50,
+      "page": 10,
+      "raw": "[50] R. Hoffmann-Vogel, Electromigration and the structure of metallic nanocontacts, Appl. Phys. Rev. 4 (2017) 031302, https://doi.org/10.1063/1.4994691."
+    },
+    {
+      "n": 51,
+      "page": 10,
+      "raw": "[51] H. Wang, C. Bruynseraede, K. Maex, Impact of current crowding on electromigration-induced mass transport, Appl. Phys. Lett. 84 (2004) 517–519, https://doi.org/10.1063/1.1644048."
+    },
+    {
+      "n": 52,
+      "page": 10,
+      "raw": "[52] S.K. Lin, Y.C. Liu, S.J. Chiu, Y.T. Liu, H.Y. Lee, The electromigration effect revisited: non-uniform local tensile stress-driven diffusion, Sci. Rep. 7 (2017) 3082, https://doi.org/10.1038/s41598-017-03324-5."
+    },
+    {
+      "n": 53,
+      "page": 10,
+      "raw": "[53] J.R. Lloyd, M.W. Lane, E.G. Liniger, C.K. Hu, T.M. Shaw, R. Rosenberg, Electromigration and adhesion, IEEE Trans. Device Mater. Reliab. 5 (2005) 113–118, https://doi.org/10.1109/TDMR.2005.846308."
+    },
+    {
+      "n": 54,
+      "page": 10,
+      "raw": "[54] S.P. Prasad, Y. Singh, P.K. Vaitheeswaran, G. Subbarayan, The connection between electromigration resistance and thin-film adhesion and their degradation with temperature, IEEE Trans. Compon. Packag. Manuf. Technol. 13 (2023) 426–443, https://doi.org/10.1109/TCPMT.2023.3259299."
+    }
+  ]
+}

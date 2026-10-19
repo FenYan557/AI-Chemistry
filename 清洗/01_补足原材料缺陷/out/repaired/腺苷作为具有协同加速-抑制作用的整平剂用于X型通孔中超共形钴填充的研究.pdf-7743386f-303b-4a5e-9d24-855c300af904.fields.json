@@ -1,0 +1,73 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sce",
+        "context": "opper cannot meet the process requirements of damascene filling. However, cobalt ex"
+      },
+      {
+        "value": "sse",
+        "context": "ilicon (10 × 10^-6/K) [4,5], and the internal stresses generated during high-temper"
+      },
+      {
+        "value": "sce",
+        "context": "ent efficiency filling mechanism and achieved damascene filling of cobalt. Using th"
+      },
+      {
+        "value": "sse",
+        "context": "o achieve even and dense coating. Wu et al. [26] assessed the performance of phenyl"
+      },
+      {
+        "value": "sse",
+        "context": "chieve even and dense coating. Wu et al. [26] assessed the performance of phenyl me"
+      },
+      {
+        "value": "sse",
+        "context": "erates cobalt deposition, the adenine group suppresses cobalt deposition, and the a"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "5 mA/cm2",
+        "context": " was pre-plated for 200 s at a current density of\n5 mA/cm2. This was followed by CV stri"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": " Å and the height of 45.1 Å at the temperature of 298 K. Sulfate ions and chloride io"
+      },
+      {
+        "value": "298 K",
+        "context": "MD process, which final temperature tended toward 298 K. The energy and temperature c"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "n, 610065, China\nc Zhuhai Wise Sharp Technologies Co., Ltd., Zhuhai, 519040, China"
+      },
+      {
+        "value": "Co",
+        "context": "i, 519040, China\nd Dongguan HONG YUEN Electronics Co., Ltd., Dongguan, 523932, Chi"
+      },
+      {
+        "value": "Co",
+        "context": "red (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was "
+      },
+      {
+        "value": "Co",
+        "context": "ment effect, and crystal analysis showed that the Co hcp (002) crystalline plane w"
+      },
+      {
+        "value": "Ni",
+        "context": "Using the differential current filling mechanism, Ni et al. [14] introduced polyvi"
+      },
+      {
+        "value": "Co",
+        "context": ", 1 0 , }$ 19]. In addition, it was proposed that Co $\\left( \\mathrm { O H } \\righ"
+      }
+    ]
+  }
+}

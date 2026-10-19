@@ -1,0 +1,196 @@
+{
+  "doc_id": "糖精对镀钴层结构_导电能力的改变",
+  "title": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+  "doi": "10.61558/2993-074x.3533",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 11,
+  "printed_page_map": {},
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] Sun T, Yao B, Warren A P, Barmak K, Toney M F, Peale R E, Coffey K R. Surface and grain-boundary scattering in nanometric Cu films[J]. Phys. Rev. B., 2010, 81(15):155454. https:// doi.org/10.1103/PhysRevB.81.155454."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] Zhang W, Brongersma S H, Richard O, Brijs B, Palmans R, Froyen L, Maex K. Influence of the electron mean free path on the resistivity of thin metal films[J]. Microelectron. Eng., 2004, 76(1-4): 146–152. https://doi.org/10.1016/j.mee.2004.07.041."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] Choi D. Potential of ruthenium and cobalt as next-generation semiconductor interconnects[J]. Korean J. Met. Mater., 2018, 56(8): 605–610. http://dx.doi.org/10.3365/KJMM.2018.56.8.605."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] Tan C M, Roy A, Reports E R. Electromigration in ULSI interconnects[J]. Mater. Sci., 2007, 58(1-2): 1–75. https://doi. org/10.1016/j.mser.2007.04.002."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] Bekiaris N, Wu Z Y, Ren H, Naik M, Park J H, Lee M, Ha T H, Hou W, Bakke J R, Gage M. Cobalt fill for advanced interconnects[C]. 2017 IEEE International Interconnect Technology Conference (IITC), Hsinchu, Taiwan, 2017: 1–3. https://doi. org/10.1109/IITC-AMC.2017.7968981."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] Bourzac K. Cobalt could untangle chips’ wiring problems[J]. IEEE Spectrum., 2018, 55(2): 12–13. https://doi.org/10.1109/ MSPEĆ 2018 8278123"
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] Wu J, Wafula F, Branagan S, Suzuki H, van Eisden J. Mechanism of cobalt bottom-up filling for advanced node interconnect metallization[J]. J. Electrochem. Soc., 2018, 166(1): D3136– D3141. https://doi.org/10.1149/2.0161901jes."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] Auth C, Aliyarukunju A, Asoro M, Bergstrom D, Bhagwat V, Birdsall J, Bisnik N, Buehler M, Chikarmane V, Ding G. A 10nm high performance and low-power CMOS technology featuring 3rd generation FinFET transistors, Self-Aligned Quad Patterning, contact over active gate and cobalt local interconnects[C]. International Electron Devices Meeting(IEDM). 2017: 29.1.1–29.1.4. https://doi.org/10.1109/ IED"
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] Gusley R, Ezzat S, Coffey K R, West A C, Barmak K. Influence of the seed layer and electrolyte on the epitaxial electrodeposition of Co (0001) for the fabrication of single crystal interconnects[J]. J. Electrochem. Soc., 2020, 167(16): 162503. https:// doi.org/10.1149/1945-7111/abcd13."
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] Kang J, Sung M, Byun J, Kwon O J, Kim J J. Superconformal cobalt electrodeposition with a hydrogen evolution reaction suppressing additive[J]. J. Electrochem. Soc., 2020, 167(16): 162514. https://doi.org/10.1149/1945-7111/abd3b9."
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] Ni X R, Chen Y M, Jin X F, Wang C, Huang Y Z, Hong Y, Su X H, Zhou G Y, Wang S X, He W, Chen Q G. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition[J]. J. Taiwan Inst. Chem. E, 2020, 112: 232–239. https://doi.org/10.1016/j.jtice.2020.06.010."
+    },
+    {
+      "n": 12,
+      "page": 9,
+      "raw": "[12] Kongstein O, Haarberg G, Thonstad. Current efficiency and kinetics of cobalt electrodeposition in acid chloride solutions. Part I: The influence of current density, pH and temperature[J]. J. Appl. Electrochem., 2007, 37: 669–674. https://doi. org/10.1007/s10800-007-9299-z"
+    },
+    {
+      "n": 13,
+      "page": 9,
+      "raw": "[13] Wang Z L, Obata R, Sakaue H, Takahagi T, Shingubara S. Bottom-up copper fill with addition of mercapto alkyl carboxylic"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "acid in electroless plating[J]. Electrochim. Acta., 2006, 51(12): 2442–2446. https://doi.org/10.1016/j.electacta.2005.07.023."
+    },
+    {
+      "n": 14,
+      "page": 10,
+      "raw": "[14] Wang Z X, Wang S, Yang Z, Wang Z L. Influence of additives and pulse parameters on uniformity of through-hole copper plating[J]. Transactions of the IMF., 2013, 88(5): 272–276. https://doi.org/10.1179/002029610X12791981507884."
+    },
+    {
+      "n": 15,
+      "page": 10,
+      "raw": "[15] Yang Z F, Wang Z X, Wang X, Wang Z L. Comparison of bottom-up filling in electroless plating with an addition of PEG, PPG and EPE[J]. Chin. J. Chem., 2011, 29(3): 422–426. https:// doi.org/10.1002/cjoc.201190098."
+    },
+    {
+      "n": 16,
+      "page": 10,
+      "raw": "[16] Zan L X, Liu Z H, Yang Z P, Wang Z L. A synergy effect of 2-MBT and PE-3650 on the bottom-up filling in electroless copper plating[J]. Electrochem Solid St., 2011, 14(12). https:// doi.org/10.1149/2.018112esl."
+    },
+    {
+      "n": 17,
+      "page": 10,
+      "raw": "[17] Hassan Zadeh Shirazi S M, Bahrololoom M E, Shariat M H. The role of functional groups of saccharin in electrodeposition of nanocrystalline nickel[J]. Surf. Eng. Appl. Electrochem., 2016, 52(5): 434–442. https://doi.org/10.3103/S1068375516050112."
+    },
+    {
+      "n": 18,
+      "page": 10,
+      "raw": "[18] Sen R, Das S, Das K. Influence of sodium saccharin on the microstructure of pulse electrodeposited Ni-CeO 2 nanocomposite coating[J]. Int. J. Nanosci., 2012, 12(10): 7944–7949. https:// doi.org/10.1166/jnn.2012.6654."
+    },
+    {
+      "n": 19,
+      "page": 10,
+      "raw": "[19] Wang Y H, Yu M Q, Luo H L, Qiao Q, Xiao Z Z, Zhao Y, Zhao L L, Sun H, Xu Z F, Matsugi K, Yu J K. Effect of saccharin on the structure and properties of electrodeposition NiWP alloy coatings[J]. J. Mater. Eng. Perform., 2016, 25(10): 4402–4407. https://doi.org/10.1007/s11665-016-2298-7."
+    },
+    {
+      "n": 20,
+      "page": 10,
+      "raw": "[20] Altamirano-Garcia L, Vazquez-Arenas J, Pritzker M, Luna-Sánchez R, Cabrera-Sierra R. Effects of saccharin and anions (SO 2−, Cl −) on the electrodeposition of Co-Ni alloys[J]. J. Solid State Electrochem., 2014, 19(2): 423–433. https://doi. org/10.1007/s10008-014-2616-7."
+    },
+    {
+      "n": 21,
+      "page": 10,
+      "raw": "[21] Hoghoghifard S, Mokhtari H. Improving the microwave absorption in Ni-coated fabrics by saccharin addition in plating bath[J]. J. Ind. Text., 2018, 49(3): 402–411. https://doi. org/10.1177/1528083718787525."
+    },
+    {
+      "n": 22,
+      "page": 10,
+      "raw": "[22] Kolonits T, Jenei P, Péter L, Bakonyi I, Czigány Z, Gubicza J. Effect of bath additives on the microstructure, lattice defect density and hardness of electrodeposited nanocrystalline Ni films[J]. Surf. Coat. Technol., 2018, 349: 611–621. https://doi. org/10.1016/j.surfcoat.2018.06.052."
+    },
+    {
+      "n": 23,
+      "page": 10,
+      "raw": "[23] Li Y Q, Ren P H, Li R P, Zhang Y H, Zhang J Q, Yang P X, An M Z. A novel bright additive for copper electroplating: electrochemical and theoretical study[J]. Ionics, 2023, 29(1): 363–375. https://doi.org/10.1007/s11581-022-04799-7."
+    },
+    {
+      "n": 24,
+      "page": 10,
+      "raw": "[24] Wang C, Zhang J Q, Yang P X, An M Z. Electrochemical behaviors of Janus Green B in through-hole copper electroplating: An insight by experiment and density functional theory calculation using Safranine T as a comparison[J]. Electrochim. Acta, 2013, 92: 356–364. https://doi.org/10.1016/j.electacta.2013.01.064."
+    },
+    {
+      "n": 25,
+      "page": 10,
+      "raw": "[25] Kresse G, Furthmüller J. Efficiency of ab-initio total energy calculations for metals and semiconductors using a planewave basis set[J]. Comput. Mater. Sci., 1996, 6(1): 15–50. https:// doi.org/10.1016/0927-0256(96)00008-0."
+    },
+    {
+      "n": 26,
+      "page": 10,
+      "raw": "[26] Blöchl P E. Projector augmented-wave method[J]. Phys. Rev. B, 1994, 50(24): 17953. https://doi.org/10.1103/Phys-RevB.50.17953."
+    },
+    {
+      "n": 27,
+      "page": 10,
+      "raw": "[27] Kresse G, Joubert D. From ultrasoft pseudopotentials to the projector augmented-wave method[J]. Phys. Rev. B, 1999, 59(3): 1758. https://doi.org/10.1103/PhysRevB.59.1758."
+    },
+    {
+      "n": 28,
+      "page": 10,
+      "raw": "[28] Perdew J P, Burke K, Ernzerhof M. Generalized gradient approximation made simple[J]. Phys. Rev. Lett., 1996, 77(18): 3865. https://doi.org/10.1103/PhysRevLett.77.3865."
+    },
+    {
+      "n": 29,
+      "page": 10,
+      "raw": "[29] Monkhorst H J, Pack J D. Special points for Brillouin-zone integrations[J]. Phys. Rev. B, 1976, 13(12): 5188. https://doi. org/10.1103/PhysRevB.13.5188."
+    },
+    {
+      "n": 30,
+      "page": 10,
+      "raw": "[30] Frisch M, Trucks G, Schlegel H, Scuseria G, Robb M, Cheeseman J, Scalmani G, Barone V, Petersson G, Nakatsuji H. Gaussian 16, revision a. 03, gaussian, inc., wallingford ct[EB/ CP]. Gaussian 16, 2016."
+    },
+    {
+      "n": 31,
+      "page": 10,
+      "raw": "[31] Dong L W, Zhong S J, Yuan B T, Li Y Q, Liu J P, Ji Y P, Chen D J, Liu Y P, Yang C H, Han J C, He W D. Reconstruction of solid electrolyte interphase with SrI reactivates dead Li for durable anode-free Li-metal batteries[J]. Angew. Chem. Int. Ed., 2023, 135(23): e202301073. https://doi.org/10.1002/ anie.202301073."
+    },
+    {
+      "n": 32,
+      "page": 10,
+      "raw": "[32] Li R P, Li Y Q, Yang P X, Ren P H, Wang D, Lu X Y, Xu R Y, Li Y H, Xue J M, Zhang J Q. Synergistic interface engineering and structural optimization of non-noble metal telluride-nitride electrocatalysts for sustainably overall seawater electrolysis[J]. Appl. Catal. B-Environ., 2022, 318: 121834. https://doi. org/10.1016/j.apcatb.2022.121834."
+    },
+    {
+      "n": 33,
+      "page": 10,
+      "raw": "[33] Li Y Q, Ren P H, Zhang Y H, Li R P, Zhang J Q, Yang P X, Liu A M, Wang G Z, An M Z. Investigation of novel leveler Rhodamine B on copper superconformal electrodeposition of microvias by theoretical and experimental studies[J]. Appl. Surf. Sci., 2023, 615: 156266. https://doi.org/10.1016/j.apsusc. 2022.156266."
+    },
+    {
+      "n": 34,
+      "page": 10,
+      "raw": "[34] Li Y Q, Li C Z, Li R P, Peng X S, Zhang J Q, Yang P X, Wang G Z, Wang B, Broekmann P, An M Z. Experimental and theoretical study of the new leveler basic blue 1 during copper superconformal growth[J]. ACS Appl. Mater. Interfaces, 2023, 15(40): 47628–47639. https://doi.org/10.1021/acsami.3c06567."
+    },
+    {
+      "n": 35,
+      "page": 10,
+      "raw": "[35] Ma X C, Li Y Q, Yang P X, Zhang J Q, An M Z. Influence of suppressing additive malachite green on superconformal cobalt electrodeposition[J]. J. Electroanal. Chem., 2022, 921: 116696. https://doi.org/10.1016/j.jelechem.2022.116696."
+    },
+    {
+      "n": 36,
+      "page": 10,
+      "raw": "[36] Burton W K, Cabrera N t, Frank F. The growth of crystals and the equilibrium structure of their surfaces[J]. Phil. Trans. R. Soc. A, 1951, 243(866): 299–358. https://doi.org/10.1098/ rsta.1951.0006."
+    }
+  ]
+}

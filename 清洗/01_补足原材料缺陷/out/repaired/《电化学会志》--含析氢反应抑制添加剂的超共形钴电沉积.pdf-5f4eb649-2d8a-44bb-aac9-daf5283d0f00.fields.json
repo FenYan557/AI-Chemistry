@@ -1,0 +1,45 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "-10 Optical Battery Test Cell: Visualize the Processes Inside Your Battery!\nBattery"
+      },
+      {
+        "value": "sse",
+        "context": "nce of 2-mercaptobenzimidazole (MBI), which suppresses both cobalt deposition and t"
+      },
+      {
+        "value": "sse",
+        "context": ", when performing feature filling, additives are essential components that cause a "
+      },
+      {
+        "value": "sse",
+        "context": "nd one must be familiar with these secondary processes to understand cobalt electro"
+      },
+      {
+        "value": "sse",
+        "context": "nd cobalt electrodeposition. These secondary processes increase the pH at the elect"
+      },
+      {
+        "value": "Ag/AgCl",
+        "context": ", including a working electrode, with Pt mesh and Ag/AgCl electrode (KCl saturated) as "
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "g. 1b, the LSV results of the solution containing Co ^ 2 + also show the breakdown"
+      },
+      {
+        "value": "Co",
+        "context": " to the effect of the sufficient mass transfer of Co ^ 2 + and protons, and the cu"
+      },
+      {
+        "value": "Co",
+        "context": "d 50 rpm by simulating the bottom conditions, the Co film thickness was much highe"
+      }
+    ]
+  }
+}

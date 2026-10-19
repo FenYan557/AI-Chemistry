@@ -1,0 +1,530 @@
+[
+  {
+    "doc_id": "1_s2_0_S0010854522005239_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S0010854522005239-main.pdf-23da16b0-bdff-400e-8a3c-8afc2eabb190",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S0010854522005239-main.pdf-23da16b0-bdff-400e-8a3c-8afc2eabb190/1aa53b84-0f45-46e5-abaf-55b0e64705dc_content_list.json",
+    "content_list_sha256": "7d6683f0749894ade1d53c6c23f000268aac5f8f3f96cfda38d723af2a29bd35",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S0010854522005239-main.pdf-23da16b0-bdff-400e-8a3c-8afc2eabb190/1aa53b84-0f45-46e5-abaf-55b0e64705dc_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S0010854522005239-main.pdf-23da16b0-bdff-400e-8a3c-8afc2eabb190.json",
+    "content_list_json_sha256": "f9d4dcd130cd45a32ae0a235f515f1d93d206580ccf2ed004953fdc644cf4047"
+  },
+  {
+    "doc_id": "1_s2_0_S0013468609007385_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S0013468609007385-main.pdf-4703b84d-6ce8-4512-bc75-d4abe8316030",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S0013468609007385-main.pdf-4703b84d-6ce8-4512-bc75-d4abe8316030/904060c1-5e8d-4f76-8ac3-edc43c737bf8_content_list.json",
+    "content_list_sha256": "0ed8aa564c7d13afce79ed913048bbad8a6e6d7f12ccee838a98bc07ef78d92d",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S0013468609007385-main.pdf-4703b84d-6ce8-4512-bc75-d4abe8316030/904060c1-5e8d-4f76-8ac3-edc43c737bf8_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S0013468609007385-main.pdf-4703b84d-6ce8-4512-bc75-d4abe8316030.json",
+    "content_list_json_sha256": "ba904514c74006e795ca148f2ed065fbfdd8b9bf1efe7347c11b7c92e288fdd6"
+  },
+  {
+    "doc_id": "1_s2_0_S0013468621017357_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S0013468621017357-main.pdf-b4b16965-80d9-4fd4-be41-470060d85970",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S0013468621017357-main.pdf-b4b16965-80d9-4fd4-be41-470060d85970/e937df71-6d27-4788-9526-4d44d0566b05_content_list.json",
+    "content_list_sha256": "515cb1d496e016be7e9ad461a3f077915bcacba480954afc5a6236a065392d38",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S0013468621017357-main.pdf-b4b16965-80d9-4fd4-be41-470060d85970/e937df71-6d27-4788-9526-4d44d0566b05_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S0013468621017357-main.pdf-b4b16965-80d9-4fd4-be41-470060d85970.json",
+    "content_list_json_sha256": "3361cdff542c7212c24b21bb169d93e7f7c6910ca2598bc53f3579e76feb3cce"
+  },
+  {
+    "doc_id": "1_s2_0_S0013468626014507_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S0013468626014507-main.pdf-06bf1a3e-81e4-49ed-8495-7f052065c78d",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S0013468626014507-main.pdf-06bf1a3e-81e4-49ed-8495-7f052065c78d/78e65b8a-5337-4ea9-a71d-d22a53151b59_content_list.json",
+    "content_list_sha256": "2c9b47e30311e40827b2e4fcab5a739603d625de5107452083cace409940fda9",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S0013468626014507-main.pdf-06bf1a3e-81e4-49ed-8495-7f052065c78d/78e65b8a-5337-4ea9-a71d-d22a53151b59_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S0013468626014507-main.pdf-06bf1a3e-81e4-49ed-8495-7f052065c78d.json",
+    "content_list_json_sha256": "668e9982c7a5103e1e9d865241ca490896ea839a928a9246cd5d0efe14d64bd7"
+  },
+  {
+    "doc_id": "1_s2_0_S0257897223003018_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S0257897223003018-main.pdf-2afcc459-aaa3-4765-81e8-c5419e3a411d",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S0257897223003018-main.pdf-2afcc459-aaa3-4765-81e8-c5419e3a411d/41e2cf14-cc32-464c-b3cb-a9fc151f2c3e_content_list.json",
+    "content_list_sha256": "5f67222d2af2b0d68dde3285e2d1a3c91c2803553d7293025ea10bdc7c2ba7da",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S0257897223003018-main.pdf-2afcc459-aaa3-4765-81e8-c5419e3a411d/41e2cf14-cc32-464c-b3cb-a9fc151f2c3e_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S0257897223003018-main.pdf-2afcc459-aaa3-4765-81e8-c5419e3a411d.json",
+    "content_list_json_sha256": "6bc4af31515ba9b74c3ea10eea084d138d02f52191d7e02be428e197d5755235"
+  },
+  {
+    "doc_id": "1_s2_0_S0927775723007902_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S0927775723007902-main.pdf-372c5dca-8439-4a36-8be3-433cbf3b0104",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S0927775723007902-main.pdf-372c5dca-8439-4a36-8be3-433cbf3b0104/010dd396-0cf1-4637-8f95-664bed358a50_content_list.json",
+    "content_list_sha256": "2ab54a1908232dd3256c7d28fc5a13bfe15bc7fa60370cd69647c92b697894e7",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S0927775723007902-main.pdf-372c5dca-8439-4a36-8be3-433cbf3b0104/010dd396-0cf1-4637-8f95-664bed358a50_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S0927775723007902-main.pdf-372c5dca-8439-4a36-8be3-433cbf3b0104.json",
+    "content_list_json_sha256": "e84aa811d4f240c3de1a725ee4d65c2f99503563a0b4c075db1f0a2fe2bf2672"
+  },
+  {
+    "doc_id": "1_s2_0_S1572665718302236_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S1572665718302236-main.pdf-e8833fca-1492-415a-bb70-bc45f3ed2a40",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S1572665718302236-main.pdf-e8833fca-1492-415a-bb70-bc45f3ed2a40/0be32b59-bfef-4aa5-8a2d-d5842855e14f_content_list.json",
+    "content_list_sha256": "ebade4a1b7522fdc71b0ba314d0518cb4ad7091aec736d975b9993a333e15e6b",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S1572665718302236-main.pdf-e8833fca-1492-415a-bb70-bc45f3ed2a40/0be32b59-bfef-4aa5-8a2d-d5842855e14f_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S1572665718302236-main.pdf-e8833fca-1492-415a-bb70-bc45f3ed2a40.json",
+    "content_list_json_sha256": "69fd412c1ff5b51cb0f8992bc64c7e9d6adda034f91966cbff78ce2eef2405b7"
+  },
+  {
+    "doc_id": "1_s2_0_S1572665722004489_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S1572665722004489-main.pdf-65ba10a5-7725-4cca-9b72-dce8136853c6",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S1572665722004489-main.pdf-65ba10a5-7725-4cca-9b72-dce8136853c6/3e82aa5a-f5e5-43b7-8c61-6b429e89abf0_content_list.json",
+    "content_list_sha256": "5139fa1fbb40971ecc08f48e35e4e67be3dc9b3d77630e20583b8451397e025a",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S1572665722004489-main.pdf-65ba10a5-7725-4cca-9b72-dce8136853c6/3e82aa5a-f5e5-43b7-8c61-6b429e89abf0_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S1572665722004489-main.pdf-65ba10a5-7725-4cca-9b72-dce8136853c6.json",
+    "content_list_json_sha256": "f8b55be163e43b65b79b4687cc8f467dfb869e9212d5869a614d1beff32d3cb7"
+  },
+  {
+    "doc_id": "1_s2_0_S1572665724000766_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S1572665724000766-main.pdf-cdc31196-685f-4dcc-a5a5-7d3d0fb19ebe",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S1572665724000766-main.pdf-cdc31196-685f-4dcc-a5a5-7d3d0fb19ebe/206a7d82-c8dd-4bd1-b053-4472e5d8c8af_content_list.json",
+    "content_list_sha256": "ecedfebae1e1ac66dab2dfaa070641d7e75787852585e049e34d0d6f84df4c5c",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S1572665724000766-main.pdf-cdc31196-685f-4dcc-a5a5-7d3d0fb19ebe/206a7d82-c8dd-4bd1-b053-4472e5d8c8af_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S1572665724000766-main.pdf-cdc31196-685f-4dcc-a5a5-7d3d0fb19ebe.json",
+    "content_list_json_sha256": "1ea3bf074539a985c830656ac76772f4a73465e4cceb8fcb71ac3c766e0d8dd2"
+  },
+  {
+    "doc_id": "1_s2_0_S2352492825007378_main",
+    "source_dir": "知识图谱所需文献/文献提取/1-s2.0-S2352492825007378-main.pdf-d1aa8062-c12e-4608-bbde-9f1e257f92f7",
+    "content_list": "知识图谱所需文献/文献提取/1-s2.0-S2352492825007378-main.pdf-d1aa8062-c12e-4608-bbde-9f1e257f92f7/686dcc45-d430-4e1a-91f7-0c15b58f6164_content_list.json",
+    "content_list_sha256": "908bf9c64445866beda2fe72a9026a1f8c61002c94e246bd42034cd2c9932f11",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1-s2.0-S2352492825007378-main.pdf-d1aa8062-c12e-4608-bbde-9f1e257f92f7/686dcc45-d430-4e1a-91f7-0c15b58f6164_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1-s2.0-S2352492825007378-main.pdf-d1aa8062-c12e-4608-bbde-9f1e257f92f7.json",
+    "content_list_json_sha256": "31d1fc070403781672ce6cb63219bc84578519f45455022d4cdcfce64db48ee4"
+  },
+  {
+    "doc_id": "1_在PD结构中引入二氧化硫对通孔镀铜的影响",
+    "source_dir": "知识图谱所需文献/文献提取/1.在PD结构中引入二氧化硫对通孔镀铜的影响.pdf-b125fd96-e98c-4982-baa9-aa5dbb96f82b",
+    "content_list": "知识图谱所需文献/文献提取/1.在PD结构中引入二氧化硫对通孔镀铜的影响.pdf-b125fd96-e98c-4982-baa9-aa5dbb96f82b/674080e0-0d24-4bb2-975b-775fb5b78ff2_content_list.json",
+    "content_list_sha256": "b661d5f55e53ea485854e656e25e43c8a9f1fc5205cfdf424539a4ac17179a56",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/1.在PD结构中引入二氧化硫对通孔镀铜的影响.pdf-b125fd96-e98c-4982-baa9-aa5dbb96f82b/674080e0-0d24-4bb2-975b-775fb5b78ff2_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/1.在PD结构中引入二氧化硫对通孔镀铜的影响.pdf-b125fd96-e98c-4982-baa9-aa5dbb96f82b.json",
+    "content_list_json_sha256": "bf8c18a6f9d9cf2ad4b028bfe2e1fec0979394d476b70ef972b32e9b39bd3d15"
+  },
+  {
+    "doc_id": "2_采用1_4_羧基苯基_5_巯基_1H_四氮唑添加剂的表面铜微导通孔填充电镀工艺评估",
+    "source_dir": "知识图谱所需文献/文献提取/2.采用1-(4-羧基苯基)-5-巯基-1H-四氮唑添加剂的表面铜微导通孔填充电镀工艺评估.pdf-b0ad4144-1bba-4c98-971a-218a33c9da5c",
+    "content_list": "知识图谱所需文献/文献提取/2.采用1-(4-羧基苯基)-5-巯基-1H-四氮唑添加剂的表面铜微导通孔填充电镀工艺评估.pdf-b0ad4144-1bba-4c98-971a-218a33c9da5c/59e3b467-3448-4a58-b922-31d67bc24435_content_list.json",
+    "content_list_sha256": "56156e6b3ba83150dbd8006ee8a9eae7a73520da5bd65a2b238a94e5552e7359",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/2.采用1-(4-羧基苯基)-5-巯基-1H-四氮唑添加剂的表面铜微导通孔填充电镀工艺评估.pdf-b0ad4144-1bba-4c98-971a-218a33c9da5c/59e3b467-3448-4a58-b922-31d67bc24435_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/2.采用1-(4-羧基苯基)-5-巯基-1H-四氮唑添加剂的表面铜微导通孔填充电镀工艺评估.pdf-b0ad4144-1bba-4c98-971a-218a33c9da5c.json",
+    "content_list_json_sha256": "b8dedce3cd586186c001a031a376abc852dc3c9644d6a4b5009ac6eb6f8edd3f"
+  },
+  {
+    "doc_id": "2023_Shen_Study_on_the_Effects_of_Additives_on_the_Performan",
+    "source_dir": "知识图谱所需文献/文献提取/2023_Shen_Study on the Effects of Additives on the Performance of NiCo.pdf-d3d16d8a-80c2-4714-a560-78bab91e3c82",
+    "content_list": "知识图谱所需文献/文献提取/2023_Shen_Study on the Effects of Additives on the Performance of NiCo.pdf-d3d16d8a-80c2-4714-a560-78bab91e3c82/ae8662dd-e870-4586-af84-901816ba92ef_content_list.json",
+    "content_list_sha256": "e8dd0e46a827ecee25421cdb4339b0d72eab404c955392144b9dd1c9ddaf461b",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/2023_Shen_Study on the Effects of Additives on the Performance of NiCo.pdf-d3d16d8a-80c2-4714-a560-78bab91e3c82/ae8662dd-e870-4586-af84-901816ba92ef_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/2023_Shen_Study on the Effects of Additives on the Performance of NiCo.pdf-d3d16d8a-80c2-4714-a560-78bab91e3c82.json",
+    "content_list_json_sha256": "097dfd3bce3aa663deaabeea6f4771d0ec275a010da887880ec3711581a0f263"
+  },
+  {
+    "doc_id": "2024_Guo_Influence_of_PUB2_on_the_Leveling_Effect_of_Chip_Co",
+    "source_dir": "知识图谱所需文献/文献提取/2024_Guo_Influence of PUB2 on the Leveling Effect of Chip Copper Conn.pdf-793db7e5-c4c9-455a-9f87-89d12fb88927",
+    "content_list": "知识图谱所需文献/文献提取/2024_Guo_Influence of PUB2 on the Leveling Effect of Chip Copper Conn.pdf-793db7e5-c4c9-455a-9f87-89d12fb88927/b09dfd8d-688b-4f53-a549-123b60d8a4da_content_list.json",
+    "content_list_sha256": "19e2d3c161a5248d20912635c126bc9cad90a65c9af37756ae647c746fcf758a",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/2024_Guo_Influence of PUB2 on the Leveling Effect of Chip Copper Conn.pdf-793db7e5-c4c9-455a-9f87-89d12fb88927/b09dfd8d-688b-4f53-a549-123b60d8a4da_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/2024_Guo_Influence of PUB2 on the Leveling Effect of Chip Copper Conn.pdf-793db7e5-c4c9-455a-9f87-89d12fb88927.json",
+    "content_list_json_sha256": "bb435cc4c7d2920084ad6cfeb9b5e374038a46114f310abf8d65a9bdcb210c2d"
+  },
+  {
+    "doc_id": "3_巯基_1_丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响",
+    "source_dir": "知识图谱所需文献/文献提取/3-巯基-1-丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响.pdf-9945dff6-01bc-4f75-92e3-4a8b96c5916a",
+    "content_list": "知识图谱所需文献/文献提取/3-巯基-1-丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响.pdf-9945dff6-01bc-4f75-92e3-4a8b96c5916a/507eca1d-d311-4287-90ea-d15900827523_content_list.json",
+    "content_list_sha256": "d7c05783ace5e798fcc236ebd3d649462e4701c3525443e60fecdb0b36356b08",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/3-巯基-1-丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响.pdf-9945dff6-01bc-4f75-92e3-4a8b96c5916a/507eca1d-d311-4287-90ea-d15900827523_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/3-巯基-1-丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响.pdf-9945dff6-01bc-4f75-92e3-4a8b96c5916a.json",
+    "content_list_json_sha256": "490da215eb05e605d303a6437f864549979a5d413972818109a6464a9ddf6293"
+  },
+  {
+    "doc_id": "3_异靛蓝季铵盐的合成及其在电镀铜中的应用",
+    "source_dir": "知识图谱所需文献/文献提取/3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pdf-4ed881b7-dde6-4d6e-84b1-e36c83ed4aca",
+    "content_list": "知识图谱所需文献/文献提取/3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pdf-4ed881b7-dde6-4d6e-84b1-e36c83ed4aca/1b582795-d54d-4745-890b-ac50275aafbb_content_list.json",
+    "content_list_sha256": "ce8ae3544adcdd6fc3a410c2170bbb3d972228c945a7dfa22247eadb7bb63f6d",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pdf-4ed881b7-dde6-4d6e-84b1-e36c83ed4aca/1b582795-d54d-4745-890b-ac50275aafbb_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/3.异靛蓝季铵盐的合成及其在电镀铜中的应用.pdf-4ed881b7-dde6-4d6e-84b1-e36c83ed4aca.json",
+    "content_list_json_sha256": "9ebcb8123d84c7877fb8e6da5b83e1c665d143c03df5acd47ff87c13dccc3e41"
+  },
+  {
+    "doc_id": "4_喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用",
+    "source_dir": "知识图谱所需文献/文献提取/4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用.pdf-417a2c15-9f5e-4198-9544-75b103c0b54f",
+    "content_list": "知识图谱所需文献/文献提取/4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用.pdf-417a2c15-9f5e-4198-9544-75b103c0b54f/58dac678-f489-42bf-903b-a293d4c2cfaf_content_list.json",
+    "content_list_sha256": "1c6d939d3378abb9eabafd82988c8750750013050823f2386dd9b9efd17e8722",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用.pdf-417a2c15-9f5e-4198-9544-75b103c0b54f/58dac678-f489-42bf-903b-a293d4c2cfaf_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用.pdf-417a2c15-9f5e-4198-9544-75b103c0b54f.json",
+    "content_list_json_sha256": "f273f5c51a5a5af6f3d47b960afae08e86970f6c2820cca3d36502a1c6f96710"
+  },
+  {
+    "doc_id": "5_炔基嘧啶作为钴超填充抑制剂的研究",
+    "source_dir": "知识图谱所需文献/文献提取/5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-bd394d2b-265b-4fb6-81fa-1972f158738e",
+    "content_list": "知识图谱所需文献/文献提取/5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-bd394d2b-265b-4fb6-81fa-1972f158738e/f0188c34-c659-4630-bbb2-b59aa1868e1a_content_list.json",
+    "content_list_sha256": "33aa2a50c63fd91910cf80fc1926184b9dfeb009c19ea318657d6de807d928d8",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-bd394d2b-265b-4fb6-81fa-1972f158738e/f0188c34-c659-4630-bbb2-b59aa1868e1a_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/5-炔基嘧啶作为钴超填充抑制剂的研究.pdf-bd394d2b-265b-4fb6-81fa-1972f158738e.json",
+    "content_list_json_sha256": "d1796ed9a9a7380ff7705772d18d0da0db9e037ba83a30e280cb130dc48171a2"
+  },
+  {
+    "doc_id": "5_聚_1_4_丁二醇二缩水甘油醚_2_甲基咪唑与咪唑_作为盲孔镀铜整平剂的研究",
+    "source_dir": "知识图谱所需文献/文献提取/5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑与咪唑)作为盲孔镀铜整平剂的研究.pdf-f8f8f14f-efa6-4974-bd53-edf37f68a543",
+    "content_list": "知识图谱所需文献/文献提取/5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑与咪唑)作为盲孔镀铜整平剂的研究.pdf-f8f8f14f-efa6-4974-bd53-edf37f68a543/a2c874ad-3ebc-47cb-be3f-e0a1ae2646ca_content_list.json",
+    "content_list_sha256": "7390d89c9c34bdfdaa5ea573ddd5d7648ceb75ab698816fbf424c0adda1a927f",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑与咪唑)作为盲孔镀铜整平剂的研究.pdf-f8f8f14f-efa6-4974-bd53-edf37f68a543/a2c874ad-3ebc-47cb-be3f-e0a1ae2646ca_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑与咪唑)作为盲孔镀铜整平剂的研究.pdf-f8f8f14f-efa6-4974-bd53-edf37f68a543.json",
+    "content_list_json_sha256": "87fc42d0d64b362a1ec04a8dc0705b7bfd76ba578fe19a97ac514dfcd8fbab3e"
+  },
+  {
+    "doc_id": "6_香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究",
+    "source_dir": "知识图谱所需文献/文献提取/6.香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究.pdf-7b59e4c3-3759-46e2-be68-eaac0fc9264b",
+    "content_list": "知识图谱所需文献/文献提取/6.香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究.pdf-7b59e4c3-3759-46e2-be68-eaac0fc9264b/7ce8ca4a-d59d-4fab-ab71-f9d7c977d213_content_list.json",
+    "content_list_sha256": "4a0b9dac10f859bfdc0581e9c0befdf4d39ed7064977412c9173db3980a589cd",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/6.香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究.pdf-7b59e4c3-3759-46e2-be68-eaac0fc9264b/7ce8ca4a-d59d-4fab-ab71-f9d7c977d213_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/6.香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究.pdf-7b59e4c3-3759-46e2-be68-eaac0fc9264b.json",
+    "content_list_json_sha256": "10a3f5030ac9fca68e90e06ea4e0818b350e797b60008b7cef9f593f75865bfa"
+  },
+  {
+    "doc_id": "7_micromachines_16_00721",
+    "source_dir": "知识图谱所需文献/文献提取/7.micromachines-16-00721.pdf-0aa8bfd8-d688-46a0-ab78-d6f6dbc743dc",
+    "content_list": "知识图谱所需文献/文献提取/7.micromachines-16-00721.pdf-0aa8bfd8-d688-46a0-ab78-d6f6dbc743dc/3cb7cbc5-5cad-43fe-ba00-fb33f1793336_content_list.json",
+    "content_list_sha256": "2fe4d30544d7b187f616ee806b66762fbe90cc1fb5248f606e7597f7216bc2f4",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/7.micromachines-16-00721.pdf-0aa8bfd8-d688-46a0-ab78-d6f6dbc743dc/3cb7cbc5-5cad-43fe-ba00-fb33f1793336_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/7.micromachines-16-00721.pdf-0aa8bfd8-d688-46a0-ab78-d6f6dbc743dc.json",
+    "content_list_json_sha256": "2afa257e8337c70dde096c85a84fc2a8530280de5f35497a078784fb7f7a52ac"
+  },
+  {
+    "doc_id": "8_s12678_025_00960_8",
+    "source_dir": "知识图谱所需文献/文献提取/8.s12678-025-00960-8.pdf-bce689cf-4e28-4777-931f-0f8fffca1702",
+    "content_list": "知识图谱所需文献/文献提取/8.s12678-025-00960-8.pdf-bce689cf-4e28-4777-931f-0f8fffca1702/a58b8bcf-b749-4c75-b53a-e6f37db5570e_content_list.json",
+    "content_list_sha256": "043e68b299140a379e8bc92648d41898b219dece6f61c09e1de61c42b51bfe9f",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/8.s12678-025-00960-8.pdf-bce689cf-4e28-4777-931f-0f8fffca1702/a58b8bcf-b749-4c75-b53a-e6f37db5570e_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/8.s12678-025-00960-8.pdf-bce689cf-4e28-4777-931f-0f8fffca1702.json",
+    "content_list_json_sha256": "70df5992d285a1c1fdcd0af9608447ca8590eabdece62289bb69169d09634644"
+  },
+  {
+    "doc_id": "9molecules_28_02783",
+    "source_dir": "知识图谱所需文献/文献提取/9molecules-28-02783.pdf-477052f4-57e1-4d07-b535-4f2a61bc1f23",
+    "content_list": "知识图谱所需文献/文献提取/9molecules-28-02783.pdf-477052f4-57e1-4d07-b535-4f2a61bc1f23/7f3da888-96b6-4aea-bf03-a0ac6639a36f_content_list.json",
+    "content_list_sha256": "ff57825ee587c323aa4d26e35bf21d15e2ec5da6697c956358aaa3ec26ecd882",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/9molecules-28-02783.pdf-477052f4-57e1-4d07-b535-4f2a61bc1f23/7f3da888-96b6-4aea-bf03-a0ac6639a36f_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/9molecules-28-02783.pdf-477052f4-57e1-4d07-b535-4f2a61bc1f23.json",
+    "content_list_json_sha256": "decfe809ebfd5673facd7ec2a60a4010b421b0341f35ea6cc139c51c5603ffb4"
+  },
+  {
+    "doc_id": "ao3c05248",
+    "source_dir": "知识图谱所需文献/文献提取/ao3c05248.pdf-225b0f64-1546-4d0d-9ee6-2b1159cfcb20",
+    "content_list": "知识图谱所需文献/文献提取/ao3c05248.pdf-225b0f64-1546-4d0d-9ee6-2b1159cfcb20/30211d9f-b83d-4d35-91f9-b6d8f55ca5a5_content_list.json",
+    "content_list_sha256": "68224911fbac0c2375c90260d50667d0ce1f04bd7cee53349e2d3317ae0d5968",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/ao3c05248.pdf-225b0f64-1546-4d0d-9ee6-2b1159cfcb20/30211d9f-b83d-4d35-91f9-b6d8f55ca5a5_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/ao3c05248.pdf-225b0f64-1546-4d0d-9ee6-2b1159cfcb20.json",
+    "content_list_json_sha256": "2ccda3c4610165d9f0028040154a5b20e50598a4959e3514f47cc5087bf3694f"
+  },
+  {
+    "doc_id": "ao4c01707",
+    "source_dir": "知识图谱所需文献/文献提取/ao4c01707.pdf-4d9db1e3-6d13-4554-9852-8d7ed0b41db2",
+    "content_list": "知识图谱所需文献/文献提取/ao4c01707.pdf-4d9db1e3-6d13-4554-9852-8d7ed0b41db2/e5c4e31c-f67d-4bcf-bead-c0d4efc36304_content_list.json",
+    "content_list_sha256": "715c415403c6ce9bfb2fef9ffc335e40e4a945827d9f4b131ae0ba0a6e319f68",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/ao4c01707.pdf-4d9db1e3-6d13-4554-9852-8d7ed0b41db2/e5c4e31c-f67d-4bcf-bead-c0d4efc36304_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/ao4c01707.pdf-4d9db1e3-6d13-4554-9852-8d7ed0b41db2.json",
+    "content_list_json_sha256": "06a2b6e2a69f6764961a35b3c50e0d8cc3e8b7587191ff4a6282ace5f0887f98"
+  },
+  {
+    "doc_id": "d4nj05470a",
+    "source_dir": "知识图谱所需文献/文献提取/d4nj05470a.pdf-6dd75b4d-c95e-41bb-b634-a5b1fafae590",
+    "content_list": "知识图谱所需文献/文献提取/d4nj05470a.pdf-6dd75b4d-c95e-41bb-b634-a5b1fafae590/d5fad1d9-932a-4d0d-946c-da6dd4213db0_content_list.json",
+    "content_list_sha256": "e2f4204064a606d1083303e3aab2644b9bf10d1e574cba2a49cf59b683320771",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/d4nj05470a.pdf-6dd75b4d-c95e-41bb-b634-a5b1fafae590/d5fad1d9-932a-4d0d-946c-da6dd4213db0_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/d4nj05470a.pdf-6dd75b4d-c95e-41bb-b634-a5b1fafae590.json",
+    "content_list_json_sha256": "a38939563dbb7ef9c0381c667e5f99c27fd8f8fcce7cece1894136bcdefaaba2"
+  },
+  {
+    "doc_id": "DMG_丁二酮肟_",
+    "source_dir": "知识图谱所需文献/文献提取/DMG（丁二酮肟）.pdf-058e803d-54a8-4764-9fdb-60771f620746",
+    "content_list": "知识图谱所需文献/文献提取/DMG（丁二酮肟）.pdf-058e803d-54a8-4764-9fdb-60771f620746/9bf7f2d7-3831-4f1b-ac8f-f39e76ee69a9_content_list.json",
+    "content_list_sha256": "9fe50d32a273aab323e5d09c7ba76e3277359de429659d8147cf80daac570af9",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/DMG（丁二酮肟）.pdf-058e803d-54a8-4764-9fdb-60771f620746/9bf7f2d7-3831-4f1b-ac8f-f39e76ee69a9_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/DMG（丁二酮肟）.pdf-058e803d-54a8-4764-9fdb-60771f620746.json",
+    "content_list_json_sha256": "359afad7bf54a804752d58b9d7c09da071da25b6717852eaf7aaa7d3b852dfdd"
+  },
+  {
+    "doc_id": "la6c01870",
+    "source_dir": "知识图谱所需文献/文献提取/la6c01870.pdf-d957388a-5e47-42cf-aa7f-7ef4cc67f79a",
+    "content_list": "知识图谱所需文献/文献提取/la6c01870.pdf-d957388a-5e47-42cf-aa7f-7ef4cc67f79a/cabd9315-8513-4e2b-9ba0-b217e6917f82_content_list.json",
+    "content_list_sha256": "259c4ce129e727d5e94aa457d0b94352bc63d2481cb5c2c5cc200cbc9f02ea12",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/la6c01870.pdf-d957388a-5e47-42cf-aa7f-7ef4cc67f79a/cabd9315-8513-4e2b-9ba0-b217e6917f82_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/la6c01870.pdf-d957388a-5e47-42cf-aa7f-7ef4cc67f79a.json",
+    "content_list_json_sha256": "8e7651299e68b5bfd23d977435c8807f787304b8d98b08e71d3404b34f58709e"
+  },
+  {
+    "doc_id": "Mechanism_of_convection_dependence_of_leveller_and_its_effec",
+    "source_dir": "知识图谱所需文献/文献提取/Mechanism of convection-dependence of leveller and its effect on copper pillar bump filling uniformity.pdf-b31f705d-5adb-4945-9cb6-8c7af5241aef",
+    "content_list": "知识图谱所需文献/文献提取/Mechanism of convection-dependence of leveller and its effect on copper pillar bump filling uniformity.pdf-b31f705d-5adb-4945-9cb6-8c7af5241aef/1577614d-76c0-4899-9fea-60c7ef545e86_content_list.json",
+    "content_list_sha256": "edcf12ceabfef17301fc442291bdfe32d60ef5ba788c920d7d969cd53e86bef2",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/Mechanism of convection-dependence of leveller and its effect on copper pillar bump filling uniformity.pdf-b31f705d-5adb-4945-9cb6-8c7af5241aef/1577614d-76c0-4899-9fea-60c7ef545e86_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/Mechanism of convection-dependence of leveller and its effect on copper pillar bump filling uniformity.pdf-b31f705d-5adb-4945-9cb6-8c7af5241aef.json",
+    "content_list_json_sha256": "0f0692e89a5dc8a5c7d880c9e1b61631c02482f755f4671f8823ec0f7f3ab57e"
+  },
+  {
+    "doc_id": "Simultaneously_filling_process_and_mechanism_of_through_hole",
+    "source_dir": "知识图谱所需文献/文献提取/Simultaneously filling process and mechanism of through-hole and blind hole by copper electroplating.pdf-e0931c5b-1cf5-4ea3-b0b5-1cf910f3d0d1",
+    "content_list": "知识图谱所需文献/文献提取/Simultaneously filling process and mechanism of through-hole and blind hole by copper electroplating.pdf-e0931c5b-1cf5-4ea3-b0b5-1cf910f3d0d1/6acc09c7-c5e6-412e-9446-24b6747d57f2_content_list.json",
+    "content_list_sha256": "3cf4b1b33dbe4ae90ce4ea48ee6c6f58223aa8cefd5a6de19868d4f5f7069921",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/Simultaneously filling process and mechanism of through-hole and blind hole by copper electroplating.pdf-e0931c5b-1cf5-4ea3-b0b5-1cf910f3d0d1/6acc09c7-c5e6-412e-9446-24b6747d57f2_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/Simultaneously filling process and mechanism of through-hole and blind hole by copper electroplating.pdf-e0931c5b-1cf5-4ea3-b0b5-1cf910f3d0d1.json",
+    "content_list_json_sha256": "8b1e125f8a969d8dc7478ea242a6b21e0d8b6b9e5443e3f09b7cc7bc45cb8baa"
+  },
+  {
+    "doc_id": "_电化学会志_含析氢反应抑制添加剂的超共形钴电沉积",
+    "source_dir": "知识图谱所需文献/文献提取/《电化学会志》--含析氢反应抑制添加剂的超共形钴电沉积.pdf-5f4eb649-2d8a-44bb-aac9-daf5283d0f00",
+    "content_list": "知识图谱所需文献/文献提取/《电化学会志》--含析氢反应抑制添加剂的超共形钴电沉积.pdf-5f4eb649-2d8a-44bb-aac9-daf5283d0f00/189bc500-a91a-4eb6-bc36-f500fb8379b0_content_list.json",
+    "content_list_sha256": "bbc121cd43babb94ff7db06c2eb42610f24fd7cc3126f0284b001169df10c2fa",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/《电化学会志》--含析氢反应抑制添加剂的超共形钴电沉积.pdf-5f4eb649-2d8a-44bb-aac9-daf5283d0f00/189bc500-a91a-4eb6-bc36-f500fb8379b0_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/《电化学会志》--含析氢反应抑制添加剂的超共形钴电沉积.pdf-5f4eb649-2d8a-44bb-aac9-daf5283d0f00.json",
+    "content_list_json_sha256": "815f7cb4c9721d0cd91f99f71fe9021452cd94c2e52a8d82c93bb9a676449030"
+  },
+  {
+    "doc_id": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川",
+    "source_dir": "知识图谱所需文献/文献提取/两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川.pdf-19b4d41d-5a4f-4216-be1e-f2742ba2126d",
+    "content_list": "知识图谱所需文献/文献提取/两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川.pdf-19b4d41d-5a4f-4216-be1e-f2742ba2126d/878bc76d-4c6b-4010-86eb-d4a8b8397f5c_content_list.json",
+    "content_list_sha256": "6c341007dd55904ddc6caa08f655337022ee64aea458cec87f017ac059f6872d",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川.pdf-19b4d41d-5a4f-4216-be1e-f2742ba2126d/878bc76d-4c6b-4010-86eb-d4a8b8397f5c_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川.pdf-19b4d41d-5a4f-4216-be1e-f2742ba2126d.json",
+    "content_list_json_sha256": "8a3ce852eba1dd9a24ef6f317911e47aa59e27b43ee82a04130e1c0d64db0996"
+  },
+  {
+    "doc_id": "先进芯片制造中的钴电镀互连技术综述",
+    "source_dir": "知识图谱所需文献/文献提取/先进芯片制造中的钴电镀互连技术综述.pdf-a92174f5-254b-4da1-9ef0-59b6de33530c",
+    "content_list": "知识图谱所需文献/文献提取/先进芯片制造中的钴电镀互连技术综述.pdf-a92174f5-254b-4da1-9ef0-59b6de33530c/840a109a-c2f5-4c76-bf8b-c5ad9f0b8dba_content_list.json",
+    "content_list_sha256": "77e83f47a7bc7106b07b7402226fd782dd53eb644f022e2be4d51e017e9491b8",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/先进芯片制造中的钴电镀互连技术综述.pdf-a92174f5-254b-4da1-9ef0-59b6de33530c/840a109a-c2f5-4c76-bf8b-c5ad9f0b8dba_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/先进芯片制造中的钴电镀互连技术综述.pdf-a92174f5-254b-4da1-9ef0-59b6de33530c.json",
+    "content_list_json_sha256": "4d1bcd33dd82b4bf58fb311eb292eaa8a10b9513f3dba66595152c1b37ec0370"
+  },
+  {
+    "doc_id": "六亚基四甲四胺",
+    "source_dir": "知识图谱所需文献/文献提取/六亚基四甲四胺.pdf-721d45d2-ab0e-46c7-8c08-1c9ab1788e9d",
+    "content_list": "知识图谱所需文献/文献提取/六亚基四甲四胺.pdf-721d45d2-ab0e-46c7-8c08-1c9ab1788e9d/1b27716b-1b6d-4960-89d8-f2e567dd7caa_content_list.json",
+    "content_list_sha256": "3e9bcc3865be7d89f7439d590d30e66c36fc6b894df2ccf398aa12c638b68b15",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/六亚基四甲四胺.pdf-721d45d2-ab0e-46c7-8c08-1c9ab1788e9d/1b27716b-1b6d-4960-89d8-f2e567dd7caa_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/六亚基四甲四胺.pdf-721d45d2-ab0e-46c7-8c08-1c9ab1788e9d.json",
+    "content_list_json_sha256": "936de74150a4cc9243bf0f6d098b904596a7f2dfb27c11322b088aac8e325046"
+  },
+  {
+    "doc_id": "利用数据库_机械学习筛选可靠添加剂",
+    "source_dir": "知识图谱所需文献/文献提取/利用数据库-机械学习筛选可靠添加剂.pdf-e594c4a7-0f37-40a4-a6e5-c9c80752727d",
+    "content_list": "知识图谱所需文献/文献提取/利用数据库-机械学习筛选可靠添加剂.pdf-e594c4a7-0f37-40a4-a6e5-c9c80752727d/8b1d8257-5a48-4e33-94f9-207a803d4412_content_list.json",
+    "content_list_sha256": "536e7b3ac7ea2a53bbe6578514e5a0436e3a3b24c94f64adc1ddf1185014b711",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/利用数据库-机械学习筛选可靠添加剂.pdf-e594c4a7-0f37-40a4-a6e5-c9c80752727d/8b1d8257-5a48-4e33-94f9-207a803d4412_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/利用数据库-机械学习筛选可靠添加剂.pdf-e594c4a7-0f37-40a4-a6e5-c9c80752727d.json",
+    "content_list_json_sha256": "f553ee59188f1e6ff575f4ed35f7eac12a274bf22d9b3fb43e18d7fc3b6bd41e"
+  },
+  {
+    "doc_id": "利用牺牲氧化剂实现钴的超共形填充",
+    "source_dir": "知识图谱所需文献/文献提取/利用牺牲氧化剂实现钴的超共形填充.pdf-e827c467-d22b-488f-ba5f-a38266e3940c",
+    "content_list": "知识图谱所需文献/文献提取/利用牺牲氧化剂实现钴的超共形填充.pdf-e827c467-d22b-488f-ba5f-a38266e3940c/40137781-a348-45b0-86c2-6a68c9473292_content_list.json",
+    "content_list_sha256": "e4802aef2566a834e174dfd9f7d8cfbe235bfa6b1562cbaf00bbfed4a6ab0839",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/利用牺牲氧化剂实现钴的超共形填充.pdf-e827c467-d22b-488f-ba5f-a38266e3940c/40137781-a348-45b0-86c2-6a68c9473292_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/利用牺牲氧化剂实现钴的超共形填充.pdf-e827c467-d22b-488f-ba5f-a38266e3940c.json",
+    "content_list_json_sha256": "41e1fda8923c6c1d51591dcd62c3db98ceddc0bb3ce386d503b2df1d63bdc552"
+  },
+  {
+    "doc_id": "孔雀石绿诱导_扩散_吸附作用下的钴超共形电沉积过程",
+    "source_dir": "知识图谱所需文献/文献提取/孔雀石绿诱导-扩散-吸附作用下的钴超共形电沉积过程.pdf-60ec35ec-4380-4d86-86e1-5e3dc4e54995",
+    "content_list": "知识图谱所需文献/文献提取/孔雀石绿诱导-扩散-吸附作用下的钴超共形电沉积过程.pdf-60ec35ec-4380-4d86-86e1-5e3dc4e54995/39f71679-5b7a-4385-81b5-b9f79688b7f1_content_list.json",
+    "content_list_sha256": "c90f81bbbed60cc59c3918e0cb8448778b256de9945c4ba9934669bb00c0362f",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/孔雀石绿诱导-扩散-吸附作用下的钴超共形电沉积过程.pdf-60ec35ec-4380-4d86-86e1-5e3dc4e54995/39f71679-5b7a-4385-81b5-b9f79688b7f1_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/孔雀石绿诱导-扩散-吸附作用下的钴超共形电沉积过程.pdf-60ec35ec-4380-4d86-86e1-5e3dc4e54995.json",
+    "content_list_json_sha256": "77131d9ea731c346aaca6192288f393c314ad9efd3e52a18b114198aa38035f3"
+  },
+  {
+    "doc_id": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响",
+    "source_dir": "知识图谱所需文献/文献提取/微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响.pdf-cb7932c5-d442-4559-8249-67ab0e7f32f1",
+    "content_list": "知识图谱所需文献/文献提取/微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响.pdf-cb7932c5-d442-4559-8249-67ab0e7f32f1/f33fdf8b-07f4-4175-896e-ca5bdbf38af2_content_list.json",
+    "content_list_sha256": "b6cfb4d07076a1712e8bacfd78f4cc76c676609b332cd254c1a9fd757a70fedf",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响.pdf-cb7932c5-d442-4559-8249-67ab0e7f32f1/f33fdf8b-07f4-4175-896e-ca5bdbf38af2_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响.pdf-cb7932c5-d442-4559-8249-67ab0e7f32f1.json",
+    "content_list_json_sha256": "67d76dcc786c5d6f6a7cf44d2ba3b525071c7a8fd314171e517e1d03bf955e4a"
+  },
+  {
+    "doc_id": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究",
+    "source_dir": "知识图谱所需文献/文献提取/新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究.pdf-95883e9b-e2e3-462b-a8ab-06b0282cf0c2",
+    "content_list": "知识图谱所需文献/文献提取/新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究.pdf-95883e9b-e2e3-462b-a8ab-06b0282cf0c2/88ff37d9-300d-4406-8a86-72a61347740b_content_list.json",
+    "content_list_sha256": "7584108d0f8861deb478630b0890e3cf6152f4f79e7617f17ceca3270caa0ee1",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究.pdf-95883e9b-e2e3-462b-a8ab-06b0282cf0c2/88ff37d9-300d-4406-8a86-72a61347740b_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究.pdf-95883e9b-e2e3-462b-a8ab-06b0282cf0c2.json",
+    "content_list_json_sha256": "10a43ad9245a517971610effa2f4949481a9b1e9bd3229847759253f0a1512f5"
+  },
+  {
+    "doc_id": "无电镀钴综述",
+    "source_dir": "知识图谱所需文献/文献提取/无电镀钴综述.pdf-095c7aff-4958-41c4-bf33-fcab1fd941a5",
+    "content_list": "知识图谱所需文献/文献提取/无电镀钴综述.pdf-095c7aff-4958-41c4-bf33-fcab1fd941a5/8de2339d-57b0-4dcf-9ee5-ade4546a75de_content_list.json",
+    "content_list_sha256": "b4aa9ef9e5100d4428341574e310b9ba7f1454e5d420cbc38913f0f532e7735b",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/无电镀钴综述.pdf-095c7aff-4958-41c4-bf33-fcab1fd941a5/8de2339d-57b0-4dcf-9ee5-ade4546a75de_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/无电镀钴综述.pdf-095c7aff-4958-41c4-bf33-fcab1fd941a5.json",
+    "content_list_json_sha256": "e867fd47df0c345ddcae919c90160f852c0596ffb687a2fd64a9d886c54c83af"
+  },
+  {
+    "doc_id": "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制_加速效应",
+    "source_dir": "知识图谱所需文献/文献提取/氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速效应.pdf-c20b85ee-fcc4-4c47-bf96-1a1779e88cad",
+    "content_list": "知识图谱所需文献/文献提取/氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速效应.pdf-c20b85ee-fcc4-4c47-bf96-1a1779e88cad/77b357af-3b89-4ad3-9f8a-daa45ccff22f_content_list.json",
+    "content_list_sha256": "5c831a1082c1f038ec6678d47d89fa12760ab09caa1499dda636dd16cca44b9f",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速效应.pdf-c20b85ee-fcc4-4c47-bf96-1a1779e88cad/77b357af-3b89-4ad3-9f8a-daa45ccff22f_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速效应.pdf-c20b85ee-fcc4-4c47-bf96-1a1779e88cad.json",
+    "content_list_json_sha256": "a0fab94469bd888257d7d2778f2dcccab0888fd2901db2c269ef0418bf5b7d5f"
+  },
+  {
+    "doc_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充",
+    "source_dir": "知识图谱所需文献/文献提取/炔烃-聚乙二醇-4-胺抑制剂助力钴超填充.pdf-04bf3b9a-c81a-4109-911a-d2a7b89a022a",
+    "content_list": "知识图谱所需文献/文献提取/炔烃-聚乙二醇-4-胺抑制剂助力钴超填充.pdf-04bf3b9a-c81a-4109-911a-d2a7b89a022a/7bd00792-4ba6-4fea-ac4f-1c39e84481b7_content_list.json",
+    "content_list_sha256": "6da1e4207abb55a41c1803719f45e81528dc3a4e30a212dc0223f61e34dd0e22",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/炔烃-聚乙二醇-4-胺抑制剂助力钴超填充.pdf-04bf3b9a-c81a-4109-911a-d2a7b89a022a/7bd00792-4ba6-4fea-ac4f-1c39e84481b7_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/炔烃-聚乙二醇-4-胺抑制剂助力钴超填充.pdf-04bf3b9a-c81a-4109-911a-d2a7b89a022a.json",
+    "content_list_json_sha256": "ddbabec3fcafc2ebe876e24dcf52491a56e631ab4bb6c113036bac842192b61e"
+  },
+  {
+    "doc_id": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积",
+    "source_dir": "知识图谱所需文献/文献提取/炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.pdf-177a78a1-de48-42ee-8220-c539ec771618",
+    "content_list": "知识图谱所需文献/文献提取/炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.pdf-177a78a1-de48-42ee-8220-c539ec771618/a7e46a7d-61a5-4471-95e5-713e715d5976_content_list.json",
+    "content_list_sha256": "c776fa6863e1fea842ae245c7bb5b2a8b68399a3bb8e6266d17a5b6f2ac115ba",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.pdf-177a78a1-de48-42ee-8220-c539ec771618/a7e46a7d-61a5-4471-95e5-713e715d5976_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.pdf-177a78a1-de48-42ee-8220-c539ec771618.json",
+    "content_list_json_sha256": "00d2c9f5e7eebce16bc457ec3beee4507207ce9028208b4d67086a32debbcf5b"
+  },
+  {
+    "doc_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+    "source_dir": "知识图谱所需文献/文献提取/烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的实验与分子模拟研究.pdf-95850e69-6ba6-453d-9edb-e0441a9581b4",
+    "content_list": "知识图谱所需文献/文献提取/烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的实验与分子模拟研究.pdf-95850e69-6ba6-453d-9edb-e0441a9581b4/1bdc4870-0e50-43cb-a04e-d7b2e6ecddde_content_list.json",
+    "content_list_sha256": "77b90cc0fd625751b7ae76b8546de6afa64795ac989e52bd08774b48de6077dd",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的实验与分子模拟研究.pdf-95850e69-6ba6-453d-9edb-e0441a9581b4/1bdc4870-0e50-43cb-a04e-d7b2e6ecddde_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的实验与分子模拟研究.pdf-95850e69-6ba6-453d-9edb-e0441a9581b4.json",
+    "content_list_json_sha256": "421c3971b5c312ec9a5ee43567aa7fd4a001ed54093e3428c793009cbe19308b"
+  },
+  {
+    "doc_id": "糖精对镀钴层结构_导电能力的改变",
+    "source_dir": "知识图谱所需文献/文献提取/糖精对镀钴层结构、导电能力的改变.pdf-3ecc0fb7-5acf-4f3f-bd5f-0591659b1140",
+    "content_list": "知识图谱所需文献/文献提取/糖精对镀钴层结构、导电能力的改变.pdf-3ecc0fb7-5acf-4f3f-bd5f-0591659b1140/7b58ae1c-b416-4c31-942a-00d38e061c9e_content_list.json",
+    "content_list_sha256": "5f867d50054f81510289b185d43586d7d47fbc2574983207820e16ef2873c556",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/糖精对镀钴层结构、导电能力的改变.pdf-3ecc0fb7-5acf-4f3f-bd5f-0591659b1140/7b58ae1c-b416-4c31-942a-00d38e061c9e_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/糖精对镀钴层结构、导电能力的改变.pdf-3ecc0fb7-5acf-4f3f-bd5f-0591659b1140.json",
+    "content_list_json_sha256": "abf2b8f02b8ff31b4347a671572d502be54bbe16fdfc8e677b39553629d908aa"
+  },
+  {
+    "doc_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究",
+    "source_dir": "知识图谱所需文献/文献提取/聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究.pdf-e716f020-a1e8-4ca7-9274-6e7a6077ccb3",
+    "content_list": "知识图谱所需文献/文献提取/聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究.pdf-e716f020-a1e8-4ca7-9274-6e7a6077ccb3/2470b89b-927d-4ed8-8c7c-566ea6f6912e_content_list.json",
+    "content_list_sha256": "c1de24ea476dba4388f7d4a03836fcff89b8cbd2e5bb0fdb3f4f38e8de5ee443",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究.pdf-e716f020-a1e8-4ca7-9274-6e7a6077ccb3/2470b89b-927d-4ed8-8c7c-566ea6f6912e_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究.pdf-e716f020-a1e8-4ca7-9274-6e7a6077ccb3.json",
+    "content_list_json_sha256": "6253748a3962ae14064de9dbbdd8f664a2ab9664cddfda572372381041d739a5"
+  },
+  {
+    "doc_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+    "source_dir": "知识图谱所需文献/文献提取/腺苷作为具有协同加速-抑制作用的整平剂用于X型通孔中超共形钴填充的研究.pdf-7743386f-303b-4a5e-9d24-855c300af904",
+    "content_list": "知识图谱所需文献/文献提取/腺苷作为具有协同加速-抑制作用的整平剂用于X型通孔中超共形钴填充的研究.pdf-7743386f-303b-4a5e-9d24-855c300af904/78310281-9507-4ede-a3e3-489a46d06a5c_content_list.json",
+    "content_list_sha256": "73e7ff5702832be4eaf6dd81b71f36a2fbe4b298486914a733ab5e0229a8cb5b",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/腺苷作为具有协同加速-抑制作用的整平剂用于X型通孔中超共形钴填充的研究.pdf-7743386f-303b-4a5e-9d24-855c300af904/78310281-9507-4ede-a3e3-489a46d06a5c_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/腺苷作为具有协同加速-抑制作用的整平剂用于X型通孔中超共形钴填充的研究.pdf-7743386f-303b-4a5e-9d24-855c300af904.json",
+    "content_list_json_sha256": "7fce27d9b70cc60f6c2c18fcb6196d7d5481ab3bfcf14ac8434f0a452ce86b88"
+  },
+  {
+    "doc_id": "解码添加剂界面结构性能",
+    "source_dir": "知识图谱所需文献/文献提取/解码添加剂界面结构性能.pdf-2b829f44-e1a7-45bd-99b4-fbee04ae2171",
+    "content_list": "知识图谱所需文献/文献提取/解码添加剂界面结构性能.pdf-2b829f44-e1a7-45bd-99b4-fbee04ae2171/0a33d1c0-84c7-4c8b-97df-e4d14ae1d133_content_list.json",
+    "content_list_sha256": "0b7541e8ed6b9ef71b2d562c91220c715c8e772756620973049d981c335d882b",
+    "pdfs": [
+      "知识图谱所需文献/文献提取/解码添加剂界面结构性能.pdf-2b829f44-e1a7-45bd-99b4-fbee04ae2171/0a33d1c0-84c7-4c8b-97df-e4d14ae1d133_origin.pdf"
+    ],
+    "repaired": "01_补足原材料缺陷/out/repaired/解码添加剂界面结构性能.pdf-2b829f44-e1a7-45bd-99b4-fbee04ae2171.json",
+    "content_list_json_sha256": "e352b787ce128cc906784875fd782af47569ded7a60cf6786ba9c87a925adc78"
+  }
+]

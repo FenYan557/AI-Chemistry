@@ -1,0 +1,89 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "Ag/AgCl",
+        "context": "nce electrode (RE) was a silver/silver chloride ( Ag/AgCl) electrode. The VMS included "
+      },
+      {
+        "value": "sse",
+        "context": "ntiodynamic polarization curves were utilized to assess the ability of electroplati"
+      },
+      {
+        "value": "sse",
+        "context": ", J. Miao, J.H.L. Pang, X. Zhang, K.N. Tu, R. Preisser, Through-wafer electroplated"
+      },
+      {
+        "value": "sse",
+        "context": "10.1063/ 1.2432284.\n[4] P. Dixit, J. Miao, R. Preisser, Fabrication of high aspect "
+      },
+      {
+        "value": "sse",
+        "context": "21ee3f142a8e7bc81fb90b3b8099&site=xueshu_se. (Accessed 4 December 2022).\n[22] W.-P."
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1.5 A/dm2",
+        "context": "easurements (GMs), a current density was fixed at 1.5 A/dm2.. In addition, a glassy carbo"
+      },
+      {
+        "value": "1.5 A/dm2",
+        "context": "es was kept for enduring good mass transfer under 1.5 A/dm2 current density and ^ 7 5 min"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "◦C. And then, the reaction solution was cooled to room temperature and stirred continuously for "
+      },
+      {
+        "value": "room temperature",
+        "context": "reaction was finished, the reaction was cooled to room temperature. The solids in the reaction s"
+      },
+      {
+        "value": "room temperature",
+        "context": "reaction was finished, the reaction was cooled to room temperature. The reaction solution was po"
+      },
+      {
+        "value": "room temperature",
+        "context": "reaction was finished, the reaction was cooled to room temperature. The reaction solution was po"
+      },
+      {
+        "value": "room temperature",
+        "context": "reaction was finished, the reaction was cooled to room temperature. The reaction solution was po"
+      },
+      {
+        "value": "room temperature",
+        "context": "reaction was finished, the reaction was cooled to room temperature. The reaction solution was po"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "to form a thin copper layer, was transformed into Cu-RDE. Furthermore, a constant "
+      },
+      {
+        "value": "Cu",
+        "context": " interaction between each carbazole derivative on Cu (111) surface was studied und"
+      },
+      {
+        "value": "Cu",
+        "context": "le derivative molecule, 1000 water molecules, and Cu (111) surface. The adsorption"
+      },
+      {
+        "value": "Cu",
+        "context": "orption energy of a carbazole derivative with the Cu (111) surface was defined by "
+      },
+      {
+        "value": "Cu",
+        "context": "icated that a molecule was easily adsorbed to the Cu (111) surface.\n2.4. Electropl"
+      },
+      {
+        "value": "Cu",
+        "context": "ard as the cathode, and two phosphorus-containing Cu plates were placed on both si"
+      }
+    ]
+  }
+}

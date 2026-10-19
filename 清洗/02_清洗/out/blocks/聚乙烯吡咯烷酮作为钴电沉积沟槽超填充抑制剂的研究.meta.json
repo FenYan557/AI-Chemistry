@@ -1,0 +1,219 @@
+{
+  "doc_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究",
+  "title": "Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition",
+  "doi": "10.1016/j.jtice.2020.06.010",
+  "journal": "其他期刊",
+  "year": "2020",
+  "pages": 8,
+  "printed_page_map": {
+    "2": 233,
+    "3": 234,
+    "4": 235,
+    "5": 236,
+    "6": 237,
+    "7": 238,
+    "8": 239
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 7,
+      "raw": "[1] Sondheimer EH. The mean free path of electrons in metals. Adv Phys 2001;50:499 537."
+    },
+    {
+      "n": 2,
+      "page": 7,
+      "raw": "[2] Kelly J, Chen JHC, Huang H, Hu CK, Liniger E, Patlolla R, Peethala B, Adusumilli P, Shobha H. Nogami T Spooner T Huang E Edelstein D Canaperi D Kamineni V Mont E. Siddiqui S. IEEE., experimental study of nanoscale Co damascene BEOI. interconnect structures. In: Proceedings of the IEEE International interconnect"
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "technology conference / advanced metallization conference; 2016. p. IEEE, New York40–2."
+    },
+    {
+      "n": 3,
+      "page": 7,
+      "raw": "[3] Wu J, Wafula F, Branagan S, Suzuki H, van Eisden J. Mechanism of cobalt bottomup filling for advanced node interconnect metallization. J Electrochem Soc 2018;166:D3136–41"
+    },
+    {
+      "n": 4,
+      "page": 7,
+      "raw": "[4] Inoue A, Shen B, Koshiba H, Kato H, Yavari AR. Cobalt-based bulk glassy alloy with ultrahigh strength and soft magnetic properties. Nat Mater 2003;2:661–3."
+    },
+    {
+      "n": 5,
+      "page": 7,
+      "raw": "[5] Marti A. Cobalt-base alloys used in bone surgery. Inj Int J Care Inj 2000;31:S18–21."
+    },
+    {
+      "n": 6,
+      "page": 7,
+      "raw": "[6] Sheu HH, Lu CE, Lee HB, Pu NW, Wu PF, Hsieh SH, Ger MD. Electrodeposition of black chromium-cobalt alloy based on trivalent sulfate electrolyte. J Taiwan Inst Chem Eng 2016;59:496–505."
+    },
+    {
+      "n": 7,
+      "page": 7,
+      "raw": "[7] Kongstein OE, Haarberg GM, Thonstad J. Current efficiency and kinetics of cobalt electrodeposition in acid chloride solutions. Part I: the influence of current den sity, pH and temperature. J Appl Electrochem 2007;37:669–74."
+    },
+    {
+      "n": 8,
+      "page": 7,
+      "raw": "[8] Dow WP, Li CC, Lin MW, Su GW, Huang CC. Copper fill of microvia using a thiolmodified cu seed layer and various levelers. J Electrochem Soc 2009;156: D314–20."
+    },
+    {
+      "n": 9,
+      "page": 7,
+      "raw": "[9] Moffat TP, Wheeler D, Josell D. Electrodeposition of copper in the SPS-PEG-Cl additive system - I. Kinetic measurements: Influence of SPS. J Electrochem Soc. 2004:151:C262-71"
+    },
+    {
+      "n": 10,
+      "page": 7,
+      "raw": "[10] Chen Y-L, Wu J, Lee CC. Solid-state bonding of silicon chips to copper substrates with graded circular micro-trenches. J Mater Sci Mater Electron 2018;29:10037–43."
+    },
+    {
+      "n": 11,
+      "page": 7,
+      "raw": "[11] Li JJ, Zhou GY, Wang JZ, Hong Y, He W, Wang SX, Wang C, Chen YM, Yang WJ, Ma CY, Miao H, Zhou JQ, Chen QG. Nickel-nanoparticles-assisted direct copper-electroplating on polythiophene conductive polymers for PCB dielectric holes. J Taiwan Inst Chem Eng 2019;100:262–8."
+    },
+    {
+      "n": 12,
+      "page": 7,
+      "raw": "[12] Moffat TP, Wheeler D, Edelstein MD, Josell D. Superconformal film growth: mechanism and quantification. IBM LRes Dev 2005:49:19–36"
+    },
+    {
+      "n": 13,
+      "page": 7,
+      "raw": "[13] Dow WP, Huang HS, Yen MY, Huang HC. Influence of convection-dependent adsorption of additives on microvia filling by copper electroplating. J Electrochem Soc 2005;152:C425–34."
+    },
+    {
+      "n": 14,
+      "page": 7,
+      "raw": "[14] Huang Q, Lyons TW, Sides WD. Electrodeposition of cobalt for interconnect application: effect of dimethylglyoxime. J Electrochem Soc 2016;163: D715–21."
+    },
+    {
+      "n": 15,
+      "page": 7,
+      "raw": "[15] Menek N, Ucarli O, Topcu S, Zeyrekli S, Karaman Y. Investigation of catalytic effect nitrite on electrochemical reduction of cobalt dimethylglyoxime complex by polarographic and voltammetric techniques. Int J Electrochem Sci 2014;9: 2445–53."
+    },
+    {
+      "n": 16,
+      "page": 7,
+      "raw": "[16] Nayak D, Mukherjee D, Banerjee A, Mukherjee J. Studies on complexation of cobalt with bioligand. J Radioanal Nucl Chem 2009;283:477–80"
+    },
+    {
+      "n": 17,
+      "page": 7,
+      "raw": "[17] Liu MH, Yan XP, Liu HF, Yu WY. An investigation of the interaction between polyvinylpyrrolidone and metal cations. React Funct Polym 2000;44:55–64."
+    },
+    {
+      "n": 18,
+      "page": 7,
+      "raw": "[18] Hai NTM, Furrer J, Stricker F, Huynh TMT, Gjuroski I, Luedi N, Brunner T, Weiss F, Fluegel A, Arnold M, Chang I, Mayer D, Broekmann P. Polyvinylpyrrolidones (PVPs): switchable leveler additives for damascene applications. J Electrochem Soc 2013;160:D3116–25."
+    },
+    {
+      "n": 19,
+      "page": 7,
+      "raw": "[19] Becke AD. Correlation energy of an inhomogeneous electron gas: a coordinatespace model. J Chem Phys 1988;88:1053–62."
+    },
+    {
+      "n": 20,
+      "page": 7,
+      "raw": "[20] Lee C, Yang W, Parr RG. Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density. Phys Rev B Condens Matter 1988;37:785–9."
+    },
+    {
+      "n": 21,
+      "page": 7,
+      "raw": "[21] Lai Z, Wang S, Wang C, Hong Y, Zhou G, Chen Y, He W, Peng Y, Xiao D. A comparison of typical additives for copper electroplating based on theoretical computation. Comput Mater Sci 2018;147:95–102."
+    },
+    {
+      "n": 22,
+      "page": 7,
+      "raw": "[22] Murray PP, JS, PVR. Schleyer, Electrostatic potentials: chemical applications, 2002."
+    },
+    {
+      "n": 23,
+      "page": 7,
+      "raw": "[23] Chattaraj PK. Chemical reactivity theory: a density functional view. CRC Press; 2009."
+    },
+    {
+      "n": 24,
+      "page": 7,
+      "raw": "[24] Wang C, An MZ, Yang PX, Zhang JQ. Prediction of a new leveler (N-butyl-methyl piperidinium bromide) for through-hole electroplating using molecular dynamics simulations. Electrochem Commun 2012;18:104–7."
+    },
+    {
+      "n": 25,
+      "page": 7,
+      "raw": "[25] Lu T, Chen FW. Multiwfn: A multifunctional wavefunction analyzer. J Comput Chem 2012:33:580-92"
+    },
+    {
+      "n": 26,
+      "page": 7,
+      "raw": "[26] Premkumar S, Jawahar A, Mathavan T, Dhas MK, Sathe VG, Benial AMF. DFT calculation and vibrational spectroscopic studies of 2-(tert-butoxycarbonyl (Boc) -amino)-5-bromopyridine. Spectrochim Acta Part A Mol Biomol Spectrosc 2014;129:74–83."
+    },
+    {
+      "n": 27,
+      "page": 7,
+      "raw": "[27] Zheng L, He W, Zhu K, Wang C, Wang SX, Hong Y, Chen YM, Zhou GY, Miao H, Zhou JQ. Investigation of poly (1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole. Electrochim Acta 2018:283:560-7."
+    },
+    {
+      "n": 28,
+      "page": 7,
+      "raw": "[28] Xiao N. Li D. Cui G. Li N. Li O. Wu G. Adsorption behavior of triblock copolymer suppressors during the copper electrodeposition. Electrochim Acta 2014;116:284–91."
+    },
+    {
+      "n": 29,
+      "page": 7,
+      "raw": "[29] Bozzini B, D'Urzo L, Romanello V, Mele C. Electrodeposition of Cu from acidic sulfate solutions in the presence of bis-(3-sulfopropyl)-disulfide (SPS) and chloride jons. LElectrochem Soc 2006:153:C254–7"
+    },
+    {
+      "n": 30,
+      "page": 7,
+      "raw": "[30] Healy JP, Pletcher D, Goodenough M. The chemistry of the additives in an acid copper electroplating bath.1. Polyethylene-glycol and chloride-ion. J Electroanal Chem.1992:338:155-65"
+    },
+    {
+      "n": 31,
+      "page": 7,
+      "raw": "[31] Lahiri S, Sarkar S. Separation of iron and cobalt using Fe-59 and Co-60 by dialysis of polyvinylpyrrolidone-metal complexes: A greener approach. Appl Radiat Isot 2007;65:387–91."
+    },
+    {
+      "n": 32,
+      "page": 7,
+      "raw": "[32] Gece G. The use of quantum chemical methods in corrosion inhibitor studies. Corros Sci2008:50:2981-92"
+    },
+    {
+      "n": 33,
+      "page": 7,
+      "raw": "[33] Murray JS, Politzer P. The electrostatic potential: an overview. Wiley Interdiscip Rev Comput Mol Sci 2011;1:153–63"
+    },
+    {
+      "n": 34,
+      "page": 8,
+      "raw": "[34] Bulat FA, Toro-Labbe A, Brinck T, Murray JS, Politzer P. Quantitative analysis of molecular surfaces: areas, volumes, electrostatic potentials and average local ionization energies. I Mol Model 2010:16:1679–91."
+    },
+    {
+      "n": 35,
+      "page": 8,
+      "raw": "[35] Fu R, Lu T, Chen FW. Comparing methods for predicting the reactive site of electrophilic substitution. Acta Phys Chim Sin 2014;30:628–39."
+    },
+    {
+      "n": 36,
+      "page": 8,
+      "raw": "[36] Ji LX, Wang SX, Wang C, Chen GQ, Chen YM, He W, Tan Z. Improved uniformity of conformal through-hole copper electrodeposition by revision of plating cell configuration. J Electrochem Soc 2015;162:D575–83."
+    },
+    {
+      "n": 37,
+      "page": 8,
+      "raw": "[37] Dow WP, Chen HH, Yen MY, Chen WH, Hsu KH, Chuang PY, Ishizuka H, Sakagawa N, Kimizuka R. Through-hole filling by copper electroplating. J Electrochem So 2008:155:D750-7"
+    },
+    {
+      "n": 38,
+      "page": 8,
+      "raw": "[38] Dow WP, Lu CW, Lin JY, Hsu FC. Highly selective Cu electrodeposition for filling through silicon holes. Electrochem Solid State Lett 2011;14:D63–7."
+    },
+    {
+      "n": 39,
+      "page": 8,
+      "raw": "[39] Lou Q, Li T, Yang M. Lattice Boltzmann simulations of rising bubble driven by buoyancy in a complex microchannel. Acta Phys Sin 2018;67:13."
+    }
+  ]
+}

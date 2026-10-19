@@ -1,0 +1,257 @@
+{
+  "doc_id": "4_喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用",
+  "title": "Synthesis of Quinacridone Derivatives and Their Application as High Performance Levelers in Electroplating",
+  "doi": "10.5796/electrochemistry.24-00024",
+  "journal": "其他期刊",
+  "year": "2024",
+  "pages": 10,
+  "printed_page_map": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "references": [
+    {
+      "n": null,
+      "page": 10,
+      "raw": "Peikun Zou: Data curation (Lead), Methodology (Lead), Project administration (Lead), Validation (Lead), Visualization (Lead), Writing – original draft (Lead), Writing – review & editing (Lead)"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "Chunyu Xiang: Data curation (Equal), Methodology (Equal), Writing – review & editing (Equal)"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "Xuyang Li: Methodology (Equal), Validation (Supporting)"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "Nayun Zhou: Data curation (Supporting), Visualization (Supporting)"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "Binbin Fan: Data curation (Supporting), Writing – review & editing (Supporting)"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "Limin Wang: Funding acquisition (Lead), Supervision (Supporting), Writing – review & editing (Equal)"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "D1. P. Zou, C. Xiang, X. Li, N. Zhou, B. Fan, and L. Wang, J-STAGE Data, https:// doi.org/10.50892/data.electrochemistry.25609638, (2024)."
+    },
+    {
+      "n": 1,
+      "page": 10,
+      "raw": "1. R. Miyamoto, K. Tamahashi, T. Inami, Y. Sasajima, and J. Onuki, J. Electrochem. Soc., 166, D137 (2019)."
+    },
+    {
+      "n": 2,
+      "page": 10,
+      "raw": "2. C. Peng, Y. Zhai, X. Chen, C. Wang, Y. Hong, Y. Chen, W. He, G. Zhou, and B. Liu, Molecules, 28, 2783 (2023)."
+    },
+    {
+      "n": 3,
+      "page": 10,
+      "raw": "3. T. P. Mofat, T. M. Braun, D. Raciti, and D. Josell, Acc. Chem. Res., 56, 1004 (2023)."
+    },
+    {
+      "n": 4,
+      "page": 10,
+      "raw": "4. J. W. Zhang, X. Chen, C. H. Qian, B. B. Fan, and L. M. Wang, J. Phys. Chem. C,"
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "127, 1633 (2023)."
+    },
+    {
+      "n": 5,
+      "page": 10,
+      "raw": "5. E. Sezer, B. Ustamehmetoğlu, and R. Katirci, Turk. J. Chem., 38, 701 (2014)."
+    },
+    {
+      "n": 6,
+      "page": 10,
+      "raw": "6. A. Jaworski, H. Wikiel, and K. Wikiel, Electroanalysis, 31, 318 (2019)."
+    },
+    {
+      "n": 7,
+      "page": 10,
+      "raw": "7. Y. Li, P. Ren, Y. Zhang, R. Li, J. Zhang, P. Yang, A. Liu, G. Wang, and M. An, Appl. Surf. Sci., 615, 156266 (2023)."
+    },
+    {
+      "n": 8,
+      "page": 10,
+      "raw": "8. M. Tomie, T. Akita, M. Irita, and M. Hayase, J. Electrochem. Soc., 167, 082513 (2020)."
+    },
+    {
+      "n": 9,
+      "page": 10,
+      "raw": "9. X. Li, X. Yin, J. Li, B. Yuan, C. Xiang, P. Zou, and L. Wang, Electrochim. Acta, 437, 141541 (2023)."
+    },
+    {
+      "n": 10,
+      "page": 10,
+      "raw": "10. Z. Zhang, Y. Wu, Y. Zhang, T. Hang, A. Hu, H. Ling, and M. Li, J. Electrochem Soc., 166, D577 (2019)."
+    },
+    {
+      "n": 11,
+      "page": 10,
+      "raw": "11. T. Akita, Y. Otsuka, and M. Hayase, J. Electrochem. Soc., 167, 162515 (2020)."
+    },
+    {
+      "n": 12,
+      "page": 10,
+      "raw": "12. Z. Li, B. Tan, J. Luo, J. Qin, G. Yang, C. Cui, and L. Pan, Electrochim. Acta, 401, 139445 (2022)."
+    },
+    {
+      "n": 13,
+      "page": 10,
+      "raw": "13. Y. Hoshi, Y. Ito, T. Kato, I. Shitanda, and M. Itagaki, Electrochemistry, 83, 142 (2015)."
+    },
+    {
+      "n": 14,
+      "page": 10,
+      "raw": "14. P. Ren, M. An, P. Yang, and J. Zhang, J. Electroanal. Chem., 898, 115624 (2021)."
+    },
+    {
+      "n": 15,
+      "page": 10,
+      "raw": "15. Z. Lai, C. Wang, Y. Huang, Y. Chen, S. Wang, Y. Hong, G. Zhou, W. He, X. Su, Y. Sun, Y. Tao, and X. Lu, Mater: Today Commun., 24, 100973 (2020)"
+    },
+    {
+      "n": 16,
+      "page": 10,
+      "raw": "16. C. D. Bandas, R. T. Rooney, A. Kirbs, C. Jaeger, R. Schmidt, and A. A. Gewirth. J. Electrochem. Soc., 168, 042501 (2021)."
+    },
+    {
+      "n": 17,
+      "page": 10,
+      "raw": "17. L. Tan, S. Han, S. Chen, T. Hang, H. Ling, Y. Wu, and M. Li, J. Electrochem. Soc., 168, 062504 (2021)."
+    },
+    {
+      "n": 18,
+      "page": 10,
+      "raw": "18. M. H. Lee, Y. Lee, M. Sung, S. K. Cho, Y. G. Kim, and J. J. Kim, J. Electrochem. Soc., 167, 102505 (2020)."
+    },
+    {
+      "n": 19,
+      "page": 10,
+      "raw": "19. B.-G. Park, S. G. Kim, and J. S. Ko, Int. J. Precis. Eng. Manuf., 20, 437 (2019)."
+    },
+    {
+      "n": 20,
+      "page": 10,
+      "raw": "20. T.-G. Woo and I.-S. Park, Korean J. Met. Mater., 59, 404 (2021)."
+    },
+    {
+      "n": 21,
+      "page": 10,
+      "raw": "21. J. Li, J. Xu, X. Wang, X. Wei, and L. Wang, Appl. Surf. Sci., 569, 150982 (2021)"
+    },
+    {
+      "n": 22,
+      "page": 10,
+      "raw": "22. B. Yuan, X. Chen, Y. Zhao, W. Zhou, X. Li, and L. Wang, Electrochim. Acta, 471, 143345 (2023)"
+    },
+    {
+      "n": 23,
+      "page": 10,
+      "raw": "23. L. Jin, W.-Q. Li, Z.-Y. Wang, J.-Q. Yang, A.-N. Zheng, F.-Z. Yang, D. Zhan, D.-Y. Wu, and Z,-O. Tian, ACS Sustainable Chem. Eng., 10, 14204 (2022)"
+    },
+    {
+      "n": 24,
+      "page": 10,
+      "raw": "24. X. Wang, K. Wang, J. Xu, J. Li, J. Lv, M. Zhao, and L. Wang, Dyes Pigm., 181, 108594 (2020)."
+    },
+    {
+      "n": 25,
+      "page": 10,
+      "raw": "25. Y. Saito, S. Iwamoto, N. Hontama, Y. Tanaka, and T. Endo, Cellulose, 27, 3153 (2020)."
+    },
+    {
+      "n": 26,
+      "page": 10,
+      "raw": "26. G. Zhao, Y. Fan, C. Huo, H. Bian, W. Song, J. Zhang, and Y. Wang, Chin. Sci. Bull., 54, 1677 (2009)"
+    },
+    {
+      "n": 27,
+      "page": 10,
+      "raw": "27. Z. Liu, X. Wang, T. Lu, A. Yuan, and X. Yan, Carbon, 187, 78 (2022)."
+    },
+    {
+      "n": 28,
+      "page": 10,
+      "raw": "28. J. Zhang and T. Lu, Phys. Chem. Chem. Phys., 23, 20323 (2021)"
+    },
+    {
+      "n": 29,
+      "page": 10,
+      "raw": "29. T. Lu and S. Manzetti, Struct. Chem., 25, 1521 (2014)."
+    },
+    {
+      "n": 30,
+      "page": 10,
+      "raw": "30. T. Lu and F. W. Chen, J. Mol. Graphics Model., 38, 314 (2012)"
+    },
+    {
+      "n": 31,
+      "page": 10,
+      "raw": "31. T. Lu and F. W. Chen, J. Comput. Chem., 33, 580 (2012)."
+    },
+    {
+      "n": 32,
+      "page": 10,
+      "raw": "32. X. Teng, Z. Tao, Z. Long, G. Liu, and X. Tao, RSC Adv., 12, 16153 (2022)."
+    },
+    {
+      "n": 33,
+      "page": 10,
+      "raw": "33. Y. Yoon, Y. S. Ham, T. Y. Kim, S. Choe, and J. J. Kim, J. Electrochem. Soc., 165. H213 (2018)."
+    },
+    {
+      "n": 34,
+      "page": 10,
+      "raw": "34. Y. C. Meng, M. M. Zhou, W. Huang, Y. L. Min, X. X. Shen, and Q. J. Xu, Electrochim. Acta, 429, 141013 (2022)"
+    },
+    {
+      "n": 35,
+      "page": 10,
+      "raw": "35. N. T. M. Hai, J. Furrer, F. Stricker, T. M. T. Huynh, I. Gjuroski, N. Luedi, T. Brunner, F. Weiss, A. Fluegel, M. Arnold, I. Chang, D. Mayer, and P. Broekmann, J. Electrochem. Soc.,, D3116 (2013)."
+    },
+    {
+      "n": 36,
+      "page": 10,
+      "raw": "36. M. A. Rigsby, L. J. Brogan, N. V. Doubina, Y. Liu, E. C. Opocensky, T. A. Spurlin, J. Zhou, and J. D. Reid, J. Electrochem. Soc., 166, D3167 (2018)."
+    },
+    {
+      "n": 37,
+      "page": 10,
+      "raw": "37. M. Hayase and M. Nagao, J. Electrochem. Soc., 160, D3216 (2013)."
+    },
+    {
+      "n": 38,
+      "page": 10,
+      "raw": "38. D. A. Brown, S. Morgan, V. Peldzinski, and R. Brüning, J. Cryst. Growth, 478, 220 (2017)."
+    },
+    {
+      "n": 39,
+      "page": 10,
+      "raw": "39. U. S. Mohanty, B. C. Tripathy, P. Singh, A. Keshavarz, and S. Iglauer, J. Appl. Electrochem., 49, 847 (2019)."
+    }
+  ]
+}

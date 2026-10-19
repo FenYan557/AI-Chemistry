@@ -1,0 +1,73 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "hrough-hole.\n* Corresponding authors.\nE-mail addresses: fzyang@xmu.edu.cn (F.-Z. Ya"
+      },
+      {
+        "value": "SMSE",
+        "context": " Hg _2S0_4 electrode (saturated K_2SO_4 solution, SMSE) were as the working electrod"
+      },
+      {
+        "value": "sse",
+        "context": "erica). A thin-layer (~ 10 µm) electrolyte was pressed between the copper electrode"
+      },
+      {
+        "value": "SMSE",
+        "context": "ference potential of the spectrum was − 0.4 V vs. SMSE electrode. The sample potenti"
+      },
+      {
+        "value": "sse",
+        "context": " itself behaves as a suppressor and greatly suppresses the electroreduction of copp"
+      },
+      {
+        "value": "sse",
+        "context": "e electric charge at different rotating rates to assess the copper filling performa"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "0 mA/cm2",
+        "context": "temperature of 298 K and the current density of 2 0 mA/cm2. The components of bath A and"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "ed out in bath A and bath B at the temperature of 298 K and the current density of 2 "
+      },
+      {
+        "value": "298 K",
+        "context": " mg/L SA. The temperature and current density are 298 K and 20 mA/cm, respectively. A"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Ni",
+        "context": "h-quality electronics interconnection\nLei Jin, An-Ni Zheng, Mei Wang, Jia-Qiang Ya"
+      },
+      {
+        "value": "Cu",
+        "context": " and SPS can heighten the adsorption of SA on the Cu surface, and both PEG and SPS"
+      },
+      {
+        "value": "Co",
+        "context": "lecular weight: 8000) were purchased from Aladdin Co., Ltd (China). Sulfuric acid "
+      },
+      {
+        "value": "Co",
+        "context": "l) were purchased from Sinopharm Chemical Reagent Co., Ltd (China). All the chemic"
+      },
+      {
+        "value": "Co",
+        "context": "thode (supplied by Shanghai Meadville Electronics Co., Ltd.) and the phosphorus-co"
+      },
+      {
+        "value": "Cu",
+        "context": "ted in Table 5. As shown in Fig. ^ 7 a, when only Cu ^ 2 +, sO _ 4 ^ 2 - and Cl io"
+      }
+    ]
+  }
+}

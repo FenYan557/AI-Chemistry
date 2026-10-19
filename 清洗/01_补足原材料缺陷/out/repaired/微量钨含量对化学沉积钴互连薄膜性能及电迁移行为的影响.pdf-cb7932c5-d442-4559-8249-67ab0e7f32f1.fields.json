@@ -1,0 +1,63 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "r 450 nm 2) [6,7]. Moreover, electromigration is essentially a forced metal diffusi"
+      },
+      {
+        "value": "sse",
+        "context": ",18]. We have recently developed an all-wet self-assembled-monolayer (SAM) seeding "
+      },
+      {
+        "value": "sse",
+        "context": "ed and planar SiO _2/Si substrates were both processed by the same procedure: surfa"
+      },
+      {
+        "value": "sse",
+        "context": "y, many Co,\\CoW_l,\\CoW_m and CoW_h lines were stressed at room temperature under a "
+      },
+      {
+        "value": "sse",
+        "context": ". Thin-film property characterization\nFilm thicknesses of Co,CoW_l,CoW_m and CoW_h "
+      },
+      {
+        "value": "sse",
+        "context": " substrates for various times. Then, their thicknesses were measured by high-resolu"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "Co,\\CoW_l,\\CoW_m and CoW_h lines were stressed at room temperature under a preset current densit"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "ors under accelerated stressing conditions, using Co lines as a control. All three"
+      },
+      {
+        "value": "Co",
+        "context": " three W contents, especially 0.06 at.%, mitigate Co electromigration. The mechani"
+      },
+      {
+        "value": "Cu",
+        "context": "n of the CMOS transistors currently using copper (Cu) as a core interconnect mater"
+      },
+      {
+        "value": "Cu",
+        "context": " rather long electron mean free path of 40 nm for Cu would induce multiple electro"
+      },
+      {
+        "value": "Cu",
+        "context": "h residual electrical resistivity [2]. Therefore, Cu is not a good interconnect co"
+      },
+      {
+        "value": "Cu",
+        "context": "onductor for future technology nodes. Compared to Cu, cobalt (Co) has a much short"
+      }
+    ]
+  }
+}

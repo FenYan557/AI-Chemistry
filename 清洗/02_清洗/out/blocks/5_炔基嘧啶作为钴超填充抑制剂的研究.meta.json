@@ -1,0 +1,239 @@
+{
+  "doc_id": "5_炔基嘧啶作为钴超填充抑制剂的研究",
+  "title": "Study of 5-Alkynylpyrimidines as Cobalt Superfilling Inhibitors",
+  "doi": "10.1021/acs.jpcc.4c05741",
+  "journal": "其他期刊",
+  "year": "2024",
+  "pages": 12,
+  "printed_page_map": {
+    "1": 232,
+    "2": 233,
+    "3": 234,
+    "4": 235,
+    "5": 236,
+    "6": 237,
+    "7": 238,
+    "8": 239,
+    "9": 240,
+    "10": 241,
+    "11": 242,
+    "12": 243
+  },
+  "references": [
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Haidi Li − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai 200090, China; Shanghai Engineering Research Center of Energy-Saving in Heat Exchange Systems, Shanghai 200090, China"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Tao Zhang − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai 200090, China; Shanghai Engineering Research Center of Energy-Saving in Heat Exchange Systems, Shanghai 200090, China"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Shiqi Song − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai 200090, China; Shanghai Engineering Research Center ofEnergy-Saving in Heat Exchange Systems, Shanghai 200090, China"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Qian Li − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai 200090, China; Shanghai Engineering Research Center of Energy-Saving in Heat Exchange Systems, Shanghai 200090, China"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Rongze Han − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai 200090, China; Shanghai Engineering Research Center of Energy-Saving in Heat Exchange Systems, Shanghai 200090, China"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Qiaoxia Li − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai 200090, China; Shanghai Engineering Research Center ofEnergy-Saving in Heat Exchange Systems, Shanghai 200090, China; orcid.org/0000-0003-1269-3150"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Yulin Min − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power, Shanghai 200090, China; Shanghai Engineering Research Center ofEnergy-Saving in Heat Exchange Systems, Shangha 200090, China; orcid.org/0000-0001-7192-4890"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "Lina Qiu − Shanghai University of Electric Power, Shanghai 200090, China; Shanghai Key Laboratory of Materials Protection and Advanced Materials in Electric Power,"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(1) Andricacos, P. C.; Uzoh, C.; Dukovic, J. O.; Horkans, J.; Deligianni, H. Damascene copper electroplating for chip interconnections. IBM J. Res. Dev. 1998, 42, 567−574."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(2) Josell, D.; Brongersma, S. H.; Tőkei, Z. Size-dependent resistivity in nanoscale interconnects. Annu. Rev. Mater. Res. 2009, 39, 231−254."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(3) Gall, D. Electron mean free path in elemental metals. J. Appl. Phys. 2016, 119, No. 085101."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(4) Moon, J. H.; Jeong, E.; Kim, S.; Kim, T.; Oh, E.; Lee, K.; Han, H.; Kim, Y. K. Materials quest for advanced interconnect metallization in integrated circuits. Adv. Sci. 2023, 10, No. 2207321."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(5) Auth, C.; Aliyarukunju, A.; Asoro, M.; Bergstrom, D.; Bhagwat, V.; Birdsall, J.; Bisnik, N.; Buehler, M.; Chikarmane, V.; Ding, G.; Fu, Q.; Gomez, H.; Han, W.; Hanken, D.; Haran, M.; Hattendorf, M.; Heussner, R.; Hiramatsu, H.; Ho, B.; Jaloviar, S.; Jin, I.; Joshi, S.; Kirby, S.; Kosaraju, S.; Yeoh, A. A 10 nm High Performance and Lowpower CMOS Technology Featuring 3 rd Generation FinFET Trans"
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(6) Dutta, S.; Beyne, S.; Gupta, A.; Kundu, S.; Van Elshocht, S.; Bender, H.; Jamieson, G.; Vandervorst, W.; Bömmels, J.; Wilson, C. J.; et al. Sub-100 nm 2 cobalt interconnects. IEEE Electron Device Lett. 2018, 39, 731−734."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(7) Banbur-Pawlowska, S.; Mech, K.; Kowalik, R.; Zabinski, P. Analysis of electrodeposition parameters influence on cobalt deposit roughness. Appl. Surf. Sci. 2016, 388, 805−808."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(8) Guo, L.; Li, S.; He, Z.; Fu, Y.; Qiu, F.; Liu, R.; Yang, G. Electroplated Copper Additives for Advanced Packaging: A Review. ACS Omega 2024, 9, 20637−20647."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(9) Wafula, F.; Wu, J.; Branagan, S.; Suzuki, H.; Gracias, A.; Van Eisden, J. Electrolytic Cobalt Fill of Sub-5 nm Node Interconnect Features. In 2018 IEEE International Interconnect Technology Conference (IITC); IEEE: Santa Clara, CA, USA, 2018; pp 123−125."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(10) Josell, D.; Silva, M.; Moffat, T. P. Superconformal bottom-up cobalt deposition in high aspect ratio through silicon vias. J. Electrochem. Soc. 2016, 163, D809."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(11) Kang, J.; Sung, M.; Byun, J.; Kwon, O. J.; Kim, J. J. Proton sensitive additive for cobalt electrodeposition. J. Electrochem. Soc. 2020, 167, No. 122510."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(12) Kang, J.; Sung, M.; Byun, J.; Kwon, O. J.; Kim, J. J. Superconformal cobalt electrodeposition with a hydrogen evolution reaction suppressing additive. J. Electrochem. Soc. 2020, 167, No. 162514."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(13) Li, Y.; Ma, X.; Li, C.; Li, R.; Zhang, J.; Yang, P.; Liu, X.; Broekmann, P.; Wang, B.; Lv, W.; An, M. Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth. J. Manuf. Processes 2023, 101, 15−24."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(14) Ma, X.; Li, Y.; Yang, P.; Zhang, J.; An, M. Influence of suppressing additive malachite green on superconformal cobalt electrodeposition. J. Electroanal. Chem. 2022, 921, No. 116696."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(15) Lyons, T.; Huang, Q. Effects of cyclohexane-monoxime and dioxime on the electrodeposition of cobalt. Electrochim. Acta 2017, 245, 309−317."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(16) Hu, Y.; Lyons, T.; Huang, Q. Influence of furil dioxime on cobalt electrochemical nucleation and growth. J. Electrochem. Soc. 2020, 167, No. 022509."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(17) Huang, Q.; Lyons, T.; Sides, W. Electrodeposition of cobalt for interconnect application: Effect of dimethylglyoxime. J. Electrochem. Soc. 2016, 163, D715."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(18) Ni, X.; Wang, C.; Su, Y.; Luo, Y.; Ye, Y.; Su, X.; He, W.; Wang, S.; Hong, Y.; Chen, Y.; Zhou, G.; Liu, B. Effect of 3-mercapto-1- propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition. Nanotechnol. Rev. 2022, 11, 1209−1218."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(19) Ni, X.; Chen, Y.; Jin, X.; Wang, C.; Huang, Y.; Hong, Y.; Su, X.; Zhou, G.; Wang, S.; He, W.; Chen, Q. Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition. J. Taiwan Inst. Chem. Eng. 2020, 112, 232−239."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(20) Karimzadeh, A.; Aliofkhazraei, M.; Walsh, F. C. A review of electrodeposited Ni-Co alloy and composite coatings: Microstructure, properties and applications. Surf. Coat. Technol. 2019, 372, 463−498."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(21) Pan, B.; Zhang, Q.; Liu, Z.; Yang, Y. Influence of butynediol and tetrabutylammonium bromide on the morphology and structure of electrodeposited cobalt in the presence of saccharin. Mater. Chem. Phys. 2019, 228, 37−44."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(22) Kiruba, M.; Jeyabharathi, C. Discerning the oscillatory electrochemical response during electrodeposition of cobalt in the presence of but-2-yne-1, 4-diol. J. Solid State Electrochem. 2020, 24, 2997−3002."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(23) Wu, Y.; Ju, S.; Li, F.; Zhang, M.; Ren, X.; Li, M. Tailoring crystalline orientation of electrodeposited cobalt by alkynol additives. Electrochim. Acta 2024, 497, No. 144593."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(24) Josell, D.; Moffat, T.; Silva, M. Superconformal bottom-up cobalt deposition in high aspect ratio through silicon vias. ECS Trans. 2016, 75, 25−30."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(25) Lee, C. H.; Bonevich, J. E.; Davies, J. E.; Moffat, T. P. Superconformal electrodeposition of Co and Co−Fe alloys using 2- mercapto-5-benzimidazolesulfonic acid. J. Electrochem. Soc. 2009, 156, D301−D309."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(26) Scharifker, B.; Hills, G. Theoretical and experimental studies of multiple nucleation. Electrochim. Acta 1983, 28, 879−889."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(27) Frisch, M. J.; Trucks, G. W.; Schlegel, H. B.; Scuseria, G. E.; Robb, M. A.: Cheeseman, J. R.: Scalmani. G.; Barone, V.; Mennucci B.; Nakatsuji, H. Gaussian; Gaussian, Inc.: Wallingford, 2004."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(28) Humphrey, W.; Dalke, A.; Schulten, K. VMD: visual molecular dynamics. J. Mol. Graphics 1996, 14, 33−38."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(29) Xia, S.; Qiu, M.; Yu, L.; Liu, F.; Zhao, H. Molecular dynamics and density functional theory study on relationship between structure of imidazoline derivatives and inhibition performance. Corros. Sci. 2008, 50, 2021−2029."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(30) Li, Y.; Ren, P.; Li, R.; Zhang, Y.; Zhang, J.; Yang, P.; An, M. A novel bright additive for copper electroplating: electrochemical and theoretical study. Ionics 2023, 29, 363−375."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(31) Li, Y.; Ren, P.; Lu, X.; Zhang, J.; Yang, P.; Yang, X.; Wang, G.; Liu, A.; Wu, G.; An, M. Elucidating the role of P on Mn-and N-doped graphene catalysts in promoting oxygen reduction: Density functional theory studies. SusMat 2023, 3, 390−401."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(32) Li, R.; Li, Y.; Yang, P.; Ren, P.; Wang, D.; Lu, X.; Zhang, H.; Zhang, Z.; Yan, P.; Zhang, J.; An, M.; Wang, B.; Liu, H.; Dou, S. Key roles of interfacial OH- ion distribution on proton coupled electron transfer kinetics toward urea oxidation reaction. Small 2023, 19, No. 2302151."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(33) Li, R.; Li, Y.; Yang, P.; Ren, P.; Wang, D.; Lu, X.; Xu, R.; Li, Y.; Xue, J.; Zhang, J.; et al. Synergistic interface engineering and structural optimization of non-noble metal telluride-nitride electrocatalysts fo sustainably overall seawater electrolysis. Appl. Catal., B 2022, 318, No. 121834."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(34) Zhang, M.; Chang, P.; Chen, P.; Hang, T.; Li, M.; Wu, Y. Super-flat and uni-oriented cobalt film electrodeposited by modulating the crystal nucleation and growth behavior. Appl. Surf. Sci. 2024, 645, No. 158795."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(35) Kelly, J.; Kamineni, V.; Lin, X.; Pacquette, A.; Hopstaken, M.; Liang, Y.; Amanapu, H.; Peethala, B.; Jiang, L.; Demarest, J.; Shobha, H.; Raymond, M.; Haran, B. Annealing and impurity effects in Co thin films for MOL contact and BEOL metallization. J. Electrochem. Soc. 2018, 166, D3100."
+    }
+  ]
+}

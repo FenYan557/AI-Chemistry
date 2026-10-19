@@ -1,0 +1,620 @@
+{
+  "doc_id": "先进芯片制造中的钴电镀互连技术综述",
+  "title": "Cobalt Electroplating Interconnects in Advanced Chip Fabrication: A Review",
+  "doi": "10.1007/s11664-025-12242-6",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 19,
+  "printed_page_map": {
+    "2": 8167,
+    "3": 8168,
+    "4": 8169,
+    "5": 8170,
+    "6": 8171,
+    "7": 8172,
+    "8": 8173,
+    "9": 8174,
+    "10": 8175,
+    "11": 8176,
+    "12": 8177,
+    "13": 8178,
+    "14": 8179,
+    "15": 8180,
+    "16": 8181,
+    "17": 8182,
+    "18": 8183,
+    "19": 8184
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 16,
+      "raw": "1. Y. Zhang, M. An, P. Yang, and J. Zhang, Recent advances in electroplating of through-hole copper interconnection. Electrocatalysis 12, 619–627 (2021)."
+    },
+    {
+      "n": 2,
+      "page": 16,
+      "raw": "2. L. Guo, S. Li, Z. He, Y. Fu, F. Qiu, R. Liu, and G. Yang, Electroplated copper additives for advanced packaging: a review. ACS Omega 9, 20637–20647 (2024)."
+    },
+    {
+      "n": 3,
+      "page": 16,
+      "raw": "3. Z. Wang, Microsystems using three-dimensional integration and TSV technologies: fundamentals and applications. Microelectron. Eng. 210, 35–64 (2019)."
+    },
+    {
+      "n": 4,
+      "page": 16,
+      "raw": "4. T.P. Mofat, T.M. Braun, D. Raciti, and D. Josell, Superconformal film growth: from smoothing surfaces to interconnect technology. Acc. Chem. Res. 56, 1004–1017 (2023)."
+    },
+    {
+      "n": 5,
+      "page": 16,
+      "raw": "5. R. Akolkar, and P. Broekmann, Preface—advances in electrochemical processes for interconnect fabrication in integrated circuits. J. Electrochem. Soc. 166, Y1 (2019)."
+    },
+    {
+      "n": 6,
+      "page": 16,
+      "raw": "6. Z.-Y. Wang, L. Jin, J.-Q. Yang, W.-Q. Li, D.-P. Zhan, F.-Z. Yang, and S.-G. Sun, Studies and progresses on hole metallization in high-density interconnected printed circuit boards. J. Electro chem. 27, 316 (2021)."
+    },
+    {
+      "n": 7,
+      "page": 16,
+      "raw": "7. Y.C. Meng, M.M. Zhou, W. Huang, Y.L. Min, X.X. Shen, and Q.J. Xu, Benzyl-containing quaternary ammonium salt as a new leveler for microvia copper electroplating. Electrochim. Acta 429, 141013 (2022)."
+    },
+    {
+      "n": 8,
+      "page": 16,
+      "raw": "8. Z.-Y. Wang, L. Jin, J.-Q. Yang, W.-Q. Li, D.-Y. Wu, D. Zhan, F.-Z. Yang, and S.-G. Sun, A transfer-adsorption model for forward understanding the synergistic efects of additives in through-hole uniform copper thickening. J. Electroanal. Chem 936, 117373 (2023)."
+    },
+    {
+      "n": 9,
+      "page": 16,
+      "raw": "9. L. Jin, Z.-Y. Wang, Z.-Y. Cai, J.-Q. Yang, A.-N. Zheng, F.-Z. Yang, D.-Y. Wu, and D. Zhan, 1-(2-Pyridylazo)-2-naphthol as a synergistic additive for improving throwing power of through hole copper electronic electroplating. J. Ind. Eng. Chem. 125, 269–276 (2023)."
+    },
+    {
+      "n": 10,
+      "page": 16,
+      "raw": "10. L. Jin, A.-N. Zheng, M. Wang, J.-Q. Yang, Z.-Y. Wang, F.-Z. Yang, D.Y. Wu, and D. Zhan, Insights into the synergistic efects of safranine in an acidic copper bath on through-hole void-free filling for high-quality electronics interconnection. Colloids Surf. A Physicochem. Eng. Aspects 671, 131706 (2023)."
+    },
+    {
+      "n": 11,
+      "page": 16,
+      "raw": "11. T.M.T. Huynh, F. Weiss, N.T.M. Hai, W. Reckien, T. Bredow, A. Fluegel, M. Arnold, D. Mayer, H. Keller, and P. Broekmann,"
+    },
+    {
+      "n": null,
+      "page": 16,
+      "raw": "On the role of halides and thiols in additive-assisted copper electroplating. Electrochim. Acta 89, 537–548 (2013)."
+    },
+    {
+      "n": 12,
+      "page": 16,
+      "raw": "12. G.-Y. Lin, J.-J. Yan, M.-Y. Yen, W.-P. Dow, and S.-M. Huang, Characterization of through-hole filling by copper electroplating using a tetrazolium salt inhibitor. J. Electrochem. Soc. 160, D3028–D3034 (2013)."
+    },
+    {
+      "n": 13,
+      "page": 16,
+      "raw": "13. J.H. Moon, E. Jeong, S. Kim, T. Kim, E. Oh, K. Lee, H. Han, and Y.K. Kim, Materials quest for advanced interconnect metallization in integrated circuits. Adv. Sci. 10, 2207321 (2023)."
+    },
+    {
+      "n": 14,
+      "page": 16,
+      "raw": "14. K. Kondo, C. Funahashi, Y. Miyake, Y. Takeno, T. Hayashi, M. Yokoi, N. Okamoto, and T. Saito, Five-minute TSV copper electrodeposition. J. Electrochem. Soc. 161, D791–D793 (2014)."
+    },
+    {
+      "n": 15,
+      "page": 16,
+      "raw": "15. M.J. Kim, H.C. Kim, and J.J. Kim, The influences of iodide ion on Cu electrodeposition and TSV filling. J. Electrochem. Soc. 163, D434 (2016)."
+    },
+    {
+      "n": 16,
+      "page": 16,
+      "raw": "16. H.C. Kim, M.J. Kim, and J.J. Kim, Communication—acceleration of TSV filling by adding thiourea to PEG-PPG-SPS-I −. J. Electrochem. Soc. 165, D91–D93 (2018)."
+    },
+    {
+      "n": 17,
+      "page": 16,
+      "raw": "17. T.M. Braun, D. Josell, M. Silva, J. Kildon, and T. Mofat, Efect of chloride concentration on copper deposition in through silicon vias. J. Electrochem. Soc. 166, D3259–D3271 (2019)."
+    },
+    {
+      "n": 18,
+      "page": 16,
+      "raw": "18. D. Gall, Electron mean free path in elemental metals. J. Appl. Phys. 119, 8 (2016)."
+    },
+    {
+      "n": 19,
+      "page": 16,
+      "raw": "19. B. Elsafi, Evaluation of the contribution of the mean free path in Co to the magnetoresistance in Co/Cu multilayers. Appl. Phys A 131(4), 1–8 (2025)."
+    },
+    {
+      "n": 20,
+      "page": 16,
+      "raw": "20. I. Ciofi, P.J. Roussel, R. Baert, A. Contino, A. Gupta, K. Croes, C.J. Wilson, D. Mocuta, and Z. Tőkei, RC benefits of advanced metallization options. IEEE Trans. Electron Devices 66, 2339– 2345 (2019)."
+    },
+    {
+      "n": 21,
+      "page": 16,
+      "raw": "21. M. He, X. Zhang, T. Nogami, X. Lin, J. Kelly, H. Kim, T. Spooner, D. Edelstein, and L. Zhao, Mechanism of Co liner as enhancement layer for Cu interconnect gap-fill. J. Electrochem. Soc. 160, D3040 (2013)."
+    },
+    {
+      "n": 22,
+      "page": 16,
+      "raw": "22. O.V. Pedreira, K. Croes, A. Leśniewska, C. Wu, M. Van Der Veen, J. De Messemaeker, K. Vandersmissen, N. Jourdan, L.G. Wen, C. Adelmann, Reliability study on cobalt and ruthenium as alternative metals for advanced interconnects, in 2017 IEEE international reliability physics symposium (irps), IEEE, 6B-2 (2017)."
+    },
+    {
+      "n": 23,
+      "page": 16,
+      "raw": "23. O.V. Pedreira, K. Croes, H. Zahedmanesh, K. Vandersmissen, M. Van Der Veen, V.V. Gonzalez, D. Dictus, L. Zhao, A. Kolies, Z. Tőkei, Electromigration and thermal storage study of barrierless co vias, in 2018 IEEE International Interconnect Technology Conference (IITC), pp. 48–50. IEEE (2018)"
+    },
+    {
+      "n": 24,
+      "page": 16,
+      "raw": "24. Huang, I, Apple, Huawei Use TSMC, But Their 7nm SoCs Are Diferent. EETimes, AspenCore Network https://eetimes.com/ apple-huawei-use-tsmc-but-their-7nm-socs-are-diferent (2020)."
+    },
+    {
+      "n": 25,
+      "page": 16,
+      "raw": "25. C. Auth, A. Aliyarukunju, M. Asoro, D. Bergstrom, V. Bhagwat, J. Birdsall, N. Bisnik, M. Buehler, V. Chikarmane, G. Ding, A 10nm high performance and low-power CMOS technology featuring 3rd generation FinFET transistors, self-aligned quad patterning, contact over active gate and cobalt local interconnects, in 2017 IEEE International Electron Devices Meeting (IEDM), pp. 29. IEEE (2017)."
+    },
+    {
+      "n": 26,
+      "page": 16,
+      "raw": "26. R. Grover, T. Acosta, C. AnDyke, E. Armagan, C. Auth, S. Chugh, K. Downes, M. Hattendorf, N. Jack, S. Joshi, 2020 IEEE international reliability physics symposium, in 2020 IEEE International Reliability Physics Symposium (IRPS), pp. 1–6. IEEE (2020)."
+    },
+    {
+      "n": 27,
+      "page": 16,
+      "raw": "27. M.H.v.d. Veen, K. Vandersmissen, D. Dictus, S. Demuynck, R. Liu, X. Bin, P. Nalla, A. Lesniewska, L. Hall, K. Croes, L. Zhao, J. Bömmels, A. Kolics, Z. Tökei, Cobalt bottom-up contact and via prefill enabling advanced logic and DRAM technologies, in 2015 IEEE International Interconnect Technology Conference"
+    },
+    {
+      "n": null,
+      "page": 17,
+      "raw": "and 2015 IEEE Materials for Advanced Metallization Conference (IITC/MAM), pp. 25–28 (2015)."
+    },
+    {
+      "n": 28,
+      "page": 17,
+      "raw": "28. F. Griggio, J. Palmer, F. Pan, N. Toledo, A. Schmitz, I. Tsameret, R. Kasim, G. Leatherman, J. Hicks, A. Madhavan, J. Shin, J. Steigerwald, A. Yeoh, C. Auth, Reliability of dual-damascene local interconnects featuring cobalt on 10 nm logic technology, in 2018 IEEE International Reliability Physics Symposium (IRPS), 6E-3 (2018)."
+    },
+    {
+      "n": 29,
+      "page": 17,
+      "raw": "29. Z.-H.Z. Li-Jun Wei, W. Yun-Wen, S. Ming Li, and Wang, Research progresses of cobalt interconnect and superfilling by electroplating in chips. J. Electrochem. 28, 2104431 (2022)."
+    },
+    {
+      "n": 30,
+      "page": 17,
+      "raw": "30. X. Ni, Y. Chen, X. Jin, C. Wang, Y. Huang, Y. Hong, X. Su, G. Zhou, S. Wang, W. He, and Q. Chen, Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition. J. Taiwan Inst. Chem. E 112, 232–239 (2020)."
+    },
+    {
+      "n": 31,
+      "page": 17,
+      "raw": "31. Y. Li, X. Ma, C. Li, R. Li, J. Zhang, P. Yang, X. Liu, P. Broekmann, B. Wang, W. Lv, and M. An, Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth. J. Manuf. Process. 101, 15–24 (2023)."
+    },
+    {
+      "n": 32,
+      "page": 17,
+      "raw": "32. Y.-Q.L. Xiao-Chuan Ma, P.-X. Yang, J.-Q. Zhang, and M.-Z. An, Influences of suppressing additive malachite green on superconformal cobalt filling and nucleation. J. Electrochem. 28, 2104521 (2022)."
+    },
+    {
+      "n": 33,
+      "page": 17,
+      "raw": "33. Q. Huang, T.W. Lyons, and W.D. Sides, Electrodeposition of cobalt for interconnect application: Efect of dimethylglyoxime. J. Electrochem. Soc. 163, D715–D721 (2016)."
+    },
+    {
+      "n": 34,
+      "page": 17,
+      "raw": "34. Y. Hu, and Q. Huang, Efects of dimethylglyoxime and cyclohexane dioxime on the electrochemical nucleation and growth of cobalt. J. Electrochem. Soc. 166, D3175–D3181 (2018)."
+    },
+    {
+      "n": 35,
+      "page": 17,
+      "raw": "35. Y. Hu, Electrodeposition of Cobalt for Advanced Interconnect Applications (New York: The University of Alabama, 2021)."
+    },
+    {
+      "n": 36,
+      "page": 17,
+      "raw": "36. M. Kiruba, and C. Jeyabharathi, Discerning the oscillatory electrochemical response during electrodeposition of cobalt in the presence of but-2-yne-1, 4-diol. J. Solid State Electron. 24, 2997–3002 (2020)."
+    },
+    {
+      "n": 37,
+      "page": 17,
+      "raw": "37. M.P. Kienle, D. Mayer, M. Arnold, A. Fluegel, C. Emnet, Composition for cobalt plating comprising additive for void-free submicron feature filling. Google Patents, 20190226107A1 (2019)."
+    },
+    {
+      "n": 38,
+      "page": 17,
+      "raw": "38. J. Commander, K. Whitten, V. Paneccasio Jr, S. Sun, E. Yakobson, J. Han, E. Najjar, Cobalt filling of interconnects, Google Patents WO2019009989A1 (2021)."
+    },
+    {
+      "n": 39,
+      "page": 17,
+      "raw": "39. M.A. Rigsby, T.A. Spurlin, and J.D. Reid, The multi-functional role of boric acid in cobalt electrodeposition and superfill. J. Electrochem. Soc. 167, 112507 (2020)."
+    },
+    {
+      "n": 40,
+      "page": 17,
+      "raw": "40. N. Zech, and D. Landolt, The influence of boric acid and sulfate ions on the hydrogen formation in Ni–Fe plating electrolytes. Electrochim. Acta 45, 3461–3471 (2000)."
+    },
+    {
+      "n": 41,
+      "page": 17,
+      "raw": "41. A. Demetriou, and I. Pashalidis, Adsorption of boron on ironoxide in aqueous solutions. Desalin. Water Treat. 37, 315–320 (2012)."
+    },
+    {
+      "n": 42,
+      "page": 17,
+      "raw": "42. L. Jin, Y.-J. Lv, T.-T. Ran, D. He, and F.-Z. Yang, Molecular structure with adsorption behavior of butynediol and its efects on cobalt electrodeposition. Mater. Today Commun. 45, 112225 (2025)."
+    },
+    {
+      "n": 43,
+      "page": 17,
+      "raw": "43. B. Pan, Q. Zhang, Z. Liu, and Y. Yang, Influence of butynediol and tetrabutylammonium bromide on the morphology and structure of electrodeposited cobalt in the presence of saccharin. Mater. Chem. Phys. 228, 37–44 (2019)."
+    },
+    {
+      "n": 44,
+      "page": 17,
+      "raw": "44. T. Lyons, and Q. Huang, Efects of cyclohexane-monoxime and dioxime on the electrodeposition of cobalt. Electrochim. Acta 245, 309–317 (2017)."
+    },
+    {
+      "n": 45,
+      "page": 17,
+      "raw": "45. J.G. Lv, X.H. Zhao, X. Jie, J. Li, X.C. Wei, B. Chen, G. Hong, W.J. Wu, and L.M. Wang, Fatty acid quaternary ammonium surfactants based on renewable resources as a leveler for copper electroplating. ChemElectroChem 6, 3254–3263 (2019)."
+    },
+    {
+      "n": 46,
+      "page": 17,
+      "raw": "46. X.M. Wang, K. Wang, J. Xu, J. Li, J.E. Lv, M. Zhao, and L.M. Wang, Quinacridone skeleton as a promising eficient leveler for smooth and conformal copper electrodeposition. Dyes Pigments 181, 108594 (2020)."
+    },
+    {
+      "n": 47,
+      "page": 17,
+      "raw": "47. C. Wang, J.Q. Zhang, P.X. Yang, M.Z. An, C. Wang et al., Electrochemical behaviors of Janus Green B in through-hole copper electroplating: an insight by experiment and density functional theory calculation using Safranine T as a comparison. Electrochim. Acta 92, 356–364 (2013)."
+    },
+    {
+      "n": 48,
+      "page": 17,
+      "raw": "48. B. Bozzini, L. D’Urzo, M. Re, and F. De Riccardis, Electrodeposition of Cu from acidic sulphate solutions containing cetyltrimethylammonium bromide (CTAB). J. Appl. Electrochem. 38, 1561–1569 (2008)."
+    },
+    {
+      "n": 49,
+      "page": 17,
+      "raw": "49. B. Bozzini, C. Mele, L. D’urzo, and V. Romanello, An electrochemical and in situ SERS study of Cu electrodeposition from acidic sulphate solutions in the presence of 3-diethylamino-7-(4- dimethylaminophenylazo)-5-phenylphenazinium chloride (Janus Green B). J. Appl. Electrochem. 36, 973–981 (2006)."
+    },
+    {
+      "n": 50,
+      "page": 17,
+      "raw": "50. B. Bozzini, C. Mele, and E. Tondo, A SERS investigation of Cu electrodeposition in the presence of the model leveller 4-2-[1-(2-cyanoethyl)-1, 2, 3, 4-tetrahydroquinolin-6-yl] diazenyl benzonitrile. Electrochim. Acta 55, 3279–3285 (2010)."
+    },
+    {
+      "n": 51,
+      "page": 17,
+      "raw": "51. W.-P. Dow, C.-C. Li, Y.-C. Su, S.-P. Shen, C.-C. Huang, C. Lee, B. Hsu, and S. Hsu, Microvia filling by copper electroplating using diazine black as a leveler. Electrochim. Acta 54, 5894–5901 (2009)."
+    },
+    {
+      "n": 52,
+      "page": 17,
+      "raw": "52. Z.-Y. Wang, L. Jin, G. Li, J.-Q. Yang, W.-Q. Li, D. Zhan, Y.-X. Jiang, F.-Z. Yang, and S.-G. Sun, Electrochemical and in situ FTIR spectroscopic studies of gentian violet as a novel leveler in through-holes metallization for printed circuit board applications. Electrochim. Acta 410, 140018 (2022)."
+    },
+    {
+      "n": 53,
+      "page": 17,
+      "raw": "53. N.T.M. Hai, T.M.T. Huynh, A. Fluegel, D. Mayer, and P. Broekmann, Adsorption behavior of redox-active suppressor additives: Combined electrochemical and STM studies. Electrochim. Acta 56, 7361–7370 (2011)."
+    },
+    {
+      "n": 54,
+      "page": 17,
+      "raw": "54. M.J. Kim, Y. Seo, H.C. Kim, Y. Lee, S. Choe, Y.G. Kim, S.K. Cho, and J.J. Kim, Galvanostatic bottom-up filling of TSVlike trenches: Choline-based leveler containing two quaternary ammoniums. Electrochim. Acta 163, 174–181 (2015)."
+    },
+    {
+      "n": 55,
+      "page": 17,
+      "raw": "55. X. Ma, Y. Li, P. Ren, P. Yang, J. Zhang, M. An, and W. Lv, Induction-Difusion-Adsorption Process of Malachite Green for Cobalt Superconformal Electrodeposition. J. Electrochem. Soc. 170, 022503 (2023)."
+    },
+    {
+      "n": 56,
+      "page": 17,
+      "raw": "56. M.A. Rigsby, L.J. Brogan, N.V. Doubina, Y. Liu, E.C. Opocensky, T.A. Spurlin, J. Zhou, and J.D. Reid, The critical role of pH gradient formation in driving superconformal cobalt deposition. J. Electrochem. Soc. 166, D3167 (2018)."
+    },
+    {
+      "n": 57,
+      "page": 17,
+      "raw": "57. T.A. Spurlin, M.A. Rigsby, L. Brogan, N. Doubina, Y. Liu, E. Opocensky, J. Zhou, J. Reid, Cobalt electrofill for future generations of contacts and interconnects, in 2019 China Semiconductor Technology International Conference (CSTIC), pp. 1–3. IEEE (2019)."
+    },
+    {
+      "n": 58,
+      "page": 17,
+      "raw": "58. M.A. Rigsby, L.J. Brogan, N.V. Doubina, Y. Liu, E.C. Opocensky, T.A. Spurlin, J. Zhou, and J.D. Reid, Superconformal cobalt fill through the use of sacrificial oxidants. ECS Trans. 80, 767 (2017)."
+    },
+    {
+      "n": 59,
+      "page": 17,
+      "raw": "59. J. Wu, F. Wafula, S. Branagan, H. Suzuki, and J. van Eisden, Mechanism of cobalt bottom-up filling for advanced node interconnect metallization. J. Electrochem. Soc. 166, D3136 (2019)."
+    },
+    {
+      "n": 60,
+      "page": 17,
+      "raw": "60. J. Wu, F. Wafula, S. Branagan, H. Suzuki, and J. van Eisden, Cobalt bottom-up filling for advanced node interconnect metallization. ECS Meet. Abstracts 235, 1050 (2019)."
+    },
+    {
+      "n": 61,
+      "page": 17,
+      "raw": "61. M.I. Jefrey, W.L. Choo, and P.L. Breuer, The efect of additives and impurities on the cobalt electrowinning process. Miner. Eng. 13, 1231–1241 (2000)."
+    },
+    {
+      "n": 62,
+      "page": 18,
+      "raw": "62. J.T. Matsushima, F. Trivinho-Strixino, and E.C. Pereira, Investigation of cobalt deposition using the electrochemical quartz crystal microbalance. Electrochim. Acta 51, 1960–1966 (2006)."
+    },
+    {
+      "n": 63,
+      "page": 18,
+      "raw": "63. J.O.M. Bockris, D. Drazic, and A.R. Despic, The electrode kinetics of the deposition and dissolution of iron. Electrochim. Acta 4, 325–361 (1961)."
+    },
+    {
+      "n": 64,
+      "page": 18,
+      "raw": "64. W.C. Grande, and J.B. Talbot, Electrodeposition of thin films of nickel–iron: II. Modeling. J. Electrochem. Soc. 140, 675 (1993)."
+    },
+    {
+      "n": 65,
+      "page": 18,
+      "raw": "65. S. Hessami, and C.W. Tobias, A mathematical model for anomalous codeposition of nickel-iron on a rotating disk electrode. J. Electrochem. Soc. 136, 3611 (1989)."
+    },
+    {
+      "n": 66,
+      "page": 18,
+      "raw": "66. K.Y. Sasaki, and J.B. Talbot, Electrodeposition of binary irongroup alloys. J. Electrochem. Soc. 142, 775 (1995)."
+    },
+    {
+      "n": 67,
+      "page": 18,
+      "raw": "67. N. Zech, E.J. Podlaha, and D. Landolt, Rotating cylinder Hull cell study of anomalous codeposition of binary iron-group alloys. J. Appl. Electrochem. 28, 1251–1260 (1998)."
+    },
+    {
+      "n": 68,
+      "page": 18,
+      "raw": "68. N. Zech, E.J. Podlaha, and D. Landolt, Anomalous codeposition of iron group metals: II. Mathematical model. J. Electrochem. Soc. 146, 2892 (1999)."
+    },
+    {
+      "n": 69,
+      "page": 18,
+      "raw": "69. J.S. Santos, F. Trivinho-Strixino, and E.C. Pereira, Investigation of Co(OH)2 formation during cobalt electrodeposition using a chemometric procedure. Surf. Coat. Technol. 205, 2585–2589 (2010)."
+    },
+    {
+      "n": 70,
+      "page": 18,
+      "raw": "70. F. Pagnanelli, P. Altimari, M. Bellagamba, G. Granata, E. Moscardini, P.G. Schiavi, and L. Toro, Pulsed electrodeposition of cobalt nanoparticles on copper: influence of the operating parameters on size distribution and morphology. Electrochim. Acta 155, 228–235 (2015)."
+    },
+    {
+      "n": 71,
+      "page": 18,
+      "raw": "71. T. Mehmood, B.S. Khan, A. Mukhtar, X. Chen, P. Yi, and M. Tan, Mechanism for formation of fcc-cobalt nanowires in electrodeposition at ambient temperature. Mater. Lett. 130, 256–258 (2014)."
+    },
+    {
+      "n": 72,
+      "page": 18,
+      "raw": "72. T. Mehmood, B.S. Khan, A. Mukhtar, and M. Tan, Influence of bath temperature and pH on the structure of electrodeposited cobalt nanowires. Int. J. Mater. Res. 106, 957–961 (2015)."
+    },
+    {
+      "n": 73,
+      "page": 18,
+      "raw": "73. A. Mukhtar, T. Mehmood, B.S. Khan, and M. Tan, Efect of Co2+ concentration on the crystal structure of electrodeposited Co nanowires. J. Cryst. Growth 441, 26–32 (2016)."
+    },
+    {
+      "n": 74,
+      "page": 18,
+      "raw": "74. Y. Hu, T. Lyons, and Q. Huang, Influence of furil dioxime on cobalt electrochemical nucleation and growth. J. Electrochem. Soc. 167, 022509 (2020)."
+    },
+    {
+      "n": 75,
+      "page": 18,
+      "raw": "75. M. Orban, and I.R. Epstein, Oscillations and bistability in hydrogen-platinum-oxyhalogen systems. J. Am. Chem. Soc. 103, 3723–3727 (1981)."
+    },
+    {
+      "n": 76,
+      "page": 18,
+      "raw": "76. N.T. Hai, J. Odermatt, V. Grimaudo, K.W. Krämer, A. Fluegel, M. Arnold, D. Mayer, and P. Broekmann, Potential oscillations in galvanostatic Cu electrodeposition: antagonistic and synergistic efects among SPS, chloride, and suppressor additives. J. Phys. Chem. C 116, 6913–6924 (2012)."
+    },
+    {
+      "n": 77,
+      "page": 18,
+      "raw": "77. E.W. Bohannan, L.-Y. Huang, F.S. Miller, M.G. Shumsky, and J.A. Switzer, In situ electrochemical quartz crystal microbalance study of potential oscillations during the electrodeposition of Cu/ Cu O layered nanostructures. Langmuir 15, 813–818 (1999)."
+    },
+    {
+      "n": 78,
+      "page": 18,
+      "raw": "78. P. Strasser, M. Eiswirth, and G. Ertl, Oscillatory instabilities during formic acid oxidation on Pt (100), Pt (110) and Pt (111) under potentiostatic control. II. Model calculations. J. Chem. Phys. 107, 991–1003 (1997)."
+    },
+    {
+      "n": 79,
+      "page": 18,
+      "raw": "79. T.P. Mofat, D. Wheeler, and D. Josell, Electrodeposition of copper in the SPS-PEG-Cl additive system: I. Kinetic measurements: influence of SPS. J. Electrochem. Soc. 151, C262 (2004)."
+    },
+    {
+      "n": 80,
+      "page": 18,
+      "raw": "80. Y.-D. Chiu, W.-P. Dow, K. Krug, Y.-F. Liu, Y.-L. Lee, and S.-L. Yau, Adsorption and desorption of Bis-(3-sulfopropyl) disulfide during Cu electrodeposition and stripping at Au electrodes. Langmuir 28, 14476–14487 (2012)."
+    },
+    {
+      "n": 81,
+      "page": 18,
+      "raw": "81. N. Hai, J. Furrer, I. Gjuroski, M. Bircher, M. Cascella, and P. Broekmann, On the acceleration of Cu electrodeposition"
+    },
+    {
+      "n": null,
+      "page": 18,
+      "raw": "by TBPS (3, 3-thiobis-1-propanesulfonic acid): a combined electrochemical, STM, NMR, ESI-MS and DFT study. J. Electrochem. Soc. 160, D3158 (2013)."
+    },
+    {
+      "n": 82,
+      "page": 18,
+      "raw": "82. N.T. Hai, K.W. Krämer, A. Fluegel, M. Arnold, D. Mayer, and P. Broekmann, Beyond interfacial anion/cation pairing: the role of Cu (I) coordination chemistry in additive-controlled copper plating. Electrochim. Acta 83, 367–375 (2012)."
+    },
+    {
+      "n": 83,
+      "page": 18,
+      "raw": "83. N. Hai, J. Furrer, E. Barletta, N. Luedi, and P. Broekmann, Copolymers of imidazole and 1, 4-butandiol diglycidyl ether as an eficient suppressor additive for copper electroplating. J. Electrochem. Soc. 161, D381 (2014)."
+    },
+    {
+      "n": 84,
+      "page": 18,
+      "raw": "84. J.A. Switzer, C.-J. Hung, L.-Y. Huang, F.S. Miller, Y. Zhou, E.R. Raub, M.G. Shumsky, and E.W. Bohannan, Potential oscillations during the electrochemical self-assembly of copper/cuprous oxide layered nanostructures. J. Mater. Res. 13, 909–916 (1998)."
+    },
+    {
+      "n": 85,
+      "page": 18,
+      "raw": "85. S. Leopold, M. Herranen, and J.-O. Carlsson, Spontaneous potential oscillations in the Cu (II)/tartrate and lactate systems, aspects of mechanisms and film deposition. J. Electrochem. Soc. 148, C513 (2001)."
+    },
+    {
+      "n": 86,
+      "page": 18,
+      "raw": "86. Y. Hu, and Q. Huang, Oscillatory behavior in cobalt electrodeposition with 3-mercapto-1-propanesulfonate. J. Phys. Chem. C 124, 21608–21616 (2020)."
+    },
+    {
+      "n": 87,
+      "page": 18,
+      "raw": "87. B. Bozzini, L. D’Urzo, and C. Mele, Electrodeposition of Cu from cyanoalkaline solutions in the presence of CPC and PEG: an electrochemical and in situ SERS investigation. J. Electrochem. Soc. 152, C255–C264 (2005)."
+    },
+    {
+      "n": 88,
+      "page": 18,
+      "raw": "88. K.G. Schmitt, R. Schmidt, H.F. Von-Horsten, G. Vazhenin, and A.A. Gewirth, 3-Mercapto-1-propanesulfonate for Cu electrodeposition studied by in situ shell-isolated nanoparticle-enhanced Raman spectroscopy, density functional theory calculations, and cyclic voltammetry. J. Phys. Chem. C 119, 23453–23462 (2015)."
+    },
+    {
+      "n": 89,
+      "page": 18,
+      "raw": "89. Z.V. Feng, X. Li, and A.A. Gewirth, Inhibition due to the interaction of polyethylene glycol, chloride, and copper in plating baths: a surface-enhanced Raman study. J. Phys. Chem. B 107, 9415–9423 (2003)."
+    },
+    {
+      "n": 90,
+      "page": 18,
+      "raw": "90. G.K. Liu, S.Z. Zou, D. Josell, L.J. Richter, and T.P. Mofat, SEI-RAS study of chloride-mediated polyether adsorption on Cu. J. Phys. Chem. C 122, 21933–21951 (2018)."
+    },
+    {
+      "n": 91,
+      "page": 18,
+      "raw": "91. X. Ma, Y. Li, P. Yang, J. Zhang, and M. An, Influence of suppressing additive malachite green on superconformal cobalt electrodeposition. J. Electroanalyt. Chem. 921, 116696 (2022)."
+    },
+    {
+      "n": 92,
+      "page": 18,
+      "raw": "92. S. Mahdavi, and S. Allahkaram, Efect of bath composition and pulse electrodeposition condition on characteristics and microhardness of cobalt coatings. Trans. Nonferr Metal. Soc. 28, 2017–2027 (2018)."
+    },
+    {
+      "n": 93,
+      "page": 18,
+      "raw": "93. M. Zhang, P. Chang, P. Chen, T. Hang, M. Li, and Y. Wu, Superflat and uni-oriented cobalt film electrodeposited by modulating the crystal nucleation and growth behavior. Appl. Surf. Sci. 645, 158795 (2024)."
+    },
+    {
+      "n": 94,
+      "page": 18,
+      "raw": "94. Y. Wu, M. Zhang, Y. Jiang, Y. Tong, P. Chang, T. Hang, and M. Li, Investigation of phenyl methyl sulfoxide as an additive for cobalt super-filling in 3D interconnect. Surf. Interfaces 56, 105652 (2025)."
+    },
+    {
+      "n": 95,
+      "page": 18,
+      "raw": "95. F. Su, C. Liu, Q. Zuo, P. Huang, and M. Miao, A comparative study of electrodeposition techniques on the microstructure and property of nanocrystalline cobalt deposit. Mater. Chem. Phys. 139, 663–673 (2013)."
+    },
+    {
+      "n": 96,
+      "page": 18,
+      "raw": "96. L. Jin, J.-Q. Yang, Y. Zhao, Z.-Y. Wang, S.-Y. Chen, A.-N. Zheng, T. Song, F.-Z. Yang, and D. Zhan, Instrumental methodologies of electronic electroplating towards the integrated circuit industry. Sci. Sin. Chim. 53, 1822–1834 (2023)."
+    },
+    {
+      "n": 97,
+      "page": 18,
+      "raw": "97. X.-H. Yang, P.-B. Kang, F.-J. Xu, Y.-C. Jin, Y.-H. Tang, Y.-Y. Su, J.-P. Qiu, and J. Cheng, Artificial intelligence and computational chemistry: a new perspective for electroplating-surface-interface research. Sci. Sin. Chim. 53, 1940–1953 (2023)."
+    },
+    {
+      "n": 98,
+      "page": 19,
+      "raw": "98. Y. Wu, Z. Mao, C. Wang, Y. Liu, S. Chen, and W.-B. Cai, Advances in mechanistic understanding of additives for copper electroplating in high-end electronics manufacture. Sci. Sin. Chim. 51, 1474–1488 (2021)."
+    },
+    {
+      "n": 99,
+      "page": 19,
+      "raw": "99. Y. Li, R. Li, J. Jiang, P. Yang, J. Zhang, A. Liu, P. Broekmann, and M. An, Theoretical and experimental research on electroplating additives in chip metal interconnects. Sci. Sin. Chim. 53, 1970–1988 (2023)."
+    },
+    {
+      "n": 100,
+      "page": 19,
+      "raw": "100. B. Bozzini, L. D’Urzo, S.-J. Huo, and W.-B. Cai, ATR FTIR study of levellers for Cu electrodeposition from acidic sulphate solution. Trans. IMF 86, 41–50 (2008)."
+    },
+    {
+      "n": 101,
+      "page": 19,
+      "raw": "101. Z. Mao, Y. Wu, X.-Y. Ma, L. Zheng, X.-G. Zhang, and W.-B. Cai, In situ wide-frequency surface-enhanced infrared absorption spectroscopy enables one to decipher the interfacial structure of a Cu plating additive. J. Phys. Chem. Lett. 13, 9079–9084 (2022)."
+    },
+    {
+      "n": 102,
+      "page": 19,
+      "raw": "102. Z. Mao, Y. Wu, X. Xu, Y. Chao, X.-G. Zhang, C. Wang, and W.-B. Cai, Uncovering the dissociative adsorption of the leveler Janus green B on Cu electrodes at the molecular level. J. Phys Chem. Lett. 15, 6668–6675 (2024)."
+    },
+    {
+      "n": 103,
+      "page": 19,
+      "raw": "103. T. Haba, K. Ikeda, and K. Uosaki, Electrochemical and in situ SERS study of the role of an inhibiting additive in selective electrodeposition of copper in sulfuric acid. Electrochem. Commun. 98, 19–22 (2019)."
+    },
+    {
+      "n": 104,
+      "page": 19,
+      "raw": "104. K.G. Schmitt, R. Schmidt, J. Gaida, and A.A. Gewirth, Chain length variation to probe the mechanism of accelerator additives in copper electrodeposition. Phys. Chem. Chem. Phys. 21, 16838–16847 (2019)."
+    },
+    {
+      "n": 105,
+      "page": 19,
+      "raw": "105. R.T. Rooney, H. Jha, D. Rohde, R. Schmidt, and A.A. Gewirth, Suppression of copper electrodeposition by PEG in methanesulfonic acid electrolytes. J. Electrochem. Soc. 166, D551–D558 (2019)."
+    },
+    {
+      "n": 106,
+      "page": 19,
+      "raw": "106. K.C. Gordon, and C.M. McGoverin, Raman mapping of pharmaceuticals. Int. J. Pharm. 417, 151–162 (2011)."
+    },
+    {
+      "n": 107,
+      "page": 19,
+      "raw": "107. T. Homma, A. Kato, M. Kunimoto, and M. Yanagisawa, Direct observation of the difusion behavior of an electrodeposition additive in through-silicon via using in situ surface enhanced Raman spectroscopy. Electrochem. Commun. 88, 34–38 (2018)."
+    },
+    {
+      "n": 108,
+      "page": 19,
+      "raw": "108. B. Scharifker, and G. Hills, Theoretical and experimental studies of multiple nucleation. Electrochim. Acta 28, 879–889 (1983)."
+    },
+    {
+      "n": 109,
+      "page": 19,
+      "raw": "109. P. Vereecken, A. Radisic, and F.M. Ross, Diferential inhibition during Cu electrodeposition on Ru: combined electrochemica and real-time TEM studies. J. Electrochem. Soc. 166, D3129 (2018)."
+    },
+    {
+      "n": 110,
+      "page": 19,
+      "raw": "110. N.M. Schneider, J.H. Park, J.M. Grogan, D.A. Steingart, H.H. Bau, and F.M. Ross, Nanoscale evolution of interface morphology during electrodeposition. Nat. Commun. 8, 2174 (2017)."
+    },
+    {
+      "n": 111,
+      "page": 19,
+      "raw": "111. A. Kolmakov, and D. Raciti, Scanning electron microscopy to study the nucleation and growth phenomena in liquid electrolytes under operando conditions. J. Electrochem. Soc. 169, 112510 (2022)."
+    },
+    {
+      "n": 112,
+      "page": 19,
+      "raw": "112. D. Liu, Z. Shadike, R. Lin, K. Qian, H. Li, K. Li, S. Wang, Q. Yu, M. Liu, and S. Ganapathy, Review of recent development of in situ/operando characterization techniques for lithium battery research. Adv. Mater. 31, 1806620 (2019)."
+    },
+    {
+      "n": 113,
+      "page": 19,
+      "raw": "113. H. Li, N. Zhang, J. Li, and J. Dahn, Updating the Structure and Electrochemistry of LixNiO2 for 0≤x≤1. J. Electrochem. Soc. 165, A2985 (2018)."
+    },
+    {
+      "n": 114,
+      "page": 19,
+      "raw": "114. N.V. Doubina, T.A. Spurlin, E.C. Opocensky, and J.D. Reid, The efect of thermal annealing on cobalt film properties and grain structure. MRS Adv. 5, 1919–1927 (2020)."
+    },
+    {
+      "n": 115,
+      "page": 19,
+      "raw": "115. Y. Hu, S. Deb, D. Li, and Q. Huang, Efects of organic additives on the impurity and grain structure of electrodeposited cobalt. Electrochim. Acta 368, 137594 (2021)."
+    }
+  ]
+}

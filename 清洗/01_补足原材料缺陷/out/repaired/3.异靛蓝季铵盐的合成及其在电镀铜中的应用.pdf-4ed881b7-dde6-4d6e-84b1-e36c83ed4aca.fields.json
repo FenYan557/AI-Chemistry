@@ -1,0 +1,55 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": ", 2,20,21 and it is hypothesized that molecules possessing good planarity as well a"
+      },
+      {
+        "value": "Ag/AgCl",
+        "context": "otating disc electrode for the working electrode, Ag/AgCl electrode for the reference e"
+      },
+      {
+        "value": "sse",
+        "context": "nvection-dependent adsorption (CDA), which is an essential property for levelers.\n\n"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": " flask at 120~^°C for 4 h, and was then cooled to room temperature. The reaction solution was re"
+      },
+      {
+        "value": "room temperature",
+        "context": "tion was continued for 6 hours and then cooled to room temperature. The reaction solution was ad"
+      },
+      {
+        "value": "room temperature",
+        "context": "^°C for 12 h. The reaction solution was cooled to room temperature, and then poured into ethyl a"
+      },
+      {
+        "value": "298 K",
+        "context": "ater molecule of 2000, a simulated temperature of 298 K, a force field of COMPASS II,"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "f inhibitors and accelerators on the potential of Cu ions deposition, but the pote"
+      },
+      {
+        "value": "Cu",
+        "context": "eler</td><td> E_ total (kcal mol ^-1)</td><td> E_ Cu (kcal mol ^-1)</td><td> E_ mo"
+      },
+      {
+        "value": "Cu",
+        "context": "and microstructural evolution of electrodeposited Cu solder joints, J. Taiwan Inst"
+      },
+      {
+        "value": "Cu",
+        "context": "razole derived levelers for filling electroplated Cu microvias: electrochemical be"
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "doc_id": "ao3c05248",
+  "title": "Prediction and Effect Verification of Thiamine as a Leveling Agent in Chip Wafer Electroplating",
+  "doi": "10.1021/acsomega.3c05248",
+  "journal": "ACS Omega",
+  "year": "2023",
+  "pages": 7,
+  "printed_page_map": {
+    "1": 45495,
+    "3": 45497,
+    "4": 45498,
+    "5": 45499,
+    "6": 45500,
+    "7": 45501
+  },
+  "references": [
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(1) Zhao, Z.; Liu, Z.; Chen, L.; Sun, Q.; Liu, H.; Sun, Y. FEA study on the TSV copper filling influenced by the additives and electroplating process. Microelectron. Eng. 2023, 275, No. 111981."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(2) Wang, Y.; Zhu, W.; Li, X.; Wang, F. Parameters Analysis of TSV Filling Models of Distinct Chemical Behaviours of Additives. Electrochim. Acta 2016, 221, 70−79."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(3) Wu, H.; Wang, Y.; Li, Z.; Zhu, W. Investigations of the electrochemical performance and filling effects of additives on electroplating process of TSV. Sci. Rep 2020, 10 (1), 9204."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(4) Carpio, R.; Jaworski, A. Review�Management of Copper Damascene Plating. J. Electrochem. Soc. 2019, 166 (1), D3072− D3096."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(5) Jin, S.; Kim, S.-M.; Jo, Y.; Lee, W. Y.; Lee, S.-Y.; Lee, M. H. Unraveling Adsorption Behaviors of Levelers for Bottom-Up Copper Filling in Through-Silicon-Via. Electronic Materials Letters 2022, 18 (6), 583−591."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(6) Jin, S.; Seo, S.; Park, S.; Yoo, B. Through-silicon-via (TSV) filling by electrodeposition with pulse-reverse current. Microelectron. Eng. 2016.156.15–18."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(7) Xiao, H.; He, H.; Ren, X.; Zeng, P.; Wang, F. Numerical modeling and experimental verification of copper electrodeposition for through silicon via (TSV) with additives. Microelectron. Eng. 2017, 170, 54−58."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(8) Dow, W.-P.; Yen, M.-Y.; Lin, W.-B.; Ho, S.-W. Influence of Molecular Weight of Polyethylene Glycol on Microvia Filling by Copper Electroplating. J. Electrochem. Soc. 2005, 152 (11), C769."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(9) Kim, M. J.; Seo, Y.; Oh, J. H.; Lee, Y.; Kim, H. C.; Kim, Y. G.; Kim, J. J. Communication�Halide Ions in TEG-Based Levelers Affecting TSV Filling Performance. J. Electrochem. Soc. 2016, 163 (5), D185−D187."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(10) Wang, C.; Zhang, J.; Yang, P.; An, M. Electrochemical behaviors ofJanus Green B in through-hole copper electroplating: An insight by experiment and density functional theory calculation using Safranine T as a comparison. Electrochim. Acta 2013, 92, 356−364."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(11) Chen, B.; Xu, J.; Wang, L.; Song, L.; Wu, S. Synthesis of Quaternary Ammonium Salts Based on Diketopyrrolopyrroles Skeletons and Their Applications in Copper Electroplating. ACS Appl. Mater. Interfaces 2017, 9 (8), 7793−7803."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(12) Lai, Z.; Wang, S.; Wang, C.; Hong, Y.; Chen, Y.; Zhang, H.; Zhou, G.; He, W.; Ai, K.; Peng, Y. Computational analysis and experimental evidence of two typical levelers for acid copper electroplating. Electrochim. Acta 2018, 273, 318−326."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(13) Becke, A. D. Density-functional exchange-energy approximation with correct asymptotic behavior. Phys. Rev. A Gen Phys. 1988, 38 (6), 3098−3100."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(14) Lee, C.; Yang, W.; Parr, R. G. Development of the Colle Salvetti correlation-energy formula into a functional of the electron density. Phys. Rev. B Condens Matter 1988, 37 (2), 785−789."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(15) Manzetti, S.; Lu, T. The geometry and electronic structure of Aristolochic acid: possible implications for a frozen resonance. J. Phys. Org. Chem. 2013, 26 (6), 473−483."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(16) Xia, S.; Qiu, M.; Yu, L.; Liu, F.; Zhao, H. Molecular dynamics and density functional theory study on relationship between structure of imidazoline derivatives and inhibition performance. Corros. Sci. 2008, 50 (7), 2021−2029."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(17) Liu, A.; Guan, W.; Zhao, X.; Ren, X.; Liang, X.; Gao, L.; Li, Y.; Ma, T. Investigation on the interfacial behavior of polyorganic inhibitors on a metal surface by DFT study and MD simulation. Appl. Surf. Sci. 2021, 541, No. 148570."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(18) Lai, Z.; Wang, S.; Wang, C.; Hong, Y.; Zhou, G.; Chen, Y.; He, W.; Peng, Y.; Xiao, D. A comparison of typical additives for copper electroplating based on theoretical computation. Comput. Mater. Sci. 2018, 147, 95−102."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(19) Qiang, Y.; Zhang, S.; Yan, S.; Zou, X.; Chen, S. Three indazole derivatives as corrosion inhibitors of copper in a neutral chloride solution. Corros. Sci. 2017, 126, 295−304."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(20) Hari Kumar, S.; Karthikeyan, S. Torsemide and Furosemide as Green Inhibitors for the Corrosion of Mild Steel in Hydrochloric Acid Medium. Ind. Eng. Chem. Res. 2013, 52 (22), 7457−7469."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(21) Xu, Y.; Zhang, S.; Li, W.; Guo, L.; Xu, S.; Feng, L.; Madkour, L. H. Experimental and theoretical investigations of some pyrazolo pyrimidine derivatives as corrosion inhibitors on copper in sulfuric acid solution. Appl. Surf. Sci. 2018, 459, 612−620."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(22) Liao, C.; Zhang, S.; Chen, S.; Qiang, Y.; Liu, G.; Tang, M.; Tan, B.; Fu, D.; Xu, Y. The effect of tricyclazole as a novel leveler for filling electroplated copper microvias. J. Electroanal. Chem. 2018, 827, 151− 159."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(23) Dianat, A.; Yang, H.; Bobeth, M.; Cuniberti, G. DFT study of interaction of additives with Cu(111) surface relevant to Cu electrodeposition. J. Appl. Electrochem. 2018, 48 (2), 211−219."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(24) Li, J.; Zhou, G.; Hong, Y.; Wang, C.; He, W.; Wang, S.; Chen, Y.; Wen, Z.; Wang, Q. Copolymer of Pyrrole and 1,4-Butanediol Diglycidyl as an Efficient Additive Leveler for Through-Hole Copper Electroplating. ACS Omega 2020, 5 (10), 4868−4874."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(25) Zheng, L.; He, W.; Zhu, K.; Wang, C.; Wang, S.; Hong, Y.; Chen, Y.; Zhou, G.; Miao, H.; Zhou, J. Investigation of poly (1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole. Electrochim. Acta 2018, 283, 560−567."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(26) Wang, Z.-Y.; Jin, L.; Li, G.; Yang, J.-Q.; Li, W.-Q.; Zhan, D.; Jiang, Y.-X.; Yang, F.-Z.; Sun, S.-G. Electrochemical and in situ FTIR spectroscopic studies of gentian violet as a novel leveler in through holes metallization for printed circuit board applications. Electrochim. Acta 2022, 410, No. 140018."
+    },
+    {
+      "n": null,
+      "page": 7,
+      "raw": "(27) Teng, X.; Tao, Z.; Long, Z.; Liu, G.; Tao, X. 1-(4- Hydroxyphenyl)-2H-tetrazole-5-thione as a leveler for acid copper electroplating of microvia. RSC Adv. 2022, 12 (25), 16153−16164"
+    }
+  ]
+}

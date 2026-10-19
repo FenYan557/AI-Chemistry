@@ -1,0 +1,687 @@
+{
+  "counts": {
+    "无终止符": 1634,
+    "混合连字符": 283,
+    "页眉式重复串": 5,
+    "残留LaTeX": 950,
+    "花括号残留": 924,
+    "连字符结尾": 7,
+    "千分位逗号": 19,
+    "数字内空格": 5,
+    "块_text": 4178,
+    "块_image": 762,
+    "块_chart": 620,
+    "块_table": 98,
+    "块_equation": 149,
+    "重复页眉页脚条数": 113,
+    "图_无题注": 580,
+    "图_题注混版权声明": 15,
+    "负号混用同篇": 331,
+    "表格_原始行宽不齐": 19,
+    "表格_含合并单元格": 19,
+    "表格_含LaTeX": 64,
+    "DOI或URL": 48,
+    "表格_无任何数值": 12,
+    "图_题注仅子图标签": 163,
+    "邮箱": 24,
+    "替换字符": 11,
+    "表格_无题注": 5,
+    "上标丢失_×10n": 1,
+    "上标丢失_单位幂": 5,
+    "重复正文块": 9
+  },
+  "docs_affected": {
+    "无终止符": 48,
+    "混合连字符": 37,
+    "页眉式重复串": 5,
+    "残留LaTeX": 47,
+    "花括号残留": 47,
+    "连字符结尾": 4,
+    "千分位逗号": 16,
+    "数字内空格": 3,
+    "重复页眉页脚条数": 47,
+    "图_无题注": 48,
+    "图_题注混版权声明": 2,
+    "负号混用同篇": 38,
+    "表格_原始行宽不齐": 14,
+    "表格_含合并单元格": 14,
+    "表格_含LaTeX": 32,
+    "DOI或URL": 29,
+    "表格_无任何数值": 10,
+    "图_题注仅子图标签": 36,
+    "邮箱": 13,
+    "替换字符": 4,
+    "表格_无题注": 5,
+    "上标丢失_×10n": 1,
+    "上标丢失_单位幂": 1,
+    "重复正文块": 7,
+    "上标丢失_R方": 0,
+    "下标0疑似": 0,
+    "残留下划线": 0,
+    "cid乱码": 0,
+    "零宽字符": 0,
+    "全角混排": 0,
+    "单位写法不规范": 0,
+    "占位缺失值": 0,
+    "块_text": 0,
+    "块_image": 0,
+    "块_chart": 0,
+    "块_table": 0,
+    "块_equation": 0
+  },
+  "samples": {
+    "无终止符": [
+      "1-s2.0-S0010854522005239 p1: Review",
+      "1-s2.0-S0010854522005239 p1: ashira cross-coupling reactions",
+      "1-s2.0-S0010854522005239 p1: , Tetsuya Kida <sup>b,c,</sup>⇑"
+    ],
+    "混合连字符": [
+      "1-s2.0-S0010854522005239 p1: erials, Kumamoto University, 2-39-1 Kurokami, Chuo-ku, Kumamoto 860-85",
+      "1-s2.0-S0010854522005239 p1: nology, Kumamoto University, 2-39-1 Kurokami, Chuo-ku, Kumamoto 860-85",
+      "1-s2.0-S0013468609007385 p8: iwan under contract no. NSC 96-2628-E-005-013-MY3 and by OMG (Asia) El"
+    ],
+    "页眉式重复串": [
+      "1-s2.0-S0010854522005239 p1: 2022 Accepted 29 October 2022 Available online xxxx",
+      "1-s2.0-S0013468609007385 p1: ril 2009 Accepted 13 May 2009 Available online 21 May 2009",
+      "1-s2.0-S0013468621017357 p1: 2021 Accepted 18 October 2021 Available online 22 October 2021"
+    ],
+    "残留LaTeX": [
+      "1-s2.0-S0010854522005239 p3: in diameter) on solid support $( \\mathrm { e . g . } , \\mathrm { S i O",
+      "1-s2.0-S0010854522005239 p7: d chemisorption properties of $\\mathrm { H } _ { 2 }$ on noble metal N",
+      "1-s2.0-S0010854522005239 p10: eric mesoporous nitrogen-rich $\\mathrm { C } _ { 3 } \\mathrm { N } _ {"
+    ],
+    "花括号残留": [
+      "1-s2.0-S0010854522005239 p3: ) on solid support $( \\mathrm { e . g . } , \\mathrm { S i O } _ { 2 } ",
+      "1-s2.0-S0010854522005239 p7: rption properties of $\\mathrm { H } _ { 2 }$ on noble metal NPs suppor",
+      "1-s2.0-S0010854522005239 p10: porous nitrogen-rich $\\mathrm { C } _ { 3 } \\mathrm { N } _ { 4 }$ sup"
+    ],
+    "连字符结尾": [
+      "1-s2.0-S0010854522005239 p4:  the molecule exhibits intrinsi-",
+      "1-s2.0-S0010854522005239 p18: ver, to solve these issues, var-",
+      "1-s2.0-S0010854522005239 p19: catalyst showed excellent activ-"
+    ],
+    "千分位逗号": [
+      "1-s2.0-S0010854522005239 p10: ) and TOF (h\u0001<sup>1</sup>) of 237,000 [156]. The leaching was further ",
+      "1-s2.0-S0013468626014507 p2: fonate (ZPS) of CAS number of 49,625-94-7, are purchased from Sinophar",
+      "1-s2.0-S0257897223003018 p4: polyethyleneglycol (PEG, MW = 10,000) and bis-(sodium-sulfopropyl)-dis"
+    ],
+    "数字内空格": [
+      "1-s2.0-S0010854522005239 p10: 5 % weight loss of Pd (0.55 ± 0. 02 ppm) from the support after the fi",
+      "5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑 p17: //doi.org/10.1080/01694243.2015. 1016596",
+      "ao3c05248 p1: is smaller than that ofJGB (510. 5), and its mass charge ratio is lowe"
+    ],
+    "负号混用同篇": [
+      "1-s2.0-S0013468609007385 p2:  current density of 19.4 mA cm−<sup>2</sup>. At the beginning of the G",
+      "1-s2.0-S0013468609007385 p4: osed of 200 ppm PEG, 60 ppm Cl−, and 1 ppm SPS. The optimal DB concent",
+      "1-s2.0-S0013468609007385 p5: mathsf { S P S }$ and PEG + Cl− + SPS + DB, led to a flat plane within"
+    ],
+    "表格_原始行宽不齐": [
+      "1-s2.0-S0013468609007385 p3: widths=[4, 6, 2, 7, 7, 7, 7, 7]",
+      "1-s2.0-S0257897223003018 p10: widths=[6, 6, 5, 5, 5, 6, 5, 5]",
+      "1-s2.0-S0927775723007902 p6: widths=[5, 5, 5, 2, 3, 3, 3, 5]"
+    ],
+    "DOI或URL": [
+      "1-s2.0-S0013468621017357 p10: in the online version, at doi:10.1016/j.electacta.2021.139445.",
+      "1-s2.0-S0013468626014507 p9: in the online version, at doi:10.1016/j.electacta.2026.149561.",
+      "1-s2.0-S0257897223003018 p13: rticle can be found online at https://doi. org/10.1016/j.surfcoat.2023"
+    ],
+    "表格_无任何数值": [
+      "1-s2.0-S0013468621017357 p7: ",
+      "1-s2.0-S0257897223003018 p10: ",
+      "2024_Guo_Influence of PU p2: "
+    ],
+    "邮箱": [
+      "1-s2.0-S0257897223003018 p12: ft, Writing- Review & Editing 1468263339@qq.com",
+      "1-s2.0-S0257897223003018 p12: - Review & Editing lixuyang09 09@qq.com",
+      "1-s2.0-S0257897223003018 p12: on, Writing- Review & Editing Candice\\_1004@163.com"
+    ],
+    "替换字符": [
+      "2023_Shen_Study on the E p12: e characteristic peak of the C�O double bond in sodium citrate.",
+      "5-炔基嘧啶作为钴超填充抑制剂的研究 p5: j�current density $( \\mathrm { m A } { \\c",
+      "5-炔基嘧啶作为钴超填充抑制剂的研究 p6:  on the pyrimidine ring (−N− C�C−). Due to the efect of these function"
+    ],
+    "表格_无题注": [
+      "2023_Shen_Study on the E p8: ",
+      "ao4c01707 p6: ",
+      "d4nj05470a p2: "
+    ],
+    "上标丢失_×10n": [
+      "5-炔基嘧啶作为钴超填充抑制剂的研究 p3: \\% )$ with dimensions of 1 mm × 100 mm × 100 mm was used as the anode."
+    ],
+    "上标丢失_单位幂": [
+      "8.s12678-025-00960-8 p5: tained at 0.5, 1.0, and 2.0 A/dm2 for various plating durations. Conti",
+      "8.s12678-025-00960-8 p7: n current densities of 0.5 A/ dm2, 1 A/dm2, and 2 A/dm2. After the met",
+      "8.s12678-025-00960-8 p9: , at a current density of 2 A/dm2, the inhibitory potency of the two i"
+    ]
+  },
+  "per_doc": [
+    {
+      "doc": "1-s2.0-S0010854522005239-main",
+      "defects": 112,
+      "distinct": 8,
+      "top": {
+        "无终止符": 47,
+        "残留LaTeX": 29,
+        "花括号残留": 28,
+        "连字符结尾": 3
+      }
+    },
+    {
+      "doc": "1-s2.0-S0013468609007385-main",
+      "defects": 57,
+      "distinct": 8,
+      "top": {
+        "无终止符": 26,
+        "残留LaTeX": 13,
+        "花括号残留": 10,
+        "负号混用同篇": 4
+      }
+    },
+    {
+      "doc": "1-s2.0-S0013468621017357-main",
+      "defects": 81,
+      "distinct": 9,
+      "top": {
+        "无终止符": 34,
+        "残留LaTeX": 15,
+        "花括号残留": 14,
+        "负号混用同篇": 12
+      }
+    },
+    {
+      "doc": "1-s2.0-S0013468626014507-main",
+      "defects": 105,
+      "distinct": 7,
+      "top": {
+        "无终止符": 32,
+        "残留LaTeX": 30,
+        "花括号残留": 29,
+        "负号混用同篇": 10
+      }
+    },
+    {
+      "doc": "1-s2.0-S0257897223003018-main",
+      "defects": 101,
+      "distinct": 10,
+      "top": {
+        "无终止符": 43,
+        "残留LaTeX": 19,
+        "花括号残留": 18,
+        "负号混用同篇": 10
+      }
+    },
+    {
+      "doc": "1-s2.0-S0927775723007902-main",
+      "defects": 71,
+      "distinct": 6,
+      "top": {
+        "无终止符": 28,
+        "残留LaTeX": 17,
+        "花括号残留": 17,
+        "负号混用同篇": 4
+      }
+    },
+    {
+      "doc": "1-s2.0-S1572665718302236-main",
+      "defects": 78,
+      "distinct": 6,
+      "top": {
+        "残留LaTeX": 26,
+        "花括号残留": 25,
+        "无终止符": 21,
+        "负号混用同篇": 4
+      }
+    },
+    {
+      "doc": "1-s2.0-S1572665722004489-main",
+      "defects": 94,
+      "distinct": 4,
+      "top": {
+        "无终止符": 28,
+        "残留LaTeX": 28,
+        "花括号残留": 28,
+        "负号混用同篇": 10
+      }
+    },
+    {
+      "doc": "1-s2.0-S1572665724000766-main",
+      "defects": 86,
+      "distinct": 6,
+      "top": {
+        "无终止符": 41,
+        "残留LaTeX": 19,
+        "花括号残留": 19,
+        "混合连字符": 3
+      }
+    },
+    {
+      "doc": "1-s2.0-S2352492825007378-main",
+      "defects": 69,
+      "distinct": 4,
+      "top": {
+        "无终止符": 29,
+        "残留LaTeX": 16,
+        "花括号残留": 16,
+        "负号混用同篇": 8
+      }
+    },
+    {
+      "doc": "1.在PD结构中引入二氧化硫对通孔镀铜的影响",
+      "defects": 78,
+      "distinct": 6,
+      "top": {
+        "无终止符": 40,
+        "残留LaTeX": 15,
+        "花括号残留": 15,
+        "负号混用同篇": 6
+      }
+    },
+    {
+      "doc": "2.采用1-(4-羧基苯基)-5-巯基-1H-四氮唑添加剂的表面铜微导通孔填充电镀工艺评估",
+      "defects": 73,
+      "distinct": 5,
+      "top": {
+        "无终止符": 24,
+        "残留LaTeX": 18,
+        "花括号残留": 18,
+        "负号混用同篇": 9
+      }
+    },
+    {
+      "doc": "2023_Shen_Study on the Effects of Additives on",
+      "defects": 136,
+      "distinct": 11,
+      "top": {
+        "无终止符": 36,
+        "残留LaTeX": 35,
+        "花括号残留": 31,
+        "负号混用同篇": 23
+      }
+    },
+    {
+      "doc": "2024_Guo_Influence of PUB2 on the Leveling Eff",
+      "defects": 60,
+      "distinct": 8,
+      "top": {
+        "无终止符": 26,
+        "负号混用同篇": 13,
+        "残留LaTeX": 8,
+        "花括号残留": 8
+      }
+    },
+    {
+      "doc": "3-巯基-1-丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响",
+      "defects": 42,
+      "distinct": 6,
+      "top": {
+        "无终止符": 19,
+        "残留LaTeX": 8,
+        "花括号残留": 8,
+        "负号混用同篇": 5
+      }
+    },
+    {
+      "doc": "3.异靛蓝季铵盐的合成及其在电镀铜中的应用",
+      "defects": 70,
+      "distinct": 5,
+      "top": {
+        "无终止符": 32,
+        "残留LaTeX": 15,
+        "花括号残留": 15,
+        "混合连字符": 5
+      }
+    },
+    {
+      "doc": "4.喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用",
+      "defects": 105,
+      "distinct": 6,
+      "top": {
+        "无终止符": 49,
+        "残留LaTeX": 24,
+        "花括号残留": 24,
+        "混合连字符": 5
+      }
+    },
+    {
+      "doc": "5-炔基嘧啶作为钴超填充抑制剂的研究",
+      "defects": 104,
+      "distinct": 10,
+      "top": {
+        "无终止符": 34,
+        "残留LaTeX": 24,
+        "花括号残留": 21,
+        "负号混用同篇": 16
+      }
+    },
+    {
+      "doc": "5.聚(1,4-丁二醇二缩水甘油醚、2-甲基咪唑与咪唑)作为盲孔镀铜整平剂的研究",
+      "defects": 71,
+      "distinct": 7,
+      "top": {
+        "无终止符": 34,
+        "残留LaTeX": 14,
+        "花括号残留": 14,
+        "负号混用同篇": 6
+      }
+    },
+    {
+      "doc": "6.香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究",
+      "defects": 58,
+      "distinct": 5,
+      "top": {
+        "无终止符": 27,
+        "残留LaTeX": 13,
+        "花括号残留": 13,
+        "负号混用同篇": 4
+      }
+    },
+    {
+      "doc": "7.micromachines-16-00721",
+      "defects": 92,
+      "distinct": 6,
+      "top": {
+        "残留LaTeX": 28,
+        "花括号残留": 28,
+        "无终止符": 22,
+        "负号混用同篇": 9
+      }
+    },
+    {
+      "doc": "8.s12678-025-00960-8",
+      "defects": 38,
+      "distinct": 6,
+      "top": {
+        "无终止符": 24,
+        "上标丢失_单位幂": 5,
+        "负号混用同篇": 4,
+        "混合连字符": 2
+      }
+    },
+    {
+      "doc": "9molecules-28-02783",
+      "defects": 91,
+      "distinct": 7,
+      "top": {
+        "无终止符": 33,
+        "残留LaTeX": 19,
+        "花括号残留": 18,
+        "负号混用同篇": 16
+      }
+    },
+    {
+      "doc": "ao3c05248",
+      "defects": 87,
+      "distinct": 9,
+      "top": {
+        "无终止符": 29,
+        "负号混用同篇": 18,
+        "残留LaTeX": 16,
+        "花括号残留": 16
+      }
+    },
+    {
+      "doc": "ao4c01707",
+      "defects": 104,
+      "distinct": 11,
+      "top": {
+        "无终止符": 41,
+        "负号混用同篇": 19,
+        "残留LaTeX": 18,
+        "花括号残留": 18
+      }
+    },
+    {
+      "doc": "d4nj05470a",
+      "defects": 95,
+      "distinct": 7,
+      "top": {
+        "无终止符": 38,
+        "残留LaTeX": 23,
+        "花括号残留": 22,
+        "混合连字符": 8
+      }
+    },
+    {
+      "doc": "DMG（丁二酮肟）",
+      "defects": 62,
+      "distinct": 7,
+      "top": {
+        "无终止符": 24,
+        "残留LaTeX": 17,
+        "花括号残留": 17,
+        "邮箱": 1
+      }
+    },
+    {
+      "doc": "la6c01870",
+      "defects": 143,
+      "distinct": 10,
+      "top": {
+        "无终止符": 50,
+        "负号混用同篇": 33,
+        "残留LaTeX": 23,
+        "花括号残留": 21
+      }
+    },
+    {
+      "doc": "Mechanism of convection-dependence of leveller",
+      "defects": 73,
+      "distinct": 7,
+      "top": {
+        "无终止符": 38,
+        "残留LaTeX": 11,
+        "花括号残留": 11,
+        "负号混用同篇": 7
+      }
+    },
+    {
+      "doc": "Simultaneously filling process and mechanism o",
+      "defects": 56,
+      "distinct": 8,
+      "top": {
+        "无终止符": 35,
+        "残留LaTeX": 6,
+        "花括号残留": 6,
+        "负号混用同篇": 4
+      }
+    },
+    {
+      "doc": "《电化学会志》--含析氢反应抑制添加剂的超共形钴电沉积",
+      "defects": 58,
+      "distinct": 8,
+      "top": {
+        "无终止符": 24,
+        "残留LaTeX": 10,
+        "花括号残留": 10,
+        "负号混用同篇": 7
+      }
+    },
+    {
+      "doc": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川",
+      "defects": 642,
+      "distinct": 9,
+      "top": {
+        "混合连字符": 199,
+        "无终止符": 154,
+        "残留LaTeX": 142,
+        "花括号残留": 138
+      }
+    },
+    {
+      "doc": "先进芯片制造中的钴电镀互连技术综述",
+      "defects": 44,
+      "distinct": 5,
+      "top": {
+        "无终止符": 28,
+        "残留LaTeX": 6,
+        "花括号残留": 6,
+        "千分位逗号": 3
+      }
+    },
+    {
+      "doc": "六亚基四甲四胺",
+      "defects": 79,
+      "distinct": 5,
+      "top": {
+        "无终止符": 45,
+        "残留LaTeX": 12,
+        "花括号残留": 12,
+        "负号混用同篇": 8
+      }
+    },
+    {
+      "doc": "利用数据库-机械学习筛选可靠添加剂",
+      "defects": 60,
+      "distinct": 7,
+      "top": {
+        "无终止符": 34,
+        "残留LaTeX": 10,
+        "花括号残留": 10,
+        "混合连字符": 2
+      }
+    },
+    {
+      "doc": "利用牺牲氧化剂实现钴的超共形填充",
+      "defects": 41,
+      "distinct": 4,
+      "top": {
+        "无终止符": 15,
+        "残留LaTeX": 10,
+        "花括号残留": 10,
+        "混合连字符": 6
+      }
+    },
+    {
+      "doc": "孔雀石绿诱导-扩散-吸附作用下的钴超共形电沉积过程",
+      "defects": 85,
+      "distinct": 9,
+      "top": {
+        "无终止符": 25,
+        "残留LaTeX": 19,
+        "花括号残留": 19,
+        "负号混用同篇": 14
+      }
+    },
+    {
+      "doc": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响",
+      "defects": 106,
+      "distinct": 7,
+      "top": {
+        "残留LaTeX": 34,
+        "花括号残留": 34,
+        "无终止符": 30,
+        "负号混用同篇": 4
+      }
+    },
+    {
+      "doc": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究",
+      "defects": 85,
+      "distinct": 7,
+      "top": {
+        "无终止符": 36,
+        "残留LaTeX": 22,
+        "花括号残留": 22,
+        "负号混用同篇": 2
+      }
+    },
+    {
+      "doc": "无电镀钴综述",
+      "defects": 86,
+      "distinct": 6,
+      "top": {
+        "无终止符": 47,
+        "残留LaTeX": 18,
+        "花括号残留": 18,
+        "负号混用同篇": 1
+      }
+    },
+    {
+      "doc": "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制-加速效应",
+      "defects": 52,
+      "distinct": 6,
+      "top": {
+        "无终止符": 29,
+        "残留LaTeX": 10,
+        "花括号残留": 8,
+        "负号混用同篇": 3
+      }
+    },
+    {
+      "doc": "炔烃-聚乙二醇-4-胺抑制剂助力钴超填充",
+      "defects": 64,
+      "distinct": 6,
+      "top": {
+        "无终止符": 33,
+        "负号混用同篇": 11,
+        "残留LaTeX": 9,
+        "花括号残留": 9
+      }
+    },
+    {
+      "doc": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积",
+      "defects": 70,
+      "distinct": 7,
+      "top": {
+        "无终止符": 24,
+        "残留LaTeX": 16,
+        "花括号残留": 16,
+        "负号混用同篇": 6
+      }
+    },
+    {
+      "doc": "烟酸作为碱性钴化学机械抛光(CMP)新型缓蚀剂的实验与分子模拟研究",
+      "defects": 94,
+      "distinct": 6,
+      "top": {
+        "无终止符": 30,
+        "残留LaTeX": 29,
+        "花括号残留": 28,
+        "负号混用同篇": 5
+      }
+    },
+    {
+      "doc": "糖精对镀钴层结构、导电能力的改变",
+      "defects": 48,
+      "distinct": 5,
+      "top": {
+        "无终止符": 27,
+        "残留LaTeX": 9,
+        "花括号残留": 9,
+        "混合连字符": 2
+      }
+    },
+    {
+      "doc": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究",
+      "defects": 44,
+      "distinct": 5,
+      "top": {
+        "无终止符": 24,
+        "残留LaTeX": 9,
+        "花括号残留": 9,
+        "页眉式重复串": 1
+      }
+    },
+    {
+      "doc": "腺苷作为具有协同加速-抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "defects": 88,
+      "distinct": 5,
+      "top": {
+        "无终止符": 30,
+        "残留LaTeX": 24,
+        "花括号残留": 24,
+        "负号混用同篇": 7
+      }
+    },
+    {
+      "doc": "解码添加剂界面结构性能",
+      "defects": 54,
+      "distinct": 7,
+      "top": {
+        "无终止符": 15,
+        "残留LaTeX": 14,
+        "花括号残留": 14,
+        "负号混用同篇": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿Half-cell reactions,Reduction potential (V vs. SHE)
+Cu^2+ + e^- ↔ Cu^+,0.159 (Ref. [15])
+Cu^+ + e^- ↔ Cu,0.521 (Ref. [15])
+Cu^2+ + 2e^- ↔ Cu,0.340 (Ref. [15])
+Cu^2+ + MPS + e^- ↔ Cu(I)(thiolate) + H^+,0.367
+2Cu^+ + SPS + 2e^- ↔ 2Cu(I)(thiolate),0.361
+Cu(I)(thiolate) + H^+ + e^- ↔ Cu + MPS,0.313
+SPS + 2H^+ + 2e^- ↔ 2MPS,0.153

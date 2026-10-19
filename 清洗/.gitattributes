@@ -1,0 +1,7 @@
+# Preserve scientific file bytes and published SHA-256 across platforms.
+*.json -text whitespace=cr-at-eol
+*.jsonl -text whitespace=cr-at-eol
+*.csv -text whitespace=cr-at-eol
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

@@ -1,0 +1,4 @@
+﻿Electrolyte,VMS + PEG + SPS,VMS + PEG + SPS + SA
+Q_strip @200 r/min,404.54,268.31
+Q_strip @1200 r/min,409.67,207.87
+Δ Q/%,1.27 ± 0.04,22.53 ± 0.05

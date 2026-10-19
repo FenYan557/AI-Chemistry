@@ -1,0 +1,75 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "ased alloys and composite materials are also discussed. This review aims to guide t"
+      },
+      {
+        "value": "sse",
+        "context": "tained even in the sharp corners or intricate recesses of the substrate surface [2,"
+      },
+      {
+        "value": "sse",
+        "context": " layers [6, 7] for subsequent electroplating processes. The magnetic properties ofc"
+      },
+      {
+        "value": "sse",
+        "context": "ncy (US EPA) categorized Cr 6+ containing baths (essential for hard chrome plating)"
+      },
+      {
+        "value": "sse",
+        "context": "me plating) as unsuitable for environment and stressed on alternative approaches [1"
+      },
+      {
+        "value": "sse",
+        "context": " electroless metal deposition process can be expressed as:\nCathodic Reaction: Co ^2"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "Temperature\nElectroless deposition is possible at room temperature ( 2 5 - 4 0 ~ ^ ° C) [55, 74]"
+      },
+      {
+        "value": "room temperature",
+        "context": "particles from hydrazine-propylene glycol bath at room temperature [74]. Yagi et al. [89]produce"
+      },
+      {
+        "value": "room temperature",
+        "context": "s Co bath described by Balela et al. [18, 109] at room temperature causes tiny cobalt nanopartic"
+      },
+      {
+        "value": "350 °C",
+        "context": " Co-P to be 883 kg-f/mm 2 after heat treatment at 350 °C. Composite coating like Co-Si"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "o includes brief discussion on the development of Co-based alloys and composites s"
+      },
+      {
+        "value": "Co",
+        "context": "n process can be expressed as:\nCathodic Reaction: Co ^2++2e^- Co\n(2)\n2.1 Substrate"
+      },
+      {
+        "value": "Co",
+        "context": "n be expressed as:\nCathodic Reaction: Co ^2++2e^- Co\n(2)\n2.1 Substrate Pre-treatme"
+      },
+      {
+        "value": "Co",
+        "context": " the electroless cobalt deposition.\n3 Electroless Co Bath Composition\n3.1 Cobalt S"
+      },
+      {
+        "value": "Co",
+        "context": "t preferred sources of cobalt ions for depositing Co-based coatings. Deposition ra"
+      },
+      {
+        "value": "Co",
+        "context": "renner and Riddell reported that more than 0.17 M Co salt in the bath results in d"
+      }
+    ]
+  }
+}

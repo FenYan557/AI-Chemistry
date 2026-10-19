@@ -1,0 +1,296 @@
+{
+  "doc_id": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积",
+  "title": "Superconformal Electrodeposition of Cobalt into Micron-Scale Trench with Alkynol Derivatives",
+  "doi": "10.3390/ma18081747",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 15,
+  "printed_page_map": {},
+  "references": [
+    {
+      "n": 1,
+      "page": 13,
+      "raw": "1. Simon, A.; van der Straten, O.; Lanzillo, N.A.; Yang, C.-C.; Nogami, T.; Edelstein, D.C. Role of High Aspect-Ratio Thin-Film Metal Deposition in Cu Back-End-of-Line Technology. J. Vac. Sci. Technol. A 2020, 38, 053402. [CrossRef]"
+    },
+    {
+      "n": 2,
+      "page": 13,
+      "raw": "2. Edelstein, D.; Uzoh, C.; Cabral, C.; DeHaven, P.; Buchwalter, P.; Simon, A.; Cooney, E.; Malhotra, S.; Klaus, D.; Rathore, H.; et al. A High Performance Liner for Copper Damascene Interconnects. In Proceedings of the IEEE 2001 International Interconnect Technology Conference (Cat. No.01EX461), San Francisco, CA, USA, 4–6 June 2001; pp. 9–11."
+    },
+    {
+      "n": 3,
+      "page": 13,
+      "raw": "3. Kuo, C.-Y.; Zhu, J.-H.; Chiu, Y.-P.; Ni, I.-C.; Chen, M.-H.; Wu, Y.-R.; Wu, C.-I. Graphene-All-Around Cobalt Interconnect with a Back-End-of-Line Compatible Process. Nano Lett. 2024, 24, 2102–2109. [CrossRef] [PubMed]"
+    },
+    {
+      "n": 4,
+      "page": 13,
+      "raw": "4. Zhang, L.; Wang, T.; Xie, S.; Lu, X. The Role of Diethanolamine on Chemical Mechanical Polishing in Alkaline Glycine-Based Slurries for Cobalt Interconnects. ECS J. Solid State Sci. Technol. 2023, 12, 44006. [CrossRef]"
+    },
+    {
+      "n": 5,
+      "page": 13,
+      "raw": "5. Lanzillo, N.A.; Chu, A.; Bhosale, P.; Dechene, D. Power Delivery Design, Signal Routing, and Performance of On-Chip Cobalt Interconnects in Advanced Technology Nodes. IEEE Trans. Very Large Scale Integr. VLSI Syst. 2022, 30, 60–67. [CrossRef]"
+    },
+    {
+      "n": 6,
+      "page": 13,
+      "raw": "6. Wang, J.; Ke, D.; Tian, F.; Xiong, L.; Chen, H.; Li, M. Co Contamination of Si: Plating & Aging. Heliyon 2024, 10, e32530. [CrossRef]"
+    },
+    {
+      "n": 7,
+      "page": 13,
+      "raw": "7. Mont, F.W.; Zhang, X.; Wang, W.; Kelly, J.J.; Standaert, T.E.; Quon, R.; Ryan, E.T. Cobalt Interconnect on Same Copper Barrier Process Integration at the 7nm Node. In Proceedings of the 2017 IEEE International Interconnect Technology Conference (IITC), Hsinchu, Taiwan, 16–18 May 2017; IEEE: HsinChu, Taiwan, 2017."
+    },
+    {
+      "n": 8,
+      "page": 13,
+      "raw": "8. Fang, J.-S.; Su, T.-H.; Cheng, Y.-L.; Huang, C.-W.; Chen, G.-S. Influence of Trace Tungsten Contents on Thin-Film Properties and Electromigration Behaviors of Electroless-Deposited Cobalt Interconnect Lines. Mater. Res. Bull. 2025, 186, 113343. [CrossRef]"
+    },
+    {
+      "n": 9,
+      "page": 13,
+      "raw": "9. Fang, J.-S.; Lee, W.; Cheng, Y.-L.; Lin, C.-I.; Chen, G.-S. The Encaging of Cobalt Interconnect Lines with an Ordered Amino Based Self-Assembled Monolayer for Electromigration Mitigation Using an All-Wet Electroless Process. Thin Solid Films 2025, 815.140644, [CrossRef]"
+    },
+    {
+      "n": 10,
+      "page": 13,
+      "raw": "10. Kim, C.; Kang, G.; Jung, Y.; Kim, J.-Y.; Lee, G.-B.; Hong, D.; Lee, Y.; Hwang, S.-G.; Jung, I.-H.; Joo, Y.-C. Robust Co Alloy Design for Co Interconnects Using a Self-Forming Barrier Layer. Sci. Rep. 2022, 12, 12291. [CrossRef]"
+    },
+    {
+      "n": 11,
+      "page": 13,
+      "raw": "11. Zhou, G.; Sun, T.; Younas, R.; Hinkle, C.L. Materials and Device Strategies for Nanoelectronic 3D Heterogeneous Integration. In Proceedings of the 2021 International Conference on Simulation of Semiconductor Processes and Devices (SISPAD), Dallas, TX, USA, 27–29 September 2021; pp. 163–166."
+    },
+    {
+      "n": 12,
+      "page": 13,
+      "raw": "12. Ichou, H.; Arrousse, N.; Berdimurodov, E.; Aliev, N. Exploring the Advancements in Physical Vapor Deposition Coating: A Review. J. Bio Tribo Corros. 2023, 10, 3. [CrossRef]"
+    },
+    {
+      "n": 13,
+      "page": 13,
+      "raw": "13. He, Y.; Mao, S.; Xu, J.; Sun, X.; Gao, J.; Liu, W.; Liu, J.; Chen, X.; Li, J.; Wang, X.; et al. Effect of Carbon on the Formation of Cobalt Silicide and Thermal Stability for DRAM Application: A Comparative Study on PVD and CVD Methods. IEEE Trans. Electron Devices 2025, 72, 653–658. [CrossRef]"
+    },
+    {
+      "n": 14,
+      "page": 13,
+      "raw": "14. Hamilton, J.A.; Pugh, T.; Johnson, A.L.; Kingsley, A.J.; Richards, S.P. Cobalt(I) Olefin Complexes: Precursors for Metal–Organic Chemical Vapor Deposition of High Purity Cobalt Metal Thin Films. Inorg. Chem. 2016, 55, 7141–7151. [CrossRef] [PubMed]"
+    },
+    {
+      "n": 15,
+      "page": 14,
+      "raw": "15. Zhang, L.; Wang, T.; Wang, S.; Lu, X. The Role of Dipotassium Ethylenediaminetetraacetic Acid and Potassium Oleate on Chemical Mechanical Planarization Relevant to Heterogeneous Materials of Cobalt Interconnects. Mater. Sci. Semicond. Process. 2023, 160, 107410. [CrossRef]"
+    },
+    {
+      "n": 16,
+      "page": 14,
+      "raw": "16. Franz, M.; Jäckel, L.; Hu, X.; Kaßner, L.; Thurm, C.; Rittrich, D.; Helke, C.; Schuster, J.; Daniel, M.; Stahr, F.; et al. Low-Temperature ALD of Metallic Cobalt Using the CoCOhept Precursor: Simulation-Assisted Process Development for Deposition on Temperature Sensitive 3D-Structures. JVST A 2025, 43, 22412. [CrossRef]"
+    },
+    {
+      "n": 17,
+      "page": 14,
+      "raw": "17. Donnecke, S.; Paul, M.; Williams, P.J.H.; Chan, S.; Tse, V.; Sachdeva, J.; Oliver, A.G.; McIndoe, J.S.; Paci, I. Mechanistic Study of the Atomic Layer Deposition of Cobalt: A Combined Mass Spectrometric and Computational Approach. Phys. Chem. Chem. Phys. 2024, 26, 14448–14455. [CrossRef]"
+    },
+    {
+      "n": 18,
+      "page": 14,
+      "raw": "18. Breeden, M.; Wang, V.; Spiegelman, J.; Anurag, A.; Wolf, S.F.; Moser, D.; Kanjolia, R.K.; Moinpour, M.; Woodruff, J.; Nemani, S.; et al. Proximity Effects of the Selective Atomic Layer Deposition of Cobalt on the Nanoscale: Implications for Interconnects. ACS Appl. Nano Mater. 2021, 4, 8447–8454. [CrossRef]"
+    },
+    {
+      "n": 19,
+      "page": 14,
+      "raw": "19. Zhang, Y.; Yuan, B.; Li, L.; Wang, C. Edge Electrodeposition Effect of Cobalt Under an External Magnetic Field. J. Electroanal. Chem. 2020, 865, 114143. [CrossRef]"
+    },
+    {
+      "n": 20,
+      "page": 14,
+      "raw": "20. Pan, B.; Yao, Y.; Peng, L.; Zhang, Q.; Yang, Y. Ultrasound-Assisted Pulse Electrodeposition of Cobalt Films. Mater. Chem. Phys. 2020, 241, 122395. [CrossRef]"
+    },
+    {
+      "n": 21,
+      "page": 14,
+      "raw": "21. Jin, L.; Lv, Y.-J.; Ran, T.-T.; He, D.; Yang, F.-Z. Molecular Structure with Adsorption Behavior of Butynediol and Its Effects on Cobalt Electrodeposition. Mater. Today Commun. 2025, 45, 112225. [CrossRef]"
+    },
+    {
+      "n": 22,
+      "page": 14,
+      "raw": "22. Brogan, L.J.; Liu, Y.; Huie, M.M.; Reid, J.D.; Kelly, J.; Shobha, H.k.; Huang, H.; Motoyama, K.; Hu, C. Improved Copper Damascene Wires Using Direct Plate on Cobalt Process. ECS Meet. Abstr. 2019, MA2019-01, 1055. [CrossRef]"
+    },
+    {
+      "n": 23,
+      "page": 14,
+      "raw": "23. Proust, M.; Judong, F.; Gilet, J.M.; Liauzu, L.; Madar, R. CVD and PVD Copper Integration for Dual Damascene Metallization in a 0.18 Mm Process. Microelectron. Eng. 2001, 55, 269–275. [CrossRef]"
+    },
+    {
+      "n": 24,
+      "page": 14,
+      "raw": "24. Vorobyova, M.; Biffoli, F.; Giurlani, W.; Martinuzzi, S.M.; Linser, M.; Caneschi, A.; Innocenti, M. PVD for Decorative Applications: A Review. Materials 2023, 16, 4919. [CrossRef] [PubMed]"
+    },
+    {
+      "n": 25,
+      "page": 14,
+      "raw": "25. Wang, P.; Shao, Y.-H.; Ni, Z.-H.; Hu, C.-F.; Qu, X.-P. Low-Temperature Copper–Copper Quasi-Direct Bonding with Cobalt Passivation Layer. AIP Adv. 2022, 12, 115101. [CrossRef]"
+    },
+    {
+      "n": 26,
+      "page": 14,
+      "raw": "26. Jeong, B.H.; Kim, D.W.; Lee, S.Y.; Kim, D.S.; Lee, S.H.; Lee, S.H.; Uematsu, M.; Kokaze, Y.; Taura, Y.; Harada, M.; et al. Enhancing Cu Interconnect Reflow in Back-End-of-Line Metal Wiring with Ultrathin Co Liners. Jpn. J. Appl. Phys. 2025, 64, 11002. [CrossRef]"
+    },
+    {
+      "n": 27,
+      "page": 14,
+      "raw": "27. Zanders, D.; Liu, J.; Obenlüneschloß, J.; Bock, C.; Rogalla, D.; Mai, L.; Nolan, M.; Barry, S.T.; Devi, A. Cobalt Metal ALD: Understanding the Mechanism and Role of Zinc Alkyl Precursors as Reductants for Low-Resistivity Co Thin Films. Chem. Mater. 2021, 33, 5045–5057. [CrossRef]"
+    },
+    {
+      "n": 28,
+      "page": 14,
+      "raw": "28. Wei, C.-C.; Chou, E.; Shih, S.; Lin, S.-M. Bottom-up Filling of Damascene Trenches with Cobalt By Electroplating Process. Meet. Abstr. 2015, MA2015-02, 949. [CrossRef]"
+    },
+    {
+      "n": 29,
+      "page": 14,
+      "raw": "29. Shen, Y.; Guo, J.; Wang, L.; Han, H.; Ma, Y.; Xin, B.; Wang, Z. Acceleration Mechanism of Triethanolamine in Electroless Bath for Pure Cobalt Deposition. J. Electrochem. Soc. 2023, 170, 112503. [CrossRef]"
+    },
+    {
+      "n": 30,
+      "page": 14,
+      "raw": "30. Guo, L.; Li, S.; He, Z.; Fu, Y.; Qiu, F.; Liu, R.; Yang, G. Electroplated Copper Additives for Advanced Packaging: A Review. ACS Omega 2024, 9, 20637–20647. [CrossRef]"
+    },
+    {
+      "n": 31,
+      "page": 14,
+      "raw": "31. Zhang, M.; Chang, P.; Chen, P.; Hang, T.; Li, M.; Wu, Y. Super-Flat and Uni-Oriented Cobalt Film Electrodeposited by Modulating the Crystal Nucleation and Growth Behavior. Appl. Surf. Sci. 2024, 645, 158795. [CrossRef]"
+    },
+    {
+      "n": 32,
+      "page": 14,
+      "raw": "32. Rigsby, M.A.; Spurlin, T.A.; Reid, J.D. Alternative Metals for Advanced Interconnects: Cobalt and Beyond. Meet. Abstr. 2021, MA2021-01, 936. [CrossRef]"
+    },
+    {
+      "n": 33,
+      "page": 14,
+      "raw": "33. Josell, D.; Wheeler, D.; Moffat, T.P. Modeling Extreme Bottom-Up Filling of Through Silicon Vias. J. Electrochem. Soc. 2012, 159, D570. [CrossRef]"
+    },
+    {
+      "n": 34,
+      "page": 14,
+      "raw": "34. Yang, L.; Radisic, A.; Deconinck, J.; Vereecken, P.M. Modeling the Bottom-Up Filling of Through-Silicon Vias through Suppressor Adsorption/Desorption Mechanism. J. Electrochem. Soc. 2013, 160, D3051. [CrossRef]"
+    },
+    {
+      "n": 35,
+      "page": 14,
+      "raw": "35. Josell, D.; Moffat, T.P. Superconformal Copper Deposition in Through Silicon Vias by Suppression-Breakdown. J. Electrochem. Soc 2018, 165, D23. [CrossRef]"
+    },
+    {
+      "n": 36,
+      "page": 14,
+      "raw": "36. Josell, D.; Moffat, T.P. Extreme Bottom-Up Filling of through Silicon Vias and Damascene Trenches with Gold in a Sulfite Electrolyte. J. Electrochem. Soc. 2013, 160, D3035. [CrossRef]"
+    },
+    {
+      "n": 37,
+      "page": 14,
+      "raw": "37. Josell, D.; Moffat, T.P. Superconformal Bottom-Up Nickel Deposition in High Aspect Ratio through Silicon Vias. J. Electrochem. Soc. 2016, 163, D322."
+    },
+    {
+      "n": 38,
+      "page": 14,
+      "raw": "38. Josell, D.; Silva, M.; Moffat, T.P. Superconformal Bottom-Up Cobalt Deposition in High Aspect Ratio Through Silicon Vias. ECS Trans. 2016, 75, 25–30. [CrossRef]"
+    },
+    {
+      "n": 39,
+      "page": 14,
+      "raw": "39. Josell, D.; Moffat, T.P. Bottom-Up Electrodeposition of Zinc in through Silicon Vias. J. Electrochem. Soc. 2015, 162, D129. [CrossRef]"
+    },
+    {
+      "n": 40,
+      "page": 15,
+      "raw": "40. Rigsby, M.; Brogan, L.; Doubina, N.; Spurlin, T.; Zhou, J.; Reid, J. Superconformal Cobalt Fill Through the Use of Sacrificial Oxidants. Meet. Abstr. 2017, MA2017-02, 931. [CrossRef]"
+    },
+    {
+      "n": 41,
+      "page": 15,
+      "raw": "41. Rigsby, M.A.; Brogan, L.J.; Doubina, N.V.; Liu, Y.; Opocensky, E.C.; Spurlin, T.A.; Zhou, J.; Reid, J.D. The Critical Role of pH Gradient Formation in Driving Superconformal Cobalt Deposition. J. Electrochem. Soc. 2019, 166, D3167–D3174. [CrossRef]"
+    },
+    {
+      "n": 42,
+      "page": 15,
+      "raw": "42. Wu, J.; Wafula, F.; Branagan, S.; Suzuki, H.; Van Eisden, J. Mechanism of Cobalt Bottom-Up Filling for Advanced Node Interconnect Metallization. J. Electrochem. Soc. 2019, 166, D3136–D3141. [CrossRef]"
+    },
+    {
+      "n": 43,
+      "page": 15,
+      "raw": "43. Kiruba, M. Butynediol’s Role Beyond Brightening Additive During Electrodeposition of Cobalt. J. Electrochem. Soc. 2022, 169, 032507. [CrossRef]"
+    },
+    {
+      "n": 44,
+      "page": 15,
+      "raw": "44. Kiruba, M.; Jeyabharathi, C. Discerning the Oscillatory Electrochemical Response During Electrodeposition of Cobalt in the Presence of But-2-Yne-1,4-Diol. J. Solid State Electrochem. 2020, 24, 2997–3002. [CrossRef]"
+    },
+    {
+      "n": 45,
+      "page": 15,
+      "raw": "45. Wu, Y.; Ju, S.; Li, F.; Zhang, M.; Ren, X.; Li, M. Tailoring Crystalline Orientation of Electrodeposited Cobalt by Alkynol Additives. Electrochim. Acta 2024, 497, 144593. [CrossRef]"
+    },
+    {
+      "n": 46,
+      "page": 15,
+      "raw": "46. Pan, B.; Zhang, Q.; Liu, Z.; Yang, Y. Influence of Butynediol and Tetrabutylammonium Bromide on the Morphology and Structure of Electrodeposited Cobalt in the Presence of Saccharin. Mater. Chem. Phys. 2019, 228, 37–44. [CrossRef]"
+    },
+    {
+      "n": 47,
+      "page": 15,
+      "raw": "47. Lu, T. A Comprehensive Electron Wavefunction Analysis Toolbox for Chemists, Multiwfn. J. Chem. Phys. 2024, 161, 082503. [CrossRef]"
+    },
+    {
+      "n": 48,
+      "page": 15,
+      "raw": "48. Lu, T.; Chen, F. Multiwfn: A Multifunctional Wavefunction Analyzer. J. Comput. Chem. 2012, 33, 580–592. [CrossRef]"
+    },
+    {
+      "n": 49,
+      "page": 15,
+      "raw": "49. Borji, F.; Pour, A.N.; Karimi, J.; Izadyar, M.; Keyvanloo, Z.; Hashemian, M. The Molecular Adsorption of Carbon Monoxide on Cobalt Surfaces: A Dft Study. Prog. React. Kinet. Mech. 2017, 42, 89–98. [CrossRef]"
+    },
+    {
+      "n": 50,
+      "page": 15,
+      "raw": "50. Bai, X.; Duan, Z.; Nan, B.; Wang, L.; Tang, T.; Guan, J. Unveiling the Active Sites of Ultrathin Co-Fe Layered Double Hydroxides for the Oxygen Evolution Reaction. Chin. J. Catal. 2022, 43, 2240–2248. [CrossRef]"
+    },
+    {
+      "n": 51,
+      "page": 15,
+      "raw": "51. Yang, X.; Zhou, Q.; Wei, S.; Guo, X.; Chimtali, P.J.; Xu, W.; Chen, S.; Cao, Y.; Zhang, P.; Zhu, K.; et al. Anion Additive Integrated Electric Double Layer and Solvation Shell for Aqueous Zinc Ion Battery. Small Methods 2024, 8, 2301115. [CrossRef]"
+    },
+    {
+      "n": 52,
+      "page": 15,
+      "raw": "52. Freitas, M.B.J.G.; Garcia, E.M. Electrochemical Recycling of Cobalt from Cathodes of Spent Lithium-Ion Batteries. J. Power Sources 2007, 171, 953–959. [CrossRef]"
+    },
+    {
+      "n": 53,
+      "page": 15,
+      "raw": "53. Hamuli´c, D.; Milošev, I.; Lützenkirchen-Hecht, D. The Effect of the Deposition Conditions on the Structure, Composition and Morphology of Electrodeposited Cobalt Materials. Thin Solid Films 2018, 667, 11–20. [CrossRef]"
+    },
+    {
+      "n": 54,
+      "page": 15,
+      "raw": "54. Kang, J.; Sung, M.; Byun, J.; Kwon, O.J.; Kim, J.J. Proton Sensitive Additive for Cobalt Electrodeposition. J. Electrochem. Soc. 2020, 167, 122510. [CrossRef]"
+    },
+    {
+      "n": 55,
+      "page": 15,
+      "raw": "55. Wang, X.; Shi, G.; Shi, F.-N.; Xu, G.; Qi, Y.; Li, D.; Zhang, Z.; Zhang, Y.; You, H. Synthesis of Hierarchical Cobalt Dendrites Based on Nanoflake Self-Assembly and Their Microwave Absorption Properties. RSC Adv. 2016, 6, 40844–40853. [CrossRef]"
+    },
+    {
+      "n": 56,
+      "page": 15,
+      "raw": "56. Doubina, N.V.; Spurlin, T.A.; Opocensky, E.C.; Reid, J.D. The Effect of Thermal Annealing on Cobalt Film Properties and Grain Structure. MRS Adv. 2020, 5, 1919–1927. [CrossRef]"
+    },
+    {
+      "n": 57,
+      "page": 15,
+      "raw": "57. Bron, M.; Holze, R. Spectroelectrochemical Investigation of the Adsorption and Oxidation of Unsaturated C4-Alcohols. Surf. Sci. 2000, 457, 178–184. [CrossRef]"
+    }
+  ]
+}

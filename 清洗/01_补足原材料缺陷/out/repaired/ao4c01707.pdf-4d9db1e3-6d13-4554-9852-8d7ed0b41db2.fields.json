@@ -1,0 +1,63 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "s as a core technology in advanced packaging processes, facilitating the realizatio"
+      },
+      {
+        "value": "sse",
+        "context": "each of conventional multilayer boards. This addresses the ongoing need in modern e"
+      },
+      {
+        "value": "sse",
+        "context": "nic component manufacturing and complete machine assembly industries. Its crucial s"
+      },
+      {
+        "value": "sse",
+        "context": " metal deposition. Compared to the other two processes, electrolytic plating is mor"
+      },
+      {
+        "value": "sse",
+        "context": "ectroplated copper for gap filling has become an essential technology. It is widely"
+      },
+      {
+        "value": "sse",
+        "context": "have emerged. Each electroplating copper system possesses distinct characteristics,"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "t. Additionally, electrolytic plating operates at room temperature and atmospheric pressure, fea"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": " reaction of copper ions is\nWhen the reduction of Cu ^ 2 + is incomplete, partiall"
+      },
+      {
+        "value": "Cu",
+        "context": "olution and suppresses the hydrolysis reaction of Cu ^ 2 + with OH − in water. The"
+      },
+      {
+        "value": "Cu",
+        "context": "ces depolarization, lowering the overpotential of Cu ^ 2 + and accelerating the de"
+      },
+      {
+        "value": "Cu",
+        "context": "al of the copper cathode, forms complex ions with Cu+, and accelerates the electro"
+      },
+      {
+        "value": "Cu",
+        "context": "e of copper deposition by controlling the step of Cu ^ + generation, thereby exped"
+      },
+      {
+        "value": "Cu",
+        "context": "rdona et al. ^ 2 4 pointed out through NMR that a Cu(I)-sulfonate complex is forme"
+      }
+    ]
+  }
+}

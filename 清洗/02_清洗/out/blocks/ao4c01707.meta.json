@@ -1,0 +1,218 @@
+{
+  "doc_id": "ao4c01707",
+  "title": "Electroplated Copper Additives for Advanced Packaging: A Review",
+  "doi": "10.1021/acsomega.4c01707",
+  "journal": "ACS Omega",
+  "year": "2024",
+  "pages": 11,
+  "printed_page_map": {
+    "1": 20637,
+    "2": 20638,
+    "3": 20639,
+    "4": 20640,
+    "5": 20641,
+    "6": 20642,
+    "7": 20643,
+    "8": 20644,
+    "9": 20645,
+    "10": 20646,
+    "11": 20647
+  },
+  "references": [
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(1) Wang, Y.; Zhang, X. Microelectronics technology in the 21st century. World Sci-Tech R & D 1999, No. 4, 4−11."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(2) Morand, Y. Copper Metallization for Advanced IC: Requirements and Technological Solutions. Microelectron. Eng. 2000, 50 (1), 391− 401."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(3) Gonella, R. Key Reliability Issues for Copper Integration in Damascene Architecture. Microelectron. Eng. 2001, 55 (1), 245−255."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(4) Focsa, A.; Blanc, D.; Poulain, G.; Barbos, C.; Gauthier, M.; Le Quang, N.; Lemiti, M. Copper Light-Induced Plating Contacts with Ni Seed-Layer for Mc-Si Solar Cells after Laser Ablation ofSiNx:H. Energy Procedia 2013, 38, 713−719."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(5) Liao, Y.; Zhang, S.; Dryfe, R. Electroless Copper Plating Using Dimethylamine Borane as Reductant. Particuology 2012, 10 (4), 487− 491."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(6) Li, M. G.; Wei, G. Y.; Li, M.; et al. Effect of HEDP on copper electroplating from non-cyanide alkaline baths [J]. Surface Engineering 2014, 30 (10), 728−734."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(7) Correia, A. N.; Façanha, M. X.; de Lima-Neto, P. Cu−Sn Coatings Obtained from Pyrophosphate-Based Electrolytes. Surf. Coat. Technol. 2007, 201 (16), 7216−7221."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(8) Yin, T.; Wu, R.; Leng, Z.; Du, G.; Guo, X.; Zhang, M.; Zhang, J. The Process of Electroplating with Cu on the Surface of Mg−Li Alloy. Surf. Coat. Technol. 2013, 225, 119−125."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(9) Chen, T.-C.; Tsai, Y.-L.; Hsu, C.-F.; Dow, W.-P.; Hashimoto, Y. Effects of Brighteners in a Copper Plating Bath on Throwing Power and Thermal Reliability of Plated Through Holes. Electrochim. Acta 2016, 212, 572−582."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(10) Lefebvre, M.; Allardyce, G.; Seita, M.; Tsuchida, H.; Kusaka, M.; Hayashi, S. Copper Electroplating Technology for Microvia Filling. Circuit World 2003, 29 (2), 9−14."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(11) Mattsson, E.; Bockris, J. O. Galvanostatic Studies of the Kinetics of Deposition and Dissolution in the Copper + Copper Sulphate System. Trans. Faraday Soc. 1959, 55 (0), 1586−1601."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(12) Liao, C. Research on levelers for filling electroplated copper microvias in printed circuit board industry. M.S. thesis; Chongqing University, 2021. DOI: 10.27670/d.cnki.gcqdu.2019.001847."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(13) Lin, J.; Wu, M. Technology and Development of Copper Plating for PCB. Printed Circuit Information 2009, No. 12, 27−32."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(14) Tsai, W.-C.; Wan, C.-C.; Wang, Y.-Y. Frequency Effect of Pulse Plating on the Uniformity of Copper Deposition in Plated Through Holes. J. Electrochem. Soc. 2003, 150 (5), C267."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(15) Liu, X. Synthesis and Application of Acidic Copper Plating Leveling Agent for Printed Circuit Boards. M.S. thesis; Central South University, 2010. https://kns.cnki.net/KCMS/detail/detail. aspx?dbcode=CMFD&dbname=CMFD2010&filename=2009240471. nh&v= (accessed 2024-02-19)."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(16) Huang, S.-M.; Liu, C.-W.; Dow, W.-P. Effect of Convection-Dependent Adsorption of Additives on Microvia Filling in an Acidic Copper Plating Solution. J. Electrochem. Soc. 2012, 159 (3), D135."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(17) Moffat, T. P.; Wheeler, D.; Kim, S.-K.; Josell, D. Curvature Enhanced Adsorbate Coverage Model for Electrodeposition. J. Electrochem. Soc. 2006, 153 (2), C127."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(18) Ho, C. E.; Liao, C. W.; Pan, C. X.; Chen, H. J.; Kuo, J. C.; Chen, D. Electron Backscatter Diffraction Analysis on the Microstructures of Electrolytic Cu Deposition in the through Hole Filling Process. Thin Solid Films 2013, 544, 412−418."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(19) Ho, C. E.; Hsieh, W. Z.; Chen, C. C.; Lu, M. K. Electron Backscatter Diffraction Analysis on the Microstructures of Electrolytic Cu Deposition in the through Hole Filling Process: Butterfly Deposition Mode, Surf, Coat. Technol, 2014.259.262-267."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(20) Li, Z.; Tan, B.; Luo, J.; Qin, J.; Yang, G.; Cui, C.; Pan, L. Structural Influence of Nitrogen-Containing Groups on Triphenylmethane-Based Levelers in Super-Conformal Copper Electroplating. Electrochim. Acta 2022, 401, 139445."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(21) Dow, W.-P.; Huang, H.-S. Roles of Chloride Ion in Microvia Filling by Copper Electrodeposition: I. Studies Using SEM and Optical Microscope. J. Electrochem. Soc. 2005, 152 (2), C67."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(22) Feng, Z. V.; Li, X.; Gewirth, A. A. Inhibition Due to the Interaction of Polyethylene Glycol, Chloride, and Copper in Plating Baths: A Surface-Enhanced Raman Study. J. Phys. Chem. B 2003, 107 (35), 9415−9423."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(23) Choe, S.; Kim, M. J.; Kim, H. C.; Cho, S. K.; Ahn, S. H.; Kim, S.- K.; Kim, J. J. Degradation of Bis(3-Sulfopropyl) Disulfide and Its Influence on Copper Electrodeposition for Feature Filling. J. Electro chem. Soc. 2013, 160 (12), D3179."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(24) Garcia-Cardona, E.; Wong, E. H.; Barkey, D. P. NMR Spectral Studies of Interactions Between the Accelerants SPS and MPS and Copper Chlorides. J. Electrochem. Soc. 2011, 158 (3), D143."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(25) Schmitt, K. G.; Schmidt, R.; Gaida, J.; Gewirth, A. A. Chain Length Variation to Probe the Mechanism of Accelerator Additives in Copper Electrodeposition. Phys. Chem. Chem. Phys. 2019, 21 (30), 16838-16847."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(26) Lan, L.; Wang, C.; Wang, P.; Ming, X.; Zhu, Y.; Huang, Q.; He, W.; Zhou, G. Application Research of a Novel Accelerator MA for Acid Copper Electroplating. Electroplating and Finishing 2023, 45 (12), 64− 70."
+    },
+    {
+      "n": null,
+      "page": 10,
+      "raw": "(27) Wei, H.; Tan, T.; Liu, R.; Guo, L.; Tao, C.; Qin, X. Prediction and Effect Verification of Thiamine as a Leveling Agent in Chip Wafer Electroplating. ACS Omega 2023, 8 (48), 45495−45501."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(28) Chang, C.; Lu, X.; Lei, Z.; Wang, Z.; Zhao, C. 2- Mercaptopyridine as a New Leveler for Bottom-up Filling of Micro Vias in Copper Electroplating. Electrochim. Acta 2016, 208, 33−38."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(29) Liao, C.; Zhang, S.; Chen, S.; Qiang, Y.; Liu, G.; Tang, M.; Tan, B.; Fu, D.; Xu, Y. The Effect of Tricyclazole as a Novel Leveler for Filling Electroplated Copper Microvias. J. Electroanal. Chem. 2018, 827, 151−159."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(30) Li, J.; Zhou, G.; Hong, Y.; Wang, C.; He, W.; Wang, S.; Chen, Y.; Wen, Z.; Wang, Q. Copolymer of Pyrrole and 1,4-Butanediol Diglycidyl as an Efficient Additive Leveler for Through-Hole Copper Electroplating. ACS Omega 2020, 5 (10), 4868−4874."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(31) Zheng, L.; He, W.; Zhu, K.; Wang, C.; Wang, S.; Hong, Y.; Chen, Y.; Zhou, G.; Miao, H.; Zhou, J. Investigation of poly (1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole[J]. Electrochim. Acta 2018, 283, 560−567."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(32) Chen, H.-M.; Parulekar, S. J.; Zdunek, A. Interactions of Chloride and 3-Mercapto-1-Propanesulfonic Acid in Acidic Copper Sulfate Electrolyte. J. Electrochem. Soc. 2008, 155 (5), D349."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(33) Wang, W.; Li, Y.-B. Effect of Cl − on the Adsorption−Desorption Behavior of PEG. J. Electrochem. Soc. 2008, 155 (4), D263."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(34) Li, W. H.; Wang, Y.; Ye, J. H.; Li, S. F. Y. In Situ STM Study of Chloride Adsorption on Cu(110) Electrode in Hydrochloric Acid Aqueous Solution. J. Phys. Chem. B 2001, 105 (9), 1829−1833."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(35) Moffat, T. P.; Wheeler, D.; Kim, S.-K.; Josell, D. Curvature Enhanced Adsorbate Coverage Mechanism for Bottom-up Superfilling and Bump Control in Damascene Processing. Electrochim. Acta 2007, 53 (1), 145−154."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(36) Dow, W.-P.; Li, C.-C.; Lin, M.-W.; Su, G.-W.; Huang, C.-C. Copper Fill of Microvia Using a Thiol-Modified Cu Seed Layer and Various Levelers. J. Electrochem. Soc. 2009, 156 (8), D314."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(37) Bandas, C. D.; Rooney, R. T.; Kirbs, A.; Jäger, C.; Schmidt, R.; Gewirth, A. A. Interfacial Leveler-Accelerator Interactions in Cu Electrodeposition. J. Electrochem. Soc. 2021, 168 (4), 042501."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(38) Zhao, J.; Cui, G. Study on Adsorption and Complexation Behavior of Thiourea on Copper Surface. Int. J. Electrochem. Sci. 2011, 6 (9), 4048−4058."
+    },
+    {
+      "n": null,
+      "page": 11,
+      "raw": "(39) Bandas, C.; Rooney, R.; Kirbs, A.; et al. Interfacial Leveler-Accelerator Interactions in Cu Electrodeposition[J]. J. Electrochem. Soc. 2021, 168, 042501."
+    }
+  ]
+}

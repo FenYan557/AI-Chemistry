@@ -1,0 +1,278 @@
+{
+  "doc_id": "1_s2_0_S1572665722004489_main",
+  "title": "The synergistic effects of additives on the micro vias copper filling",
+  "doi": "10.1016/j.jelechem.2022.116456",
+  "journal": "Journal of Electroanalytical Chemistry",
+  "year": "2022",
+  "pages": 12,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 11,
+      "raw": "[1] C. Chang, X. Lu, Z. Lei, Z. Wang, C. Zhao, 2-Mercaptopyridine as a new leveler for bottom-up fi lling of micro-vias in copper electroplating, Electrochim. Acta 208 (2016) 33 38, https://doi.org/10.1016/j.electacta.2016.04.177."
+    },
+    {
+      "n": 2,
+      "page": 11,
+      "raw": "[2] B. Chen, J. Xu, L. Wang, L. Song, S. Wu, Synthesis of quaternary ammonium salts based on diketopyrrolopyrroles skeletons and their applications in copper electroplating, ACS. Appl. Mater, Interfaces 9 (8) (2017) 7793 7803, https:/ doi.org/10.1021/acsami.6b1540010.1021/acsami.6b15400.s001."
+    },
+    {
+      "n": 3,
+      "page": 11,
+      "raw": "[3] Z. Chen, Y. Peng, H. Cheng, Z. Yang, M. Chen, Void-free and high-speed fi lling of through ceramic holes by copper electroplating, Microelectron. Reliab. 75 (2017) 171 177."
+    },
+    {
+      "n": 4,
+      "page": 11,
+      "raw": "[4] S.K. Cho, M.J. Kim, H.-C. Koo, O.J. Kwon, J.J. Kim, Low-resistivity Cu fi lm electrodeposited with 3-N, N-dimethylaminodithiocarbamoyl-1-propanesulfonate for the application to the interconnection of electronic devices, Thin Solid Films 520 (2012) 2136–2141."
+    },
+    {
+      "n": 5,
+      "page": 11,
+      "raw": "[5] A. Chrzanowska, R. Mroczka, M. Florek, Effect of interaction between dodecyltrimethylammonium chloride (DTAC) and bis(3-sulphopropyl) disulphide (SPS) on the morphology of electrodeposited copper, Electrochim. Acta 106 (2013 49–62."
+    },
+    {
+      "n": 6,
+      "page": 11,
+      "raw": "[6] Y. Dai, M. Zhang, F. Qin, P. Chen, T. An, Effect of silicon anisotropy on interfacial fracture for three dimensional through-silicon-via (TSV) under thermal loading, Eng, Fract, Mech, 209 (2019) 274–300."
+    },
+    {
+      "n": 7,
+      "page": 11,
+      "raw": "[7] C.E. Ho, C.C. Chen, L.H. Hsu, M.K. Lu, Electron backscatter diffraction characterization of electrolytic Cu deposition in the blind-hole structure: Curren density effect. Thin Solid Films 584 (2015) 78-84"
+    },
+    {
+      "n": 8,
+      "page": 11,
+      "raw": "[8] T.D.A. Jones, A. Bernassau, D. Flynn, D. Price, M. Beadel, M.P.Y. Desmulliez, Copper electroplating of PCB interconnects using megasonic acoustic streaming Ultrason, Sonochem, 42 (2018) 434–444"
+    },
+    {
+      "n": 9,
+      "page": 11,
+      "raw": "[9] C.-Y. Lee, P.-C. Lin, C.-H. Yang, C.-E. Ho, Signi fi cantly improving the etching characteristics of electroplated Cu fi lms through microstructure modi fi cation, Surf. Coat. Technol. 386 (2020) 125471, https://doi.org/10.1016/ j.surfcoat.2020.125471"
+    },
+    {
+      "n": 10,
+      "page": 12,
+      "raw": "[10] H.-B. Lee, K.-L. Chen, J.-W. Su, C.-Y. Lee, The use of surfactants and supercritical CO assisted processes in the electroless nickel plating of printed circuit board with blind via, Mater. Chem. Phys. 241 (2020) 122418, https://doi.org/10.1016 j.matchemphys.2019.122418."
+    },
+    {
+      "n": 11,
+      "page": 12,
+      "raw": "[11] Z. Tao, W. He, S. Wang, X. He, C. Jiao, D. Xiao, Synergistic effect of different additives on microvia fi lling in an acidic copper plating solution, J. Electrochem. Soc. 163 (8) (2016) D379–D384."
+    },
+    {
+      "n": 12,
+      "page": 12,
+      "raw": "[12] Z. Lei, L. Chen, W. Wang, Z. Wang, C. Zhao, Tetrazole derived levelers for fi lling electroplated Cu microvias: electrochemical behaviors and quantum calculations, Electrochim. Acta 178 (2015) 546–554."
+    },
+    {
+      "n": 13,
+      "page": 12,
+      "raw": "[13] J. Li, J. Xu, X. Wang, X. Wei, J. Lv, L. Wang, Novel 2,5-bis(6-(trimethylamonium) hexyl)-3,6-diaryl-1,4-diketopyrrolo[3,4-c]pyrrole pigments as levelers for ef fi cient electroplating applications, Dyes Pigm. 186 (2021) 109064, https://doi.org/ 10.1016/j.dyepig.2020.109064."
+    },
+    {
+      "n": 14,
+      "page": 12,
+      "raw": "[14] C. Liao, S. Zhang, S. Chen, Y. Qiang, G. Liu, M. Tang, B. Tan, D. Fu, Y. Xu, The effect of tricyclazole as a novel leveler for fi lling electroplated copper microvias, J. Electroanal. Chem. 827 (2018) 151–159."
+    },
+    {
+      "n": 15,
+      "page": 12,
+      "raw": "[15] C.-C. Lin, C.-C. Hu, Y.-T. Lu, R.-H. Guo, Reconsider the depolarization behavior of copper electrodeposition in the presence of 3-mercapto-1-propanesulfonate, Electrochem. Commun. 91 (2018) 75–78."
+    },
+    {
+      "n": 16,
+      "page": 12,
+      "raw": "[16] E.R. Mamleyev, F. Falk, P.G. Weidler, S. Heissler, S. Wadhwa, O. Nassar, C.N. Shyam Kumar, C. Kubel, C. Woll, M. Islam, D. Mager, J.G. Korvink, Polyaramidbased fl exible antibacterial coatings fabricated using laser-induced carbonization and copper electroplating, ACS Appl. Mater. Interfaces 12 (2020) 53193–53205."
+    },
+    {
+      "n": 17,
+      "page": 12,
+      "raw": "[17] R. Manu, S. Jayakrishnan, Effect of organic dye on copper metallization of high aspect ratio through hole for interconnect application, Mater. Chem. Phys. 135 (2012) 425–432."
+    },
+    {
+      "n": 18,
+      "page": 12,
+      "raw": "[18] J.-H. Moon, J. Shin, T.-H. Kim, DongHoon Song, EunAe Cho, Improving accuracy of fi lling performance prediction in microvia copper electroplating, J. Electroanal. Chem. 871 (2020) 114318, https://doi.org/10.1016/j.jelechem.2020.114318."
+    },
+    {
+      "n": 19,
+      "page": 12,
+      "raw": "[19] H. Shen, H.C. Kim, M. Sung, T. Lim, J.J. Kim, Thermodynamic aspects of bis(3- sulfopropyl) disul fi de and 3-mercapto-1-propanesulfonic acid in Cu electrodeposition, J. Electroanal. Chem. 816 (2018) 132–137."
+    },
+    {
+      "n": 20,
+      "page": 12,
+      "raw": "[20] MinJae Sung, S.-H. Kim, H.-J. Lee, T. Lim, J.J. Kim, Working mechanism of iodide ions and its application to Cu microstructure control in through silicon via fi lling, Electrochim. Acta 295 (2019) 224 229"
+    },
+    {
+      "n": 21,
+      "page": 12,
+      "raw": "[21] I. Volov, X. Sun, G. Gadikota, P. Shi, A.C. West, Electrodeposition of copper tin film alloys for interconnect applications, Electrochim. Acta 89 (2013) 792–797."
+    },
+    {
+      "n": 22,
+      "page": 12,
+      "raw": "[22] F. Wang, K. Zhou, Q. Zhang, Y. Le, W. Liu, Y. Wang, F. Wang, Effect of molecular weight and concentration of polyethylene glycol on through-silicon via fi lling by copper, Microelectron. Eng. 215 (2019) 111003, https://doi.org/10.1016/j. mee.2019.111003."
+    },
+    {
+      "n": 23,
+      "page": 12,
+      "raw": "[23] N. Xiao, D. Li, G. Cui, N. Li, D. Tian, Q. Li, G. Wu, An effective triblock copolymer as a suppressor for microvia fi lling via copper electrodeposition, Electrochim. Acta 109 (2013) 226–232."
+    },
+    {
+      "n": 24,
+      "page": 12,
+      "raw": "[24] J. Xu, B. Chen, J. Lv, D. Chang, D. Niu, S. Hu, X. Zhang, Z. Xin, L. Wang, Aryl modi fi cation of diketopyrrolopyrrole-based quaternary ammonium salts and their applications in copper electrodeposition, Dyes Pigm. 170 (2019) 107559, https:/ doi.org/10.1016/j.dyepig.2019.107559."
+    },
+    {
+      "n": 25,
+      "page": 12,
+      "raw": "[25] M.H. Lee, M.J. Kim, J.J. Kim, Competitive adsorption between bromide ions and bis (3-sulfopropyl)-disulfide for Cu microvia filling. Electrochim. Acta 370 (2021 137707. https://doi.org/10.1016/i.electacta.2020.137707."
+    },
+    {
+      "n": 26,
+      "page": 12,
+      "raw": "[26] J. Li, G. Zhou, Y. Hong, C. Wang, W. He, S. Wang, Y. Chen, Z. Wen, Q. Wang, Copolymer of pyrrole and 1.4-butanediol diglvcidyl as an efficient additive leveler for through-hole copper electroplating, ACS Omega 5 (10) (2020) 4868–4874."
+    },
+    {
+      "n": 27,
+      "page": 12,
+      "raw": "[27] A.-Y. Wang, B. Chen, L. Fang, J.-J. Yu, L.-M. Wang, In fl uence of branched quaternary ammonium surfactant molecules as levelers for copper electroplating from acidic sulfate bath, Electrochim. Acta 108 (2013) 698–706"
+    },
+    {
+      "n": 28,
+      "page": 12,
+      "raw": "[28] W.-P. Dow, H.-H. Chen, M.-Y. Yen, W.-H. Chen, K.-H. Hsu, P.-Y. Chuang, H. Ishizuka, N. Sakagawa, R. Kimizuka, Through-hole fi lling by copper electroplating, J. Electrochem. Soc. 155 (12) (2008) D750, https://doi.org/10.1149/1.2988134."
+    },
+    {
+      "n": 29,
+      "page": 12,
+      "raw": "[29] N. Xiao, D. Li, G. Cui, N. Li, Q. Li, G. Wu, Adsorption behavior of triblock copolymer suppressors during the copper electrodeposition. Electrochim. Acta 116 (2014) 284–291."
+    },
+    {
+      "n": 30,
+      "page": 12,
+      "raw": "[30] J.-J. Yan, L.-C. Chang, C.-W. Lu, W.-P. Dow, Effects of organic acids on throughhole filling by copper electroplating, Electrochim. Acta 109 (2013) 1–12."
+    },
+    {
+      "n": 31,
+      "page": 12,
+      "raw": "[31] Y.-D. Chiu, W.-P. Dow, Accelerator Screening by Cyclic Voltammetry for microvia fi lling by copper electroplating, J. Electrochem. Soc. 160 (12) (2013) D3021–D3027."
+    },
+    {
+      "n": 32,
+      "page": 12,
+      "raw": "[32] Q.S. Zhu, X. Zhang, C.Z. Liu, H.Y. Liu, Effect of reverse pulse on additives adsorption and copper fi lling for through silicon via, J. Electrochem. Soc. 166 (1) (2019) D3006–D3012."
+    },
+    {
+      "n": 33,
+      "page": 12,
+      "raw": "[33] J. Li, N. Dimitrov, NTBC and MTT Reduction Electrochemistry: Impact on Cu superconformal plating for fabrication of glass interposers, J. Electrochem. Soc. 166 (1) (2019) D3120–D3128."
+    },
+    {
+      "n": 34,
+      "page": 12,
+      "raw": "[34] K. Haubner, T. Fischer, H. Brunner, L. Pohlmann, C. Donner, Aspects and modeling of oscillatory acid copper electroplating, J. Electrochem. Soc. 166 (1) (2019) D3110–D3119."
+    },
+    {
+      "n": 35,
+      "page": 12,
+      "raw": "[35] Y.-H. Chang, P.-L. Tseng, J.-C. Lin, J.-C. Chen, M.-C. Huang, H.-Y. Lin, S. Pollard, P. Mazumder, Communication-defect-free fi lling of high aspect ratio through vias in ultrathin glass, J. Electrochem. Soc. 166 (1) (2019) D3155–D3157."
+    },
+    {
+      "n": 36,
+      "page": 12,
+      "raw": "[36] S. Zhao, K. Pang, X. Wang, N. Xiao, Function of Sulfhydryl (–HS) Group During Microvia Filling by Copper Plating, J. Electrochem. Soc. 167 (11) (2020) 112502, https://doi.org/10.1149/1945-7111/aba00c"
+    },
+    {
+      "n": 37,
+      "page": 12,
+      "raw": "[37] Z. Tao, W. He, J. Li, S. Wang, Y. Chen, K. Ai, Y. Peng, Y. Hong, Tetraoxadiphosphaspiro derivative as suppressor for microvia fi lling by copper electroplating in acidic solution. J. Electrochem. Soc. 164 (14) (2017) D1034–D1041"
+    },
+    {
+      "n": 38,
+      "page": 12,
+      "raw": "[38] Schmitt KevinG, Schmidt Ralf, Gaida Josef, A. Andrew, Gewirth., Chain length variation to probe the mechanism of accelerator additives in copper electrodeposition. Phys, Chem. Chem. Phys. 21 (2019) 16838"
+    },
+    {
+      "n": 39,
+      "page": 12,
+      "raw": "[39] W.-P. Dow, Y.-D. Chiu, M.-Y. Yen, Microvia fi lling by Cu electroplating over a Au seed layer modi fi ed by a disul fi de, J. Electrochem. Soc. 156 (4) (2009) D155, https://doi.org/10.1149/1.3078407"
+    },
+    {
+      "n": 40,
+      "page": 12,
+      "raw": "[40] W.-P. Dow, C.-C. Li, M.-W. Lin, G.-W. Su, C.-C. Huang, Copper Fill of Microvia using a thiol-modi fi ed Cu seed layer and various levelers, J. Electrochem. Soc. 156 (8) (2009) D314, https://doi.org/10.1149/1.3147273."
+    },
+    {
+      "n": 41,
+      "page": 12,
+      "raw": "[41] L. Yang, A. Radisic, J. Deconinck, P.M. Vereecken, Modeling the bottom-up fi lling of through-silicon vias through suppressor adsorption/desorption mechanism, J. Electrochem. Soc. 160 (12) (2013) D3051 D3056."
+    },
+    {
+      "n": 42,
+      "page": 12,
+      "raw": "[42] Z.H. Tao, G.T. Liu, Y.X. Li, H. Su, Electrochemical and analytical study of electroplating additive in copper plating solution for microvia fi lling, Circuit World 45 (2019) 124–131."
+    },
+    {
+      "n": 43,
+      "page": 12,
+      "raw": "[43] C. Osarinmwian, I.M. Mellor, E.P.L. Roberts, Electro-deoxidation modelling of titanium dioxide to titanium. Electrochim. Acta 209 (2016) 95–101"
+    },
+    {
+      "n": 44,
+      "page": 12,
+      "raw": "[44] M.R. Majidi, K. Asadpour-Zeynali, B. Hafezi, Reaction and nucleation mechanisms of copper electrodeposition on disposable pencil graphite electrode, Electrochim. Acta 54 (2009),1119–1126"
+    },
+    {
+      "n": 45,
+      "page": 12,
+      "raw": "[45] Guannan, Y.; Xian, Z.；Pengyu，W.; Chao, L.; Guangdong, X.; Zhen, L.; Jiye, L.; Yu, Z.; Chengqiang C., Size Re fi nement of Copper Nanoparticles: A Perspective from Electrochemical Nucleation and Growth Mechanism, ChemElectroChem, 8 (2021)819–828."
+    },
+    {
+      "n": 46,
+      "page": 12,
+      "raw": "[46] T. Wenyu, H. Hanwei, G. Ying, P. Yizhi, D. Xiaomei, Nucleation and growth mechanisms of an electrodeposited Ni–Se–Cu coating on nickel foam, J. Colloid Interface Sci. 600 (2021) 492–502."
+    },
+    {
+      "n": 47,
+      "page": 12,
+      "raw": "[47] K. Zhu, C. Wang, J. Wang, Y. Hong, Y. Chen, W. He, J. Zhou, H. Miao, Q. Chen, Convection-Dependent Competitive Adsorption between SPS and EO/PO on Copper Surface for Accelerating Trench Filling, J. Electrochem. Soc. 166 (4) (2019) D93-D98"
+    },
+    {
+      "n": 48,
+      "page": 12,
+      "raw": "[48] C. Dehchar, I. Chikouche, A. Sahari, A. Zouaoui, Early stages of copper microparticles electrodeposition on polypyrrole fi lm, Composites, Communications 11 (2019) 52–55."
+    },
+    {
+      "n": 49,
+      "page": 12,
+      "raw": "[49] T.M. Braun, D. Josell, M. Silva, J. Kildon, T.P. Moffat, Effect of chloride concentration on copper deposition in through silicon vias, J. Electrochem. Soc. 166 (1) (2019) D3259–D3271"
+    },
+    {
+      "n": 50,
+      "page": 12,
+      "raw": "[50] W.-P. Dow, M.-Y. Yen, S.-Z. Liao, Y.-D. Chiu, H.-C. Huang, Filling mechanism in microvia metallization by copper electroplating, Electrochim. Acta 53 (2008) 8228–8237."
+    },
+    {
+      "n": 51,
+      "page": 12,
+      "raw": "[51] L.-N. Ji, Y. Gong, Z.-G. Yang, Failure investigation on copper-plated blind vias in PCB. Microelectron. Reliab. 50 (2010) 1163–1170."
+    }
+  ]
+}

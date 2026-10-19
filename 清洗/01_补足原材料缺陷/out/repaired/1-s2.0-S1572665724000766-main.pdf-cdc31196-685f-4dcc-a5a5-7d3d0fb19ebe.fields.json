@@ -1,0 +1,81 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "gh-quality plated copper has become increasingly essential in light of the progress"
+      },
+      {
+        "value": "saturated calomel",
+        "context": " a 5 mm diameter as the working electrode (WE), a saturated calomel electrode as the reference el"
+      },
+      {
+        "value": "sse",
+        "context": "trolyte was _ 0.7\n2.3. Characterization tests\nTo assess the filling capabilities of"
+      },
+      {
+        "value": "sse",
+        "context": " was performed on a solid leveler (MMT) sample pressed on a slide using a Horiba La"
+      },
+      {
+        "value": "sse",
+        "context": "rodes, solution bottle and peristaltic pump were assembled together through Teflon "
+      },
+      {
+        "value": "sse",
+        "context": "ere combined in a box. The copper layer was then assembled in said box and simulati"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1.5 A/dm2",
+        "context": "ting the copper layer at a set current density of 1.5 A/dm2 on the working electrode. The"
+      },
+      {
+        "value": "1.5 A/dm2",
+        "context": "king electrode. The measurement is carried out at 1.5 A/dm2 by adding inhibitors (PEG), a"
+      },
+      {
+        "value": "1.5 A/dm2",
+        "context": "arried out, the current density was controlled to 1.5 A/dm2 by DC regulated power supply "
+      },
+      {
+        "value": "1.5 A/dm2",
+        "context": "al workstation and applying a constant current of 1.5 A/dm2. During the experiment, in or"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "0 ml of plating solution in a glass container and room temperature electrochemical tests were pe"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "ai 200090, China\nd Shanghai Meadville Electronics Co., Ltd., Shanghai 201613, Chin"
+      },
+      {
+        "value": "Ni",
+        "context": "-mail address: xuqunjie@shiep.edu.cn (Q. Xu).\n\nZn-Ni alloy-modified deep eutectic "
+      },
+      {
+        "value": "Cu",
+        "context": "nt (DES) was introduced. The electrodeposition of Cu from acetylene 200 DES at 70~"
+      },
+      {
+        "value": "Cu",
+        "context": "ions\nThe simulation of MMT molecule adsorption on Cu (111) crystal surfaces was co"
+      },
+      {
+        "value": "Cu",
+        "context": "at the interface is E_absorption= E Total - · E _ Cu ^ - E _ Leveler = - 3 2.4 8 K"
+      },
+      {
+        "value": "Co",
+        "context": "ta, et al., Transitional Additive Adsorption with Co Addition of Suppressor and Le"
+      }
+    ]
+  }
+}

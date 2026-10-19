@@ -1,0 +1,77 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "vironmental burden, challenging purification processes, and insuficient via filling"
+      },
+      {
+        "value": "sse",
+        "context": "s potential leveling agents. Their synthesis processes are complex, the purificatio"
+      },
+      {
+        "value": "sse",
+        "context": "Waters 1525 instrument, specifically designed to assess the molecular weight distri"
+      },
+      {
+        "value": "SMSE",
+        "context": "rode was a saturated mercurous sulfate electrode (SMSE), and the counter electrode w"
+      },
+      {
+        "value": "sse",
+        "context": "chemical copper deposition and flash plating processes. The composition of the base"
+      },
+      {
+        "value": "sse",
+        "context": "6 mg/L, suggesting that saturation inhibition is essentially achieved at 5 mg/L. Th"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1.5 A/dm2",
+        "context": "easurement (GM), the current density was fixed at 1.5 A/dm2,, and additives were sequenti"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": "he flask was placed in an oil bath and stirred at room temperature for 5 min. After the temperat"
+      },
+      {
+        "value": "room temperature",
+        "context": "letion of the reaction, the mixture was cooled to room temperature, and the pH was adjusted to 2"
+      },
+      {
+        "value": "298 K",
+        "context": "nteraction between CDT and the Cu(111) surface at 298 K was simulated using the Forci"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "gdong, China 2 Victory Giant Technology (Huizhou) Co., Ltd., Huizhou 516000, China"
+      },
+      {
+        "value": "Cu",
+        "context": "f the plated parts and preventing the difusion of Cu ^ 2 + [15–17]. In systems con"
+      },
+      {
+        "value": "Co",
+        "context": "zole were purchased from Shanghai Aladdin Reagent Co., Ltd. Other chemicals such a"
+      },
+      {
+        "value": "Co",
+        "context": "and obtained from Tianjin Kemiou Chemical Reagent Co., Ltd., Tianjin, China.\n2.2 \u0007"
+      },
+      {
+        "value": "Cu",
+        "context": "MO - E _ HOMO\nThe interaction between CDT and the Cu(111) surface at 298 K was sim"
+      },
+      {
+        "value": "Cu",
+        "context": "force field to calculate adsorption energies. The Cu(111) surface was selected due"
+      }
+    ]
+  }
+}

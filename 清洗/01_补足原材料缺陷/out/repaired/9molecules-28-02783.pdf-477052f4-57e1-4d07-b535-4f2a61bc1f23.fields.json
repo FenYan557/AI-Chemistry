@@ -1,0 +1,69 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "390/ molecules28062783\nAbstract: Levelers, as an essential part of organic additive"
+      },
+      {
+        "value": "sse",
+        "context": "eling mechanism of the oligomers was further discussed with the aid of quantum chem"
+      },
+      {
+        "value": "sse",
+        "context": "e. High-performance levelers, therefore, play an essential role in the commercial p"
+      },
+      {
+        "value": "sse",
+        "context": "erences between piperazine and imidazole are discussed in Section 3.3 in detail.\n2."
+      },
+      {
+        "value": "sse",
+        "context": " groups and five/six-membered heterocycles, all possess the ability to improve the "
+      },
+      {
+        "value": "sse",
+        "context": " the uniformity of THs plating. The copper thicknesses of the sidewall center drama"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1.5 A/dm2",
+        "context": "speeds, and the current density was maintained at 1.5 A/dm2 [46]. For the potentiodynamic"
+      }
+    ],
+    "温度": [
+      {
+        "value": "60 °C",
+        "context": " removed and the products were dried in vacuum at 60 °C over- a Thermo Scientific TM "
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "xiang 337009, China\n3 Zhuhai ACCESS Semiconductor Co., Ltd., Zhuhai 519099, China\n"
+      },
+      {
+        "value": "Co",
+        "context": "on Electronic Chemicals, Guangdong Guanghua Tech. Co., Ltd., Zhuhai 515063, China\n"
+      },
+      {
+        "value": "Cu",
+        "context": " a more stable complexation between IPIEP and H O−Cu(I)−MPS. Moreover, imidazole d"
+      },
+      {
+        "value": "Cu",
+        "context": "g effect originates from the coordination between Cu(I) and the leveler, in which "
+      },
+      {
+        "value": "Cu",
+        "context": "n which the hydroxyl functional group coordinates Cu(I) to form the IMEP−Cu(I)−MPS"
+      },
+      {
+        "value": "Cu",
+        "context": "nctional group coordinates Cu(I) to form the IMEP−Cu(I)−MPS complex, inhibiting th"
+      }
+    ]
+  }
+}

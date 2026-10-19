@@ -1,0 +1,71 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "rators [16].\n∗ Corresponding authors.\nE-mail addresses: luojiye@gdut.edu.cn (J. Luo"
+      },
+      {
+        "value": "SMSE",
+        "context": "nd saturated mercury-mercurous sulfate electrode (SMSE), respectively. The volume of"
+      },
+      {
+        "value": "sce",
+        "context": "zoh, J.O. Dukovic, J. Horkans, H. Deligianni, Damascene Copper Electroplating for C"
+      },
+      {
+        "value": "sce",
+        "context": "ir copolymers: influence on copper filling of damascene interconnects, J. Electroch"
+      },
+      {
+        "value": "sce",
+        "context": "or bottom-up superfilling and bump control in damascene processing, Electrochim. Ac"
+      },
+      {
+        "value": "sce",
+        "context": "om-Up superfilling of through-silicon-vias by damascene processing: suppressor disr"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "10 mA/cm2",
+        "context": " a thin copper layer was deposited on the Pt-RDE (10 mA/cm2, 900 s) in the base electropl"
+      },
+      {
+        "value": "20 mA/cm2",
+        "context": " GMs were carried out with the current density of 20 mA/cm2. The rotating speed of the wo"
+      },
+      {
+        "value": "1.8 A/dm2",
+        "context": "rious TPMs. The current density was controlled at 1.8 A/dm2 (ASD) for 45 min. The surface"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": " in the base electroplating solution to prepare a Cu-RDE. The composition of the b"
+      },
+      {
+        "value": "Cu",
+        "context": " electrochemical behavior and I− can inhibite the Cu ^ 2 + reduction [29– 33]. To "
+      },
+      {
+        "value": "Cu",
+        "context": "n the mechanism of extremely bottom-up filling of Cu or other metals with one supp"
+      },
+      {
+        "value": "Cu",
+        "context": "ace morphology and crystalline orientation of the Cu deposition\nThe structural inf"
+      },
+      {
+        "value": "Cu",
+        "context": "ed crystalline orientation of the copper layer is Cu (111). When TPM-1 was added i"
+      },
+      {
+        "value": "Cu",
+        "context": "on, the predominant texture peak was changed from Cu (111) to Cu (220), which mean"
+      }
+    ]
+  }
+}

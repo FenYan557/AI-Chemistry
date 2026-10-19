@@ -1,0 +1,57 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "rmaceutical Science, University of Bern, Freiestrasse 3, 3012 Bern, Switzerland\nc S"
+      },
+      {
+        "value": "sce",
+        "context": " entering post-Moore era, convectional copper damascene technology is facing enormo"
+      },
+      {
+        "value": "sce",
+        "context": "to its low MFEP and compatibility with copper damascene technology, has been used a"
+      },
+      {
+        "value": "sse",
+        "context": "ecial group.\n* Corresponding authors.\nE-mail addresses: wangbo19880804@163.com (B. "
+      },
+      {
+        "value": "SSE",
+        "context": "/td><td>4</td></tr><tr><td>Cathode potential v.s. SSE (V)</td><td>-1.25</td></tr></"
+      },
+      {
+        "value": "SSE",
+        "context": "of 0.25 cm), saturated mercury sulfate electrode (SSE) and a platinum with the area"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "S no. of 298–83-9 is bought from Shanghai Aladdin Co., Ltd., China, while other AR"
+      },
+      {
+        "value": "Co",
+        "context": "aCl, is purchased from Sinopharm Chemical Reagent Co. Ltd., China. The deionized w"
+      },
+      {
+        "value": "Co",
+        "context": "n 20 mg/L, indi cating that it becomes harder for Co ^ 2 + to be reduced. Besides,"
+      },
+      {
+        "value": "Co",
+        "context": "ease due to hydrogen evolution reaction. The free Co ^ 2 + near the surface can co"
+      },
+      {
+        "value": "Co",
+        "context": "m, T. Spooner, D. Edelstein L. Zhao, Mechanism of Co liner as enhancement layer fo"
+      },
+      {
+        "value": "Cu",
+        "context": "o, Mechanism of Co liner as enhancement layer for Cu interconnect gap-fill [J], J."
+      }
+    ]
+  }
+}

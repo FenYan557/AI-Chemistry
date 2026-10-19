@@ -1,0 +1,83 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "are presented here. The heterogeneous catalysis, essential in daily chemical transf"
+      },
+      {
+        "value": "sse",
+        "context": "8555, Japan (M.S. Ahmad and T. Kida).\nE-mail addresses: sohail@kumamoto-u.ac.jp (M."
+      },
+      {
+        "value": "sse",
+        "context": "and Sonogashira cross-coupling reactions has witnessed phenomenal growth in the pas"
+      },
+      {
+        "value": "sse",
+        "context": "pport, and side product formation need to be addressed [24]. Likewise, the controve"
+      },
+      {
+        "value": "sse",
+        "context": "the nanoparticles’ size, shape, composition, and assembly, and their instauration w"
+      },
+      {
+        "value": "sse",
+        "context": "esion[122]. Alternatively, electron-transfer processes across the metal oxide inter"
+      }
+    ],
+    "温度": [
+      {
+        "value": "room temperature",
+        "context": " cations used in the reductive hydrogen method at room temperature [127]. Later on, the same res"
+      },
+      {
+        "value": "room temperature",
+        "context": "nanocatalyst for the Suzuki coupling reactions at room temperature [167]. Further, the author co"
+      },
+      {
+        "value": "room temperature",
+        "context": "resence of K_2 CO _ 3 in _ H _2O or H_2O/ EtOH at room temperature (Scheme 10), with the reactio"
+      },
+      {
+        "value": "room temperature",
+        "context": " cross-coupling reactions in an aqueous medium at room temperature under the normal lab environm"
+      },
+      {
+        "value": "room temperature",
+        "context": "trate, achieving a maximum yield of 97 %in DMF at room temperature (Scheme 26). The heterogeneit"
+      },
+      {
+        "value": "room temperature",
+        "context": "d four different types of Au@Pd core–shell NPs at room temperature, as a result, the emulsion ph"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "ts derived from transition metals such as Pd, Pt, Cu, Ag, Ni, Fe, Au, and Zn, expo"
+      },
+      {
+        "value": "Ni",
+        "context": "ed from transition metals such as Pd, Pt, Cu, Ag, Ni, Fe, Au, and Zn, expounding t"
+      },
+      {
+        "value": "Cu",
+        "context": "re built up on TM nanoparticles (NPs) such as Au, Cu, Pd, and their alloys can dri"
+      },
+      {
+        "value": "Cu",
+        "context": "ive review dedicated to different TM NPs (Pd, Pt, Cu, Ni, Fe, Au, Ag, and Zn) nano"
+      },
+      {
+        "value": "Ni",
+        "context": "review dedicated to different TM NPs (Pd, Pt, Cu, Ni, Fe, Au, Ag, and Zn) nanocata"
+      },
+      {
+        "value": "Cu",
+        "context": "ive recent advances in transition metals (Pd, Pt, Cu, Ni, Fe, Au, Ag, and Zn) NPs "
+      }
+    ]
+  }
+}

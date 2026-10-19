@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "scope": "stage two from bundled repaired data and repository source directories",
+  "files_compared": 243,
+  "differences": [],
+  "stage_one_ocr_rerun": false
+}

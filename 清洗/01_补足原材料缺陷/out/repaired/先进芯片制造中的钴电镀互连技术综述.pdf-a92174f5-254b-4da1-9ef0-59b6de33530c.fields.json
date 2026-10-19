@@ -1,0 +1,57 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "wth, and the surface, interface, and filling processes during cobalt electrodeposit"
+      },
+      {
+        "value": "sse",
+        "context": "ean free path (about 10 nm); 18 that is, cobalt possesses a smaller size efect than"
+      },
+      {
+        "value": "sse",
+        "context": " free path (about 10 nm); 18 that is, cobalt possesses a smaller size efect than co"
+      },
+      {
+        "value": "sce",
+        "context": "r.\n\n\nCobalt interconnects still use classical damascene process. As shown in Fig. 4"
+      },
+      {
+        "value": "sse",
+        "context": "alt electroplating interconnects to advanced processes in the 7- nm and 10-nm nodes"
+      },
+      {
+        "value": "sse",
+        "context": "ieved that whether or not the deposition is suppressed in metal superfilling is rel"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "vity. 20 The resistivities of diferent widths for Cu and Co are shown in Fig. 3. I"
+      },
+      {
+        "value": "Co",
+        "context": "0 The resistivities of diferent widths for Cu and Co are shown in Fig. 3. In addit"
+      },
+      {
+        "value": "Co",
+        "context": "d cobalt layer from passiva tion and formation of Co ( OH) _ 2, which makes the re"
+      },
+      {
+        "value": "Co",
+        "context": "ce the local pH value and hinder the formation of Co ( OH) _ 2 near the cathode su"
+      },
+      {
+        "value": "Co",
+        "context": " ions involved in the formation of intermediates, Co(OH)_ads, thereby increasing t"
+      },
+      {
+        "value": "Co",
+        "context": "ced to metal cobalt, and the chemical formula is: Co^2+ \\+2e= Co(s). ^ 6 1, 6 2 Ho"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sce",
+        "context": "io PCB through-hole electroplating�an application scenario in which conformal, unif"
+      },
+      {
+        "value": "sce",
+        "context": " suitability of MTT for this distinct application scenario. It should also be noted"
+      },
+      {
+        "value": "SSE",
+        "context": "ode, and a saturated mercurous sulfate electrode (SSE, Hg/ Hg _ 2 SO _ 4) served as"
+      },
+      {
+        "value": "SSE",
+        "context": "cted over a potential window of −0.8 to 0.2 V (vs SSE). Prior to electrochemical im"
+      },
+      {
+        "value": "SSE",
+        "context": " direct current (DC) bias potential of −0.5 V (vs SSE), and a frequency sweep range"
+      },
+      {
+        "value": "sse",
+        "context": "is observation unambiguously indicates that MTT possesses excellent leveling capabi"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "2A/dm2",
+        "context": " concentrations. At a constant current density of 2A/dm2, when VMS exclusively contain"
+      }
+    ],
+    "温度": [
+      {
+        "value": "Room Temperature",
+        "context": "y Electrochemical Impedance Spectroscopy (EIS) at Room Temperature. Mater. Today: Proc 2022, 66,"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "rization and efectively inhibits the reduction of Cu 2+. Meanwhile, microscopic mo"
+      },
+      {
+        "value": "Cu",
+        "context": " cathode. with the bulk cation-π interaction with Cu ^ 2 + contributing as a minor"
+      },
+      {
+        "value": "Cu",
+        "context": " size and promotes the preferential growth of the Cu(200) plane while improving th"
+      },
+      {
+        "value": "Cu",
+        "context": "ccompanied by severe mass transfer limitations of Cu 2+ within the hole. This mult"
+      },
+      {
+        "value": "Cu",
+        "context": "disulfide, SPS) act as accelerators: they capture Cu 2+ at the cathode interface a"
+      },
+      {
+        "value": "Cu",
+        "context": "ding a TP value of 136.7% along with preferential Cu(111) growth, whereas MTT, as "
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "doc_id": "孔雀石绿诱导_扩散_吸附作用下的钴超共形电沉积过程",
+  "title": "Induction-Diffusion-Adsorption Process of Malachite Green for Cobalt Superconformal Electrodeposition",
+  "doi": "10.1149/1945-7111/acb9bf",
+  "journal": "其他期刊",
+  "year": "2023",
+  "pages": 8,
+  "printed_page_map": {},
+  "references": [
+    {
+      "n": 1,
+      "page": 7,
+      "raw": "1. P. C. Andricacos, C. Uzoh, J. O. Dukovic, J. Horkans, and H. Deligianni, “Damascene copper electroplating for chip interconnections.” IBM J. Res. Dev., 42, 567 (1998)."
+    },
+    {
+      "n": 2,
+      "page": 7,
+      "raw": "2. C. Adelmann et al., “IEEE international interconnect technology conference/ advanced metallization conference (IITC/AMC).” IEEE International Interconnect Technology Conference IITC, San J(ose, CA)(Ieee)p. 173 (2014)."
+    },
+    {
+      "n": 3,
+      "page": 7,
+      "raw": "3. S. Brandstetter, V. Carreau, S. Maîtrejean, M. Verdier, and M. Legros, \"Grain morphology of Cu damascene lines.\" Microelectron. Eng., 87, 383 (2010)."
+    },
+    {
+      "n": 4,
+      "page": 7,
+      "raw": "4. P.-I. Wang, M. D. Frev, M. Washington, S. Navak, and T.-M. Lu. \"Resistivity of sub-50 nm copper lines epitaxially grown on Si(100) substrate.” Thin Solid Films, 520, 6106 (2012)."
+    },
+    {
+      "n": 5,
+      "page": 7,
+      "raw": "5. W. Zhang, S. H. Brongersma, Z. Li, D. Li, O. Richard, and K. Maex, “Analysis of the size effect in electroplated fine copper wires and a realistic assessment to model copper resistivity.” J. Appl. Phys., 101, 11 (2007)."
+    },
+    {
+      "n": 6,
+      "page": 7,
+      "raw": "6. D. Josell, S. H. Brongersma, and Z. Tőkei, “Size-dependent resistivity in nanoscale interconnects.” Annu. Rev. Mater. Res., 39, 231 (2009)."
+    },
+    {
+      "n": 7,
+      "page": 7,
+      "raw": "7. D. Gall, “Electron mean free path in elemental metals.” J. Appl. Phys., 119, 5 (2016)."
+    },
+    {
+      "n": 8,
+      "page": 7,
+      "raw": "8. J. Kelly et al., “Annealing and impurity effects in Co thin films for MOL contact and BEOL metallization.” J. Electrochem. Soc., 166, D3100 (2018)."
+    },
+    {
+      "n": 9,
+      "page": 7,
+      "raw": "9. V. Kamineni et al., “IEEE international interconnect technology conference/ advanced metallization conference (IITC/AMC).” IEEE International Interconnect Technology Conference IITC(San Jose, CA)(Ieee)p. 105 (2016)."
+    },
+    {
+      "n": 10,
+      "page": 7,
+      "raw": "10. R. L. Graham, G. B. Alers, T. Mountsier, N. Shamma, S. Dhuey, S. Cabrini, R. H. Geiss, D. T. Read, and S. Peddeti, “Resistivity dominated by surface scattering in sub-50 nm Cu wires.\" Appl. Phys. Lett., 96, 3 (2010)"
+    },
+    {
+      "n": 11,
+      "page": 7,
+      "raw": "11. N. A. Lanzillo, P. Bhosale, C. Lavoie, D. J. Dechene, R. R. Robison, and K. Choi. “Spin-dependent electron scattering in cobalt interconnects.” J. Phys. D: Appl. Phys., 52, 8 (2019)."
+    },
+    {
+      "n": 12,
+      "page": 7,
+      "raw": "12. M. H. van der Veen et al., “in 24th Workshop on Materials for Advanced Metallization held Jointly with the International Interconnect Technology (IITC) Conference.” IEEE International Interconnect Technology Conference IITC (Grenoble, FRANCE)(Ieee)p. 25 (2015)."
+    },
+    {
+      "n": 13,
+      "page": 7,
+      "raw": "13. J. Kelly et al., “IEEE international interconnect technology conference/advanced metallization conference (IITC/AMC).” IEEE International Interconnec Technology Conference IITC(San Jose, CA)(Ieee)p. 40 (2016)."
+    },
+    {
+      "n": 14,
+      "page": 7,
+      "raw": "14. M. Darques, A. Encinas, L. Vila, and L. Piraux, “Controlled changes in the microstructure and magnetic anisotropy in arrays of electrodeposited Co nanowires induced by the solution pH.” J. Phys. D: Appl. Phys., 37, 1411 (2004)."
+    },
+    {
+      "n": 15,
+      "page": 7,
+      "raw": "15. J.-Y. Lin, J.-H. Liao, and S.-W. Chou, “Cathodic electrodeposition of highly porous cobalt sulfide counter electrodes for dve-sensitized solar cells.\" Electrochim. Acta. 56, 8818 (2011)"
+    },
+    {
+      "n": 16,
+      "page": 7,
+      "raw": "16. M. P. M. Kaninski, V. M. Nikolic, G. S. Tasic, and Z. L. Rakocevic, “Electrocatalytic activation of Ni electrode for hydrogen production by electrodeposition of Co and V species.\" Int. J. Hvdrog, Energy, 34, 703 (2009)."
+    },
+    {
+      "n": 17,
+      "page": 7,
+      "raw": "17. R. P. Li, Y. O. Li, P. X. Yang, P. H. Ren, D. Wang, X. Y. Lu. R. Y. Xu. Y. H. Li, J. M. Xue, J. O. Zhang, M. Z. An. J. Y. Ma, B. Wang, H. K. Liu, and S. X. Dou. “Synergistic interfaceengineering and structural optimization of non-noble meta telluride-nitrideelectrocatalysts for sustainably overall seawater electrolysis.” Appl. Catal. B-Environ, 318, 12 (2022)."
+    },
+    {
+      "n": 18,
+      "page": 7,
+      "raw": "18. B. Pan, Y. Yang, Y. Zhang, and Q. Zhang, “Effects of saccharin and tetramethylammonium bromide on the microstructure and microhardness of thick cobal electrodeposits.” Surf. Coat. Technol., 329, 49 (2017)."
+    },
+    {
+      "n": 19,
+      "page": 7,
+      "raw": "19. A. C. Frank and P. T. A. Sumodjo, “Electrodeposition of cobalt from citrate containing baths.\" Electrochim, Acta, 132, 75 (2014)."
+    },
+    {
+      "n": 20,
+      "page": 7,
+      "raw": "20. M. S. Bhuivan, B. J. Taylor, M. Paranthaman, J. R. Thompson, and J. W. Sinclair. “Microstructure and magnetic properties of electrodeposited cobalt films.” J. Mater. Sci., 43, 1644 (2008)."
+    },
+    {
+      "n": 21,
+      "page": 7,
+      "raw": "21. L. Wang, Y. Lin, Z. Zeng, W. Liu, O. Xue, L. Hu, and J. Zhang, \"Electrochemical corrosion behavior of nanocrystalline Co coatings explained by higher grain boundary density.” Electrochim. Acta, 52, 4342 (2007)."
+    },
+    {
+      "n": 22,
+      "page": 7,
+      "raw": "22. D. Hamulić, I. Milošev, and D. Lützenkirchen-Hecht, “The effect of the deposition conditions on the structure, composition and morphology of electrodeposited cobal materials.\" Thin Solid Films, 667, 11 (2018)."
+    },
+    {
+      "n": 23,
+      "page": 7,
+      "raw": "23. Y. Tsuru, M. Nomura, and F. R. Foulkes, “Effects of boric acid on hydrogen evolution and internal stress in films deposited from a nickel sulfamate bath.” J. Appl. Electrochem., 32, 629 (2002)"
+    },
+    {
+      "n": 24,
+      "page": 7,
+      "raw": "24. M. A. Rigsby, T. A. Spurlin, and J. D. Reid, “The Multi-Functional Role of Boric Acid in Cobalt Electrodeposition and Superfill.\" J. Electrochem. Soc., 167, 8 (2020)."
+    },
+    {
+      "n": 25,
+      "page": 7,
+      "raw": "25. J. P. Hoare, “On the role of boric acid in the Watts bath.” J. Electrochem. Soc., 133, 2491 (1986)."
+    },
+    {
+      "n": 26,
+      "page": 8,
+      "raw": "26. C. H. Lee, J. E. Bonevich, J. E. Davies, and T. P. Moffat, “Superconformal Electrodeposition of Co and Co-Fe Alloys Using 2-Mercapto-5-benzimidazolesulfonic Acid.” J. Electrochem. Soc., 156, D301 (2009)."
+    },
+    {
+      "n": 27,
+      "page": 8,
+      "raw": "27. M. A. Rigsby, L. J. Brogan, N. V. Doubina, Y. Liu, E. C. Opocensky, T. A. Spurlin, J. Zhou, J. D. Reid, and S. Electrochem, in 232nd Fall Meeting of the-Electrochemical-Society (ECS), ECS Transactions, National Harbor, MDp. 767 (2017)."
+    },
+    {
+      "n": 28,
+      "page": 8,
+      "raw": "28. D. Josell, M. Silva, and T. P. Moffat, \"Superconformal bottom-up cobalt deposition in high aspect ratio through silicon vias.\" J. Electrochem. Soc., 163, D809 (2016)."
+    },
+    {
+      "n": 29,
+      "page": 8,
+      "raw": "29. A. Joi, R. Akolkar, and U. Landau, “Additives for bottom-up copper plating from an alkaline complexed electrolyte.” J. Electrochem. Soc., 160, D3001 (2013)."
+    },
+    {
+      "n": 30,
+      "page": 8,
+      "raw": "30. C. Madore, M. Matlosz, and D. Landolt, “Blocking inhibitors in cathodic leveling.1. Theoretical analysis.\" J. Electrochem. Soc., 143, 3927 (1996)"
+    },
+    {
+      "n": 31,
+      "page": 8,
+      "raw": "31. K. G. Jordan and C. W. Tobias, “The effect of inhibitor transport on leveling in electrodeposition.” J. Electrochem. Soc., 138, 1251 (1991)."
+    },
+    {
+      "n": 32,
+      "page": 8,
+      "raw": "32. J. J. Kelly, C. Y. Tian, and A. C. West, “Leveling and microstructural effects of additives for copper electrodeposition.” J. Electrochem. Soc., 146, 2540 (1999)."
+    },
+    {
+      "n": 33,
+      "page": 8,
+      "raw": "33. J. Wu, F. Wafula, S. Branagan, H. Suzuki, and J. van Eisden, \"Mechanism of cobalt bottom-up filling for advanced node interconnect metallization.\" J. Electrochem. Soc., 166, D3136 (2018)."
+    },
+    {
+      "n": 34,
+      "page": 8,
+      "raw": "34. Q. Huang, T. W. Lyons, and W. D. Sides, “Electrodeposition of Cobalt for Interconnect Application: Effect of Dimethylglyoxime.\" J. Electrochem. Soc., 163. D715 (2016)."
+    },
+    {
+      "n": 35,
+      "page": 8,
+      "raw": "35. Y. J. Han, X. Zhang, and G. W. Leach, “Shape control of electrodeposited copper films and nanostructures through additive effects.” Langmuir, 30, 3589 (2014)."
+    },
+    {
+      "n": 36,
+      "page": 8,
+      "raw": "36. X. C. Ma, Y. Q. Li, P. X. Yang, J. Q. Zhang, and M. Z. An, “Influence of suppressing additive malachite green on superconformal cobalt electrodeposition.” J. Electroanal. Chem., 921, 10 (2022)."
+    },
+    {
+      "n": 37,
+      "page": 8,
+      "raw": "37. M. A. Rigsby, L. J. Brogan, N. V. Doubina, Y. Liu, E. C. Opocensky, T. A. Spurlin, J. Zhou, and J. D. Reid, “The Critical role of pH gradient formation in driving superconformal cobalt deposition.\" J. Electrochem. Soc., 166, D3167 (2018)."
+    },
+    {
+      "n": 38,
+      "page": 8,
+      "raw": "38. K. Y. Lin and H. A. Chang, “Ultra-high adsorption capacity of zeolitic imidazole framework-67 (ZIF-67) for removal of malachite green from water.” Chemosphere, 139, 624 (2015)."
+    },
+    {
+      "n": 39,
+      "page": 8,
+      "raw": "39. D. R. Gabe, “The role of hydrogen in metal electrodeposition processes.” J. Appl. Electrochem. 2"
+    },
+    {
+      "n": 40,
+      "page": 8,
+      "raw": "40. I. Flis-kabulska, “Electrodeposition of cobalt on gold during voltammetric cycling.” J. Appl. Electrochem., 36, 131 (2005)"
+    },
+    {
+      "n": 41,
+      "page": 8,
+      "raw": "41. T. P. Moffat and D. Josell, “Extreme bottom-up superfilling of through-silicon-vias by damascene processing: suppressor disruption, positive feedback and turing patterns.” J. Electrochem. Soc., 159, D208 (2012)."
+    },
+    {
+      "n": 42,
+      "page": 8,
+      "raw": "42. S. K. Kim, J. E. Bonevich, D. Josell, and T. P. Moffat, “Electrodeposition of ni in submicrometer trenches.” J. Electrochem. Soc., 154, D443 (2007)."
+    },
+    {
+      "n": 43,
+      "page": 8,
+      "raw": "43. V. Grozovski, S. Vesztergom, G. G. Láng, and P. Broekmann, “Electrochemica hydrogen evolution: H+or H2O reduction ? a rotating disk electrode study.” J. Electrochem. Soc., 164, E3171 (2017)."
+    },
+    {
+      "n": 44,
+      "page": 8,
+      "raw": "44. D. Gabe, “The role of hydrogen in metal electrodeposition processes.” J. Appl. Electrochem., 27, 908 (1997)."
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "raw": "45. X. Ma, Y. Li, P. Yang, J. Zhang, and M. An, \"Influence of suppressing additive malachite green on superconformal cobalt electrodeposition.” J. Electroanal. Chem., 921 (2022)."
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "raw": "46. Y. Umasankar, A. P. Periasamy, and S. M. Chen, “Electrocatalysis and simultaneous determination of catechol and quinol by poly(malachite green) coated multiwalled carbon nanotube film.” Anal. Biochem., 411, 71 (2011)."
+    },
+    {
+      "n": 47,
+      "page": 8,
+      "raw": "47. P. A. Jacques, V. Artero, J. Pecaut, and M. Fontecave, “Cobalt and nickel diiminedioxime complexes as molecular electrocatalysts for hydrogen evolution with low overvoltages.\" Proc. Natl. Acad. Sci. U. S. A., 106, 20627 (2009)."
+    },
+    {
+      "n": 48,
+      "page": 8,
+      "raw": "48. C. C. McCrory, C. Uyeda, and J. C. Peters, “Electrocatalytic hydrogen evolution in acidic water with molecular cobalt tetraazamacrocycles.\" J. Am. Chem. Soc., 134.3164 (2012)."
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "raw": "49. V. Grozovski, P. Moreno-García, E. Karst, M. de Jesús Gálvez-Vázquez, A. Fluegel, S. Kitayaporn, S. Vesztergom, and P. Broekmann, “Operando laser scattering: probing the evolution of local pH changes on complex electrode architectures.” J. Electrochem. Soc., 168, 7 (2021)."
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "raw": "50. D. Josell, C. Witt, T. J. E. Moffat, and S.-S. Letters, “Osmium barriers for direct copper electrodeposition in damascene processing.” 9, C41 (2005)."
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "raw": "51. D. Josell and T. P. Moffat, “Superconformal copper deposition in through silicon vias by suppression-breakdown.” J. Electrochem. Soc., 165, D23 (2018)."
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "raw": "52. T. M. Braun, S. H. Kim, H. J. Lee, T. P. Moffat, and D. Josell, “Superconforma nickel deposition in through silicon vias: experiment and prediction.\" J. Electrochem. Soc., 165, D291 (2018)."
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "raw": "53. V. P. Graciano, U. Bertocci, and G. R. Stafford, \"In-situ stress measurements during cobalt electrodeposition.\" J. Electrochem. Soc., 166, D3246 (2019)"
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "raw": "54. S. J. Banik, K. K. Rao, and R. Akolkar, \"Determination of the diffusion-adsorption properties of polymeric electrolyte additives using an additive injection method implemented on a rotating disc electrode.” J. Electrochem. Soc., 163, E241 (2016)."
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "raw": "55. R. Akolkar and V. Dubin, “Pattern density effect on the bottom-up fill during damascene copper electrodeposition - Analysis of the suppressor concentration field effect.\" Electrochem. Solid State Lett., 10. D55 (2007)."
+    }
+  ]
+}

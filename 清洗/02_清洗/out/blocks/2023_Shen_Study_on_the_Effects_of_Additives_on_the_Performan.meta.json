@@ -1,0 +1,165 @@
+{
+  "doc_id": "2023_Shen_Study_on_the_Effects_of_Additives_on_the_Performan",
+  "title": "Study on the Effects of Additives on the Performance of Ni–Co–P Alloy Coatings Using Box–Behnken Design",
+  "doi": "10.1021/acsomega.3c06301",
+  "journal": "ACS Omega",
+  "year": "2023",
+  "pages": 13,
+  "printed_page_map": {
+    "1": 942,
+    "2": 943,
+    "3": 944,
+    "4": 945,
+    "5": 946,
+    "6": 947,
+    "7": 948,
+    "8": 949,
+    "9": 950,
+    "10": 951,
+    "11": 952,
+    "12": 953,
+    "13": 954
+  },
+  "references": [
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(1) Guan, S.; Zhang, Q.; Hu, R. Recent Development of Chromium Electrodeposition. Mater. Prot. 2000, 33 (03), 1−3."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(2) Sheng-da, Z.; Xue-hong, T.; Ru-xing, W. The Status and Development of Hard-Chrome Plating Technique. Surf. Technol. 2000, 29 (06), 6−8."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(3) Ignatova, K.; Kozhukharov, S.; Alakushev, M. Barrier ability and durability of Ni-Co-P coatings in accordance to the content of H_3 PO _ 3 and NaH _ 2 PO _ 2 as phosphorus sources. Mater. Chem. Phys. 2018, 219, 175−181."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(4) Li, N. J.; Li, M. M.; Li, N. W. The Study on Preparation and Apply of Ni-Co-P Alloy Coating. Adv. Mater. Res. 2013, 690−693, 2145−2148."
+    },
+    {
+      "n": null,
+      "page": 12,
+      "raw": "(5) Sarkar, S.; Baranwal, R. K.; Biswas, C. j Majumdar, G.; Haider, J. Optimization of process parameters for electroless Ni-Co-P coating deposition to maximize micro-hardness. Mater. Res. Express 2019, 6 (4), 046415."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(6) Wang, X.; Lv, B.; Hu, Z.; Xu, B. Corrosion Resistance in Sodium Chloride Solution of Ni-Co-P Electro-Brush Amorphous Coatings to Replace Hard Chromium Coatings. Phys. Procedia 2013, 50, 191− 198."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(7) Lew, K. S.; Raja, M.; Thanikaikarasan, S.; Kim, T.; Kim, Y. D.; Mahalingam, T. Effect of pH and current density in electrodeposited Co-Ni-P alloy thin films. Mater. Chem. Phys. 2008, 112 (1), 249−253."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(8) Tury, B.; Radnóczi, G.; Radnóczi, G.; Varsányi, M. Microstructure properties of pulse plated Ni-Co alloy. Surf. Coat. Technol. 2007, 202 (2), 331−335."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(9) Peng, C.; Yin, Z.-W.; Wang, X.; Liu, Y.; Chen, H.; Zhang, X.-H. Mechanism of sodium lauryl sulfate and 1.4-butynediol in electro depositing Ni-W alloys. Mater. Sci. Eng. Powder Metall. 2011, 16 (02), 167−174."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(10) Song, Y. T.; Min, M.; Yi, Y.; Zhao, T.; Zhang, X.; Li, Z. L. Effect of Surfactant on Properties of Electrodeposited Ni-P-Al O Coatings. Mater. Prot. 2018, 51 (11), 66−69."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(11) Zhu, Y.; Dingfu, L. Preparation of New Tin-Nickel-Copper Alloy Electroplating Additives Based on RSM-BBD. Surf. Technol. 2021, 50 (2), 338−346."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(12) El-Feky, H.; Negem, M.; Roy, S.; Helal, N.; Baraka, A. Electrodeposited Ni and Ni-Co alloys using cysteine and conventional ultrasound waves. Sci. China Chem. 2013, 56 (10), 1446−1454."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(13) Matsui, I.; Takigawa, Y.; Uesugi, T.; Higashi, K. Effect of Additives on Tensile Properties of Bulk Nanocrystalline Ni-W Alloys Electrodeposited from A Sulfamate Bath. Mater. Lett. 2013, 99, 65− 67."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(14) Wu, Y.; Chang, D. y.; Kim, D.-s.; Kwon, S. c. Effects of 2- Butyne-1,4-Diol on Structures and Morphologies of Electroplating Ni W Alloy. Surf. Coat. Technol. 2003, 162 (2−3), 269−275."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(15) Nan, P.; Ji, C.; Yan-wei, S. U. N.; Zhi-xian, X. U.; Xiao-ming, C.; Xiao, H. A. N. Effect of 1,4- Butynediol Additive on Microstructure and Corrosion Resistance of ectrodeposited Nanocrystalline Nickel Coating. Mater. Prot. 2015, 48 (02), 5."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(16) Zhi-ping, L. I. N.; Xin-min, H.; Xia, S. H. U.; et al. Effect of Surfactants on Ni-SiC Composite Plating. Met. Funct. Mater. 2008, 15 (5), 20−23."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(17) Huang, W. J.; Xue, Y. Effect of Surfactants on Electroless Plating Ni-P-SiC Composite Coating on Magnesium Alloy. J. Mater. Eng. 2010, 1, 23−27."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(18) Kan, H. m.; Meng, Y. y.; Reddy, R. G. Influence of Particle Size and Surfactants on Uniformity and Quantity of Silicon Carbide Particles in Electrodeposited Nickel-silicon Carbide Coatings. J. Cent. S. Univ. 2021, 28 (6), 1627−1636."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(19) Wen-zhu, X. U. The Application of Surfactants in Electroplating. J. Filtr. Sep. 2014, 24 (04), 40−46."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(20) Ye-feng, L. A. N.; Fu-bin, L. I.; Wen-jun, Z.; et al. Influences of Saccharin Sodium and 1,4-Butynedio on Electrodeposited Nickel Coating Morphology. Plat. Surf. Finish. 2015, 37 (6), 10−13."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(21) Fu-ming, S.; Ming-hu, H.; Jin-ning, C. Influence of Saccharin Sodium on Performance and Microstructure of Nanocrystalline Nickel Coating Obtained by Direct Current Electrodeposition. Mater. Prot. 2010, 43 (09), 4−5."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(22) Jun, Z.; He-zhong, P. E. I.; Guo-liang, Z. Effect of Brighteners on Microstructure and Properties of Electroformed Ni-Co Alloy Coating. Mater. Prot. 2009, 42 (04), 33−35."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(23) Yu, Z.; Yan, J.; Jin, Y. The Effect of Process of Electroless Plating Ni-Co-P Alloy on Coating Properties. Corros. Prot. 2007, 28, 73."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(24) Zhang, Y.; Kang, M.; Nyambura, S. M.; Yao, L.; Jin, M.; Zhu, J. Fabrication of Ni-Co-P alloy coatings using jet electrodeposition with varying reciprocating sweep speeds and jet gaps to improve wear and seawater corrosion resistance. Coatings 2020.10 (10). 924."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(25) Karrab, S. A.; Aboraia, M. S.; Doheim, M. A.; et al. Efect of Electroless Ni-Co-P and Co-P Coatings on Cavitation Erosion Resistance. Proceedings of the TMS Middle East�Mediterranean Materials Congress on Energy and Infrastructure Systems (MEMA 2015); Springer International Publishing, 2016; pp 87−97."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(26) Zhang, Y.; Mbugua, N. S.; Jin, H.; Chen, L. Preparation and Investigation of Ni-Co-P Alloy Coatings Using Jet Electrodeposition with Varying Pulse Parameters. Crystals 2023, 13 (2), 303."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(27) Ji, L.; Chen, F.; Huang, H.; Sun, X.; Yan, Y.; Tang, X. Preparation of nickel-graphene composites by jet electrodeposition and the influence of graphene oxide concentration on the morphologies and properties. Surf. Coat. Technol. 2018, 351, 212− 219."
+    },
+    {
+      "n": null,
+      "page": 13,
+      "raw": "(28) Liao, J.; Yang, J.; Fan, W.; Li, Q.; Zhang, Q.; Zhao, X. Influence of Ni-Sn-P Electroless Plating on Anticorrosion Performance of CF Steel. Int. J. Electrochem. Sci. 2016, 11 (2), 899−905."
+    }
+  ]
+}

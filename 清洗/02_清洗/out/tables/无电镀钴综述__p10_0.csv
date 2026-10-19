@@ -1,0 +1,12 @@
+﻿Sl no,Co salt,Reducing agent,Complexing agent,pH,Temperature (°C),Deposit Composition,References
+1,"CoCl_2,6H_2O (7.5 g/l)","NaH_2PO_2, H_2O (3.52 g/l)","Na_3C_6H_5O_7,2H_2O (17.9 g/l) + NH_4Cl (12.5 g/l)",8.2,80,Co-P (4%),[24]
+2,"CoCl_2,6H_2O (20 g/l)",Hydrazine (9.6 g/l),"Na_3C_6H_5O_7,2H_2O (77.4 g/l) + NH_4Cl (5.35 g/l)",12.1–12.6,60–70,99.85% Co,[54]
+3,"CoCl_2,6H_2O (25 g/l)",DMAB (4 g/l),Sodium succinate (25 g/l),5,70,Co-B (1.7%),[47]
+4,"CoSO_4,7H_2O (14 g/l)",Morpholine borane (5.048 g/l),Glycine (7.5 g/l),7,30,Co-B (0.8–1%),[51]
+5,"CoSO_4,7H_2O (30 g/l)","NaH_2PO_2, H_2O (12 g/l)","Na_3C_6H_5O_7,2H_2O (25 g/l) + NH_4(SO_4)_2 (50 g/l)",8.5,80,Co-P (~ 11%),[75]
+6,"CoSO_4,7H_2O (30 g/l)","NaH_2PO_2, H_2O (30 g/l)","Na_3C_6H_5O_7,2H_2O (35 g/l) + NH_4HF_2 (8 g/l)",9.2,95,Co-P (3.29%),[14]
+7,"CoCl_2,6H_2O (20 g/l)","NaH_2PO_2, H_2O (7.8 g/l)",KNaC_4H_4O_6·4H_2O (49.9 g/l),10,25–30 (Al foil induced),Co-P (1.1%),[31]
+8,"CoSO_4,7H_2O (23.3 g/l)",Ammonia borane (1.15 g/l),ammonium citrate (52 g/l),9,50,&gt;99% Co,[49]
+9,"CoCl_2,6H_2O (50 g/l)",NaBH_4 (40 g/l),NH_4Cl (80 g/l),14,45,Co-B (9.2%),[52]
+10,"CoSO_4,7H_2O (25.3 g/l)","NaH_2PO_2, H_2O (24.4 g/l)",Na_3C_6H_5O_7 (136.7 g/l) + NH_4(SO_4)_2 (40 g/l),8.5,85,Amorphous Co-P,[68]
+11,"Co(C_2H_3O_2)_2, 4H_2O (0.1 M)",Alkaline Propylene glycol (also acts as solvent),"Nucleating agent – AgNO_3 + PdCl_2 + H_2PtCl_6, H_2O (2.5 mM)",Non-aqueous,150–165,Pure Co nanoparticle,[74]

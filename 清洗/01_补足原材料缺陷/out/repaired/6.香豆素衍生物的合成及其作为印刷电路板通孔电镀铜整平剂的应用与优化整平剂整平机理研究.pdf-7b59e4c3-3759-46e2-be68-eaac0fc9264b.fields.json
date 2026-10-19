@@ -1,0 +1,63 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sce",
+        "context": " quaternary ammonium salts is C2>C1>B2>B1>A1 in descending order, which is slightly"
+      },
+      {
+        "value": "sse",
+        "context": "on the Cu surface, explaining the reason why C2 possesses the strongest inhibition "
+      },
+      {
+        "value": "sse",
+        "context": "the Cu surface, explaining the reason why C2 possesses the strongest inhibition cap"
+      },
+      {
+        "value": "sse",
+        "context": "er ions on the though-hole surface was more suppressed, which represents a good lev"
+      },
+      {
+        "value": "sse",
+        "context": "220) crystallographic plane orientation was suppressed, and the (200) and (111) cry"
+      },
+      {
+        "value": "sce",
+        "context": "ones (PVPs): Switchable Leveler Additives for Damascene Applications, J. Electroche"
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "hermodynamic temperature of the MD simulation was 298 K, 1000 water molecules and one"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Cu",
+        "context": "velers A1 -C2 are mainly adsorb on the surface of Cu through the intramolecular co"
+      },
+      {
+        "value": "Cu",
+        "context": "r C2 has the strongest adsorption capacity on the Cu surface, explaining the reaso"
+      },
+      {
+        "value": "Cu",
+        "context": "eve depolarization effect by replacing PEG in PEG-Cu + -Cl- complex [42,43].\n<tabl"
+      },
+      {
+        "value": "Co",
+        "context": " M. Hayase, Transitional Additive Adsorption with Co-Addition of Suppressor and Le"
+      },
+      {
+        "value": "Cu",
+        "context": "C. Kim, J.J. Kim, The Influences of Iodide Ion on Cu Electrodeposition and TSV Fil"
+      },
+      {
+        "value": "Cu",
+        "context": "bromide ions and bis(3-sulfopropyl)-disulfide for Cu microvia filling, Electrochim"
+      }
+    ]
+  }
+}

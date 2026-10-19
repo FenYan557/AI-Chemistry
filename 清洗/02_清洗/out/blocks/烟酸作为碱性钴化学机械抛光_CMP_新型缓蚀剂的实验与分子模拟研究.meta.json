@@ -1,0 +1,291 @@
+{
+  "doc_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+  "title": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+  "doi": "10.1016/j.colsurfa.2022.129816",
+  "journal": "Colloids and Surfaces A",
+  "year": "2022",
+  "pages": 10,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] Daniel Josell, Sywert Brongersma, Zsolt Tokei, ˝ Size-dependent resistivity in nanoscale interconnects, Annu. Rev Mater, Res, 39 (2009) 231-254 httns://doi org/10.1146/annurev-matsci-082908-145415."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] Jialin Wen, Tianbao Ma, Weiwei Zhang, et al., Atomistic mechanisms of Si chemical mechanical polishing in aqueous H O: reaxFF reactive molecular"
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "dynamics simulations, Comput. Mater. Sci. 131 (2017) 230–238, https://doi.org 10.1016/j.commatsci.2017.02.005."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] Jialin Wen, Tianbao Ma, Weiwei Zhang, et al., Atomic insight into tribochemical wear mechanism of silicon at the Si/SiO interface in aqueous environment: molecular dynamics simulations using ReaxFF reactive force field, Appl. Surf. Sci. 390 (2016) 216–223, https://doi.org/10.1016/j.apsusc.2016.08.082."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] Liang Jiang, Yongqing Lan, Yongyong He, et al., 1, 2, 4-triazole as a corrosion inhibitor in copper chemical mechanical polishing, Thin Solid Films 556 (2014) 395–404, https://doi.org/10.1016/j.tsf.2013.12.047."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] Wenquan Lu, Jian Zhang, Frank Kaufman, et al., A combined triboelectrochemical QCM for studies of the CMP of cupper, J. Electrochem. Soc. 152 (2005) B17–B22, https://doi.org/10.1149/1.1836124."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] Kawaguchi Kentaro, Ito Hiroshi, Kuwahara Takuya, et al., Atomistic mechanisms of chemical mechanical polishing of Cu surface in aqueous H O: Tight-binding quantum chemical molecular dynamics simulations, ACS Appl. Mater. Interfaces 8 (18) (2016) 11830–11841, https://doi.org/10.1021/acsami.5b11910."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] Shenghua Yang, Baoguo Zhang, Qiming Zhang, et al., A study of cobalt galvanic and pitting corrosion with combination of BTA and PMP, ECS J. Solid State Sci. Technol. 8 (2019) P416–P422, https://doi.org/10.1149/2.0141908jss."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] Badawy Wael, F.M. Al-Kharafi, J.R. Al-Ajmi, Electrochemical behaviour of cobalt in aqueous solutions of different pH, J. Appl. Electrochem. 30 (2000) 693–704, https://doi.org/10.1023/A:1003893122201."
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] Liang Jiang, Yongqing Lan, Yongyong He, et al., 1, 2, 4-triazole as a corrosion inhibitor in copper chemical mechanical polishing, Thin Solid Films 556 (2014) 395–404, https://doi.org/10.1016/j.tsf.2013.12.047."
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] Jiao Hong, Xinhuan Niu, Yuling Liu, et al., Effect of a novel chelating agent on defect removal during post-CMP cleaning, Appl. Surf. Sci. 378 (2016) 239–244, https://doi.org/10.1016//j.apsusc.2016.03.230."
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] Lei Guo, Ime Bassey Obot, Xingwen Zheng, et al., Theoretical insight into an empirical rule about organic corrosion inhibitors containing nitrogen, oxygen, and sulfur atoms, Appl. Surf. Sci. 406 (2017) 301–306, https://doi.org/10.1016/j. apsusc.2017.02.134."
+    },
+    {
+      "n": 12,
+      "page": 9,
+      "raw": "[12] Tengda Ma, Shihao Zhang, Yi Xu, et al., Unraveling the surface behavior of amino acids on Cu wiring in chemical mechanical polishing of barrier layers: a combination of experiments and ReaxFF MD, J. Mol. Liq. (2021) 341, https://doi. org/10.1016/j.molliq.2021.117307."
+    },
+    {
+      "n": 13,
+      "page": 9,
+      "raw": "[13] Chenqi Yan, Yuling Liu, Jin Zhang, et al., Synergistic effect of glycine and BTA on step height reduction efficiency after copper CMP in weakly alkaline slurry, Ecs J. Solid State Sci. Technol. 6 (1) (2017), https://doi.org/10.1149/2.0291612jss, 0-0."
+    },
+    {
+      "n": 14,
+      "page": 9,
+      "raw": "[14] I. Dugdale, J.B. Cotton, An electrochemical investigation on the prevention of staining of copper by benzotriazole, Corros. Sci. 3 (1963) (1963) 69–74, https:// doi.org/10.1016/S0010-938X(63)80001-3."
+    },
+    {
+      "n": 15,
+      "page": 9,
+      "raw": "[15] J.B. Cotton, I.R. Scholes, Benzotriazole and related compounds as corrosion inhibitors for copper, Br. Corros. J. 2 (1) (1967) 1 5, https://doi.org/10.1179 000705967798327235"
+    },
+    {
+      "n": 16,
+      "page": 9,
+      "raw": "[16] Da Yin, Liu Yang, Baimei Tan, et al., Theoretical and electrochemical analysis on inhibition effect of benzotriazole and 1, 2, 4-triazole on cobalt surface, Colloids Surf. A-Physicochem. Eng. Asp. (2020) 591, https://doi.org/10.1016/j. colsurfa 2020.124516"
+    },
+    {
+      "n": 17,
+      "page": 9,
+      "raw": "[17] Peljhan Sebastijan, Koller Joˇze, Kokalj Anton. The effect of surface geometry of copper on adsorption of benzotriazole and Cl. Part I, J. Phys. Chem. C 118 (2014) 933–943, https://doi.org/10.1021/jp409717e."
+    },
+    {
+      "n": 18,
+      "page": 9,
+      "raw": "[18] Shuangshuang Lei, Shengli Wang, Hongliang Li, et al., Effect of benzotriazole and 5-Methyl/1-H carboxyl benzotriazole on chemical mechanical polishing of cobalt in H O based slurry, ECS J. Solid State Sci. Technol. (2021) 10, https://doi.org/ 10.1149/2162-8777/ac0e0e."
+    },
+    {
+      "n": 19,
+      "page": 9,
+      "raw": "[19] A. Fateh, M. Aliofkhazraei, A.R. Rezvanian, Review of corrosive environments for copper and its corrosion inhibitors, Arab. J. Chem. 13 (1) (2020) 481–544, https:/ doi.org/10.1016/j.arabjc.2017.05.021."
+    },
+    {
+      "n": 20,
+      "page": 9,
+      "raw": "[20] Heon-Yul Ryu, Byoung-Jun Cho, Nagendra Prasad Yerriboina, et al., Selection and optimization of corrosion inhibitors for improved Cu CMP and post-Cu CMP cleaning, Ecs J. Solid State Sci. Technol. 8 (5) (2019), https://doi.org/10.1149 2.0101905jss, 0-0."
+    },
+    {
+      "n": 21,
+      "page": 9,
+      "raw": "[21] Xiaoqin Sun, Tengda Ma, Da Yin, et al., Adsorption mechanism of potassium oleate on cobalt surface based on cobalt interconnection CMP: A combined experimental and DFT investigation, Ecs J. Solid State Sci. Technol. 10 (2) (2021), https://doi. org/10.1149/2162-8777/abe1d8."
+    },
+    {
+      "n": 22,
+      "page": 9,
+      "raw": "[22] Guang Yang, Peng He, Xinping Qu, Inhibition effect of glycine on molybdenum corrosion during CMP in alkaline H O based abrasive free slurry, Appl. Surf. Sci. 427 (2018) 148 155, https://doi.org/10.1016/j.apsusc.2017.08.140."
+    },
+    {
+      "n": 23,
+      "page": 9,
+      "raw": "[23] Mohamed S. Hasanin, A.Al. Kiey Sherief, Environmentally benign corrosion inhibitors based on cellulose niacin nano-composite for corrosion of copper in sodium chloride solutions, Int. J. Biol. Macromol. 161 (2020) 345 354, https:// doi.org/10.1016/j.ijbiomac.2020.06.040."
+    },
+    {
+      "n": 24,
+      "page": 9,
+      "raw": "[24] Peng He, Guang Yang, Xinping Qu. Study on effect of different complexing agents and inhibitors on Co corrosion in H2O2 based alkaline solution by EQCM[C]. Icpt 2017; International Conference on Planarization/cmp Technology, 11: 1–5. https://doi.org/10.1016/j.mee.2020.111308."
+    },
+    {
+      "n": 25,
+      "page": 9,
+      "raw": "[25] Xiaoguang Guo, Xiaoli Wang, Zhuji Jin, et al., Atomistic mechanisms of Cu CMP in aqueous H O: molecular dynamics simulations using ReaxFF reactive force field, Comput. Mater. Sci. 155 (2018) 476–482, https://doi.org/10.1016/j commatsci.2018.09.022"
+    },
+    {
+      "n": 26,
+      "page": 9,
+      "raw": "[26] Tengda Ma, Baimei Tan, Lei Guo, et al., Multidimensional insights into the corrosion inhibition of potassium oleate on Cu in alkaline medium: a combined experimental and theoretical investigation, Mater. Sci. Eng. B-Adv. Funct. Solid State Mater. (2021) 272, https://doi.org/10.1016/j.mseb.2021.115330"
+    },
+    {
+      "n": 27,
+      "page": 10,
+      "raw": "[27] Matjaz Finsgar, The influence of the amino group in 3-amino-1, 2, 4-triazole corrosion inhibitor on the interface properties for brass studied by ToF-SIMS, Rapid Commun. Mass Spectrom. 35 (7) (2021), https://doi.org/10.1002/rcm.9056."
+    },
+    {
+      "n": 28,
+      "page": 10,
+      "raw": "[28] Hao Li, Yujie Qiang, Wenjie Zhao, et al., A green Brassica oleracea L extract as a novel corrosion inhibitor for Q235 steel in two typical acid media, Colloids Surf. A-Physicochem. Eng. Asp. (2021) 616, https://doi.org/10.1016/j. colsurfa.2020.126077."
+    },
+    {
+      "n": 29,
+      "page": 10,
+      "raw": "[29] Wei Luo, Qingyun Lin, Xue Ran, et al., A new pyridazine derivative synthesized as an efficient corrosion inhibitor for copper in sulfuric acid medium: experimenta and theoretical calculation studies, J. Mol. Liq. (2021) 341, https://doi.org 10.1016/j.molliq.2021.117370."
+    },
+    {
+      "n": 30,
+      "page": 10,
+      "raw": "[30] Da Yin, Liu Yang, Tengda Ma, et al., Synergistic effect of composite complex agent on BTA removal in post CMP cleaning of copper interconnection, Mater. Chem. Phys. 252 (2020), 123230, https://doi.org/10.1016/j.matchemphys.2020.123230."
+    },
+    {
+      "n": 31,
+      "page": 10,
+      "raw": "[31] R. Popuri, H. Amanapu, C.K. Ranaweera, Potassium oleate as a dissolution and corrosion inhibitor during chemical mechanical planarization of chemical vapor deposited Co films for interconnect applications, Ecs J. Solid State Sci. Technol. 6 (12) (2017), https://doi.org/10.1149/2.0251712jss, 0-0."
+    },
+    {
+      "n": 32,
+      "page": 10,
+      "raw": "[32] K.V. Sagi, L.G. Teugels, M.H. van der Veen, et al., Chemical mechanical polishing of chemical vapor deposited Co films with minimal corrosion in the Cu/Co/Mn/ SiCOH patterned structures, Ecs J. Solid State Sci. Technol. 6 (5) (2017), https:// doi.org/10.1149/2.0171705JSS, 0-0."
+    },
+    {
+      "n": 33,
+      "page": 10,
+      "raw": "[33] Jiakai Zhou, Xinhuan Niu, Yaqi Cui, et al., Study on the film forming mechanism, corrosion inhibition effect and synergistic action of two different inhibitors on copper surface chemical mechanical polishing for GLSI, Appl. Surf. Sci. 505 (2020), 144507, https://doi.org/10.1016/j.apsusc.2019.144507."
+    },
+    {
+      "n": 34,
+      "page": 10,
+      "raw": "[34] Mingjie Zhong, Shyam Venkataraman, Yongqing Lan, et al., Role of 1, 2, 4-triazole as a passivating agent for cobalt during post-chemical mechanical planarization cleaning, J. Electrochem. Soc. 161 (3) (2014), https://doi.org/10.1149/ 2.093403jes, 0-0."
+    },
+    {
+      "n": 35,
+      "page": 10,
+      "raw": "[35] Rajeev Kumar, Savita Chahal, Sumit Kumar, et al., Corrosion inhibition performance of chromone-3-acrylic acid derivatives for low alloy steel with theoretical modeling and experimental aspects, J. Mol. Liq. 243 (2017) 439–450, https://doi.org/10.1016/j.molliq.2017.08.048."
+    },
+    {
+      "n": 36,
+      "page": 10,
+      "raw": "[36] Lei Guo, Jianhong Tan, Savas¸. Kaya, et al., Multidimensional insights into the corrosion inhibition of 3, 3-dithiodipropionic acid on Q235 steel in H SO medium: a combined experimental and in silico investigation, J. Colloid Interface Sci. 570 (2020) 116–124, https://doi.org/10.1016/j.jcis.2020.03.001."
+    },
+    {
+      "n": 37,
+      "page": 10,
+      "raw": "[37] Jiakai Zhou, Xinhuan Niu, Zhi Wang, et al., Study on effective methods and mechanism of inhibiting cobalt removal rate in chemical mechanical polishing of GLSI low-tech node copper lilm, Ecs J. Solid State Sci. Technol. 8 (11) (2019), https://doi.org/10.1149/2.0271910jss, 0-0."
+    },
+    {
+      "n": 38,
+      "page": 10,
+      "raw": "[38] Fengxia Liu, Shengli Wang, Chenwei Wang, et al., Effect of diethylenetriamine pentaacetate pentapotassium on chemical mechanical polishing of cobalt in H O based slurry, Ecs J. Solid State Sci. Technol. 8 (5) (2019), https://doi.org/10.1149 2.0291905jss, 0-0."
+    },
+    {
+      "n": 39,
+      "page": 10,
+      "raw": "[39] Xinbo Zhang, Guofeng Pan, Lianjun Hu, et al., Effects of nitrilotriacetic acid and corrosion inhibitor on cobalt barrier chemical–mechanical polishing: experimental and density functional theory analysis, Colloids Surf. A: Physicochem. Eng. Asp. 605 (2020), 125392, https://doi.org/10.1016/j.colsurfa.2020.125392."
+    },
+    {
+      "n": 40,
+      "page": 10,
+      "raw": "[40] Mark C. Biesinger, Brad P. Payne, Andrew P. Grosvenor, et al., Resolving surface chemical states in XPS analysis of first row transition metals, oxides and hydroxides: Cr, Mn, Fe, Co and Ni, Appl. Surf. Sci. 257 (7) (2011) 2717–2730, https://doi.org/10.1016/j.apsusc.2010.10.051."
+    },
+    {
+      "n": 41,
+      "page": 10,
+      "raw": "[41] Bing Wu, Srini Raghavan, Removal of BTA adsorbed on Cu: a feasibility study using the quartz crystal microbalance with dissipation (QCMD) Technique, Ecs J. Solid State Sci. Technol. 8 (5) (2019), https://doi.org/10.1149/2.0191905JJSS, 0-0."
+    },
+    {
+      "n": 42,
+      "page": 10,
+      "raw": "[42] Siewteng Sim, Yoshito Andou, A.A. Bashid Hamra, et al., Development of organo dispersible graphene oxide via pseudo-surface modification for thermally conductive green polymer composites, Acs Omega 3 (12) (2018) 18124–18131, https://doi.org/10.1021/acsomega.8b02478."
+    },
+    {
+      "n": 43,
+      "page": 10,
+      "raw": "[43] Pengcheng Li, Xiaoan Li, Shujuan Dai, Adsorption of gold cyanide on quartz, Colloids Surf. A-Physicochem. Eng. Asp. (2020) 590, https://doi.org/10.1016/j colsurfa.2020.124514."
+    },
+    {
+      "n": 44,
+      "page": 10,
+      "raw": "[44] Chao Yu, Shutian Wu, Zhijuan Huang, et al., Water/ethanol complexation induced solubility variation of hexaquocobalt(II) bis (p-toluenesulfonate) and hexaquonickel(II) bis (p-toluenesulfonate, J. Mol. Liq. 224 (2016) 139–145 https://doi.org/10.1016/j.molliq.2016.09.094."
+    },
+    {
+      "n": 45,
+      "page": 10,
+      "raw": "[45] Xiaoxing Zhang, Yingang Gui, Hanyan Xiao, et al., Analysis of adsorption properties of typical partial discharge gases on Ni-SWCNTs using density functional theory, Appl. Surf. Sci. 379 (2016) 47–54, https://doi.org/10.1016/j. apsusc.2016.04.048."
+    },
+    {
+      "n": 46,
+      "page": 10,
+      "raw": "[46] Zaki S. Lei Guo, Savas Safi, Kaya, et al., Anticorrosive effects of some thiophene derivatives against the corrosion of iron: a computational study, Front. Chem. (2018) 6, https://doi.org/10.3389/fchem.2018.00155."
+    },
+    {
+      "n": 47,
+      "page": 10,
+      "raw": "[47] Lei Guo, Savas Kaya, Ime Bassey Obot, et al., Toward understanding the anticorrosive mechanism of some thiourea derivatives for carbon steel corrosion: a combined DFT and molecular dynamics investigation, J. Colloid Interface Sci. 506 (2017) 478–485, https://doi.org/10.1016/j.jcis.2017.07.082."
+    },
+    {
+      "n": 48,
+      "page": 10,
+      "raw": "[48] Robert C. Morrison, The extended Koopmans’ theorem and its exactness, J. Phys. Chem. 96 (5) (1992) 3718–3722, https://doi.org/10.1063/1.461875."
+    },
+    {
+      "n": 49,
+      "page": 10,
+      "raw": "[49] R. Luis, Domingo Patricia P´erez, Global and local reactivity indices for electrophilic/nucleophilic free radicals, Org. Biomol. Chem. 11 (26) (2013) 4350 4358, https://doi.org/10.1039/c3ob40337h."
+    },
+    {
+      "n": 50,
+      "page": 10,
+      "raw": "[50] Song Liu, Xiaotian Qi, Ruopeng Bai, et al., Theoretical study of Ni-catalyzed C–N radical–radical cross-coupling, J. Org. Chem. 84 (6) (2019) 3321–3327, https:// doi.org/10.1021/acs.joc.8b03245."
+    },
+    {
+      "n": 51,
+      "page": 10,
+      "raw": "[51] A. Stoyanova, G. Petkova, S.D. Peyerimhoff, Correlation between the molecular structure and the corrosion inhibiting effect of some pyrophthalone compounds, Chem. Phys. 279 (1) (2002) 1–6, https://doi.org/10.1016/S0301-0104(02)00408- 1."
+    },
+    {
+      "n": 52,
+      "page": 10,
+      "raw": "[52] Lei Guo Yujie Qiang, Hao Li, et al., Fabrication of environmentally friendly Losartan potassium film for corrosion inhibition of mild steel in HCl medium, Chem. Eng. J. 406 (2021), 126863, https://doi.org/10.1016/j.cej.2020.126863"
+    },
+    {
+      "n": 53,
+      "page": 10,
+      "raw": "[53] Hassane Lgaz, Sourav Kr Saha, Abdelkarim Chaouiki, et al., Exploring the potential role of pyrazoline derivatives in corrosion inhibition of mild steel in hydrochloric acid solution: Insights from experimental and computational studies, Constr. Build. Mater. 233 (2020), 117320, https://doi.org/10.1016/j.conbuildmat.2019.117320."
+    }
+  ]
+}

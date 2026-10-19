@@ -1,0 +1,210 @@
+{
+  "doc_id": "1_s2_0_S0927775723007902_main",
+  "title": "Insights into the synergistic effects of safranine in an acidic copper bath on through-hole void-free filling for high-quality electronics interconnection",
+  "doi": "10.1016/j.colsurfa.2023.131706",
+  "journal": "Colloids and Surfaces A",
+  "year": "2023",
+  "pages": 9,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 8,
+      "raw": "[1] Y. Chen, W. He, X. Chen, C. Wang, Z. Tao, S. Wang, G. Zhou, M. Moshrefi-Torbati, Plating uniformity of bottom-up copper pillars and patterns for ic substrates with additive-assisted electrodeposition, Electrochim. Acta 120 (2014) 293 301."
+    },
+    {
+      "n": 2,
+      "page": 8,
+      "raw": "[2] Y.M. Chen, Y.Z. Chen, J.Z. Wang, K. Zhu, L.P. Jia, S.X. Wang, W. He, Q.G. Chen, H. Miao, J.Q. Zhou, Enhancing adhesion performance of sputtering Ti/Cu film on"
+    },
+    {
+      "n": null,
+      "page": 9,
+      "raw": "pretreated composite prepreg for stacking structure of IC substrates, Compos Part B Eng. 158 (2019) 400–405."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] L. Jin, W.-Q. Li, Z.-Y. Wang, J.-Q. Yang, A.-N. Zheng, F.-Z. Yang, D. Zhan, D.-Y. Wu, Z.-Q. Tian, Novel, simple, and green citrate-based copper electronic electroplating bath in microvia void-free filling for printed circuit board application, ACS Sustain. Chem. Eng. 10 (2022) 14204–14211."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] J.-M. Lee, A.C. West, Impact of pulse parameters on current distribution in high aspect ratio vias and through-holes, J. Electrochem. Soc. 152 (2005) C645."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] Y. Zhang, T. Hang, M. Dong, Y. Wu, H. Ling, A. Hu, M. Li, Effects of 2-mercaptopyridine and Janus Green B as levelers on electrical resistance of electrodeposited copper thin film for interconnects, Thin Solid Films 677 (2019) 39–44."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] L.J. Zhao-Yun Wang, Jia-Qiang Yang, Wei-Qing Li, Dong-Ping Zhan, Fang-Zu Yang, Shi-Gang Sun, Studies and progresses on hole metallization in high-density interconnected printed circuit boards, J. Electrochem. 27 (2021) 316–331."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] Y.H. Zhang, M.Z. An, P.X. Yang, J.Q. Zhang, Recent advances in electroplating of through-hole copper interconnection, Electrocatalysis 12 (2021) 619–627."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] M. Ozkok, S. Lamprecht, A. Ozkok, S. Chien, H. Hubner, C. Ohde, Filling of microvias and through holes by electrolytic copper plating – current status and future outlook, in: Proceedings of the 13th International Microsystems, Packaging, Assembly and Circuits Technology Conference (Impact), 2018, pp. 83–88."
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] N. Jayaraju, L. Barstad, Z. Niazimbetova, M. Rzeznik, M. Lin, D. Yee, Next generation copper electroplating for HDI micro-via filling and through hole plating, in: Proceedings of the International Microsystems, Packaging, Assembly & Circuits Technology Conference, 2015, pp. 161–164."
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] J.G. Lv, X.H. Zhao, X. Jie, J. Li, X.C. Wei, B. Chen, G. Hong, W.J. Wu, L.M. Wang, Fatty acid quaternary ammonium surfactants based on renewable resources as a leveler for copper electroplating, ChemElectroChem 6 (2019) 3254–3263."
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] X.M. Wang, K. Wang, J. Xu, J. Li, J.E. Lv, M. Zhao, L.M. Wang, Quinacridone skeleton as a promising efficient leveler for smooth and conformal copper electrodeposition, Dyes Pigments 181 (2020)."
+    },
+    {
+      "n": 12,
+      "page": 9,
+      "raw": "[12] L. Zheng, W. He, K. Zhu, C. Wang, S.X. Wang, Y. Hong, Y.M. Chen, G.Y. Zhou, H. Miao, J.Q. Zhou, Investigation of poly (1-vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole, Electrochim. Acta 283 (2018) 560–567."
+    },
+    {
+      "n": 13,
+      "page": 9,
+      "raw": "[13] J. Li, G.Y. Zhou, Y. Hong, C. Wang, W. He, S.X. Wang, Y.M. Chen, Z.S. Wen, Q. Y. Wang, Copolymer of pyrrole and 1,4-butanediol diglycidyl as an efficient additive leveler for through-hole copper electroplating, ACS Omega 5 (2020) 4868–4874."
+    },
+    {
+      "n": 14,
+      "page": 9,
+      "raw": "[14] Z.-Y. Wang, L. Jin, G. Li, J.-Q. Yang, W.-Q. Li, D. Zhan, Y.-X. Jiang, F.-Z. Yang, S.- G. Sun, Electrochemical and in situ FTIR spectroscopic studies of gentian violet as a novel leveler in through-holes metallization for printed circuit board applications, Electrochim. Acta 410 (2022), 140018."
+    },
+    {
+      "n": 15,
+      "page": 9,
+      "raw": "[15] P. Dixit, J. Miao, Aspect-ratio-dependent copper electrodeposition technique for very high aspect-ratio through-hole plating, J. Electrochem. Soc. 153 (2006) G552."
+    },
+    {
+      "n": 16,
+      "page": 9,
+      "raw": "[16] W.-P. Dow, H.-H. Chen, M.-Y. Yen, W.-H. Chen, K.-H. Hsu, P.-Y. Chuang, H. Ishizuka, N. Sakagawa, R. Kimizuka, Through-hole filling by copper electroplating, J. Electrochem. Soc. 155 (2008) D750–D757."
+    },
+    {
+      "n": 17,
+      "page": 9,
+      "raw": "[17] T.M. Braun, D. Josell, J. John, T.P. Moffat, Simulation of copper electrodeposition in through-hole vias, J. Electrochem. Soc. 167 (2019)."
+    },
+    {
+      "n": 18,
+      "page": 9,
+      "raw": "[18] T.P. Moffat, D. Wheeler, S.K. Kim, D. Josell, Curvature enhanced adsorbate coverage mechanism for bottom-up superfilling and bump control in damascene processing, Electrochim. Acta 53 (2007) 145–154."
+    },
+    {
+      "n": 19,
+      "page": 9,
+      "raw": "[19] N.T.M. Hai, J. Oderrnatt, V. Grimaudo, K.W. Kramer, A. Fluegel, M. Arnold, D. Mayer, P. Broekmann, Potential oscillations in galvanostatic Cu electrodeposition: antagonistic and synergistic effects among SPS, chloride, and suppressor additives, J. Phys. Chem. C 116 (2012) 6913–6924."
+    },
+    {
+      "n": 20,
+      "page": 9,
+      "raw": "[20] B. Bozzini, L. D’Urzo, C. Mele, Electrodeposition of Cu from cyanoalkaline solutions in the presence of CPC and PEG an electrochemical and in Situ SERS investigation, J. Electrochem. Soc. 152 (2005) C255–C264."
+    },
+    {
+      "n": 21,
+      "page": 9,
+      "raw": "[21] B. Bozzini, L. D’Urzo, V. Romanello, C. Mele, Electrodeposition of Cu from acidic sulfate solutions in the presence of bis-(3-sulfopropyl)-disulfide (SPS) and chloride ions, J. Electrochem. Soc. 153 (2006) C254 C257."
+    },
+    {
+      "n": 22,
+      "page": 9,
+      "raw": "[22] Z.V. Feng, X. Li, A.A. Gewirth, Inhibition due to the interaction of polyethylene glycol, chloride, and copper in plating baths: a surface-enhanced Raman study, J. Phys. Chem. B 107 (2003) 9415–9423."
+    },
+    {
+      "n": 23,
+      "page": 9,
+      "raw": "[23] M. Kunimoto, F. Yamaguchi, M. Yanagisawa, T. Homma, In situ measurement for diffusion-adsorption process of Cl− and SPS in through-silicon via using SERS effect produced by Cu nanodot arrays, J. Electrochem.Soc. 166 (2019) D212 D217."
+    },
+    {
+      "n": 24,
+      "page": 9,
+      "raw": "[24] H.C. Kim, M.J. Kim, J.J. Kim, Communication-acceleration of TSV filling by adding thiourea to PEG-PPG-SPS-I-, J. Electrochem. Soc. 165 (2018) D91 D93."
+    },
+    {
+      "n": 25,
+      "page": 9,
+      "raw": "[25] J. Mendez, R. Akolkar, U. Landau, Polyether suppressors enabling copper metallization of high aspect ratio interconnects, J. Electrochem. Soc. 156 (2009) D474–D479."
+    },
+    {
+      "n": 26,
+      "page": 9,
+      "raw": "[26] J. Zhang, X. Qu, Y. Han, L. Shen, S. Yin, G. Li, Y. Jiang, S. Sun, Engineering PtRu bimetallic nanoparticles with adjustable alloying degree for methanol electrooxidation: Enhanced catalytic performance, Appl. Catal. B Environ. 263 (2020), 118345."
+    },
+    {
+      "n": 27,
+      "page": 9,
+      "raw": "[27] P.-F. Zhang, J.-Y. Zhang, T. Sheng, Y.-Q. Lu, Z.-W. Yin, Y.-Y. Li, X.-X. Peng, Y. Zhou, J.-T. Li, Y.-J. Wu, J.-X. Lin, B.-B. Xu, X.-M. Qu, L. Huang, S.-G. Sun, Synergetic effect of Ru and NiO in the electrocatalytic decomposition of Li2CO3 to enhance the performance of a Li-CO /O2 battery, ACS Catal. 10 (2020) 1640–1651."
+    },
+    {
+      "n": 28,
+      "page": 9,
+      "raw": "[28] M. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb, J.R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. Petersson, Gaussian 09, revision D. 01, Gaussian, Inc., Wallingford CT, 2009."
+    },
+    {
+      "n": 29,
+      "page": 9,
+      "raw": "[29] G.-K. Liu, S. Zou, D. Josell, L.J. Richter, T.P. Moffat, SEIRAS study of chloridemediated polyether adsorption on Cu, J. Phys. Chem. C 122 (2018) 21933–21951."
+    },
+    {
+      "n": 30,
+      "page": 9,
+      "raw": "[30] S. Zhao, J. Li, L. Wang, X. Wang, Degradation of rhodamine B and safranin-T by MoO3: CeO2 nanofibers and air using a continuous mode, CLEAN Soil Air Water 38 (2010) 268–274."
+    },
+    {
+      "n": 31,
+      "page": 9,
+      "raw": "[31] G. Ciri´ ´c-Marjanovi´c, N.V. Blinova, M. Trchov´a, J. Stejskal, Chemical oxidative polymerization of safranines, J. Phys. Chem. B 111 (2007) 2188–2199."
+    },
+    {
+      "n": 32,
+      "page": 9,
+      "raw": "[32] Z.Q. Lai, S.X. Wang, C. Wang, Y. Hong, Y.M. Chen, H.W. Zhang, G.Y. Zhou, W. He, K.H. Ai, Y.Q. Peng, Computational analysis and experimental evidence of two typical levelers for acid copper electroplating, Electrochim. Acta 273 (2018) 318–326."
+    },
+    {
+      "n": 33,
+      "page": 9,
+      "raw": "[33] B. Chen, J. Xu, L. Wang, L. Song, S. Wu, Synthesis of quaternary ammonium salts based on diketopyrrolopyrroles skeletons and their applications in copper electroplating, ACS Appl. Mater. Interfaces 9 (2017) 7793 7803"
+    },
+    {
+      "n": 34,
+      "page": 9,
+      "raw": "[34] Z.Q. Lai, S.X. Wang, C. Wang, Y. Hong, G.Y. Zhou, Y.M. Chen, W. He, Y.Q. Peng, D. J. Xiao, A comparison of typical additives for copper electroplating based on theoretical computation, Comput. Mater. Sci. 147 (2018) 95 102."
+    },
+    {
+      "n": 35,
+      "page": 9,
+      "raw": "[35] S.A. Moon, B.K. Salunke, P. Saha, A.R. Deshmukh, B.S. Kim, Comparison of dye degradation potential of biosynthesized copper oxide, manganese dioxide, and silver nanoparticles using Kalopanax pictus plant extract, Korean J. Chem. Eng. 35 (2018) 702 708."
+    },
+    {
+      "n": 36,
+      "page": 9,
+      "raw": "[36] H. Van Damme, M. Crespin, M. Cruz, J. Fripiat, Adsorption of safranine by Na+, Ni2+ and Fe3+ montmorillonites, Clays Clay Miner. 25 (1977) 19–25."
+    },
+    {
+      "n": 37,
+      "page": 9,
+      "raw": "[37] Z.D. Schultz, Z.V. Feng, M.E. Biggin, A.A. Gewirth, Vibrational spectroscopic and mass spectrometric studies of the interaction of bis(3-sulfopropyl)-disulfide with Cu surfaces, J. Electrochem. Soc. 153 (2006) C97"
+    }
+  ]
+}

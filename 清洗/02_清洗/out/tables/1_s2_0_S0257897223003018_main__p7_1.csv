@@ -1,0 +1,9 @@
+﻿,SPS (ppm),PEG (ppm),Leveler,Leveler (ppm)
+Bath 1,0,0,-,0
+Bath 2,2,200,-,0
+Bath 3,2,200,Cz-BPDB,0.1
+Bath 4,2,200,Cz-BPDB,0.3
+Bath 5,2,200,Cz-BPDB,0.5
+Bath 6,2,200,JGB,0.1
+Bath 7,2,200,JGB,0.3
+Bath 8,2,200,JGB,0.5

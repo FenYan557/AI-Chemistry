@@ -1,0 +1,205 @@
+{
+  "doc_id": "1_s2_0_S2352492825007378_main",
+  "title": "Molecular structure with adsorption behavior of butynediol and its effects on cobalt electrodeposition",
+  "doi": "10.1016/j.mtcomm.2025.112225",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 9,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] L.-J. Wei, Z.-H. Zhou, Y.-W. Wu, M. Li, S. Wang, Research progresses of cobalt interconnect and superfilling by electroplating in chips, J. Electrochem. 28 (2022) 12."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] P.C. Andricacos, Copper on-chip interconnections: a breakthrough in electrodeposition to make better chips, Electrochem. Soc. Interface 8 (1999) 32."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] W. Steinhogl, ¨ G. Schindler, G. Steinlesberger, M. Engelhardt, Size-dependent resistivity of metallic wires in the mesoscopic range, Phys. Rev. B 66 (2002) 075414."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] X. Ma, Y. Ma, A.M. Nolan, J. Bai, W. Xu, Y. Mo, H. Chen, Understanding the polymorphism of cobalt nanoparticles formed in electrodeposition─ an in situ XRD study, ACS Mater. Lett. 5 (2023) 979–984."
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] M. He, X. Zhang, T. Nogami, X. Lin, J. Kelly, H. Kim, T. Spooner, D. Edelstein, L. Zhao, Mechanism of Co liner as enhancement layer for Cu interconnect gap-fill, J. Electrochem. Soc. 160 (2013) D3040–D3044."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] J. Kang, M. Sung, J. Byun, O.J. Kwon, J.J. Kim, Superconformal cobalt electrodeposition with a hydrogen evolution reaction suppressing additive, J. Electrochem. Soc. 167 (2020)."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] J. Kang, M. Sung, J. Byun, O.J. Kwon, J.J. Kim, Proton sensitive additive for cobalt electrodeposition, J. Electrochem. Soc. 167 (2020)."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] M.A. Rigsby, L.J. Brogan, N.V. Doubina, Y. Liu, E.C. Opocensky, T.A. Spurlin, J. Zhou, J.D. Reid, The critical role of ph gradient formation in driving superconformal cobalt deposition, J. Electrochem. Soc. 166 (2018) D3167–D3174."
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] Y. Li, X. Ma, J. Zhang, P. Yang, M. An, Research progress of metal interconnection technology and related theory in chip fabrication, Surf. Technol. 50 (2021) 24–43."
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] Y. Li, X. Ma, C. Li, R. Li, J. Zhang, P. Yang, X. Liu, P. Broekmann, B. Wang, W. Lv, Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth, J. Manuf. Process. 101 (2023) 15 24."
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] Y. Hu, Q. Huang, Effects of dimethylglyoxime and cyclohexane dioxime on the electrochemical nucleation and growth of cobalt, J. Electrochem. Soc. 166 (2018) D3175 D3181."
+    },
+    {
+      "n": 12,
+      "page": 9,
+      "raw": "[12] Q. Huang, T.W. Lyons, W.D. Sides, Electrodeposition of cobalt for interconnect application: effect of dimethylglyoxime, J. Electrochem. Soc. 163 (2016) D715 D721."
+    },
+    {
+      "n": 13,
+      "page": 9,
+      "raw": "[13] Y.T. Tong, D.W. Lai, Y. Li, T. Hang, M. Li, Y.W. Wu, Inhibitor alkyne-PEG4-amine contributes to cobalt superfilling, Acs Appl. Electron. Mater. 6 (2024) 5712–5719."
+    },
+    {
+      "n": 14,
+      "page": 9,
+      "raw": "[14] M. Kiruba, N. Lakshminarasimhan, C. Jeyabharathi, Butynediol’s role beyond brightening additive during electrodeposition of cobalt, J. Electrochem. Soc. 169 (2022)."
+    },
+    {
+      "n": 15,
+      "page": 9,
+      "raw": "[15] M. Kiruba, C. Jeyabharathi, Discerning the oscillatory electrochemical response during electrodeposition of cobalt in the presence of but-2-yne-1,4-diol, J. Solid State Electr. 24 (2020) 2997–3002."
+    },
+    {
+      "n": 16,
+      "page": 9,
+      "raw": "[16] B. Pan, Q. Zhang, Z. Liu, Y. Yang, Influence of butynediol and tetrabutylammonium bromide on the morphology and structure of electrodeposited cobalt in the presence of saccharin, Mater. Chem. Phys. 228 (2019) 37–44."
+    },
+    {
+      "n": 17,
+      "page": 9,
+      "raw": "[17] M. Frisch, G. Trucks, H. Schlegel, G. Scuseria, M. Robb, J. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. Petersson, Gaussian 09, Revision D. 01, Gaussian, Inc, Wallingford CT, 2009. 〈http://www.gaussian. com〉."
+    },
+    {
+      "n": 18,
+      "page": 9,
+      "raw": "[18] J. Tirado-Rives, W.L. Jorgensen, Performance of B3LYP density functional methods for a large set of organic molecules, J. Chem. Theory Comput. 4 (2008) 297 306."
+    },
+    {
+      "n": 19,
+      "page": 9,
+      "raw": "[19] T. Lu, F. Chen, Quantitative analysis of molecular surface based on improved Marching Tetrahedra algorithm, J. Mol. Graph. Model. 38 (2012) 314 323."
+    },
+    {
+      "n": 21,
+      "page": 9,
+      "raw": "[21] T. Lu, S. Manzetti, Wavefunction and reactivity study of benzo [a] pyrene dio epoxide and its enantiomeric forms, Struct. Chem. 25 (2014) 1521–1533."
+    },
+    {
+      "n": 22,
+      "page": 9,
+      "raw": "[22] T. Lu, F. Chen, Multiwfn: a multifunctional wavefunction analyzer, J. Comput. Chem. 33 (2012) 580 592."
+    },
+    {
+      "n": 23,
+      "page": 9,
+      "raw": "[23] C. Adamo, V. Barone, Toward reliable density functional methods without adjustable parameters: The PBE0 model, J. Chem. Phys. 110 (1999) 6158–6170."
+    },
+    {
+      "n": 24,
+      "page": 9,
+      "raw": "[24] G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set, Comp. Mater. Sci. 6 (1996) 15–50."
+    },
+    {
+      "n": 25,
+      "page": 9,
+      "raw": "[25] G. Kresse, J. Furthmüller, Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set, Phys. Rev. B 54 (1996) 11169."
+    },
+    {
+      "n": 26,
+      "page": 9,
+      "raw": "[26] G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the projector augmented wave method, Phys. Rev. b 59 (1999) 1758."
+    },
+    {
+      "n": 27,
+      "page": 9,
+      "raw": "[27] P.E. Blochl, ¨ Projector augmented-wave method, Phys. Rev. B 50 (1994) 17953"
+    },
+    {
+      "n": 28,
+      "page": 9,
+      "raw": "[28] J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made simple, Phys. Rev. Lett. 77 (1996) 3865."
+    },
+    {
+      "n": 29,
+      "page": 9,
+      "raw": "[29] J.A. Dean, Lange’s Handbook of Chemistry, 1999."
+    },
+    {
+      "n": 30,
+      "page": 9,
+      "raw": "[30] P. Geerlings, F. De Proft, Chemical reactivity as described by quantum chemical methods, Int. J. Mol. Sci. 3 (2002) 276 309."
+    },
+    {
+      "n": 31,
+      "page": 9,
+      "raw": "[31] L. Jin, Z.-Y. Wang, Z.-Y. Cai, J.-Q. Yang, A.-N. Zheng, F.-Z. Yang, D.-Y. Wu, D. Zhan, 1-(2-Pyridylazo)-2-naphthol as a synergistic additive for improving throwing power of through hole copper electronic electroplating, J. Ind. Eng Chem. 125 (2023) 269–276."
+    },
+    {
+      "n": 32,
+      "page": 9,
+      "raw": "[32] R.G. Pearson, Absolute electronegativity and hardness: application to inorganic chemistry, Inorg. Chem. 27 (1988) 734–740"
+    },
+    {
+      "n": 33,
+      "page": 9,
+      "raw": "[33] X. Li, P. Zou, X. Chen, L. Wang, Quantum chemical calculations and molecula dynamics simulations to investigate the mechanism of interaction of six dye levelers with copper surface, J. Electroanal. Chem. 961 (2024) 118230."
+    },
+    {
+      "n": 34,
+      "page": 9,
+      "raw": "[34] R.S. Nicholson, I. Shain, Theory of stationary electrode polarography. Single scan and cyclic methods applied to reversible, irreversible, and kinetic systems, Anal. Chem. 36 (1964) 706 723."
+    },
+    {
+      "n": 35,
+      "page": 9,
+      "raw": "[35] A.J. Bard, L.R. Faulkner, Electrochemical methods: fundamentals and applications, Surf, Technol, 20 (1983) 91–92"
+    },
+    {
+      "n": 36,
+      "page": 9,
+      "raw": "[36] Y. Xiaowei, A. Maozhong, Z. Yunwang, Z. Lin, Electrochemical behavior of gold (III) in cyanide-free bath with 5, 5′-dimethylhydantoin as complexing agent, Electro Acta 58 (2011) 516–522."
+    },
+    {
+      "n": 37,
+      "page": 9,
+      "raw": "[37] L. Jin, Z.-H. Liang, J.-Q. Yang, A.-N. Zheng, Z.-Y. Wang, F.-Z. Yang, D.-Y. Wu, Z.- Q. Tian, D. Zhan, Insights into the DMH tautomeric structures and its effects on the electro-reduction of Au (DMH) 4− coordination ions, Electro Acta 437 (2023) 141494."
+    },
+    {
+      "n": 38,
+      "page": 9,
+      "raw": "[38] B. Scharifker, G. Hills, Theoretical and experimental studies of multiple nucleation, Electro Acta 28 (1983) 879–889."
+    }
+  ]
+}

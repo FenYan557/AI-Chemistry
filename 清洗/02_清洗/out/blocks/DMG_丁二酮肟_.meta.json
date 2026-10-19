@@ -1,0 +1,241 @@
+{
+  "doc_id": "DMG_丁二酮肟_",
+  "title": "Electrodeposition of Cobalt for Interconnect Application: Effect of Dimethylglyoxime",
+  "doi": "10.1149/2.1111613jes",
+  "journal": "其他期刊",
+  "year": "2016",
+  "pages": 8,
+  "printed_page_map": {},
+  "references": [
+    {
+      "n": 1,
+      "page": 8,
+      "raw": "1. D. Edelstein, J. Heidenreich, R. Goldblatt, W. Cote, C. Uzoh, N. Lustig, P. Roper, T. McDevitt, W. Motsiff, and A. Simon, Technical Digest of International Electron Devices Meeting, IEDM, 97, 773 (1997)."
+    },
+    {
+      "n": 2,
+      "page": 8,
+      "raw": "2. C.-K. Hu and J. Harper, Materials Chemistry and Physics, 52, 5 (1998)."
+    },
+    {
+      "n": 3,
+      "page": 8,
+      "raw": "3. W. Steinhogl, G. Schindler, G. Steinlesberger, and M. Engelhardt,¨ Physical Review B, 66, 075414 (2002)."
+    },
+    {
+      "n": 4,
+      "page": 8,
+      "raw": "4. W. Zhang, S. H. Brongersma, O. Richard, B. Brijs, R. Palmans, L. Froyen, and K. Maex, Microelectronic Engineering, 76, 146 (2004)."
+    },
+    {
+      "n": 5,
+      "page": 8,
+      "raw": "5. W. Zhang, S. H. Brongersma, Z. Li, D. Li, O. Richard, and K. Maex, Journal of Applied Physics, 101, 063703 (2007)."
+    },
+    {
+      "n": 6,
+      "page": 8,
+      "raw": "6. D. Gall, Journal of Applied Physics, 119, 085101 (2016)."
+    },
+    {
+      "n": 7,
+      "page": 8,
+      "raw": "7. M. Lane, C. Murray, F. McFeely, P. Vereecken, and R. Rosenberg, Appl. Phys. Lett., 83, 2330 (2003)."
+    },
+    {
+      "n": 8,
+      "page": 8,
+      "raw": "8. O. Chyan, T. N. Arunagiri, and T. Ponnuswamy, Journal of the Electrochemical Society, 150, C347 (2003)."
+    },
+    {
+      "n": 9,
+      "page": 8,
+      "raw": "9. T. P. Moffat, M. Walker, P. J. Chen, J. E. Bonevich, W. F. Egelhoff, L. Richter, C. Witt, T. Aaltonen, M. Ritala, M. Leskela, and D. Josell, Journal of the Electrochemical Society, 153, C37 (2006)."
+    },
+    {
+      "n": 10,
+      "page": 8,
+      "raw": "10. T. Nogami, M. He, X. Zhang, K. Tanwar, R. Patlolla, J. Kelly, D. Rath, M. Krishnan, X. Lin, and O. Straten, Proceedings of 2013 IEEE International Interconnect Technology Conference-IITC, pp. 1, Kyoto, Japan, 2013."
+    },
+    {
+      "n": 11,
+      "page": 8,
+      "raw": "11. T. Nogami, J. Maniscalco, A. Madan, P. Flaitz, P. DeHaven, C. Parks, L. Tai, B. S. Lawrence, R. Davis, and R. Murphy, Proceedings of 2010 IEEE International Interconnect Technology Conference, pp. 1, 2010."
+    },
+    {
+      "n": 12,
+      "page": 8,
+      "raw": "12. M. He, X. Zhang, T. Nogami, X. Lin, J. Kelly, H. Kim, T. Spooner, D. Edelstein, and L. Zhao, Journal ofThe Electrochemical Society, 160, D3040 (2013)."
+    },
+    {
+      "n": 13,
+      "page": 8,
+      "raw": "13. Q. Huang, B. C. Baker-O’Neal, C. Cabral, E. Simonyi, V. R. Deline, and M. Hopstaken, Journal ofThe Electrochemical Society, 160, D3045 (2013)."
+    },
+    {
+      "n": 14,
+      "page": 8,
+      "raw": "14. T. Nogami, B. D. Briggs, S. Korkmaz, M. Chae, C. Penny, J. Li, W. Wang, P. S. McLaughlin, T. Kane, and C. Parks, Proceedings of 2015 IEEE International Electron Devices Meeting (IEDM), pp. 8.1.1-8.1.4, 2015."
+    },
+    {
+      "n": 15,
+      "page": 8,
+      "raw": "15. M. H. van der Veen, K. Vandersmissen, D. Dictus, S. Demuynck, R. Liu, X. Bin, P. Nalla, A. Lesniewska, L. Hall, and K. Croes, Proceedings of 2015 IEEE International Interconnect Technology Conference and 2015 IEEE Materials for Advanced Metallization Conference (IITC/MAM), pp. 25, 2015."
+    },
+    {
+      "n": 16,
+      "page": 8,
+      "raw": "16. C. H. Lee, J. E. Bonevich, J. E. Davies, and T. P. Moffat, Journal ofthe Electrochemical Society, 156, D301 (2009)."
+    },
+    {
+      "n": 17,
+      "page": 8,
+      "raw": "17. C. H. Lee, J. E. Bonevich, J. E. Davies, and T. P. Moffat, Journal of The Electrochemical Society, 155, D499 (2008)."
+    },
+    {
+      "n": 18,
+      "page": 8,
+      "raw": "18. X. Zheng, Y.-N. Shi, and K. Lu, Journal ofThe Electrochemical Society, 162, D222 (2015)."
+    },
+    {
+      "n": 19,
+      "page": 8,
+      "raw": "19. X. Zheng, Y.-N. Shi, and K. Lu, Journal ofThe Electrochemical Society, 163, D349 (2016)."
+    },
+    {
+      "n": 20,
+      "page": 8,
+      "raw": "20. D. Liang, J. Liu, K. Reuter, B. Baker-O’Neal, and Q. Huang, Journal ofthe Electrochemical Society, 161, D301 (2014)."
+    },
+    {
+      "n": 21,
+      "page": 8,
+      "raw": "21. C.-C. Wei, E. Chou, S. Shih, and S.-M. Lin, Proceedings of 228th Electrochemica Society Meeting Abstract, pp. 949, AZ Phoenix, 2015."
+    },
+    {
+      "n": 22,
+      "page": 8,
+      "raw": "22. T. Osaka, M. Takai, K. Hayashi, K. Ohashi, M. Saito, and K. Yamada, Nature, 392 796 (1998)."
+    },
+    {
+      "n": 23,
+      "page": 8,
+      "raw": "23. T. Osaka, M. Takai, K. Hayashi, Y. Sogawa, K. Ohashi, Y. Yasue, M. Saito, and K. Yamada, Ieee T Magn, 34, 1432 (1998)."
+    },
+    {
+      "n": 24,
+      "page": 8,
+      "raw": "24. I. Tabakovic, V. Inturi, and S. Riemer, Journal of the Electrochemical Society, 149, C18 (2002)."
+    },
+    {
+      "n": 25,
+      "page": 8,
+      "raw": "25. Y. Zhuang and E. Podlaha, Journal ofthe Electrochemical Society, 147, 2231 (2000)."
+    },
+    {
+      "n": 26,
+      "page": 8,
+      "raw": "26. T. Osaka, T. Yokoshima, D. Shiga, K. Imai, and K. Takashima, Electrochem Solid St, 6, C53 (2003)."
+    },
+    {
+      "n": 27,
+      "page": 8,
+      "raw": "27. F. Lallemand, L. Ricq, M. Wery, P. Bercot, and J. Pagetti, Surf Coat Tech, 179, 314 (2004)."
+    },
+    {
+      "n": 28,
+      "page": 8,
+      "raw": "28. E. I. Cooper, C. Bonhote, J. Heidmann, Y. Hsu, P. Kern, J. W. Lam,ˆ M. Ramasubramanian, N. Robertson, L. T. Romankiw, and H. Xu, IBM Journa ofResearch and Development, 49, 103 (2005)."
+    },
+    {
+      "n": 29,
+      "page": 8,
+      "raw": "29. T. Osaka, T. Sawaguchi, F. Mizutani, T. Yokoshima, M. Takai, and Y. Okinaka, Journal ofthe Electrochemical Society, 146, 3295 (1999)."
+    },
+    {
+      "n": 30,
+      "page": 8,
+      "raw": "30. S. Patai, Chemistry of sulphinic acids, esters and their derivatives, Wiley and Sons, New York (1990)."
+    },
+    {
+      "n": 31,
+      "page": 8,
+      "raw": "31. V. Paneccasio, Q. Chen, C. Valverde, N. Petrov, C. Witt, and R. Hurtubise, US (2005)."
+    },
+    {
+      "n": 32,
+      "page": 8,
+      "raw": "32. Q. Huang, B. C. Baker-O’Neal, J. J. Kelly, P. Broekmann, A. Wirth, C. Emnet, M. Martin, M. Hahn, A. Wagner, and D. Mayer, Electrochemical and Solid-State Letters, 12, D27 (2009)."
+    },
+    {
+      "n": 33,
+      "page": 8,
+      "raw": "33. J. Horkans, I. C. H. Chang, P. Andricacos, and E. J. Podlaha, Journal ofthe Electrochemical Society, 138, 411 (1991)."
+    },
+    {
+      "n": 34,
+      "page": 8,
+      "raw": "34. P. Andricacos, Journal ofthe Electrochemical Society, 142, 1824 (1995)."
+    },
+    {
+      "n": 35,
+      "page": 8,
+      "raw": "35. P. Andricacos, C. Arana, J. Tabib, J. Dukovic, and L. Romankiw, Journal of the Electrochemical Society, 136, 1336 (1989)."
+    },
+    {
+      "n": 36,
+      "page": 8,
+      "raw": "36. Q. Huang, D. Young, J. Chan, J. Jiang, and E. Podlaha, Journal of the Electrochemical Society, 149, C349 (2002)."
+    },
+    {
+      "n": 37,
+      "page": 8,
+      "raw": "37. L. A. Baxter, A. Bobrowski, A. M. Bond, G. A. Heath, R. L. Paul, R. Mrzljak, and J. Zarebski, Analytical chemistry, 70, 1312 (1998)."
+    },
+    {
+      "n": 38,
+      "page": 8,
+      "raw": "38. A. E. Martell and R. M. Smith, Critical stability constants, Springer, (1974)."
+    },
+    {
+      "n": 39,
+      "page": 8,
+      "raw": "39. N. Zech, E. Podlaha, and D. Landolt, Journal of the Electrochemical Society, 146, 2892 (1999)."
+    },
+    {
+      "n": 40,
+      "page": 8,
+      "raw": "40. Y. Zhuang and E. Podlaha, Journal ofthe Electrochemical Society, 150 (2003)."
+    },
+    {
+      "n": 41,
+      "page": 8,
+      "raw": "41. Q. Huang and E. Podlaha, Journal of the Electrochemical Society, 151, C119 (2004)."
+    },
+    {
+      "n": 42,
+      "page": 8,
+      "raw": "42. B. C. Baker and A. C. West, Journal of the Electrochemical Society, 144, 164 (1997)."
+    },
+    {
+      "n": 43,
+      "page": 8,
+      "raw": "43. J. Kelly and A. West, Journal ofThe Electrochemical Society, 145, 3477 (1998)."
+    },
+    {
+      "n": 44,
+      "page": 8,
+      "raw": "44. B. C. Baker and A. C. West, Journal of the Electrochemical Society, 144, 169 (1997)."
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "raw": "45. J. Kelly and A. West, Journal ofThe Electrochemical Society, 145, 3472 (1998)"
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "raw": "46. A. J. Bard, L. R. Faulkner, J. Leddy, and C. G. Zoski, Electrochemical methods: fundamentals and applications, Wiley, New York (1980)."
+    }
+  ]
+}

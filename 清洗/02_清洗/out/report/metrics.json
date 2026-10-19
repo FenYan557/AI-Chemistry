@@ -1,0 +1,535 @@
+{
+  "before": {
+    "总块": 10975,
+    "噪音块": 5168,
+    "text": 4178,
+    "table": 98,
+    "equation": 149,
+    "image": 762,
+    "chart": 620,
+    "过短块": 893,
+    "句尾未终止": 2180,
+    "含LaTeX块": 90
+  },
+  "after": {
+    "保留块": 5316,
+    "丢弃碎片": 67,
+    "标题块": 987,
+    "图": 1382,
+    "正文段": 2700,
+    "正文段字符": 1593206,
+    "合并后仍碎": 296,
+    "长段切分": 473,
+    "丢弃作者与致谢段": 74,
+    "图有caption": 809,
+    "参考文献条数": 2758,
+    "可映射页码": 512,
+    "表格": 98,
+    "表格多级表头": 0,
+    "表格ragged": 0,
+    "表格数值格": 1426,
+    "公式": 149,
+    "定义式候选": 112,
+    "合并后过短": 4,
+    "清洗前非噪音块": 5807
+  },
+  "metrics": {
+    "总块数": "10975 → 5316",
+    "噪音块": "5168（47.1%）→ 0",
+    "正文块": "4178 → 2700 段（减少 35.4%，平均 1.55 块/段）",
+    "句尾未终止占比": "52.2% → 11.0%",
+    "过短块(<15字符)": "21.4% → 0.1%",
+    "含LaTeX正文块": "90 → 0",
+    "表格": "98 → 98，其中 ragged 0（0.0%）",
+    "表格数值格": 1426,
+    "图": "1382 → 1382（有 caption 809，58.5%）",
+    "公式": "149 → 149（含等号 112）",
+    "丢弃碎片": 67,
+    "长段切分(>1200字符)": "473 段被切",
+    "超长段(>1800字符)": 0,
+    "删除决策条数": 5796,
+    "删除可审计率": "100.0%"
+  },
+  "docs": [
+    {
+      "doc_id": "1_s2_0_S0010854522005239_main",
+      "title": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions",
+      "doi": "10.1016/j.ccr.2022.214928",
+      "pages": 37,
+      "raw_blocks": 702,
+      "kept_blocks": 257,
+      "out_blocks": 241,
+      "text_merged_from": 142
+    },
+    {
+      "doc_id": "1_s2_0_S0013468609007385_main",
+      "title": "Microvia filling by copper electroplating using diazine black as a leveler",
+      "doi": "10.1016/j.electacta.2009.05.053",
+      "pages": 8,
+      "raw_blocks": 159,
+      "kept_blocks": 76,
+      "out_blocks": 69,
+      "text_merged_from": 179
+    },
+    {
+      "doc_id": "1_s2_0_S0013468621017357_main",
+      "title": "Structural influence of nitrogen-containing groups on triphenylmethane-based levelers in super-conformal copper electroplating",
+      "doi": "10.1016/j.electacta.2021.139445",
+      "pages": 11,
+      "raw_blocks": 189,
+      "kept_blocks": 103,
+      "out_blocks": 99,
+      "text_merged_from": 224
+    },
+    {
+      "doc_id": "1_s2_0_S0013468626014507_main",
+      "title": "Investigation of single additive ZPS on performance of copper foil",
+      "doi": "10.1016/j.electacta.2026.149561",
+      "pages": 10,
+      "raw_blocks": 228,
+      "kept_blocks": 134,
+      "out_blocks": 124,
+      "text_merged_from": 286
+    },
+    {
+      "doc_id": "1_s2_0_S0257897223003018_main",
+      "title": "Investigation of synthesized carbazole derivative Cz-BPDB as a high-performance leveler for copper electroplating",
+      "doi": "10.1016/j.surfcoat.2023.129526",
+      "pages": 14,
+      "raw_blocks": 269,
+      "kept_blocks": 161,
+      "out_blocks": 146,
+      "text_merged_from": 345
+    },
+    {
+      "doc_id": "1_s2_0_S0927775723007902_main",
+      "title": "Insights into the synergistic effects of safranine in an acidic copper bath on through-hole void-free filling for high-quality electronics interconnection",
+      "doi": "10.1016/j.colsurfa.2023.131706",
+      "pages": 9,
+      "raw_blocks": 166,
+      "kept_blocks": 94,
+      "out_blocks": 92,
+      "text_merged_from": 382
+    },
+    {
+      "doc_id": "1_s2_0_S1572665718302236_main",
+      "title": "Thermodynamic aspects of bis(3‑sulfopropyl) disulfide and 3‑mercapto‑1‑propanesulfonic acid in Cu electrodeposition",
+      "doi": "10.1016/j.jelechem.2018.03.048",
+      "pages": 6,
+      "raw_blocks": 131,
+      "kept_blocks": 78,
+      "out_blocks": 76,
+      "text_merged_from": 421
+    },
+    {
+      "doc_id": "1_s2_0_S1572665722004489_main",
+      "title": "The synergistic effects of additives on the micro vias copper filling",
+      "doi": "10.1016/j.jelechem.2022.116456",
+      "pages": 12,
+      "raw_blocks": 203,
+      "kept_blocks": 107,
+      "out_blocks": 102,
+      "text_merged_from": 470
+    },
+    {
+      "doc_id": "1_s2_0_S1572665724000766_main",
+      "title": "Five-membered heterocyclic small molecule compounds as novel levelling agents for blind-hole copper plating",
+      "doi": "10.1016/j.jelechem.2024.118100",
+      "pages": 13,
+      "raw_blocks": 206,
+      "kept_blocks": 121,
+      "out_blocks": 124,
+      "text_merged_from": 534
+    },
+    {
+      "doc_id": "1_s2_0_S2352492825007378_main",
+      "title": "Molecular structure with adsorption behavior of butynediol and its effects on cobalt electrodeposition",
+      "doi": "10.1016/j.mtcomm.2025.112225",
+      "pages": 9,
+      "raw_blocks": 176,
+      "kept_blocks": 106,
+      "out_blocks": 103,
+      "text_merged_from": 570
+    },
+    {
+      "doc_id": "1_在PD结构中引入二氧化硫对通孔镀铜的影响",
+      "title": "The effect of introducing –SO2 fragments into the structure of polydimethyldiallylammonium (PD) on through-hole copper plating performance: A theoretical and experimental study",
+      "doi": "10.1016/j.apsusc.2025.162396",
+      "pages": 11,
+      "raw_blocks": 214,
+      "kept_blocks": 131,
+      "out_blocks": 117,
+      "text_merged_from": 628
+    },
+    {
+      "doc_id": "2_采用1_4_羧基苯基_5_巯基_1H_四氮唑添加剂的表面铜微导通孔填充电镀工艺评估",
+      "title": "Evaluating copper plating process for filling micro vias with thin surface Cu by the 1-(4-carboxyphenyl)-5-mercapto-1H-tetrazole additive",
+      "doi": "10.1016/j.jelechem.2024.118696",
+      "pages": 21,
+      "raw_blocks": 210,
+      "kept_blocks": 103,
+      "out_blocks": 98,
+      "text_merged_from": 670
+    },
+    {
+      "doc_id": "2023_Shen_Study_on_the_Effects_of_Additives_on_the_Performan",
+      "title": "Study on the Effects of Additives on the Performance of Ni–Co–P Alloy Coatings Using Box–Behnken Design",
+      "doi": "10.1021/acsomega.3c06301",
+      "pages": 13,
+      "raw_blocks": 232,
+      "kept_blocks": 132,
+      "out_blocks": 115,
+      "text_merged_from": 729
+    },
+    {
+      "doc_id": "2024_Guo_Influence_of_PUB2_on_the_Leveling_Effect_of_Chip_Co",
+      "title": "Influence of PUB2 on the Leveling Effect of Chip Copper Connection Electroplating: Mechanism and Applications",
+      "doi": "10.1021/acsomega.3c09548",
+      "pages": 9,
+      "raw_blocks": 181,
+      "kept_blocks": 98,
+      "out_blocks": 83,
+      "text_merged_from": 767
+    },
+    {
+      "doc_id": "3_巯基_1_丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响",
+      "title": "Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition",
+      "doi": "10.1515/ntrev-2022-0071",
+      "pages": 10,
+      "raw_blocks": 153,
+      "kept_blocks": 70,
+      "out_blocks": 67,
+      "text_merged_from": 801
+    },
+    {
+      "doc_id": "3_异靛蓝季铵盐的合成及其在电镀铜中的应用",
+      "title": "Synthesis and application of isoindigo quaternary ammonium salts in copper plating",
+      "doi": "10.1039/d5tc01743b",
+      "pages": 13,
+      "raw_blocks": 222,
+      "kept_blocks": 107,
+      "out_blocks": 90,
+      "text_merged_from": 850
+    },
+    {
+      "doc_id": "4_喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用",
+      "title": "Synthesis of Quinacridone Derivatives and Their Application as High Performance Levelers in Electroplating",
+      "doi": "10.5796/electrochemistry.24-00024",
+      "pages": 10,
+      "raw_blocks": 198,
+      "kept_blocks": 128,
+      "out_blocks": 108,
+      "text_merged_from": 898
+    },
+    {
+      "doc_id": "5_炔基嘧啶作为钴超填充抑制剂的研究",
+      "title": "Study of 5-Alkynylpyrimidines as Cobalt Superfilling Inhibitors",
+      "doi": "10.1021/acs.jpcc.4c05741",
+      "pages": 12,
+      "raw_blocks": 235,
+      "kept_blocks": 125,
+      "out_blocks": 116,
+      "text_merged_from": 959
+    },
+    {
+      "doc_id": "5_聚_1_4_丁二醇二缩水甘油醚_2_甲基咪唑与咪唑_作为盲孔镀铜整平剂的研究",
+      "title": "Exploration of poly(1,4-butanediol diglycidyl ether, 2-methylimidazole, and imidazole) as leveling agents in blind hole copper plating",
+      "doi": "10.1007/s10854-025-15125-y",
+      "pages": 17,
+      "raw_blocks": 256,
+      "kept_blocks": 120,
+      "out_blocks": 114,
+      "text_merged_from": 1010
+    },
+    {
+      "doc_id": "6_香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究",
+      "title": "Synthesis of coumarin derivatives as levelers for Through-Hole electroplating of copper in PCBs and a study on leveling mechanism of optimized leveler",
+      "doi": "10.1016/j.jelechem.2024.118851",
+      "pages": 10,
+      "raw_blocks": 202,
+      "kept_blocks": 119,
+      "out_blocks": 109,
+      "text_merged_from": 1055
+    },
+    {
+      "doc_id": "7_micromachines_16_00721",
+      "title": "Integrated Electrochemical and Computational Elucidation of Nitro Blue Tetrazolium Chloride as an Efficient Leveler for Copper Microvia Superfilling",
+      "doi": "10.3390/mi16060721",
+      "pages": 18,
+      "raw_blocks": 214,
+      "kept_blocks": 115,
+      "out_blocks": 110,
+      "text_merged_from": 1116
+    },
+    {
+      "doc_id": "8_s12678_025_00960_8",
+      "title": "Tween Compounds as Eco-Friendly Suppressors for Acid Copper Electroplating Applications of Microvia",
+      "doi": "10.1007/s12678-025-00960-8",
+      "pages": 16,
+      "raw_blocks": 206,
+      "kept_blocks": 111,
+      "out_blocks": 101,
+      "text_merged_from": 1172
+    },
+    {
+      "doc_id": "9molecules_28_02783",
+      "title": "Structure Performance Correlation of N-Heterocyclic Oligomer Leveler for Acid Copper Plating of Advanced Interconnects",
+      "doi": "10.3390/molecules28062783",
+      "pages": 15,
+      "raw_blocks": 186,
+      "kept_blocks": 106,
+      "out_blocks": 99,
+      "text_merged_from": 1233
+    },
+    {
+      "doc_id": "ao3c05248",
+      "title": "Prediction and Effect Verification of Thiamine as a Leveling Agent in Chip Wafer Electroplating",
+      "doi": "10.1021/acsomega.3c05248",
+      "pages": 7,
+      "raw_blocks": 160,
+      "kept_blocks": 84,
+      "out_blocks": 70,
+      "text_merged_from": 1268
+    },
+    {
+      "doc_id": "ao4c01707",
+      "title": "Electroplated Copper Additives for Advanced Packaging: A Review",
+      "doi": "10.1021/acsomega.4c01707",
+      "pages": 11,
+      "raw_blocks": 239,
+      "kept_blocks": 129,
+      "out_blocks": 112,
+      "text_merged_from": 1349
+    },
+    {
+      "doc_id": "d4nj05470a",
+      "title": "Filling performance of an Acid Blue 1 leveler on blind microvias",
+      "doi": "10.1039/d4nj05470a",
+      "pages": 9,
+      "raw_blocks": 193,
+      "kept_blocks": 94,
+      "out_blocks": 81,
+      "text_merged_from": 1385
+    },
+    {
+      "doc_id": "DMG_丁二酮肟_",
+      "title": "Electrodeposition of Cobalt for Interconnect Application: Effect of Dimethylglyoxime",
+      "doi": "10.1149/2.1111613jes",
+      "pages": 8,
+      "raw_blocks": 157,
+      "kept_blocks": 84,
+      "out_blocks": 71,
+      "text_merged_from": 1435
+    },
+    {
+      "doc_id": "la6c01870",
+      "title": "Thiazolyl Blue as a High-Efficiency Leveler for Conformal Copper Electrodeposition in High-Aspect-Ratio PCB Through-Holes",
+      "doi": "10.1021/acs.langmuir.6c01870",
+      "pages": 12,
+      "raw_blocks": 263,
+      "kept_blocks": 128,
+      "out_blocks": 117,
+      "text_merged_from": 1499
+    },
+    {
+      "doc_id": "Mechanism_of_convection_dependence_of_leveller_and_its_effec",
+      "title": "Mechanism of convection-dependence of leveller and its effect on copper pillar bump filling uniformity",
+      "doi": "10.1080/00202967.2025.2517445",
+      "pages": 7,
+      "raw_blocks": 151,
+      "kept_blocks": 100,
+      "out_blocks": 90,
+      "text_merged_from": 1542
+    },
+    {
+      "doc_id": "Simultaneously_filling_process_and_mechanism_of_through_hole",
+      "title": "Simultaneously filling process and mechanism of through-hole and blind hole by copper electroplating",
+      "doi": "10.1080/00202967.2025.2521172",
+      "pages": 9,
+      "raw_blocks": 164,
+      "kept_blocks": 107,
+      "out_blocks": 96,
+      "text_merged_from": 1592
+    },
+    {
+      "doc_id": "_电化学会志_含析氢反应抑制添加剂的超共形钴电沉积",
+      "title": "Superconformal Cobalt Electrodeposition with a Hydrogen Evolution Reaction Suppressing Additive",
+      "doi": "10.1149/1945-7111/abd3b9",
+      "pages": 7,
+      "raw_blocks": 121,
+      "kept_blocks": 69,
+      "out_blocks": 65,
+      "text_merged_from": 1633
+    },
+    {
+      "doc_id": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川",
+      "title": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究",
+      "doi": "",
+      "pages": 133,
+      "raw_blocks": 1263,
+      "kept_blocks": 693,
+      "out_blocks": 599,
+      "text_merged_from": 1976
+    },
+    {
+      "doc_id": "先进芯片制造中的钴电镀互连技术综述",
+      "title": "Cobalt Electroplating Interconnects in Advanced Chip Fabrication: A Review",
+      "doi": "10.1007/s11664-025-12242-6",
+      "pages": 19,
+      "raw_blocks": 309,
+      "kept_blocks": 131,
+      "out_blocks": 123,
+      "text_merged_from": 2006
+    },
+    {
+      "doc_id": "六亚基四甲四胺",
+      "title": "Study on the electrochemical deposition behavior and blind hole filling behavior of Cobalt under the regulation of hexamethylenetetramine as a leveling agent",
+      "doi": "10.1016/j.electacta.2025.146509",
+      "pages": 11,
+      "raw_blocks": 192,
+      "kept_blocks": 117,
+      "out_blocks": 123,
+      "text_merged_from": 2067
+    },
+    {
+      "doc_id": "利用数据库_机械学习筛选可靠添加剂",
+      "title": "Data-driven discovery of novel additives for superconformal cobalt electrodeposition in 3D interconnects",
+      "doi": "10.1016/j.cej.2026.172903",
+      "pages": 11,
+      "raw_blocks": 220,
+      "kept_blocks": 111,
+      "out_blocks": 105,
+      "text_merged_from": 2110
+    },
+    {
+      "doc_id": "利用牺牲氧化剂实现钴的超共形填充",
+      "title": "Superconformal Cobalt Fill through the Use of Sacrificial Oxidants",
+      "doi": "10.1149/08010.0767ecst",
+      "pages": 11,
+      "raw_blocks": 87,
+      "kept_blocks": 55,
+      "out_blocks": 53,
+      "text_merged_from": 2145
+    },
+    {
+      "doc_id": "孔雀石绿诱导_扩散_吸附作用下的钴超共形电沉积过程",
+      "title": "Induction-Diffusion-Adsorption Process of Malachite Green for Cobalt Superconformal Electrodeposition",
+      "doi": "10.1149/1945-7111/acb9bf",
+      "pages": 8,
+      "raw_blocks": 154,
+      "kept_blocks": 87,
+      "out_blocks": 81,
+      "text_merged_from": 2200
+    },
+    {
+      "doc_id": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响",
+      "title": "Influence of trace tungsten contents on thin-film properties and electromigration behaviors of electroless-deposited cobalt interconnect lines",
+      "doi": "10.1016/j.materresbull.2025.113343",
+      "pages": 10,
+      "raw_blocks": 200,
+      "kept_blocks": 105,
+      "out_blocks": 107,
+      "text_merged_from": 2259
+    },
+    {
+      "doc_id": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究",
+      "title": "Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth",
+      "doi": "10.1016/j.jmapro.2023.05.059",
+      "pages": 10,
+      "raw_blocks": 206,
+      "kept_blocks": 113,
+      "out_blocks": 100,
+      "text_merged_from": 2302
+    },
+    {
+      "doc_id": "无电镀钴综述",
+      "title": "Unveiling the Potential of Electroless Cobalt Deposition: A Review",
+      "doi": "10.1007/s13369-025-10584-1",
+      "pages": 22,
+      "raw_blocks": 369,
+      "kept_blocks": 144,
+      "out_blocks": 136,
+      "text_merged_from": 2370
+    },
+    {
+      "doc_id": "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制_加速效应",
+      "title": "Suppressing-accelerating effect of Nitrotetrazolium Blue chloride in boosting superconformal cobalt filling",
+      "doi": "10.1016/j.jelechem.2023.117671",
+      "pages": 10,
+      "raw_blocks": 180,
+      "kept_blocks": 96,
+      "out_blocks": 87,
+      "text_merged_from": 2405
+    },
+    {
+      "doc_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充",
+      "title": "Inhibitor Alkyne-PEG4-amine Contributes to Cobalt Superfilling",
+      "doi": "10.1021/acsaelm.4c00774",
+      "pages": 8,
+      "raw_blocks": 177,
+      "kept_blocks": 89,
+      "out_blocks": 72,
+      "text_merged_from": 2443
+    },
+    {
+      "doc_id": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积",
+      "title": "Superconformal Electrodeposition of Cobalt into Micron-Scale Trench with Alkynol Derivatives",
+      "doi": "10.3390/ma18081747",
+      "pages": 15,
+      "raw_blocks": 191,
+      "kept_blocks": 100,
+      "out_blocks": 97,
+      "text_merged_from": 2493
+    },
+    {
+      "doc_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "title": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+      "doi": "10.1016/j.colsurfa.2022.129816",
+      "pages": 10,
+      "raw_blocks": 219,
+      "kept_blocks": 126,
+      "out_blocks": 121,
+      "text_merged_from": 2551
+    },
+    {
+      "doc_id": "糖精对镀钴层结构_导电能力的改变",
+      "title": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+      "doi": "10.61558/2993-074x.3533",
+      "pages": 11,
+      "raw_blocks": 135,
+      "kept_blocks": 85,
+      "out_blocks": 77,
+      "text_merged_from": 2586
+    },
+    {
+      "doc_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究",
+      "title": "Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition",
+      "doi": "10.1016/j.jtice.2020.06.010",
+      "pages": 8,
+      "raw_blocks": 144,
+      "kept_blocks": 81,
+      "out_blocks": 73,
+      "text_merged_from": 2623
+    },
+    {
+      "doc_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "title": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+      "doi": "10.1016/j.mtchem.2025.102854",
+      "pages": 10,
+      "raw_blocks": 212,
+      "kept_blocks": 113,
+      "out_blocks": 104,
+      "text_merged_from": 2678
+    },
+    {
+      "doc_id": "解码添加剂界面结构性能",
+      "title": "Decoding the interfacial structure and functionality of an organic additive for superconformal cobalt electrodeposition",
+      "doi": "10.1007/s11426-025-2626-2",
+      "pages": 8,
+      "raw_blocks": 131,
+      "kept_blocks": 64,
+      "out_blocks": 53,
+      "text_merged_from": 2705
+    }
+  ]
+}

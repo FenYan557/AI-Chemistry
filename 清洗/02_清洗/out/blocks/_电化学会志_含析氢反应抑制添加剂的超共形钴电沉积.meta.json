@@ -1,0 +1,216 @@
+{
+  "doc_id": "_电化学会志_含析氢反应抑制添加剂的超共形钴电沉积",
+  "title": "Superconformal Cobalt Electrodeposition with a Hydrogen Evolution Reaction Suppressing Additive",
+  "doi": "10.1149/1945-7111/abd3b9",
+  "journal": "其他期刊",
+  "year": "2020",
+  "pages": 7,
+  "printed_page_map": {},
+  "references": [
+    {
+      "n": 1,
+      "page": 7,
+      "raw": "1. J. S. Chawla, F. Gstrein, K. P. O’Brien, J. S. Clarke, and D. Gall, Phys. Rev. B, 84, 235423 (2011)."
+    },
+    {
+      "n": 2,
+      "page": 7,
+      "raw": "2. D. Choi and K. Barmak, Electron. Mater. Lett., 13, 449 (2017)."
+    },
+    {
+      "n": 3,
+      "page": 7,
+      "raw": "3. D. Josell, S. H. Brongersma, and Z, Tokei, Annu. Rev, Mater. Res., 39, 231 (2009)"
+    },
+    {
+      "n": 4,
+      "page": 7,
+      "raw": "4. T. Sun, B. Yao, A. P. Warren, K. Barmak, M. F. Toney, R. E. Peale, and K. R. Coffey, Phys. Rev. B, 79, 041402(R) (2009)."
+    },
+    {
+      "n": 5,
+      "page": 7,
+      "raw": "5. T. Sun, B. Yao, A. P. Warren, K. Barmak, M. F. Toney, R. E. Peale, and K. R. Coffey, Phys. Rev. B, 81, 155454 (2010)."
+    },
+    {
+      "n": 6,
+      "page": 7,
+      "raw": "6. W. Zhang, S. H. Brongersma, O. Richard, B. Brijs, R. Palmans, L. Froyen, and K. Maex, Microelectron, Eng., 76, 146 (2004)."
+    },
+    {
+      "n": 7,
+      "page": 7,
+      "raw": "7. R. L. Graham, G. B. Alers, T. Mountsier, N. Shamma, S. Dhuey, S. Cabrini, R. H. Geiss, D. T. Read, and S. Peddeti, Appl. Phys. Lett., 96, 042116 (2010)."
+    },
+    {
+      "n": 8,
+      "page": 7,
+      "raw": "8. D. Choi, Korean J Met Mater, 56, 605 (2018)."
+    },
+    {
+      "n": 9,
+      "page": 7,
+      "raw": "9. M. R. Baklanov, C. Adelmann, L. Zhao, and S. De Gendt, Ecs J Solid State Sc, 4, Y1 (2015)."
+    },
+    {
+      "n": 10,
+      "page": 7,
+      "raw": "10. K. Sankaran, S. Clima, M. Mees, and G. Pourtois, Ecs J Solid State Sc, 4, N3127 (2015)."
+    },
+    {
+      "n": 11,
+      "page": 7,
+      "raw": "11. R. N. Akolkar, F. Gstrein, and D. J. Zierath, (2012), United States of America Patent US20120153483A1"
+    },
+    {
+      "n": 12,
+      "page": 7,
+      "raw": "12. N. Bekiaris et al., 2017 IEEE International Interconnect Technology Conference (IITC), p. 1 (2017)."
+    },
+    {
+      "n": 13,
+      "page": 7,
+      "raw": "13. F. Griggio et al., 2018 IEEE International Reliability Physics Symposium (IRPS), 6E.3 (2018)."
+    },
+    {
+      "n": 14,
+      "page": 7,
+      "raw": "14. R. Grover et al., 2020 IEEE International Reliability Physics Symposium (IRPS), p. 1 (2020)."
+    },
+    {
+      "n": 15,
+      "page": 7,
+      "raw": "15. C. J. Jezewski, J. S. Clarke, T. K. Indukuri, F. Gstrein, and D. J. Zierath, (2016), United States of America Patent US9514983B2"
+    },
+    {
+      "n": 16,
+      "page": 7,
+      "raw": "16. F. W. Mont, X. Zhang, W. Wang, J. J. Kelly, T. E. Standaert, R. Quon, and E. T. Ryan, 2017 IEEE International Interconnect Technology Conference (IITC), p. 1 (2017)."
+    },
+    {
+      "n": 17,
+      "page": 7,
+      "raw": "17. A. Yeoh et al., 2018 IEEE International Interconnect Technology Conference (IITC), p. 144 (2018)."
+    },
+    {
+      "n": 18,
+      "page": 7,
+      "raw": "18. J. Zheng et al., 2015 IEEE International Interconnect Technology Conference and 2015 IEEE Materials for Advanced Metallization Conference (IITC/MAM), p. 265 (2015)."
+    },
+    {
+      "n": 19,
+      "page": 7,
+      "raw": "19. D. Josell, D. Wheeler, W. H. Huber, and T. P. Moffat, Phys. Rev. Lett., 87, 016102 (2001)."
+    },
+    {
+      "n": 20,
+      "page": 7,
+      "raw": "20. M. H. Lee, Y. Lee, M. Sung, S. K. Cho, Y. G. Kim, and J. J. Kim, J. Electrochem. Soc., 167, 102505 (2020)."
+    },
+    {
+      "n": 21,
+      "page": 7,
+      "raw": "21. T. P. Moffat, J. E. Bonevich, W. H. Huber, A. Stanishevsky, D. R. Kelly, G. R. Stafford, and D. Josell. J. Electrochem. Soc., 147, 4524 (2000)."
+    },
+    {
+      "n": 22,
+      "page": 7,
+      "raw": "22. T. P. Moffat, D. Wheeler, W. H. Huber, and D. Josell, Electrochem Solid St, 4. C26 (2001)."
+    },
+    {
+      "n": 23,
+      "page": 7,
+      "raw": "23. M. Sung, S. H. Kim, H. J. Lee, T. Lim, and J. J. Kim, Electrochim. Acta, 295, 224 (2019)."
+    },
+    {
+      "n": 24,
+      "page": 7,
+      "raw": "24. M. Sung, Y. Yoon, J. Hong, M. J. Kim, and J. J. Kim, J. Electrochem. Soc., 166, D546 (2019)."
+    },
+    {
+      "n": 25,
+      "page": 7,
+      "raw": "25. T. M. Braun, S. H. Kim, H. J. Lee, T. P. Moffat, and D. Josell, J. Electrochem. Soc., 165, D291 (2018)."
+    },
+    {
+      "n": 26,
+      "page": 7,
+      "raw": "26. C. H. Lee, J. E. Bonevich, J. E. Davies, and T. P. Moffat, J. Electrochem. Soc., 155. D499 (2008)."
+    },
+    {
+      "n": 27,
+      "page": 7,
+      "raw": "27. C. H. Lee and T. P. Moffat, Electrochim. Acta, 55, 8527 (2010)"
+    },
+    {
+      "n": 28,
+      "page": 7,
+      "raw": "28. D. Josell, M. Silva, and T. P. Moffat, J. Electrochem. Soc., 163, D809 (2016)."
+    },
+    {
+      "n": 29,
+      "page": 7,
+      "raw": "29. C. H. Lee, J. E. Bonevich, J. E. Davies, and T. P. Moffat, J. Electrochem. Soc., 156, D301 (2009)."
+    },
+    {
+      "n": 30,
+      "page": 7,
+      "raw": "30. Q. Huang, T. W. Lyons, and W. D. Sides, J. Electrochem. Soc., 163, D715 (2016)."
+    },
+    {
+      "n": 31,
+      "page": 7,
+      "raw": "31. M. A. Rigsby, L. J. Brogan, N. V. Doubina, Y. H. Liu, E. C. Opocensky, T. A. Spurlin, J. Zhou, and J. D. Reid, J. Electrochem. Soc., 166, D3167 (2018)."
+    },
+    {
+      "n": 32,
+      "page": 7,
+      "raw": "32. J. Wu, F. Wafula, S. Branagan, H. Suzuki, and J. van Eisden, J. Electrochem. Soc., 166, D3136 (2018)."
+    },
+    {
+      "n": 33,
+      "page": 7,
+      "raw": "33. D. R. Gabe, J. Appl. Electrochem., 27, 908 (1997)."
+    },
+    {
+      "n": 34,
+      "page": 7,
+      "raw": "34. N. Pradhan, T. Subbaiah, S. C. Das, and U. N. Dash, J. Appl. Electrochem., 27, 713 (1997)."
+    },
+    {
+      "n": 35,
+      "page": 7,
+      "raw": "35. M. A. Rigsby, T. A. Spurlin, and J. D. Reid, J. Electrochem. Soc., 167, 112507 (2020)."
+    },
+    {
+      "n": 36,
+      "page": 7,
+      "raw": "36. Y. Tsuru, M. Nomura, and F. R. Foulkes, J. Appl. Electrochem., 32, 629 (2002)."
+    },
+    {
+      "n": 37,
+      "page": 7,
+      "raw": "37. V. Grozovski, S. Vesztergom, G. G. Lang, and P. Broekmann, J. Electrochem. Soc., 164, E3171 (2017)."
+    },
+    {
+      "n": 38,
+      "page": 7,
+      "raw": "38. J. Kang, M. Sung, J. Byun, O. J. Kwon, and J. J. Kim, J. Electrochem. Soc., 167, 122510 (2020)."
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "raw": "39. U. Landau, E. Malyshev, R. Akolkar, and S. Chivilikhin, “Simulations of bottom-up fill in via plating of semiconductor interconnects.” AIChE Annual Meeting, Nov, 17–18, 2003 (2003)."
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "raw": "40. K. G. Jordan and C. W. Tobias, J. Electrochem. Soc., 138, 1933 (1991)."
+    },
+    {
+      "n": 41,
+      "page": 7,
+      "raw": "41. K. M. Takahashi and M. E. Gross, J. Electrochem. Soc., 146, 4499 (1999)."
+    }
+  ]
+}

@@ -1,0 +1,2282 @@
+[
+  {
+    "doc_id": "1_s2_0_S0010854522005239_main",
+    "missing_occurrences": 21,
+    "missing_values": {
+      "1": 1,
+      "2": 3,
+      "16": 1,
+      "29": 1,
+      "4": 1,
+      "3": 3,
+      "3E+1": 3,
+      "1E+2": 2,
+      "63": 1,
+      "188": 3,
+      "-4": 1,
+      "222": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Muhammad Ashrafa,1, Muhammad Sohail Ahmad b,c,⇑,1, Yusuke Inomata c, Nisar Ullah a,⇑, Muhammad Nawaz Tahir a,d, Tetsuya Kida b,c, ⇑"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "b 2D Nanomaterials Division, Institute of Industrial Nanomaterials, Kumamoto University, 2-39-1 Kurokami, Chuo-ku, Kumamoto 860-8555, Japan"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "c Department ofAdvanced Science and Technology, Kumamoto University, 2-39-1 Kurokami, Chuo-ku, Kumamoto 860-8555, Japan"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "16",
+          "29"
+        ],
+        "text": "Article history: Received 16 May 2022 Accepted 29 October 2022 Available online xxxx"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "text": "1. Introduction...... 2\n2. The design of nanocatalysts.... 4\n2.1. Size effect.... 4\n2.2. Shape effect.... 6\n2.3. Support materials.... 7\n3. Transition metals NPs catalyzed C—C bond-forming reactions.... 7\n3.1. Pd NPs catalyzed C—C bond-forming reactions.... 7\n3.2. Platinum nanocatalyst assisted C—C bond-forming reactions.... 17\n3.3. Iron-based nanocatalyst assisted C—C bond-forming reactions.... 18\n3.4. Copper as nanocatalyst for C—C bond-forming reactions.... 18\n3.5. Gold nanoparticle for C—C bond-forming reactions.... 21\n3.6. Silver nanocatalyst-assisted C—C bond-forming reactions.... 23\n3.7. Zinc nanocatalyst-assisted C—C bond-forming reactions.... 25\n3.8. Nickle nanocatalyst assisted C—C"
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S0013468609007385_main",
+    "missing_occurrences": 15,
+    "missing_values": {
+      "1": 2,
+      "5": 1,
+      "8": 2,
+      "0": 4,
+      "0.54": 1,
+      "85": 1,
+      "105": 1,
+      "55": 1,
+      "2E+2": 2
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Wei-Ping Dow a, ∗,1, Chih-Chan Li a, Yong-Chih Su b, Shao-Ping Shen a, Chen-Chia Huang b, Cliff Lee c, Bob Hsu c, Shar Hsu c"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Recently, multifunction and portable electronic products have become part of the mainstream of consumer electronic products. Not only the motherboard of electronic products but also the packaging substrates of integrated circuit (IC) chips need a high-density interconnection (HDI) made by a process using stacked microvias [1,2]. For example, the motherboard of cellular phones uses HDI to integrate more functions."
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Because the diameter of the microvia has shrunk to less than 65 -m, and even as low as 50 -m, several metallization technologies such as filling with resin and conductive paste have not met the demands of process integration [1,2]. Instead, researchers believe that a more promising technology is to fill microvia using copper electroplating because this filling technique has been employed successfully to fabricate the interconnections of IC chips, such as via and trench metallization [3–13]. The microvia filling technology using copper electroplating is implemented using a specific plating formula that contains a suppressor, an accelerator, and a leveler [14–17]. The suppressor and the accele"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5",
+          "8"
+        ],
+        "text": "Janus Green B (JGB) is a familiar leveler that bears one quaternary ammonium cation and one chloride ion. It preferentially adsorbs at the protrusion to inhibit the copper deposition rate because of the selective adsorption of the quaternary ammonium cation [18]. Therefore, a proper addition of JGB results in a copper deposit with a mirror-like surface. It is an effective reagent for carrying out a void-free filling in dual damascene metallization [4,5,7,8,10]. With regard to the electrochemical and adsorptive behaviors of JGB on the copper electrodeposition, Li et al. [18] and Bozzini et al. [19] presented detailed results using various instruments to identify the molecular structures of ad"
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S0013468626014507_main",
+    "missing_occurrences": 22,
+    "missing_values": {
+      "1": 3,
+      "3": 2,
+      "2": 5,
+      "5": 4,
+      "4": 4,
+      "6": 2,
+      "7": 1,
+      "9": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Yaqiang Li a,b,1, Yuanhang Zhang a,c,1, Ruopeng Li a,*, Xingchen Ma b, Fuxue Wang b, Fan Meng a, Jie Jiang a, Xuesong Peng a,*, Lanchen Li d,*, Maozhong An a,*"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3"
+        ],
+        "text": "This work investigated the influence of Sodium 3- (benzothiazole-2 -ylthio)- 1- propanesulfonate (ZPS) as a single additive on performance of copper foil. Electrochemical analysis indicates that ZPS is of accelerating effect during electroplating. Chronoamperometry and ex situ SEM confirm that Copper growth obeys 3D diffusioncontrolled instantaneous nucleation and growth process, with ZPS significantly increasing the density of active sites. A comprehensive theoretical framework combining density functional theory calculations, molecula dynamics simulations, and in situ infrared spectroscopy elucidates an adsorption-capturing acceleration mechanism: ZPS can adsorb on copper surface and “catc"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "text": "With the progress of 5 G communication technology, there are new requirements for electronic devices, such as laptop, communication station, smart watch and phone and so on [1]. In these devices, printed Circuit Board (PCB), as the “mother board” for integrated circuit and all kinds of electronic components, has attracted researchers’ wide attention in recent years [2]. Copper clad laminate (CCL) is one of the key materials in PCB, consisting of copper foil and substrate, among which copper foil directly affects the electrical performance and mechanical performance of PCB [3]. There are two methods to prepare copper foil in industry, namely, electrolytic copper foil and rolled copper foil, a"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "As investigation method progresses, theoretical calculation [14], spectrum technology [15], microscopic technology [16] are widely used to gain deeper understanding of additives during copper electrodeposition, providing guidance for researchers. An et al. [17,18] coupled in situ Raman spectra and infrared spectra, DFT (density functional theory) calculation to study triphenylmethane-based levelers during copper electroplating and proposed difunctional mechanism of coordination and adsorption, providing insights into future leveler molecular design. Wheeler et al. [19] used ab initio MD simulation method and found that the adsorption strength order is Cl^->Na^+>MPS>H_2O.. The addition of Cl⁻"
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S0257897223003018_main",
+    "missing_occurrences": 29,
+    "missing_values": {
+      "2": 10,
+      "0": 4,
+      "9": 2,
+      "2E+2": 7,
+      "1468263339": 1,
+      "1004": 1,
+      "163": 1,
+      "1062687527": 1,
+      "30220367": 1,
+      "835375788": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "With the wide application of 5G communication and related tech nologies, the miniaturization, lightweight, and high stability of various smart devices are increasingly valued and required. In this context, through-hole metallization in the manufacture of printed circuit boards (PCBs) [1,2] and the packaging of integrated circuits (ICs) [3–5] is one of the methods used to address the miniaturization of the devices. Copper, a low-resistance and high-conductivity metal, is also used as a through-hole metallization material for multilayer circuits to achieve faster transmission of electrical signals [6]. Therefore, to realize the metallization filling process of through holes, copper electroplat"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "At present, the acidic copper sulfate solution is more commonly used for copper electroplating deposition [1], and the main components of the Virgin Make-up Solution (VMS) are copper sulfate (CuSO 4), sulfuric acid (H SO), and chloride ions (Cl −) [10]. However, in through-hole electroplating, the orifice of through hole has higher current density and higher mass transfer [11]efficiency than the middle of through hole, resulting in very uneven metal deposition of through hole, which affects electrical signal transmission of the circuit and reduces the service life of electronic devices. Researchers have found that this problem can be solved by adding a variety of additives to the VMS, which "
+      },
+      {
+        "page": 2,
+        "type": "image",
+        "values": [
+          "2"
+        ],
+        "text": "Fig. 2. The through hole diagram and the calculation formula of TP value."
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "2. Material and methods"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "All reagents and chemicals in experiments were purchased from commercial sources and used without further purification. All reactions were monitored by TLC under UV light. 1 H NMR and 13 C NMR spectra were recorded by a Bruker AVANCE III 400 spectrometer operating at 400 MHz and 101 MHz, respectively. High-resolution mass spectra (HRMS) were obtained on a Xevo G2 TOF MS."
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S0927775723007902_main",
+    "missing_occurrences": 5,
+    "missing_values": {
+      "361005": 1,
+      "2.2E+2": 2,
+      "3E+2": 2
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "361005"
+        ],
+        "text": "State Key Laboratory of Physical Chemistry of Solid Surfaces, Engineering Research Center of Electrochemical Technologies of Ministry of Education, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, Fujian, China"
+      },
+      {
+        "page": 2,
+        "type": "table",
+        "values": [
+          "2.2E+2",
+          "3E+2"
+        ],
+        "text": "Table 1 Components of bath A and bath B.    Components  Bath A  Bath B    CuSO_4 • 5H_2O (g/L)  220  220    H_2SO_4 (g/L)  49  49    Cl^- (mg/L)  60  60    PEG (mg/L)  300  300    SPS (mg/L)  2  2    SA (mg/L)  0  4   "
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2.2E+2"
+        ],
+        "text": "Cyclic voltammetry (CV) experiments were performed through CHI electrochemical workstation (CHI760, China). A platinum rotating disk electrode (Pt-RDE) with a diameter of 5 mm, a platinum sheet and a Hg/ Hg _2S0_4 electrode (saturated K_2SO_4 solution, SMSE) were as the working electrode, counter electrode and reference electrode, respectively. The Pt-RDE was successively polished and ultrasonically cleaned before each experiment. The electrolyte composed of 220 g/L CuSO _4•5/H_2O_ i, 49 g/L H_2SO_4 and 60 mg/L cl^- was defined as the virgin make-up solution (VMS)."
+      },
+      {
+        "page": 3,
+        "type": "text",
+        "values": [
+          "2.2E+2",
+          "3E+2"
+        ],
+        "text": "The copper electronic plating is first performed to expound the excellent filling performance of the novel acidic copper sulfate electroplating process. Fig. 2 shows the cross-section images of TH before and after copper electronic plating. Bath A is composed of 220 g/L CuSO _ 4 • 5H _2O_ i, 49 g/L H 2 SO 4, 60 mg/L Cl, 300 mg/L PEG and 2 mg/L SPS. Bath B is bath A with 4 mg/L SA. The temperature and current density are 298 K and 20 mA/cm, respectively. As displayed in Fig. 2a, before copper electronic plating, the copper coating thickness of the sample surface is approximately 16.20 µm. In Fig. 2b, after copper electronic plating in bath A, the electrodeposited copper coating thickness is a"
+      },
+      {
+        "page": 3,
+        "type": "image",
+        "values": [
+          "2.2E+2",
+          "3E+2"
+        ],
+        "text": "Fig. 2. Cross-section images of TH with a diameter of 125 µm and depth of 250 µm: (a) before electronic plating, (b) copper electronic plating in bath A composed of 220 g/L CuSO •5H O, 49 g/L H SO, 60 mg/L Cl<sup>-</sup>, 300 mg/L PEG and 2 mg/L SPS at temperature 298 K and 20 mA/cm<sup>2</sup>, (c) copper electronic plating in bath B composed of bath A and 4 mg/L SA at temperature 298 K and 20 mA/ cm<sup>2</sup>."
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S1572665718302236_main",
+    "missing_occurrences": 10,
+    "missing_values": {
+      "3": 1,
+      "1": 1,
+      "7": 1,
+      "8": 1,
+      "4": 1,
+      "0": 4,
+      "9": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "3"
+        ],
+        "text": "Thermodynamic aspects of bis(3‑sulfopropyl) disulfide and 3‑mercapto‑1‑propanesulfonic acid in Cu electrodeposition"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "a School of Chemical and Biological Engineering, Institute of Chemical Process, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea b Department of Chemical Engineering, Soongsil University, 369 Sangdo-ro, Dongjak-gu, Seoul 06978, Republic of Korea"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "3"
+        ],
+        "text": "Organic additives play an important role in regulating fi lm growth and properties in Cu electrodeposition. 3‑Mercapto‑1‑propane sulfonate (MPS) and its dimer bis(3‑sulfopropyl) disulfide (SPS) are representative accelerators that promote Cu electrodeposition rate. In this study, the formal reduction potential of SPS to MPS wa determined by measuring the equilibrium constants of thiol–disulfide interchange reactions with the reference thiol/disul fi de pairs by 1 H nuclear magnetic resonance (1H NMR) spectroscopy. The calculated formal reduction potential of SPS to MPS was 0.153 V (vs. standard hydrogen electrode). Based on this calculation, the cell potentials of Cu(I)(thiolate) formation r"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "3"
+        ],
+        "text": "Cu has been widely used as metallization material in the semi conductor industry owing to its low electrical resistivity and high electromigration resistance. Cu metallization is usually performed by electrodeposition, which e fi ciently yields high quality fi lms by a relatively simple and inexpensive process. Electrolyte for Cu electrodeposition typically contains small quantities of organic additives, which are essential to regulate fi lm growth and properties. Additives are grouped into accelerators, suppressors, and levelers according to their roles in controlling the deposition rate. Among them, 3‑mercap to‑1‑propanesulfonate (MPS) and its dimer bis(3‑sulfopropyl) disulfide (SPS) are t"
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S1572665722004489_main",
+    "missing_occurrences": 41,
+    "missing_values": {
+      "1": 10,
+      "2": 5,
+      "3": 3,
+      "5": 7,
+      "7": 2,
+      "9": 4,
+      "0": 4,
+      "4": 3,
+      "6": 2,
+      "8": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2"
+        ],
+        "text": "Zhihua Tao a,⇑,1, Zhiyuan Long a, Linjie Tengxu a, Guanting Liu a,2, Xuefei Tao"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "3",
+          "5"
+        ],
+        "text": "A nitrogen-containing heterocyclic compound N-(3-(5-Mercapto-1H-tetrazol-1-yl) phenyl) acetamide (named L) was investigated as a new leveler to develop the microvias Cu fi lling with or without cracked plating in blind via. The synergistic effects of L with other plating additives were investigated by galvanostatic measurements (GMs) and cyclic voltammetry (CV) measurements. The GMs show that the Δη values (Potential difference at different speeds of Cu rotating disk electrode) are approximately 24 mV which usually suggests better Cu fi lling performance for the corresponding electrolyte additives. In addition, the optical microscope (OM) measurements indicated that microvias cracked plating"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "7",
+          "9"
+        ],
+        "text": "Over recent years, the nano or micro-scale blind vias copper fi lling by electroplating has become one of the most practical methods for the fabrication of integrated circuit packaging substrates and circuit boards (PCBs) [1–6]. To achieve high-reliability interconnection by Cu fi lling blind holes between layers of electronic products is a long term and formidable task with high-density interconnection (HDI) technology. The super fi lling of blind holes is commonly regarded as an ef fi cient way and high performance with no void or seam during the microvia metallization process [7–8]. The super fi lling mode means the electrocrystallization rate speed of copper at the bottom of the blind vi"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2",
+          "3"
+        ],
+        "text": "In order to ensure product quali fi ed reliability, many chemical additives have been applied in super fi lling process, including an accelerator (bis(3-sulfopropyl) disul fi de, SPS), a suppressor (polyethylene glycol, PEG or PEP(propylene oxide-ethylene oxide-propylene oxide)), and a leveler (Janus Green B, JGB) [11–15]. Among them, leveler ha important effects with regard to the asymmetric electroplating due to its capability of adsorbing at a high electric fi eld for the cathode sur face, which increase the overpotential of copper deposition and strongly inhibits copper deposition in high current density regions [16–18]. According to the literature [19,20], commonly used levelers for cop"
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S1572665724000766_main",
+    "missing_occurrences": 2,
+    "missing_values": {
+      "1": 1,
+      "5": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "A defect free copper interconnect is crucial for ensuring the electrical connection and transmission of high density interconnect printed circuit boards. Leveling agent is a key regulatory factor for achieving dense cop per super filling from bottom to top in blind holes during the electroplating process of high-density interconnect boards. Here, two small molecule five-membered heterocyclic compounds with different side chains, namely 3- amino-5-mercapto-1,2,4-triazole (AMT) and 2–5-methyl-1,3,4-thiadiazole (MMT), were selected to be as levelling agents to study their effect on the copper filling behavior on blind holes. Electrochemical tests including cyclic voltammetry solvation (CV) and "
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "5"
+        ],
+        "text": "Blind hole copper electroplating is the primary technology used in the connectivity manufacturing process for printed circuit boards (PCB), semiconductor integrated circuit (IC) chips, and IC packaging substrates [1–3]. The issue of achieving complete filling of high-quality plated copper has become increasingly essential in light of the progress made in integrated and miniaturized electronic devices. This is particularly relevant as high-density interconnect printed circuit boards (PCBs) are transitioning towards through-hole and micro-hole designs with larger depth-to-diameter ratios [4]. In the process of copper plating on such PCB micro vias with a larger depth-to-diameter ratio, there i"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "The molecular structures of two small-molecule five-membered heterocyclic compounds are shown in Fig. 1."
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1",
+          "5"
+        ],
+        "text": "The electrochemical tests such as CV, LSV and GM performed in this study were carried out using a rotating disk and a CHI 660C electrochemical workstation. 250 ml of plating solution in a glass container and room temperature electrochemical tests were performed. The threeelectrode test system employed had a platinum rotating disc electrode (Pt-RDE) with a 5 mm diameter as the working electrode (WE), a saturated calomel electrode as the reference electrode (RE) and a platinum wire electrode as the counter electrode (CE). Here, the base solution was 220 g / LCuSO _4·5H_2O (technical grade), 55 g/L H 2 SO 4 (98 %, analytical reagent, AR) and 60 ppm Cl - (37 % HCl, AR), the accelerator used in t"
+      }
+    ]
+  },
+  {
+    "doc_id": "1_s2_0_S2352492825007378_main",
+    "missing_occurrences": 31,
+    "missing_values": {
+      "361005": 1,
+      "6": 3,
+      "2": 5,
+      "1": 3,
+      "5": 6,
+      "4": 3,
+      "7": 2,
+      "3": 3,
+      "9": 2,
+      "8": 1,
+      "1.1": 1,
+      "0.4": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "361005"
+        ],
+        "text": "b State Key Laboratory of Physical Chemistry of Solid Surfaces, Engineering Research Center of Electrochemical Technologies of Ministry of Education, Department of Chemistry, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen, Fujian 361005, China"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2",
+          "6"
+        ],
+        "text": "Cobalt electrodeposition is the core technology in chip manufacturing. Butynediol (BD) is the key component in cobalt electrodeposition. In this work, the molecule structure and adsorption ability of BD are successfully revealed by density functional theory (DFT) calculations. The number of transferred electrons (ΔN) value near 0, and the interaction between oxygen atom not alkynyl group in BD and cobalt, demonstrating that BD is physically adsorbed on the cobalt surface. The adsorption energy of BD on hexagonal closepacked (hcp)(101) is −0.67 eV, which is the highest adsorption energy among crystal faces, manifesting that (101) may be a potential preferred orientation. Then the effects of B"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Electrodeposition plays a vital role in advanced chip manufacturing as it is a key technology for electrical interconnects. With the rapid development of technology, the length of metal wiring inside the chip has been significantly extended, at the same time, the number of layers inside the chip has also continued to increase. To improve energy efficiency and performance, the size of transistors and metals must continue to shrink [1–4]. However, this process inevitably exacerbates the size effect (grain boundary and interface diffusion of electrons in metals), significantly increases the current load and resistance, and causes serious RC delay and thermal damage to chip performance. Metal co"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "[5]."
+      }
+    ]
+  },
+  {
+    "doc_id": "2023_Shen_Study_on_the_Effects_of_Additives_on_the_Performan",
+    "missing_occurrences": 183,
+    "missing_values": {
+      "9": 9,
+      "463.4": 1,
+      "1": 21,
+      "2": 15,
+      "3": 18,
+      "7": 6,
+      "8": 8,
+      "1E+1": 1,
+      "11": 1,
+      "4": 14,
+      "13": 2,
+      "14": 1,
+      "15": 1,
+      "-18": 1,
+      "6": 5,
+      "5": 13,
+      "0": 23,
+      "-2": 1,
+      "452": 1,
+      "464": 1,
+      "443": 2,
+      "396": 1,
+      "267.03": 1,
+      "521.59": 2,
+      "1136.61": 2,
+      "335.77": 2,
+      "0.9": 3,
+      "25.6298": 1,
+      "1261.09": 1,
+      "1682": 1,
+      "253.13": 1,
+      "256": 1,
+      "4096": 1,
+      "182.02": 2,
+      "4676.02": 2,
+      "379": 1,
+      "359": 1,
+      "354": 1,
+      "3.5E+2": 1,
+      "371": 1,
+      "362.6": 1,
+      "462": 1,
+      "465": 1,
+      "466": 1,
+      "4.6E+2": 1,
+      "550025": 2,
+      "-8415": 1,
+      "-3452": 1,
+      "99101042": 1,
+      "8989": 1,
+      "163": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "Cite This: ACS Omega 2024, 9, 942−954"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "463.4"
+        ],
+        "text": "ABSTRACT: To understand the efects of additives on the performance of a Ni− Co−P alloy electroplated coating, this study, based on a single-factor experiment, utilized a Box−Behnken experimental design to optimize an additive that can enhance the electrodeposited Ni−Co−P alloy coating’s properties, including hardness, glossiness, and corrosion resistance. The study used tools such as a gloss meter, a Vickers hardness tester, and an electrochemical workstation to analyze the impact of diferent additives on the coating’s hardness and gloss. The optimal additive combination was determined. The results from the Box−Behnken experiment showed that when the concentrations of sodium dodecyl sulfate,"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. INTRODUCTION"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "7",
+          "8"
+        ],
+        "text": "Chrome plating has been highly favored for its advantages (e.g., high hardness, excellent corrosion resistance, and wear resistance), whereas the environmental pollution and health hazards arising from hexavalent chromium in the plating solution have aroused rising attention. 1,2 Electroplated Ni− Co−P alloy coatings have been considered a promising alternative to chrome plating for their prominent thermal stability, corrosion resistance, and wear resistance, as reported in existing research. 3−6 However, several problems (e.g., severe hydrogen evolution at the cathode and unstable plating solution) during the electroplating process of Ni−W−B alloy coatings can trigger cracked coatings, lack"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "-18",
+          "1",
+          "11",
+          "13",
+          "14",
+          "15",
+          "1E+1",
+          "2",
+          "3",
+          "4",
+          "9"
+        ],
+        "text": "Additives take on critical significance in electroplating, even though they are employed in small quantities. They exert notable efects on the performance exhibited by the plating solutions and coatings. Surfactants are capable of reducing the surface tension of the plating solution such that the plating solution can spread more smoothly on the substrate surface. Moreover, surfactants facilitate the release of hydrogen gas adsorbed on the cathode surface such that the occurrence of pinholes and pitting on the coating surface can be reduced and a smoother surface can be generated. Sodium dodecyl sulfate (SDS), i.e., a commonly used surfactant, can efectively hinder the formation of pinholes a"
+      }
+    ]
+  },
+  {
+    "doc_id": "2024_Guo_Influence_of_PUB2_on_the_Leveling_Effect_of_Chip_Co",
+    "missing_occurrences": 7,
+    "missing_values": {
+      "9": 1,
+      "400044": 1,
+      "-4": 1,
+      "-9591": 1,
+      "-9331": 1,
+      "23": 1,
+      "65678935": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "Cite This: ACS Omega 2024, 9, 14092−14100"
+      },
+      {
+        "page": 5,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "The height of the wiring and height diferences between wires of the same type were measured to analyze the uniformity of the wafer surface wiring further. Figure 9a reveals that the wiring height decreases from approximately 4250 to 3000 nm with the inclusion ofPUB2. However, the wiring height steadily increases as the PUB2 concentration rises. The wiring height reaches the original value of 4750 nm when the concentration of PUB2 reaches 50 ppm. Figure 11b reveals that the height diference between the high and low planes of the same type of wire is smaller without the addition of PUB2. The height diference between the high and low planes is between 250 and 320 nm when the PUB2 concentration "
+      },
+      {
+        "page": 6,
+        "type": "chart",
+        "values": [
+          "9"
+        ],
+        "text": "Figure 9. Impact of various PUB2 concentrations on the uniformity and height disparity of the wire. (a)"
+      },
+      {
+        "page": 8,
+        "type": "text",
+        "values": [
+          "-4",
+          "-9331",
+          "-9591",
+          "23",
+          "400044",
+          "65678935",
+          "9"
+        ],
+        "text": "Renlong Liu − School ofChemistry and Chemical Engineering, Chongqing University, Chongqing 400044, China; orcid.org/0009-0004-9591-9331; Phone: 023- 65678935; Email: lrl@cqu.edu.cn"
+      },
+      {
+        "page": 8,
+        "type": "text",
+        "values": [
+          "400044"
+        ],
+        "text": "Lanfeng Guo − School ofChemistry and Chemical Engineering, Chongqing University, Chongqing 400044, China; Hubei Sinophorus Electronic Materials C o _ ·,, Ltd., Hubei 443007, China"
+      }
+    ]
+  },
+  {
+    "doc_id": "3_巯基_1_丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响",
+    "missing_occurrences": 6,
+    "missing_values": {
+      "51801018": 1,
+      "6.197402E+7": 1,
+      "405190005": 1,
+      "2019": 1,
+      "90910003": 1,
+      "1.08470218004E+12": 1
+    },
+    "examples": [
+      {
+        "page": 8,
+        "type": "text",
+        "values": [
+          "1.08470218004E+12",
+          "2019",
+          "405190005",
+          "51801018",
+          "6.197402E+7",
+          "90910003"
+        ],
+        "text": "Acknowledgements: The authors gratefully acknowledge the support of the National Natural Science Foundation of China (Nos. 51801018 and 61974020). The work is also supported by the Innovation Team Project of Zhuhai City (No. ZH0405190005PWC), and the projects of Sci & Tech planning of Guangdong Province (No. 2019B090910003) and Zhuhai City (No. ZH01084702180040HJL)."
+      },
+      {
+        "page": 8,
+        "type": "text",
+        "values": [
+          "1.08470218004E+12",
+          "2019",
+          "405190005",
+          "51801018",
+          "6.197402E+7",
+          "90910003"
+        ],
+        "text": "Funding information: National Natural Science Foundation of China (Nos. 51801018 and 61974020). The work is also supported by Innovation Team Project of Zhuhai city (No. ZH0405190005PWC), and the projects of Sci & Tech planning of Guangdong Province (No. 2019B090910003) and Zhuhai City (No. ZH01084702180040HJL)."
+      }
+    ]
+  },
+  {
+    "doc_id": "3_异靛蓝季铵盐的合成及其在电镀铜中的应用",
+    "missing_occurrences": 16,
+    "missing_values": {
+      "5": 1,
+      "1": 6,
+      "2": 2,
+      "0": 1,
+      "2E+2": 4,
+      "116.74": 1,
+      "117.55": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "Cite this: DOI: 10.1039/d5tc01743b"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "Received 30th April 2025, Accepted 5th August 2025"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "DOI: 10.1039/d5tc01743b"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2"
+        ],
+        "text": "With the continuous development of the information age, electronic devices are being more widely used, and high-density interconnection (HDI) printed circuit boards (PCBs) are one of the key components in the preparation of electronic products, 1,2 in which through-hole (TH) metallization is a pivotal technology for PCB electrical interconnection. Considering the economic cost and the performance advantages of copper metal such as good electrical conductivity and high electromigration resistance, copper electrodeposition is mostly used to realize uniform through-hole filling. 3–5 With the increasing technological demands in the field of electronics manufacturing, PCBs also need to develop in"
+      }
+    ]
+  },
+  {
+    "doc_id": "4_喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用",
+    "missing_occurrences": 11,
+    "missing_values": {
+      "10.5796": 1,
+      "24": 1,
+      "-24": 1,
+      "2024": 1,
+      "4": 2,
+      "0": 1,
+      "2E+2": 4
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "-24",
+          "10.5796",
+          "24"
+        ],
+        "text": "https://doi.org/10.5796/electrochemistry.24-00024 https://doi.org/10.50892/data.electrochemistry.25609638 Data"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2024"
+        ],
+        "text": "Electrochemistry, 92(5), 057002 (2024)"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "-24",
+          "10.5796",
+          "2024",
+          "24",
+          "4"
+        ],
+        "text": "© The Author(s) 2024. Published by ECSJ. This is an open access article distributed under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License (CC BY-NC-SA, http://creativecommons.org/licenses/by-nc-sa/4.0/), which permits non-commercial reuse, distribution, and reproduction in any medium by share-alike, provided the original work is properly cited. For permission for commercial reuse, please email to the corresponding author. [DOI: 10.5796/electrochemistry,24-00024]"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "4"
+        ],
+        "text": "With the rapid advancement of the semiconductor industry and electronic information technology, there is a growing demand for miniaturization, lightweight, and high stability in various intelligent devices and communication equipment. 1 Consequently, the manufacturing of printed circuit boards (PCBs) and integrated circuits (ICs), as well as the large-scale integration of chips, assumes paramount importance. 2,3 Copper metal, owing to its high electrical conductivity, robust thermal conductivity, excellent ductility, and stable chemical properties, finds extensive application in electronic chemical manufacturing. 4,5 Copper plating technology holds a crucial position in the production of PCB"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "24"
+        ],
+        "text": "The unique structure of the quinacridone molecule, characterized by a conjugated five-membered ring and strong electronegative groups like the carbonyl and sp ^ 2 hybridized N atoms, makes it highly suitable for electrode surface adsorption and efective charge dispersion. 24 – 26 This inherent potential motivated the present study to synthesize a series of quinacridone aromatic heterocyclic quaternary ammonium salts from 2,9 dichloroquinacridone, and these compounds were analyzed and tested to explore their properties in terms of electroplating."
+      }
+    ]
+  },
+  {
+    "doc_id": "5_炔基嘧啶作为钴超填充抑制剂的研究",
+    "missing_occurrences": 43,
+    "missing_values": {
+      "5": 3,
+      "3": 7,
+      "0": 1,
+      "2": 6,
+      "1E+2": 2,
+      "6": 3,
+      "1": 4,
+      "7": 1,
+      "4": 3,
+      "9": 3,
+      "-3": 1,
+      "2.0009E+5": 7,
+      "-2363": 1,
+      "-4252": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "Study of 5‑Alkynylpyrimidines as Cobalt Superfilling Inhibitors"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "0",
+          "1E+2",
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "text": "ABSTRACT: Electrodeposition technology is the key core technology for achieving micro/nanoscale interconnection in high-end chip manufacturing. Recently, cobalt interconnect structures have been the ideal choice for constructing electronic pathways in process nodes below 14 nm due to the fact that cobalt has a smaller electron mean free path compared to copper; thus, studying the electroplating filling behavior of cobalt in micronano scale space has become a hot topic in the field of chip manufacturing. In this article, an electroplating solution containing a new 5-alkynylpyrimidine (5-EP) as an inhibitor is designed for electrochemical tests, including cyclic voltammetry and linear sweep vo"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. INTRODUCTION"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "text": "Damascene copper plating technology has remained the best choice for metal interconnects in logic chips and memory chips. 1 As semiconductor processes advance toward 10 nm and below, the use of copper as a conductor material begins to encounter issues with RC delay, which severely impacts the interconnect performance of chips. This has led to bottlenecks in process technology at the 10- and 7-nanometer nodes, 2,3 necessitating the search for new alternative interconnect materials. Researchers have found that metals such as Co, Ni, Mo, and Nb show greater potential than Cu. 4 However, when considering other parameters such as process and material costs, only Co is highlighted as a promising m"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "EP on crystal morphology and orientation, and the resistivity of annealed cobalt coatings was calculated. Computational and simulation methods, combined with in situ Raman spectroscopy, were used to study the adsorption of the inhibitor (5-EP) molecules at the cobalt interface. The wettability of inhibitor (5-EP) on plated layers at diferent deposition times was investigated using a contact angle test."
+      }
+    ]
+  },
+  {
+    "doc_id": "5_聚_1_4_丁二醇二缩水甘油醚_2_甲基咪唑与咪唑_作为盲孔镀铜整平剂的研究",
+    "missing_occurrences": 10,
+    "missing_values": {
+      "1": 2,
+      "4": 2,
+      "5": 2,
+      "6": 1,
+      "9": 1,
+      "7": 2
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "4"
+        ],
+        "text": "Exploration of poly(1,4‑butanediol diglycidyl ether, 2‑methylimidazole, and imidazole) as leveling agents in blind hole copper plating"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Xiangjian Zeng 1, Zhanchang Pan 1, *, Guanghui Hu 1, Guowei Xia 2, Haiqing Huang 2, Mingliang Zou 2, and Shikun Shi 2"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1 School of Chemical Engineering and Light Industry, Guangdong University of Technology, Guangzhou 510006, Guangdong, China 2 Victory Giant Technology (Huizhou) Co., Ltd., Huizhou 516000, China"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "4"
+        ],
+        "text": "Received: 15 April 2025 Accepted: 4 June 2025 Published online: 23 June 2025"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1 Introduction"
+      }
+    ]
+  },
+  {
+    "doc_id": "6_香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究",
+    "missing_occurrences": 10,
+    "missing_values": {
+      "0": 1,
+      "2E+2": 4,
+      "55": 1,
+      "108": 1,
+      "91": 1,
+      "136": 1,
+      "2.8E+2": 1
+    },
+    "examples": [
+      {
+        "page": 3,
+        "type": "text",
+        "values": [
+          "0"
+        ],
+        "text": "As shown in Fig. 4b, with the increasing of C2 concentration, the inhibition effect of C2 was also enhanced. When the concentration of C2 is increased to 8 μmol/L, the potential is close to 0 V, which means that C2 can completely cover the surface of the working electrode by adsorption, so that the deposition amount of copper ions is close to 0. Compared with the CV test of JGB (Fig. S1), the inhibitory ability of leveler C2 was much stronger than that of JGB at the same concentration, which further indicated the efficient inhibitory ability of leveler C2."
+      },
+      {
+        "page": 5,
+        "type": "text",
+        "values": [
+          "2E+2"
+        ],
+        "text": "The five compounds were paired with 200 ppm PEG and 2 ppm SPS, respectively, and the results of TH electroplating are shown in Fig. 10."
+      },
+      {
+        "page": 6,
+        "type": "text",
+        "values": [
+          "0"
+        ],
+        "text": "As shown in Fig. 13(a), firstly, the VMS was run in constant current conditions for 1000 s, the potential difference was about 0, indicating that the VMS does not have overfill capacity. The potential decreased rapidly with the addition of PEG, representing the rapid adsorption of PEG, while the potential started to rise slowly with the addition of SPS at 2000 s, indicating that the adsorption of SPS is a slow process and its action rate controlled by its rate of adsorption [42]. At 3000 s, the decrease of potential indicates that the depolarization of SPS is inhibited and there is a competitive adsorption relationship between C2 and SPS. At high speed, the potential immediately decreases, i"
+      },
+      {
+        "page": 7,
+        "type": "table",
+        "values": [
+          "108",
+          "136",
+          "2.8E+2",
+          "55",
+          "91"
+        ],
+        "text": "Table 2 Coverage of different molecules.      A1  B1  C1  B2  C2    Number of copper atoms  55  108  91  136  280   "
+      },
+      {
+        "page": 7,
+        "type": "text",
+        "values": [
+          "2E+2"
+        ],
+        "text": "The test results are shown in Fig. 14. The surface of the copper plate electroplated with VMS (“formula a”) was very rough, and the copper particle diameter was over 10 μm when the magnification was 5000. Combined with XRD analysis, the crystallographic orientation of copper plating layer is mainly (220) crystallographic plane, which means the size of copper grains is larger and the copper surface flatness is lower. When using “formula b”, due to the presence of SPS and PEG 10000, the copper grains were refined, the (220) crystallographic plane orientation was suppressed, and the (200) and (111) crystallographic plane orientations were dominated, and the copper surface looked much flatter, b"
+      }
+    ]
+  },
+  {
+    "doc_id": "7_micromachines_16_00721",
+    "missing_occurrences": 17,
+    "missing_values": {
+      "1": 3,
+      "2": 1,
+      "530004": 1,
+      "721": 1,
+      "3301225": 1,
+      "163": 2,
+      "530023": 1,
+      "9": 1,
+      "126": 1,
+      "0": 5
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2"
+        ],
+        "text": "Dong Xing 1, Xiangfu Wei 1,2, *, Jinge Ye 1, Mingsong Lin 2,3, Shengchang Tang 1, * and Hui You 1"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "163",
+          "3301225",
+          "530004",
+          "721"
+        ],
+        "text": "1 School of Mechanical Engineering, Guangxi University, Nanning 530004, China; xdd0721@st.gxu.edu.cn (D.X.); yjg3301225@163.com (J.Y.); usmlhy@iim.ac.cn (H.Y.)"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "126",
+          "2",
+          "530023",
+          "9"
+        ],
+        "text": "2 College of Automotive Engineering, Guangxi Transport Vocational and Technical College, Nanning 530023, China; lmsong9@126.com"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "163"
+        ],
+        "text": "Correspondence: fuxiang_wei@163.com (X.W.); shengchangtang@st.gxu.edu.cn (S.T.)"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "721"
+        ],
+        "text": "Citation: Xing, D.; Wei, X.; Ye, J.; Lin, M.; Tang, S.; You, H. Integrated Electrochemical and Computational Elucidation of Nitro Blue Tetrazolium Chloride as an Efficient Leveler for Copper Microvia Superfilling. Micromachines 2025, 16, 721. https://doi.org/10.3390/ mi16060721"
+      }
+    ]
+  },
+  {
+    "doc_id": "8_s12678_025_00960_8",
+    "missing_occurrences": 11,
+    "missing_values": {
+      "1": 2,
+      "-8E+1": 1,
+      "-2E+1": 1,
+      "0": 5,
+      "1.2E+2": 2
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Zewei Lin 1,2 · Zhihua Tao 1 · Yuxuan Huang 1 · Jihua Zhang 2,3"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "-8E+1"
+        ],
+        "text": "Tween (TW) compounds, on account of their environmentally benign and non-toxic characteristics, were systematically studied as prospective eco-friendly suppressants in the process of copper plating for blind hole filling. The synergistic efects between TW and other additives were verified by means of chronopotentiometry, cyclic voltammetry, and electrochemical impedance spectroscopy. The outcomes of the electrochemical tests revealed that the competitive adsorption behavior between bis-(3-sulfopropyl) disulfide (SPS) and TW is contingent upon the current density and the intensity of convection. Metallographic section analysis demonstrated that TW exhibits outstanding microvia filling capabil"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "In the realm of microelectronics manufacturing, acid copper electroplating for microvia filling has emerged as a pivotal process, ensuring reliable electrical interconnections within printed circuit boards (PCBs) and advanced packaging substrates [1–4]. The quality of via filling, characterized by void—free and uniform deposition, directly impacts the performance, reliability, and miniaturization potential of electronic devices [5–7]. To achieve this, a complex mixture of additives, including suppressors, accelerators, and levelers, is incorporated into the electroplating bath [8–11]. Among these, suppressors play a crucial role in controlling the deposition rate at diferent surface sites, p"
+      },
+      {
+        "page": 2,
+        "type": "image",
+        "values": [
+          "-2E+1",
+          "-8E+1",
+          "1"
+        ],
+        "text": "Fig. 1 Chemical structures of TW-20 (a) and TW-80 (b)"
+      },
+      {
+        "page": 3,
+        "type": "text",
+        "values": [
+          "-2E+1",
+          "-8E+1",
+          "1"
+        ],
+        "text": "Against this backdrop, considering their excellent emulsifying, dispersing, and wetting properties, as well as their relatively low toxicity and good biodegradability, Tween compounds present a compelling option for electroplating applications. However, their application as suppressors in acid copper electroplating for microvia filling has remained largely unexplored. This study aims to investigate the inhibitory efects of TW-20 and TW-80 (as shown in Fig. 1) and their synergistic efects with other additives through electrochemical methods, optical microscopy, and quantum chemical calculations. By doing so, it systematically evaluates Tween compounds as eco-friendly suppressors for acid copp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ao3c05248",
+    "missing_occurrences": 5,
+    "missing_values": {
+      "9": 1,
+      "400044": 1,
+      "-4": 1,
+      "-9591": 1,
+      "-9331": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "Leveling agents, like inhibitors, have the same efect on inhibiting copper deposition. 8 Currently, there is no complete consensus on the mechanism of action of leveling agents. According to reports, leveling agents can be roughly divided into two categories: quaternary ammonium cation or positively charged nitrogen-containing heterocyclic compound. 9 JGB is one of the most studied leveling agents. As shown in Figure 1, JGB is a nitrogen-containing heterocyclic compound with a positive charge. Since JGB contains N + during the electroplating process, it tends to adsorb in high charge density areas like plating raised points and microporous orifices and other locations to inhibit the copper f"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "2.1. Quantum Chemistry Calculation and Molecular Dynamics Simulation. Quantum chemistry calculation is a theoretical calculation method, which is widely used to explore the interactions and reactions between molecules. 11,12 This simulation experiment uses the Gaussian 09W and GaussView, with $\\mathrm { B } 3 \\mathrm { L Y P } / \\bar { 6 } { \\cdot } 3 1 1 \\mathrm { G } ( \\mathrm { d } , \\mathrm { p } )$ as the base group , 13,14 uses DFT as a calculation method, optimizes the structure of JGB and thiamine molecules, as well as calculates the highest occupied molecular orbital (HOMO), lowest unoccupied molecular orbital (LUMO) energy, and energy gap values of thiamine molecules ΔE $\\left( \\De"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "3.1. Quantum Chemistry Calculation and Molecular Dynamics Simulation. As shown in Figures 3−5, the optimized structure schematic, HOMO energy diagram, and LUMO energy diagram of JGB and thiamine molecules were calculated using the software Gaussian 09W and GaussView. Among them, gray white represents H atoms, gray represents C atoms, red represents O atoms, dark blue represents N atoms, and yellow represents S atoms. It can be seen from Figures 4 and 5 show that the electron cloud in JGB is concentrated on the N atom and benzene ring, and the electron cloud is relatively uniform in general, which may be parallel adsorbed on the surface of the copper layer in a large area to provide large ele"
+      },
+      {
+        "page": 4,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "3.2. Electrochemical Behavior Analysis. Figure 9 shows the CV testing experiments in the following four solutions: VMS, VMS + 55 mg/L Cl −, VMS + 55 mg/L Cl ^ - + 4 mg/L thiamine, and VMS + Cl − + 4 mg/L JGB. The peak area of the oxidation peak on the CV curve can represent the deposition amount of copper. 24,25 It is easy to see that compared to the VSM solution, the peak area increases after the addition of Cl − ions, indicating that the addition of Cl − ions promotes copper precipitation. After adding JGB and thiamine, the CV oxidation peak area decreases, and the peak area of the solution is the smallest after adding thiamine. Therefore, it can be inferred that thiamine can inhibit Cu ^ "
+      },
+      {
+        "page": 4,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "Figure 10 shows the CP curve tested at diferent rotational speeds. As shown in the figure, when 1 mg/L thiamine is added at 100 s, the overpotential of the solution begins to move negatively, and when thiamine continues to be added to the solution, the potential of the solution continues to move downward. Combined with Figure 9, it can be considered that thiamine achieves the inhibition efect of copper precipitation by making the potential of the copper electrode move negatively. Since the flow rate inside and outside of the micropore is diferent (the flow rate inside the micropore is lower and the flow rate outside the hole is higher), the potential diference under high and low rotational s"
+      }
+    ]
+  },
+  {
+    "doc_id": "ao4c01707",
+    "missing_occurrences": 13,
+    "missing_values": {
+      "9": 1,
+      "1": 1,
+      "4": 1,
+      "5": 1,
+      "0.3": 1,
+      "0.1": 1,
+      "0.5": 1,
+      "23": 1,
+      "-4": 1,
+      "400044": 1,
+      "-9591": 1,
+      "-9331": 1,
+      "65678935": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "9"
+        ],
+        "text": "Cite This: ACS Omega 2024, 9, 20637−20647"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. INTRODUCTION"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Copper is employed as interconnects due to its low electrical resistance and robust resistance to electron migration. Extensive practical evidence has afirmed the following advantages of copper interconnects over aluminum interconnects. Copper exhibits lower resistivity than aluminum, with copper’s resistivity at 1.7 uΩ·cm and aluminum’s at 2.7 uΩ·cm. The resistivity of copper is a mere 60% of aluminum, leading to a substantial decrease in power consumption for the corresponding interconnects. Compared to traditional aluminum intercon nects, copper interconnects demonstrate a two-order-ofmagnitude enhancement in resistance to electron migration, thereby significantly elevating the reliabilit"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "The utilization ofelectroplated copper for gap filling has become an essential technology. It is widely applied for metallization in high-density interconnects in integrated circuits, as well as for filling microvias in printed circuit boards and silicon vias in chip packaging. The copper electrodeposition method involves bottom-up filling within the hole to ensure gap-free coverage. This signifies that, during the electroplating process, the bottom of the hole exhibits the highest rate of copper deposition. As shown in Figure 1, the uneven distribution of primary and secondary currents results in lower current density at the bottom of the hole and higher current density at the mouth of the "
+      },
+      {
+        "page": 2,
+        "type": "image",
+        "values": [
+          "1"
+        ],
+        "text": "Figure 1. Diagram illustrating direct current plating."
+      }
+    ]
+  },
+  {
+    "doc_id": "d4nj05470a",
+    "missing_occurrences": 2,
+    "missing_values": {
+      "1": 1,
+      "44": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Filling performance of an Acid Blue 1 leveler on blind microvias†"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "The void-free blind microvia copper electroplating process is a key technology in HDI PCB manufacturing. This work systematically studied the influence of the Acid Blue 1 (AB1) leveler on blind microvia filling. AB1 exhibits excellent suppression during electroplating, with its efect strengthening as the AB1 concentration increases. Chronopotentiometry was used to study the interaction among AB1, SPS, and PEG. There is a synergistic suppressing interaction between the new leveler AB1 and suppressor PEG, while there is competition between AB1 and accelerator SPS. During electrodeposition, AB1 can adsorb on the copper substrate to reduce active sites and suppress copper electrodeposition, base"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "High-density interconnect (HDI) printed circuit boards (PCBs) serve as a foundational platform for connecting all kinds of electronic components in electronic products, thus attracting significant research attention. 1 With the trend toward smallersized electronic devices with higher performance, stricter requirements are imposed on PCB design and manufacturing technology. 2,3 Especially in the fields of high-performance computing, high-speed communication, and precision instruments, the reliability and performance of PCBs are directly related to the performance and stability of the final products. Blind microvia filling is a key interconnect technology in the manufacturing process of PCBs, "
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "In this work, a novel triphenylmethane derivative, Acid Blue 1 (AB1), was selected as a potential leveler, and the efects of diferent concentrations of AB1 on copper electroplating were investigated. The interactions among three diferent types of additives were studied using galvanostatic measurements. The influencing mechanism of AB1 on the copper cathode surface during electroplating was also studied theoretically and experimentally. The filling performance of AB1 in blind microvias was examined, and the electroplating process was optimized. Additionally, the surface morphology and roughness of the copper interconnect layer were analyzed, and finite element simulation was employed to study"
+      }
+    ]
+  },
+  {
+    "doc_id": "DMG_丁二酮肟_",
+    "missing_occurrences": 5,
+    "missing_values": {
+      "2016": 1,
+      "4": 2,
+      "10.1149": 1,
+      "2.1111613": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2016"
+        ],
+        "text": "To cite this article: Q. Huang et al 2016 J. Electrochem. Soc. 163 D715"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "10.1149",
+          "2.1111613",
+          "2016",
+          "4"
+        ],
+        "text": "The effect of dimethylglyoxime on Co electrodeposition was investigated with cyclic voltammetry, chronopotentiometry, quartz microbalance as well as electrochemical impedance. A potential dependent suppression effect was observed at low potential with a breakdown of the suppression at high potential, resulting in a hysteresis in CV. The addition of dimethylglyoxime not only causes a fast and strong suppression in potential transients but also modifies the impedance spectra. Additional capacitive loops and inductance loops emerged depending on the applied potential, suggesting a competitive adsorption between different surface adsorbed intermediates. A relaxation of suppression effect was obs"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2016"
+        ],
+        "text": "Manuscript submitted August 11, 2016; revised manuscript received September 28, 2016. Published October 10, 2016."
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "4"
+        ],
+        "text": "The state-of-the-art back-end-of-line (BEOL) interconnects are fabricated with copper, which replaced Aluminum in late 1990’s due to its lower resistivity and superior reliability. 1,2 As the interconnect continues to scale, the critical dimension of the BEOL structures has approached the electron mean free path of copper. The copper resistivity in such nanostructures increases exponentially as the dimension further shrinks, 3,4 posing tremendous challenges to the continuous scaling of copper interconnect for 7 nm technology and beyond. While the bulk resistivity of a metal is an intrinsic property of the material its resistivity in these small structures is largely determined by what happen"
+      },
+      {
+        "page": 3,
+        "type": "text",
+        "values": [
+          "4"
+        ],
+        "text": "The Co makeup solution contains 0.3 M CoSO_4, 0.4 H_3BO_3, and 0.1 g/L sodium dodecyl sulfate (SDS). The pH of Co solution was adjusted to 4.0 with H 2 SO 4. DMG concentrate solution at 2 wt% (20000 ppm, 1 ppm DMG = 8.6 × 1 0 ^ - 6 M) was prepared using its sodium salt and was added into the makeup solution to make Co electrolytes with different amounts of DMG. A 0.2 M HCl solution was used to anodically strip the Co deposit on Pt. Metal free solutions was made with 0.4 M Na 2 SO 4, 0.4 H 3 BO 3, and 0.1 g/L sodium dodecyl sulfate (SDS) with a fixed pH of 4. All salts were at least ACS grade and deionized (DI) water with 18 MOhm was used for all solutions in this study."
+      }
+    ]
+  },
+  {
+    "doc_id": "la6c01870",
+    "missing_occurrences": 27,
+    "missing_values": {
+      "5": 3,
+      "6": 2,
+      "1": 3,
+      "2": 5,
+      "3": 2,
+      "-3": 1,
+      "4": 3,
+      "9": 1,
+      "0": 1,
+      "7": 1,
+      "150001": 2,
+      "350116": 1,
+      "-383": 1,
+      "-3297": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "5",
+          "6"
+        ],
+        "text": "ABSTRACT: Driven by the rapid development of 5G/6G communications, high-performance computing, and artificial intelligence, the metallization of high-aspect-ratio through-holes (THs) in printed circuit boards (PCBs) imposes stringent requirements on the thickness uniformity and interconnect reliability of electroplated copper layers. This study systematically investigates the application of a novel leveler, thiazolyl blue (MTT), for PCB THs’ electroplating, successfully realizing high-quality conformal deposition in high-aspect-ratio (10:1) THs. Electrochemical analyses demonstrate that MTT significantly enhances the cathodic polarization and efectively inhibits the reduction of Cu 2+. Meanw"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2",
+          "3"
+        ],
+        "text": "that MTT exhibits excellent leveling capability, reducing the surface roughness of the copper deposit to as low as 0.147 μm. Furthermore, density functional theory (DFT) calculations reveal that the high inhibitory eficiency of MTT originates from the dominant interfacial adsorption of MTT at the cathode. with the bulk cation-π interaction with Cu ^ 2 + contributing as a minor secondary effect at the microscopic level. Crystallographic and interfacial wettability analyses further indicate that MTT effectively refines the grain size and promotes the preferential growth of the Cu(200) plane while improving the wettability of the plating bath. In practical high-aspect-ratio through-hole plating"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. INTRODUCTION"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "-3",
+          "1",
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "text": "Driven by the rapid advancement of 5G/6G communications, high-performance computing, and artificial intelligence (AI), printed circuit boards (PCBs)�the mother of electronic products�are undergoing profound technological revolutions. 1−3 As the fundamental carrier connecting electronic components, the PCB not only provides mechanical support for chips and passive devices but also functions as the neural network sustaining signal transmission and power delivery throughout the electronic system. 4 With the accelerated evolution of PCBs toward high integration, high interconnect density, and high-frequency/high-speed transmission, this trajectory poses two intertwined materials challenges. On t"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "However, during the practical electroplating of high-aspect ratio THs, the initial current distribution is highly nonuniform due to geometric constraints. The local current density at the via opening is significantly higher than that at the center, accompanied by severe mass transfer limitations of Cu 2+ within the hole. This multiphysics imbalance frequently triggers the “dog-bone” defect, characterized by excessive copper accumulation at the via opening and excessively thin deposits on the inner walls. 11 Such nonuniform deposition severely compromises the electrical and mechanical performance of the interconnected structures, constituting a universal bottleneck in the high-density interco"
+      }
+    ]
+  },
+  {
+    "doc_id": "_电化学会志_含析氢反应抑制添加剂的超共形钴电沉积",
+    "missing_occurrences": 7,
+    "missing_values": {
+      "1": 6,
+      "0": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "On four-point functions of ½-BPSoperators in general dimensions Francis A. Dolan, Laurent Gallot and Emery Sokatchev"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Jungkyu Kang, 1 Minjae Sung, 1 Jinuk Byun, 1 Oh Joong Kwon, 2,z and Jae Jeong Kim 1,z"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1 School of Chemical and Biological Engineering, Institute of Chemical Process, Seoul National University, Gwanak-gu, Seoul 08826, Republic of Korea"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "As technology advances, electronic devices are continuously scaled down and the dimensions of copper interconnects are inevitably reduced. When the size of the interconnect reduces below a certain level, resistivity, which is considered as an intrinsic characteristic of the material, increases rapidly because of the resistivity size effect. 1–5 The size effect, which is the origin of the increase in resistivity, is related to the electron mean free path (EMFP). In general, in bulk materials, resistivity is dominated by electron–phonon scattering; therefore, the larger the EMFP, the lower the resistivity. However, as the line width of the interconnect approaches the EMFP, the number of electr"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "The base electrolyte for cobalt electrodeposition consisted of 0.1 M CoSO _4·7H_2 O., 0.5 MH_3 BO _ 3, and 1.0 M Na _ 2 SO _ 4 at pH 3, adjusted using H_2 SO _ 4. Four different concentrations of MBI (50, 100, 150, and 200μ M) were added to the electrolytes to investigate their effect on cobalt deposition and HER. The electrodeposition and electroanalytical measurements were performed with a potentiostat (PAR 273A, Princeton Applied Research) in a threeelectrode system, including a working electrode, with Pt mesh and Ag/AgCl electrode (KCl saturated) as the counter and reference electrodes, respectively. The temperature of the electrolytes was maintained at 25~^°C using a thermostat."
+      }
+    ]
+  },
+  {
+    "doc_id": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川",
+    "missing_occurrences": 23,
+    "missing_values": {
+      "5": 3,
+      "2": 5,
+      "4": 3,
+      "3": 2,
+      "1": 6,
+      "6": 2,
+      "7": 1,
+      "9": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "哈尔滨工业大学2023 年 5 月国内图书分类号：TQ153.1"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "答 辩 日 期：2023 年5月"
+      },
+      {
+        "page": 4,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "通过赫尔槽实验分析了 14 种不同结构的添加剂分子对 Co 沉积过程的影响，发现 C=N 环己二烯共轭结构和四氮唑共轭结构的分子可以提高 Co 镀液的分散能力。通过填充效果对比，发现具有共轭结构的孔雀石绿（MG）和氯化硝基四氮唑蓝（NBT）分别作为添加剂时，明显抑制 Co 在盲孔外表面的沉积速率，但是对盲孔底部沉积速率抑制效果不明显。通过分子动力学（MD）模拟分析，发现 MG 分子内的特殊 C=N 环己二烯共轭结构，可以有效地吸附在阴极表面，占据活性位点，阻碍 Co ^ 2 + 沉积。同时，NBT 分子内的四氮唑共轭结构也同样容易吸附在阴极表面，而且相较于 MG，NBT 具有更高的吸附能。"
+      },
+      {
+        "page": 4,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "通过镀液的电化学测试得知，较低浓度的 MG 和 NBT 就使 Co 还原电位发生明显的负移，而且随着抑制剂浓度的增加，镀液的极化过电位增加。通过计时电流曲线得出，增加镀液的传质速度，Co 的极化过电位增加，说明抑制剂 MG和 NBT 在阴极表面的吸附过程受传质过程控制。利用电化学石英晶体微天平（EQCM）测试发现，MG 和 NBT 作为抑制剂时，吸附在阴极表面阻碍 Co ^ 2 + 沉积，降低了沉积效率。通过与伏安曲线对比分析得出，MG 和 NBT 不仅抑制了Co 还原过程，还促进了氢还原过程。用同摩尔量的 K + 代替 Co ^ 2 + 并进行循环伏安测试发现，MG 和 NBT 促进了析氢反应（HER），从而导致镀液的 pH 值升高。结合理论分析得知，抑制剂分子吸附在阴极表面，占据活性位点，阻碍 Co ^ 2 + 成核沉积；吸附在阴极表面的添加剂分子充当 HER 的活性位点，促进氢析出。通过 Co 还原电流和镀液还原的总电流对比得知，尽管镀液中有硼酸的存在，但是添加剂促进了 _H_2O 的还原过程，导致局部 pH 值升高。"
+      },
+      {
+        "page": 5,
+        "type": "text",
+        "values": [
+          "2",
+          "3",
+          "4"
+        ],
+        "text": "通过填充过程分析得知，MG 和 NBT 具有较强的抑制能力。添加低浓度的MG 和 NBT 于镀液中进行填充发现，盲孔底部的沉积速率高于外表面。对比不同电势下的填充效果分析得知，抑制剂在-1.20V 沉积电势下的填充机理和-1.25V 时不同，较低沉积电势下，镀液主要发生氢还原过程，由此引起的 pH 值升高在盲孔底部对流速率慢的区域更加明显，使底部具有更高的沉积速率。在-1.25V 沉积电势下，底部镀层的沉积速率差不多是外表面的 2 倍，使微米级别盲孔 (100~μm×100~μ m) 的填充率 FR 值分别达到 72.6%和 84.5%。而在-1.20 V 时，其 FR 值分别达到 90.3%和 91.9%。最终筛选出适合盲孔填充的最优配方分别是0.4 mol/L CoSO_4 ，0.5 mol/L H_3 BO _ 3 ，10 mmol/L NaCl，20 mg/L MPS，10 mg/LMG 和 0.4 mol/L CoSO_4 ，0.5 mol/L H_3 BO _ 3 ，10 mmol/L NaCl，20 mg/L NBT。对比不同沉积时间的填充图发现，低电势下，盲孔内形成的活化-钝化区域更明显，更有利于实现金属 Co 的无缝填充。最终根据添加剂这一作用机理，提出吸附-诱导-扩散填充机理，即抑制剂吸附在阴极表面抑制 Co 沉积；抑制剂诱导氢析出，导致局部 pH 值升高，底部容易形成氢氧化钴中间态，提高底部沉积速率；由于抑制剂受扩散控制，容易在盲孔形成抑制梯度，从而实现自底而上的无缝Co 填充。"
+      }
+    ]
+  },
+  {
+    "doc_id": "六亚基四甲四胺",
+    "missing_occurrences": 27,
+    "missing_values": {
+      "1": 5,
+      "2": 8,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 2,
+      "0": 1,
+      "7": 1,
+      "9": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "text": "Cu interconnect has become a typical interconnect technology for large-scale and ultra large scale integrated circuits due to its excellent conductivity, high reliability, and resistance to electromigration [1]. However, as the feature size of the chip process decreases to below 10 nm, the resistance of Cu interconnect will significantly increase [2], which will seriously affect the reliability and communication speed improvement of the chip [3]. Therefore, finding more suitable conductive materials for filling nanoscale interconnect has become the key to chip micro integration along Moore’s Law. Metal cobalt is expected to replace copper interconnect as the next generation of interconnect m"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "7",
+          "9"
+        ],
+        "text": "In the research on cobalt interconnect electroplating accelerators, recent researchers have mainly attempted to use accelerators used in the damascus copper interconnect electroplating process as accelerators for cobalt interconnect electroplating to explore their effects on cobalt deposition behavior and filling ability.These accelerators typically contain specific functional groups such as (-S-S-), thiols (-SH), and sul fonic acids $\\left( - S 0 _ { 3 } \\right)$ [7]. For example, Ni Xiuren [8] used a series of electrochemical methods to study the depolarization and polarization behavior of sodium 3-mercapto-1-propanesulfonate (MPS) and poly vinylpyrrolidone (PVP) during cobalt electrodepos"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "Recently, some studies indicated that the nitrogen-containing com pounds can form coordination bonds with the cobalt surface or Co ^ 2 + [17–20] by utilizing the lone pair electrons of nitrogen and thereby produce effectively suppress the reduction of cobalt. The HMTA is a kind of nitrogen-containing small molecule compounds containing methylene structures, which indicates that the HMTA is a potential inhibitor for cobalt deposition. Meanwhile, this HMTA is a stable compound that is not easily decomposed at high temperatures. Therefore, in this work, the HMTA molecules was selected to be as leveling agents for cobalt interconnect electrodeposition. The electrochemical experiments including c"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "2. Experimenta"
+      }
+    ]
+  },
+  {
+    "doc_id": "利用数据库_机械学习筛选可靠添加剂",
+    "missing_occurrences": 2,
+    "missing_values": {
+      "2.0024E+5": 1,
+      "8E+2": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2.0024E+5"
+        ],
+        "text": "a School of Material Science and Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China b Key Laboratory for Thermal Science and Power Engineering of Ministry of Education, Department of Engineering Mechanics, Tsinghua University, 100084, Beijing, China"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2.0024E+5",
+          "8E+2"
+        ],
+        "text": "d State Key Laboratory of Micro-Nano Engineering Science, Shanghai Jiao Tong University, 800 Dongchuan Road, Shanghai, 200240, China"
+      }
+    ]
+  },
+  {
+    "doc_id": "孔雀石绿诱导_扩散_吸附作用下的钴超共形电沉积过程",
+    "missing_occurrences": 13,
+    "missing_values": {
+      "2": 3,
+      "1": 3,
+      "150001": 1,
+      "7.3E+5": 1,
+      "5": 1,
+      "7": 1,
+      "0": 1,
+      "21972037": 1,
+      "2021": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "Rutile phase dominant TiO2 formed bythermal treatment and its high photocatalytic activity under narrow spectrum ultraviolet light emitting diodes Kalithasan Natarajan, Thillai Sivakumar Natarajan, Hari C Bajaj et al."
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1",
+          "2"
+        ],
+        "text": "Xiaochuan Ma, 1 Yaqiang Li, 1 Penghui Ren, 1 Peixia Yang, 1 Jinqiu Zhang, 1 Maozhong An, 1,z and Wenquan Lv 2,z"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1",
+          "150001",
+          "2",
+          "7.3E+5"
+        ],
+        "text": "1 State Key Laboratory ofUrban Water Resource and Environment, School ofChemistry and Chemical Engineering, Harbin Institute of Technology, Harbin 150001, People’s Republic of China 2 State Key Laboratory of Solid Lubrication, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences, Lanzhou 730000, People’s Republic of China"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "Cyclic voltammetry (CV), chronopotentiometry and quartz crystal microbalance were used to study the effect of Malachite Green (MG) on bottom-up growth of cobalt. The addition of MG not only inhibited the reduction of Co ^ 2 + but also accelerated the hydrogen evolution process. The metal reduction process was enhanced as well as the current efficiency was higher with the increase of pH. The bottom-up growth of cobalt can be achieved with the potential of −1.20 V. Induction-diffusion-adsorption superconformal electrodeposition mechanism was proposed to illustrate the synergistic effect of MG and pH on the growth of cobalt. On one hand, the MG concentration gradient and pH gradient could be fo"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Since the copper plating process, namely Damascus Copper Plating process, has been proposed by IBM in order to achieve metal interconnect integrated circuits (IC), it has attracted a great deal of attention in terms of electroplating technology in electronic devices with metal deposition of copper interconnect line. 1 Up to now, the damascene plating technology is still leading technology for the production of large scale integration (LSI) devices."
+      }
+    ]
+  },
+  {
+    "doc_id": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响",
+    "missing_occurrences": 11,
+    "missing_values": {
+      "5": 2,
+      "1": 2,
+      "2": 3,
+      "6": 1,
+      "0": 1,
+      "3": 1,
+      "7": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "5"
+        ],
+        "text": "Electroless-plated cobalt alloys with tungsten typically exceeding 5 at.% are the common barrier materials for copper metallization. As cobalt is a new interconnect material for advanced microchips, it is worth studying the advanced cobalt-interconnect metallization process that involves extremely diluted cobalt-tungsten (CoW) alloys with an eliminated impurity resistivity and enhanced electromigration reliability. To this aim, we fabricated three different CoW nanolines with 0.03, 0.06 and 0.11 at.% of W using an electroless process, and examined their electromigration behaviors under accelerated stressing conditions, using Co lines as a control. All three W contents, especially 0.06 at.%, "
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "5",
+          "6",
+          "7"
+        ],
+        "text": "The contact critical dimension of the CMOS transistors currently using copper (Cu) as a core interconnect material is expected to reach 18 nm [1], associated with a diminishment of interconnect width towards less than a few tens of nm. The rather long electron mean free path of 40 nm for Cu would induce multiple electron scatterings in such narrow lines, giving rise to a high residual electrical resistivity [2]. Therefore, Cu is not a good interconnect conductor for future technology nodes. Compared to Cu, cobalt (Co) has a much shorter electron mean free path of about 9 nm, leading to the product of the resistivity and mean free path of Co being less than that of Cu: 6.0 5 × 1 0 ^ - 1 6 vs."
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "5"
+        ],
+        "text": "Electroless process has long been used to prepare thin barrier/cap layers of Co alloys for Cu-interconnect metallization [13]. The basic components in an electroless cobalt-alloy plating solution are typically cobalt sulfate (CoSO_4) as a source of Co ions and dimethylamine borane (C_2H_9BN), sodium hydroborate (NaBH) or sodium hypophosphite (NaH_2PO_2) as a chemical reductant. The oxidation of the chemical reductant results in the incorporation of boron or phosphors into the deposited Co, creating a solute-strengthening effect that stabilizes the phase structure, stuffs grain boundaries and/or generates an amorphous matrix, which are all beneficial to barrier/cap properties. Moreover, as a "
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "To serve as a core-conducting interconnect material, thin metal films need to have an electrical resistivity close to their bulk values. However, high concentrations of alloy components, particularly heavy elements such as W, in thin films of binary or ternary cobalt-based alloys would induce a high impurity electrical resistivity. After thermal annealing, the tungsten-added cobalt binary/ternary films still give a high resistivity value exceeding several tens or even hundreds of μΩ-cm [17,18]. We have recently developed an all-wet self-assembled-monolayer (SAM) seeding and electroless process for cobalt metallization. By using a CoSO _ 4 -N _2H_4 (hydrazine; a metal-free reductant) bath, th"
+      }
+    ]
+  },
+  {
+    "doc_id": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究",
+    "missing_occurrences": 6,
+    "missing_values": {
+      "7.3E+5": 1,
+      "6": 1,
+      "7": 2,
+      "21972037": 1,
+      "2021": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "7.3E+5"
+        ],
+        "text": "d State Key Laboratory of Solid Lubrication, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences, Lanzhou 730000, China"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "6",
+          "7"
+        ],
+        "text": "With semiconductor technology evolving continuously along the way based on Moore’s Law, the traditional copper damascene process is facing enormous challenges in terms of yield and reliability [1,2]. On one hand, when trench size is decreased to lower than Mean electron free path of copper, the intensified electron scattering at external surfaces and grain boundaries leads to the exponential growth of resistivity of copper interconnect, resulting in severely increased RC delay and IR drop [3,4]. On the other hand, the seed layer and barrier layer increase the proportion of non-conductive material within copper interconnect, further increasing the resistivity [5]. Meanwhile, it is hard to ach"
+      },
+      {
+        "page": 2,
+        "type": "table",
+        "values": [
+          "6",
+          "7"
+        ],
+        "text": "Table 1 The bath composition and electroplating process parameters.    Bath composition and process parameters  Optimum values    CoSO_4 • 7H_2O (mol/L)  0.4    H_3BO_3 (mol/L)  0.5    Cl^- (mg/L)  6    NBT (mg/L)  15    pH  4    Cathode potential v.s. SSE (V)  -1.2   "
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "7"
+        ],
+        "text": "Chemicals used in this work were bought from Shanghai Aladdin Biochemical Technology, including CoSO • 7H O, H BO, NaCl and dye additive Nitrotetrazolium Blue chloride (NBT) of CAS no. 298–83–9. All chemicals and additives are analytical grade (AR). The electroplating solution is made up by using deionized water."
+      },
+      {
+        "page": 4,
+        "type": "chart",
+        "values": [
+          "7"
+        ],
+        "text": "Fig. 4. (a) Raman spectra of NBT powder and (b) in situ Raman spectra of NBT obtained in 20 mM CoSO _ 4 • 7 H _ 2 O + 5 0 mM H _ 3 BO _ 3 + 1 5 mg/L NBT+ 5 mM Cl<sup>−</sup>, pH = 4."
+      }
+    ]
+  },
+  {
+    "doc_id": "无电镀钴综述",
+    "missing_occurrences": 4,
+    "missing_values": {
+      "1": 2,
+      "5": 2
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Anurag Chakraborti 1 Suman Kalyan Das 1 Prasanta Sahoo 1"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1 Introduction"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "5"
+        ],
+        "text": "Electroless cobalt plating stands out as a versatile and efficient method for depositing a thin layer of cobalt metal on any surface. Unlike traditional electroplating, which relies on external electrical current, electroless cobalt utilizes a chemical reduction process. This eliminates the need for exclusively conducting substrates, complex electrical setup and allows for more uniform deposition on intricate surfaces. The process is steadily gaining traction since its inception by Brenner and Riddell [1] in 1947 due to simplicity of the technique and lower cost of instrumentation. Electroless coating or autocatalytic coating is a category of chemical process that deposits one or more metal "
+      },
+      {
+        "page": 2,
+        "type": "equation",
+        "values": [
+          "1"
+        ],
+        "text": "Anodic Reaction: R → R ^ z + + ze ^- (Eq.1)"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "Figure 1 shows all the steps needed to be followed for successful deposition. Ensuring the substrate to be clean and free of contaminants like grease, oil, or oxides is of paramount importance in order to obtain good quality deposit. Electroless cobalt deposition thrives on the inherent catalytic nature of the substrate. However, advancements have opened doors to depositing cobalt on non-catalytic substrates as well. Iron, nickel, cobalt, gold, palladium, and aluminum substrates can act as catalysts [23], while non-catalytic substrates such as copper, magnesium, polymers, carbon, glass etc. are activated using $\\mathrm { P d C l } _ { 2 }$ solution [23–25] because Pd nanoparticles act as see"
+      }
+    ]
+  },
+  {
+    "doc_id": "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制_加速效应",
+    "missing_occurrences": 4,
+    "missing_values": {
+      "1.16E+5": 1,
+      "7": 1,
+      "21972037": 1,
+      "2021": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1.16E+5"
+        ],
+        "text": "c State Key Laboratory of Fine Chemicals, School of Chemical Engineering, Dalian University of Technology, Dalian 116000, China"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "7"
+        ],
+        "text": "With the development of electronic fabrication technology, the interconnect line width has been downscaled to nano size [1,2]. After entering post-Moore era, convectional copper damascene technology is facing enormous challenges in terms of reliability and electronic property of integrated circuit (IC) [3,4]. It is easy to form defects during production due to edge effect at the opening of vias with narrow line width, thus lowering the yield and reliability [5,6]. When the line width is lower than mean free electron path (MFEP) of interconnect materials, the resistivity sees an exponential growth due to severe electron scattering at the boundary [7,8], which increases the IC delay and has a "
+      },
+      {
+        "page": 2,
+        "type": "table",
+        "values": [
+          "7"
+        ],
+        "text": "Table 1 The bath composition and electroplating process parameters.    Bath composition and process parameters  Optimum values    CoSO_4 · 7H_2O (mol/L)  0.4    H_3BO_3 (mol/L)  0.5    Cl^- (mg/L)  6    NBT (mg/L)  10    pH  4    Cathode potential v.s. SSE (V)  -1.25   "
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "7"
+        ],
+        "text": "In this work, analytical grade (AR) additive Nitrotetrazolium Blue chloride (NBT) with CAS no. of 298–83-9 is bought from Shanghai Aladdin Co., Ltd., China, while other AR chemicals, including CoSO _4·7H_2 O, H_3BO_3 and NaCl, is purchased from Sinopharm Chemical Reagent Co. Ltd., China. The deionized water is used to prepare all kinds of electroplating solutions."
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "7"
+        ],
+        "text": "Virgin-makeup solution (VMS) consists of 0.4 mol/L CoSO _4·7H_2 0, 0.5 mol/L H_3 BO _ 3 and 6 mg/L NaCl. The electroplating experiments were done in a three-electrode bath in microvias with different diameters (150 μm, 100 μm and 50 μm, respectively). The depth of microvias was 100 μm. The working electrode is substrate with microvias, while reference electrode and counter electrode were high-purity cobalt plate and saturated mercury sulfate electrode (SSE) was used as reference electrode and counter electrode. 10 wt% H_2SO_4 was used to activate the substrate, after which electroplating was carried out with electroplating solution disturbed by gas pump (8 L/h). An OLYMPUS confocal laser mic"
+      }
+    ]
+  },
+  {
+    "doc_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充",
+    "missing_occurrences": 9,
+    "missing_values": {
+      "5E+2": 1,
+      "0": 1,
+      "1E+2": 1,
+      "-3E+2": 2,
+      "2.0024E+5": 1,
+      "-1": 1,
+      "-5404": 1,
+      "-607": 1
+    },
+    "examples": [
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "5E+2"
+        ],
+        "text": "2.2. Electrochemical Tests. The electrochemical characteristics of the additive AP4A were assessed through cyclic voltammetry (CV) and chronopotentiometry tests. The experimental setup was established by utilizing a threeelectrode system linked to an electrochemical workstation (CHI660E, Chenhua). The configuration includes a platinum rotating disk electrode with a diameter of 5 mm (Pt-RDE, WE), a platinum plate electrodes (CE), and a saturated Hg/ Hg _ 2 SO _ 4 reference electrode (RE). The chronopotentiometry tests were conducted at a steady current of 0.4 ASD (0.4 A/dm2). CV was performed with potential sweeps ranging from −1.5 to 0.2 V, with the scanning rate set at 50 mV/s. The electrod"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "0",
+          "1E+2",
+          "5E+2"
+        ],
+        "text": "2.4. Electrodeposition. A cobalt plate of 99.99% purity served as the anode. Silicon wafers, measuring 1.5 cm by 1.5 cm, were prepared as cathodes, which were cleaved from a 12 in. diameter silicon wafer with a copper seed layer of 500 nm thickness deposited onto the adhesion layer. Unless otherwise noted, the cobalt films were electrodeposited at a current density of 0.4 ASD with a rotation speed of 500 rpm for a duration of 10 min. Electrodeposition experiments were performed at a constant environmental temperature of 25 ^ ° C. The morphology of cobalt films was characterized by scanning electron microscopy (SEM, TESCAN MIRA3). The surface roughness of the cobalt films was examined by atom"
+      },
+      {
+        "page": 2,
+        "type": "table",
+        "values": [
+          "-3E+2",
+          "0",
+          "1E+2",
+          "5E+2"
+        ],
+        "text": "Table 1. Electrochemical Parameters    Test  Parameter  Concentration of AP4A (ppm)  Rotation Speed (rpm)    cyclic voltammetry (CV)  -1.5–0.2 V  0–300  500    chronopotentiometry  0.4 ASD  0–300  100/500/1000   "
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "0",
+          "1E+2"
+        ],
+        "text": "The inhibition efect at diferent concentrations and the saturation efect concentration of AP4A were investigated by using the linear fitting for the crossing point method (Figure 1b). 30 The integral value of the anodic stripping peak of CV curve is defined as Q_0 without AP4A and as Q with AP4A. Significantly, the ratio Q/Q_0 is influenced by the concentration of AP4A. This relationship can be categorized into three distinct phases, each characterized by a unique slope. The values of Q/Q_0 show a significant decrease at low concentrations of AP4A but reach a stable stage at high concentrations of AP4A. Notably, a transitional slope is observed on the curve within the AP4A concentration rang"
+      },
+      {
+        "page": 3,
+        "type": "chart",
+        "values": [
+          "0",
+          "1E+2"
+        ],
+        "text": "Figure 1. (a) CV curves of various concentrations. (b) Q / Q _ 0 as a function of AP4A concentration, (c) Potential change obtained in the chronopotentiometry tests with increasing concentration of AP4A, (d) Impact of diferent rotation speeds (100/1000 rpm) in chronopotentiometry tests with increasing concentration of AP4A."
+      }
+    ]
+  },
+  {
+    "doc_id": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积",
+    "missing_occurrences": 7,
+    "missing_values": {
+      "1": 1,
+      "2": 1,
+      "200093": 1,
+      "223353237": 1,
+      "2.0005E+5": 1,
+      "0.2": 1,
+      "77": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2"
+        ],
+        "text": "Wei Xu 1,2,†, Yedi Li 2,†, Tingjun Wu 1,2,3, *, Yu Duan 1,2, Lei Zhu 2,3, Qiang Liu 2,3, Yiying Wang 2 and Wenjie Yu 1,2,3"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "200093",
+          "223353237"
+        ],
+        "text": "1 School of Materials and Chemistry, University of Shanghai for Science and Technology, Shanghai 200093, China; 223353237@st.usst.edu.cn (W.X.); duanyu@mail.sim.ac.cn (Y.D.)"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2",
+          "2.0005E+5"
+        ],
+        "text": "2 National Key Laboratory of Materials for Integrated Circuits, Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences, Shanghai 200050, China; liyedi@mail.sim.ac.cn (Y.L.); leizhu@mail.sim.ac.cn (L.Z.)"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "Received: 25 February 2025 Revised: 31 March 2025 Accepted: 2 April 2025 Published: 10 April 2025"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2"
+        ],
+        "text": "Abstract: Copper interconnect technology faces limitations due to the electron’s mean free path and electromigration, driving the adoption of cobalt alternatives. This study proposes a novel mechanism to achieve superfilling by tuning the adsorption energy of additive molecules on cobalt surfaces. The adsorption energies of additives are tailored by changing molecular structures with different functional groups. Computational results reveal that carbon–carbon triple bonds critically strengthen adsorption, while ether bonds further enhance binding on distinct cobalt crystallographic planes. Specifically, 1,4-bis(2- hydroxyethoxy)-2-butyne (BEO) containing both triple bonds and ether groups ex"
+      }
+    ]
+  },
+  {
+    "doc_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+    "missing_occurrences": 15,
+    "missing_values": {
+      "2": 1,
+      "1": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 2,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "0": 3,
+      "245": 1,
+      "244.1": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "The major mechanism of corrosion inhibition effect by nicotinic acid (NA) is to form a passivation film which adsorbs on cobalt (Co) surface so as to strengthen the surface impedance and isolate the corrosion medium. In an alkaline environment (pH 10), NA exists in the form of Nic 2− ions, which are negatively charged. Driven by electrostatic forces and Van der Waals forces between NA molecule (N atom and the carboxyl) and cobalt atom, Nic 2− ions are appealed to the Co(OH) 2, leading to the appearance of Co(II)-NA molecule groups. NA molecules produce a single or multilayer self-assembled Co(II)-NA film on the cobalt surface and further preven the corrosion on Co film."
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "Cobalt (Co) is the interconnect metal of integrated circuits with the feature size of 10 nm and below, and Co corrosion is the main problem in cobalt interconnect chemical mechanical polishing (CMP). The introduction of inhibitors is one of the most ideal approaches to reduce corrosion. In this work, useful insights into the corrosion inhibition performance of nicotinic acid (NA), a green inhibitor, on cobalt film in alkaline medium were investigated via electrochemical characterization, surface analysis, quantum chemical calculation, and molecular dynamics (MD) simulation, as well as the adsorption mechanism at atomic level was explored. NA belongs to anodic erosion inhibitor and its inhibi"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1. Introduction"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "text": "As the feature size of integrated circuits (ICs) shrinks below 10 nm, cobalt is the most promising material to replace tungsten (W) and copper (Cu) as the front and intermediate lines owing to its great resistance to electromigration and good performance in step coverage [1]. In addition, the barrier layer of cobalt interconnect ICs is thinner than that of copper [2,3]. After cobalt film deposition, the wafer surface is uneven, so chemical mechanical polishing (CMP) is used in IC manufacturing process to realize local and global planarization through the coordina tion of chemical action and mechanical action [4]."
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "2",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "text": "However, Co is prone to being corroded by CMP slurry, which con tains many aggressive chemicals, e.g., oxidizers and complexing agents, in which H_2O_2 is widely used to increase removal rate of cobalt as a green oxidizer [5,6]. Yang et al. [7] studied the corrosion of Co in alkaline medium containing H_2O_2 and found that lots of pits were appeared in the presence of 0.1 wt% H_2O_ 2,, and at some locations, the coating layer was fragmented and peeling occurred. In order to reduce the corrosion of Co surface, many methods and new chemicals have been introduced into the study of cobalt. Badawy et al. [8] investigated the corrosion of Co in alkaline solution and suggested that the potential of"
+      }
+    ]
+  },
+  {
+    "doc_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究",
+    "missing_occurrences": 2,
+    "missing_values": {
+      "610054": 1,
+      "2.44E+5": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2.44E+5",
+          "610054"
+        ],
+        "text": "a School ofMaterials and Energy, University ofElectronic Science and Technology ofChina, Chengdu 610054, China b National Center ofQuality Supervision and Testingfor Printed Circuit Board & National Center ofQuality Supervision and Testingfor Copper-Lead-Zinc Product, Tongling 244000, China"
+      }
+    ]
+  },
+  {
+    "doc_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+    "missing_occurrences": 9,
+    "missing_values": {
+      "3": 1,
+      "5": 2,
+      "7": 1,
+      "0": 5
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "3",
+          "5"
+        ],
+        "text": "Electronic interconnect technology is the key for realizing advanced packaging and chip interconnection. With the development of semiconductor technology, the line resistance of copper considerably increases because of the large mean free path of electrons, copper cannot meet the process requirements of damascene filling. However, cobalt exhibits good electrical conductivity and a small mean free path of electrons [1,2], which can prevent electron scattering at the surface interface [3]. In addition, the coefficient of thermal expansion of cobalt (13.3 × 10^-6/K) is similar to that of silicon (10 × 10^-6/K) [4,5], and the internal stresses generated during high-temperature annealing are smal"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "0",
+          "3",
+          "5",
+          "7"
+        ],
+        "text": "The bottom-up superfilling phenomenon of cobalt has been increasingly studied, and various micro-nanoscale mechanism models have been proposed. Such models include hydrogen-induced inactivation mechanisms [7,8], voltage-dependent suppression mechanisms [9, 10], S-type negative differential resistance mechanisms [11,12], and differential current efficiency filling mechanisms [13]. Rigsby et al. [12] proposed a differential current efficiency filling mechanism and achieved damascene filling of cobalt. Using the differential current filling mechanism, Ni et al. [14] introduced polyvinylpyrrolidone into electrodeposition of cobalt to achieve a superconformal silicon trench filling. Ma et al. [15"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "0"
+        ],
+        "text": "Herein, using adenosine (ADO) as an additive with the lowconcentration acceleration but high-concentration suppression and the differential current efficiency filling mechanism during cobalt deposition, superconformal filling of cobalt in X-shaped through-hole was achieved. Through electrochemical analysis, ADO was observed to exhibit a depolarizing effect on Co ^ 2 + deposition at low concentrations. However, at concentrations of > 1 0 mg/L, ADO increased the polarization of cobalt deposition and considerably changed the cobalt deposi tion. Through density functional theory (DFT) calculations and molecular dynamics (MD) simulations, this electrochemical effect was elucidated in terms of ele"
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "0",
+          "3",
+          "5",
+          "7"
+        ],
+        "text": "{ \\mathsf { C o } } ^ { 2 + }$ reduction by ADO was investigated using a three-electrode system via electrochemical methods (Auto-Lab PGSTAT302 N, Metrohm). A rotating-disk Pt electrode was used as the working electrode, and a $\\mathrm { H g / H g _ { 2 } } S 0 _ { 4 }$ electrode and platinum wire were used as the refer ence and counter electrodes, respectively. Electrochemical measurements, including cyclic voltammetry (CV), and galvanostatic measurement (GM), were performed at 1500 or 200 rpm and a scanning rate of 50 mV/s. In a virgin makeup solution $\\left( \\mathsf { p H } = 4 \\right)$ containing 0.3 mol/L $\\mathrm { C o S O _ { 4 } } { \\cdot } 7 \\mathrm { H _ { 2 } O } , 0 . 5 7$ mol/L "
+      },
+      {
+        "page": 2,
+        "type": "text",
+        "values": [
+          "0",
+          "3",
+          "5",
+          "7"
+        ],
+        "text": "5 mA/cm2. This was followed by CV stripping at voltages ranging from −1.0 to 0.3 V. The chemicals used in this study, including CoSO _4·7H_2 0, H_3 BO _ 3, NaCl, Na _2SO_ 4, and the additive ADO (CAS no. 58-61-7), were analytically pure."
+      }
+    ]
+  },
+  {
+    "doc_id": "解码添加剂界面结构性能",
+    "missing_occurrences": 9,
+    "missing_values": {
+      "1": 1,
+      "2": 2,
+      "200433": 1,
+      "3.61E+5": 1,
+      "22272033": 1,
+      "22241201": 1,
+      "22402167": 1,
+      "2024": 1
+    },
+    "examples": [
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "2"
+        ],
+        "text": "Zijie Mao 1, Xianglong Du 2, Xindi Xu 1, Yicai Wu 1, Xiaohui Yang 2* Kun Jiang 1, Jun Cheng 2, Zhi-You Zhou 2, Shi-Gang Sun 2 & Wen-Bin Cai.1*"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1",
+          "200433"
+        ],
+        "text": "1 Shanghai Key Laboratory of Molecular Catalysis and Innovative Materials, State Key Laboratory of Porous Materials for Separation and Conversion, Department of Chemistry, Fudan University, Shanghai 200433, China"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2",
+          "3.61E+5"
+        ],
+        "text": "2 College of Chemistry and Chemical Engineering, State Key Laboratory of Physical Chemistry of Solid Surfaces, Xiamen University, Xiamen. 361000. Ching"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "2"
+        ],
+        "text": "Cobalt (Co) metallization presents a promising alternative strategy for the bottom interconnect in advanced chip manufacture, yet the interfacial structure and functionality ofan organic additive essential for superconformal Co deposition is far from clear given the concurring hydrogen evolution reaction (HER). Herein, interfacial electrochemistry for a model additive molecule MBIS (sodium 2-mercapto-5-benzimidazolesulfonate) at a Co electrode is investigated by applying in situ surface-enhanced infrared absorption spectroscopy and electrochemical quartz crystal microbalance combined with density functional theory calculations The vertical plane adsorption of MBIS on the Co surface via thiol"
+      },
+      {
+        "page": 1,
+        "type": "text",
+        "values": [
+          "1"
+        ],
+        "text": "1 Introduction"
+      }
+    ]
+  }
+]

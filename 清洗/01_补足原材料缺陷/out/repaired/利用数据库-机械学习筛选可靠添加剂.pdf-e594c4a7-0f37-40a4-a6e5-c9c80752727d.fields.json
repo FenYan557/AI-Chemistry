@@ -1,0 +1,67 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": " University, Shanghai, 200240, China.\nE-mail addresses: jush@tsinghua.edu.cn (S. Ju"
+      },
+      {
+        "value": "sse",
+        "context": " effective and cost-friendly screening method is essential for achieving high-effic"
+      },
+      {
+        "value": "sse",
+        "context": "and objectives, comparing multiple algorithms is essential to select the best-fitti"
+      },
+      {
+        "value": "sse",
+        "context": "molecule characterized by a low ΔE is likely to possess high values of SMR_VSA7, BC"
+      },
+      {
+        "value": "sse",
+        "context": "h smaller HallKierAlpha (αHK) values gener ally possess lower ΔE. This is because l"
+      },
+      {
+        "value": "sse",
+        "context": "s across a large molecular space for preliminary assessment. To rapidly advance the"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "0.4 A/dm2",
+        "context": " was carried out at a constant current density of 0.4 A/dm2 with a rotation rate of 500 r"
+      },
+      {
+        "value": "0.4 A/dm2",
+        "context": "alt films were deposited at a current density o f 0.4 A/dm2 and a rotation speed of 500 r"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "iaturization in the post-Moore's Law era, cobalt (Co) has been proposed as a promi"
+      },
+      {
+        "value": "Cu",
+        "context": "sed as a promising alternative to replace copper (Cu) in advanced semiconductor ap"
+      },
+      {
+        "value": "Co",
+        "context": "lectrodeposition is the predominant technique for Co interconnects [8,9]. Organic "
+      },
+      {
+        "value": "Co",
+        "context": "ng deposition kinetics and achieving high quality Co interconnects, such as surfac"
+      },
+      {
+        "value": "Co",
+        "context": "cid-Base (HSAB) principle [19], metallic cobalt ( Co ^ 0) is classified as a ‘soft"
+      },
+      {
+        "value": "Cu",
+        "context": "ntify Methylene Blue as a promising candidate for Cu electroplating.\n* Corresponde"
+      }
+    ]
+  }
+}

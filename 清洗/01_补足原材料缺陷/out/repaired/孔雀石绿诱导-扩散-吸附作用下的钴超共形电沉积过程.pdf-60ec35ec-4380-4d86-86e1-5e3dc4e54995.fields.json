@@ -1,0 +1,67 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "-10 Optical Battery Test Cell: Visualize the Processes Inside Your Battery!\nBattery"
+      },
+      {
+        "value": "sce",
+        "context": "of copper interconnect line. 1 Up to now, the damascene plating technology is still"
+      },
+      {
+        "value": "sse",
+        "context": "nsity of LSI devices becoming more and more compressed according to the Moore’s Law"
+      },
+      {
+        "value": "sse",
+        "context": "n Co metal deposition process have also been discussed before, 36 so this paper mai"
+      },
+      {
+        "value": "sse",
+        "context": " experiments except for stirring way. The ohmic losses difference caused by differe"
+      },
+      {
+        "value": "sse",
+        "context": "used by the substitution of CoOH^+_ads on the recessed surface of the passive zone."
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": " 20ppm 3-Mercapto-1-propanesulfonic acid (MPS) at 298 K. The pH of the solution was a"
+      },
+      {
+        "value": "298 K",
+        "context": " MPS and 10 ppm MG, and pH was adjusted to 4.0 at 298 K with the stirring rate of 500"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "ddition of MG not only inhibited the reduction of Co ^ 2 + but also accelerated th"
+      },
+      {
+        "value": "Cu",
+        "context": " 2,3 For example, the resistivity of a 10 nm-wide Cu interconnect line is more tha"
+      },
+      {
+        "value": "Cu",
+        "context": "low electron mean free path in the replacement of Cu in order to improve the prope"
+      },
+      {
+        "value": "Co",
+        "context": " these metals with relatively low mean free path, Co was investigated widely as in"
+      },
+      {
+        "value": "Co",
+        "context": "2,13\nApplying electrodeposition method to prepare Co thin films is a cost-friendly"
+      },
+      {
+        "value": "Co",
+        "context": " 19 current density, 20 pH 21 and so on. Besides, Co film with different structure"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "SMSE",
+        "context": "g/Hg_2SO_4 electrode (saturated K_2SO_4 solution, SMSE) and a platinum sheet were ac"
+      },
+      {
+        "value": "sse",
+        "context": "y. The maximum and minimum values of ESP are expressed by orange and cyan spheres, "
+      },
+      {
+        "value": "sse",
+        "context": "n different crystal faces are completed. Cobalt possesses face centered cubic (fcc)"
+      },
+      {
+        "value": "sse",
+        "context": "ifferent crystal faces are completed. Cobalt possesses face centered cubic (fcc) an"
+      },
+      {
+        "value": "sse",
+        "context": " above chronoamperometric curves are further processed and analyzed. According to t"
+      },
+      {
+        "value": "sse",
+        "context": "iation of microcosmic internal stress can be expressed as follows.\nWhere E (about 2"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "10 mA/cm2",
+        "context": " 303 K and the pH of 3–4. The current density was 10 mA/cm2. The electrodeposition time w"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": "odic peak currents are − 1.9 8 ~ mA/cm2 and − 1.3 0 mA/cm2 without and with BD, indicati"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": " cobalt electrodeposition at current density of 1 0 mA/cm2 is performed in electrolytes "
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": "H of 3–4. The selection of this current density 1 0 mA/cm2 is based on the actual electr"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": "ocess of cobalt electrodeposition, by selecting 1 0 mA/cm2;, a uniform and dense coating"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": " curve, it can be seen that the curve at around 1 0 mA/cm2 is stable, which is consisten"
+      }
+    ],
+    "温度": [
+      {
+        "value": "303 K",
+        "context": "ized to 3 ~ 4. The temperature of electrolyte was 303 K. A glassy carbon electrode (G"
+      },
+      {
+        "value": "303 K",
+        "context": "\\H_2 O) without and with BD at the temperature of 303 K and the pH of 3–4. The curren"
+      },
+      {
+        "value": "303 K",
+        "context": "\\H_2 O) without and with BD at the temperature of 303 K and the pH of 3–4. The select"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "oCl _2·6\\H_20 were purchased from Chron Chemicals Co., Ltd. (China). Butynediol an"
+      },
+      {
+        "value": "Co",
+        "context": "utynediol and H_2SO_4 were purchased from Macklin Co., Ltd. (China). All the reage"
+      },
+      {
+        "value": "Cu",
+        "context": "lt coating was characterized by XRD (Rigaku) with Cu Kα target and wavelength of 0"
+      },
+      {
+        "value": "Co",
+        "context": "Fig. 11c and Fig. 12c. When there is no additive, Co, C, and O atoms are detected "
+      },
+      {
+        "value": "Co",
+        "context": " the cobalt coating. Their contents are 94.0 % in Co, 5.06 % in C and 0.94 % in ^ "
+      },
+      {
+        "value": "Co",
+        "context": "from the testing environment. When containing BD, Co, C, and O atoms can be also d"
+      }
+    ]
+  }
+}

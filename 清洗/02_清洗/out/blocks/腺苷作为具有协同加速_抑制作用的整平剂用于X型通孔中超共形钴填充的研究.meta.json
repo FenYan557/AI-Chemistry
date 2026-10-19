@@ -1,0 +1,316 @@
+{
+  "doc_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+  "title": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+  "doi": "10.1016/j.mtchem.2025.102854",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 10,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 9,
+      "raw": "[1] D. Gall, Electron mean free path in elemental metals, J. Appl. Phys. 119 (2016) 085101, https://doi.org/10.1063/1.4942216."
+    },
+    {
+      "n": 2,
+      "page": 9,
+      "raw": "[2] E.H. Sondheimer, The mean free path of electrons in metals, Adv. Phys. 50 (2001) 499–537, https://doi.org/10.1080/00018730110102187."
+    },
+    {
+      "n": 3,
+      "page": 9,
+      "raw": "[3] W. Zhang, S.H. Brongersma, O. Richard, B. Brijs, R. Palmans, L. Froyen, et al., Influence of the electron mean free path on the resistivity of thin metal films, Microelectron. Eng. 76 (2004) 146–152, https://doi.org/10.1016/j. mee.2004.07.041."
+    },
+    {
+      "n": 4,
+      "page": 9,
+      "raw": "[4] Y. Okada, Y. Tokumaru, Precise determination of lattice parameter and thermal expansion coefficient of silicon between 300 and 1500 K, J. Appl. Phys. 56 (1984) 314–320.https://dei org/10.1063/1.333965"
+    },
+    {
+      "n": 5,
+      "page": 9,
+      "raw": "[5] R.N. Abdullaev, R.A. Khairulin, YuM. Kozlovskii, S.V. Stankus, Density and thermal expansion of high purity cobalt over the temperature range from 140 k to 2073 k, Metall. Mater. Trans. A 52 (2021) 5449 5456, https://doi.org/10.1007/s11661- 021-06485-1."
+    },
+    {
+      "n": 6,
+      "page": 9,
+      "raw": "[6] Y.-L. Cheng, H.-C. Huang, C.-Y. Lee, G.-S. Chen, J.-S. Fang, Comparison of cu and co integration with porous low-k sioch dielectrics, Thin Solid Films 704 (2020) 138010, https://doi.org/10.1016/j.tsf.2020.138010."
+    },
+    {
+      "n": 7,
+      "page": 9,
+      "raw": "[7] J. Wu, F. Wafula, S. Branagan, H. Suzuki, J. Van Eisden, Mechanism of cobalt bottom-up filling for advanced node interconnect metallization, J. Electrochem. Soc. 166 (2019) D3136–D3141, https://doi.org/10.1149/2.0161901jes."
+    },
+    {
+      "n": 8,
+      "page": 9,
+      "raw": "[8] F. Wafula, J. Wu, S. Branagan, H. Suzuki, A. Gracias, J. Van Eisden, Electrolytic cobalt fill of sub-5 nm node interconnect features. 2018 IEEE International Interconnect Technology Conference (IITC), IEEE, Santa Clara, CA, USA, 2018, pp. 123–125, https://doi.org/10.1109/IITC.2018.8430384."
+    },
+    {
+      "n": 9,
+      "page": 9,
+      "raw": "[9] Q. Huang, T.W. Lyons, W.D. Sides, Electrodeposition of cobalt for interconnect application: effect of dimethylglyoxime, J. Electrochem. Soc. 163 (2016) D715 D721, https://doi.org/10.1149/2.1111613jes"
+    },
+    {
+      "n": 10,
+      "page": 9,
+      "raw": "[10] T.W. Lyons, Q. Huang, Effects of cyclohexane- monoxime and dioxime on the electrodeposition of cobalt, Electrochim. Acta 245 (2017) 309 317, https://doi org/10.1016/j.electacta.2017.05.130"
+    },
+    {
+      "n": 11,
+      "page": 9,
+      "raw": "[11] D. Josell, T.P. Moffat, The Suppression Induced S-NDR Mechanism for Defect-free Filling of High Aspect Ratio Features, Meet Abstr, 2016, https://doi.org/10.1149 MA2016-02/29/1907. MA2016-02:1907 1907."
+    },
+    {
+      "n": 12,
+      "page": 9,
+      "raw": "[12] D. Josell, M. Silva, T.P. Moffat, Superconformal bottom-up cobalt deposition in high aspect ratio through silicon vias, J. Electrochem. Soc. 163 (2016) D809–D817, https://doi.org/10.1149/2.0861614jes."
+    },
+    {
+      "n": 13,
+      "page": 9,
+      "raw": "[13] M.A. Rigsby, L.J. Brogan, N.V. Doubina, Y. Liu, E.C. Opocensky, T.A. Spurlin, et al., The critical role of pH gradient formation in driving superconformal cobalt deposition, J. Electrochem. Soc. 166 (2019) D3167 D3174, https://doi.org/ 10.1149/2.0211901jes."
+    },
+    {
+      "n": 14,
+      "page": 9,
+      "raw": "[14] X. Ni, Y. Chen, X. Jin, C. Wang, Y. Huang, Y. Hong, et al., Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition, J. Taiwan Inst. Chem. Eng. 112 (2020) 232–239, https://doi. org/10.1016/j.jtice.2020.06.010."
+    },
+    {
+      "n": 15,
+      "page": 9,
+      "raw": "[15] X. Ma, Y. Li, P. Yang, J. Zhang, M. An, Influence of suppressing additive malachite green on superconformal cobalt electrodeposition, J. Electroanal. Chem. 921 (2022) 116696, https://doi.org/10.1016/j.jelechem.2022.116696."
+    },
+    {
+      "n": 16,
+      "page": 9,
+      "raw": "[16] X. Ma, Y. Li, P. Ren, P. Yang, J. Zhang, M. An, et al., Induction-Diffusion-adsorption process of malachite green for cobalt superconformal electrodeposition, J. Electrochem. Soc. 170 (2023) 022503, https://doi.org/10.1149/1945-7111/ acb9bf."
+    },
+    {
+      "n": 17,
+      "page": 9,
+      "raw": "[17] Y. Li, X. Ma, C. Li, R. Li, J. Zhang, P. Yang, et al., Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth, J. Manuf. Process. 101 (2023) 15 24, https://doi.org/10.1016/j.jmapro.2023.05.059."
+    },
+    {
+      "n": 18,
+      "page": 9,
+      "raw": "[18] Y. Li, X. Ma, R. Li, J. Zhang, P. Yang, A. Liu, et al., Suppressing-accelerating effect of Nitrotetrazolium Blue chloride in boosting superconformal cobalt filling, J. Electroanal. Chem. 945 (2023) 117671, https://doi.org/10.1016/j. jelechem.2023.117671."
+    },
+    {
+      "n": 19,
+      "page": 9,
+      "raw": "[19] Y. Hu, T. Lyons, Q. Huang, Influence of furil dioxime on cobalt electrochemica nucleation and growth, J. Electrochem. Soc. 167 (2020) 022509, https://doi.org 10.1149/1945-7111/ab69fb"
+    },
+    {
+      "n": 20,
+      "page": 9,
+      "raw": "[20] J.T. Matsushima, F. Trivinho-Strixino, E.C. Pereira, Investigation of cobal deposition using the electrochemical quartz crystal microbalance, Electrochim Acta 51 (2006) 1960–1966, https://doi.org/10.1016/j.electacta.2005.07.003."
+    },
+    {
+      "n": 21,
+      "page": 9,
+      "raw": "[21] H. Li, T. Zhang, S. Song, Q. Li, R. Han, Q. Li, et al., Study of 5-alkynylpyrimidines as cobalt superfilling inhibitors, J. Phys. Chem. C 129 (2025) 232–243, https://doi. org/10.1021/acs.jpcc.4c05741."
+    },
+    {
+      "n": 22,
+      "page": 9,
+      "raw": "[22] X. Ni, C. Wang, Y. Su, Y. Luo, Y. Ye, X. Su, et al., Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition, Nanotechnol. Rev. 11 (2022) 1209–1218, https://doi.org 10.1515/ntrev-2022-0071."
+    },
+    {
+      "n": 23,
+      "page": 10,
+      "raw": "[23] W. Cao, Z. Zhu, Q. Li, J. Xie, L. Cui, M. Zhu, et al., Effect of butanedione oxime, 3- mercapto-2-propanesulfonate, and histidine on growth and magnetic properties of electrodeposited cobalt on copper substrate, J. Mater. Sci. Mater. Electron. 35 (2024) 2268, https://doi.org/10.1007/s10854-024-13997-0"
+    },
+    {
+      "n": 24,
+      "page": 10,
+      "raw": "[24] T. Li, X. Wei, Y. Chen, L. Duan, B. Pan, Electrodeposition of nanocrystalline cobalt from sulfate baths containing butynediol ethoxylate, Mater. Chem. Phys. 314 (2024) 128927, https://doi.org/10.1016/j.matchemphys.2024.128927."
+    },
+    {
+      "n": 25,
+      "page": 10,
+      "raw": "[25] Y. Tong, D. Lai, Y. Li, T. Hang, M. Li, Y. Wu, Inhibitor alkyne-PEG4-amine contributes to cobalt superfilling, ACS Appl. Electron. Mater. (2024), https://doi. org/10.1021/acsaelm.4c00774 acsaelm.4c00774."
+    },
+    {
+      "n": 26,
+      "page": 10,
+      "raw": "[26] Y. Wu, M. Zhang, Y. Jiang, Y. Tong, P. Chang, T. Hang, et al., Investigation of phenyl methyl sulfoxide as an additive for cobalt super-filling in 3D interconnect, Surf. Interfaces 56 (2025) 105652, https://doi.org/10.1016/j.surfin.2024.105652."
+    },
+    {
+      "n": 27,
+      "page": 10,
+      "raw": "[27] J. Xue, Q. Che, M. Jiang, Z. Liu, Y. Liu, W. Zhang, et al., Self-organized periodic pattern dynamics of porous copper electrodeposition at the industrial large current, Mater. Today Chem. 34 (2023) 101812, https://doi.org/10.1016/j. mtchem.2023.101812."
+    },
+    {
+      "n": 28,
+      "page": 10,
+      "raw": "[28] M.J. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb, J.R. Cheeseman, et al., Gaussian 03, Revision C.02, Gaussian, Inc., Wallingford CT, 2004."
+    },
+    {
+      "n": 29,
+      "page": 10,
+      "raw": "[29] W. Humphrey, A. Dalke, K. Schulten, VMD: visual molecular dynamics, J. Mol. Graph. 14 (1996) 33–38, https://doi.org/10.1016/0263-7855(96)00018-5."
+    },
+    {
+      "n": 30,
+      "page": 10,
+      "raw": "[30] T. Lu, F. Chen, Multiwfn: a multifunctional wavefunction analyzer, J. Comput. Chem. 33 (2012) 580–592, https://doi.org/10.1002/jcc.22885."
+    },
+    {
+      "n": 31,
+      "page": 10,
+      "raw": "[31] N. Xiao, D. Li, G. Cui, N. Li, Q. Li, G. Wu, Adsorption behavior of triblock copolymer suppressors during the copper electrodeposition, Electrochim. Acta 116 (2014) 284–291, https://doi.org/10.1016/j.electacta.2013.11.056"
+    },
+    {
+      "n": 32,
+      "page": 10,
+      "raw": "[32] J. Huang, Y. Li, R. Huang, C. He, L. Gong, Q. Hu, et al., Electrochemical exfoliation of pillared-layer metal-organic framework to boost the oxygen evolution reaction, Angew. Chem. 130 (2018) 4722–4726, https://doi.org/10.1002/ange.201801029."
+    },
+    {
+      "n": 33,
+      "page": 10,
+      "raw": "[33] L. Zheng, W. He, K. Zhu, C. Wang, S. Wang, Y. Hong, et al., Investigation of poly (1- vinyl imidazole co 1, 4-butanediol diglycidyl ether) as a leveler for copper electroplating of through-hole, Electrochim. Acta 283 (2018) 560 567, https://doi. org/10.1016/j.electacta.2018.06.132."
+    },
+    {
+      "n": 34,
+      "page": 10,
+      "raw": "[34] Z. Lai, S. Wang, C. Wang, Y. Hong, Y. Chen, H. Zhang, et al., Computational analysis and experimental evidence of two typical levelers for acid copper electroplating, Electrochim. Acta 273 (2018) 318–326, https://doi.org/10.1016/j. electacta.2018.04.062."
+    },
+    {
+      "n": 35,
+      "page": 10,
+      "raw": "[35] D. Li, Z. Wen, J. Lin, J. Zeng, Z. Li, F. Ke, et al., Molecularly imprinted polymer based on magnetic porous cellulose for specific adsorption of tetracyclines: preparation, characterization, property evaluation, and application, Mater. Today Chem. 33 (2023) 101742, https://doi.org/10.1016/j.mtchem.2023.101742"
+    },
+    {
+      "n": 36,
+      "page": 10,
+      "raw": "[36] L. Zhuo, W. Liao, Z. Yu, A frontier molecular orbital theory approach to understanding the mayr equation and to quantifying nucleophilicity and electrophilicity by using HOMO and LUMO energies, Asian J Org Chem 1 (2012) 336 345, https://doi.org/10.1002/ajoc.201200103."
+    },
+    {
+      "n": 37,
+      "page": 10,
+      "raw": "[37] L. Qiu, Z.-H. Ni, Q. Sun, X.-P. Qu, Q. Xu, Investigation of a single-component additive for bottom-up superfilling of the high-aspect-ratio TSV by theoretical and experimental studies, J. Phys. Chem. C 128 (2024) 10336–10346, https://doi.org/ 10.1021/acs.jpcc.4c00989."
+    },
+    {
+      "n": 38,
+      "page": 10,
+      "raw": "[38] T. Zhang, C. Zheng, H. Li, S. Song, W. Huang, Q. Li, et al., Five-membered heterocyclic small molecule compounds as novel levelling agents for blind-hole copper plating, J. Electroanal. Chem. 956 (2024) 118100, https://doi.org 10.1016/j.jelechem.2024.118100."
+    },
+    {
+      "n": 39,
+      "page": 10,
+      "raw": "[39] X. Li, X. Chen, P. Zou, R. Ye, L. Wang, Synthesis and application of anthraquinone quaternary phosphonium salt electroplating copper leveler based on expanded electrostatic adsorption area strategy and physicochemical salt bridge mechanism, Appl. Surf. Sci. 664 (2024) 160259, https://doi.org/10.1016/j. apsusc.2024.160259."
+    },
+    {
+      "n": 40,
+      "page": 10,
+      "raw": "[40] P. Ren, R. Li, P. Yang, J. Zhang, M. An, Effect of nitrogen-containing groups on the reduction of copper ions: in situ Raman and AIMD, Surf. Interfaces 51 (2024) 104769, https://doi.org/10.1016/j.surfin.2024.104769."
+    },
+    {
+      "n": 41,
+      "page": 10,
+      "raw": "[41] K. Anton, L. Matic, K. Barbara, T. Peyman, N. Shova, et al., Simplistic correlations between molecular electronic properties and inhibition efficiencies: do they really exist? Corros. Sci. 179 (2021) 108856 https://doi.org/10.1016/j. corsci.2020.108856."
+    },
+    {
+      "n": 42,
+      "page": 10,
+      "raw": "[42] T. Lu, Q. Chen, Interaction region indicator: a simple real space function clearly revealing both chemical bonds and weak interactions, Chemistry Methods 1 (2021) 231–239, https://doi.org/10.1002/cmtd.202100007."
+    },
+    {
+      "n": 43,
+      "page": 10,
+      "raw": "[43] M. Wu, Y. Zhang, J. Jiang, X. Wang, C. Wang, Q. Wang, et al., Synthesis and molecular dynamics simulation of biobased “bottle-brush” polyfarnesene via aqueous radical polymerization, Mater. Today Chem. 38 (2024) 102053, https:// doi.org/10.1016/j.mtchem.2024.102053."
+    },
+    {
+      "n": 44,
+      "page": 10,
+      "raw": "[44] C. Wang, M. An, P. Yang, J. Zhang, Prediction of a new leveler (N-butyl-methy piperidinium bromide) for through-hole electroplating using molecular dynamics simulations, Electrochem. Commun. 18 (2012) 104 107, https://doi.org/10.1016 j.elecom.2012.02.028."
+    },
+    {
+      "n": 45,
+      "page": 10,
+      "raw": "[45] L. Zheng, C. Wang, D. Cai, Y. Huang, K. Adi, Y. Hong, et al., Hydroquinone oriented growth control to achieve high-quality copper coating at high rate for electronics interconnection, J. Taiwan Inst. Chem. Eng. 112 (2020) 130–136, https://doi.org 10.1016/j.jtice.2020.07.004."
+    },
+    {
+      "n": 46,
+      "page": 10,
+      "raw": "[46] J. Li, J. Xu, X. Wang, X. Wei, L. Wang, Diketopyrrolopyrrole-based supramolecular nano-leveler for the enhancement of conformal copper electrodeposition, Appl. Surf. Sci. 569 (2021) 150982, https://doi.org/10.1016/j.apsusc.2021.150982."
+    },
+    {
+      "n": 47,
+      "page": 10,
+      "raw": "[47] M. Zhou, Y. Meng, J. Ling, Y. Zhang, W. Huang, Y. Min, et al., 5-Amino-1,3,4- thiadiazole-2-thiol as a new leveler for blind holes copper electroplating: theoretical calculation and electrochemical studies, Appl. Surf. Sci. 606 (2022) 154871, https://doi.org/10.1016/j.apsusc.2022.154871."
+    },
+    {
+      "n": 48,
+      "page": 10,
+      "raw": "[48] J.-Q. Yang, J.-P. Qiu, L. Jin, Z.-Y. Wang, T. Song, Y. Zhao, et al., Molecula structure impacts of tetrazole derivatives on their diffusion and adsorption behaviors for microvia copper void-free filling, Surf. Interfaces 44 (2024) 103679, https://doi.org/10.1016/j.surfin.2023.103679."
+    },
+    {
+      "n": 49,
+      "page": 10,
+      "raw": "[49] M. Rozenberg, C. Jung, G. Shoham, Low-temperature FTIR spectra and hydrogen bonds in polycrystalline adenosine and uridine, Spectrochimica Acta Part A. Molecular and Biomolecular Spectroscopy 61 (2005) 733–741, https://doi.org/ 10.1016/j.saa.2004.05.024."
+    },
+    {
+      "n": 50,
+      "page": 10,
+      "raw": "[50] R.P. Lopes, R. Valero, J. Tomkinson, M.P.M. Marques, L.A.E. Batista De Carvalho, Applying vibrational spectroscopy to the study of nucleobases - adenine as a casestudy, New J. Chem. 37 (2013) 2691, https://doi.org/10.1039/c3nj00445g."
+    },
+    {
+      "n": 51,
+      "page": 10,
+      "raw": "[51] G. Dovbeshko, FTIR spectroscopy studies of nucleic acid damage, talanta 53 (2000) 233–246, https://doi.org/10.1016/S0039-9140(00)00462-8."
+    },
+    {
+      "n": 52,
+      "page": 10,
+      "raw": "[52] Y. Meng, M. Zhou, W. Huang, Y. Min, X. Shen, Q. Xu, Benzyl-containing quaternary ammonium salt as a new leveler for microvia copper electroplating, Electrochim. Acta 429 (2022) 141013, https://doi.org/10.1016/j.electacta.2022.141013."
+    },
+    {
+      "n": 53,
+      "page": 10,
+      "raw": "[53] P. Dixit, X. Chen, J. Miao, S. Divakaran, R. Preisser, Study of surface treatment processes for improvement in the wettability of silicon-based materials used in high aspect ratio through-via copper electroplating, Appl. Surf. Sci. 253 (2007) 8637 8646, https://doi.org/10.1016/j.apsusc.2007.04.067."
+    },
+    {
+      "n": 54,
+      "page": 10,
+      "raw": "[54] J. Bi, H. Ling, A. Hu, T. Hang, M. Li, Wetting process of electrolyte in high density Cu/Sn micro-bumps electrodepositing, Appl. Surf. Sci. 257 (2011) 3723 3727, https://doi.org/10.1016/j.apsusc.2010.11.121."
+    },
+    {
+      "n": 55,
+      "page": 10,
+      "raw": "[55] C.-W. Liu, J.-C. Tsao, M.-S. Tsai, Y.-L. Wang, Effects of wetting ability of plating electrolyte on Cu seed layer for electroplated copper film, J. Vac. Sci. Technol. A: Vacuum, Surfaces, and Films 22 (2004) 2315–2320, https://doi.org/10.1116 1.1795831."
+    },
+    {
+      "n": 56,
+      "page": 10,
+      "raw": "[56] S.-C. Chang, Y.-L. Wang, C.-C. Hung, W.-H. Lee, G.-J. Hwang, Role of surface tension in copper electroplating, J. Vac. Sci. Technol. A: Vacuum, Surfaces, and Films 25 (2007) 566–569, https://doi.org/10.1116/1.2731354."
+    },
+    {
+      "n": 57,
+      "page": 10,
+      "raw": "[57] Y. Li, P. Ren, Y. Zhang, S. Wang, J. Zhang, P. Yang, et al., The influence of leveler Brilliant Green on copper superconformal electroplating based on, J. Ind. Eng. Chem. 118 (2023) 78–90, https://doi.org/10.1016/j.jiec.2022.10.047."
+    },
+    {
+      "n": 58,
+      "page": 10,
+      "raw": "[58] D. Zhang, Y. Chen, Y. Su, Y. Hong, C. Wang, et al., Additive-assisted cobalt electrodeposition as surface magnetic coating to enhance the inductance of spiral copper inductors, Surf. Interfaces 28 (2022) 101603, https://doi.org/10.1016/j. surfin.2021.101603."
+    },
+    {
+      "n": 59,
+      "page": 10,
+      "raw": "[59] A. Franczak, A. Levesque, F. Bohr, J. Douglade, J.-P. Chopart, Structural and morphological modifications of the Co-thin films caused by magnetic field and pH variation, Appl. Surf. Sci. 258 (2012) 8683–8688, https://doi.org/10.1016/j. apsusc.2012.05.074."
+    }
+  ]
+}

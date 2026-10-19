@@ -1,0 +1,83 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "saturated calomel",
+        "context": "de system was employed with the coating sample, a saturated calomel electrode (SCE), and a platin"
+      },
+      {
+        "value": "SCE",
+        "context": "he coating sample, a saturated calomel electrode (SCE), and a platinum electrode as"
+      },
+      {
+        "value": "SCE",
+        "context": "ere as follows: a scanning range of −1 to 0 V (vs SCE) and a scanning rate of 10 mV"
+      },
+      {
+        "value": "sse",
+        "context": "llows\nThis model’s reliability and accuracy were assessed using analysis of varianc"
+      },
+      {
+        "value": "sse",
+        "context": "ws\nThis model’s reliability and accuracy were assessed using analysis of variance ("
+      },
+      {
+        "value": "sse",
+        "context": " in Table 4. The reliability of the model can be assessed based on the magnitude of"
+      }
+    ],
+    "温度": [
+      {
+        "value": "60°C",
+        "context": " + thiourea + sodium allyl sulfonate; pH 4.5; T = 60°C</td><td>475.4 (Co: 20.65 wt %"
+      },
+      {
+        "value": "60°C",
+        "context": "work</td></tr><tr><td>Ni-Co-P</td><td>pH 4.5; T = 60°C</td><td>385.06</td><td>362.2<"
+      },
+      {
+        "value": "80°C",
+        "context": "r><td>Ni-Co-P</td><td>ammonium sulfate; pH 7; T = 80°C</td><td>238</td><td></td><td>"
+      },
+      {
+        "value": "60°C",
+        "context": "></td><td>23</td></tr><tr><td>Ni-Co-P</td><td>T = 60°C</td><td>634.9 (Co: 47.66 wt %"
+      },
+      {
+        "value": "90°C",
+        "context": ">24</td></tr><tr><td>Ni-Co-P</td><td>pH 9; T = 80–90°C</td><td>280</td><td></td><td>"
+      },
+      {
+        "value": "60°C",
+        "context": "></td><td>25</td></tr><tr><td>Ni-Co-P</td><td>T = 60°C</td><td>656.2 (Co: 41.09 wt %"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Ni",
+        "context": " on the Efects of Additives on the Performance of Ni−Co−P Alloy Coatings Using Box"
+      },
+      {
+        "value": "Co",
+        "context": " the Efects of Additives on the Performance of Ni−Co−P Alloy Coatings Using Box−Be"
+      },
+      {
+        "value": "Ni",
+        "context": "d the efects of additives on the performance of a Ni− Co−P alloy electroplated coa"
+      },
+      {
+        "value": "Co",
+        "context": "e efects of additives on the performance of a Ni− Co−P alloy electroplated coating"
+      },
+      {
+        "value": "Ni",
+        "context": "an additive that can enhance the electrodeposited Ni−Co−P alloy coating’s properti"
+      },
+      {
+        "value": "Co",
+        "context": "additive that can enhance the electrodeposited Ni−Co−P alloy coating’s properties,"
+      }
+    ]
+  }
+}

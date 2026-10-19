@@ -1,0 +1,1683 @@
+{
+  "doc_id": "1_s2_0_S0010854522005239_main",
+  "title": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions",
+  "doi": "10.1016/j.ccr.2022.214928",
+  "journal": "其他期刊",
+  "year": "2023",
+  "pages": 37,
+  "printed_page_map": {
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 18,
+    "19": 19,
+    "20": 20,
+    "21": 21,
+    "22": 22,
+    "23": 23,
+    "24": 24,
+    "25": 25,
+    "26": 26,
+    "27": 27,
+    "28": 28,
+    "29": 29,
+    "30": 30,
+    "31": 31,
+    "32": 32,
+    "33": 33,
+    "34": 34,
+    "35": 35,
+    "36": 36,
+    "37": 37
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 30,
+      "raw": "[1] B. Zhao, T. Rogge, L. Ackermann, Z. Shi, Metal-catalysed C-Het (F, O, S, N) and C–C bond arylation, Chem. Soc. Rev. 50 (2021) 8903–8953, https://doi.org 10.1039/C9CS00571D."
+    },
+    {
+      "n": 2,
+      "page": 30,
+      "raw": "[2] P. Ruiz-Castillo, S.L. Buchwald, Applications of palladium-catalyzed C-N crosscoupling reactions, Chem. Rev. 116 (2016) 12564–12649, https://doi.org 10.1021/acs.chemrev.6b00512."
+    },
+    {
+      "n": 3,
+      "page": 30,
+      "raw": "[3] A. Fihri, M. Bouhrara, B. Nekoueishahraki, J.-M. Basset, V. Polshettiwar Nanocatalysts for Suzuki cross-coupling reactions, Chem. Soc. Rev. 40 (2011) 5181–5203 https://doi org/10.1039/C1CS15079K"
+    },
+    {
+      "n": 4,
+      "page": 30,
+      "raw": "[4] F.-S. Han, Transition-metal-catalyzed Suzuki-Miyaura cross-coupling reactions: a remarkable advance from palladium to nickel catalysts Chem Soc, Rev, 42 (2013) 5270–5298 https://doi,org/10.1039/C3CS35521G"
+    },
+    {
+      "n": 5,
+      "page": 30,
+      "raw": "[5] Y. Bai, J. Chen, S.C. Zimmerman, Designed transition metal catalysts for intracellular organic synthesis, Chem. Soc. Rev. 47 (2018) 1811–1821, https:/ doi.org/10.1039/C7CS00447H."
+    },
+    {
+      "n": 6,
+      "page": 30,
+      "raw": "[6] I.P. Beletskaya, F. Alonso, V. Tyurin, The Suzuki-Miyaura reaction after the Nobel prize, Coord. Chem. Rev. 385 (2019) 137–173, https://doi.org/10.1016 j.ccr.2019.01.012."
+    },
+    {
+      "n": 7,
+      "page": 30,
+      "raw": "[7] I.P. Beletskaya, A.V. Cheprakov, The Heck reaction as a sharpening stone of palladium catalysis, Chem. Rev. 100 (2000) 3009–3066, https://doi.org 10.1021/cr9903048."
+    },
+    {
+      "n": 8,
+      "page": 30,
+      "raw": "[8] R. Chinchilla, C. Nájera, Recent advances in Sonogashira reactions, Chem. Soc. Rev. 40 (2011) 5084–5121, https://doi.org/10.1039/C1CS15071E."
+    },
+    {
+      "n": 9,
+      "page": 30,
+      "raw": "[9] J.-K. Schnoor, M. Fuchs, A. Böcking, M. Wessling, M.A. Liauw, Homogeneous catalyst recycling and separation of a multicomponent mixture using organic solvent nanofiltration, Chem. Eng. Technol. 42 (2019) 2187–2194, https://doi. org/10.1002/ceat.201900110."
+    },
+    {
+      "n": 10,
+      "page": 30,
+      "raw": "[10] V.S. Shende, V.B. Saptal, B.M. Bhanage, Recent advances utilized in the recycling of homogeneous catalysis, Chem. Rec. 19 (2019) 2022–2043, https://doi.org/10.1002/tcr.201800205."
+    },
+    {
+      "n": 11,
+      "page": 30,
+      "raw": "[11] P. Das, W. Linert, Schiff base-derived homogeneous and heterogeneous palladium catalysts for the Suzuki-Miyaura reaction, Coord. Chem. Rev. 311 (2016) 1–23, https://doi.org/10.1016/j.ccr.2015.11.010"
+    },
+    {
+      "n": 12,
+      "page": 30,
+      "raw": "[12] C. Torborg, M. Beller, Recent Applications of Palladium-Catalyzed Coupling Reactions in the Pharmaceutical, Agrochemical, and Fine Chemical Industries, Adv. Synth. Catal. 351 (2009) 3027–3043, https://doi.org/10.1002 adsc.200900587."
+    },
+    {
+      "n": 13,
+      "page": 30,
+      "raw": "[13] L. Liu, A. Corma, Metal Catalysts for Heterogeneous Catalysis: From Single Atoms to Nanoclusters and Nanoparticles, Chem. Rev. 118 (2018) 4981–5079 https://doi.org/10.1021/acs.chemrev.7b00776."
+    },
+    {
+      "n": 14,
+      "page": 30,
+      "raw": "[14] M. Pagliaro, V. Pandarus, R. Ciriminna, F. Béland, P. Demma Carà, Heterogeneous versus Homogeneous Palladium Catalysts for Cross-Coupling Reactions, ChemCatChem. 4 (2012) 432–445, https://doi.org 10.1002/cctc.201100422."
+    },
+    {
+      "n": 15,
+      "page": 30,
+      "raw": "[15] M. Ganesh, J. Ramakrishna, Synthetic Organic Transformations of Transition-Metal Nanoparticles as Propitious Catalysts: A Review, Asian, J. Org. Chem. 9 (2020) 1341–1376, https://doi.org/10.1002/ajoc.202000379."
+    },
+    {
+      "n": 16,
+      "page": 30,
+      "raw": "[16] D. Astruc, Introduction: Nanoparticles in Catalysis, Chem. Rev. 120 (2020) 461–463, https://doi.org/10.1021/acs.chemrev.8b00696."
+    },
+    {
+      "n": 17,
+      "page": 30,
+      "raw": "[17] R.S. Varma, Greener and Sustainable Trends in Synthesis of Organics and Nanomaterials, ACS Sustain. Chem. Eng. 4 (2016) 5866–5878, https://doi.org 10.1021/acssuschemeng.6b01623."
+    },
+    {
+      "n": 18,
+      "page": 30,
+      "raw": "[18] K. Herget, P. Hubach, S. Pusch, P. Deglmann, H. Götz, T.E. Gorelik, I.A. Gural’skiy, F. Pfitzner, T. Link, S. Schenk, M. Panthöfer, V. Ksenofontov, U. Kolb, T. Opatz, R. André, W. Tremel, Haloperoxidase Mimicry by CeO2 x Nanorods Combats Biofouling, Adv. Mater. 29 (2017) 1603823, https://doi.org/10.1002 adma.201603823."
+    },
+    {
+      "n": 19,
+      "page": 30,
+      "raw": "[19] J. Deng, W. Chu, B. Wang, Z. Xu, W. Yang, X.S. Zhao, Nanoparticles-inconcavities as efficient nanocatalysts for carbon dioxide reforming of methane to hydrogen and syngas, Catal. Sci. Technol. 6 (2016) 4565–4576, https://doi.org/10.1039/C5CY01974E."
+    },
+    {
+      "n": 20,
+      "page": 30,
+      "raw": "[20] P. Garcia, M. Malacria, C. Aubert, V. Gandon, L. Fensterbank, Gold-catalyzed cross-couplings: new opportunities for CC bond formation, ChemCatChem. 2 (2010) 493–497, https://doi.org/10.1002/cctc.200900319."
+    },
+    {
+      "n": 21,
+      "page": 30,
+      "raw": "[21] W.C. Elias, A.M. Signori, L. Zaramello, B.L. Albuquerque, D.C. de Oliveira, J.B. Domingos, Mechanism of a Suzuki-Type homocoupling reaction catalyzed by palladium nanocubes, ACS Catal. 7 (2017) 1462–1469, https://doi.org 10.1021/acscatal.6b03490."
+    },
+    {
+      "n": 22,
+      "page": 30,
+      "raw": "[22] H.M. Song, B.A. Moosa, N.M. Khashab, Water-dispersable hybrid Au–Pd nanoparticles as catalysts in ethanol oxidation, aqueous phase Suzuki-Miyaura and Heck reactions, J. Mater. Chem. 22 (2012) 15953–15959, https://doi.org/10.1039/C2IM32702C"
+    },
+    {
+      "n": 23,
+      "page": 30,
+      "raw": "[23] A.M. Thomas, A. Sujatha, G. Anilkumar, Recent advances and perspectives in copper-catalyzed Sonogashira coupling reactions, RSC Adv. 4 (2014) 21688– 21698, https://doi.org/10.1039/C4RA02529F."
+    },
+    {
+      "n": 24,
+      "page": 30,
+      "raw": "[24] M. Nasrollahzadeh, M. Sajjadi, M. Shokouhimehr, R. Varma, Recent developments in palladium (nano)catalysts supported on polymers for selective and sustainable oxidation processes, (2019). doi: 10.1016/J CCR.2019.06.010."
+    },
+    {
+      "n": 25,
+      "page": 30,
+      "raw": "[25] Á. Molnár, Efficient, selective, and recyclable palladium catalysts in carbon– carbon coupling reactions Chem, Rev, 111 (2011) 2251-2320 https://doi org/10.1021/cr100355b."
+    },
+    {
+      "n": 26,
+      "page": 30,
+      "raw": "[26] M. Kamalzare, M.R. Ahghari, M. Bayat, A. Maleki, Fe3O4@chitosan-tannic acid bionanocomposite as a novel nanocatalyst for the synthesis of pyranopyrazoles, Sci. Rep. 11 (2021) 20021, https://doi.org/10.1038 s41598-021-99121-2"
+    },
+    {
+      "n": 27,
+      "page": 30,
+      "raw": "[27] A. Banerjee, R. Theron, R.W.J. Scott, Highly Stable Noble-Metal Nanoparticles in Tetraalkylphosphonium Ionic Liquids for in situ Catalysis. ChemSusChem 5 (2012) 109–116 https://doi,org/10.1002/cssc,201100413."
+    },
+    {
+      "n": 28,
+      "page": 30,
+      "raw": "[28] Y. Wang, S. De, N. Yan, Rational control of nano-scale metal-catalysts for biomass conversion, Chem. Commun. 52 (2016) 6210–6224, https://doi.org 10.1039/C6CC00336B"
+    },
+    {
+      "n": 29,
+      "page": 30,
+      "raw": "[29] X. Yang, O. Li, E. Lu, Z. Wang, X, Gong, Z. Yu, Y. Guo, L. Wang, Y. Guo, W, Zhan. I. Zhang, S. Dai. Taming the stability of Pd active phases through a compartmentalizing strategy toward nanostructured catalyst supports, Nat. Commun. 10 (2019) 1611, https://doi.org/10.1038/s41467-019-09662-4."
+    },
+    {
+      "n": 30,
+      "page": 30,
+      "raw": "[30] M. Nawaz Tahir, M. Kluenker, F. Natalio, B. Barton, K. Korschelt, S.I. Shylin, M. Panthöfer, V. Ksenofontov, A. Möller, U. Kolb, W. Tremel, From Single Molecules to Nanostructured Functional Materials: Formation of a Magnetic Foam Catalyzed by Pd@FexO Heterodimers, ACS Appl. Nano Mater. 1 (2018) 1050–1057, https://doi.org/10.1021/acsanm.7b00051."
+    },
+    {
+      "n": 31,
+      "page": 30,
+      "raw": "[31] M.N. Tahir, J. Herzberger, F. Natalio, O. Köhler, R. Branscheid, E. Mugnaioli, V Ksenofontov, M. Panthöfer, U. Kolb, H. Frey, W. Tremel, Hierachical Ni@Fe2O3 superparticles through epitaxial growth of c-Fe2O3 nanorods on in situ"
+    },
+    {
+      "n": null,
+      "page": 31,
+      "raw": "formed Ni nanoplates, Nanoscale. 8 (2016) 9548–9555, https://doi.org 10.1039/C6NR00065G."
+    },
+    {
+      "n": 32,
+      "page": 31,
+      "raw": "[32] H. Zou, J. Dai, J. Suo, R. Ettelaie, Y. Li, N. Xue, R. Wang, H. Yang, Dual metal nanoparticles within multicompartmentalized mesoporous organosilicas fo efficient sequential hydrogenation, Nat. Commun. 12 (2021) 4968, https:/ doi.org/10.1038/s41467-021-25226-x."
+    },
+    {
+      "n": 33,
+      "page": 31,
+      "raw": "[33] A. Bahuguna, A. Kumar, V. Krishnan, Carbon-Support-Based Heterogeneous Nanocatalysts: Synthesis and Applications in Organic Reactions, Asian, J. Org Chem. 8 (2019) 1263–1305, https://doi.org/10.1002/ajoc.201900259."
+    },
+    {
+      "n": 34,
+      "page": 31,
+      "raw": "[34] M. Díaz-Sánchez, D. Díaz-García, S. Prashar, S. Gómez-Ruiz, Palladium nanoparticles supported on silica, alumina or titania: greener alternatives for Suzuki-Miyaura and other C-C coupling reactions, Environ. Chem. Lett. 17 (2019) 1585–1602, https://doi.org/10.1007/s10311-019-00899-5."
+    },
+    {
+      "n": 35,
+      "page": 31,
+      "raw": "[35] A. Dandia, S. Parihar, R. Sharma, K.S. Rathore, V. Parewa, Chapter 4 - Nanocatalysis in green organic synthesis, in: Inamuddin, R. Boddula, A.M Asiri (Eds.), Green Sustain. Process Chem. Environ. Eng. Sci., Elsevier, 2020: pp. 71–103. doi: 10.1016/B978-0-12-819539-0.00004-X."
+    },
+    {
+      "n": 36,
+      "page": 31,
+      "raw": "[36] H. Lin, Y. Chen, J. Shi, Nanoparticle-triggered: In situ catalytic chemical reactions for tumour-specific therapy, Chem. Soc. Rev. 47 (2018) 1938–1958, https://doi.org/10.1039/c7cs00471k."
+    },
+    {
+      "n": 37,
+      "page": 31,
+      "raw": "[37] J. Choi, G.C. Fu, Transition metal-catalyzed alkyl-alkyl bond formation: another dimension in cross-coupling chemistry, Science. 356 (2017) https://doi.org/10.1126/science.aaf7230."
+    },
+    {
+      "n": 38,
+      "page": 31,
+      "raw": "[38] Y. Sun, Y. Xia, Shape-Controlled Synthesis of Gold and Silver Nanoparticles, Science. 298 (2002) 2176–2179, https://doi.org/10.1126/science.1077229."
+    },
+    {
+      "n": 39,
+      "page": 31,
+      "raw": "[39] R.M. Crooks, M. Zhao, L. Sun, V. Chechik, L.K. Yeung, Dendrimer-Encapsulated Metal Nanoparticles: Synthesis Characterization and Applications to Catalysis, Acc. Chem. Res. 34 (2001) 181–190, https://doi.org/10.1021 ar000110a."
+    },
+    {
+      "n": 40,
+      "page": 31,
+      "raw": "[40] C. Xie, Z. Niu, D. Kim, M. Li, P. Yang, Surface and Interface Control in Nanoparticle Catalysis, Chem. Rev. 120 (2020) 1184–1249, https://doi.org 10.1021/acs.chemrev.9b00220."
+    },
+    {
+      "n": 41,
+      "page": 31,
+      "raw": "[41] L. Fernández-García, M. Blanco, C. Blanco, P. Álvarez, M. Granda, R. Santamaría, R. Menéndez, Graphene anchored palladium complex as efficient and recyclable catalyst in the Heck cross-coupling reaction, J. Mol. Catal. Chem. 416 (2016) 140–146, https://doi.org/10.1016 j.molcata.2016.02.023."
+    },
+    {
+      "n": 42,
+      "page": 31,
+      "raw": "[42] M. Nasrollahzadeh. M. Sajiadi, F. Ghorbannezhad. S.M. Sajadi, A Review on Recent Advances in the Application of Nanocatalysts in A3 Coupling Reactions, Chem. Rec. 18 (2018) 1409–1473, https://doi.org/10.1002 tcr.201700100."
+    },
+    {
+      "n": 43,
+      "page": 31,
+      "raw": "[43] T.K. Saha, R. Das, Progress in Synthesis of Propargylamine and Its Derivatives by Nanoparticle Catalysis via A3 coupling: A Decade Update, ChemistrySelect 3 (2018) 147–169, https://doi.org/10.1002/slct.201702454."
+    },
+    {
+      "n": 44,
+      "page": 31,
+      "raw": "[44] I. Favier, D. Pla, M. Gómez, Palladium Nanoparticles in Polyols: Synthesis, Catalytic Couplings, and Hydrogenations, Chem. Rev. 120 (2020) 1146–1183 https://doi.org/10.1021/acs.chemrev.9b00204."
+    },
+    {
+      "n": 45,
+      "page": 31,
+      "raw": "[45] G.A. Somorjai, Y. Li, Selective Nanocatalysis of Organic Transformation by Metals: Concepts, Model Systems, and Instruments, Top. Catal. 53 (2010) 832–847, https://doi.org/10.1007/s11244-010-9511-y."
+    },
+    {
+      "n": 46,
+      "page": 31,
+      "raw": "[46] J.I. Ayogu, E.A. Onoabedje, Prospects and Applications of Palladium Nanoparticles in the Cross-coupling of (hetero)aryl Halides and Related Analogues, ChemistryOpen. 10 (2021) 430–450, https://doi.org/10.1002 open.202000309."
+    },
+    {
+      "n": 47,
+      "page": 31,
+      "raw": "[47] D. Astruc, F. Lu, J.R. Aranzaes, Nanoparticles as Recyclable Catalysts: The Frontier between Homogeneous and Heterogeneous Catalysis, Angew. Chem Int. Ed. 44 (2005) 7852–7872, https://doi.org/10.1002/anie.200500766."
+    },
+    {
+      "n": 48,
+      "page": 31,
+      "raw": "[48] A. Ohtaka, Transition-metal Nanoparticles Catalyzed Carbon-Carbon Coupling Reactions in Water, Curr. Org. Chem. 23 (2019) 689–703, https://doi.org 10.2174/1385272823666190419211714."
+    },
+    {
+      "n": 49,
+      "page": 31,
+      "raw": "[49] K. Hong, M. Sajjadi, J.M. Suh, K. Zhang, M. Nasrollahzadeh, H.W. Jang, R.S Varma M. Shokouhimehr Palladium Nanoparticles on Assorted Nanostructured Supports: Applications for Suzuki, Heck, and Sonogashira Cross-Coupling Reactions ACS Appl Nano Mater. 3 (2020) 2070–2103 https://doi.org/10.1021/acsanm.9b02017."
+    },
+    {
+      "n": 50,
+      "page": 31,
+      "raw": "[50] D. Astruc, Nanoparticles and Catalysis, John Wiley & Sons, 2008."
+    },
+    {
+      "n": 51,
+      "page": 31,
+      "raw": "[51] E.D. Goodman, J.A. Schwalbe, M. Cargnello, Mechanistic Understanding and the Rational Design of Sinter-Resistant Heterogeneous Catalysts, ACS Catal. 7 (2017) 7156–7173, https://doi.org/10.1021/acscatal.7b01975."
+    },
+    {
+      "n": 52,
+      "page": 31,
+      "raw": "[52] L. Yu, X. Pan, X. Cao, P. Hu, X. Bao, Oxygen reduction reaction mechanism on nitrogen-doped graphene: A density functional theory study, J. Catal. 282 (2011) 183–190, https://doi.org/10.1016/j.jcat.2011.06.015."
+    },
+    {
+      "n": 53,
+      "page": 31,
+      "raw": "[53] T. Bligaard, J.K. Nørskov, Chapter 4 – Heterogeneous Catalysis, in: A. Nilsson, L.G.M. Pettersson, J.K. Nørskov (Eds.), Chem. Bond. Surf. Interfaces, Elsevier Amsterdam, 2008: pp. 255–321. doi: 10.1016/B978-044452837-7.50005-8."
+    },
+    {
+      "n": 54,
+      "page": 31,
+      "raw": "[54] B. Roldan Cuenya, F. Behafarid. Nanocatalysis: size- and shape-dependent chemisorption and catalytic reactivity, Surf. Sci. Rep. 70 (2015) 135–187 https://doi.org/10.1016/j.surfrep.2015.01.001."
+    },
+    {
+      "n": 55,
+      "page": 31,
+      "raw": "[55] F. Yang, D. Deng, X. Pan, Q. Fu, X. Bao, Understanding nano effects in catalysis Natl. Sci. Rev. 2 (2015) 183–201, https://doi.org/10.1093/nsr/nwv024."
+    },
+    {
+      "n": 56,
+      "page": 31,
+      "raw": "[56] M. Muhler, J. M. Thomas and W. J. Thomas: Principles and Practice of Heterogeneous Catalysis, VCH, Weinheim, 1997, ISBN 3-527-29239-X, Preis: 88, – DM, Berichte Bunsenges. Für Phys. Chem. 101 (1997) 1560–1560. doi: 10.1002/bbpc.199700023."
+    },
+    {
+      "n": 57,
+      "page": 31,
+      "raw": "[57] Chemical bonding at surface and interfaces – Cnp 26, StudFiles. (n.d.). https:/ studfile.net/preview/584135/ (accessed September 30, 2021)."
+    },
+    {
+      "n": 58,
+      "page": 31,
+      "raw": "[58] Y. Liu, Y. Ning, L. Yu, Z. Zhou, Q. Liu, Y. Zhang, H. Chen, J. Xiao, P. Liu, F. Yang, X. Bao, Structure and Electronic Properties of Interface-Confined Oxide Nanostructures, ACS Nano. 11 (2017) 11449–11458, https://doi.org 10.1021/acsnano.7b06164."
+    },
+    {
+      "n": 59,
+      "page": 31,
+      "raw": "[59] Z. Gao, Y. Qin, Design and Properties of Confined Nanocatalysts by Atomic Layer Deposition, Acc. Chem. Res. 50 (2017) 2309–2316, https://doi.org 10.1021/acs.accounts.7b00266."
+    },
+    {
+      "n": 60,
+      "page": 31,
+      "raw": "[60] J. Xiao, X. Pan, S. Guo, P. Ren, X. Bao, Toward Fundamentals of Confined Catalysis in Carbon Nanotubes, J. Am. Chem. Soc. 137 (2015) 477–482 https://doi.org/10.1021/ja511498s."
+    },
+    {
+      "n": 61,
+      "page": 31,
+      "raw": "[61] Y. Liu, H. Chen, C. Xu, Y. Sun, S. Li, M. Jiang, G. Qin, Control of Catalytic Activity of Nano-Au through Tailoring the Fermi Level of Support, Small. 15 (2019) 1901789, https://doi.org/10.1002/smll.201901789."
+    },
+    {
+      "n": 62,
+      "page": 31,
+      "raw": "[62] L. Mallón, N. Romero, A. Jiménez, E.M. Morales, J. Alemán, R. Mas-Ballesté, R. Bofill, K. Philippot, J. García-Antón, X. Sala, The role of catalyst–support interactions in oxygen evolution anodes based on Co(OH)2 nanoparticles and carbon microfibers, Catal. Sci. Technol. 10 (2020) 4513–4521, https://doi.org 10.1039/D0CY00193G."
+    },
+    {
+      "n": 63,
+      "page": 31,
+      "raw": "[63] M. Sankar, Q. He, R.V. Engel, M.A. Sainna, A.J. Logsdail, A. Roldan, D.J. Willock, N. Agarwal, C.J. Kiely, G.J. Hutchings, Role of the Support in Gold-Containing Nanoparticles as Heterogeneous Catalysts, Chem. Rev. 120 (2020) 3890– 3938, https://doi.org/10.1021/acs.chemrev.9b00662."
+    },
+    {
+      "n": 64,
+      "page": 31,
+      "raw": "[64] X. Cao, J. Zhou, H. Wang, S. Li, W. Wang, G. Qin, Abnormal thermal stability of sub-10 nm Au nanoparticles and their high catalytic activity, J. Mater. Chem. A. 7 (2019) 10980–10987, https://doi.org/10.1039/C8TA10515D."
+    },
+    {
+      "n": 65,
+      "page": 31,
+      "raw": "[65] C. Xu, Y. Zhang, J. Chen, S. Li, Y.-W. Zhang, G. Qin, Carbon-CeO2 interface confinement enhances the chemical stability of Pt nanocatalyst for catalytic oxidation reactions, Sci. China Mater. 64 (2021) 128–136, https://doi.org 10.1007/s40843-020-1360-8"
+    },
+    {
+      "n": 66,
+      "page": 31,
+      "raw": "[66] R. Narayanan, M.A. El-Sayed, Effect of Colloidal Catalysis on the Nanoparticle Size Distribution: Dendrimer Pd vs PVP Pd Nanoparticles Catalyzing the Suzuki Coupling Reaction, J. Phys. Chem. B. 108 (2004) 8572–8580, https:/ doi.org/10.1021/jp037169u."
+    },
+    {
+      "n": 67,
+      "page": 31,
+      "raw": "[67] S. Chatterjee, S.K. Bhattacharya, Size-Dependent Catalytic Activity and Fate of Palladium Nanoparticles in Suzuki-Miyaura Coupling Reactions, ACS Omega 3 (2018) 12905–12913, https://doi.org/10.1021/acsomega. 8b01598."
+    },
+    {
+      "n": 68,
+      "page": 31,
+      "raw": "[68] C. Lin. R.G. Compton, Size Effects in Nanoparticle Catalysis at Nanoparticle Modified Electrodes: The Interplay of Diffusion and Chemical Reactions, I Phys. Chem. C 121 (2017) 2521–2528, https://doi.org/10.1021/acs. jpcc.6b10719."
+    },
+    {
+      "n": 69,
+      "page": 31,
+      "raw": "[69] Y. Tang, L. Ma, J. Dou, C.M. Andolina, Y. Li, H. Ma, S.D. House, X. Zhang, J. Yang, F. (Feng) Tao, Transition of surface phase of cobalt oxide during CO oxidation, Phys. Chem. Chem. Phys. 20 (2018) 6440–6449, https://doi.org/10.1039 C7CP07407G."
+    },
+    {
+      "n": 70,
+      "page": 31,
+      "raw": "[70] B.V. Vaerenbergh, J. Lauwaert, P. Vermeir, J.W. Thybaut, J.D. Clercq, Towards high-performance heterogeneous palladium nanoparticle catalysts for sustainable liquid-phase reactions, React. Chem. Eng. 5 (2020) 1556–1618 https://doi.org/10.1039/D0RE00197J"
+    },
+    {
+      "n": 71,
+      "page": 31,
+      "raw": "[71] X.V. Medvedeva, F. Li, A. Maokhamphiou, J.J. Medvedev, A. Ahmed, A. Klinkova, Shape control in seed-mediated synthesis of non-elongated Cu nanoparticles and their optical properties, Nanoscale 13 (2021) 12505– 12512, https://doi.org/10.1039/D1NR01358K."
+    },
+    {
+      "n": 72,
+      "page": 31,
+      "raw": "[72] Y. Yoo, S. Kim, J. Kim, B. Kim, Geometry-tailored freestanding epitaxial Pd, AuPd, and Au nanoplates driven by surface interactions, Nanoscale 12 (2020) 6537–6544, https://doi.org/10.1039/C9NR10557C."
+    },
+    {
+      "n": 73,
+      "page": 31,
+      "raw": "[73] R. Liu, C. Xu, Y. Chen, H. Zhao, J. Sun, Z. He, W. Shan, G. Li, Q. Shi, L. Fang, J. Liu, G. Jiang, Existence of a Heterogeneous Pathway in Palladium-Catalyzed Carbon-Carbon Coupling Reaction: Evidence from Ag@Pd3Cu Intermetallic Nanoplates, CCS Chem. (2021), https://doi.org/10.31635/ccschem.021.202000628."
+    },
+    {
+      "n": 74,
+      "page": 31,
+      "raw": "[74] G. Collins, M. Schmidt, C. O’Dwyer, J.D. Holmes, G.P. McGlacken, The Origin of Shape Sensitivity in Palladium-Catalyzed Suzuki-Miyaura Cross Coupling Reactions, Angew. Chem. 126 (2014) 4226–4229, https://doi.org/10.1002 ange.201400483."
+    },
+    {
+      "n": 75,
+      "page": 31,
+      "raw": "[75] A. Lyalin, M. Gao, T. Taketsugu, When Inert Becomes Active: A Fascinating Route for Catalyst Design, Chem. Rec. 16 (2016) 2324–2337, https://doi.org 10.1002/tcr,201600035"
+    },
+    {
+      "n": 76,
+      "page": 31,
+      "raw": "[76] G.C. Bond, Heterogeneous catalysis, (1987). https://www.osti.gov/biblio 5847708 (accessed September 30.2021)."
+    },
+    {
+      "n": 77,
+      "page": 31,
+      "raw": "[77] Y. Chen, J. Qiu, X. Wang, J. Xiu, Preparation and application of highly dispersed gold nanoparticles supported on silica for catalytic hydrogenation of aromatic nitro compounds, J. Catal. 242 (2006) 227–230, https://doi.org/10.1016/j icat,2006.05.028."
+    },
+    {
+      "n": 78,
+      "page": 31,
+      "raw": "[78] D.A.H. Cunningham, W. Vogel. H. Kagevama, S. Tsubota, M. Haruta, The Relationship between the Structure and Activity of Nanometer Size Gold When Supported on Mg(OH)2, J. Catal. 177 (1998) 1–10, https://doi.org 10.1006/icat 1998 2050"
+    },
+    {
+      "n": 79,
+      "page": 31,
+      "raw": "[79] S.-H. Jeon, P. Xu, B. Zhang, N.H. Mack, H. Tsai, L.Y. Chiang, H.-L. Wang, Polymer-assisted preparation of metal nanoparticles with controlled size and morphology, J. Mater. Chem. 21 (2011) 2550–2554, https://doi.org/10.1039 C0JM02340J."
+    },
+    {
+      "n": 80,
+      "page": 31,
+      "raw": "[80] P.K. Dikshit, J. Kumar, A.K. Das, S. Sadhu, S. Sharma, S. Singh, P.K. Gupta, B.S. Kim, Green Synthesis of Metallic Nanoparticles: Applications and Limitations, Catalysts. 11 (2021) 902, https://doi.org/10.3390/ catal11080902."
+    },
+    {
+      "n": 81,
+      "page": 32,
+      "raw": "[81] M. Che, C.O. Bennett, The Influence of Particle Size on the Catalytic Properties of Supported Metals, in: D.D. Eley, H. Pines, P.B. Weisz (Eds.), Adv. Catal. Academic Press, 1989: pp. 55–172. doi: 10.1016/S0360-0564(08)60017-6."
+    },
+    {
+      "n": 82,
+      "page": 32,
+      "raw": "[82] B. Hvolbæk, T.V.W. Janssens, B.S. Clausen, H. Falsig, C.H. Christensen, J.K Nørskov, Catalytic activity of Au nanoparticles, Nano Today. 2 (2007) 14–18 https://doi.org/10.1016/S1748-0132(07)70113-5."
+    },
+    {
+      "n": 83,
+      "page": 32,
+      "raw": "[83] L. Vega, F. Viñes, K.M. Neyman, Unravelling Morphological and Topological Energy Contributions of Metal Nanoparticles, Nanomaterials. 12 (2022) 17, https://doi.org/10.3390/nano12010017."
+    },
+    {
+      "n": 84,
+      "page": 32,
+      "raw": "[84] S. Cao, F. (Feng) Tao, Y. Tang, Y. Li, J. Yu, Size- and shape-dependent catalytic performances of oxidation and reduction reactions on nanocatalysts, Chem Soc. Rev. 45 (2016) 4747–4765, https://doi.org/10.1039/C6CS00094K."
+    },
+    {
+      "n": 85,
+      "page": 32,
+      "raw": "[85] Y. Li, E. Boone, M.A. El-Sayed, Size Effects of PVP Pd Nanoparticles on the Catalytic Suzuki Reactions in Aqueous Solution, Langmuir. 18 (2002) 4921– 4925, https://doi.org/10.1021/la011469q."
+    },
+    {
+      "n": 86,
+      "page": 32,
+      "raw": "[86] J. Le Bars, U. Specht, J.S. Bradley, D.G. Blackmond, A Catalytic Probe of the Surface of Colloidal Palladium Particles Using Heck Coupling Reactions, Langmuir 15 (1999) 7621–7625, https://doi.org/10.1021/la990144v."
+    },
+    {
+      "n": 87,
+      "page": 32,
+      "raw": "[87] R. Van Hardeveld, F. Hartog, The statistics of surface atoms and surface site on metal crystals, Surf. Sci. 15 (1969) 189–230, https://doi.org/10.1016/0039- 6028(69)90148-4."
+    },
+    {
+      "n": 88,
+      "page": 32,
+      "raw": "[88] J.A. van Bokhoven, C. Louis, J.T. Miller, M. Tromp, O.V. Safonova, P. Glatzel, Activation of Oxygen on Gold/Alumina Catalysts. In Situ High-Energy-Resolution Fluorescence and Time-Resolved X-ray Spectroscopy, Angew. Chem. Int. Ed. 45 (2006) 4651–4654, https://doi.org/10.1002 anie,200601184."
+    },
+    {
+      "n": 89,
+      "page": 32,
+      "raw": "[89] M. Valden X. Lai D.W. Goodman Onset of Catalytic Activity of Gold Clusters on Titania with the Appearance of Nonmetallic Properties, Science. 281 (1998) 1647–1650, https://doi.org/10.1126/science.281.5383.1647."
+    },
+    {
+      "n": 90,
+      "page": 32,
+      "raw": "[90] M.S. Chen, D.W. Goodman, The Structure of Catalytically Active Gold on Titania, Science 306 (2004) 252–255, https://doi.org 10.1126/science.1102420"
+    },
+    {
+      "n": 91,
+      "page": 32,
+      "raw": "[91] M. Chen, D.W. Goodman, Catalytically active gold on ordered titania supports, Chem. Soc. Rev. 37 (2008) 1860–1870, https://doi.org/10.1039/B707318F."
+    },
+    {
+      "n": 92,
+      "page": 32,
+      "raw": "[92] M.J. Walsh, K. Yoshida, A. Kuwabara, M.L. Pay, P.L. Gai, E.D. Boyes, On the Structural Origin of the Catalytic Properties of Inherently Strained Ultrasmal Decahedral Gold Nanoparticles, Nano Lett. 12 (2012) 2027–2031, https://doi org/10.1021/nl300067q."
+    },
+    {
+      "n": 93,
+      "page": 32,
+      "raw": "[93] J.T. Miller, A.J. Kropf, Y. Zha, J.R. Regalbuto, L. Delannoy, C. Louis, E. Bus, J.A van Bokhoven, The effect of gold particle size on AuAu bond length and reactivity toward oxygen in supported catalysts, J. Catal. 240 (2006) 222–234 https://doi.org/10.1016/j.jcat.2006.04.004."
+    },
+    {
+      "n": 94,
+      "page": 32,
+      "raw": "[94] J.A. van Bokhoven, J.T. Miller, d Electron Density and Reactivity of the d Band as a Function of Particle Size in Supported Gold Catalysts, J. Phys. Chem. C 111 (2007) 9245–9249, https://doi.org/10.1021/jp070755t."
+    },
+    {
+      "n": 95,
+      "page": 32,
+      "raw": "[95] Z. Yang, S. Pedireddy, H.K. Lee, Y. Liu, W.W. Tjiu, I.Y. Phang, X.Y. Ling, Manipulating the d-Band Electronic Structure of Platinum-Functionalized Nanoporous Gold Bowls: Synergistic Intermetallic Interactions Enhance Catalysis, Chem. Mater. 28 (2016) 5080–5086, https://doi.org/10.1021/acs chemmater.6b01925."
+    },
+    {
+      "n": 96,
+      "page": 32,
+      "raw": "[96] V. Fung, G. Hu, P. Ganesh, B.G. Sumpter, Machine learned features from density of states for accurate adsorption energy prediction, Nat. Commun. 12 (2021) 88, https://doi.org/10.1038/s41467-020-20342-6."
+    },
+    {
+      "n": 97,
+      "page": 32,
+      "raw": "[97] S. Martínez, L. Veth, B. Lainer, P. Dydio, Challenges and Opportunities in Multicatalysis, ACS Catal. 11 (2021) 3891–3915, https://doi.org/10.1021 acscatal.0c05725."
+    },
+    {
+      "n": 98,
+      "page": 32,
+      "raw": "[98] F.H. Kaatz, A. Bultheel, Catalytic thermodynamic model for nanocluster adsorbates, Catal. Today. 360 (2021) 157–164, https://doi.org/10.1016 j.cattod.2019.06.077."
+    },
+    {
+      "n": 99,
+      "page": 32,
+      "raw": "[99] B.A. Baraiya, H. Tanna, V. Mankad, P.K. Jha, Dressing of Cu Atom over Nickel Cluster Stimulating the Poisoning-Free CO Oxidation: An Ab Initio Study, J. Phys. Chem. A 125 (2021) 5256–5272, https://doi.org/10.1021/acs jpca.1c02354."
+    },
+    {
+      "n": 100,
+      "page": 32,
+      "raw": "[100] F.H. Kaatz, D.Y. Murzin, A. Bultheel, Coordination-Dependent Kinetics in the Catalysis of Gold Nanoclusters ACS Catal, 11 (2021) 9073–9085 https://doi org/10.1021/acscatal.1c00892."
+    },
+    {
+      "n": 101,
+      "page": 32,
+      "raw": "[101] H.M. Lu, X.K. Meng, Theoretical Model to Calculate Catalytic Activation Energies of Platinum Nanoparticles of Different Sizes and Shapes, J. Phys. Chem. C. 114 (2010) 1534–1538, https://doi.org/10.1021/jp9106475."
+    },
+    {
+      "n": 102,
+      "page": 32,
+      "raw": "[102] S.H. Brodersen, U. Grønbjerg, B. Hvolbæk, J. Schiøtz, Understanding the catalytic activity of gold nanoparticles through multi-scale simulations, J. Catal. 284 (2011) 34–41, https://doi.org/10.1016/j.jcat.2011.08.016."
+    },
+    {
+      "n": 103,
+      "page": 32,
+      "raw": "[103] X. Zhou, W. Xu, G. Liu, D. Panda, P. Chen, Size-Dependent Catalytic Activity and Dynamics of Gold Nanoparticles at the Single-Molecule Level, J. Am. Chem. Soc. 132 (2010) 138–146, https://doi.org/10.1021/ja904307n."
+    },
+    {
+      "n": 104,
+      "page": 32,
+      "raw": "[104] M. Nemanashi. R. Meiiboom, Catalytic Behavior of Different Sizes of Dendrimer-Encapsulated Aun Nanoparticles in the Oxidative Degradation of Morin with H2O2, Langmuir. 31 (2015) 9041–9053, https://doi.org 10.1021/acs langmuir 5b02020"
+    },
+    {
+      "n": 105,
+      "page": 32,
+      "raw": "[105] S. Wunder, Y. Lu, M. Albrecht, M. Ballauff, Catalytic Activity of Faceted Gold Nanoparticles Studied by a Model Reaction: Evidence for Substrate-Induced Surface Restructuring, ACS Catal. 1 (2011) 908–916, https://doi.org/10.1021 cs200208a."
+    },
+    {
+      "n": 106,
+      "page": 32,
+      "raw": "[106] Z. Li, V.G. Ruiz, M. Kanducˇ, J. Dzubiella, Ion-Specific Adsorption on Bare Gold (Au) Nanoparticles in Aqueous Solutions: Double-Layer Structure and Surface"
+    },
+    {
+      "n": null,
+      "page": 32,
+      "raw": "Potentials, Langmuir. 36 (2020) 13457–13468, https://doi.org/10.1021/acs langmuir.0c02097."
+    },
+    {
+      "n": 107,
+      "page": 32,
+      "raw": "[107] C. Kästner, A.F. Thünemann, Catalytic Reduction of 4-Nitrophenol Using Silver Nanoparticles with Adjustable Activity, Langmuir. 32 (2016) 7383– 7391, https://doi.org/10.1021/acs.langmuir.6b01477."
+    },
+    {
+      "n": 108,
+      "page": 32,
+      "raw": "[108] J.K. Sahoo, M.N. Tahir, M.I. Shukoor, T.D. Schladt, F. Natalio, E. Mugnaioli, U. Kolb, W. Tremel, Rational assembly and dual functionalization of Au@MnO heteroparticles on TiO2 nanowires, New J. Chem. 38 (2014) 2031–2036, https://doi.org/10.1039/C3NJ00989K."
+    },
+    {
+      "n": 109,
+      "page": 32,
+      "raw": "[109] B. Nakhjavan, M.N. Tahir, F. Natalio, H. Gao, K. Schneider, T. Schladt, I. Ament, R. Branscheid, S. Weber, U. Kolb, C. Sönnichsen, L.M. Schreiber, W. Tremel, Phase separated Cu@Fe3O4 heterodimer nanoparticles from organometallic reactants, J. Mater. Chem. 21 (2011) 8605–8611, https://doi.org/10.1039 C1JM10922G."
+    },
+    {
+      "n": 110,
+      "page": 32,
+      "raw": "[110] L. Yang, Z. Zhou, J. Song, X. Chen, Anisotropic nanomaterials for shapedependent physicochemical and biomedical applications, Chem. Soc. Rev. 48 (2019) 5140–5176, https://doi.org/10.1039/C9CS00011A."
+    },
+    {
+      "n": 111,
+      "page": 32,
+      "raw": "[111] P. Strasser, M. Gliech, S. Kuehl, T. Moeller, Electrochemical processes on solid shaped nanoparticles with defined facets, Chem. Soc. Rev. 47 (2018) 715– 735, https://doi.org/10.1039/C7CS00759K."
+    },
+    {
+      "n": 112,
+      "page": 32,
+      "raw": "[112] H.L.K.S. Stolle, J.J. Kluitmann, A. Csáki, J.M. Köhler, W. Fritzsche, Shape-Dependent Catalytic Activity of Gold and Bimetallic Nanoparticles in the Reduction of Methylene Blue by Sodium Borohydride, Catalysts. 11 (2021) 1442, https://doi.org/10.3390/catal11121442."
+    },
+    {
+      "n": 113,
+      "page": 32,
+      "raw": "[113] V.V. Singh, U. Kumar, S.N. Tripathi, A.K. Singh, Shape dependent catalytic activity of nanoflowers and nanospheres of Pd4S generated via one pot synthesis and grafted on graphene oxide for Suzuki coupling, Dalton Trans. 43 (2014).12555-12563, https://doi.org/10.1039/C4DT01396D."
+    },
+    {
+      "n": 114,
+      "page": 32,
+      "raw": "[114] S. Mostafa, F. Behafarid, J.R. Croy, L.K. Ono, L. Li, J.C. Yang, A.I. Frenkel, B.R. Cuenya, Shape-Dependent Catalytic Properties of Pt Nanoparticles, J. Am. Chem. Soc. 132 (2010) 15714–15719, https://doi.org/10.1021/ja106679z."
+    },
+    {
+      "n": 115,
+      "page": 32,
+      "raw": "[115] M. Jin, G. He, H. Zhang, J. Zeng, Z. Xie, Y. Xia, Shape-Controlled Synthesis of Copper Nanocrystals in an Aqueous Solution with Glucose as a Reducing Agent and Hexadecylamine as a Capping Agent, Angew. Chem. Int. Ed. 50 (2011) 10560–10564, https://doi.org/10.1002/anie.201105539."
+    },
+    {
+      "n": 116,
+      "page": 32,
+      "raw": "[116] N.D. Spencer, R.C. Schoonmaker, G.A. Somorjai, Iron single crystals as ammonia synthesis catalysts: Effect of surface structure on catalyst activity. I. Catal, 74 (1982) 129–135, https://doi,org/10.1016/0021-9517(82) 90016-1."
+    },
+    {
+      "n": 117,
+      "page": 32,
+      "raw": "[117] G. Ertl, Surface Science and Catalysis—Studies on the Mechanism of Ammonia Synthesis: The P. H. Emmett Award Address, Catal. Rev. 21 (1980) 201–223, https://doi.org/10.1080/03602458008067533."
+    },
+    {
+      "n": 118,
+      "page": 32,
+      "raw": "[118] G. Collins, M. Schmidt, C. O’Dwyer, G. McGlacken, J.D. Holmes, Enhanced Catalytic Activity of High-Index Faceted Palladium Nanoparticles in Suzuki-Miyaura Coupling Due to Efficient Leaching Mechanism, ACS Catal. 4 (2014) 3105–3111, https://doi.org/10.1021/cs5008014."
+    },
+    {
+      "n": 119,
+      "page": 32,
+      "raw": "[119] M. Wu, C. Chen, Y. Zhao, E. Zhu, Y. Li, Atomic Regulation of PGM Electrocatalysts for the Oxygen Reduction Reaction, Front. Chem. 9 (2021) 443, https://doi.org/10.3389/fchem.2021.699861."
+    },
+    {
+      "n": 120,
+      "page": 32,
+      "raw": "[120] G.S. Karlberg, T.F. Jaramillo, E. Skúlason, J. Rossmeisl, T. Bligaard, J.K. Nørskov, Cyclic Voltammograms for H on Pt(111) and Pt(100) from First Principles, Phys. Rev. Lett. 99 (2007), https://doi.org/10.1103/PhysRevLett.99.126101."
+    },
+    {
+      "n": 121,
+      "page": 32,
+      "raw": "[121] M. Bäumer, H.-J. Freund, Metal deposits on well-ordered oxide films, Prog. Surf. Sci. 61 (1999) 127–198, https://doi.org/10.1016/S0079-6816(99)00012- X."
+    },
+    {
+      "n": 122,
+      "page": 32,
+      "raw": "[122] S. Schauermann, N. Nilius, S. Shaikhutdinov, H.-J. Freund, Nanoparticles for Heterogeneous Catalysis: New Mechanistic Insights, Acc. Chem. Res. 46 (2013) 1673–1681, https://doi.org/10.1021/ar300225s."
+    },
+    {
+      "n": 123,
+      "page": 32,
+      "raw": "[123] G. Pacchioni, L. Giordano, M. Baistrocchi, Charging of Metal Atoms on Ultrathin \\ MgO / Mo (100)\\ Films, Phys. Rev. Lett. 94 (2005), https://doi.org/10.1103/PhysRevLett.94.226104."
+    },
+    {
+      "n": 124,
+      "page": 32,
+      "raw": "[124] H. Xu, B.J. Wiley, The Roles of Citrate and Defects in the Anisotropic Growth of Ag Nanostructures, Chem. Mater. 33 (2021) 8301–8311, https://doi.org 10.1021/acs.chemmater.1c02474."
+    },
+    {
+      "n": 125,
+      "page": 32,
+      "raw": "[125] B. Nakhjavan, M.N. Tahir, M. Panthöfer, H. Gao, T. Gasi, V. Ksenofontov, R. Branscheid, S. Weber, U. Kolb, L.M. Schreiber, W. Tremel, Controlling phase formation in solids: rational synthesis of phase separated Co@Fe2O3 heteroparticles and CoFe2O4 nanoparticles, Chem. Commun. 47 (2011) 8898-8900. https://doi.org/10.1039/C1CC13204K."
+    },
+    {
+      "n": 126,
+      "page": 32,
+      "raw": "[126] M. Sun, Z. Cheng, W. Chen, M. Jones, Understanding Symmetry Breaking at the Single-Particle Level via the Growth of Tetrahedron-Shaped Nanocrystals from Higher-Symmetry Precursors, ACS Nano. 15 (2021) 15953–15961, https://doi.org/10.1021/acsnano.1c04056."
+    },
+    {
+      "n": 127,
+      "page": 32,
+      "raw": "[127] T.S. Ahmadi, Z.L. Wang, T.C. Green, A. Henglein, M.A. El-Sayed, Shape-Controlled Synthesis of Colloidal Platinum Nanoparticles, Science. 272 (1996) 1924-1925. https://doi.org/10.1126/science.272.5270.1924."
+    },
+    {
+      "n": 128,
+      "page": 32,
+      "raw": "[128] R. Narayanan, M.A. El-Sayed, Changing Catalytic Activity during Colloidal Platinum Nanocatalysis Due to Shape Changes: Electron-Transfer Reaction, J. Am. Chem. Soc. 126 (2004) 7194–7195, https://doi.org/10.1021/ja0486061."
+    },
+    {
+      "n": 129,
+      "page": 32,
+      "raw": "[129] Y.-H. Chen, H.-H. Hung, M.H. Huang, Seed-Mediated Synthesis of Palladium Nanorods and Branched Nanocrystals and Their Use as Recyclable Suzuki Coupling Reaction Catalysts, J. Am. Chem. Soc. 131 (2009) 9114–9121, https://doi.org/10.1021/ja903305d."
+    },
+    {
+      "n": 130,
+      "page": 32,
+      "raw": "[130] S. Swain, V. Kandathil, P. Bhol, A.K. Samal, S.A. Patil, Controlled Synthesis of Palladium Nanocubes as an Efficient Nanocatalyst for Suzuki-Miyaura Cross-"
+    },
+    {
+      "n": null,
+      "page": 33,
+      "raw": "Coupling and Reduction of p-Nitrophenol, Langmuir. 36 (2020) 5208–5218 https://doi.org/10.1021/acs.langmuir.0c00526."
+    },
+    {
+      "n": 131,
+      "page": 33,
+      "raw": "[131] Y. Lykhach, S.M. Kozlov, T. Skála, A. Tovt, V. Stetsovych, N. Tsud, F. Dvorˇák, V. Johánek, A. Neitzel, J. Myslivecˇek, S. Fabris, V. Matolín, K.M. Neyman, J. Libuda, Counting electrons on supported nanoparticles, Nat. Mater. 15 (2016) 284–288, https://doi.org/10.1038/nmat4500."
+    },
+    {
+      "n": 132,
+      "page": 33,
+      "raw": "[132] C.T. Campbell, S.C. Parker, D.E. Starr, The Effect of Size-Dependent Nanoparticle Energetics on Catalyst Sintering, Science 298 (2002) 811–814, https://doi.org/10.1126/science.1075094."
+    },
+    {
+      "n": 133,
+      "page": 33,
+      "raw": "[133] G. Pacchioni, Electronic interactions and charge transfers of metal atoms and clusters on oxide surfaces, Phys. Chem. Chem. Phys. 15 (2013) 1737–1757, https://doi.org/10.1039/C2CP43731G."
+    },
+    {
+      "n": 134,
+      "page": 33,
+      "raw": "[134] T. Binninger, T.J. Schmidt, D. Kramer, Capacitive electronic metal-support interactions: Outer surface charging of supported catalyst particles, Phys. Rev. B. 96 (2017), https://doi.org/10.1103/PhysRevB.96.165405."
+    },
+    {
+      "n": 135,
+      "page": 33,
+      "raw": "[135] K.R. Gopidas, J.K. Whitesell, M.A. Fox, Nanoparticle-cored dendrimers: Synthesis and characterization, J. Am. Chem. Soc. 125 (2003) 6491–6502, https://doi.org/10.1021/ja029544m."
+    },
+    {
+      "n": 136,
+      "page": 33,
+      "raw": "[136] J.V. Rojas, C.H. Castano, Production of palladium nanoparticles supported on multiwalled carbon nanotubes by gamma irradiation, Radiat. Phys. Chem. 81 (2012) 16–21, https://doi.org/10.1016/j.radphyschem.2011.08.010."
+    },
+    {
+      "n": 137,
+      "page": 33,
+      "raw": "[137] I. Miguel-García, Á. Berenguer-Murcia, T. García, D. Cazorla-Amorós, Effect of the aging time of PVP coated palladium nanoparticles colloidal suspensions on their catalytic activity in the preferential oxidation of CO, Catal. Today 187 (2012) 2–9, https://doi.org/10.1016/j.cattod.2012.02.015."
+    },
+    {
+      "n": 138,
+      "page": 33,
+      "raw": "[138] M. Gholinejad, A. Aminianfar, Palladium nanoparticles supported on magnetic copper ferrite nanoparticles: The synergistic effect of palladium and copper for cyanation of aryl halides with K4[Fe(CN)6], J. Mol. Catal. Chem. 397 (2015) 106–113, https://doi.org/10.1016/j.molcata.2014.10.029."
+    },
+    {
+      "n": 139,
+      "page": 33,
+      "raw": "[139] M.M. Dell’Anna, S. Intini, G. Romanazzi, A. Rizzuti, C. Leonelli, F. Piccinni, P. Mastrorilli, Polymer supported palladium nanocrystals as efficient and recyclable catalyst for the reduction of nitroarenes to anilines under mild conditions in water, J. Mol. Catal. Chem. 395 (2014) 307–314, https://doi.org 10.1016/i,molcata,2014.08.033."
+    },
+    {
+      "n": 140,
+      "page": 33,
+      "raw": "[140] C. Shang, W. Hong, J. Wang, E. Wang, Carbon supported trimetallic nickelpalladium-gold hollow nanoparticles with superior catalytic activity for methanol electrooxidation, J. Power Sources 285 (2015) 12–15, https://doi org/10.1016/j.jpowsour.2015.03.092."
+    },
+    {
+      "n": 141,
+      "page": 33,
+      "raw": "[141] M. Gómez-Martínez, E. Buxaderas, I.M. Pastor, D.A. Alonso, Palladium nanoparticles supported on graphene and reduced graphene oxide as efficient recyclable catalyst for the Suzuki-Miyaura reaction of potassium aryltrifluoroborates Dedicated to the memory of Prof, Carlos F. Barbas III., J. Mol. Catal. Chem. 404–405 (2015) 1–7, https://doi.org/10.1016/ j.molcata.2015.03.022."
+    },
+    {
+      "n": 142,
+      "page": 33,
+      "raw": "[142] O.T.K. Nguyen, L.T. Nguyen, N.K. Truong, V.D. Nguyen, A.T. Nguyen, N.T.H. Le, D.T. Le, N.T.S. Phan, Synthesis of triphenylamines via ligand-free selective ring-opening of benzoxazoles or benzothiazoles under superparamagnetic nanoparticle catalysis, RSC Adv. 7 (2017) 40929–40939, https://doi.org 10.1039/C7RA06168D."
+    },
+    {
+      "n": 143,
+      "page": 33,
+      "raw": "[143] S. Navalon, A. Dhakshinamoorthy, M. Alvaro, H. Garcia, Metal nanoparticles supported on two-dimensional graphenes as heterogeneous catalysts, Coord. Chem. Rev. 312 (2016) 99–148, https://doi.org/10.1016/j ccr.2015.12.005."
+    },
+    {
+      "n": 144,
+      "page": 33,
+      "raw": "[144] A. Balanta, C. Godard, C. Claver, Pd nanoparticles for C-C coupling reactions, Chem. Soc. Rev. 40 (2011) 4973–4985, https://doi.org/10.1039/C1CS15195A."
+    },
+    {
+      "n": 145,
+      "page": 33,
+      "raw": "[145] A. Didi, L.M. Gómez-Calcerrada, A. Benhamou, S. Gómez-Ruiz, Versatility in the catalytic and photocatalytic reactions of composites based on Zr- and Zr-Pd-doped titania nanoparticles, Ceram. Int. 44 (2018) 17266–17276, https:// doi.org/10.1016/j.ceramint.2018.06.187."
+    },
+    {
+      "n": 146,
+      "page": 33,
+      "raw": "[146] A. Ohtaka, Recent Progress of Metal Nanoparticle Catalysts for C-C Bond Forming Reactions, Catalysts. 11 (2021) 1266, https://doi.org 10.3390/catal11111266."
+    },
+    {
+      "n": 147,
+      "page": 33,
+      "raw": "[147] A.M. Trzeciak, A.W. Augustyniak, The role of palladium nanoparticles in catalytic C-C cross-coupling reactions, Coord. Chem. Rev. 384 (2019) 1–20, https://doi.org/10.1016/i.ccr.2019.01.008."
+    },
+    {
+      "n": 148,
+      "page": 33,
+      "raw": "[148] S.Y. Mak, K.H. Liew, C.C. Chua, M.A. Yarmo, B.H. Yahaya, W.Z. Samad, M.S.M. Jamil, R.M. Yusop, Palladium nanoparticles supported on fluorine-doped tin oxide as an efficient heterogeneous catalyst for Suzuki coupling and 4- nitrophenol reduction, J. Chem. Sci. 131 (2019) 1–12, https://doi.org/10.1007/ s12039-019-1685-7."
+    },
+    {
+      "n": 149,
+      "page": 33,
+      "raw": "[149] N.Y. Baran, T. Baran, M. Nasrollahzadeh, R.S. Varma, Pd nanoparticles stabilized on the Schiff base-modified boehmite: Catalytic role in Suzuki coupling reaction and reduction of nitroarenes, J. Organomet. Chem. 900 (2019), https://doi.org/10.1016/j.jorganchem.2019.120916."
+    },
+    {
+      "n": 150,
+      "page": 33,
+      "raw": "[150] I. Liu, I. Hao, C. Hu, B. He, I. Xi. I. Xiao, S. Wang, Z. Bai, Palladium Nanoparticles Anchored on Amine-Functionalized Silica Nanotubes as a Highly Effective Catalyst, J. Phys. Chem. C 122 (2018) 2696–2703, https://doi.org/10.1021/acs. jpcc.7b10237."
+    },
+    {
+      "n": 151,
+      "page": 33,
+      "raw": "[151] A.M.S. Hossain, A. Balbín, R.S. Erami, S. Prashar, M. Fajardo, S. Gómez-Ruiz, Synthesis and study of the catalytic applications in C-C coupling reactions of hybrid nanosystems based on alumina and palladium nanoparticles, Inorganica Chim. Acta 455 (2017) 645–652, https://doi.org/10.1016/j. ica.2016.04.045."
+    },
+    {
+      "n": 152,
+      "page": 33,
+      "raw": "[152] A. Balbín, F. Gaballo, J. Ceballos-Torres, S. Prashar, M. Fajardo, G.N. Kaluderovic´, S. Gómez-Ruiz, Dual application of Pd nanoparticles supported on mesoporous silica SBA-15 and MSU-2: supported catalysts for C-C"
+    },
+    {
+      "n": null,
+      "page": 33,
+      "raw": "coupling reactions and cytotoxic agents against human cancer cell lines, RSC Adv. 4 (2014) 54775–54787, https://doi.org/10.1039/C4RA11759J."
+    },
+    {
+      "n": 153,
+      "page": 33,
+      "raw": "[153] M. Khan, M.R. Shaik, S.F. Adil, M. Kunivil, M. Ashraf, H. Frerichs, M.A. Sarif, M. R.H. Siddiqui, A. Al–Warthan, J.P. Labis, M.S. Islam, W. Tremel, M.N. Tahir, Facile synthesis of Pd@graphene nanocomposites with enhanced catalytic activity towards Suzuki coupling reaction, Sci. Rep. 10 (2020) 11728, https:// doi.org/10.1038/s41598-020-68124-w."
+    },
+    {
+      "n": 154,
+      "page": 33,
+      "raw": "[154] R.S. Erami, D. Díaz-García, S. Prashar, A. Rodríguez-Diéguez, M. Fajardo, M. Amirnasr, S. Gómez-Ruiz, Suzuki-Miyaura C-C Coupling Reactions Catalyzed by Supported Pd Nanoparticles for the Preparation of Fluorinated Biphenyl Derivatives, Catalysts 7 (2017) 76, https://doi.org/10.3390/catal7030076."
+    },
+    {
+      "n": 155,
+      "page": 33,
+      "raw": "[155] S.F. Adil, M. Ashraf, M. Khan, M.E. Assal, M.R. Shaik, M. Kuniyil, A. Al-Warthan, M.R.H. Siddiqui, W. Tremel, M.N. Tahir, Advances in Graphene/Inorganic Nanoparticle Composites for Catalytic Applications, Chem. Rec. 22 (2022) e202100274."
+    },
+    {
+      "n": 156,
+      "page": 33,
+      "raw": "[156] S. Yamamoto, H. Kinoshita, H. Hashimoto, Y. Nishina, Facile preparation of Pd nanoparticles supported on single-layer graphene oxide and application for the Suzuki-Miyaura cross-coupling reaction, Nanoscale. 6 (2014) 6501–6505, https://doi.org/10.1039/C4NR00715H."
+    },
+    {
+      "n": 157,
+      "page": 33,
+      "raw": "[157] M. Díaz-Sánchez, I.J. Gómez, S. Prashar, M. Horácˇek, M. Lamacˇ, B. Urbán, J. Pinkas, S. Gómez-Ruiz, Multifunctional catalysts based on palladium nanoparticles supported on functionalized halloysites: Applications in catalytic C-C coupling, selective oxidation and dehalogenation reactions, Appl. Clay Sci. 214 (2021), https://doi.org/10.1016/j.clay.2021.106272."
+    },
+    {
+      "n": 158,
+      "page": 33,
+      "raw": "[158] J. Sun, Y. Fu, G. He, X. Sun, X. Wang, Green Suzuki-Miyaura coupling reaction catalyzed by palladium nanoparticles supported on graphitic carbon nitride, Appl. Catal. B Environ. 165 (2015) 661–667, https://doi.org/10.1016/j. apcatb.2014.10.072."
+    },
+    {
+      "n": 159,
+      "page": 33,
+      "raw": "[159] D. Yang, Y. Hou, Q. Zhuang, P. Liu, J. Kong, Nitrogen-Rich Porous Organic Polyamines for Stabilization of Highly Dispersed Metal Nanoparticles and Catalytic Application, Macromol. Rapid Commun. 40 (2019) 1900100, https:// doi.org/10.1002/marc.201900100."
+    },
+    {
+      "n": 160,
+      "page": 33,
+      "raw": "[160] K.H. Liew, W.Z. Samad, N. Nordin, P.L. Loh, J.C. Juan, M.A. Yarmo, B.H. Yahaya, R.M. Yusop, Preparation and characterization of HypoGel-supported Pd nanocatalysts for Suzuki reaction under mild conditions, Cuihua XuebaoChinese, J. Catal. 36 (2015) 771–777, https://doi.org/10.1016/S1872- 2067(14)60282-5."
+    },
+    {
+      "n": null,
+      "page": 33,
+      "raw": "[161l H. Veisi. S. Naiafi. S. Hemmati. Pd(II)/Pd(0) anchored to magnetic nanoparticles (Fe3O4) modified with biguanidine-chitosan polymer as a novel nanocatalyst for Suzuki-Miyaura coupling reactions, Int. J. Biol. Macromol. 113 (2018) 186–194, https://doi.org/10.1016/j. ijbiomac.2018.02.120."
+    },
+    {
+      "n": 162,
+      "page": 33,
+      "raw": "[162] H. Veisi, S. Razeghi, P. Mohammadi, S. Hemmati, Silver nanoparticles decorated on thiol-modified magnetite nanoparticles (Fe3O4/SiO2-Pr-S-Ag) as a recyclable nanocatalyst for degradation of organic dyes, Mater. Sci. Eng. C 97 (2019) 624–631, https://doi.org/10.1016/j.msec.2018.12.076."
+    },
+    {
+      "n": 163,
+      "page": 33,
+      "raw": "[163] Y. Wu, D. Wang, Y. Li, Nanocrystals from solutions: catalysts, Chem. Soc. Rev. 43 (2014) 2112–2124, https://doi.org/10.1039/C3CS60221D."
+    },
+    {
+      "n": 164,
+      "page": 33,
+      "raw": "[164] K. Zhang, T.H. Lee, H. Noh, O.K. Farha, H.W. Jang, J.-W. Choi, M. Shokouhimehr, Tailorable Topologies for Selectively Controlling Crystals of Expanded Prussian Blue Analogues, Cryst. Growth Des. 19 (2019) 7385–7395, https://doi.org/10.1021/acs.cgd.9b01309."
+    },
+    {
+      "n": 165,
+      "page": 33,
+      "raw": "[165] M. Zhang, J. Guan, B. Zhang, D. Su, C.T. Williams, C. Liang, Chemical Vapor Deposition of Pd(C3H5)(C5H5) to Synthesize Pd@MOF-5 Catalysts for Suzuki Coupling Reaction, Catal. Lett. 142 (2012) 313–318, https://doi.org/10.1007/ s10562-012-0767-7"
+    },
+    {
+      "n": 166,
+      "page": 33,
+      "raw": "[166] W. Dong, L. Zhang, C. Wang, C. Feng, N. Shang, S. Gao, C. Wang, Palladium nanoparticles embedded in metal–organic framework derived porous carbon: synthesis and application for efficient Suzuki-Miyaura coupling reactions, RSC Adv. 6 (2016) 37118–37123, https://doi.org/10.1039 C6RA00378H."
+    },
+    {
+      "n": 167,
+      "page": 33,
+      "raw": "[167] F. Carson, V. Pascanu, A. Bermejo Gómez, Y. Zhang, A.E. Platero-Prats, X. Zou, B. Martín-Matute, Influence of the Base on Pd@MIL-101-NH2(Cr) as Catalyst for the Suzuki-Miyaura Cross-Coupling Reaction, Chem. – Eur. J. 21 (2015) 10896-10902, https://doi.org/10.1002/chem.201500843."
+    },
+    {
+      "n": 168,
+      "page": 33,
+      "raw": "[168] V. Pascanu, Q. Yao, A. Bermejo Gómez, M. Gustafsson, Y. Yun, W. Wan, L. Samain, X. Zou, B. Martín-Matute, Sustainable Catalysis: Rational Pd Loading on MIL-101Cr-NH2 for More Efficient and Recyclable Suzuki-Miyaura Reactions, Chem. – Eur. J. 19 (2013) 17483–17493, https://doi.org/10.1002 chem,201302621."
+    },
+    {
+      "n": 169,
+      "page": 33,
+      "raw": "[169] F. Kettemann, M. Wuithschick, G. Caputo, R. Kraehnert, N. Pinna, K. Rademann, J. Polte, Reliable palladium nanoparticle syntheses in aqueous solution: the importance of understanding precursor chemistry and growth mechanism, CrystEngComm. 17 (2015) 1865–1870, https://doi.org/10.1039 C4CE01025F."
+    },
+    {
+      "n": 170,
+      "page": 33,
+      "raw": "[170] S. Cheong, J.D. Watt, R.D. Tilley, Shape control of platinum and palladium nanoparticles for catalysis, Nanoscale 2 (2010) 2045–2053, https://doi,org 10.1039/C0NR00276C."
+    },
+    {
+      "n": 171,
+      "page": 33,
+      "raw": "[171] A. Kamal, V. Srinivasulu, B.N. Seshadri, N. Markandeya, A. Alarifi, N. Shankaraiah, Water mediated Heck and Ullmann couplings by supported palladium nanoparticles: importance of surface polarity of the carbon spheres, Green Chem. 14 (2012) 2513–2522, https://doi.org/10.1039/ C2GC16430B."
+    },
+    {
+      "n": 172,
+      "page": 33,
+      "raw": "[172] Y. Liu, X. Bai, Argon glow discharge plasma-reduced palladium nanoparticles supported on activated carbon for Suzuki and Heck coupling reactions, Appl. Organomet. Chem. 31 (2017) e3561."
+    },
+    {
+      "n": 173,
+      "page": 34,
+      "raw": "[173] A. Ghorbani-Choghamarani, B. Tahmasbi, N. Noori, S. Faryadi, Pd–Smethylisothiourea supported on magnetic nanoparticles as an efficient and reusable nanocatalyst for Heck and Suzuki reactions, Comptes Rendus Chim. 20 (2017) 132–139, https://doi.org/10.1016/j.crci.2016.06.010."
+    },
+    {
+      "n": 174,
+      "page": 34,
+      "raw": "[174] A. Naghipour, A. Fakhri, Heterogeneous Fe3O4@chitosan-Schiff base Pd nanocatalyst: Fabrication, characterization and application as highly efficient and magnetically-recoverable catalyst for Suzuki-Miyaura and Heck-Mizoroki C-C coupling reactions, Catal. Commun. 73 (2016) 39–45, https://doi.org/10.1016/j.catcom.2015.10.002."
+    },
+    {
+      "n": 175,
+      "page": 34,
+      "raw": "[175] B.S. Kumar, R. Anbarasan, A.J. Amali, K. Pitchumani, Isolable C@Fe3O4 nanospheres supported cubical Pd nanoparticles as reusable catalysts for Stille and Mizoroki-Heck coupling reactions, Tetrahedron Lett. 58 (2017) 3276–3282, https://doi.org/10.1016/j.tetlet.2017.07.025."
+    },
+    {
+      "n": 176,
+      "page": 34,
+      "raw": "[176] D. Ganapathy, G. Sekar, Palladium nanoparticles stabilized by metal–carbon covalent bond: An efficient and reusable nanocatalyst in cross-coupling reactions, Catal. Commun. 39 (2013) 50–54, https://doi.org/10.1016 j.catcom.2013.04.028."
+    },
+    {
+      "n": 177,
+      "page": 34,
+      "raw": "[177] A. Monopoli, A. Nacci, V. Calò, F. Ciminale, P. Cotugno, A. Mangone, L.C. Giannossa, P. Azzone, N. Cioffi, Palladium/Zirconium Oxide Nanocomposite as a Highly Recyclable Catalyst for C-C Coupling Reactions in Water, Molecules 15 (2010) 4511–4525, https://doi.org/10.3390/molecules 15074511."
+    },
+    {
+      "n": 178,
+      "page": 34,
+      "raw": "[178] S.C. Ray, ed., Front-matter, in: Appl. Graphene Graphene-Oxide Based Nanomater., William Andrew Publishing, Oxford, 2015: pp. i–iii. doi: 10.1016/B978-0-323-37521-4.00004-2."
+    },
+    {
+      "n": 179,
+      "page": 34,
+      "raw": "[179] K. Bahrami, H. Targhan, A new strategy to design a graphene oxide supported palladium complex as a new heterogeneous nanocatalyst and application in carbon–carbon and carbon-heteroatom cross-coupling reactions, Appl. Organomet. Chem. 33 (2019) e4842."
+    },
+    {
+      "n": 180,
+      "page": 34,
+      "raw": "[180] S. Parmanand, A. Kumari, A.K. Mittal, S.K.S. Krishna, Palladium Nanoparticles Immobilized on Schiff Base-Functionalized Graphene-Oxide: Application in Carbon-Carbon Cross-Coupling Reactions, ChemistrySelect. 4 (2019) 10828– 10837, https://doi.org/10.1002/slct.201902242."
+    },
+    {
+      "n": 181,
+      "page": 34,
+      "raw": "[181] M. Khan, M. Ashraf, M.R. Shaik, S.F. Adil, M.S. Islam, M. Kuniyil, M. Khan, M.R. Hatshan, R.H. Alshammari, M.R.H. Siddiqui, M.N. Tahir, Pyrene Functionalized Highly Reduced Graphene Oxide-palladium Nanocomposite: A Novel Catalyst for the Mizoroki-Heck Reaction in Water, Front. Chem. 10 (2022). https:// www.frontiersin.org/articles/10.3389/fchem.2022.872366(accessed August 8, 2022)."
+    },
+    {
+      "n": 182,
+      "page": 34,
+      "raw": "[182] D. Dong, Z. Li, D. Liu, N. Yu, H. Zhao, H. Chen, J. Liu, D. Liu, Postsynthetic modification of single Pd sites into uncoordinated polypyridine groups of a MOF as the highly efficient catalyst for Heck and Suzuki reactions, New J. Chem. 42 (2018) 9317–9323, https://doi.org/10.1039/C8NJ00518D."
+    },
+    {
+      "n": 183,
+      "page": 34,
+      "raw": "[183] R. Chinchilla, C. Nájera, The Sonogashira Reaction: A Booming Methodology in Synthetic Organic Chemistry, Chem. Rev. 107 (2007) 874–922, https://doi org/10.1021/cr050992x."
+    },
+    {
+      "n": 184,
+      "page": 34,
+      "raw": "[184] F. Mohjer, P. Mofatehnia, Y. Rangraz, M.M. Heravi, Pd-free, Sonogashira crosscoupling reaction. An update, J. Organomet. Chem. 936 (2021), https://doi org/10.1016/j.jorganchem.2021.121712."
+    },
+    {
+      "n": 185,
+      "page": 34,
+      "raw": "[185] A. Arora, S. Singh, P. Oswal, D. Nautiyal, G.K. Rao, S. Kumar, A. Kumar, Preformed molecular complexes of metals with organoselenium ligands: Syntheses and applications in catalysis, Coord. Chem. Rev. 438 (2021) https://doi.org/10.1016/j.ccr.2021.213885."
+    },
+    {
+      "n": 186,
+      "page": 34,
+      "raw": "[186] R. Chinchilla, C. Nájera, Chemicals from Alkynes with Palladium Catalysts, Chem. Rev. 114 (2014) 1783–1826, https://doi.org/10.1021/cr400133p."
+    },
+    {
+      "n": 187,
+      "page": 34,
+      "raw": "[187] H. Doucet, J.-C. Hierso, Palladium-Based Catalytic Systems for the Synthesis of Conjugated Enynes by Sonogashira Reactions and Related Alkynylations, Angew. Chem. Int. Ed. 46 (2007) 834–871, https://doi.org/10.1002 anie,200602761."
+    },
+    {
+      "n": 188,
+      "page": 34,
+      "raw": "[188] M. Korzec, P. Bartczak, A. Niemczyk, J. Szade, M. Kapkowski, P. Zenderowska, K. Balin, J. Lela˛tko, J. Polanski, Bimetallic nano-Pd/PdO/Cu system as a highly effective catalyst for the Sonogashira reaction, J. Catal. 313 (2014) 1–8, https://doi.org/10.1016/i.icat,2014.02.008"
+    },
+    {
+      "n": 189,
+      "page": 34,
+      "raw": "[189] P. Siemsen, R.C. Livingston, F. Diederich, Acetylenic Coupling: A Powerful Tool in Molecular Construction, Angew. Chem. Int. Ed. 39 (2000) 2632–2657, https://doi.org/10.1002/1521-3773(20000804)39:15 3.0.CO:2-F"
+    },
+    {
+      "n": 190,
+      "page": 34,
+      "raw": "[190] D. Astruc, K. Heuzé, S. Gatard, D. Méry, S. Nlate, L. Plault, Metallodendritic Catalysis for Redox and CarbonCarbon Bond Formation Reactions: A Step towards Green Chemistry, Ady, Synth, Catal, 347 (2005) 329–338, https://doi. org/10.1002/adsc,200404247"
+    },
+    {
+      "n": 191,
+      "page": 34,
+      "raw": "[191] D. Astruc, Palladium Nanoparticles as Efficient Green Homogeneous and Heterogeneous Carbon Carbon Coupling Precatalysts: A Unifying View, Inorg. Chem. 46 (2007) 1884–1894, https://doi.org/10.1021/ic062183h."
+    },
+    {
+      "n": 192,
+      "page": 34,
+      "raw": "[192] A.K. Diallo, C. Ornelas, L. Salmon, I. Ruiz Aranzaes, D. Astruc, “Homeopathic' Catalytic Activity and Atom-Leaching Mechanism in Mivaura-Suzuki Reactions under Ambient Conditions with Precise Dendrimer-Stabilized Pd Nanoparticles, Angew. Chem. 119 (2007) 8798–8802, https://doi.org 10.1002/ange 200703067"
+    },
+    {
+      "n": 193,
+      "page": 34,
+      "raw": "[193] M.T. Reetz, G. Lohmer, Propylene carbonate stabilized nanostructured palladium clusters as catalysts in Heck reactions, Chem. Commun. (1996) 1921–1922, https://doi.org/10.1039/CC9960001921."
+    },
+    {
+      "n": 194,
+      "page": 34,
+      "raw": "[194] J.G. de Vries, A unifying mechanism for all high-temperature Heck reactions. The role of palladium colloids and anionic species, Dalton Trans. (2006) 421– 429, https://doi.org/10.1039/B506276B."
+    },
+    {
+      "n": 195,
+      "page": 34,
+      "raw": "[195] C. Deraedt, D. Astruc, ‘‘Homeopathic” Palladium Nanoparticle Catalysis of Cross Carbon-Carbon Coupling Reactions, Acc. Chem. Res. 47 (2014) 494–503, https://doi.org/10.1021/ar400168s."
+    },
+    {
+      "n": 196,
+      "page": 34,
+      "raw": "[196] A. Alimardanov, L. Schmieder-van de Vondervoort, A.H.M. de Vries, J.G. de Vries, Use of ‘‘Homeopathic” Ligand-Free Palladium as Catalyst for Aryl-Aryl Coupling Reactions, Adv. Synth. Catal. 346 (2004) 1812–1817, https://doi.org 10.1002/adsc.200404210."
+    },
+    {
+      "n": 197,
+      "page": 34,
+      "raw": "[197] R. Taheri-Ledari, A. Maleki, E. Zolfaghari, M. Radmanesh, H. Rabbani, A. Salimi, R. Fazel, High-performance sono/nano-catalytic system: Fe3O4@Pd CaCO3-DTT core/shell nanostructures, a suitable alternative for traditional reducing agents for antibodies, Ultrason. Sonochem. 61 (2020), https://doi. org/10.1016/j.ultsonch.2019.104824."
+    },
+    {
+      "n": 198,
+      "page": 34,
+      "raw": "[198] W. Zhang, H. Veisi, R. Sharifi, D. Salamat, B. Karmakar, M. Hekmati, S. Hemmati, M.M. Zangeneh, Z. Zhang, Q. Su, Fabrication of Pd NPs on pectinmodified Fe3O4 NPs: A magnetically retrievable nanocatalyst for efficient C-C and C–N cross coupling reactions and an investigation of its cardiovascular protective effects, Int. J. Biol. Macromol. 160 (2020) 1252–1262, https://doi. org/10.1016/j.ijb"
+    },
+    {
+      "n": 199,
+      "page": 34,
+      "raw": "[199] D. Wang, D. Denux, J. Ruiz, D. Astruc, The Clicked Pyridyl-Triazole Ligand: From Homogeneous to Robust, Recyclable Heterogeneous Mono- and Polymetallic Palladium Catalysts for Efficient Suzuki-Miyaura, Sonogashira, and Heck Reactions, Adv. Synth. Catal. 355 (2013) 129–142, https://doi.org 10.1002/adsc.201200619."
+    },
+    {
+      "n": 200,
+      "page": 34,
+      "raw": "[200] R. Narayanan, M.A. El-Sayed, Effect of colloidal nanocatalysis on the metallic nanoparticle shape: the suzuki reaction, Langmuir. 21 (2005) 2027–2033, https://doi.org/10.1021/la047600m"
+    },
+    {
+      "n": 201,
+      "page": 34,
+      "raw": "[201] L.M. Rossi, J.L. Fiorio, M.A.S. Garcia, C.P. Ferraz, The role and fate of capping ligands in colloidally prepared metal nanoparticle catalysts, Dalton Trans. 47 (2018) 5889–5915, https://doi.org/10.1039/c7dt04728b."
+    },
+    {
+      "n": 202,
+      "page": 34,
+      "raw": "[202] S. Kim, G. Varga, M. Seo, A. Sápi, V. Rácz, J.F. Gómez-Pérez, D. Sebok, J. Lee, Á. Kukovecz, Z. Kónya, Nesting Well-Defined Pt Nanoparticles within a Hierarchically Porous Polymer as a Heterogeneous Suzuki-Miyaura Catalyst, ACS Appl. Nano Mater. 4 (2021) 4070–4076, https://doi.org/10.1021/ acsanm.1c00396."
+    },
+    {
+      "n": 203,
+      "page": 34,
+      "raw": "[203] M. Seo, M.A. Hillmyer, Reticulated Nanoporous Polymers by Controlled Polymerization-Induced Microphase Separation, Science 336 (2012) 1422– 1425, https://doi.org/10.1126/science.1221383."
+    },
+    {
+      "n": 204,
+      "page": 34,
+      "raw": "[204] T. Baran. T. Inanan. A. Mentes, Synthesis, characterization, and catalytic activity in Suzuki coupling and catalase-like reactions of new chitosan supported Pd catalyst, Carbohydr. Polym. 145 (2016) 20–29, https://doi.org 10.1016/j.carbpol.2016.03.019."
+    },
+    {
+      "n": 205,
+      "page": 34,
+      "raw": "[205] E. Fernández, M.A. Rivero-Crespo, I. Domínguez, P. Rubio-Marqués, J. Oliver-Meseguer, L. Liu, M. Cabrero-Antonino, R. Gavara, J.C. Hernández-Garrido, M. Boronat, A. Leyva-Pérez, A. Corma, Base-Controlled Heck, Suzuki, and Sonogashira Reactions Catalyzed by Ligand-Free Platinum or Palladium Single Atom and Sub-Nanometer Clusters, J. Am. Chem. Soc. 141 (2019) 1928–1940, https://doi.org/10.1021"
+    },
+    {
+      "n": 206,
+      "page": 34,
+      "raw": "[206] A.S. Teja, P.-Y. Koh, Synthesis, properties, and applications of magnetic iron oxide nanoparticles, Prog. Cryst. Growth Charact. Mater. 55 (2009) 22–45, https://doi.org/10.1016/j.pcrysgrow.2008.08.003."
+    },
+    {
+      "n": 207,
+      "page": 34,
+      "raw": "[207] G. Yan, Y. Jiang, C. Kuang, S. Wang, H. Liu, Y. Zhang, J. Wang, Nano-Fe2O3- catalyzed direct borylation of arenes, Chem. Commun. 46 (2010) 3170–3172, https://doi.org/10.1039/B926945B."
+    },
+    {
+      "n": 208,
+      "page": 34,
+      "raw": "[208] A. Welther, A.J. von Wangelin, Iron(0) Nanoparticle Catalysts in Organic Synthesis, Curr. Org. Chem. 17 (n.d.) 326–335."
+    },
+    {
+      "n": 209,
+      "page": 34,
+      "raw": "[209] M.B. Gawande, P.S. Branco, R.S. Varma, Nano-magnetite (Fe3O4) as a support for recyclable catalysts in the development of sustainable methodologies, Chem. Soc. Rev. 42 (2013) 3371–3393, https://doi.org/10.1039/C3CS35480F."
+    },
+    {
+      "n": 210,
+      "page": 34,
+      "raw": "[210] F. Rajabi, N. Karimi, M.R. Saidi, A. Primo, R.S. Varma, R. Luque, Unprecedented Selective Oxidation of Styrene Derivatives using a Supported Iron Oxide Nanocatalyst in Aqueous Medium, Adv. Synth. Catal. 354 (2012) 1707–1711, https://doi.org/10.1002/adsc.201100630."
+    },
+    {
+      "n": 211,
+      "page": 34,
+      "raw": "[211] N. Anand, K.H.P. Reddy, T. Satyanarayana, K.S.R. Rao, D.R. Burri, A magnetically recoverable c-Fe2O3 nanocatalyst for the synthesis of 2- phenylquinazolines under solvent-free conditions, Catal, Sci. Technol. 2 (2012) 570–574 https://doi,org/10.1039/C1CY00341K"
+    },
+    {
+      "n": 212,
+      "page": 34,
+      "raw": "[212] T. Akiyama, Y. Wada, M. Yamada, Y. Shio, T. Honma, S. Shimoda, K. Tsuruta, Y. Tamenori, H. Haneoka, T. Suzuki, K. Harada, H. Tsurugi, K. Mashima, J. Hasegawa, Y. Sato, M. Arisawa, Self-Assembled Multilayer Iron(0) Nanoparticle Catalyst for Ligand-Free Carbon-Carbon/Carbon-Nitrogen Bond-Forming Reactions, Org. Lett. 22 (2020) 7244–7249, https://doi.org 10.1021/acs.orglett.0c02574."
+    },
+    {
+      "n": 213,
+      "page": 34,
+      "raw": "[213] K. Riener, S. Haslinger, A. Raba, M.P. Högerl, M. Cokoja, W.A. Herrmann, F.E. Kühn, Chemistry of Iron N-Heterocyclic Carbene Complexes: Syntheses, Structures, Reactivities, and Catalytic Applications, Chem, Rey, 114 (2014) 5215-5272, https://doi.org/10.1021/cr4006439."
+    },
+    {
+      "n": 214,
+      "page": 34,
+      "raw": "[214] V.S. Coker, J.A. Bennett, N.D. Telling, T. Henkel, J.M. Charnock, G. van der Laan, R.A.D. Pattrick, C.I. Pearce, R.S. Cutting, I.J. Shannon, J. Wood, E. Arenholz, I.C Lyon, J.R. Lloyd, Microbial Engineering of Nanoheterostructures: Biological Synthesis of a Magnetically Recoverable Palladium Nanocatalyst, ACS Nano. 4 (2010) 2577–2584, https://doi.org/10.1021/nn9017944."
+    },
+    {
+      "n": 215,
+      "page": 34,
+      "raw": "[215] B. Plietker, ed., Iron Catalysis: Fundamentals and Applications, Springer-Verlag, Berlin Heidelberg, 2011. https://doi.org/10.1007/978-3-642-14670-1."
+    },
+    {
+      "n": 216,
+      "page": 34,
+      "raw": "[216] C. Bolm, A new iron age, Nat. Chem. 1 (2009) 420, https://doi.org/10.1038 nchem.315."
+    },
+    {
+      "n": 217,
+      "page": 35,
+      "raw": "[217] S.L. Buchwald, C. Bolm, On the Role of Metal Contaminants in Catalyses with FeCl3, Angew. Chem. 121 (2009) 5694–5695, https://doi.org/10.1002 ange.200902237."
+    },
+    {
+      "n": 218,
+      "page": 35,
+      "raw": "[218] J.E. Hein, V.V. Fokin, Copper-catalyzed azide–alkyne cycloaddition (CuAAC) and beyond: new reactivity of copper(I) acetylides, Chem. Soc. Rev. 39 (2010) 1302–1315, https://doi.org/10.1039/B904091A."
+    },
+    {
+      "n": 219,
+      "page": 35,
+      "raw": "[219] R.K. Sharma, S. Dutta, S. Sharma, Quinoline-2-carboimine copper complex immobilized on amine functionalized silica coated magnetite nanoparticles: a novel and magnetically retrievable catalyst for the synthesis of carbamates via C-H activation of formamides, Dalton Trans. 44 (2014) 1303–1316, https://doi.org/10.1039/C4DT03236E."
+    },
+    {
+      "n": 220,
+      "page": 35,
+      "raw": "[220] T. Hatakeyama, N. Nakagawa, M. Nakamura, Iron-Catalyzed Negishi Coupling Toward an Effective Olefin Synthesis, Org. Lett. 11 (2009) 4496–4499, https:/ doi.org/10.1021/ol901555r."
+    },
+    {
+      "n": 221,
+      "page": 35,
+      "raw": "[221] T. Hashimoto, T. Hatakeyama, M. Nakamura, Stereospecific Cross-Coupling between Alkenylboronates and Alkyl Halides Catalyzed by Iron-Bisphosphine Complexes, J. Org. Chem. 77 (2012) 1168–1173, https://doi.org/10.1021/ jo202151f."
+    },
+    {
+      "n": 222,
+      "page": 35,
+      "raw": "[222] T. Hatakeyama, T. Hashimoto, K.K.A.D.S. Kathriarachchi, T. Zenmyo, H. Seike, M. Nakamura, Iron-Catalyzed Alkyl-Alkyl Suzuki–Miyaura Coupling, Angew. Chem. Int. Ed. 51 (2012) 8834–8837, https://doi.org/10.1002 anie.201202797."
+    },
+    {
+      "n": 223,
+      "page": 35,
+      "raw": "[223] X. Zhou, X. Guo, F. Jian, G. Wei, Highly Efficient Method for Suzuki Reactions in Aqueous Media, ACS Omega 3 (2018) 4418–4422, https://doi.org/10.1021 acsomega.8b00469."
+    },
+    {
+      "n": 224,
+      "page": 35,
+      "raw": "[224] S. Zhou, M. Johnson, J.G.C. Veinot, Iron / iron oxide nanoparticles: a versatile support for catalytic metals and their application in Suzuki-Miyaura crosscoupling reactions, Chem. Commun. 46 (2010) 2411–2413, https://doi.org 10.1039/B922462A."
+    },
+    {
+      "n": 225,
+      "page": 35,
+      "raw": "[225] A. Marandi, N. Koukabi, Fe3O4@TEA core-shell nanoparticles decorated palladium: A highly active and magnetically separable nanocatalyst for the Heck coupling reaction, Colloids Surf. Physicochem. Eng. Asp. 621 (2021) https://doi.org/10.1016/j.colsurfa.2021.126597."
+    },
+    {
+      "n": 226,
+      "page": 35,
+      "raw": "[226] L. Fu, Q. Chen, Y. Nishihara, Recent Advances in Transition-metal-catalyzed C C Bond Formation via C(sp2) F Bond Cleavage, Chem. Rec. 21 (2021) 3394–3410, https://doi.org/10.1002/tcr.202100053."
+    },
+    {
+      "n": 227,
+      "page": 35,
+      "raw": "[227] A. Ghorbani-Choghamarani, Z. Taherinia, New Revolution in Biaryl Synthesis: Transition Metal-Free C-C Bond Formation Promoted by the Mixture of 2- Mercaptoethanol/KOH/DMSO, ChemistrySelect. 4 (2019) 4735–4738, https:// doi.org/10.1002/slct.201900801."
+    },
+    {
+      "n": 228,
+      "page": 35,
+      "raw": "[228] F. Benaskar, N.G. Patil, E.V. Rebrov, A. Ben-Abdelmoumen, J. Meuldijk, L.A. Hulshof, V. Hessel, J.C. Schouten, Micro/Milliflow Processing with Selective Catalyst Microwave Heating in the Cu-Catalyzed Ullmann Etherification Reaction: A l2-Process, ChemSusChem. 6 (2013) 353–366, https://doi.org 10.1002/cssc.201200504."
+    },
+    {
+      "n": 229,
+      "page": 35,
+      "raw": "[229] S.B. Bagherzadeh, M. Haghighi, Plasma-enhanced comparative hydrothermal and coprecipitation preparation of CuO/ZnO/Al2O3 nanocatalyst used in hydrogen production via methanol steam reforming, Energy Convers. Manag. 142 (2017) 452–465, https://doi.org/10.1016/j.enconman. 2017.03.069."
+    },
+    {
+      "n": 230,
+      "page": 35,
+      "raw": "[230] S. Allahyari, M. Haghighi, A. Ebadi, S. Hosseinzadeh, Ultrasound assisted coprecipitation of nanostructured CuO-ZnO-Al 2O3 over HZSM-5: Effect of precursor and irradiation power on nanocatalyst properties and catalytic performance for direct syngas to DME, Ultrason. Sonochem. 21 (2014) 663– 673, https://doi.org/10.1016/j.ultsonch.2013.09.014."
+    },
+    {
+      "n": 231,
+      "page": 35,
+      "raw": "[231] J. Baneshi, M. Haghighi, N. Jodeiri, M. Abdollahifar, H. Ajamein, Homogeneous precipitation synthesis of CuO-ZrO2-CeO 2-Al2O3 nanocatalyst used in hydrogen production via methanol steam reforming for fuel cell applications, Energy Convers. Manag. 87 (2014) 928–937, https://doi.org/ 10.1016/j.enconman.2014.07.058."
+    },
+    {
+      "n": 232,
+      "page": 35,
+      "raw": "[232] S. Danwittayakul, J. Dutta, Two step copper impregnated zinc oxide microball synthesis for the reduction of activation energy of methanol steam reformation, Chem. Eng. J. 223 (2013) 304–308, https://doi.org/10.1016/j. cej.2013.03.029."
+    },
+    {
+      "n": 233,
+      "page": 35,
+      "raw": "[233] G. Ranjani, R. Nagarajan, Insight into Copper Catalysis. In Situ Formed Nano Cu2O in Suzuki-Miyaura Cross-Coupling of Aryl/Indolyl Boronates, Org. Lett. 19 (2017) 3974–3977. https://doi.org/10.1021/acs.orglett.7b01669."
+    },
+    {
+      "n": 234,
+      "page": 35,
+      "raw": "[234] H. Ajamein, M. Haghighi, R. Shokrani, M. Abdollahifar, On the solution combustion synthesis of copper based nanocatalysts for steam methanol reforming: Effect of precursor, ultrasound irradiation and urea/nitrate ratio, J. Mol. Catal. Chem. 421 (2016) 222–234, https://doi.org/10.1016/ j.molcata.2016.05.028."
+    },
+    {
+      "n": 235,
+      "page": 35,
+      "raw": "[235] K. Lamei, H. Eshghi, M. Bakavoli, S.A. Rounaghi, E. Esmaeili, Carbon coated copper nanostructures as a green and ligand free nanocatalyst for Suzuki cross-coupling reaction, Catal. Commun, 92 (2017) 40–45, https://doi,org 10.1016/j.catcom.2016.12.028."
+    },
+    {
+      "n": 236,
+      "page": 35,
+      "raw": "[236] M.E. Shabestari, O. Martín, D. Díaz-García, S. Gómez-Ruiz, V.J. Gonzalez, J. Baselga, Facile and rapid decoration of graphene oxide with copper double salt, oxides and metallic copper as catalysts in oxidation and coupling reactions, Carbon. 161 (2020) 7–16, https://doi.org/10.1016 i carbon 2020 01.015"
+    },
+    {
+      "n": 237,
+      "page": 35,
+      "raw": "[237] P. Puthiaraj, P. Suresh, K. Pitchumani, Aerobic homocoupling of arylboronic acids catalysed by copper terephthalate metal–organic frameworks, Green Chem. 16 (2014) 2865–2875, https://doi.org/10.1039/C4GC00056K."
+    },
+    {
+      "n": 238,
+      "page": 35,
+      "raw": "[238] B. Wang, Y. Wang, X. Guo, Z. Jiao, G. Jin, X. Guo, Reduced graphene oxide supported Cu2O nanoparticles as an efficient catalyst for Sonogashira"
+    },
+    {
+      "n": null,
+      "page": 35,
+      "raw": "coupling reaction, Catal. Commun. 101 (2017) 36–39, https://doi.org 10.1016/j.catcom.2017.07.020."
+    },
+    {
+      "n": 239,
+      "page": 35,
+      "raw": "[239] Y. Yuan, H. Zhu, D. Zhao, L. Zhang, Ligand-free copper oxide nanoparticlecatalyzed sonogashira coupling reaction, Synthesis. 2011 (2011) 1792–1798, https://doi.org/10.1055/s-0030-1260023."
+    },
+    {
+      "n": 240,
+      "page": 35,
+      "raw": "[240] M.B. Thathagar, J. Beckers, G. Rothenberg, Palladium-free and ligand-free Sonogashira cross-coupling, Green Chem. 6 (2004) 215–218, https://doi.org 10.1039/B401586J."
+    },
+    {
+      "n": 241,
+      "page": 35,
+      "raw": "[241] B.C. Ranu, R. Dey, T. Chatterjee, S. Ahammed, Copper nanoparticle-catalyzed carbon-carbon and carbon-heteroatom bond formation with a greener perspective, ChemSusChem. 5 (2012) 22–44, https://doi.org/10.1002 cssc.201100348."
+    },
+    {
+      "n": 242,
+      "page": 35,
+      "raw": "[242] S. Kim, S. Wook Kang, A. Kim, M. Yusuf, J. Chan Park, K. Hyun Park, A highly efficient nano-sized Cu 2 O/SiO 2 egg-shell catalyst for C-C coupling reactions, RSC Adv. 8 (2018) 6200–6205, https://doi.org/10.1039 C7RA13490H."
+    },
+    {
+      "n": 243,
+      "page": 35,
+      "raw": "[243] P. Rani, R. Srivastava, Cu(I) metal organic framework catalyzed C-C and C–N coupling reactions, Tetrahedron Lett. 55 (2014) 5256–5260, https://doi.org/ 10.1016/j.tetlet.2014.07.118."
+    },
+    {
+      "n": 244,
+      "page": 35,
+      "raw": "[244] M. Livendahl, P. Espinet, A.M. Echavarren, Final Analysis: Is Gold a Catalyst in Cross-Coupling Reactions in the Absence of Palladium?, Platin Met. Rev. 55 (2011) 212–214, https://doi.org/10.1595/147106711X579128."
+    },
+    {
+      "n": 245,
+      "page": 35,
+      "raw": "[245] P. Mondal, N. Salam, A. Mondal, K. Ghosh, K. Tuhina, M. Sk, Islam, A highly active recyclable gold–graphene nanocomposite material for oxidative esterification and Suzuki cross-coupling reactions in green pathway, J. Colloid Interface Sci. 459 (2015) 97–106, https://doi.org/10.1016/j. icis,2015.07.072."
+    },
+    {
+      "n": 246,
+      "page": 35,
+      "raw": "[246] A.S.K. Hashmi, L. Schwarz, J.-H. Choi, T.M. Frost, A New Gold-Catalyzed C C Bond Formation, Angew. Chem. Int. Ed. 39 (2000) 2285–2288, https://doi.org/ 10.1002/1521-3773(20000703)39:13 3.0.CO;2-F."
+    },
+    {
+      "n": 247,
+      "page": 35,
+      "raw": "[247] S. Chairam, W. Konkamdee, R. Parakhun, Starch-supported gold nanoparticles and their use in 4-nitrophenol reduction Starch-supported gold nanoparticles in 4-nitrophenol reduction, J. Saudi Chem. Soc. 21 (2017) 656–663, https:// doi.org/10.1016/j.jscs.2015.11.001."
+    },
+    {
+      "n": 248,
+      "page": 35,
+      "raw": "[248] A. Shajkumar, B. Nandan, S. Sanwaria, V. Albrecht, M. Libera, M.H. Lee, G. Auffermann, M. Stamm, A. Horechyy, Silica-supported Au@hollow-SiO2 particles with outstanding catalytic activity prepared via block copolymer template approach, J. Colloid Interface Sci. 491 (2017) 246–254, https://doi. org/10.1016/j.jcis.2016.12.051."
+    },
+    {
+      "n": 249,
+      "page": 35,
+      "raw": "[249] P. Sudarsanam, B. Mallesham, A. Rangaswamy, B.G. Rao, S.K. Bhargava, B.M. Reddy, Promising nanostructured gold/metal oxide catalysts for oxidative coupling of benzylamines under eco-friendly conditions, J. Mol. Catal. Chem. 412 (2016) 47–55, https://doi.org/10.1016/j.molcata.2015.11.019."
+    },
+    {
+      "n": 250,
+      "page": 35,
+      "raw": "[250] D. Shah, H. Kaur, Resin-trapped gold nanoparticles: An efficient catalyst for reduction of nitro compounds and Suzuki-Miyaura coupling, J. Mol. Catal. Chem. 381 (2014) 70–76, https://doi.org/10.1016/j.molcata.2013.10.004."
+    },
+    {
+      "n": 251,
+      "page": 35,
+      "raw": "[251] A. Abad, P. Concepción, A. Corma, H. García, A Collaborative Effect between Gold and a Support Induces the Selective Oxidation of Alcohols, Angew. Chem. Int. Ed. 44 (2005) 4066–4069, https://doi.org/10.1002/ anie.200500382."
+    },
+    {
+      "n": 252,
+      "page": 35,
+      "raw": "[252] J. Han, Y. Liu, R. Guo, Facile Synthesis of Highly Stable Gold Nanoparticles and Their Unexpected Excellent Catalytic Activity for Suzuki Miyaura Cross-Coupling Reaction in Water, J. Am. Chem. Soc. 131 (2009) 2060–2061, https:// doi.org/10.1021/ia808935n"
+    },
+    {
+      "n": 253,
+      "page": 35,
+      "raw": "[253] I.W. Davies, L. Matty, D.L. Hughes, P.J. Reider, Are Heterogeneous Catalysts Precursors to Homogeneous Catalysts?, J Am. Chem. Soc. 123 (2001) 10139– 10140, https://doi.org/10.1021/ja016877v."
+    },
+    {
+      "n": 254,
+      "page": 35,
+      "raw": "[254] S. Sasmal, M. Debnath, S. Kumar Nandi, D. Haldar, A urea-modified tryptophan based in situ reducing and stabilizing agent for the fabrication of gold nanoparticles as a Suzuki-Miyaura cross-coupling catalyst in water, Nanoscale Adv. 1 (2019) 1380–1386, https://doi.org/10.1039/C8NA00273H."
+    },
+    {
+      "n": 255,
+      "page": 35,
+      "raw": "[255] G. Li, R. Jin, Catalysis by gold nanoparticles: carbon-carbon coupling reactions, Nanotechnol. Rev. 2 (2013) 529–545, https://doi.org/10.1515 ntrev-2013-0020"
+    },
+    {
+      "n": 256,
+      "page": 35,
+      "raw": "[256] E. Kang, H.H. Shin, D.-K. Lim, Interface-Controlled Pd Nanodot-Au Nanoparticle Colloids for Efficient Visible-Light-Induced Photocatalytic Suzuki-Miyaura Coupling Reaction, Catalysts 8 (2018) 463, https://doi.org 10.3390/catal8100463."
+    },
+    {
+      "n": 257,
+      "page": 35,
+      "raw": "[257] A.G. Sergeev, A. Spannenberg, M. Beller, Palladium-Catalyzed Formylation of Aryl Bromides: Elucidation of the Catalytic Cycle of an Industrially Applied Coupling Reaction, J. Am. Chem. Soc. 130 (2008) 15549–15563, https://doi. org/10.1021/ia804997z"
+    },
+    {
+      "n": 258,
+      "page": 35,
+      "raw": "[258] M.A. Malik, Z. Khan, Submicellar catalytic effect of cetyltrimethylammonium bromide in the oxidation of ethylenediaminetetraacetic acid by MnO4, Colloids Surf. B Biointerfaces 64 (2008) 42-48. https://doi,org/10.1016/ i.colsurfb.2008.01.003."
+    },
+    {
+      "n": 259,
+      "page": 35,
+      "raw": "[259] D. Domyati, R. Latifi, L. Tahsini, Sonogashira-type cross-coupling reactions catalyzed by copper complexes of pincer N-heterocyclic carbenes, J. Organomet. Chem. 860 (2018) 98–105, https://doi.org/10.1016/j. jorganchem.2018.02.028."
+    },
+    {
+      "n": 260,
+      "page": 35,
+      "raw": "[260] A. Corma, R. Juárez, M. Boronat, F. Sánchez, M. Iglesias, H. García, Gold catalyzes the Sonogashira coupling reaction without the requirement of palladium impurities, Chem. Commun. 47 (2011) 1446–1448, https://doi.org 10.1039/C0CC04564K."
+    },
+    {
+      "n": 261,
+      "page": 35,
+      "raw": "[261] C. González-Arellano, A. Abad, A. Corma, H. García, M. Iglesias, F. Sánchez, Catalysis by Gold(I) and Gold(III): A Parallelism between Homo- and"
+    },
+    {
+      "n": null,
+      "page": 36,
+      "raw": "Heterogeneous Catalysts for Copper-Free Sonogashira Cross-Coupling Reactions, Angew. Chem. Int. Ed. 46 (2007) 1536–1538, https://doi.org 10.1002/anie.200604746."
+    },
+    {
+      "n": 262,
+      "page": 36,
+      "raw": "[262] G. Kyriakou, S.K. Beaumont, S.M. Humphrey, C. Antonetti, R.M. Lambert, Sonogashira Coupling Catalyzed by Gold Nanoparticles: Does Homogeneous or Heterogeneous Catalysis Dominate?, ChemCatChem 2 (2010) 1444–1449, https://doi.org/10.1002/cctc.201000154."
+    },
+    {
+      "n": 263,
+      "page": 36,
+      "raw": "[263] A. Leyva-Pérez, A. Doménech, S.I. Al-Resayes, A. Corma, Gold Redox Catalytic Cycles for the Oxidative Coupling of Alkynes, ACS Catal. 2 (2012) 121–126, https://doi.org/10.1021/cs200532c."
+    },
+    {
+      "n": 264,
+      "page": 36,
+      "raw": "[264] H. Tsunoyama, H. Sakurai, N. Ichikuni, Y. Negishi, T. Tsukuda, Colloidal Gold Nanoparticles as Catalyst for Carbon Carbon Bond Formation: Application to Aerobic Homocoupling of Phenylboronic Acid in Water, Langmuir 20 (2004) 11293–11296, https://doi.org/10.1021/la0478189."
+    },
+    {
+      "n": 265,
+      "page": 36,
+      "raw": "[265] Y. Liu, J.-P. Wan, Advances in Copper-Catalyzed CC Coupling Reactions and Related Domino Reactions Based on Active Methylene Compounds, Chem. – Asian J. 7 (2012) 1488–1501, https://doi.org/10.1002/asia.201101063."
+    },
+    {
+      "n": 266,
+      "page": 36,
+      "raw": "[266] M. Palashuddin Sk, C.K. Jana, A. Chattopadhyay, A gold-carbon nanoparticle composite as an efficient catalyst for homocoupling reaction, Chem. Commun. Camb. Engl. 49 (2013) 8235–8237, https://doi.org/10.1039 c3cc43726d."
+    },
+    {
+      "n": 267,
+      "page": 36,
+      "raw": "[267] S.K. Beaumont, G. Kyriakou, R.M. Lambert, Identity of the Active Site in Gold Nanoparticle-Catalyzed Sonogashira Coupling of Phenylacetylene and Iodobenzene, J. Am. Chem. Soc. 132 (2010) 12246–12248, https://doi.org 10.1021/ja1063179."
+    },
+    {
+      "n": 268,
+      "page": 36,
+      "raw": "[268] S. Sisodiya, L.R. Wallenberg, E. Lewin, O.F. Wendt, Sonogashira coupling reaction over supported gold nanoparticles: Influence of support and catalyst synthesis route, Appl. Catal. Gen. 503 (2015) 69–76, https://doi.org/10.1016/ j.apcata.2015.07.001."
+    },
+    {
+      "n": 269,
+      "page": 36,
+      "raw": "[269] L. Delannoy, N. El Hassan, A. Musi, N.N. Le To, J.-M. Krafft, C. Louis, Preparation of Supported Gold Nanoparticles by a Modified Incipient Wetness Impregnation Method, J. Phys. Chem. B 110 (2006) 22471–22478, https://doi.org/10.1021/jp062130l."
+    },
+    {
+      "n": 270,
+      "page": 36,
+      "raw": "[270] R.J. White, R. Luque, V.L. Budarin, J.H. Clark, D.J. Macquarrie, Supported metal nanoparticles on porous materials. Methods and applications, Chem. Soc. Rev. 38 (2009) 481–494, https://doi.org/10.1039/B802654H."
+    },
+    {
+      "n": 271,
+      "page": 36,
+      "raw": "[271] A.P. Budnyk, A. Damin, G. Agostini, A. Zecchina, Gold Nanoparticle Aggregates Immobilized on High Surface Area Silica Substrate for Éfficient and Clean SERS Applications, J. Phys. Chem. C 114 (2010) 3857–3862, https://doi.org 10.1021/jp9112816."
+    },
+    {
+      "n": 272,
+      "page": 36,
+      "raw": "[272] P. Munnik, P.E. de Jongh, K.P. de Jong, Recent Developments in the Synthesi of Supported Catalysts, Chem. Rev. 115 (2015) 6687–6718, https://doi.org 10.1021/cr500486u."
+    },
+    {
+      "n": 273,
+      "page": 36,
+      "raw": "[273] Y. Chen, L. Feng, Silver nanoparticles doped TiO2 catalyzed Suzuki-coupling of bromoaryl with phenylboronic acid under visible light, J. Photochem. Photobiol. B. 205 (2020), https://doi.org/10.1016/j.jphotobiol.2020.111807."
+    },
+    {
+      "n": 274,
+      "page": 36,
+      "raw": "[274] X.-Y. Dong, Z.-W. Gao, K.-F. Yang, W.-Q. Zhang, L.-W. Xu, Nanosilver as a new generation of silver catalysts in organic transformations for efficient synthesis of fine chemicals, Catal, Sci. Technol. 5 (2015) 2554–2574, https://doi.org/10.1039/C5CY00285K."
+    },
+    {
+      "n": 275,
+      "page": 36,
+      "raw": "[275] R. Bayan, N. Karak, Photo-Assisted Synthesis of a Pd-Ag@CQD Nanohybrid and Its Catalytic Efficiency in Promoting the Suzuki-Miyaura Cross-Coupling Reaction under Ligand-Free and Ambient Conditions, ACS Omega 2 (2017) 8868-8876 https://doi.org/10.1021/acsomega.7b01504"
+    },
+    {
+      "n": 276,
+      "page": 36,
+      "raw": "[276] T. Mitsudome, M. Matoba, T. Mizugaki, K. Jitsukawa, K. Kaneda, Core-shell AgNP@CeO2 nanocomposite catalyst for highly chemoselective reductions of unsaturated aldehydes, Chem. Weinh. Bergstr. Ger. 19 (2013) 5255–5258, https://doi.org/10.1002/chem.201204160."
+    },
+    {
+      "n": 277,
+      "page": 36,
+      "raw": "[277] T. Mitsudome, Y. Mikami, M. Matoba, T. Mizugaki, K. Jitsukawa, K. Kaneda, Design of a Silver-Cerium Dioxide Core-Shell Nanocomposite Catalyst for Chemoselective Reduction Reactions, Angew. Chem. Int. Ed. 51 (2012) 136– 139, https://doi.org/10.1002/anie.201106244."
+    },
+    {
+      "n": 278,
+      "page": 36,
+      "raw": "[278] S. Gorji, R. Ghorbani-Vaghei, Ag nanoparticles stabilized on basalt fibers as a novel, stable, and reusable catalyst for Suzuki-Miyaura coupling reactions, Appl, Organomet, Chem, 35 (2021) e6018."
+    },
+    {
+      "n": 279,
+      "page": 36,
+      "raw": "[279] L. Capdevila, E. Andris, A. Briš, M. Tarrés, S. Roldán-Gómez, J. Roithová, X. Ribas, Silver(I)-Catalyzed C-X, C–C, C–N, and C–O Cross-Couplings Using Aminoguinoline Directing Group via Elusive Aryl-Ag(III) Species, ACS Catal, 8 (2018) 10430–10436, https://doi.org/10.1021/acscatal.8b03257."
+    },
+    {
+      "n": null,
+      "page": 36,
+      "raw": "[280l D.B. Bankar R.R. Hawaldar S.S. Arbui S.T. Shinde LR. Gadde D.S. Rakshe D.P Amalnerkar, K.G. Kanade, Palladium loaded on ZnO nanoparticles: Synthesis, characterization and application as heterogeneous catalyst for Suzuki-Miyaura cross-coupling reactions under ambient and ligand-free conditions, Mater. Chem. Phys. 243 (2020), https://doi.org/10.1016 j.matchemphys.2019.122561."
+    },
+    {
+      "n": 281,
+      "page": 36,
+      "raw": "[281] A.S. Singh. U.B. Patil. I.M. Nagarkar, Palladium supported on zinc ferrite: A highly active, magnetically separable catalyst for ligand free Suzuki and Heck coupling, Catal. Commun. 35 (2013) 11–16, https://doi.org/10.1016/ i catcom 2013.02.003"
+    },
+    {
+      "n": 282,
+      "page": 36,
+      "raw": "[282] F. Nouri, S. Rostamizadeh, M. Azad, Synthesis of a novel ZnO nanoplates supported hydrazone-based palladacycle as an effective and recyclable heterogeneous catalyst for the Mizoroki-Heck cross-coupling reaction, Inorganica Chim. Acta 471 (2018) 664–673, https://doi.org/10.1016/j. ica.2017.11.060."
+    },
+    {
+      "n": 283,
+      "page": 36,
+      "raw": "[283] K. Keerthi Krishnan, S. Saranya, K.R. Rohit, G. Anilkumar, A novel zinccatalyzed Suzuki-type cross-coupling reaction of aryl boronic acids with"
+    },
+    {
+      "n": null,
+      "page": 36,
+      "raw": "alkynyl bromides, J. Catal. 372 (2019) 266–271, https://doi.org/10.1016/j icat,2019.03005."
+    },
+    {
+      "n": 284,
+      "page": 36,
+      "raw": "[284] L. Lin, Y. Liu, S.-W. Fu, Q. Luo, Q.-X. Chen, Guo, Comparing Nickel- and Palladium-Catalyzed Heck Reactions, Organometallics. 23 (2004) 2114–2123, https://doi.org/10.1021/om034067h."
+    },
+    {
+      "n": 285,
+      "page": 36,
+      "raw": "[285] J. Diccianni, Q. Lin, T. Diao, Mechanisms of Nickel-Catalyzed Coupling Reactions and Applications in Alkene Functionalization, Acc. Chem. Res. 53 (2020) 906–919, https://doi.org/10.1021/acs.accounts.0c00032."
+    },
+    {
+      "n": 286,
+      "page": 36,
+      "raw": "[286] S. Bhakta, T. Ghosh, Emerging Nickel Catalysis in Heck Reactions: Recent Developments, Adv. Synth. Catal. 362 (2020) 5257–5274, https://doi.org 10.1002/adsc.202000820."
+    },
+    {
+      "n": 287,
+      "page": 36,
+      "raw": "[287] Norio. Miyaura, Akira. Suzuki, Palladium-Catalyzed Cross-Coupling Reactions of Organoboron Compounds, Chem. Rev. 95 (1995) 2457–2483, https://doi. org/10.1021/cr00039a007."
+    },
+    {
+      "n": 288,
+      "page": 36,
+      "raw": "[288] V.V. Grushin, H. Alper, Transformations of Chloroarenes, Catalyzed by Transition-Metal Complexes, Chem. Rev. 94 (1994) 1047–1062, https://doi. org/10.1021/cr00028a008."
+    },
+    {
+      "n": 289,
+      "page": 36,
+      "raw": "[289] S. Murai, ed., Activation of Unreactive Bonds and Organic Synthesis, Springer-Verlag, Berlin Heidelberg, 1999. doi: 10.1007/3-540-68525-1."
+    },
+    {
+      "n": 290,
+      "page": 36,
+      "raw": "[290] N.M. Ali, A. McKillop, M.B. Mitchell, R.A. Rebelo, P.J. Wallbank, Palladiumcatalysed cross-coupling reactions of arylboronic acids with p-deficient heteroaryl chlorides, Tetrahedron. 48 (1992) 8117–8126, https://doi.org 10.1016/S0040-4020(01)80481-6."
+    },
+    {
+      "n": 291,
+      "page": 36,
+      "raw": "[291] S. Achab, M. Guyot, P. Potier, A short entry into the pyrido[2,3-b]indole ring system. Synthesis of the tetracyclic segment of the marine antitumor agents: Grossularines-1 and -2, Tetrahedron Lett. 34 (1993) 2127–2130, https://doi. org/10.1016/S0040-4039(00)60362-3."
+    },
+    {
+      "n": 292,
+      "page": 36,
+      "raw": "[292] M.B. Mitchell, P.J. Wallbank, Coupling of heteroaryl chlorides with arylboronic acids in the presence of [1,4-bis-(diphenylphosphine) butane]palladium(II) dichloride, Tetrahedron Lett. 32 (1991) 2273–2276, https://doi.org/10.1016/S0040-4039(00)79700-0."
+    },
+    {
+      "n": 293,
+      "page": 36,
+      "raw": "[293] S. Saito, M. Sakai, N. Miyaura, A synthesis of biaryls via nickel(0)-catalyzed cross-coupling reaction of chloroarenes with phenylboronic acids, Tetrahedron Lett. 37 (1996) 2993–2996, https://doi.org/10.1016/0040-4039 (96)00482-0."
+    },
+    {
+      "n": 294,
+      "page": 36,
+      "raw": "[294] S. Saito, S. Oh-tani, N. Miyaura, Synthesis of Biaryls via a Nickel(0)-Catalyzed Cross-Coupling Reaction of Chloroarenes with Arylboronic Acids, J. Org. Chem. 62 (1997) 8024–8030. https://doi,org/10.1021/io9707848."
+    },
+    {
+      "n": 295,
+      "page": 36,
+      "raw": "[295] J.-C. Galland, M. Savignac, J.-P. Genêt, Cross-coupling of chloroarenes with boronic acids using a water-soluble nickel catalyst, Tetrahedron Lett. 40 (1999) 2323–2326, https://doi.org/10.1016/S0040-4039(99)00239-7."
+    },
+    {
+      "n": 296,
+      "page": 36,
+      "raw": "[296] R.K. Sharma, M. Yadav, R. Gaur, Y. Monga, A. Adholeya, Magnetically retrievable silica-based nickel nanocatalyst for Suzuki-Miyaura crosscoupling reaction, Catal, Sci. Technol. 5 (2015) 2728–2740, https://doi.org/ 10.1039/C4CY01736F."
+    },
+    {
+      "n": 297,
+      "page": 36,
+      "raw": "[297] A.R. Hajipour, P. Abolfathi, Novel triazole-modified chitosan@nickel nanoparticles: efficient and recoverable catalysts for Suzuki reaction, New J. Chem. 41 (2017) 2386–2391, https://doi.org/10.1039/C6NJ03789E."
+    },
+    {
+      "n": 298,
+      "page": 36,
+      "raw": "[298] A.R. Hajipour, P. Abolfathi, Nickel embedded on triazole-modified magnetic nanoparticles: A novel and sustainable heterogeneous catalyst for Hiyama reaction in fluoride-free condition, Catal. Commun. 103 (2018) 92–95, https://doi.org/10.1016/j.catcom.2017.09.021."
+    },
+    {
+      "n": 299,
+      "page": 36,
+      "raw": "[299] N.G. Naumov, M.S. Tarasenko, A.V. Virovets, Y. Kim, S.-J. Kim, V.E. Fedorov, Glycerol as Ligand: The Synthesis, Crystal Structure, and Properties of Compounds [Ln2(H2L)2(H3L)4][Re6Q8(CN)6], Ln = La, Nd, Gd, Q = S, Se, Eur. J. Inorg. Chem. 2006 (2006) 298–303, https://doi.org/10.1002/ ejic.200500542."
+    },
+    {
+      "n": 300,
+      "page": 36,
+      "raw": "[300] C.-Y. (Dennis) Huang, A.G. Doyle, Nickel-Catalyzed Negishi Alkylations of Styrenyl Aziridines, J. Am. Chem. Soc. 134 (2012) 9541–9544. doi: 10.1021/ja3013825."
+    },
+    {
+      "n": 301,
+      "page": 36,
+      "raw": "[301] J.M. Bhojane, S.A. Sarode, J.M. Nagarkar, Nickel–glycerol: an efficient, recyclable catalysis system for Suzuki cross coupling reactions using aryl diazonium salts, New J. Chem. 40 (2016) 1564–1570, https://doi.org/10.1039/ C5NJ01833A."
+    },
+    {
+      "n": 302,
+      "page": 36,
+      "raw": "[302] A. Houdayer, R. Schneider, D. Billaud, J. Ghanbaja, J. Lambert, New polyaniline/Ni(0) nanocomposites: Synthesis, characterization and evaluation of their catalytic activity in Heck couplings, Synth. Met. 2 (2005) 165-174. https://doi.org/10.1016/i.synthmet.2005.04.003"
+    },
+    {
+      "n": 303,
+      "page": 36,
+      "raw": "[303] M.R. Kwiatkowski, E.J. Alexanian, Nickel-Catalyzed Mizoroki–Heck-Type Reactions of Unactivated Alkyl Bromides. Angew. Chem. 130 (2018) 17099– 17102,https://doiorg/10.1002/ange,201810757."
+    },
+    {
+      "n": 304,
+      "page": 36,
+      "raw": "[304] Y.-L. Zheng, S.G. Newman, Nickel-Catalyzed Domino Heck-Type Reactions Using Methyl Esters as Cross-Coupling Electrophiles, Angew. Chem. Int. Ed. 58 (2019) 18159–18164, https://doi.org/10.1002/anie.201911372."
+    },
+    {
+      "n": 305,
+      "page": 36,
+      "raw": "[305] Y. Li, K. Wang, Y. Ping, Y. Wang, W. Kong, Nickel-Catalyzed Domino Heck Cyclization/Suzuki Coupling for the Synthesis of 3,3-Disubstituted Oxindoles, Org. Lett. 20 (2018) 921–924, https://doi.org/10.1021/acs.orglett.7b03713."
+    },
+    {
+      "n": 306,
+      "page": 36,
+      "raw": "[306] B. Ju, W. Kong, Recent Progress in the Consecutive Double Heck Reaction, Asian J. Org. Chem. 9 (2020) 1154–1161, https://doi.org/10.1002/ ajoc.202000230."
+    },
+    {
+      "n": 307,
+      "page": 36,
+      "raw": "[307] J.-Q. Xie, R.-X. Liang, Y.-X. Jia, Recent Advances of Catalytic Enantioselective Heck Reactions and Reductive-Heck Reactions, Chin. J. Chem. 39 (2021) 710– 728, https://doi.org/10.1002/cjoc.202000464"
+    },
+    {
+      "n": 308,
+      "page": 36,
+      "raw": "[308] M.R. Harris, M.O. Konev, E.R. Jarvo, Enantiospecific Intramolecular Heck Reactions of Secondary Benzylic Ethers, J. Am. Chem. Soc. 136 (2014) 7825– 7828, https://doi.org/10.1021/ja5026485."
+    },
+    {
+      "n": 309,
+      "page": 37,
+      "raw": "[309] J.M. Medina, J. Moreno, S. Racine, S. Du, N.K. Garg, Mizoroki-Heck Cyclization of Amide Derivatives for the Introduction of Quaternary Centers, Angew. Chem. 129 (2017) 6667–6671, https://doi.org/10.1002/ange.201703174."
+    },
+    {
+      "n": 310,
+      "page": 37,
+      "raw": "[310] J.-N. Desrosiers, L. Hie, S. Biswas, O.V. Zatolochnaya, S. Rodriguez, H. Lee, N. Grinberg, N. Haddad, N.K. Yee, N.K. Garg, C.H. Senanayake, Construction of Quaternary Stereocenters by Nickel-Catalyzed Heck Cyclization Reactions, Angew. Chem. 128 (2016) 12100–12103, https://doi.org/10.1002 ange.201606955."
+    },
+    {
+      "n": 311,
+      "page": 37,
+      "raw": "[311] J. Yin, W. Chai, F. Zhang, H. Li, Periodic mesoporous silica-supported Ni(II) organometallic complex as an active and reusable nanocatalyst for watermedium Sonogashira coupling reaction, Appl. Organomet. Chem. 27 (2013) 512–518, https://doi.org/10.1002/aoc.3017."
+    },
+    {
+      "n": 312,
+      "page": 37,
+      "raw": "[312] F. Farjadian, B. Tamami, Poly(vinylpyridine)-Grafted Silica Containing Palladium or Nickel Nanoparticles as Heterogeneous Catalysts for the Sonogashira Coupling Reaction, ChemPlusChem. 79 (2014) 1767–1773 https://doi.org/10.1002/cplu.201402169."
+    },
+    {
+      "n": 313,
+      "page": 37,
+      "raw": "[313] N. Hussain, P. Gogoi, P. Khare, M.R. Das, Nickel nanoparticles supported on reduced graphene oxide sheets: a phosphine free, magnetically recoverable and cost effective catalyst for Sonogashira cross-coupling reactions, RSC Adv. 5 (2015) 103105–103115, https://doi.org/10.1039/C5RA22601E."
+    },
+    {
+      "n": 314,
+      "page": 37,
+      "raw": "[314] F.M. Moghaddam, G. Tavakoli, H.R. Rezvani, A copper-free Sonogashira reaction using nickel ferrite as catalyst in water, Catal. Commun. 60 (2015) 82–87, https://doi.org/10.1016/j.catcom.2014.11.018."
+    },
+    {
+      "n": 315,
+      "page": 37,
+      "raw": "[315] Á. Molnár, Palladium-Catalyzed Coupling Reactions: Practical Aspects and Future Developments, John Wiley & Sons, 2013."
+    },
+    {
+      "n": 316,
+      "page": 37,
+      "raw": "[316] F. Baletto, C. Mottet, R. Ferrando, Growth of Three-Shell Onionlike Bimetallic Nanoparticles, Phys. Rev. Lett. 90 (2003), https://doi.org/10.1103 PhysRevLett.90.135504."
+    },
+    {
+      "n": 317,
+      "page": 37,
+      "raw": "[317] A. Bruix, J.T. Margraf, M. Andersen, K. Reuter, First-principles-based multiscale modelling of heterogeneous catalysis, Nat. Catal. 2 (2019) 659– 670, https://doi.org/10.1038/s41929-019-0298-3."
+    },
+    {
+      "n": 318,
+      "page": 37,
+      "raw": "[318] T. Morawietz, N. Artrith, Machine learning-accelerated quantum mechanics based atomistic simulations for industrial applications, J. Comput. Aided Mol Des. 35 (2021) 557–586, https://doi.org/10.1007/s10822-020-00346-6."
+    },
+    {
+      "n": 319,
+      "page": 37,
+      "raw": "[319] C. Zeni, K. Rossi, A. Glielmo, Á. Fekete, N. Gaston, F. Baletto, A. De Vita, Building machine learning force fields for nanoclusters, J. Chem. Phys. 148 (2018), https://doi.org/10.1063/1.5024558."
+    },
+    {
+      "n": 320,
+      "page": 37,
+      "raw": "[320] C. Zeni, K. Rossi, A. Glielmo, F. Baletto, On machine learning force fields for metallic nanoparticles, Adv. Phys. X 4 (2019) 1654919, https://doi.org 10.1080/23746149.2019.1654919."
+    }
+  ]
+}

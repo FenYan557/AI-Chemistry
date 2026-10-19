@@ -1,0 +1,67 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sse",
+        "context": "tests. It is indicated that PVP effectively suppresses the electrodeposition of cob"
+      },
+      {
+        "value": "sse",
+        "context": "ochemical experiments were performed in a glass vessel with 200 mL electrolyte cont"
+      },
+      {
+        "value": "sce",
+        "context": " S. IEEE., experimental study of nanoscale Co damascene BEOI. interconnect structur"
+      },
+      {
+        "value": "sce",
+        "context": "ones (PVPs): switchable leveler additives for damascene applications. J Electrochem"
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "2mA/cm2",
+        "context": ".84 mmol/L CoCl _2·6H_2 0. The current density is 2mA/cm2 and 1 L/ min air flow is pump"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": "m deposition for XRD and the current density is 2 0 mA/cm2.1 L/min air flow is pumped in"
+      },
+      {
+        "value": "1 mA/cm2",
+        "context": "e stripping peak current density decreases from 2 1 mA/cm2 to 1 2 mA/cm2.. In the meanti"
+      },
+      {
+        "value": "2 mA/cm2",
+        "context": "ak current density decreases from 2 1 mA/cm2 to 1 2 mA/cm2.. In the meantime, the oxidat"
+      }
+    ],
+    "金属": [
+      {
+        "value": "Ni",
+        "context": " super-filling of cobalt electrodeposition\nXiuren Ni a, Yuanming Chen a, Xiaofeng "
+      },
+      {
+        "value": "Co",
+        "context": " Zhuhai Founder Sci-Tech Multilayer Circuit Board Co., Ltd and Zhuhai Founder Sci-"
+      },
+      {
+        "value": "Co",
+        "context": " Zhuhai Founder Sci-Tech High-density Electronics Co., Ltd, Zhuhai 519175, China\nd"
+      },
+      {
+        "value": "Co",
+        "context": "hina\nd Chongqing Founder High-density Electronics Co., Ltd, Chongqing 400030, Chin"
+      },
+      {
+        "value": "Co",
+        "context": "iddiqui S. IEEE., experimental study of nanoscale Co damascene BEOI. interconnect "
+      },
+      {
+        "value": "Cu",
+        "context": "Urzo L, Romanello V, Mele C. Electrodeposition of Cu from acidic sulfate solutions"
+      }
+    ]
+  }
+}

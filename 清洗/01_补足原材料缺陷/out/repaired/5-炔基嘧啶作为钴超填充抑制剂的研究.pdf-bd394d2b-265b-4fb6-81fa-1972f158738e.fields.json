@@ -1,0 +1,77 @@
+{
+  "note": "正则候选，需人工/抽取层确认",
+  "fields": {
+    "参比电极": [
+      {
+        "value": "sce",
+        "context": " 100 and 110 crystal planes.\n\n1. INTRODUCTION\nDamascene copper plating technology h"
+      },
+      {
+        "value": "sse",
+        "context": "c chips and memory chips. 1 As semiconductor processes advance toward 10 nm and bel"
+      },
+      {
+        "value": "sce",
+        "context": "avior of metals. 8 Similar to the traditional Damascene copper interconnect process"
+      },
+      {
+        "value": "sse",
+        "context": "C \\equiv C -) on cobalt electrodeposition and to assess its efects on cobalt deposi"
+      },
+      {
+        "value": "sse",
+        "context": "nd XRD. The surface roughness of the coating was assessed using the SPM9700-HT, whi"
+      },
+      {
+        "value": "sse",
+        "context": "XRD. The surface roughness of the coating was assessed using the SPM9700-HT, while "
+      }
+    ],
+    "电流密度": [
+      {
+        "value": "1A/dm2",
+        "context": "ng process, the current density was maintained at 1A/dm2.. A1L cobalt plating solution"
+      },
+      {
+        "value": "0 mA/cm2",
+        "context": " toward a stable current density of approximately 0 mA/cm2,, and there is no occurrence "
+      }
+    ],
+    "温度": [
+      {
+        "value": "298 K",
+        "context": "COMPASS force field, operated at a temperature of 298 K, and used an NVT ensemble. Th"
+      },
+      {
+        "value": "300 °C",
+        "context": "d approximately at 12.4 μΩ·cm. After annealing at 300 °C for 10 h, the resistivity of "
+      }
+    ],
+    "金属": [
+      {
+        "value": "Co",
+        "context": "orption energy of the additive molecule (5-EP) on Co(100) to be −133.96 kcal/mol, "
+      },
+      {
+        "value": "Co",
+        "context": "rials. Researchers have found that metals such as Co, Ni, Mo, and Nb show greater "
+      },
+      {
+        "value": "Ni",
+        "context": "s. Researchers have found that metals such as Co, Ni, Mo, and Nb show greater pote"
+      },
+      {
+        "value": "Cu",
+        "context": "as Co, Ni, Mo, and Nb show greater potential than Cu. 4 However, when considering "
+      },
+      {
+        "value": "Co",
+        "context": "rameters such as process and material costs, only Co is highlighted as a promising"
+      },
+      {
+        "value": "Co",
+        "context": "s a promising material. It has been reported that Co has already been used in the "
+      }
+    ]
+  }
+}

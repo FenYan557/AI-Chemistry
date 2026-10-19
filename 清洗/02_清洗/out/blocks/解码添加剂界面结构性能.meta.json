@@ -1,0 +1,259 @@
+{
+  "doc_id": "解码添加剂界面结构性能",
+  "title": "Decoding the interfacial structure and functionality of an organic additive for superconformal cobalt electrodeposition",
+  "doi": "10.1007/s11426-025-2626-2",
+  "journal": "其他期刊",
+  "year": "2025",
+  "pages": 8,
+  "printed_page_map": {
+    "2": 5195,
+    "3": 5196,
+    "4": 5197,
+    "5": 5198,
+    "6": 5199,
+    "7": 5200,
+    "8": 5201
+  },
+  "references": [
+    {
+      "n": 1,
+      "page": 7,
+      "raw": "1 Andricacos PC, Uzoh C, Dukovic JO, Horkans J, Deligianni H. IBM J Res Dev, 1998, 42: 567–574"
+    },
+    {
+      "n": 2,
+      "page": 7,
+      "raw": "2 Kelly JJ, Tian C, West AC. J Electrochem Soc, 1999, 146: 2540–2545"
+    },
+    {
+      "n": 3,
+      "page": 7,
+      "raw": "3 Dow WP, Liu CW. J Electrochem Soc, 2006, 153: C190"
+    },
+    {
+      "n": 4,
+      "page": 7,
+      "raw": "4 Moffat TP, Wheeler D, Edelstein MD, Josell D. IBM J Res Dev, 2005, 49: 19–36"
+    },
+    {
+      "n": 5,
+      "page": 7,
+      "raw": "5 Moffat TP, Wheeler D, Kim SK, Josell D. Electrochim Acta, 2007, 53:"
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "145–154"
+    },
+    {
+      "n": 6,
+      "page": 8,
+      "raw": "6 Steinhögl W, Schindler G, Steinlesberger G, Engelhardt M. Phys Rev B, 2002, 66: 075414"
+    },
+    {
+      "n": 7,
+      "page": 8,
+      "raw": "7 Mayadas AF, Shatzkes M. Phys Rev B, 1970, 1: 1382–1389"
+    },
+    {
+      "n": 8,
+      "page": 8,
+      "raw": "8 Gall D. J Appl Phys, 2016, 119: 085101"
+    },
+    {
+      "n": 9,
+      "page": 8,
+      "raw": "9 Hu CK, Kelly J, Chen JHC, Huang H, Ostrovski Y, Patlolla R, Pee thala B, Adusumilli P, Spooner T, Gignac LM, Bruley J, Breslin C, Cohen SA, Lian G, Ali M, Long R, Hornicek G, Kane T, Kamineni V, Zhang X, Mont F, Siddiqui S. In: Proceedings of the 2017 IEEE International Interconnect Technology Conference. Hsinchu: IEEE, 2017.1‒3"
+    },
+    {
+      "n": 10,
+      "page": 8,
+      "raw": "10 Griggio F, Palmer J, Pan F, Toledo N, Schmitz A, Tsameret I, Kasim R, Leatherman G, Hicks J, Madhavan A, Shin J, Steigerwald J, Yeoh A, Auth C. In: Proceedings ofthe 2018 IEEE International Reliability Physics Symposium. Burlingame, 2018"
+    },
+    {
+      "n": 11,
+      "page": 8,
+      "raw": "11 Veen MHvd, Vandersmissen K, Dictus D, Demuynck S, Liu R, Bin X, Nalla P, Lesniewska A, Hall L, Croes K, Zhao L, Bömmels J, Kolics A, Tökei Z. In: Proceedings of the 2015 IEEE International Interconnect Technology Conference and 2015 IEEE Materials for Ad vanced Metallization Conference. Grenoble: IEEE, 2015.25‒28"
+    },
+    {
+      "n": 12,
+      "page": 8,
+      "raw": "12 Moreno-García P, Grozovski V, Vázquez MJG, Mysuru N, Kiran K, Kovács N, Hou Y, Vesztergom S, Broekmann P. J Electrochem Soc, 2020, 167: 042503"
+    },
+    {
+      "n": 13,
+      "page": 8,
+      "raw": "13 Wei LJ, Zhou ZH, Wu YW, Li M, Wang S. J Electrochem, 2022, 28: 2104431"
+    },
+    {
+      "n": 14,
+      "page": 8,
+      "raw": "14 Lee CH, Bonevich JE, Davies JE, Moffat TP. J Electrochem Soc, 2009, 156: D301"
+    },
+    {
+      "n": 15,
+      "page": 8,
+      "raw": "15 Huang Q, Lyons TW, Sides WD. J Electrochem Soc, 2016, 163: D715–D721"
+    },
+    {
+      "n": 16,
+      "page": 8,
+      "raw": "16 Kang J, Sung M, Byun J, Kwon OJ, Kim JJ. J Electrochem Soc, 2020, 167: 122510"
+    },
+    {
+      "n": 17,
+      "page": 8,
+      "raw": "17 Ma X, Li Y, Ren P, Yang P, Zhang J, An M, Lv W. JElectrochem Soc, 2023, 170: 022503"
+    },
+    {
+      "n": 18,
+      "page": 8,
+      "raw": "18 Kang J, Sung M, Byun J, Kwon OJ, Kim JJ. J Electrochem Soc, 2020, 167: 162514"
+    },
+    {
+      "n": 19,
+      "page": 8,
+      "raw": "19 Hu Y, Lyons T, Huang Q. J Electrochem Soc, 2020, 167: 022509"
+    },
+    {
+      "n": 20,
+      "page": 8,
+      "raw": "20 Hu Y, Huang Q. J Phys Chem C, 2020, 124: 21608–21616"
+    },
+    {
+      "n": 21,
+      "page": 8,
+      "raw": "21 Lyons TW, Huang Q. Electrochim Acta, 2017, 245: 309–317"
+    },
+    {
+      "n": 22,
+      "page": 8,
+      "raw": "22 Zhang D, Chen Y, Su Y, Hong Y, Wang C, Zhou G, Wang S, He W, Sun Y, Zhang W, He X, Xu C, Li Y, Xu Z, Du Y. Surfs Interfaces, 2022, 28: 101603"
+    },
+    {
+      "n": 23,
+      "page": 8,
+      "raw": "23 Ni X, Chen Y, Jin X, Wang C, Huang Y, Hong Y, Su X, Zhou G, Wang S, He W, Chen Q. J Taiwan Inst Chem Eng, 2020, 112: 232–239"
+    },
+    {
+      "n": 24,
+      "page": 8,
+      "raw": "24 Zhang M, Chang P, Chen P, Hang T, Li M, Wu Y. Appl SurfSci, 2024,"
+    },
+    {
+      "n": null,
+      "page": 8,
+      "raw": "645: 158795"
+    },
+    {
+      "n": 25,
+      "page": 8,
+      "raw": "25 Li H, Zhang T, Song S, Li Q, Han R, Li Q, Min Y, Qiu L, Shen X, Xu Q. J Phys Chem C, 2025, 129: 232–243"
+    },
+    {
+      "n": 26,
+      "page": 8,
+      "raw": "26 Josell D, Silva M, Moffat TP. J Electrochem Soc, 2016, 163: D809– D817"
+    },
+    {
+      "n": 27,
+      "page": 8,
+      "raw": "27 Braun TM, Josell D, Moffat TP. Electrochim Acta, 2021, 375: 137925"
+    },
+    {
+      "n": 28,
+      "page": 8,
+      "raw": "28 Rigsby MA, Brogan LJ, Doubina NV, Liu Y, Opocensky EC, Spurlin TA, Zhou J, Reid JD. ECS Trans, 2017, 80: 767–776"
+    },
+    {
+      "n": 29,
+      "page": 8,
+      "raw": "29 Rigsby MA, Brogan LJ, Doubina NV, Liu Y, Opocensky EC, Spurlin TA, Zhou J, Reid JD. J Electrochem Soc, 2019, 166: D3167–D3174"
+    },
+    {
+      "n": 30,
+      "page": 8,
+      "raw": "30 Wu J, Wafula F, Branagan S, Suzuki H, van Eisden J. J Electrochem Soc, 2019, 166: D3136–D3141"
+    },
+    {
+      "n": 31,
+      "page": 8,
+      "raw": "31 Wafula F, Wu J, Branagan S, Suzuki H, Gracias A, Eisden Jv. In: Proceedings of the 2018 IEEE International Interconnect Technology Conference. Santa Clara: IEEE, 2018.123‒125"
+    },
+    {
+      "n": 32,
+      "page": 8,
+      "raw": "32 Chinese Society of Electrochemistry. J Electrochem, 2024, 30: 2024121"
+    },
+    {
+      "n": 33,
+      "page": 8,
+      "raw": "33 Mao Z, Wu Y, Ma XY, Zheng L, Zhang XG, Cai WB. J Phys Chem Lett, 2022, 13: 9079–9084"
+    },
+    {
+      "n": 34,
+      "page": 8,
+      "raw": "34 Mao Z, Wu Y, Jiang K, Cai WB. Sci Sin Chim, 2023, 53: 1812–1821"
+    },
+    {
+      "n": 35,
+      "page": 8,
+      "raw": "35 Wu Y, Mao Z, Jiang TW, Ma XY, Zheng L, Jiang K, Cai WB. J Phys Chem C, 2023, 127: 21695–21703"
+    },
+    {
+      "n": 36,
+      "page": 8,
+      "raw": "36 Mao Z, Wu Y, Xu X, Chao Y, Zhang XG, Wang C, Cai WB. J Phys Chem Lett, 2024, 15: 6668–6675"
+    },
+    {
+      "n": 37,
+      "page": 8,
+      "raw": "37 Liu GK, Zou S, Josell D, Richter LJ, Moffat TP. J Phys Chem C, 2018, 122: 21933–21951"
+    },
+    {
+      "n": 38,
+      "page": 8,
+      "raw": "38 Critelli RAJ, Sumodjo PTA, Bertotti M, Torresi RM. Electrochim Acta, 2018, 260: 762–771"
+    },
+    {
+      "n": 39,
+      "page": 8,
+      "raw": "39 Wu Y, Mao Z, Qin X, Jiang K, Ma XY, Jiang TW, Cai WB. J Colloid Interface Sci, 2025, 683: 372–379"
+    },
+    {
+      "n": 40,
+      "page": 8,
+      "raw": "40 Xue XK, Wang JY, Li QX, Yan QX, Liu JH, Cai WB. Anal Chem, 2008, 80: 166–171"
+    },
+    {
+      "n": 41,
+      "page": 8,
+      "raw": "41 Yan YG, Peng B, Yang YY, Cai WB, Bund A, Stimming U. J Phys Chem C, 2011, 115: 5584–5592"
+    },
+    {
+      "n": 42,
+      "page": 8,
+      "raw": "42 Wang YH, Zheng S, Yang WM, Zhou RY, He QF, Radjenovic P, Dong JC, Li S, Zheng J, Yang ZL, Attard G, Pan F, Tian ZQ, Li JF. Nature, 2021, 600: 81–85"
+    },
+    {
+      "n": 43,
+      "page": 8,
+      "raw": "43 Li P, Jiang Y, Hu Y, Men Y, Liu Y, Cai WB, Chen S.. Nat Catal, 2022, 5: 900–911"
+    },
+    {
+      "n": 44,
+      "page": 8,
+      "raw": "44 Peak D, Luther Iii GW, Sparks DL. Geochim Cosmochim Acta, 2003, 67: 2551–2560"
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "raw": "45 Rigsby MA, Spurlin TA, Reid JD. J Electrochem Soc, 2020, 167: 112507"
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "raw": "46 Schneider TW, Buttry DA. J Am Chem Soc, 1993, 115: 12391–12397"
+    }
+  ]
+}
