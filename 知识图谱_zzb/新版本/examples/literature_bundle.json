@@ -1,0 +1,1139 @@
+{
+  "documents": [
+    {
+      "id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "title": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+      "source_file": "清洗/02_清洗/out/blocks/腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究.jsonl",
+      "sha256": "ae413a7f7d9d12e8bbc6da7f3cd20621b51980393cd7c1c1e125fc238a6b9cd6",
+      "source_kind": "cleaned_text"
+    },
+    {
+      "id": "糖精对镀钴层结构_导电能力的改变",
+      "title": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+      "source_file": "清洗/02_清洗/out/blocks/糖精对镀钴层结构_导电能力的改变.jsonl",
+      "sha256": "bd3b1bda51d76059ba19e8c9c8759bfc2672e2481f877ee9f4acbd51e48f4730",
+      "source_kind": "cleaned_text"
+    },
+    {
+      "id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "title": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+      "source_file": "清洗/02_清洗/out/blocks/烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究.jsonl",
+      "sha256": "e1b5a08fb85cff2e3485c77e0dd76580f26ad3b76b863fa241407800f1eeb076",
+      "source_kind": "cleaned_text"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "blk:7cf3c70d130e763f",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "page": 1,
+      "section": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole > ABSTRACT",
+      "text": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole. Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution. The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis. Based on the changes of the ADO adsorption sites from the MD and E-FTIR analyses, an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition. Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+    },
+    {
+      "id": "blk:8b1aeebd56a70e1a",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "page": 8,
+      "section": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole > 4. Conclusion",
+      "text": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition."
+    },
+    {
+      "id": "blk:cf5b948c8b59760d",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "page": 1,
+      "section": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating > Abstract",
+      "text": "In the process of electroless cobalt plating, the saccharin additive can significantly change the surface morphology, texture orientation, and conductivity of the cobalt coating layer. When the amount of saccharin was 3 mg·L –1, the cobalt coating transformed from disordered large grains to a honeycomb structure, with a preferred orientation of (002) facet on hexagonal close-packed (HCP) cobalt crystals. The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment. When the concentration of saccharin was increased, the grain size was gradually refined and a “stone forest” structure was observed, with the preferred orientation remaining unchanged. The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent. Through the study of the crystallization behavior of cobalt electroless plating, saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane, inhibiting the growth of abc stacking arrangement and inducing the crystal growth in ab stacking mode, thereby achieving optimal growth of HCP (002) texture."
+    },
+    {
+      "id": "blk:17bf049326751a44",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "page": 9,
+      "section": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation > 4. Conclusion",
+      "text": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m:adenosine",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "Adenosine",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 0,
+        "end": 9,
+        "quote": "Adenosine"
+      },
+      "candidate_type_ids": [
+        "t1"
+      ]
+    },
+    {
+      "id": "m:ado",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "ADO",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 11,
+        "end": 14,
+        "quote": "ADO"
+      },
+      "candidate_type_ids": [
+        "t1"
+      ]
+    },
+    {
+      "id": "m:deposition",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "cobalt deposition",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 883,
+        "end": 900,
+        "quote": "cobalt deposition"
+      },
+      "candidate_type_ids": []
+    },
+    {
+      "id": "m:mechanism",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "intramolecular synergistic acceleration–suppression mechanism",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 713,
+        "end": 774,
+        "quote": "intramolecular synergistic acceleration–suppression mechanism"
+      },
+      "candidate_type_ids": []
+    },
+    {
+      "id": "m:saccharin",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "saccharin",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 50,
+        "end": 59,
+        "quote": "saccharin"
+      },
+      "candidate_type_ids": [
+        "t1"
+      ]
+    },
+    {
+      "id": "m:film",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "cobalt film",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 431,
+        "end": 442,
+        "quote": "cobalt film"
+      },
+      "candidate_type_ids": []
+    },
+    {
+      "id": "m:anneal",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "annealing treatment",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 514,
+        "end": 533,
+        "quote": "annealing treatment"
+      },
+      "candidate_type_ids": []
+    },
+    {
+      "id": "m:na",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "surface": "NA",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:17bf049326751a44",
+        "start": 44,
+        "end": 46,
+        "quote": "NA"
+      },
+      "candidate_type_ids": []
+    },
+    {
+      "id": "m:other_components",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "surface": "other slurry components",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:17bf049326751a44",
+        "start": 262,
+        "end": 285,
+        "quote": "other slurry components"
+      },
+      "candidate_type_ids": []
+    }
+  ],
+  "identities": [
+    {
+      "id": "identity:doc:ado",
+      "canonical_label": "Adenosine",
+      "scope": "document",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "status": "candidate",
+      "external_refs": [],
+      "distinctions": {
+        "charge": null,
+        "salt_form": null,
+        "hydrate": null,
+        "stereochemistry": null,
+        "specification": null
+      }
+    }
+  ],
+  "identity_links": [
+    {
+      "mention_id": "m:adenosine",
+      "identity_id": "identity:doc:ado",
+      "basis": "author_explicit",
+      "review": "pending",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 0,
+          "end": 15,
+          "quote": "Adenosine (ADO)"
+        }
+      ],
+      "external_ref": null
+    },
+    {
+      "mention_id": "m:ado",
+      "identity_id": "identity:doc:ado",
+      "basis": "author_explicit",
+      "review": "pending",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 0,
+          "end": 15,
+          "quote": "Adenosine (ADO)"
+        }
+      ],
+      "external_ref": null
+    }
+  ],
+  "external_records": [],
+  "facts": [
+    {
+      "id": "f:ado:low",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "group_id": "group:ado:concentration",
+      "relation": {
+        "raw": "acceleration",
+        "definition": "ADO在对应浓度条件下对钴沉积的作用；不外推数值范围。",
+        "candidate_relation_id": "r7"
+      },
+      "participants": [
+        {
+          "mention_id": "m:ado",
+          "role": "agent"
+        },
+        {
+          "mention_id": "m:deposition",
+          "role": "affected_process"
+        }
+      ],
+      "conditions": [
+        {
+          "parameter_raw": "concentration",
+          "candidate_parameter": null,
+          "about_mention_ids": [
+            "m:ado"
+          ],
+          "value": {
+            "value_raw": "low-concentration",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "scope_status": "explicit",
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 814,
+              "end": 831,
+              "quote": "low-concentration"
+            }
+          ],
+          "inherited": false
+        }
+      ],
+      "outcomes": [
+        {
+          "indicator_raw": "cobalt deposition",
+          "value": {
+            "value_raw": "acceleration",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "direction": "increase",
+          "stage_raw": null,
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 803,
+              "end": 900,
+              "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition"
+            }
+          ],
+          "sample_id": null,
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          }
+        }
+      ],
+      "statement_type": "reported_claim",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 803,
+          "end": 900,
+          "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-example-1"
+      },
+      "notes": [
+        "主智能体拟定的协议映射；需人工作者回原PDF核对，不是金标或模型性能结果。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "f:ado:high",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "group_id": "group:ado:concentration",
+      "relation": {
+        "raw": "suppression",
+        "definition": "ADO在对应浓度条件下对钴沉积的作用；不外推数值范围。",
+        "candidate_relation_id": "r7"
+      },
+      "participants": [
+        {
+          "mention_id": "m:ado",
+          "role": "agent"
+        },
+        {
+          "mention_id": "m:deposition",
+          "role": "affected_process"
+        }
+      ],
+      "conditions": [
+        {
+          "parameter_raw": "concentration",
+          "candidate_parameter": null,
+          "about_mention_ids": [
+            "m:ado"
+          ],
+          "value": {
+            "value_raw": "high-concentration",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "scope_status": "explicit",
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 849,
+              "end": 867,
+              "quote": "high-concentration"
+            }
+          ],
+          "inherited": false
+        }
+      ],
+      "outcomes": [
+        {
+          "indicator_raw": "cobalt deposition",
+          "value": {
+            "value_raw": "suppression",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "direction": "decrease",
+          "stage_raw": null,
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 803,
+              "end": 900,
+              "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition"
+            }
+          ],
+          "sample_id": null,
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          }
+        }
+      ],
+      "statement_type": "reported_claim",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 803,
+          "end": 900,
+          "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-example-1"
+      },
+      "notes": [
+        "主智能体拟定的协议映射；需人工作者回原PDF核对，不是金标或模型性能结果。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "f:ado:interpretation",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "group_id": "group:ado:concentration",
+      "relation": {
+        "raw": "was proposed to explain",
+        "definition": "作者提出的分子内作用解释，非多个添加剂间已验证协同。",
+        "candidate_relation_id": null
+      },
+      "participants": [
+        {
+          "mention_id": "m:mechanism",
+          "role": "explanation"
+        },
+        {
+          "mention_id": "m:ado",
+          "role": "involved_substance"
+        },
+        {
+          "mention_id": "m:deposition",
+          "role": "explained_process"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [],
+      "statement_type": "author_interpretation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 710,
+          "end": 900,
+          "quote": "an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-example-1"
+      },
+      "notes": [
+        "主智能体拟定的协议映射；需人工作者回原PDF核对，不是金标或模型性能结果。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "f:resistivity:reported",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "group_id": "group:film:resistivity",
+      "relation": {
+        "raw": "decreased to",
+        "definition": "记录钴膜电阻率；处理后变化不自动归因于糖精。",
+        "candidate_relation_id": "r9"
+      },
+      "participants": [
+        {
+          "mention_id": "m:film",
+          "role": "measured_object"
+        },
+        {
+          "mention_id": "m:saccharin",
+          "role": "additive_under_test"
+        }
+      ],
+      "conditions": [
+        {
+          "parameter_raw": "amount of saccharin",
+          "candidate_parameter": null,
+          "about_mention_ids": [
+            "m:saccharin"
+          ],
+          "value": {
+            "value_raw": "3 mg·L –1",
+            "value_kind": "numeric",
+            "unit_raw": "mg·L–1",
+            "unit_status": "reported"
+          },
+          "scope_status": "explicit",
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 185,
+              "end": 227,
+              "quote": "When the amount of saccharin was 3 mg·L –1"
+            }
+          ],
+          "inherited": false
+        }
+      ],
+      "outcomes": [
+        {
+          "indicator_raw": "resistivity",
+          "value": {
+            "value_raw": "14.4",
+            "value_kind": "numeric",
+            "unit_raw": "μΩ·cm",
+            "unit_status": "reported"
+          },
+          "direction": "decrease",
+          "stage_raw": null,
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          },
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 408,
+              "end": 534,
+              "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment."
+            }
+          ],
+          "sample_id": null
+        }
+      ],
+      "statement_type": "observation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 408,
+          "end": 534,
+          "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment."
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-example-1"
+      },
+      "notes": [
+        "主智能体拟定的协议映射；需人工作者回原PDF核对，不是金标或模型性能结果。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "f:resistivity:annealed",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "group_id": "group:film:resistivity",
+      "relation": {
+        "raw": "further decreased to",
+        "definition": "记录钴膜电阻率；处理后变化不自动归因于糖精。",
+        "candidate_relation_id": "r9"
+      },
+      "participants": [
+        {
+          "mention_id": "m:film",
+          "role": "measured_object"
+        },
+        {
+          "mention_id": "m:saccharin",
+          "role": "additive_under_test"
+        },
+        {
+          "mention_id": "m:anneal",
+          "role": "treatment"
+        }
+      ],
+      "conditions": [
+        {
+          "parameter_raw": "amount of saccharin",
+          "candidate_parameter": null,
+          "about_mention_ids": [
+            "m:saccharin"
+          ],
+          "value": {
+            "value_raw": "3 mg·L –1",
+            "value_kind": "numeric",
+            "unit_raw": "mg·L–1",
+            "unit_status": "reported"
+          },
+          "scope_status": "explicit",
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 185,
+              "end": 227,
+              "quote": "When the amount of saccharin was 3 mg·L –1"
+            }
+          ],
+          "inherited": false
+        }
+      ],
+      "outcomes": [
+        {
+          "indicator_raw": "resistivity",
+          "value": {
+            "value_raw": "10.7",
+            "value_kind": "numeric",
+            "unit_raw": "μΩ·cm",
+            "unit_status": "reported"
+          },
+          "direction": "decrease",
+          "stage_raw": "after the annealing treatment",
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "explicit",
+            "baseline_raw": "14.4 μΩ·cm",
+            "baseline_mention_id": null,
+            "basis_raw": null,
+            "evidence": [
+              {
+                "kind": "block",
+                "block_id": "blk:cf5b948c8b59760d",
+                "start": 456,
+                "end": 466,
+                "quote": "14.4 μΩ·cm"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 408,
+              "end": 534,
+              "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment."
+            }
+          ],
+          "sample_id": null
+        }
+      ],
+      "statement_type": "observation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 408,
+          "end": 534,
+          "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment."
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-example-1"
+      },
+      "notes": [
+        "主智能体拟定的协议映射；需人工作者回原PDF核对，不是金标或模型性能结果。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "f:cmp:future",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "group_id": null,
+      "relation": {
+        "raw": "exploring synergistic effect",
+        "definition": "未来研究方向，不是已发生或已验证的协同作用。",
+        "candidate_relation_id": null
+      },
+      "participants": [
+        {
+          "mention_id": "m:na",
+          "role": "prospective_participant"
+        },
+        {
+          "mention_id": "m:other_components",
+          "role": "prospective_participant"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [],
+      "statement_type": "future_work",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "hedged",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 186,
+          "end": 285,
+          "quote": "support for subsequent researches of exploring synergistic effect of NA and other slurry components"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-example-1"
+      },
+      "notes": [
+        "主智能体拟定的协议映射；需人工作者回原PDF核对，不是金标或模型性能结果。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    }
+  ],
+  "schema_version": "4.0.0-draft",
+  "role_assignments": [
+    {
+      "id": "role:ado:low",
+      "fact_id": "f:ado:low",
+      "subject_mention_id": "m:ado",
+      "functional_role": "accelerator",
+      "role_raw": "leveling additive",
+      "role_basis": "effect_inference",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 740,
+          "end": 752,
+          "quote": "acceleration"
+        }
+      ],
+      "note": "原文称其为整平剂，低浓度下观察为加速；按作用方向记候选，二者不互相替代。"
+    },
+    {
+      "id": "role:ado:high",
+      "fact_id": "f:ado:high",
+      "subject_mention_id": "m:ado",
+      "functional_role": "suppressor",
+      "role_raw": "leveling additive",
+      "role_basis": "effect_inference",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 753,
+          "end": 764,
+          "quote": "suppression"
+        }
+      ],
+      "note": "与低浓度分条记录；条件不同不可合并为单一角色。"
+    },
+    {
+      "id": "role:ado:leveler",
+      "fact_id": "f:ado:low",
+      "subject_mention_id": "m:ado",
+      "functional_role": "leveler",
+      "role_raw": "Adenosine (ADO) was selected as a leveling additive",
+      "role_basis": "author_explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 0,
+          "end": 51,
+          "quote": "Adenosine (ADO) was selected as a leveling additive"
+        }
+      ],
+      "note": "作者显式定位；不因效果为加速而改写。"
+    },
+    {
+      "id": "role:cmp:na",
+      "fact_id": "f:cmp:future",
+      "subject_mention_id": "m:na",
+      "functional_role": "other",
+      "role_raw": "an effective potential inhibitor for Co CMP",
+      "role_basis": "author_explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 324,
+          "end": 367,
+          "quote": "an effective potential inhibitor for Co CMP"
+        }
+      ],
+      "note": "CMP语境缓蚀角色，初期不并入电沉积suppressor。"
+    },
+    {
+      "id": "role:saccharin:unknown",
+      "fact_id": "f:resistivity:annealed",
+      "subject_mention_id": "m:saccharin",
+      "functional_role": "unknown",
+      "role_raw": null,
+      "role_basis": "unknown",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 46,
+          "end": 68,
+          "quote": "the saccharin additive"
+        }
+      ],
+      "note": "摘要未给出糖精的功能角色名称，保持未知，不据常识补填。"
+    }
+  ],
+  "experiments": [],
+  "runs": [],
+  "samples": [],
+  "identity_merges": [],
+  "entities": [
+    {
+      "id": "ent:m:adenosine",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "Adenosine",
+      "type_id": "t1",
+      "identity_id": null,
+      "from_mention_id": "m:adenosine",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 0,
+          "end": 9,
+          "quote": "Adenosine"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:ado",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "ADO",
+      "type_id": "t1",
+      "identity_id": null,
+      "from_mention_id": "m:ado",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 11,
+          "end": 14,
+          "quote": "ADO"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:deposition",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "cobalt deposition",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:deposition",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 883,
+          "end": 900,
+          "quote": "cobalt deposition"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:mechanism",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "intramolecular synergistic acceleration–suppression mechanism",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:mechanism",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 713,
+          "end": 774,
+          "quote": "intramolecular synergistic acceleration–suppression mechanism"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:saccharin",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "saccharin",
+      "type_id": "t1",
+      "identity_id": null,
+      "from_mention_id": "m:saccharin",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 50,
+          "end": 59,
+          "quote": "saccharin"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:film",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "cobalt film",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:film",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 431,
+          "end": 442,
+          "quote": "cobalt film"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:anneal",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "annealing treatment",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:anneal",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 514,
+          "end": 533,
+          "quote": "annealing treatment"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:na",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "label": "NA",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:na",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 44,
+          "end": 46,
+          "quote": "NA"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:other_components",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "label": "other slurry components",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:other_components",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 262,
+          "end": 285,
+          "quote": "other slurry components"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:f:ado:low:1",
+      "fact_id": "f:ado:low",
+      "from_entity_id": "ent:m:ado",
+      "to_entity_id": "ent:m:deposition",
+      "relation": {
+        "raw": "acceleration",
+        "definition": "ADO在对应浓度条件下对钴沉积的作用；不外推数值范围。",
+        "candidate_relation_id": "r7"
+      },
+      "qualifiers": {
+        "statement_type": "reported_claim",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "explicit",
+        "conditions": [
+          {
+            "parameter_raw": "concentration",
+            "candidate_parameter": null,
+            "about_mention_ids": [
+              "m:ado"
+            ],
+            "value": {
+              "value_raw": "low-concentration",
+              "value_kind": "qualitative",
+              "unit_raw": null,
+              "unit_status": "not_applicable"
+            },
+            "scope_status": "explicit",
+            "evidence": [
+              {
+                "kind": "block",
+                "block_id": "blk:7cf3c70d130e763f",
+                "start": 814,
+                "end": 831,
+                "quote": "low-concentration"
+              }
+            ],
+            "inherited": false
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 803,
+          "end": 900,
+          "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition"
+        }
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "edge:f:ado:high:1",
+      "fact_id": "f:ado:high",
+      "from_entity_id": "ent:m:ado",
+      "to_entity_id": "ent:m:deposition",
+      "relation": {
+        "raw": "suppression",
+        "definition": "ADO在对应浓度条件下对钴沉积的作用；不外推数值范围。",
+        "candidate_relation_id": "r7"
+      },
+      "qualifiers": {
+        "statement_type": "reported_claim",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "explicit",
+        "conditions": [
+          {
+            "parameter_raw": "concentration",
+            "candidate_parameter": null,
+            "about_mention_ids": [
+              "m:ado"
+            ],
+            "value": {
+              "value_raw": "high-concentration",
+              "value_kind": "qualitative",
+              "unit_raw": null,
+              "unit_status": "not_applicable"
+            },
+            "scope_status": "explicit",
+            "evidence": [
+              {
+                "kind": "block",
+                "block_id": "blk:7cf3c70d130e763f",
+                "start": 849,
+                "end": 867,
+                "quote": "high-concentration"
+              }
+            ],
+            "inherited": false
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 803,
+          "end": 900,
+          "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition"
+        }
+      ],
+      "review": "pending"
+    }
+  ]
+}

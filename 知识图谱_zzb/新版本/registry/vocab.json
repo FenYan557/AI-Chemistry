@@ -1,0 +1,488 @@
+{
+  "version": "1.0",
+  "status": "partial_controlled_vocabulary",
+  "not_gold": true,
+  "note": "封闭取值来自 schema 枚举；本文件登记开放词表（参数、指标、单位）及其候选/晋升状态。别名只用于检索提示，不自动等同。",
+  "role_options": {
+    "source": "registry/roles.json",
+    "status": "provisional_controlled_vocabulary",
+    "closed": true
+  },
+  "closed_sets": {
+    "fact.statement_type": [
+      "observation",
+      "calculation_result",
+      "author_interpretation",
+      "future_work",
+      "reported_claim",
+      "unknown"
+    ],
+    "fact.source_scope": [
+      "this_study",
+      "cited_study",
+      "review_summary",
+      "unknown"
+    ],
+    "fact.polarity": [
+      "asserted",
+      "negated",
+      "no_effect",
+      "unknown"
+    ],
+    "fact.modality": [
+      "explicit",
+      "hedged",
+      "speculative",
+      "unknown"
+    ],
+    "outcome.direction": [
+      "increase",
+      "decrease",
+      "no_effect",
+      "mixed",
+      "unknown"
+    ],
+    "outcome.magnitude.qualifier": [
+      "slight",
+      "moderate",
+      "marked",
+      "unknown"
+    ],
+    "outcome.comparison.status": [
+      "not_stated",
+      "raw_only",
+      "explicit"
+    ],
+    "quantity.value_kind": [
+      "numeric",
+      "qualitative",
+      "ordinal",
+      "absent"
+    ],
+    "quantity.unit_status": [
+      "reported",
+      "not_reported",
+      "not_applicable",
+      "unresolved"
+    ],
+    "identity.status": [
+      "unresolved",
+      "candidate",
+      "reviewed"
+    ],
+    "identity_merge.relation": [
+      "same_as",
+      "distinct_from"
+    ],
+    "identity_merge.basis": [
+      "author_explicit",
+      "structure",
+      "database",
+      "name_candidate"
+    ],
+    "review": [
+      "pending",
+      "reviewed"
+    ]
+  },
+  "families": [
+    {
+      "family_id": "electrochemical_quantity",
+      "zh": "电化学测试量",
+      "members": [
+        "deposition_potential",
+        "stripping_peak"
+      ]
+    },
+    {
+      "family_id": "microstructure",
+      "zh": "微结构与组织",
+      "members": [
+        "grain_size",
+        "texture",
+        "surface_morphology",
+        "stacking"
+      ]
+    },
+    {
+      "family_id": "composition",
+      "zh": "成分与纯度",
+      "members": [
+        "purity"
+      ]
+    },
+    {
+      "family_id": "electric_property",
+      "zh": "电学性质",
+      "members": [
+        "resistivity"
+      ]
+    },
+    {
+      "family_id": "process_condition",
+      "zh": "工艺条件参数",
+      "members": [
+        "concentration",
+        "amount_of_additive",
+        "temperature",
+        "duration",
+        "pH",
+        "current_density",
+        "agitation"
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "id": "concentration",
+      "zh": "浓度",
+      "family_id": "process_condition",
+      "status": "approved",
+      "entity_worthy": false,
+      "aliases": [
+        "concentration",
+        "low-concentration",
+        "high-concentration"
+      ],
+      "raw_examples": [
+        "low-concentration",
+        "high-concentration"
+      ],
+      "unit_hint": "mg·L–1",
+      "note": "原文只给定性高低，未给数值；不得代填数值。"
+    },
+    {
+      "id": "amount_of_additive",
+      "zh": "添加物用量",
+      "family_id": "process_condition",
+      "status": "approved",
+      "entity_worthy": false,
+      "aliases": [
+        "amount of saccharin",
+        "the amount of saccharin"
+      ],
+      "raw_examples": [
+        "the amount of saccharin was 3 mg·L –1"
+      ],
+      "unit_hint": "mg·L–1",
+      "note": "用量与浓度是两个参数名，不自动等同。"
+    },
+    {
+      "id": "temperature",
+      "zh": "温度",
+      "family_id": "process_condition",
+      "status": "approved",
+      "entity_worthy": false,
+      "aliases": [
+        "temperature",
+        "80 °C"
+      ],
+      "raw_examples": [
+        "80 °C, 15 min"
+      ],
+      "unit_hint": "°C",
+      "note": "表格单元格含温度与时间两值，本轮只锚定原串，未拆分。"
+    },
+    {
+      "id": "duration",
+      "zh": "时间",
+      "family_id": "process_condition",
+      "status": "proposed",
+      "entity_worthy": false,
+      "aliases": [
+        "15 min",
+        "time"
+      ],
+      "raw_examples": [
+        "80 °C, 15 min"
+      ],
+      "unit_hint": "min",
+      "note": "与温度同格出现，拆分规则未定。"
+    },
+    {
+      "id": "pH",
+      "zh": "pH",
+      "family_id": "process_condition",
+      "status": "proposed",
+      "entity_worthy": false,
+      "aliases": [
+        "pH"
+      ],
+      "raw_examples": [],
+      "unit_hint": "无量纲",
+      "note": "语料 4 块中未出现具体值，仅登记候选。"
+    },
+    {
+      "id": "current_density",
+      "zh": "电流密度",
+      "family_id": "process_condition",
+      "status": "proposed",
+      "entity_worthy": false,
+      "aliases": [
+        "current density",
+        "电流密度"
+      ],
+      "raw_examples": [],
+      "unit_hint": "A·dm–2",
+      "note": "语料 4 块中未出现具体值，仅登记候选；不得从常识补填。"
+    },
+    {
+      "id": "agitation",
+      "zh": "搅拌/流场",
+      "family_id": "process_condition",
+      "status": "proposed",
+      "entity_worthy": false,
+      "aliases": [
+        "stirring",
+        "agitation",
+        "搅拌"
+      ],
+      "raw_examples": [],
+      "unit_hint": "rpm",
+      "note": "未在语料出现，登记为候选。"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "resistivity",
+      "zh": "电阻率",
+      "family_id": "electric_property",
+      "status": "approved",
+      "aliases": [
+        "resistivity",
+        "电阻率"
+      ],
+      "raw_examples": [
+        "14.4 μΩ·cm",
+        "10.7 μΩ·cm"
+      ],
+      "unit_hint": "μΩ·cm"
+    },
+    {
+      "id": "surface_morphology",
+      "zh": "表面形貌",
+      "family_id": "microstructure",
+      "status": "approved",
+      "aliases": [
+        "surface morphology",
+        "surface morphology"
+      ],
+      "raw_examples": [
+        "“stone forest” structure",
+        "honeycomb structure"
+      ],
+      "unit_hint": null
+    },
+    {
+      "id": "texture",
+      "zh": "织构/择优取向",
+      "family_id": "microstructure",
+      "status": "approved",
+      "aliases": [
+        "texture orientation",
+        "preferred orientation",
+        "HCP (002) texture"
+      ],
+      "raw_examples": [
+        "HCP (002) texture",
+        "preferred orientation of (002) facet"
+      ],
+      "unit_hint": null,
+      "note": "同一密勒指数的晶面提及与织构提及不自动同一。"
+    },
+    {
+      "id": "grain_size",
+      "zh": "晶粒尺寸",
+      "family_id": "microstructure",
+      "status": "approved",
+      "aliases": [
+        "grain size",
+        "grain refinement"
+      ],
+      "raw_examples": [
+        "grain size"
+      ],
+      "unit_hint": "nm",
+      "note": "“refined”是方向，不是尺寸值。"
+    },
+    {
+      "id": "purity",
+      "zh": "纯度",
+      "family_id": "composition",
+      "status": "approved",
+      "aliases": [
+        "purity of cobalt coating",
+        "purity"
+      ],
+      "raw_examples": [
+        "slightly improves the purity of cobalt coating"
+      ],
+      "unit_hint": null
+    },
+    {
+      "id": "deposition_potential",
+      "zh": "沉积电位",
+      "family_id": "electrochemical_quantity",
+      "status": "approved",
+      "aliases": [
+        "deposition potential"
+      ],
+      "raw_examples": [
+        "Changes in deposition potential"
+      ],
+      "unit_hint": "mV",
+      "note": "变化量无具体数值，只记方向。"
+    },
+    {
+      "id": "stripping_peak",
+      "zh": "溶出峰",
+      "family_id": "electrochemical_quantity",
+      "status": "proposed",
+      "aliases": [
+        "stripping peaks",
+        "new stripping peaks"
+      ],
+      "raw_examples": [
+        "new stripping peaks"
+      ],
+      "unit_hint": "mV",
+      "note": "峰位/峰高未结构化，暂只作指标名。"
+    },
+    {
+      "id": "thickness",
+      "zh": "厚度",
+      "family_id": "microstructure",
+      "status": "proposed",
+      "aliases": [
+        "thickness",
+        "厚度"
+      ],
+      "raw_examples": [],
+      "unit_hint": "nm",
+      "note": "语料 4 块未出现具体厚度值，登记候选。"
+    },
+    {
+      "id": "roughness",
+      "zh": "粗糙度",
+      "family_id": "microstructure",
+      "status": "proposed",
+      "aliases": [
+        "roughness",
+        "粗糙度"
+      ],
+      "raw_examples": [],
+      "unit_hint": "nm",
+      "note": "语料 4 块未出现，登记候选。"
+    }
+  ],
+  "units": [
+    {
+      "text": "mg·L–1",
+      "quantity_kind": "concentration",
+      "status": "approved",
+      "standard": {
+        "name": "QUDT",
+        "term": null,
+        "check_status": "unchecked",
+        "note": "局部名未离线核对，不填 IRI"
+      }
+    },
+    {
+      "text": "μΩ·cm",
+      "quantity_kind": "resistivity",
+      "status": "approved",
+      "standard": {
+        "name": "QUDT",
+        "term": null,
+        "check_status": "unchecked",
+        "note": "同上"
+      }
+    },
+    {
+      "text": "°C",
+      "quantity_kind": "temperature",
+      "status": "approved",
+      "standard": {
+        "name": "QUDT",
+        "term": null,
+        "check_status": "unchecked",
+        "note": "同上"
+      }
+    },
+    {
+      "text": "min",
+      "quantity_kind": "time",
+      "status": "approved",
+      "standard": {
+        "name": "QUDT",
+        "term": null,
+        "check_status": "unchecked",
+        "note": "同上"
+      }
+    },
+    {
+      "text": "mV",
+      "quantity_kind": "potential",
+      "status": "proposed",
+      "standard": {
+        "name": "QUDT",
+        "term": null,
+        "check_status": "unchecked",
+        "note": "语料未出现具体 mV 值"
+      }
+    },
+    {
+      "text": "A·dm–2",
+      "quantity_kind": "current_density",
+      "status": "proposed",
+      "standard": {
+        "name": "QUDT",
+        "term": null,
+        "check_status": "unchecked",
+        "note": "语料未出现具体值"
+      }
+    },
+    {
+      "text": "nm",
+      "quantity_kind": "length",
+      "status": "proposed",
+      "standard": {
+        "name": "QUDT",
+        "term": null,
+        "check_status": "unchecked",
+        "note": "语料未出现具体值"
+      }
+    }
+  ],
+  "promotion": {
+    "states": [
+      "candidate",
+      "proposed",
+      "approved",
+      "deprecated"
+    ],
+    "rules": [
+      "candidate/proposed/approved/deprecated管理术语映射，不管理文献结论强弱。",
+      "单篇明确原文与清楚定义即可支持登记；无统一至少两篇门槛。",
+      "晋升或合并仍须记录依据并保留旧id；多来源代表支持广度，不自动代表真值。",
+      "别名只用于召回；身份合并另按identity_rules执行。"
+    ]
+  },
+  "alias_policy": "别名用于召回提示，不构成同一性；别名跨篇不复用，除非 identity 已 reviewed。",
+  "representation_policy": {
+    "question": "什么存成属性、什么必须升成节点",
+    "rules": [
+      "需要被独立引用、独立参与关系、或被反复按名查询的对象，升成节点（entities/mentions）。",
+      "浓度、温度、时间、用量等带单位与归属的量，作为条件的结构化属性（conditions[].value），不升节点。",
+      "指标值（电阻率、晶粒尺寸、纯度等）作为 outcomes 的结构化属性；一旦要跨实验比较，必须先值化：value_kind=numeric + unit_status=reported。",
+      "无法值化的量保留原串并标定性/缺失，不造占位数值。",
+      "角色不是节点，是事实内的受控多选取值（role_assignments），因为角色随条件变化。",
+      "属性要升节点必须给出理由：会被独立引用/参与关系/反复查询；否则一律留作属性。"
+    ],
+    "checked_by": [
+      "quantity.unit_status",
+      "outcomes.value_kind",
+      "role_assignments"
+    ]
+  }
+}

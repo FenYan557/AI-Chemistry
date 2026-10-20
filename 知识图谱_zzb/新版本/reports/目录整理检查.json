@@ -1,0 +1,22 @@
+{
+  "active_markdown_checked": [
+    "README.md",
+    "归档/README.md",
+    "docs/MASTER.md",
+    "docs/v4重建说明.md",
+    "docs/新旧版本区别与优势.md",
+    "docs/本schema文字详解.md",
+    "schema/schema.md"
+  ],
+  "broken_links": [],
+  "archived_files": 10,
+  "hash_mismatches": [],
+  "active_runtime_stale_references": [],
+  "docs_current": [
+    "MASTER.md",
+    "v4重建说明.md",
+    "新旧版本区别与优势.md",
+    "本schema文字详解.md"
+  ],
+  "scope": "新版内历史归档；邻近旧版只读保留"
+}

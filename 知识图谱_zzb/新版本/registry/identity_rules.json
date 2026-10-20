@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "status": "draft",
+  "not_gold": true,
+  "scope_note": "标识与合并规则；目标不是一次性消歧，而是让每次合并/拆分都可追溯、可撤销。别名与结构消歧本体仍暂缓。",
+  "id_scheme": [
+    {"record": "documents", "pattern": "doc:<清洗产物文件名主干>", "stable": true, "note": "与 corpus_manifest 的 document_id 一致，不随标题改。"},
+    {"record": "blocks", "pattern": "blk:<源文件块ID>", "stable": true, "note": "直接沿用清洗产物 block_id。"},
+    {"record": "mentions", "pattern": "m:<语义短名> 或 m:<doc略写>:<短名>", "stable": true, "note": "篇内唯一即可；跨篇重名不构成同一性。"},
+    {"record": "identities", "pattern": "identity:<document|global>:<slug>", "stable": true, "note": "global 身份须有已核证据；篇内身份带 doc 前缀。"},
+    {"record": "facts", "pattern": "f:<主题>:<判别后缀>", "stable": true, "note": "事实 id 不复用；条件不同的同主题事实用不同后缀。"},
+    {"record": "role_assignments", "pattern": "role:<主体>:<角色>[:<条件>]", "stable": true, "note": "同事实同主体同角色只允许一条。"},
+    {"record": "entities", "pattern": "ent:<mention_id>", "stable": true, "note": "物化层派生 id，不独立编辑；由事实层重建。"},
+    {"record": "edges", "pattern": "edge:<fact_id>:<序号>", "stable": true, "note": "序号按 participants 顺序，保证同输入同输出。"}
+  ],
+  "rules": [
+    "身份只在篇内由作者显式措辞或结构证据建立；跨篇合并必须另有 reviewed 依据，不得用同名/同缩写自动合并。",
+    "盐型、电荷、水合物、立体化学、规格是 distinctions，任一项不同即不得合并为同一身份。",
+    "不把 InChIKey 或外部数据库 ID 当作全局身份的等价物；只作 external_ref 与候选依据。",
+    "提及与身份分离：mention 保留原文表面串，identity 才承载规范名；合并/拆分只作用于 identity。",
+    "任何合并必须先写 identity_merges 记录再物化：pending 的合并不改变实体指向，reviewed 的合并才影响 identities 与 entities。",
+    "拆分不删除旧身份：旧身份保留并标 status=unresolved，新增身份与之建立 distinct_from 记录。",
+    "身份 id 一经使用不复用；写错只能标 deprecated 并留映射，不重命名历史记录。",
+    "跨来源对齐（PubChem/ChEBI）只产生 candidate 记录；reviewed 需要人工核对并给 match_status=reviewed。"
+  ],
+  "merge_protocol": {
+    "record": "identity_merges",
+    "states": ["pending", "reviewed"],
+    "same_as_requires": ["review=reviewed", "basis in {author_explicit, structure}", "evidence 非空", "两侧 identity.status=reviewed"],
+    "distinct_from_requires": ["evidence 非空"],
+    "forbidden": [
+      "basis=name_candidate 且 review=reviewed 的 same_as",
+      "document 作用域的两个不同文献身份直接 same_as（须先取得 global 依据）",
+      "同一对身份同时存在 same_as 与 distinct_from",
+      "只改 identities.status 而不写 identity_merges 的静默合并"
+    ],
+    "record_fields": ["id", "from_identity_id", "to_identity_id", "relation", "basis", "review", "evidence", "rationale", "note"]
+  },
+  "cross_source_alignment": {
+    "resources": ["pubchem", "chebi"],
+    "policy": "外部命中只作候选，保存回应哈希与查询时间；不得覆盖文献断言，不得用外部 ID 反向改写原文表面串。",
+    "external_record_required": ["resource", "resource_id", "retrieved_at", "response_sha256", "cache_file", "match_status", "identity_basis"]
+  }
+}

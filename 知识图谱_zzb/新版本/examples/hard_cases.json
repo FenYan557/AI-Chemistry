@@ -1,0 +1,1726 @@
+{
+  "documents": [
+    {
+      "id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "title": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+      "source_file": "清洗/02_清洗/out/blocks/腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究.jsonl",
+      "sha256": "ae413a7f7d9d12e8bbc6da7f3cd20621b51980393cd7c1c1e125fc238a6b9cd6",
+      "source_kind": "cleaned_text"
+    },
+    {
+      "id": "糖精对镀钴层结构_导电能力的改变",
+      "title": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+      "source_file": "清洗/02_清洗/out/blocks/糖精对镀钴层结构_导电能力的改变.jsonl",
+      "sha256": "bd3b1bda51d76059ba19e8c9c8759bfc2672e2481f877ee9f4acbd51e48f4730",
+      "source_kind": "cleaned_text"
+    },
+    {
+      "id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "title": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+      "source_file": "清洗/02_清洗/out/blocks/烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究.jsonl",
+      "sha256": "e1b5a08fb85cff2e3485c77e0dd76580f26ad3b76b863fa241407800f1eeb076",
+      "source_kind": "cleaned_text"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "blk:7cf3c70d130e763f",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "page": 1,
+      "section": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole > ABSTRACT",
+      "text": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole. Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution. The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis. Based on the changes of the ADO adsorption sites from the MD and E-FTIR analyses, an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition. Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+    },
+    {
+      "id": "blk:8b1aeebd56a70e1a",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "page": 8,
+      "section": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole > 4. Conclusion",
+      "text": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition."
+    },
+    {
+      "id": "blk:cf5b948c8b59760d",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "page": 1,
+      "section": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating > Abstract",
+      "text": "In the process of electroless cobalt plating, the saccharin additive can significantly change the surface morphology, texture orientation, and conductivity of the cobalt coating layer. When the amount of saccharin was 3 mg·L –1, the cobalt coating transformed from disordered large grains to a honeycomb structure, with a preferred orientation of (002) facet on hexagonal close-packed (HCP) cobalt crystals. The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment. When the concentration of saccharin was increased, the grain size was gradually refined and a “stone forest” structure was observed, with the preferred orientation remaining unchanged. The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent. Through the study of the crystallization behavior of cobalt electroless plating, saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane, inhibiting the growth of abc stacking arrangement and inducing the crystal growth in ab stacking mode, thereby achieving optimal growth of HCP (002) texture."
+    },
+    {
+      "id": "blk:17bf049326751a44",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "page": 9,
+      "section": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation > 4. Conclusion",
+      "text": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m:dft",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "density functional theory calculations",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 366,
+        "end": 404,
+        "quote": "density functional theory calculations"
+      },
+      "candidate_type_ids": [
+        "t22"
+      ]
+    },
+    {
+      "id": "m:md",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "molecular dynamics (MD) simulation",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 406,
+        "end": 440,
+        "quote": "molecular dynamics (MD) simulation"
+      },
+      "candidate_type_ids": [
+        "t22"
+      ]
+    },
+    {
+      "id": "m:eftir",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 446,
+        "end": 524,
+        "quote": "electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests"
+      },
+      "candidate_type_ids": [
+        "t23"
+      ]
+    },
+    {
+      "id": "m:ado",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "ADO",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 11,
+        "end": 14,
+        "quote": "ADO"
+      },
+      "candidate_type_ids": [
+        "t1"
+      ]
+    },
+    {
+      "id": "m:grain_refine",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "grain refinement effect",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 949,
+        "end": 972,
+        "quote": "grain refinement effect"
+      },
+      "candidate_type_ids": [
+        "t34"
+      ]
+    },
+    {
+      "id": "m:plane002",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "Co hcp (002) crystalline plane",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 1011,
+        "end": 1041,
+        "quote": "Co hcp (002) crystalline plane"
+      },
+      "candidate_type_ids": [
+        "t9"
+      ]
+    },
+    {
+      "id": "m:saccharin",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "saccharin",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 50,
+        "end": 59,
+        "quote": "saccharin"
+      },
+      "candidate_type_ids": [
+        "t1"
+      ]
+    },
+    {
+      "id": "m:grain_size",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "grain size",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 590,
+        "end": 600,
+        "quote": "grain size"
+      },
+      "candidate_type_ids": [
+        "t14"
+      ]
+    },
+    {
+      "id": "m:stone_forest",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "“stone forest” structure",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 629,
+        "end": 653,
+        "quote": "“stone forest” structure"
+      },
+      "candidate_type_ids": [
+        "t13"
+      ]
+    },
+    {
+      "id": "m:purity",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "purity of cobalt coating",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 773,
+        "end": 797,
+        "quote": "purity of cobalt coating"
+      },
+      "candidate_type_ids": [
+        "t16"
+      ]
+    },
+    {
+      "id": "m:c_sites",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "specific c-sites on the cobalt dense crystal plane",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 934,
+        "end": 984,
+        "quote": "specific c-sites on the cobalt dense crystal plane"
+      },
+      "candidate_type_ids": [
+        "t8"
+      ]
+    },
+    {
+      "id": "m:stacking",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "the growth of abc stacking arrangement",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 997,
+        "end": 1035,
+        "quote": "the growth of abc stacking arrangement"
+      },
+      "candidate_type_ids": [
+        "t11"
+      ]
+    },
+    {
+      "id": "m:facet002",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "(002) facet",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 347,
+        "end": 358,
+        "quote": "(002) facet"
+      },
+      "candidate_type_ids": [
+        "t9"
+      ]
+    },
+    {
+      "id": "m:texture_hcp002",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "HCP (002) texture",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 1125,
+        "end": 1142,
+        "quote": "HCP (002) texture"
+      },
+      "candidate_type_ids": [
+        "t12"
+      ]
+    },
+    {
+      "id": "m:na",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "surface": "NA",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:17bf049326751a44",
+        "start": 44,
+        "end": 46,
+        "quote": "NA"
+      },
+      "candidate_type_ids": [
+        "t1"
+      ]
+    },
+    {
+      "id": "m:post_cmp",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "surface": "post CMP cleaning",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:17bf049326751a44",
+        "start": 492,
+        "end": 509,
+        "quote": "post CMP cleaning"
+      },
+      "candidate_type_ids": [
+        "t30"
+      ]
+    },
+    {
+      "id": "m:film",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "cobalt film",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 431,
+        "end": 442,
+        "quote": "cobalt film"
+      },
+      "candidate_type_ids": []
+    },
+    {
+      "id": "m:anneal",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "surface": "annealing treatment",
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:cf5b948c8b59760d",
+        "start": 514,
+        "end": 533,
+        "quote": "annealing treatment"
+      },
+      "candidate_type_ids": []
+    }
+  ],
+  "identities": [
+    {
+      "id": "identity:doc:plane002",
+      "canonical_label": "Co hcp (002) crystalline plane",
+      "scope": "document",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "status": "candidate",
+      "external_refs": [],
+      "distinctions": {
+        "charge": null,
+        "salt_form": null,
+        "hydrate": null,
+        "stereochemistry": null,
+        "specification": null
+      }
+    },
+    {
+      "id": "identity:doc:facet002",
+      "canonical_label": "(002) facet",
+      "scope": "document",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "status": "candidate",
+      "external_refs": [],
+      "distinctions": {
+        "charge": null,
+        "salt_form": null,
+        "hydrate": null,
+        "stereochemistry": null,
+        "specification": null
+      }
+    },
+    {
+      "id": "identity:doc:texture002",
+      "canonical_label": "HCP (002) texture",
+      "scope": "document",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "status": "candidate",
+      "external_refs": [],
+      "distinctions": {
+        "charge": null,
+        "salt_form": null,
+        "hydrate": null,
+        "stereochemistry": null,
+        "specification": null
+      }
+    }
+  ],
+  "identity_links": [
+    {
+      "mention_id": "m:plane002",
+      "identity_id": "identity:doc:plane002",
+      "basis": "author_explicit",
+      "review": "pending",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 1011,
+          "end": 1041,
+          "quote": "Co hcp (002) crystalline plane"
+        }
+      ],
+      "external_ref": null
+    },
+    {
+      "mention_id": "m:facet002",
+      "identity_id": "identity:doc:facet002",
+      "basis": "name_candidate",
+      "review": "pending",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 347,
+          "end": 358,
+          "quote": "(002) facet"
+        }
+      ],
+      "external_ref": null
+    },
+    {
+      "mention_id": "m:texture_hcp002",
+      "identity_id": "identity:doc:texture002",
+      "basis": "name_candidate",
+      "review": "pending",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 1125,
+          "end": 1142,
+          "quote": "HCP (002) texture"
+        }
+      ],
+      "external_ref": null
+    }
+  ],
+  "external_records": [],
+  "facts": [
+    {
+      "id": "h:methods",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "group_id": null,
+      "relation": {
+        "raw": "was investigated using",
+        "definition": "以多种方法研究同一吸附行为；方法为手段而非结论。",
+        "candidate_relation_id": null
+      },
+      "participants": [
+        {
+          "mention_id": "m:ado",
+          "role": "studied_substance"
+        },
+        {
+          "mention_id": "m:dft",
+          "role": "method"
+        },
+        {
+          "mention_id": "m:md",
+          "role": "method"
+        },
+        {
+          "mention_id": "m:eftir",
+          "role": "method"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [],
+      "statement_type": "calculation_result",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 290,
+          "end": 525,
+          "quote": "The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests."
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-hardcases-1"
+      },
+      "notes": [
+        "真实片段按协议手工映射，用于检验表达力；不是模型抽取或金标。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "h:surface_two_outcomes",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "group_id": null,
+      "relation": {
+        "raw": "Surface analysis revealed that",
+        "definition": "同一研究的两项并列观测，分别可核。",
+        "candidate_relation_id": "r7"
+      },
+      "participants": [
+        {
+          "mention_id": "m:ado",
+          "role": "agent"
+        },
+        {
+          "mention_id": "m:grain_refine",
+          "role": "observed_effect"
+        },
+        {
+          "mention_id": "m:plane002",
+          "role": "observed_effect"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [
+        {
+          "indicator_raw": "grain refinement",
+          "value": {
+            "value_raw": null,
+            "value_kind": "absent",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "direction": "unknown",
+          "stage_raw": null,
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 949,
+              "end": 972,
+              "quote": "grain refinement effect"
+            }
+          ],
+          "sample_id": null,
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          }
+        },
+        {
+          "indicator_raw": "preferred crystalline plane",
+          "value": {
+            "value_raw": "Co hcp (002)",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "direction": "unknown",
+          "stage_raw": null,
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 1011,
+              "end": 1067,
+              "quote": "Co hcp (002) crystalline plane was preferentially formed"
+            }
+          ],
+          "sample_id": null,
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          }
+        }
+      ],
+      "statement_type": "observation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 902,
+          "end": 1068,
+          "quote": "Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-hardcases-1"
+      },
+      "notes": [
+        "真实片段按协议手工映射，用于检验表达力；不是模型抽取或金标。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "h:stone_forest",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "group_id": null,
+      "relation": {
+        "raw": "was observed",
+        "definition": "定性形貌观测，原文无数值。",
+        "candidate_relation_id": "r7"
+      },
+      "participants": [
+        {
+          "mention_id": "m:saccharin",
+          "role": "agent"
+        },
+        {
+          "mention_id": "m:grain_size",
+          "role": "affected_property"
+        },
+        {
+          "mention_id": "m:stone_forest",
+          "role": "observed_structure"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [],
+      "statement_type": "observation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 586,
+          "end": 666,
+          "quote": "the grain size was gradually refined and a “stone forest” structure was observed"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-hardcases-1"
+      },
+      "notes": [
+        "真实片段按协议手工映射，用于检验表达力；不是模型抽取或金标。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "h:purity_hedged",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "group_id": null,
+      "relation": {
+        "raw": "slightly improves",
+        "definition": "作者用保留措辞描述纯度改善；程度未量化，用 magnitude 保留原措辞。",
+        "candidate_relation_id": "r7"
+      },
+      "participants": [
+        {
+          "mention_id": "m:saccharin",
+          "role": "agent"
+        },
+        {
+          "mention_id": "m:purity",
+          "role": "affected_property"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [
+        {
+          "indicator_raw": "purity of cobalt coating",
+          "value": {
+            "value_raw": "slightly improves",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "direction": "increase",
+          "stage_raw": null,
+          "magnitude": {
+            "raw": "slightly",
+            "qualifier": "slight"
+          },
+          "comparison": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          },
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 751,
+              "end": 817,
+              "quote": "slightly improves the purity of cobalt coating to a certain extent"
+            }
+          ],
+          "sample_id": null
+        }
+      ],
+      "statement_type": "observation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "hedged",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 720,
+          "end": 818,
+          "quote": "The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent."
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-hardcases-1"
+      },
+      "notes": [
+        "真实片段按协议手工映射，用于检验表达力；不是模型抽取或金标。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "h:adsorption_mechanism",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "group_id": null,
+      "relation": {
+        "raw": "can adsorb to",
+        "definition": "作者提出的吸附与生长抑制机理假说。",
+        "candidate_relation_id": null
+      },
+      "participants": [
+        {
+          "mention_id": "m:saccharin",
+          "role": "proposed_agent"
+        },
+        {
+          "mention_id": "m:c_sites",
+          "role": "proposed_site"
+        },
+        {
+          "mention_id": "m:stacking",
+          "role": "inhibited_process"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [],
+      "statement_type": "author_interpretation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 900,
+          "end": 1035,
+          "quote": "saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane, inhibiting the growth of abc stacking arrangement"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-hardcases-1"
+      },
+      "notes": [
+        "真实片段按协议手工映射，用于检验表达力；不是模型抽取或金标。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "h:adsorption",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "group_id": null,
+      "relation": {
+        "raw": "can adsorb to",
+        "definition": "糖精分子在钴密排晶面特定位点吸附（已登记关系 r11 的签名正例）。",
+        "candidate_relation_id": "r11"
+      },
+      "participants": [
+        {
+          "mention_id": "m:saccharin",
+          "role": "adsorbate"
+        },
+        {
+          "mention_id": "m:c_sites",
+          "role": "site"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [],
+      "statement_type": "author_interpretation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 900,
+          "end": 984,
+          "quote": "saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-hardcases-1"
+      },
+      "notes": [
+        "真实片段按协议手工映射，用于检验表达力；不是模型抽取或金标。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "h:post_cmp_prediction",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "group_id": null,
+      "relation": {
+        "raw": "will help to improve",
+        "definition": "作者预测未来清洗收益，非已观测结果。",
+        "candidate_relation_id": null
+      },
+      "participants": [
+        {
+          "mention_id": "m:na",
+          "role": "agent"
+        },
+        {
+          "mention_id": "m:post_cmp",
+          "role": "predicted_benefit"
+        }
+      ],
+      "conditions": [],
+      "outcomes": [],
+      "statement_type": "future_work",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "speculative",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 397,
+          "end": 510,
+          "quote": "Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v3-hardcases-1"
+      },
+      "notes": [
+        "真实片段按协议手工映射，用于检验表达力；不是模型抽取或金标。"
+      ],
+      "run_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      }
+    },
+    {
+      "id": "h:annealed_resistivity",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "group_id": "group:film:resistivity",
+      "run_id": "r:saccharin-amount",
+      "relation": {
+        "raw": "further decreased to",
+        "definition": "退火后电阻率进一步下降；只记录条件与归属，不推断机理。",
+        "candidate_relation_id": "r9"
+      },
+      "participants": [
+        {
+          "mention_id": "m:film",
+          "role": "measured_object"
+        },
+        {
+          "mention_id": "m:anneal",
+          "role": "treatment"
+        },
+        {
+          "mention_id": "m:saccharin",
+          "role": "additive_under_test"
+        }
+      ],
+      "conditions": [
+        {
+          "parameter_raw": "amount of saccharin",
+          "candidate_parameter": null,
+          "about_mention_ids": [
+            "m:saccharin"
+          ],
+          "value": {
+            "value_raw": "3 mg·L –1",
+            "value_kind": "numeric",
+            "unit_raw": "mg·L–1",
+            "unit_status": "reported"
+          },
+          "scope_status": "explicit",
+          "inherited": true,
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 190,
+              "end": 227,
+              "quote": "the amount of saccharin was 3 mg·L –1"
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "indicator_raw": "resistivity",
+          "value": {
+            "value_raw": "10.7",
+            "value_kind": "numeric",
+            "unit_raw": "μΩ·cm",
+            "unit_status": "reported"
+          },
+          "direction": "decrease",
+          "stage_raw": "after the annealing treatment",
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "explicit",
+            "baseline_raw": "14.4 μΩ·cm",
+            "baseline_mention_id": null,
+            "basis_raw": null,
+            "evidence": [
+              {
+                "kind": "block",
+                "block_id": "blk:cf5b948c8b59760d",
+                "start": 456,
+                "end": 466,
+                "quote": "14.4 μΩ·cm"
+              }
+            ]
+          },
+          "sample_id": "s:film-annealed",
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 472,
+              "end": 533,
+              "quote": "further decreased to 10.7 μΩ·cm after the annealing treatment"
+            }
+          ]
+        }
+      ],
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      },
+      "statement_type": "observation",
+      "source_scope": "this_study",
+      "polarity": "asserted",
+      "modality": "explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 472,
+          "end": 533,
+          "quote": "further decreased to 10.7 μΩ·cm after the annealing treatment"
+        }
+      ],
+      "review": "pending",
+      "extraction": {
+        "method": "deterministic_protocol_example_mapping",
+        "model": null,
+        "protocol_version": "v2-hardcases-1"
+      },
+      "notes": [
+        "条件由 Run 继承，结果绑定退火后样品；不把改善归因于糖精。"
+      ]
+    }
+  ],
+  "schema_version": "4.0.0-draft",
+  "role_assignments": [
+    {
+      "id": "hard:role:ado:unknown",
+      "fact_id": "h:surface_two_outcomes",
+      "subject_mention_id": "m:ado",
+      "functional_role": "unknown",
+      "role_raw": null,
+      "role_basis": "unknown",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 949,
+          "end": 972,
+          "quote": "grain refinement effect"
+        }
+      ],
+      "note": "摘要未给功能角色名称；观测到细化不等于整平剂。"
+    },
+    {
+      "id": "hard:role:saccharin:unknown",
+      "fact_id": "h:purity_hedged",
+      "subject_mention_id": "m:saccharin",
+      "functional_role": "unknown",
+      "role_raw": null,
+      "role_basis": "unknown",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 50,
+          "end": 59,
+          "quote": "saccharin"
+        }
+      ],
+      "note": "原文只称 additive，未给受控角色。"
+    },
+    {
+      "id": "hard:role:na:other",
+      "fact_id": "h:post_cmp_prediction",
+      "subject_mention_id": "m:na",
+      "functional_role": "other",
+      "role_raw": "an effective potential inhibitor for Co CMP",
+      "role_basis": "author_explicit",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 302,
+          "end": 367,
+          "quote": "NA is suggested to be an effective potential inhibitor for Co CMP"
+        }
+      ],
+      "note": "CMP语境；不并入电沉积suppressor。"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "e:pretreatment",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "表1 前处理流程（只取一个单元格作锚点示例，未核对全表工艺）",
+      "shared_note": "该表为前处理步骤表；本轮不据此推断电镀工艺。",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "糖精对镀钴层结构_导电能力的改变__p2_0",
+          "row": 0,
+          "col": 0,
+          "cell_raw": "Step"
+        }
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "id": "r:pretreat",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "experiment_id": "e:pretreatment",
+      "label": "前处理第1步（脱脂）",
+      "conditions": [
+        {
+          "parameter_raw": "temperature",
+          "value": {
+            "value_raw": "80 °C, 15 min",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "糖精对镀钴层结构_导电能力的改变__p2_0",
+              "row": 1,
+              "col": 2,
+              "cell_raw": "80 °C, 15 min"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "糖精对镀钴层结构_导电能力的改变__p2_0",
+          "row": 1,
+          "col": 0,
+          "cell_raw": "Degreasing"
+        }
+      ]
+    },
+    {
+      "id": "r:saccharin-amount",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "experiment_id": null,
+      "label": "糖精用量条件（正文报道）",
+      "conditions": [
+        {
+          "parameter_raw": "amount of saccharin",
+          "value": {
+            "value_raw": "3 mg·L –1",
+            "value_kind": "numeric",
+            "unit_raw": "mg·L–1",
+            "unit_status": "reported"
+          },
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:cf5b948c8b59760d",
+              "start": 190,
+              "end": 227,
+              "quote": "the amount of saccharin was 3 mg·L –1"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 190,
+          "end": 227,
+          "quote": "the amount of saccharin was 3 mg·L –1"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "s:film",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "镀态钴膜",
+      "material_raw": "cobalt",
+      "form_raw": "film",
+      "state_raw": "as-deposited",
+      "treatment_raw": null,
+      "derived_from_sample_id": null,
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 431,
+          "end": 442,
+          "quote": "cobalt film"
+        }
+      ]
+    },
+    {
+      "id": "s:film-annealed",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "退火后钴膜",
+      "material_raw": "cobalt",
+      "form_raw": "film",
+      "state_raw": "annealed",
+      "treatment_raw": "annealing treatment",
+      "derived_from_sample_id": "s:film",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 504,
+          "end": 533,
+          "quote": "after the annealing treatment"
+        }
+      ]
+    }
+  ],
+  "identity_merges": [
+    {
+      "id": "merge:plane-facet",
+      "from_identity_id": "identity:doc:plane002",
+      "to_identity_id": "identity:doc:facet002",
+      "relation": "same_as",
+      "basis": "name_candidate",
+      "review": "pending",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 1011,
+          "end": 1041,
+          "quote": "Co hcp (002) crystalline plane"
+        },
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 347,
+          "end": 358,
+          "quote": "(002) facet"
+        }
+      ],
+      "rationale": "两篇都指 (002) 密排面，但一处讲晶面偏好、一处讲取向；跨篇是否同一身份未核，只记候选。",
+      "note": "pending 合并只留痕，不改变 entities.identity_id。"
+    },
+    {
+      "id": "merge:plane-texture",
+      "from_identity_id": "identity:doc:plane002",
+      "to_identity_id": "identity:doc:texture002",
+      "relation": "distinct_from",
+      "basis": "author_explicit",
+      "review": "pending",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 1011,
+          "end": 1041,
+          "quote": "Co hcp (002) crystalline plane"
+        },
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 1125,
+          "end": 1142,
+          "quote": "HCP (002) texture"
+        }
+      ],
+      "rationale": "晶面与织构是不同层次，密勒指数相同也不合并；拒并同样留痕。",
+      "note": "split/refuse 记录，便于后续审计。"
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent:m:dft",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "density functional theory calculations",
+      "type_id": "t22",
+      "identity_id": null,
+      "from_mention_id": "m:dft",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 366,
+          "end": 404,
+          "quote": "density functional theory calculations"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:md",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "molecular dynamics (MD) simulation",
+      "type_id": "t22",
+      "identity_id": null,
+      "from_mention_id": "m:md",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 406,
+          "end": 440,
+          "quote": "molecular dynamics (MD) simulation"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:eftir",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests",
+      "type_id": "t23",
+      "identity_id": null,
+      "from_mention_id": "m:eftir",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 446,
+          "end": 524,
+          "quote": "electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:ado",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "ADO",
+      "type_id": "t1",
+      "identity_id": null,
+      "from_mention_id": "m:ado",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 11,
+          "end": 14,
+          "quote": "ADO"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:grain_refine",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "grain refinement effect",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:grain_refine",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 949,
+          "end": 972,
+          "quote": "grain refinement effect"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:plane002",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "Co hcp (002) crystalline plane",
+      "type_id": "t9",
+      "identity_id": null,
+      "from_mention_id": "m:plane002",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 1011,
+          "end": 1041,
+          "quote": "Co hcp (002) crystalline plane"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:saccharin",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "saccharin",
+      "type_id": "t1",
+      "identity_id": null,
+      "from_mention_id": "m:saccharin",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 50,
+          "end": 59,
+          "quote": "saccharin"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:grain_size",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "grain size",
+      "type_id": "t14",
+      "identity_id": null,
+      "from_mention_id": "m:grain_size",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 590,
+          "end": 600,
+          "quote": "grain size"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:stone_forest",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "“stone forest” structure",
+      "type_id": "t13",
+      "identity_id": null,
+      "from_mention_id": "m:stone_forest",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 629,
+          "end": 653,
+          "quote": "“stone forest” structure"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:purity",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "purity of cobalt coating",
+      "type_id": "t16",
+      "identity_id": null,
+      "from_mention_id": "m:purity",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 773,
+          "end": 797,
+          "quote": "purity of cobalt coating"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:c_sites",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "specific c-sites on the cobalt dense crystal plane",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:c_sites",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 934,
+          "end": 984,
+          "quote": "specific c-sites on the cobalt dense crystal plane"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:stacking",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "the growth of abc stacking arrangement",
+      "type_id": "t11",
+      "identity_id": null,
+      "from_mention_id": "m:stacking",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 997,
+          "end": 1035,
+          "quote": "the growth of abc stacking arrangement"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:facet002",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "(002) facet",
+      "type_id": "t9",
+      "identity_id": null,
+      "from_mention_id": "m:facet002",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 347,
+          "end": 358,
+          "quote": "(002) facet"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:texture_hcp002",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "HCP (002) texture",
+      "type_id": "t12",
+      "identity_id": null,
+      "from_mention_id": "m:texture_hcp002",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 1125,
+          "end": 1142,
+          "quote": "HCP (002) texture"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:na",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "label": "NA",
+      "type_id": "t1",
+      "identity_id": null,
+      "from_mention_id": "m:na",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 44,
+          "end": 46,
+          "quote": "NA"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:post_cmp",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "label": "post CMP cleaning",
+      "type_id": "t30",
+      "identity_id": null,
+      "from_mention_id": "m:post_cmp",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:17bf049326751a44",
+          "start": 492,
+          "end": 509,
+          "quote": "post CMP cleaning"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:film",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "cobalt film",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:film",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 431,
+          "end": 442,
+          "quote": "cobalt film"
+        }
+      ]
+    },
+    {
+      "id": "ent:m:anneal",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "label": "annealing treatment",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:anneal",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 514,
+          "end": 533,
+          "quote": "annealing treatment"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:h:surface_two_outcomes:1",
+      "fact_id": "h:surface_two_outcomes",
+      "from_entity_id": "ent:m:ado",
+      "to_entity_id": "ent:m:grain_refine",
+      "relation": {
+        "raw": "Surface analysis revealed that",
+        "definition": "同一研究的两项并列观测，分别可核。",
+        "candidate_relation_id": "r7"
+      },
+      "qualifiers": {
+        "statement_type": "observation",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "explicit",
+        "conditions": []
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 902,
+          "end": 1068,
+          "quote": "Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+        }
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "edge:h:surface_two_outcomes:2",
+      "fact_id": "h:surface_two_outcomes",
+      "from_entity_id": "ent:m:ado",
+      "to_entity_id": "ent:m:plane002",
+      "relation": {
+        "raw": "Surface analysis revealed that",
+        "definition": "同一研究的两项并列观测，分别可核。",
+        "candidate_relation_id": "r7"
+      },
+      "qualifiers": {
+        "statement_type": "observation",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "explicit",
+        "conditions": []
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 902,
+          "end": 1068,
+          "quote": "Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+        }
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "edge:h:stone_forest:1",
+      "fact_id": "h:stone_forest",
+      "from_entity_id": "ent:m:saccharin",
+      "to_entity_id": "ent:m:grain_size",
+      "relation": {
+        "raw": "was observed",
+        "definition": "定性形貌观测，原文无数值。",
+        "candidate_relation_id": "r7"
+      },
+      "qualifiers": {
+        "statement_type": "observation",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "explicit",
+        "conditions": []
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 586,
+          "end": 666,
+          "quote": "the grain size was gradually refined and a “stone forest” structure was observed"
+        }
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "edge:h:stone_forest:2",
+      "fact_id": "h:stone_forest",
+      "from_entity_id": "ent:m:saccharin",
+      "to_entity_id": "ent:m:stone_forest",
+      "relation": {
+        "raw": "was observed",
+        "definition": "定性形貌观测，原文无数值。",
+        "candidate_relation_id": "r7"
+      },
+      "qualifiers": {
+        "statement_type": "observation",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "explicit",
+        "conditions": []
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 586,
+          "end": 666,
+          "quote": "the grain size was gradually refined and a “stone forest” structure was observed"
+        }
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "edge:h:purity_hedged:1",
+      "fact_id": "h:purity_hedged",
+      "from_entity_id": "ent:m:saccharin",
+      "to_entity_id": "ent:m:purity",
+      "relation": {
+        "raw": "slightly improves",
+        "definition": "作者用保留措辞描述纯度改善；程度未量化，用 magnitude 保留原措辞。",
+        "candidate_relation_id": "r7"
+      },
+      "qualifiers": {
+        "statement_type": "observation",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "hedged",
+        "conditions": []
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 720,
+          "end": 818,
+          "quote": "The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent."
+        }
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "edge:h:adsorption:1",
+      "fact_id": "h:adsorption",
+      "from_entity_id": "ent:m:saccharin",
+      "to_entity_id": "ent:m:c_sites",
+      "relation": {
+        "raw": "can adsorb to",
+        "definition": "糖精分子在钴密排晶面特定位点吸附（已登记关系 r11 的签名正例）。",
+        "candidate_relation_id": "r11"
+      },
+      "qualifiers": {
+        "statement_type": "author_interpretation",
+        "source_scope": "this_study",
+        "polarity": "asserted",
+        "modality": "explicit",
+        "conditions": []
+      },
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:cf5b948c8b59760d",
+          "start": 900,
+          "end": 984,
+          "quote": "saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane"
+        }
+      ],
+      "review": "pending"
+    }
+  ]
+}

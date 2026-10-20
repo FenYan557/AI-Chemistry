@@ -1,0 +1,51 @@
+{
+  "version": "0.1",
+  "status": "provisional_controlled_vocabulary",
+  "not_proven_complete": true,
+  "selection_object": "某物质在某条使用性事实（含条件）中的功能角色，不是物质永久标签",
+  "options": [
+    {
+      "id": "accelerator",
+      "zh": "加速剂",
+      "definition": "原文或实验结果指明其促进沉积、填充或相关指标的作用方向"
+    },
+    {
+      "id": "suppressor",
+      "zh": "抑制剂",
+      "definition": "原文或实验结果指明其抑制沉积、填充或相关指标的作用方向"
+    },
+    {
+      "id": "leveler",
+      "zh": "整平剂",
+      "definition": "原文明确以整平为功能定位"
+    },
+    {
+      "id": "carrier",
+      "zh": "载体类功能角色",
+      "definition": "原文明确以 carrier/载体作为功能性角色；不因它是主介质就自动选中"
+    },
+    {
+      "id": "brightener",
+      "zh": "光亮剂",
+      "definition": "原文明确以光亮或晶粒细化等表面外观功能定位"
+    },
+    {
+      "id": "other",
+      "zh": "其他已明确角色",
+      "definition": "原文明确给出角色，但不在上述清单；必须保留role_raw"
+    },
+    {
+      "id": "unknown",
+      "zh": "无法判断",
+      "definition": "证据不足或原文未说明角色；不得与已确定选项混填"
+    }
+  ],
+  "rules": [
+    "允许多选，但每项须有原文证据且绑定具体使用性事实与其条件",
+    "同一物质在不同浓度/阶段/体系取不同角色时，绑定到不同事实，不合并为无条件多角色",
+    "role_basis=author_explicit 必须给出role_raw；effect_inference 只作候选；unknown 不得猜造",
+    "other 必须保存原文角色措辞",
+    "加速/抑制须指明作用对象；提高电导率等不自动等于电沉积加速",
+    "未来工作、假说、转述保留陈述性质；选中角色不等于已被实验验证"
+  ]
+}

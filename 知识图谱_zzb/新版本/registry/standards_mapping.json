@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "status": "partial",
+  "not_gold": true,
+  "note": "只借字段语义，不引入整本体；未离线核对的术语一律留 null，不编造 IRI。",
+  "mappings": [
+    {
+      "standard": "PROV-O",
+      "part": "Entity / Activity / wasGeneratedBy / wasDerivedFrom",
+      "use": "来源与抽取活动：文献是实体，抽取是活动，记录由活动产生",
+      "our_fields": ["documents", "blocks", "facts.extraction", "facts.evidence"],
+      "status": "mapped_partial",
+      "checked": false,
+      "note": "没有引入 PROV 的三元组序列化，只用其语义区分“谁说/何时说/基于什么”。"
+    },
+    {
+      "standard": "SOSA",
+      "part": "Observation / observedProperty / hasResult / madeBySensor",
+      "use": "观测与结果：一条事实的 outcomes 对应一次观测结果",
+      "our_fields": ["facts.outcomes", "value_kind", "unit_status", "facts.statement_type"],
+      "status": "mapped_partial",
+      "checked": false,
+      "note": "calculation_result 与 author_interpretation 不是 SOSA 观测，用 statement_type 区分。"
+    },
+    {
+      "standard": "QUDT",
+      "part": "Unit / QuantityKind",
+      "use": "单位与量纲：先登记原文单位串，再映射量纲",
+      "our_fields": ["quantity.unit_raw", "quantity.unit_status", "registry/vocab.json units"],
+      "status": "unchecked",
+      "checked": false,
+      "note": "单位条目的 QUDT 局部名未离线核对，term 留 null；不做单位换算。"
+    },
+    {
+      "standard": "ChEBI",
+      "part": "Molecule / Class",
+      "use": "化学实体分类与身份候选",
+      "our_fields": ["identities.external_refs", "external_records"],
+      "status": "deferred",
+      "checked": false,
+      "note": "按用户要求暂缓外部合并；只保留查询缓存与匹配状态。"
+    },
+    {
+      "standard": "PubChem",
+      "part": "CID / InChIKey",
+      "use": "身份候选与结构证据",
+      "our_fields": ["external_records", "identity_links.basis=database"],
+      "status": "deferred",
+      "checked": false,
+      "note": "外部 ID 不作全局身份等价物，只用 name_candidate/database 依据并可撤销。"
+    }
+  ],
+  "reuse_policy": "先复用成熟标准的字段语义，再考虑自建；自建部分必须在 entity_types/relations/vocab 里给出判据与候选状态，否则视为未完成。"
+}

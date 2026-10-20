@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "id": "pubchem",
+      "purpose": "名称/结构候选",
+      "api": "https://pubchem.ncbi.nlm.nih.gov/rest/pug",
+      "auto_merge": false
+    },
+    {
+      "id": "chebi",
+      "purpose": "分类与相关化学形式；本轮用OLS搜索候选",
+      "api": "https://www.ebi.ac.uk/ols4/api/search",
+      "auto_merge": false,
+      "license": "CC BY 4.0, retain source attribution"
+    },
+    {
+      "id": "opsin",
+      "purpose": "系统名解析工具，需要时再接入",
+      "documentation": "https://www.ebi.ac.uk/opsin/",
+      "enabled": false
+    },
+    {
+      "id": "qudt",
+      "purpose": "物理量和单位规范，需要时再接入",
+      "documentation": "https://www.qudt.org/",
+      "enabled": false
+    }
+  ],
+  "policy": "External match is not evidence for electroplating effect. Cache responses; record time/hash. Cross-source agreement is not independent truth."
+}

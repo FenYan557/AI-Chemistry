@@ -1,0 +1,254 @@
+{
+  "version": "1.0",
+  "status": "draft",
+  "not_gold": true,
+  "tiers": {
+    "block": {
+      "meaning": "入库拒绝",
+      "enforcement": "ingest",
+      "effect": "记录不进入可用集合；说明结构与出处自相矛盾，或会造成不可撤销的错误合并。",
+      "counts_as": "错误"
+    },
+    "review": {
+      "meaning": "保留待审",
+      "enforcement": "review",
+      "effect": "记录保留，提示针对性核查；不因pending或未规范统一禁止引用/分析，具体用途由consumer_contract判断。",
+      "counts_as": "警告（review 档）"
+    },
+    "warn": {
+      "meaning": "事后统计",
+      "enforcement": "audit",
+      "effect": "只报告，不改变记录资格；用于质量与覆盖统计。",
+      "counts_as": "警告（warn 档）"
+    }
+  },
+  "tier_rule": "一个错误码只能属于一档。结构/引用/出处矛盾进 block；语义可疑但可保留进 review；覆盖与抽样提示进 warn。降档必须同时改本文件与测试，不能只在代码里放宽。",
+  "budget": {
+    "max_entity_types": 60,
+    "max_core_entity_types": 24,
+    "max_relations": 30,
+    "max_record_types": 20,
+    "max_top_level_fields": 20,
+    "max_fields_per_record": 30,
+    "max_defs": 24,
+    "max_error_codes": 120,
+    "max_registry_files": 12,
+    "max_doc_sections": 14,
+    "rule": "任何一项超预算必须先删/并，再增加；复杂度只能靠删减换。"
+  },
+  "constraints": [
+    {
+      "id": "C1-evidence-literal",
+      "kind": "structure",
+      "severity": "block",
+      "statement": "所有引用必须在来源块或表格单元格中逐字命中；提及表面串必须等于其引文。",
+      "rationale": "引文不逐字命中，后续对原文的核查就全部失效。",
+      "codes": [
+        "QUOTE_MISMATCH",
+        "INVALID_SPAN",
+        "MISSING_BLOCK",
+        "CROSS_DOCUMENT_EVIDENCE",
+        "EVIDENCE_FIELD_MISSING",
+        "EVIDENCE_KIND_UNKNOWN",
+        "TABLE_CELL_MISMATCH",
+        "TABLE_CELL_OUT_OF_RANGE",
+        "MENTION_SURFACE_MISMATCH",
+        "OUTCOME_VALUE_NOT_LITERAL"
+      ]
+    },
+    {
+      "id": "C2-referential-integrity",
+      "kind": "structure",
+      "severity": "block",
+      "statement": "所有外键指向的记录必须存在、同文献、且唯一；参与者/条件归属/角色主体必须在事实内闭合。",
+      "rationale": "悬空引用会让查询静默返回空结果，比报错更危险。",
+      "codes": [
+        "MISSING_DOCUMENT",
+        "DUPLICATE_ID",
+        "IDENTITY_REFERENCE",
+        "MISSING_EXTERNAL_RECORD",
+        "EXPERIMENT_MISSING",
+        "EXPERIMENT_CROSS_DOCUMENT",
+        "RUN_MISSING",
+        "RUN_CROSS_DOCUMENT",
+        "MISSING_PARTICIPANT",
+        "CROSS_DOCUMENT_PARTICIPANT",
+        "SAMPLE_MISSING",
+        "SAMPLE_CROSS_DOCUMENT",
+        "SAMPLE_PARENT_MISSING",
+        "SAMPLE_SELF_PARENT",
+        "ROLE_FACT_MISSING",
+        "ROLE_SUBJECT_MISSING",
+        "ROLE_CROSS_DOCUMENT",
+        "ROLE_SUBJECT_NOT_PARTICIPANT",
+        "ROLE_OPTION_UNKNOWN",
+        "CONDITION_OWNER",
+        "ROLE_DUPLICATE"
+      ]
+    },
+    {
+      "id": "C3-quantity-state",
+      "kind": "semantic",
+      "severity": "block",
+      "statement": "取值形态与取值/单位状态必须自洽：数值型须有原值，缺失型不得带原值，未报告单位不得有单位串。",
+      "rationale": "状态矛盾会让“缺单位所以不可比较”这类判断失真。",
+      "codes": [
+        "VALUE_MISSING",
+        "VALUE_STATE_INCONSISTENT",
+        "UNIT_STATE_INCONSISTENT"
+      ]
+    },
+    {
+      "id": "C4-identity-safety",
+      "kind": "semantic",
+      "severity": "block",
+      "statement": "跨篇/全局同一性必须有已核证据；仅名称相似不得 reviewed；合并记录不得自相矛盾。",
+      "rationale": "错误合并无法从下游发现，是最难撤销的一类错误。",
+      "codes": [
+        "IDENTITY_SCOPE",
+        "IDENTITY_REVIEW_MISMATCH",
+        "CROSS_DOCUMENT_ALIAS",
+        "NAME_ONLY_IDENTITY_MERGE",
+        "GLOBAL_ALIAS_NEEDS_IDENTITY_EVIDENCE",
+        "IDENTITY_EVIDENCE_REQUIRED",
+        "UNREVIEWED_DATABASE_MATCH",
+        "MERGE_DUPLICATE",
+        "MERGE_IDENTITY_MISSING",
+        "MERGE_SELF",
+        "MERGE_UNVERIFIED_SAME_AS",
+        "MERGE_CROSS_DOCUMENT_UNREVIEWED",
+        "MERGE_CONTRADICTION"
+      ]
+    },
+    {
+      "id": "C5-inheritance",
+      "kind": "semantic",
+      "severity": "block",
+      "statement": "标记为继承的条件必须能在所属 Run 找到同名参数且取值一致。",
+      "rationale": "条件继承错误会把 A 组结果挂到 B 组条件上。",
+      "codes": [
+        "INHERITED_CONDITION_NOT_IN_RUN",
+        "INHERITED_CONDITION_VALUE_MISMATCH",
+        "INHERITED_CONDITION_WITHOUT_RUN"
+      ]
+    },
+    {
+      "id": "C6-graph-derivation",
+      "kind": "structure",
+      "severity": "block",
+      "statement": "物化层必须由记录层派生：实体指向存在的提及，边指向存在的事实与实体，边不得改写事实的陈述性质、极性、模态、条件或证据。",
+      "rationale": "边一旦能自带新语义，事实层就不再是唯一真源。",
+      "codes": [
+        "ENTITY_DUPLICATE",
+        "ENTITY_MENTION_MISSING",
+        "ENTITY_CROSS_DOCUMENT",
+        "ENTITY_LABEL_MISMATCH",
+        "ENTITY_IDENTITY_MISSING",
+        "EDGE_DUPLICATE",
+        "EDGE_FACT_MISSING",
+        "EDGE_ENTITY_MISSING",
+        "EDGE_SEMANTICS_DRIFT",
+        "EDGE_DERIVATION_MISMATCH"
+      ]
+    },
+    {
+      "id": "C7-role-completeness",
+      "kind": "semantic",
+      "severity": "review",
+      "statement": "选择了角色就应有支撑：other/author_explicit 须有原文措辞，角色与依据不得互相矛盾。",
+      "rationale": "缺措辞或依据矛盾时记录仍有检索价值，但不该直接当结论用。",
+      "codes": [
+        "ROLE_EXPLICIT_NEEDS_RAW",
+        "ROLE_OTHER_NEEDS_RAW",
+        "ROLE_KNOWN_WITHOUT_BASIS",
+        "ROLE_UNKNOWN_BASIS"
+      ]
+    },
+    {
+      "id": "C8-role-candidacy",
+      "kind": "semantic",
+      "severity": "review",
+      "statement": "仅由效果反推的角色、未逐字出现在证据中的角色措辞，只能作候选。",
+      "rationale": "效果反推与作者定位是两种证据强度。",
+      "codes": [
+        "ROLE_FROM_EFFECT_ONLY",
+        "ROLE_RAW_NOT_LITERAL_IN_CITED_EVIDENCE"
+      ]
+    },
+    {
+      "id": "C9-open-vocab",
+      "kind": "semantic",
+      "severity": "review",
+      "statement": "未登记类型/关系保留供检索，不能自动作为规范图断言；不禁止原文概括。",
+      "rationale": "新标签不能因为没登记就丢弃，也不能直接当确定类型用。",
+      "codes": [
+        "NEW_TYPE_CANDIDATE",
+        "OPEN_RELATION_CANDIDATE",
+        "ENTITY_TYPE_UNKNOWN",
+        "ENTITY_TYPE_UNDERSPECIFIED",
+        "EDGE_RELATION_PROPOSED",
+        "EDGE_DOMAIN_MISMATCH",
+        "EDGE_RANGE_MISMATCH",
+        "EDGE_CARDINALITY"
+      ]
+    },
+    {
+      "id": "C10-context-and-provenance",
+      "kind": "semantic",
+      "severity": "review",
+      "statement": "程度限定、比较基准、转述目标必须显式：程度非 unknown 时须有原串，比较状态非 not_stated 时须有基准，转述须能指向被引目标。",
+      "rationale": "程度、基准、被引对象是这类文献结论最容易丢的三样东西。",
+      "codes": [
+        "MAGNITUDE_RAW_NOT_LITERAL",
+        "CITED_WORK_MISSING",
+        "CITED_WORK_UNEXPECTED",
+        "COMPARISON_MENTION_NOT_PARTICIPANT",
+        "ENTITY_IDENTITY_LINK_MISMATCH",
+        "MERGE_DISTINCT_WITHOUT_EVIDENCE"
+      ]
+    },
+    {
+      "id": "C11-magnitude-baseline",
+      "kind": "structure",
+      "severity": "block",
+      "statement": "程度与比较基准的字段不能自相矛盾：有程度必有原串，有基准状态必有基准串，基准提及必须存在。",
+      "rationale": "半边空着的限定字段等于伪造了一个“未报告”的结论。",
+      "codes": [
+        "MAGNITUDE_WITHOUT_RAW",
+        "COMPARISON_BASELINE_MISSING",
+        "COMPARISON_MENTION_MISSING",
+        "COMPARISON_BASELINE_NOT_LITERAL"
+      ]
+    },
+    {
+      "id": "C12-coverage-audit",
+      "kind": "semantic",
+      "severity": "warn",
+      "statement": "覆盖与抽样提示：未定类型的实体、缺边的事实、未核页码、缺表格 CSV、待核身份、条件值未逐字出现、角色绑定未来工作或缺条件。",
+      "rationale": "这些是质量指标，不应阻断入库，但必须可统计。",
+      "codes": [
+        "ENTITY_UNTYPED",
+        "ENTITY_COVERAGE_GAP",
+        "EDGE_COVERAGE_GAP",
+        "EDGE_EVIDENCE_DIFFERS",
+        "PAGE_UNRESOLVED",
+        "TABLE_CSV_NOT_FOUND",
+        "IDENTITY_PENDING",
+        "CONDITION_VALUE_NOT_LITERAL",
+        "ROLE_ON_FUTURE_WORK",
+        "ROLE_WITHOUT_RECORDED_CONDITION"
+      ]
+    },
+    {
+      "id": "C13-catalog-selfcheck",
+      "kind": "structure",
+      "severity": "block",
+      "statement": "校验器产生的每个错误码都必须在本目录中登记档位；未登记的码按 block 处理并报错。",
+      "rationale": "否则新加检查会绕过三档策略，退化回“要么全拦要么全放”。",
+      "codes": [
+        "CONSTRAINT_CATALOG_GAP",
+        "STRUCTURE"
+      ]
+    }
+  ]
+}

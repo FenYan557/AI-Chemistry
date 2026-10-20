@@ -1,0 +1,145 @@
+{
+  "valid": true,
+  "tier_counts": {
+    "block": 0,
+    "review": 4,
+    "warn": 9
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "ROLE_FROM_EFFECT_ONLY",
+      "tier": "review",
+      "message": "role:ado:low"
+    },
+    {
+      "code": "ROLE_FROM_EFFECT_ONLY",
+      "tier": "review",
+      "message": "role:ado:high"
+    },
+    {
+      "code": "OPEN_RELATION_CANDIDATE",
+      "tier": "review",
+      "message": "f:ado:interpretation:None"
+    },
+    {
+      "code": "OPEN_RELATION_CANDIDATE",
+      "tier": "review",
+      "message": "f:cmp:future:None"
+    },
+    {
+      "code": "IDENTITY_PENDING",
+      "tier": "warn",
+      "message": "m:adenosine"
+    },
+    {
+      "code": "IDENTITY_PENDING",
+      "tier": "warn",
+      "message": "m:ado"
+    },
+    {
+      "code": "ROLE_ON_FUTURE_WORK",
+      "tier": "warn",
+      "message": "role:cmp:na"
+    },
+    {
+      "code": "ENTITY_UNTYPED",
+      "tier": "warn",
+      "message": "ent:m:deposition"
+    },
+    {
+      "code": "ENTITY_UNTYPED",
+      "tier": "warn",
+      "message": "ent:m:mechanism"
+    },
+    {
+      "code": "ENTITY_UNTYPED",
+      "tier": "warn",
+      "message": "ent:m:film"
+    },
+    {
+      "code": "ENTITY_UNTYPED",
+      "tier": "warn",
+      "message": "ent:m:anneal"
+    },
+    {
+      "code": "ENTITY_UNTYPED",
+      "tier": "warn",
+      "message": "ent:m:na"
+    },
+    {
+      "code": "ENTITY_UNTYPED",
+      "tier": "warn",
+      "message": "ent:m:other_components"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "f:ado:low",
+      "storage": "retained_if_valid",
+      "numeric_comparison": "not_assessed",
+      "causal_inference": "not_assessed",
+      "recommendation": "not_assessed",
+      "reasons": []
+    },
+    {
+      "fact_id": "f:ado:high",
+      "storage": "retained_if_valid",
+      "numeric_comparison": "not_assessed",
+      "causal_inference": "not_assessed",
+      "recommendation": "not_assessed",
+      "reasons": []
+    },
+    {
+      "fact_id": "f:ado:interpretation",
+      "storage": "retained_if_valid",
+      "numeric_comparison": "blocked",
+      "causal_inference": "not_assessed",
+      "recommendation": "not_assessed",
+      "reasons": [
+        "conditions_not_recorded",
+        "not_direct_observation"
+      ]
+    },
+    {
+      "fact_id": "f:resistivity:reported",
+      "storage": "retained_if_valid",
+      "numeric_comparison": "not_assessed",
+      "causal_inference": "not_assessed",
+      "recommendation": "not_assessed",
+      "reasons": []
+    },
+    {
+      "fact_id": "f:resistivity:annealed",
+      "storage": "retained_if_valid",
+      "numeric_comparison": "not_assessed",
+      "causal_inference": "not_assessed",
+      "recommendation": "not_assessed",
+      "reasons": []
+    },
+    {
+      "fact_id": "f:cmp:future",
+      "storage": "retained_if_valid",
+      "numeric_comparison": "blocked",
+      "causal_inference": "not_assessed",
+      "recommendation": "not_assessed",
+      "reasons": [
+        "conditions_not_recorded",
+        "not_direct_observation"
+      ]
+    }
+  ],
+  "roles": {
+    "accelerator": 1,
+    "suppressor": 1,
+    "leveler": 1,
+    "other": 1,
+    "unknown": 1
+  },
+  "graph": {
+    "entities": 9,
+    "edges": 2
+  },
+  "semantics_verified": false,
+  "note": "三档：block 入库拒绝 / review 保留待审 / warn 事后统计。只验证结构与出处一致性；通过不证明同一身份、研究结论或全库覆盖。"
+}

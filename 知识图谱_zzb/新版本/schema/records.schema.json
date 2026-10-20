@@ -1,0 +1,1488 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:a2lab:literature-kg:4.0.0-draft",
+  "title": "专题文献事实记录 v4：精简模型输入、代码补齐与可核查图视图",
+  "$comment": "按九项组织：本文件只放记录契约；类型判据/关系签名/词表/标识规则/消费端契约在 registry/，约束与三档在 schema/constraints.json。校验通过不表示化学结论正确。",
+  "x-nine-items": [
+    {
+      "item": "1",
+      "title": "实体类型（节点类）",
+      "where": "registry/entity_types.json",
+      "mechanism": "判据/正例/反例/边界；无判据不可实例化（ENTITY_TYPE_UNDERSPECIFIED）"
+    },
+    {
+      "item": "2",
+      "title": "关系定义域与值域（签名）",
+      "where": "registry/relations.json",
+      "mechanism": "只有启用且角色签名明确的关系生成边；开放关系保留事实用于检索"
+    },
+    {
+      "item": "3",
+      "title": "标识与唯一性",
+      "where": "registry/identity_rules.json + identity_merges",
+      "mechanism": "ID 规则；合并/拆分/拒并留痕；pending 合并不生效"
+    },
+    {
+      "item": "4",
+      "title": "属性表示边界",
+      "where": "registry/vocab.json#representation_policy",
+      "mechanism": "何时升节点、何时留属性；跨实验比较须先值化"
+    },
+    {
+      "item": "5",
+      "title": "受控词表与枚举",
+      "where": "registry/vocab.json + registry/roles.json",
+      "mechanism": "封闭取值与 schema 枚举逐项一致；候选晋升需依据"
+    },
+    {
+      "item": "6",
+      "title": "约束与处置",
+      "where": "schema/constraints.json",
+      "mechanism": "block/review/warn 三档 × 执行点；未登记码报 CONSTRAINT_CATALOG_GAP"
+    },
+    {
+      "item": "7",
+      "title": "上下文与 n-ary",
+      "where": "facts（文献陈述）+ edges（角色投影视图）+ outcome.magnitude/comparison",
+      "mechanism": "条件挂事实；程度与比较基准显式；边不得自带新语义"
+    },
+    {
+      "item": "8",
+      "title": "溯源与可信度",
+      "where": "facts 的 statement_type/source_scope/polarity/modality/cited_work/extraction",
+      "mechanism": "陈述归属与人工审核分开；pending不自动禁止忠实引用"
+    },
+    {
+      "item": "9",
+      "title": "演化与治理",
+      "where": "schema/constraints.json#budget + registry/vocab.json#promotion",
+      "mechanism": "预算上限、迁移规则、晋升流程、命名与审计"
+    },
+    {
+      "item": "补1",
+      "title": "消费端契约",
+      "where": "registry/consumer_contract.json",
+      "mechanism": "事实级检索；引用、数值比较、候选建议分别判断，不用A–E总档"
+    },
+    {
+      "item": "补2",
+      "title": "复用成熟标准",
+      "where": "registry/standards_mapping.json",
+      "mechanism": "PROV-O/SOSA/QUDT/ChEBI 字段映射；未核对术语留 null"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "4.0.0-draft"
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/document"
+      },
+      "minItems": 1
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/block"
+      },
+      "minItems": 1
+    },
+    "mentions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mention"
+      },
+      "minItems": 0
+    },
+    "identities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/identity"
+      },
+      "minItems": 0,
+      "default": []
+    },
+    "identity_links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/identity_link"
+      },
+      "minItems": 0,
+      "default": []
+    },
+    "identity_merges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/identity_merge"
+      },
+      "minItems": 0,
+      "default": []
+    },
+    "external_records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/external"
+      },
+      "minItems": 0,
+      "default": []
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      },
+      "minItems": 1
+    },
+    "role_assignments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/role_assignment"
+      },
+      "default": []
+    },
+    "experiments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/experiment"
+      },
+      "default": []
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/run"
+      },
+      "default": []
+    },
+    "samples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sample"
+      },
+      "default": []
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      },
+      "minItems": 0
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/edge"
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "documents",
+    "blocks",
+    "mentions",
+    "facts"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "block",
+            "table_cell"
+          ]
+        },
+        "block_id": {
+          "type": "string"
+        },
+        "start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quote": {
+          "type": "string"
+        },
+        "table_id": {
+          "type": "string"
+        },
+        "row": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "col": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "cell_raw": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "block"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "block_id",
+              "start",
+              "end",
+              "quote"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "table_cell"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "table_id",
+              "row",
+              "col",
+              "cell_raw"
+            ]
+          }
+        }
+      ]
+    },
+    "quantity": {
+      "type": "object",
+      "properties": {
+        "value_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_kind": {
+          "enum": [
+            "numeric",
+            "qualitative",
+            "ordinal",
+            "absent"
+          ]
+        },
+        "unit_raw": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "unit_status": {
+          "enum": [
+            "reported",
+            "not_reported",
+            "not_applicable",
+            "unresolved"
+          ],
+          "default": "unresolved"
+        }
+      },
+      "required": [
+        "value_raw",
+        "value_kind"
+      ],
+      "additionalProperties": false
+    },
+    "document": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_kind": {
+          "enum": [
+            "cleaned_text",
+            "original_pdf",
+            "other"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "source_file",
+        "sha256",
+        "source_kind"
+      ],
+      "additionalProperties": false
+    },
+    "block": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "page": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "section": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "document_id",
+        "page",
+        "section",
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "mention": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "surface": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "candidate_type_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "default": []
+        }
+      },
+      "required": [
+        "id",
+        "document_id",
+        "surface",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "enum": [
+            "document",
+            "global"
+          ]
+        },
+        "document_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "unresolved",
+            "candidate",
+            "reviewed"
+          ]
+        },
+        "external_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "distinctions": {
+          "type": "object",
+          "properties": {
+            "charge": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "salt_form": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "hydrate": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "stereochemistry": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "specification": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "charge",
+            "salt_form",
+            "hydrate",
+            "stereochemistry",
+            "specification"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "canonical_label",
+        "scope",
+        "document_id",
+        "status",
+        "external_refs",
+        "distinctions"
+      ],
+      "additionalProperties": false
+    },
+    "identity_link": {
+      "type": "object",
+      "properties": {
+        "mention_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis": {
+          "enum": [
+            "author_explicit",
+            "structure",
+            "database",
+            "name_candidate"
+          ]
+        },
+        "review": {
+          "enum": [
+            "pending",
+            "reviewed"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 0
+        },
+        "external_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "mention_id",
+        "identity_id",
+        "basis",
+        "review",
+        "evidence",
+        "external_ref"
+      ],
+      "additionalProperties": false
+    },
+    "identity_merge": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from_identity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_identity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation": {
+          "enum": [
+            "same_as",
+            "distinct_from"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "author_explicit",
+            "structure",
+            "database",
+            "name_candidate"
+          ]
+        },
+        "review": {
+          "enum": [
+            "pending",
+            "reviewed"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "from_identity_id",
+        "to_identity_id",
+        "relation",
+        "basis",
+        "review",
+        "evidence",
+        "rationale",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "external": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resource": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resource_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retrieved_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "response_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "cache_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "match_status": {
+          "enum": [
+            "candidate",
+            "reviewed"
+          ]
+        },
+        "identity_basis": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "resource",
+        "resource_id",
+        "retrieved_at",
+        "response_sha256",
+        "cache_file",
+        "match_status",
+        "identity_basis"
+      ],
+      "additionalProperties": false
+    },
+    "relation_ref": {
+      "type": "object",
+      "properties": {
+        "raw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "definition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "default": null
+        },
+        "candidate_relation_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "raw"
+      ],
+      "additionalProperties": false
+    },
+    "magnitude": {
+      "type": "object",
+      "properties": {
+        "raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "qualifier": {
+          "enum": [
+            "slight",
+            "moderate",
+            "marked",
+            "unknown"
+          ]
+        }
+      },
+      "required": [
+        "raw",
+        "qualifier"
+      ],
+      "additionalProperties": false
+    },
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_stated",
+            "raw_only",
+            "explicit"
+          ]
+        },
+        "baseline_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "baseline_mention_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "basis_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "status",
+        "baseline_raw",
+        "baseline_mention_id",
+        "basis_raw"
+      ],
+      "additionalProperties": false
+    },
+    "condition": {
+      "type": "object",
+      "properties": {
+        "parameter_raw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "candidate_parameter": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "about_mention_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "value": {
+          "$ref": "#/$defs/quantity"
+        },
+        "scope_status": {
+          "enum": [
+            "explicit",
+            "pending"
+          ],
+          "default": "pending"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "inherited": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "parameter_raw",
+        "about_mention_ids",
+        "value",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "outcome": {
+      "type": "object",
+      "properties": {
+        "indicator_raw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "$ref": "#/$defs/quantity"
+        },
+        "direction": {
+          "enum": [
+            "increase",
+            "decrease",
+            "no_effect",
+            "mixed",
+            "unknown"
+          ],
+          "default": "unknown"
+        },
+        "stage_raw": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "magnitude": {
+          "$ref": "#/$defs/magnitude",
+          "default": {
+            "raw": null,
+            "qualifier": "unknown"
+          }
+        },
+        "comparison": {
+          "$ref": "#/$defs/comparison",
+          "default": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "sample_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "indicator_raw",
+        "value",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "fact": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "group_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "relation": {
+          "$ref": "#/$defs/relation_ref"
+        },
+        "participants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "mention_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "role": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "mention_id",
+              "role"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "description": "角色明确参与者方向；数组顺序不决定关系。"
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/condition"
+          },
+          "minItems": 0,
+          "default": []
+        },
+        "outcomes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/outcome"
+          },
+          "minItems": 0,
+          "default": []
+        },
+        "cited_work": {
+          "type": "object",
+          "properties": {
+            "raw": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "document_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reference_raw": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "raw",
+            "document_id",
+            "reference_raw"
+          ],
+          "additionalProperties": false,
+          "default": {
+            "raw": null,
+            "document_id": null,
+            "reference_raw": null
+          }
+        },
+        "statement_type": {
+          "enum": [
+            "observation",
+            "calculation_result",
+            "author_interpretation",
+            "future_work",
+            "reported_claim",
+            "unknown"
+          ]
+        },
+        "source_scope": {
+          "enum": [
+            "this_study",
+            "cited_study",
+            "review_summary",
+            "unknown"
+          ],
+          "default": "unknown"
+        },
+        "polarity": {
+          "enum": [
+            "asserted",
+            "negated",
+            "no_effect",
+            "unknown"
+          ],
+          "default": "unknown"
+        },
+        "modality": {
+          "enum": [
+            "explicit",
+            "hedged",
+            "speculative",
+            "unknown"
+          ],
+          "default": "unknown"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "review": {
+          "enum": [
+            "pending",
+            "reviewed"
+          ],
+          "default": "pending"
+        },
+        "extraction": {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "minLength": 1
+            },
+            "model": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "protocol_version": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "method",
+            "model",
+            "protocol_version"
+          ],
+          "additionalProperties": false,
+          "default": {
+            "method": "unspecified",
+            "model": null,
+            "protocol_version": "v4"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "default": []
+        },
+        "run_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "id",
+        "document_id",
+        "relation",
+        "participants",
+        "statement_type",
+        "evidence"
+      ],
+      "additionalProperties": false,
+      "description": "文献陈述，不等同于一次实验；实验用可选run_id关联。助手推断不写入文献事实。"
+    },
+    "role_assignment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fact_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject_mention_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "functional_role": {
+          "enum": [
+            "accelerator",
+            "suppressor",
+            "leveler",
+            "carrier",
+            "brightener",
+            "other",
+            "unknown"
+          ]
+        },
+        "role_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role_basis": {
+          "enum": [
+            "author_explicit",
+            "effect_inference",
+            "unknown"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "fact_id",
+        "subject_mention_id",
+        "functional_role",
+        "role_raw",
+        "role_basis",
+        "evidence",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "experiment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "shared_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "document_id",
+        "label",
+        "shared_note",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "run": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "experiment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/quantity_condition"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "document_id",
+        "experiment_id",
+        "label",
+        "conditions",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "quantity_condition": {
+      "type": "object",
+      "properties": {
+        "parameter_raw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "$ref": "#/$defs/quantity"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "parameter_raw",
+        "value",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "sample": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "material_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "form_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "treatment_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "derived_from_sample_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "document_id",
+        "label",
+        "material_raw",
+        "form_raw",
+        "state_raw",
+        "treatment_raw",
+        "derived_from_sample_id",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "entity": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "from_mention_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "document_id",
+        "label",
+        "type_id",
+        "identity_id",
+        "from_mention_id",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "edge": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fact_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from_entity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_entity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation": {
+          "$ref": "#/$defs/relation_ref"
+        },
+        "qualifiers": {
+          "type": "object",
+          "properties": {
+            "statement_type": {
+              "enum": [
+                "observation",
+                "calculation_result",
+                "author_interpretation",
+                "future_work",
+                "reported_claim",
+                "unknown"
+              ]
+            },
+            "source_scope": {
+              "enum": [
+                "this_study",
+                "cited_study",
+                "review_summary",
+                "unknown"
+              ]
+            },
+            "polarity": {
+              "enum": [
+                "asserted",
+                "negated",
+                "no_effect",
+                "unknown"
+              ]
+            },
+            "modality": {
+              "enum": [
+                "explicit",
+                "hedged",
+                "speculative",
+                "unknown"
+              ]
+            },
+            "conditions": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "statement_type",
+            "source_scope",
+            "polarity",
+            "modality",
+            "conditions"
+          ],
+          "additionalProperties": false
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "review": {
+          "enum": [
+            "pending",
+            "reviewed"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "fact_id",
+        "from_entity_id",
+        "to_entity_id",
+        "relation",
+        "qualifiers",
+        "evidence",
+        "review"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "description": "L0来源/L1观测/L2活动与角色/L3对象/L4陈述 为记录层；entities/edges 为可重建的物化层；identity_merges 记录合并与拆分。角色为受控多选，物质消歧延后。校验通过不表示化学结论正确。",
+  "x-model-input": "schema/extraction.schema.json：模型仅输出字面内容，不输出内部记录/ID/偏移/审核/身份"
+}

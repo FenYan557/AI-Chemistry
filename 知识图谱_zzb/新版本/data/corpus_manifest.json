@@ -1,0 +1,716 @@
+{
+  "method": "local_metadata_and_keyword_screening",
+  "not_full_text_semantic_review": true,
+  "expected_documents_from_prior_work": 48,
+  "actual_documents": 48,
+  "snapshot_matches_expected_count": true,
+  "topic_hints_are_nonexclusive_and_unvalidated": true,
+  "documents": [
+    {
+      "document_id": "1_s2_0_S0010854522005239_main",
+      "title": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions",
+      "doi": "10.1016/j.ccr.2022.214928",
+      "source_file": "blocks/1_s2_0_S0010854522005239_main.jsonl",
+      "source_sha256": "52b04d9b6da66276f71857ca25b33dcb871aa479a8c44870aad59faffa04dbdf",
+      "block_count": 241,
+      "text_block_count": 136,
+      "table_block_count": 0,
+      "topic_hints": [
+        "catalysis"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S0013468609007385_main",
+      "title": "Microvia filling by copper electroplating using diazine black as a leveler",
+      "doi": "10.1016/j.electacta.2009.05.053",
+      "source_file": "blocks/1_s2_0_S0013468609007385_main.jsonl",
+      "source_sha256": "ad18c43cde99499b183165e85d8498442b5547f89a3ced4e2b77d16a8cad0ea1",
+      "block_count": 69,
+      "text_block_count": 39,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S0013468621017357_main",
+      "title": "Structural influence of nitrogen-containing groups on triphenylmethane-based levelers in super-conformal copper electroplating",
+      "doi": "10.1016/j.electacta.2021.139445",
+      "source_file": "blocks/1_s2_0_S0013468621017357_main.jsonl",
+      "source_sha256": "757c22ef0d6bd08fea3cad820c08d35063e5501b3f1fafcd895a345a3aef046c",
+      "block_count": 99,
+      "text_block_count": 46,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S0013468626014507_main",
+      "title": "Investigation of single additive ZPS on performance of copper foil",
+      "doi": "10.1016/j.electacta.2026.149561",
+      "source_file": "blocks/1_s2_0_S0013468626014507_main.jsonl",
+      "source_sha256": "654f92b90a02b691551d3b7159a6def7c538447acb0ab50a7fecef3db6896545",
+      "block_count": 124,
+      "text_block_count": 60,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S0257897223003018_main",
+      "title": "Investigation of synthesized carbazole derivative Cz-BPDB as a high-performance leveler for copper electroplating",
+      "doi": "10.1016/j.surfcoat.2023.129526",
+      "source_file": "blocks/1_s2_0_S0257897223003018_main.jsonl",
+      "source_sha256": "cb8404a65c47a6e6eed6f546fd3a0112f6456c3b261a3c96ce705c76f0c49bd5",
+      "block_count": 146,
+      "text_block_count": 63,
+      "table_block_count": 5,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S0927775723007902_main",
+      "title": "Insights into the synergistic effects of safranine in an acidic copper bath on through-hole void-free filling for high-quality electronics interconnection",
+      "doi": "10.1016/j.colsurfa.2023.131706",
+      "source_file": "blocks/1_s2_0_S0927775723007902_main.jsonl",
+      "source_sha256": "64b359dbecbeb3c8561b01825dda20e312b370699067c6f7b8a7786236a873bd",
+      "block_count": 92,
+      "text_block_count": 38,
+      "table_block_count": 5,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S1572665718302236_main",
+      "title": "Thermodynamic aspects of bis(3‑sulfopropyl) disulfide and 3‑mercapto‑1‑propanesulfonic acid in Cu electrodeposition",
+      "doi": "10.1016/j.jelechem.2018.03.048",
+      "source_file": "blocks/1_s2_0_S1572665718302236_main.jsonl",
+      "source_sha256": "d420c3d5305d60c327dcbede594d4193080c09ad97fdb55df593adde00797773",
+      "block_count": 76,
+      "text_block_count": 37,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S1572665722004489_main",
+      "title": "The synergistic effects of additives on the micro vias copper filling",
+      "doi": "10.1016/j.jelechem.2022.116456",
+      "source_file": "blocks/1_s2_0_S1572665722004489_main.jsonl",
+      "source_sha256": "6c215bcf6c827a85af0d5c887aef25146e2142b7feca464b9339569493f7177b",
+      "block_count": 102,
+      "text_block_count": 49,
+      "table_block_count": 0,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S1572665724000766_main",
+      "title": "Five-membered heterocyclic small molecule compounds as novel levelling agents for blind-hole copper plating",
+      "doi": "10.1016/j.jelechem.2024.118100",
+      "source_file": "blocks/1_s2_0_S1572665724000766_main.jsonl",
+      "source_sha256": "4c2c2d24d8471ffc0fb303b1b2c482a8b58dfe713a187572838258299cb881c9",
+      "block_count": 124,
+      "text_block_count": 59,
+      "table_block_count": 0,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_s2_0_S2352492825007378_main",
+      "title": "Molecular structure with adsorption behavior of butynediol and its effects on cobalt electrodeposition",
+      "doi": "10.1016/j.mtcomm.2025.112225",
+      "source_file": "blocks/1_s2_0_S2352492825007378_main.jsonl",
+      "source_sha256": "3cf7bed27856fd1c3731574cd0aabc1ed4a689033d4b229d771f36aca8881d2c",
+      "block_count": 103,
+      "text_block_count": 41,
+      "table_block_count": 3,
+      "topic_hints": [
+        "electrodeposition",
+        "simulation"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "1_在PD结构中引入二氧化硫对通孔镀铜的影响",
+      "title": "The effect of introducing –SO2 fragments into the structure of polydimethyldiallylammonium (PD) on through-hole copper plating performance: A theoretical and experimental study",
+      "doi": "10.1016/j.apsusc.2025.162396",
+      "source_file": "blocks/1_在PD结构中引入二氧化硫对通孔镀铜的影响.jsonl",
+      "source_sha256": "50a69a9d029ae1a2bc49e647b5503d364ec5a5991322a0bafaec8e192a8543e7",
+      "block_count": 117,
+      "text_block_count": 55,
+      "table_block_count": 2,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "2023_Shen_Study_on_the_Effects_of_Additives_on_the_Performan",
+      "title": "Study on the Effects of Additives on the Performance of Ni–Co–P Alloy Coatings Using Box–Behnken Design",
+      "doi": "10.1021/acsomega.3c06301",
+      "source_file": "blocks/2023_Shen_Study_on_the_Effects_of_Additives_on_the_Performan.jsonl",
+      "source_sha256": "7df45a6903ddc7edb7f070235500ad2da3edfc59a3570f07cc1307a5c36c6937",
+      "block_count": 115,
+      "text_block_count": 57,
+      "table_block_count": 12,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "2024_Guo_Influence_of_PUB2_on_the_Leveling_Effect_of_Chip_Co",
+      "title": "Influence of PUB2 on the Leveling Effect of Chip Copper Connection Electroplating: Mechanism and Applications",
+      "doi": "10.1021/acsomega.3c09548",
+      "source_file": "blocks/2024_Guo_Influence_of_PUB2_on_the_Leveling_Effect_of_Chip_Co.jsonl",
+      "source_sha256": "bb3679e7c94f851ef6b850929ff8f806fb38c08d569e78652bd1d4aa49b260e4",
+      "block_count": 83,
+      "text_block_count": 37,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "2_采用1_4_羧基苯基_5_巯基_1H_四氮唑添加剂的表面铜微导通孔填充电镀工艺评估",
+      "title": "Evaluating copper plating process for filling micro vias with thin surface Cu by the 1-(4-carboxyphenyl)-5-mercapto-1H-tetrazole additive",
+      "doi": "10.1016/j.jelechem.2024.118696",
+      "source_file": "blocks/2_采用1_4_羧基苯基_5_巯基_1H_四氮唑添加剂的表面铜微导通孔填充电镀工艺评估.jsonl",
+      "source_sha256": "8ee45b1495faedddabc9b4714003a98eee8721218f5da9e426706c1db569b181",
+      "block_count": 98,
+      "text_block_count": 43,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "3_巯基_1_丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响",
+      "title": "Effect of 3-mercapto-1-propane sulfonate sulfonic acid and polyvinylpyrrolidone on the growth of cobalt pillar by electrodeposition",
+      "doi": "10.1515/ntrev-2022-0071",
+      "source_file": "blocks/3_巯基_1_丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响.jsonl",
+      "source_sha256": "b2ce87c67c7b9732bf5e4b4dbf3cabc24de8f53b5a1932ce8d1726945649f05d",
+      "block_count": 67,
+      "text_block_count": 37,
+      "table_block_count": 0,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "3_异靛蓝季铵盐的合成及其在电镀铜中的应用",
+      "title": "Synthesis and application of isoindigo quaternary ammonium salts in copper plating",
+      "doi": "10.1039/d5tc01743b",
+      "source_file": "blocks/3_异靛蓝季铵盐的合成及其在电镀铜中的应用.jsonl",
+      "source_sha256": "1d165af140d494b0d3301f2db65eaaa0b64ca794c4d033229e986d1e31161f71",
+      "block_count": 90,
+      "text_block_count": 46,
+      "table_block_count": 4,
+      "topic_hints": [
+        "electrodeposition",
+        "simulation"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "4_喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用",
+      "title": "Synthesis of Quinacridone Derivatives and Their Application as High Performance Levelers in Electroplating",
+      "doi": "10.5796/electrochemistry.24-00024",
+      "source_file": "blocks/4_喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用.jsonl",
+      "source_sha256": "ef31e4b005e952178f254c6e450e63ca38b12f205541402825cd1f86c920c9c1",
+      "block_count": 108,
+      "text_block_count": 47,
+      "table_block_count": 3,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "5_炔基嘧啶作为钴超填充抑制剂的研究",
+      "title": "Study of 5-Alkynylpyrimidines as Cobalt Superfilling Inhibitors",
+      "doi": "10.1021/acs.jpcc.4c05741",
+      "source_file": "blocks/5_炔基嘧啶作为钴超填充抑制剂的研究.jsonl",
+      "source_sha256": "1b0e4c338d143728a3ea35057d9b3b7f142f3de54ac1a8e127e87c944fe275cc",
+      "block_count": 116,
+      "text_block_count": 64,
+      "table_block_count": 3,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "5_聚_1_4_丁二醇二缩水甘油醚_2_甲基咪唑与咪唑_作为盲孔镀铜整平剂的研究",
+      "title": "Exploration of poly(1,4-butanediol diglycidyl ether, 2-methylimidazole, and imidazole) as leveling agents in blind hole copper plating",
+      "doi": "10.1007/s10854-025-15125-y",
+      "source_file": "blocks/5_聚_1_4_丁二醇二缩水甘油醚_2_甲基咪唑与咪唑_作为盲孔镀铜整平剂的研究.jsonl",
+      "source_sha256": "89d39b2b0fc58ae9694c7461707d9ab18c86f2efda8fd5fd8f3fb05e9bf9122d",
+      "block_count": 114,
+      "text_block_count": 50,
+      "table_block_count": 2,
+      "topic_hints": [
+        "simulation"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "6_香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究",
+      "title": "Synthesis of coumarin derivatives as levelers for Through-Hole electroplating of copper in PCBs and a study on leveling mechanism of optimized leveler",
+      "doi": "10.1016/j.jelechem.2024.118851",
+      "source_file": "blocks/6_香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究.jsonl",
+      "source_sha256": "0b3a88434721149128bb0e872a3badccb37b886d3b223fc594d784464cc2a78b",
+      "block_count": 109,
+      "text_block_count": 49,
+      "table_block_count": 3,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "7_micromachines_16_00721",
+      "title": "Integrated Electrochemical and Computational Elucidation of Nitro Blue Tetrazolium Chloride as an Efficient Leveler for Copper Microvia Superfilling",
+      "doi": "10.3390/mi16060721",
+      "source_file": "blocks/7_micromachines_16_00721.jsonl",
+      "source_sha256": "9ed61ac233c1646cafd93930660e1e1e4f7495495721f61cf2cd6f9422872eaf",
+      "block_count": 110,
+      "text_block_count": 59,
+      "table_block_count": 2,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "8_s12678_025_00960_8",
+      "title": "Tween Compounds as Eco-Friendly Suppressors for Acid Copper Electroplating Applications of Microvia",
+      "doi": "10.1007/s12678-025-00960-8",
+      "source_file": "blocks/8_s12678_025_00960_8.jsonl",
+      "source_sha256": "b0912bc0e510a9b4d003324fb0fdcddb463fbbfc0b5f32673f916942b8f3d944",
+      "block_count": 101,
+      "text_block_count": 56,
+      "table_block_count": 4,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "9molecules_28_02783",
+      "title": "Structure Performance Correlation of N-Heterocyclic Oligomer Leveler for Acid Copper Plating of Advanced Interconnects",
+      "doi": "10.3390/molecules28062783",
+      "source_file": "blocks/9molecules_28_02783.jsonl",
+      "source_sha256": "3d8df848a2c092dab7f9945c1495fdfcdbe0126a4e5761b730c0b59f4decfafd",
+      "block_count": 99,
+      "text_block_count": 58,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "_电化学会志_含析氢反应抑制添加剂的超共形钴电沉积",
+      "title": "Superconformal Cobalt Electrodeposition with a Hydrogen Evolution Reaction Suppressing Additive",
+      "doi": "10.1149/1945-7111/abd3b9",
+      "source_file": "blocks/_电化学会志_含析氢反应抑制添加剂的超共形钴电沉积.jsonl",
+      "source_sha256": "4a5c3a6f729e3e2d9a7fc80507c87bed252c174c7e138b59044a3e56a3933487",
+      "block_count": 65,
+      "text_block_count": 38,
+      "table_block_count": 0,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "ao3c05248",
+      "title": "Prediction and Effect Verification of Thiamine as a Leveling Agent in Chip Wafer Electroplating",
+      "doi": "10.1021/acsomega.3c05248",
+      "source_file": "blocks/ao3c05248.jsonl",
+      "source_sha256": "1f96f36479040c46fae0bbe0536e39b98c1028b24b175c26bdf1a4aa6eb7cd7e",
+      "block_count": 70,
+      "text_block_count": 35,
+      "table_block_count": 3,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "ao4c01707",
+      "title": "Electroplated Copper Additives for Advanced Packaging: A Review",
+      "doi": "10.1021/acsomega.4c01707",
+      "source_file": "blocks/ao4c01707.jsonl",
+      "source_sha256": "cf6509d9635272375822006a7a20afb777c24cc19f8f4a97c3db9bc1d1b7a25f",
+      "block_count": 112,
+      "text_block_count": 76,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electrodeposition",
+        "review"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "d4nj05470a",
+      "title": "Filling performance of an Acid Blue 1 leveler on blind microvias",
+      "doi": "10.1039/d4nj05470a",
+      "source_file": "blocks/d4nj05470a.jsonl",
+      "source_sha256": "e8db7e982c928d6a631c0eb1ae0fa2ead5c2b06256d057c5949e47d7e40d070a",
+      "block_count": 81,
+      "text_block_count": 40,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "DMG_丁二酮肟_",
+      "title": "Electrodeposition of Cobalt for Interconnect Application: Effect of Dimethylglyoxime",
+      "doi": "10.1149/2.1111613jes",
+      "source_file": "blocks/DMG_丁二酮肟_.jsonl",
+      "source_sha256": "67e0f3955b823d733237b67b939c2dd748435a423baff5fa79bba8f72855697d",
+      "block_count": 71,
+      "text_block_count": 46,
+      "table_block_count": 0,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "la6c01870",
+      "title": "Thiazolyl Blue as a High-Efficiency Leveler for Conformal Copper Electrodeposition in High-Aspect-Ratio PCB Through-Holes",
+      "doi": "10.1021/acs.langmuir.6c01870",
+      "source_file": "blocks/la6c01870.jsonl",
+      "source_sha256": "26b0df8d8cb9cb5aff53d69722a4fec5fb1ef1661456012f71f661f4202ee85f",
+      "block_count": 117,
+      "text_block_count": 66,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "Mechanism_of_convection_dependence_of_leveller_and_its_effec",
+      "title": "Mechanism of convection-dependence of leveller and its effect on copper pillar bump filling uniformity",
+      "doi": "10.1080/00202967.2025.2517445",
+      "source_file": "blocks/Mechanism_of_convection_dependence_of_leveller_and_its_effec.jsonl",
+      "source_sha256": "77dcf546afd6d6dd2ed244624fd4d5f14bb88dc4f1ee0db9280627c8e948d552",
+      "block_count": 90,
+      "text_block_count": 46,
+      "table_block_count": 0,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "Simultaneously_filling_process_and_mechanism_of_through_hole",
+      "title": "Simultaneously filling process and mechanism of through-hole and blind hole by copper electroplating",
+      "doi": "10.1080/00202967.2025.2521172",
+      "source_file": "blocks/Simultaneously_filling_process_and_mechanism_of_through_hole.jsonl",
+      "source_sha256": "3f649d2e0a2626b96e8df076d4e1641de7e967ba3cc8f3edafe26888f91cb91b",
+      "block_count": 96,
+      "text_block_count": 50,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川",
+      "title": "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究",
+      "doi": "",
+      "source_file": "blocks/两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川.jsonl",
+      "source_sha256": "2d6b2d788e5395a7bc93361a76887f64e8627bf4c7bca8308d85f33b64ab87a3",
+      "block_count": 599,
+      "text_block_count": 326,
+      "table_block_count": 8,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "先进芯片制造中的钴电镀互连技术综述",
+      "title": "Cobalt Electroplating Interconnects in Advanced Chip Fabrication: A Review",
+      "doi": "10.1007/s11664-025-12242-6",
+      "source_file": "blocks/先进芯片制造中的钴电镀互连技术综述.jsonl",
+      "source_sha256": "b3b89f9913c87c689af1dbe02643067555e6bb327835581ebe11b0f4bcb0f833",
+      "block_count": 123,
+      "text_block_count": 55,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electrodeposition",
+        "review"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "六亚基四甲四胺",
+      "title": "Study on the electrochemical deposition behavior and blind hole filling behavior of Cobalt under the regulation of hexamethylenetetramine as a leveling agent",
+      "doi": "10.1016/j.electacta.2025.146509",
+      "source_file": "blocks/六亚基四甲四胺.jsonl",
+      "source_sha256": "7aa012e3417d3a1c2b3d788f9e17bc84515a9651c66d4a3b6f38a795e64c7492",
+      "block_count": 123,
+      "text_block_count": 59,
+      "table_block_count": 2,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "利用数据库_机械学习筛选可靠添加剂",
+      "title": "Data-driven discovery of novel additives for superconformal cobalt electrodeposition in 3D interconnects",
+      "doi": "10.1016/j.cej.2026.172903",
+      "source_file": "blocks/利用数据库_机械学习筛选可靠添加剂.jsonl",
+      "source_sha256": "0bf63f0431a6d8db3bd053e754ef29f16c7438aef29176191eff9b9910fcc7bb",
+      "block_count": 105,
+      "text_block_count": 44,
+      "table_block_count": 0,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "利用牺牲氧化剂实现钴的超共形填充",
+      "title": "Superconformal Cobalt Fill through the Use of Sacrificial Oxidants",
+      "doi": "10.1149/08010.0767ecst",
+      "source_file": "blocks/利用牺牲氧化剂实现钴的超共形填充.jsonl",
+      "source_sha256": "4748683c294f6f63d5ecf33e5f66abddae491b57f69aadf1c642bd6ceb128dbc",
+      "block_count": 53,
+      "text_block_count": 34,
+      "table_block_count": 0,
+      "topic_hints": [
+        "catalysis"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "孔雀石绿诱导_扩散_吸附作用下的钴超共形电沉积过程",
+      "title": "Induction-Diffusion-Adsorption Process of Malachite Green for Cobalt Superconformal Electrodeposition",
+      "doi": "10.1149/1945-7111/acb9bf",
+      "source_file": "blocks/孔雀石绿诱导_扩散_吸附作用下的钴超共形电沉积过程.jsonl",
+      "source_sha256": "d0a5026e8a2e8f79f38cafefc5424689b183623513b0a252d3d1992221bb31c9",
+      "block_count": 81,
+      "text_block_count": 50,
+      "table_block_count": 0,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响",
+      "title": "Influence of trace tungsten contents on thin-film properties and electromigration behaviors of electroless-deposited cobalt interconnect lines",
+      "doi": "10.1016/j.materresbull.2025.113343",
+      "source_file": "blocks/微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响.jsonl",
+      "source_sha256": "cce4124bb9ef4f4666ccc3029610fb3c75a99434b1a220579213f1248797ef23",
+      "block_count": 107,
+      "text_block_count": 64,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electroless"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究",
+      "title": "Investigation of novel suppressor Nitrotetrazolium Blue chloride on cobalt superconformal growth",
+      "doi": "10.1016/j.jmapro.2023.05.059",
+      "source_file": "blocks/新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究.jsonl",
+      "source_sha256": "bc7aaa170ff1330ec3114c1ff23ae7c7be6b0db1282c567c792c2d3eb99236e5",
+      "block_count": 100,
+      "text_block_count": 42,
+      "table_block_count": 3,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "无电镀钴综述",
+      "title": "Unveiling the Potential of Electroless Cobalt Deposition: A Review",
+      "doi": "10.1007/s13369-025-10584-1",
+      "source_file": "blocks/无电镀钴综述.jsonl",
+      "source_sha256": "0280ccd0b086bb58b6f5b9077e29f2df8c26fd94738412b215e305ab0ae9443e",
+      "block_count": 136,
+      "text_block_count": 69,
+      "table_block_count": 3,
+      "topic_hints": [
+        "electroless",
+        "review",
+        "catalysis"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制_加速效应",
+      "title": "Suppressing-accelerating effect of Nitrotetrazolium Blue chloride in boosting superconformal cobalt filling",
+      "doi": "10.1016/j.jelechem.2023.117671",
+      "source_file": "blocks/氯化硝基四氮唑蓝在促进钴超共形填充中的抑制_加速效应.jsonl",
+      "source_sha256": "9eea48ef48fc5b16632ebc43b2578fbf35f4a30a22fd1bf72d1dbafc722dff62",
+      "block_count": 87,
+      "text_block_count": 36,
+      "table_block_count": 2,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充",
+      "title": "Inhibitor Alkyne-PEG4-amine Contributes to Cobalt Superfilling",
+      "doi": "10.1021/acsaelm.4c00774",
+      "source_file": "blocks/炔烃_聚乙二醇_4_胺抑制剂助力钴超填充.jsonl",
+      "source_sha256": "98ec37ddc7a60f00aea1cb805938fdbb808e9aa255fe2eeb87956c3e96e02d27",
+      "block_count": 72,
+      "text_block_count": 36,
+      "table_block_count": 2,
+      "topic_hints": [],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积",
+      "title": "Superconformal Electrodeposition of Cobalt into Micron-Scale Trench with Alkynol Derivatives",
+      "doi": "10.3390/ma18081747",
+      "source_file": "blocks/炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积.jsonl",
+      "source_sha256": "1c3cbc1730b6f2a42f31308166a91e3dc4cc6c154348afeaed3790daf6ed7510",
+      "block_count": 97,
+      "text_block_count": 50,
+      "table_block_count": 2,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "title": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+      "doi": "10.1016/j.colsurfa.2022.129816",
+      "source_file": "blocks/烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究.jsonl",
+      "source_sha256": "e1b5a08fb85cff2e3485c77e0dd76580f26ad3b76b863fa241407800f1eeb076",
+      "block_count": 121,
+      "text_block_count": 61,
+      "table_block_count": 3,
+      "topic_hints": [
+        "cmp"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "title": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+      "doi": "10.61558/2993-074x.3533",
+      "source_file": "blocks/糖精对镀钴层结构_导电能力的改变.jsonl",
+      "source_sha256": "bd3b1bda51d76059ba19e8c9c8759bfc2672e2481f877ee9f4acbd51e48f4730",
+      "block_count": 77,
+      "text_block_count": 36,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electroless",
+        "thermal_treatment"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究",
+      "title": "Investigation of polyvinylpyrrolidone as an inhibitor for trench super-filling of cobalt electrodeposition",
+      "doi": "10.1016/j.jtice.2020.06.010",
+      "source_file": "blocks/聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究.jsonl",
+      "source_sha256": "543c25e7daf39adbd5b6e76166e1103323d32036a52ba96f08afdbc6a76d0d28",
+      "block_count": 73,
+      "text_block_count": 34,
+      "table_block_count": 0,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "title": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+      "doi": "10.1016/j.mtchem.2025.102854",
+      "source_file": "blocks/腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究.jsonl",
+      "source_sha256": "ae413a7f7d9d12e8bbc6da7f3cd20621b51980393cd7c1c1e125fc238a6b9cd6",
+      "block_count": 104,
+      "text_block_count": 51,
+      "table_block_count": 1,
+      "topic_hints": [
+        "electrodeposition"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    },
+    {
+      "document_id": "解码添加剂界面结构性能",
+      "title": "Decoding the interfacial structure and functionality of an organic additive for superconformal cobalt electrodeposition",
+      "doi": "10.1007/s11426-025-2626-2",
+      "source_file": "blocks/解码添加剂界面结构性能.jsonl",
+      "source_sha256": "fc676146e453cc1326c84a308db164bf030435771bc17a2a04daf492529291f3",
+      "block_count": 53,
+      "text_block_count": 30,
+      "table_block_count": 0,
+      "topic_hints": [
+        "electrodeposition",
+        "simulation"
+      ],
+      "manual_scope_review": "pending",
+      "scope_note": "包含催化等周边研究，不能把48篇一概当作电镀实验；检索命中不是内容标签金标。"
+    }
+  ]
+}

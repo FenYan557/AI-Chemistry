@@ -1,0 +1,476 @@
+{
+  "version": "2.0",
+  "status": "partial_controlled_vocabulary",
+  "source": "归档/20261020_v4整理前/registry/candidates.json 的 14 个候选关系；签名（域/值域/方向/基数）为本轮新补",
+  "not_gold": true,
+  "signature_rule": "以投影角色决定端点；只有core且projection完整的关系可生成图边。未规范事实仍可按原文检索引用。",
+  "direction_rule": "方向由projection.from_roles/to_roles指定，不取首参与者。",
+  "cardinality_rule": "基数指一条事实的参与者数量上下界；超界只进 review 档，不丢记录。",
+  "relations": [
+    {
+      "relation_id": "r7",
+      "label": "添加物对沉积过程、组织或性质的影响",
+      "definition": "记录添加物在具体条件下对沉积过程或材料组织/性质的报告作用；保留作用方向和陈述性质，不预设普适因果。",
+      "status": "core",
+      "review": "pending",
+      "domain_types": [
+        "t1",
+        "t2"
+      ],
+      "range_types": [
+        "t6",
+        "t9",
+        "t12",
+        "t13",
+        "t14",
+        "t15",
+        "t16",
+        "t19",
+        "t25",
+        "t26",
+        "t34"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 4
+      },
+      "allowed_qualifiers": [
+        "conditions",
+        "statement_type",
+        "source_scope",
+        "polarity",
+        "modality",
+        "magnitude",
+        "comparison"
+      ],
+      "signature_note": "添加物在前，受影响对象在后；条件必须绑定到具体事实，不写进类型定义。",
+      "blocked_reason": null,
+      "extraction_enabled": true,
+      "projection": {
+        "from_roles": [
+          "agent"
+        ],
+        "to_roles": [
+          "affected_process",
+          "affected_property",
+          "observed_effect",
+          "observed_structure"
+        ]
+      }
+    },
+    {
+      "relation_id": "r11",
+      "label": "物质吸附于固体表面（可带位点或晶面限定）",
+      "definition": "某分子或吸附层在固体表面上发生吸附，可限定于特定位点或晶面。",
+      "status": "core",
+      "review": "pending",
+      "domain_types": [
+        "t1",
+        "t2"
+      ],
+      "range_types": [
+        "t5",
+        "t7",
+        "t8",
+        "t9"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "conditions",
+        "statement_type",
+        "source_scope",
+        "polarity",
+        "modality"
+      ],
+      "signature_note": "吸附物→表面/位点/晶面；方向不依赖数组位置。",
+      "blocked_reason": null,
+      "extraction_enabled": true,
+      "projection": {
+        "from_roles": [
+          "adsorbate"
+        ],
+        "to_roles": [
+          "surface",
+          "site",
+          "facet"
+        ]
+      }
+    },
+    {
+      "relation_id": "r1",
+      "label": "物质被选作或被建议用作某工艺的功能角色",
+      "definition": "表示某物质在同一研究中被选定、或根据结果被建议用作某工艺中的功能角色，并可带目标工艺或应用背景。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "range_types": [
+        "t32"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "statement_type",
+        "source_scope",
+        "modality"
+      ],
+      "signature_note": "角色本体由 role_assignments 表达；登记本关系的边只表示“被选作/被建议用作”，避免角色重复计数。",
+      "blocked_reason": "值域 t32 目前不可实例化（见 entity_types），签名无法在真实数据上验证。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r2",
+      "label": "电化学测量量发生变化",
+      "definition": "在指定电解液的电化学测试或循环伏安曲线中，某测量量相对参照发生变化。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t1",
+        "t3"
+      ],
+      "range_types": [
+        "t19",
+        "t20"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "conditions",
+        "statement_type",
+        "polarity",
+        "modality",
+        "magnitude",
+        "comparison"
+      ],
+      "signature_note": "变化主体是测量量，添加物作为条件或前置参与者；方向由 outcome.direction 承载。",
+      "blocked_reason": "参照（baseline）在该关系下的统一写入方式未验证。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r3",
+      "label": "电化学响应中出现新特征（峰）",
+      "definition": "在电化学曲线中出现新的响应特征。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t1",
+        "t3"
+      ],
+      "range_types": [
+        "t20"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 2
+      },
+      "allowed_qualifiers": [
+        "conditions",
+        "statement_type",
+        "polarity",
+        "modality"
+      ],
+      "signature_note": "峰特征类型 t20 不可实例化，暂由 outcomes.indicator_raw 承载。",
+      "blocked_reason": "值域类型未实例化；峰位/峰高未作为结构化结果字段。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r4",
+      "label": "采用方法研究物质在固体表面的吸附行为",
+      "definition": "采用一项或多项计算或表征手段，研究某物质在固体表面的吸附行为。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t22",
+        "t23"
+      ],
+      "range_types": [
+        "t39",
+        "t5"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 3,
+        "max_participants": 4
+      },
+      "allowed_qualifiers": [
+        "statement_type",
+        "polarity",
+        "modality"
+      ],
+      "signature_note": "方法可并列多项，故按事实记录而不用成对边；方法不是结论持有者。",
+      "blocked_reason": "参与者顺序与“研究对象/手段/现象”三元的边展开规则未定，成对边会丢手段信息。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r5",
+      "label": "计算模拟金属离子与有机分子的配位作用",
+      "definition": "用计算方法模拟金属离子与有机分子之间的配位作用。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t22"
+      ],
+      "range_types": [
+        "t2",
+        "t1"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 3,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "statement_type",
+        "modality"
+      ],
+      "signature_note": "计算结果是模拟而非观测；陈述性质必须随边传递。",
+      "blocked_reason": "配位复合物是否另立类型未定，值域暂借 t1/t2。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r6",
+      "label": "提出机制或因素以解释效应",
+      "definition": "作者提出某机制假设，或以某因素解释某工艺过程中的现象；解释项与效应均为原文陈述，不代表已验证因果。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t36",
+        "t1",
+        "t2"
+      ],
+      "range_types": [
+        "t33",
+        "t34",
+        "t39",
+        "t12"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "statement_type",
+        "source_scope",
+        "modality"
+      ],
+      "signature_note": "机制假设类型 t36 不可实例化；当前由 author_interpretation 承载。",
+      "blocked_reason": "域或值域多数类型为候选，签名无法在真实数据上验证。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r8",
+      "label": "择优取向/织构的形成或保持",
+      "definition": "某晶面或织构在沉积层中成为择优取向，或在条件变化后继续保持该择优取向。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t1",
+        "t2",
+        "t6"
+      ],
+      "range_types": [
+        "t12"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "conditions",
+        "statement_type",
+        "polarity",
+        "modality"
+      ],
+      "signature_note": "“保持”与“形成”是两种极性，用 outcome.direction 与 fact.polarity 区分。",
+      "blocked_reason": "观察层与镀层/基底的关系未统一，暂只登记织构一侧。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r9",
+      "label": "材料或样品的性质测量",
+      "definition": "某对象报告某项性质；值和阶段保存在outcomes，不隐含添加剂因果作用。",
+      "status": "core",
+      "review": "pending",
+      "domain_types": [
+        "t6",
+        "t12",
+        "t14",
+        "t16"
+      ],
+      "range_types": [
+        "t14",
+        "t15",
+        "t16",
+        "t19"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 2
+      },
+      "allowed_qualifiers": [
+        "conditions",
+        "statement_type",
+        "magnitude",
+        "comparison"
+      ],
+      "signature_note": "值由 outcomes 承载，不建“数值节点”；边只表示测量对象与归属样品。",
+      "blocked_reason": null,
+      "extraction_enabled": true,
+      "projection": {
+        "from_roles": [
+          "measured_object"
+        ],
+        "to_roles": [
+          "measured_property"
+        ]
+      }
+    },
+    {
+      "relation_id": "r10",
+      "label": "热处理引起镀层性质变化",
+      "definition": "对镀层实施热处理后，某性质相对处理前进一步变化。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t29"
+      ],
+      "range_types": [
+        "t6",
+        "t15",
+        "t16",
+        "t13"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 4
+      },
+      "allowed_qualifiers": [
+        "conditions",
+        "statement_type",
+        "modality",
+        "magnitude",
+        "comparison"
+      ],
+      "signature_note": "处理前后样品由 samples.derived_from_sample_id 表达，比较基准由 outcome.comparison 表达。",
+      "blocked_reason": "处理步骤作为事实参与者还是条件尚未统一。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r12",
+      "label": "选择性抑制或诱导堆垛生长方式",
+      "definition": "吸附物种抑制一种原子层堆垛方式的生长，同时诱导另一种堆垛方式的生长。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t1",
+        "t2"
+      ],
+      "range_types": [
+        "t11"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "statement_type",
+        "polarity",
+        "modality"
+      ],
+      "signature_note": "同一事实可同时抑制与诱导，用两条 outcomes 分列方向，不写双向边。",
+      "blocked_reason": "极性与效应方向的双重表达未在样例上验证。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r13",
+      "label": "研究结果为后续优化或研究提供依据（论述关系）",
+      "definition": "以论述方式声明本研究结果可为他人的配方优化或后续研究提供理论依据或支持；不表示已验证的效果。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t6",
+        "t7",
+        "t19"
+      ],
+      "range_types": [
+        "t28",
+        "t30"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "statement_type",
+        "source_scope",
+        "modality"
+      ],
+      "signature_note": "论述关系无实验结果，陈述性质必须为 author_interpretation/future_work。",
+      "blocked_reason": "值与域都是背景性类型，判据不足，暂不实例化。",
+      "extraction_enabled": false
+    },
+    {
+      "relation_id": "r14",
+      "label": "吸附行为有利于改善后续清洗中的去除效果",
+      "definition": "某吸附行为被认为有助于改善后续清洗步骤中对缓蚀剂的去除效果；证据状态为 proposed。",
+      "status": "proposed",
+      "review": "pending",
+      "domain_types": [
+        "t7",
+        "t1"
+      ],
+      "range_types": [
+        "t30",
+        "t35"
+      ],
+      "direction": "directed",
+      "inverse": null,
+      "cardinality": {
+        "min_participants": 2,
+        "max_participants": 3
+      },
+      "allowed_qualifiers": [
+        "statement_type",
+        "polarity",
+        "modality"
+      ],
+      "signature_note": "证据状态通常为 future_work，须随边传递，不得当作已观测效果。",
+      "blocked_reason": "效果值类型 t35 与清洗步骤 t30 的实例化判据未写。",
+      "extraction_enabled": false
+    }
+  ]
+}

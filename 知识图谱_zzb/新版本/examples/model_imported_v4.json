@@ -1,0 +1,202 @@
+{
+  "schema_version": "4.0.0-draft",
+  "documents": [
+    {
+      "id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "title": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+      "source_file": "清洗/02_清洗/out/blocks/腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究.jsonl",
+      "sha256": "ae413a7f7d9d12e8bbc6da7f3cd20621b51980393cd7c1c1e125fc238a6b9cd6",
+      "source_kind": "cleaned_text"
+    },
+    {
+      "id": "糖精对镀钴层结构_导电能力的改变",
+      "title": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+      "source_file": "清洗/02_清洗/out/blocks/糖精对镀钴层结构_导电能力的改变.jsonl",
+      "sha256": "bd3b1bda51d76059ba19e8c9c8759bfc2672e2481f877ee9f4acbd51e48f4730",
+      "source_kind": "cleaned_text"
+    },
+    {
+      "id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "title": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+      "source_file": "清洗/02_清洗/out/blocks/烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究.jsonl",
+      "sha256": "e1b5a08fb85cff2e3485c77e0dd76580f26ad3b76b863fa241407800f1eeb076",
+      "source_kind": "cleaned_text"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "blk:7cf3c70d130e763f",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "page": 1,
+      "section": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole > ABSTRACT",
+      "text": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole. Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution. The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis. Based on the changes of the ADO adsorption sites from the MD and E-FTIR analyses, an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition. Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+    },
+    {
+      "id": "blk:8b1aeebd56a70e1a",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "page": 8,
+      "section": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole > 4. Conclusion",
+      "text": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition."
+    },
+    {
+      "id": "blk:cf5b948c8b59760d",
+      "document_id": "糖精对镀钴层结构_导电能力的改变",
+      "page": 1,
+      "section": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating > Abstract",
+      "text": "In the process of electroless cobalt plating, the saccharin additive can significantly change the surface morphology, texture orientation, and conductivity of the cobalt coating layer. When the amount of saccharin was 3 mg·L –1, the cobalt coating transformed from disordered large grains to a honeycomb structure, with a preferred orientation of (002) facet on hexagonal close-packed (HCP) cobalt crystals. The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment. When the concentration of saccharin was increased, the grain size was gradually refined and a “stone forest” structure was observed, with the preferred orientation remaining unchanged. The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent. Through the study of the crystallization behavior of cobalt electroless plating, saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane, inhibiting the growth of abc stacking arrangement and inducing the crystal growth in ab stacking mode, thereby achieving optimal growth of HCP (002) texture."
+    },
+    {
+      "id": "blk:17bf049326751a44",
+      "document_id": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+      "page": 9,
+      "section": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation > 4. Conclusion",
+      "text": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m:869774c4fa92fb7c",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "surface": "Adenosine (ADO)",
+      "candidate_type_ids": [],
+      "evidence": {
+        "kind": "block",
+        "block_id": "blk:7cf3c70d130e763f",
+        "start": 0,
+        "end": 15,
+        "quote": "Adenosine (ADO)"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "f:5699f73249e1f482",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "relation": {
+        "raw": "effect",
+        "candidate_relation_id": "r7",
+        "definition": null
+      },
+      "participants": [
+        {
+          "mention_id": "m:869774c4fa92fb7c",
+          "role": "agent"
+        }
+      ],
+      "statement_type": "author_interpretation",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 710,
+          "end": 901,
+          "quote": "an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition."
+        }
+      ],
+      "conditions": [
+        {
+          "parameter_raw": "concentration",
+          "about_mention_ids": [
+            "m:869774c4fa92fb7c"
+          ],
+          "scope_status": "explicit",
+          "value": {
+            "value_raw": "low",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "unresolved"
+          },
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 814,
+              "end": 831,
+              "quote": "low-concentration"
+            }
+          ],
+          "candidate_parameter": null,
+          "inherited": false
+        }
+      ],
+      "outcomes": [
+        {
+          "indicator_raw": "acceleration",
+          "value": {
+            "value_raw": "acceleration",
+            "value_kind": "qualitative",
+            "unit_raw": null,
+            "unit_status": "not_applicable"
+          },
+          "evidence": [
+            {
+              "kind": "block",
+              "block_id": "blk:7cf3c70d130e763f",
+              "start": 814,
+              "end": 844,
+              "quote": "low-concentration acceleration"
+            }
+          ],
+          "stage_raw": "cobalt deposition",
+          "direction": "unknown",
+          "magnitude": {
+            "raw": null,
+            "qualifier": "unknown"
+          },
+          "comparison": {
+            "status": "not_stated",
+            "baseline_raw": null,
+            "baseline_mention_id": null,
+            "basis_raw": null
+          },
+          "sample_id": null
+        }
+      ],
+      "extraction": {
+        "method": "bounded_model_extraction",
+        "model": "qwen3.6-flash",
+        "protocol_version": "v4-compact"
+      },
+      "group_id": null,
+      "cited_work": {
+        "raw": null,
+        "document_id": null,
+        "reference_raw": null
+      },
+      "source_scope": "unknown",
+      "polarity": "unknown",
+      "modality": "unknown",
+      "review": "pending",
+      "notes": [],
+      "run_id": null
+    }
+  ],
+  "identities": [],
+  "identity_links": [],
+  "identity_merges": [],
+  "external_records": [],
+  "role_assignments": [],
+  "experiments": [],
+  "runs": [],
+  "samples": [],
+  "entities": [
+    {
+      "id": "ent:m:869774c4fa92fb7c",
+      "document_id": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+      "label": "Adenosine (ADO)",
+      "type_id": null,
+      "identity_id": null,
+      "from_mention_id": "m:869774c4fa92fb7c",
+      "evidence": [
+        {
+          "kind": "block",
+          "block_id": "blk:7cf3c70d130e763f",
+          "start": 0,
+          "end": 15,
+          "quote": "Adenosine (ADO)"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

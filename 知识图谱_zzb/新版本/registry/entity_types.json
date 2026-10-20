@@ -1,0 +1,1028 @@
+{
+  "version": "1.0",
+  "status": "partial_controlled_vocabulary",
+  "source": "归档/20261020_v4整理前/registry/candidates.json 的 39 个候选类型；判据为本轮新写，未经标注一致性检验",
+  "not_gold": true,
+  "instantiation_rule": "只有 status=core 且 criteria 非空的类型可以实例化；其余类型落到实体上只记为候选，并触发 review 档提示。",
+  "hierarchy_note": "类型层级暂不建立：candidates 的 unresolved 已记录电沉积/化学镀/超共形填充/CMP 可能构成上下位，但原文未明示。宁可 parent_type_id 留空，也不编造层级。",
+  "types": [
+    {
+      "type_id": "t1",
+      "label": "有机分子物种",
+      "definition": "具有确定分子身份的有机化合物；在本试跑材料中作为镀液或浆料的添加组分出现。功能角色不进入本类型定义。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及可指称一个分子组成确定的有机化合物或其离子/盐/水合物形式",
+        "功能角色（整平剂、抑制剂、光亮剂等）不参与类型判定，作为 role_assignments 记录",
+        "原文只给组分泛称且无分子身份时，不判为 t1"
+      ],
+      "positive_examples": [
+        {
+          "surface": "ADO",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "括注 Adenosine (ADO)，篇内映射"
+        },
+        {
+          "surface": "saccharin",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "糖精，作为 electroless 镀液添加物"
+        },
+        {
+          "surface": "NA",
+          "block_id": "blk:17bf049326751a44",
+          "note": "烟酸，CMP 缓蚀剂语境"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "leveling additive",
+          "why_not": "角色措辞，不指称分子；应作为 t32/role_assignment"
+        },
+        {
+          "mention_or_desc": "other slurry components",
+          "why_not": "无分子身份，只能保留为未定实体"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t32",
+          "distinction": "角色是某物质在某条事实中的位置；同一分子可在不同条件下承担不同角色"
+        },
+        {
+          "near_type_id": "t38",
+          "distinction": "官能团是分子片段，不是可独立参与反应的物种"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t2",
+      "label": "金属离子物种",
+      "definition": "溶液中以带电离子形式存在的金属物种。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及写明电荷或价态（如 Co 2+、Cu2+）且处于溶液相",
+        "金属镀层、晶体、晶面不是本类型",
+        "配位复合物的整体是否另立类型未定，暂不自动归入 t2"
+      ],
+      "positive_examples": [
+        {
+          "surface": "Co 2+",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "原文 The Co 2+ with ADO coordination was simulated"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "cobalt film",
+          "why_not": "固相镀层，属 t6"
+        },
+        {
+          "mention_or_desc": "Co hcp (002) crystalline plane",
+          "why_not": "晶体学平面，属 t9"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t6",
+          "distinction": "离子在液相，镀层在固相；两者不可因元素相同合并"
+        },
+        {
+          "near_type_id": "t19",
+          "distinction": "离子浓度可作为条件值，不是测量量实体"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t3",
+      "label": "电解液/镀液",
+      "definition": "由溶剂、金属离子与添加物等组成的电沉积或化学沉积用液体介质；具体组成作为属性，不进入类型定义。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称用于沉积的液体介质整体，可带组成限定",
+        "单一组分（如某添加物）不是介质整体",
+        "组成、pH、温度等作为条件的属性，不写成类型定义"
+      ],
+      "positive_examples": [
+        {
+          "surface": "plating solution",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "ADO-containing plating solution"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "3 mg·L –1",
+          "why_not": "条件取值，不是介质实体"
+        },
+        {
+          "mention_or_desc": "Co 2+",
+          "why_not": "介质中的组分，属 t2"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t4",
+          "distinction": "浆料组成是配方属性集合，不自动构成电解液实体；两者不可互换"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t5",
+      "label": "固体表面/界面",
+      "definition": "沉积或吸附发生的固体材料表面区域，可带材料限定。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称固体材料的表面区域而非材料整体",
+        "可带材料限定（cobalt surface）或几何限定（dense crystal plane）",
+        "表面形成的覆盖层不属本类型"
+      ],
+      "positive_examples": [
+        {
+          "surface": "cobalt surface",
+          "block_id": "blk:17bf049326751a44",
+          "note": "NA 在 Co 表面的物理吸附语境"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "cobalt film",
+          "why_not": "材料层整体，属 t6"
+        },
+        {
+          "mention_or_desc": "passive film of NA on Co surface",
+          "why_not": "表面形成的膜，属 t7"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t6",
+          "distinction": "表面是材料层的界面区域；镀层是材料层本体"
+        },
+        {
+          "near_type_id": "t7",
+          "distinction": "膜由吸附或反应在表面形成，是覆盖层而非基底表面"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t6",
+      "label": "镀层/薄膜材料",
+      "definition": "沉积形成的金属层或薄膜，具有厚度、组织、性质等属性。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称沉积形成的材料层整体",
+        "厚度、组织、性质是其属性，不升为独立类型",
+        "未指明形态的泛称材料（如 cobalt）不足以判为 t6"
+      ],
+      "positive_examples": [
+        {
+          "surface": "cobalt film",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "糖精文档中电阻率测量对象"
+        },
+        {
+          "surface": "cobalt coating",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "纯度描述对象"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "cobalt deposition",
+          "why_not": "过程，属工艺过程候选 t25"
+        },
+        {
+          "mention_or_desc": "“stone forest” structure",
+          "why_not": "形貌描述，属 t13"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t13",
+          "distinction": "镀层是材料层，形貌是其表面几何状态"
+        },
+        {
+          "near_type_id": "t12",
+          "distinction": "织构是镀层中晶粒取向的统计分布，不是镀层本身"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t7",
+      "label": "表面膜/表面吸附层",
+      "definition": "在固体表面形成的钝化膜或吸附层，由特定分子与表面作用形成。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称在固体表面形成的覆盖层（钝化膜、吸附层）",
+        "须与基底表面（t5）区分：膜是形成物，表面是发生面",
+        "仅描述吸附过程时属 t39"
+      ],
+      "positive_examples": [
+        {
+          "surface": "passive film of NA on Co surface",
+          "block_id": "blk:17bf049326751a44",
+          "note": "NA 在 Co 表面的钝化膜"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "adsorption behavior",
+          "why_not": "过程描述，属 t39"
+        },
+        {
+          "mention_or_desc": "cobalt surface",
+          "why_not": "基底表面，属 t5"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t5",
+          "distinction": "膜是覆盖层；表面是界面本身"
+        },
+        {
+          "near_type_id": "t39",
+          "distinction": "吸附行为是过程；膜是过程的产物状态"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t9",
+      "label": "晶面（晶体学平面）",
+      "definition": "晶体中具有特定密勒指数的原子平面，可作为取向、生长或吸附的描述对象。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及带密勒指数且指称原子平面（plane/facet/crystalline plane）",
+        "多晶取向分布属 t12，堆垛序列属 t11，晶相属候选 t10",
+        "只写 (002) 而上下文说明是取向统计时，不判为 t9"
+      ],
+      "positive_examples": [
+        {
+          "surface": "Co hcp (002) crystalline plane",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "ADO 文档中的择优晶面"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "HCP (002) texture",
+          "why_not": "织构/取向统计，属 t12"
+        },
+        {
+          "mention_or_desc": "abc stacking arrangement",
+          "why_not": "原子层堆垛序列，属 t11"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t12",
+          "distinction": "晶面是单个晶体学平面；织构是多晶取向分布"
+        },
+        {
+          "near_type_id": "t11",
+          "distinction": "堆垛方式描述层的周期序列，可跨越多个晶面"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t11",
+      "label": "原子层堆垛方式",
+      "definition": "密排结构中原子层的周期堆垛序列，属于结构排布属性。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及描述原子层的周期序列（如 abc stacking）",
+        "晶面、织构、晶相不属本类型",
+        "原文仅写 hcp 而未描述堆垛序列时不判为 t11"
+      ],
+      "positive_examples": [
+        {
+          "surface": "abc stacking arrangement",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "糖精文档中被抑制的堆垛方式"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "HCP (002) texture",
+          "why_not": "取向统计，属 t12"
+        },
+        {
+          "mention_or_desc": "Co hcp (002) crystalline plane",
+          "why_not": "具体晶面，属 t9"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t9",
+          "distinction": "堆垛序列可包含多个等效晶面；晶面是单一平面"
+        },
+        {
+          "near_type_id": "t10",
+          "distinction": "晶相是固相结构类型，堆垛方式是其内部排布描述"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t12",
+      "label": "织构/择优取向",
+      "definition": "多晶镀层中晶粒取向的统计分布或占优取向；可与具体晶面关联，但不等于晶面本身。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及描述多晶取向的分布或占优取向（texture / preferred orientation）",
+        "单一晶面提及不判为 t12",
+        "织构强度、比例等数值作为结果值，不进入类型定义"
+      ],
+      "positive_examples": [
+        {
+          "surface": "HCP (002) texture",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "糖精文档的择优织构"
+        },
+        {
+          "surface": "preferred orientation of (002) facet",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "取向描述，与晶面提及分开记录"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "Co hcp (002) crystalline plane",
+          "why_not": "单晶面提及，属 t9"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t9",
+          "distinction": "同一密勒指数可同时出现晶面提及与织构提及；两者不自动同一身份"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t13",
+      "label": "表面形貌/组织形态",
+      "definition": "镀层表面及近表面的几何形态与晶粒组织状态，包括泛称的形貌维度与具体形态描述。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称可观察的表面几何形态或组织状态（honeycomb、stone forest 等）",
+        "尺寸参数属 t14，取向属 t12，晶面属 t9",
+        "仅写 morphology 而未给具体形态时保留为泛称形貌维度"
+      ],
+      "positive_examples": [
+        {
+          "surface": "“stone forest” structure",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "高糖精浓度下的形态"
+        },
+        {
+          "surface": "honeycomb structure",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "3 mg·L–1 下的形态"
+        },
+        {
+          "surface": "surface morphology",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "泛称形貌维度"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "grain size",
+          "why_not": "尺寸参数，属 t14"
+        },
+        {
+          "mention_or_desc": "(002) facet",
+          "why_not": "晶面/取向，不属形貌"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t14",
+          "distinction": "形貌描述几何形态；晶粒尺寸是数值参数"
+        },
+        {
+          "near_type_id": "t12",
+          "distinction": "形貌与取向是不同观测维度，原文可同句报告但不可混记"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t14",
+      "label": "晶粒尺寸（微结构参数）",
+      "definition": "镀层晶粒的平均尺寸或尺寸分布参数。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称晶粒尺寸这一可测量参数（grain size / 晶粒尺寸）",
+        "“晶粒细化”作为效应描述属候选 t34，不属本类型",
+        "无测量值也可作为结果指标保留，单位缺失时限制比较"
+      ],
+      "positive_examples": [
+        {
+          "surface": "grain size",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "gradually refined 的对象"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "grain refinement effect",
+          "why_not": "效应描述，属候选 t34"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t34",
+          "distinction": "尺寸是参数，细化是效应陈述；效应不可当参数值"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t16",
+      "label": "镀层纯度/成分",
+      "definition": "镀层中目标金属含量或杂质水平所表征的纯度属性。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称纯度或成分水平（purity / composition）",
+        "电阻率、形貌、织构不属本类型",
+        "未给数值时保留为指标名，不填占位串"
+      ],
+      "positive_examples": [
+        {
+          "surface": "purity of cobalt coating",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "slightly improves 的对象"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "resistivity",
+          "why_not": "电学性质，属候选 t15"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t15",
+          "distinction": "纯度是成分水平，电阻率是电学性质；两者可相关但不可互换"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t19",
+      "label": "电化学测量量",
+      "definition": "电化学测试中记录或发生变化的物理量。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称电化学测试中的物质量（deposition potential 等）",
+        "曲线中的峰特征属候选 t20，整条曲线属候选 t21",
+        "镀层电学性质（电阻率）不属本类型"
+      ],
+      "positive_examples": [
+        {
+          "surface": "deposition potential",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "Changes in deposition potential ... were observed"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "resistivity",
+          "why_not": "镀层性质，属候选 t15"
+        },
+        {
+          "mention_or_desc": "stripping peaks",
+          "why_not": "响应特征，属候选 t20"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t20",
+          "distinction": "测量量是量本身，峰是曲线上的特征"
+        },
+        {
+          "near_type_id": "t15",
+          "distinction": "电化学测量量来自测试过程，镀层电学性质来自材料表征"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t22",
+      "label": "计算方法/计算分析",
+      "definition": "基于量子化学或经典力学的计算模拟与计算结果分析方法。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称计算方法或计算分析（DFT、MD、interaction region indicator 等）",
+        "实验表征方法属 t23",
+        "计算方法产出的数值结果不属本类型"
+      ],
+      "positive_examples": [
+        {
+          "surface": "density functional theory calculations",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "吸附行为研究方法之一"
+        },
+        {
+          "surface": "molecular dynamics (MD) simulation",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "同上"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "E-FTIR spectroscopy tests",
+          "why_not": "实验表征，属 t23"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t23",
+          "distinction": "计算与实验是不同证据来源；同一事实可并列多种方法"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t23",
+      "label": "实验表征方法",
+      "definition": "对样品或界面进行实验测量的谱学、显微等方法。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称实验测量手段（E-FTIR、CV 等）",
+        "计算方法属 t22",
+        "表征结果（谱图、曲线）不属本类型"
+      ],
+      "positive_examples": [
+        {
+          "surface": "electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests",
+          "block_id": "blk:7cf3c70d130e763f",
+          "note": "吸附位点变化的实验依据"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "density functional theory calculations",
+          "why_not": "计算，属 t22"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t22",
+          "distinction": "方法类型不同，证据强度也不同；不得把计算结果记为实验观测"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t29",
+      "label": "沉积后热处理（退火）",
+      "definition": "沉积完成后对镀层实施的热处理步骤。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称沉积后的热处理步骤（annealing treatment）",
+        "处理前后状态由 samples.derived_from_sample_id 表达，不写在类型里",
+        "温度/时间是其条件，不进入类型定义"
+      ],
+      "positive_examples": [
+        {
+          "surface": "annealing treatment",
+          "block_id": "blk:cf5b948c8b59760d",
+          "note": "电阻率进一步下降的条件"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "post CMP cleaning",
+          "why_not": "清洗步骤，属 t30"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t30",
+          "distinction": "热处理改性质，清洗去残留；两者都属处理步骤但目的不同"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t30",
+      "label": "CMP 后清洗步骤",
+      "definition": "CMP 完成后去除残留物或缓蚀剂的清洗工序。",
+      "status": "core",
+      "review": "pending",
+      "criteria": [
+        "提及指称 CMP 之后的清洗工序（post CMP cleaning）",
+        "CMP 工艺本体属候选 t27",
+        "清洗效果属候选 t35"
+      ],
+      "positive_examples": [
+        {
+          "surface": "post CMP cleaning",
+          "block_id": "blk:17bf049326751a44",
+          "note": "NA 吸附被认为有助于该步骤"
+        }
+      ],
+      "counterexamples": [
+        {
+          "mention_or_desc": "annealing treatment",
+          "why_not": "热处理，属 t29"
+        }
+      ],
+      "boundaries": [
+        {
+          "near_type_id": "t27",
+          "distinction": "清洗是 CMP 之后的独立步骤，不等同于 CMP 工艺本身"
+        }
+      ],
+      "parent_type_id": null,
+      "blocked_reason": null
+    },
+    {
+      "type_id": "t4",
+      "label": "浆料组成（配方属性）",
+      "definition": "CMP 浆料中各组分及其配比关系，属于配方属性，不是独立材料实体。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "配方属性与实体边界未定：同一组配比既可以是属性也可以是构成关系，判据未写成。"
+    },
+    {
+      "type_id": "t8",
+      "label": "吸附位点",
+      "definition": "固体表面上可发生吸附的局域位置；原文未给出结构定义时只保留为待定位点类型。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "c-sites 原文未定义结构，无法给出可检验的实例化判据；暂不实例化。"
+    },
+    {
+      "type_id": "t10",
+      "label": "晶体结构/晶相",
+      "definition": "原子按特定晶格与堆垛周期排列的固相结构类型。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "与 t11 堆垛方式、t12 织构的边界待定：hcp 既可指晶相也可指堆垛，判据未定。"
+    },
+    {
+      "type_id": "t15",
+      "label": "电学性质",
+      "definition": "镀层的导电能力或电阻率等电学属性。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "性质值是属性还是指标节点未定；电阻率目前只作 outcomes 指标，未立实体类型。"
+    },
+    {
+      "type_id": "t17",
+      "label": "吸附性质/吸附强度",
+      "definition": "分子或基团在表面吸附强弱的性质描述。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "性质与过程（t39）边界未写成判据；且吸附强度缺统一量纲。"
+    },
+    {
+      "type_id": "t18",
+      "label": "材料微观性质（泛称）",
+      "definition": "原文未具体说明的微观性质维度，只能保留为待细化的属性占位。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "泛称占位类型，按定义不可实例化为确定类型；只保留为属性占位文本。"
+    },
+    {
+      "type_id": "t20",
+      "label": "电化学响应特征（峰）",
+      "definition": "电化学曲线中可识别的响应特征。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "峰位/峰高/峰形是否为同一实体未定；暂只作 outcomes 指标名。"
+    },
+    {
+      "type_id": "t21",
+      "label": "测量曲线/测量数据对象",
+      "definition": "一次测量得到的电流-电位等曲线数据对象，可承载多个观测特征。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "数据对象当前无存储层承载（未实现曲线/表格文件级锚点）。"
+    },
+    {
+      "type_id": "t24",
+      "label": "超共形填充工艺",
+      "definition": "在特定结构（如通孔）内以实现超共形/无空洞填充为目标的金属填充过程。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "与 t25 电沉积过程可能构成上下位，原文未明示，暂不建层级、不实例化。"
+    },
+    {
+      "type_id": "t25",
+      "label": "钴电沉积过程",
+      "definition": "在外加电位/电流下将钴离子还原为金属钴的沉积过程。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "过程类型需要在事实层作事件参与者；事件型实体的标识规则未定。"
+    },
+    {
+      "type_id": "t26",
+      "label": "化学镀钴工艺",
+      "definition": "不依赖外电流、通过化学还原剂在表面沉积钴的工艺。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "与 t25 的边界（外电流与否）可判，但过程实体标识规则未定，暂不实例化。"
+    },
+    {
+      "type_id": "t27",
+      "label": "化学机械抛光工艺",
+      "definition": "结合化学作用与机械研磨去除表面材料的平坦化工艺。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "过程实体标识规则未定；当前只作事实背景文本。"
+    },
+    {
+      "type_id": "t28",
+      "label": "集成电路制造流程（应用背景）",
+      "definition": "作为应用背景的集成电路制造流程，不是本研究直接考察的局部工艺。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "背景性指称缺少可检验的实例化判据，易被误当研究对象。"
+    },
+    {
+      "type_id": "t31",
+      "label": "基底结构特征（通孔几何）",
+      "definition": "沉积基底或填充对象的几何结构特征。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "通孔几何与样品（samples）的分工未定：几何是样品属性还是实体。"
+    },
+    {
+      "type_id": "t32",
+      "label": "工艺功能角色",
+      "definition": "某物质在特定工艺中承担的作用定位；是关系中的角色，不是物质类别。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "角色已由 role_assignments 记录并在受控词表取值；暂不建角色实体，避免同义重复。"
+    },
+    {
+      "type_id": "t33",
+      "label": "浓度依赖的加速-抑制效应",
+      "definition": "同一添加物在低浓度表现为加速、高浓度表现为抑制的现象性描述。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "效应是跨两条事实的聚合，不是单条事实里的实体；需消费层设计。"
+    },
+    {
+      "type_id": "t34",
+      "label": "晶粒细化效应",
+      "definition": "沉积层晶粒尺寸减小的效应描述。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "效应与 t14 参数的分工未写死：细化本身是变化，不是尺寸值。"
+    },
+    {
+      "type_id": "t35",
+      "label": "缓蚀剂去除效果",
+      "definition": "清洗等工序中去除表面缓蚀剂的效果描述。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "效果值缺统一指标与量纲，只能作 outcomes 指标名。"
+    },
+    {
+      "type_id": "t36",
+      "label": "机制假设",
+      "definition": "作者提出、用于解释现象的机理陈述。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "假设已由 facts.statement_type=author_interpretation 承载；是否需独立节点待定。"
+    },
+    {
+      "type_id": "t37",
+      "label": "协同效应假设（研究展望）",
+      "definition": "关于某组分与其他组分协同作用的待验证设想，出现在未来工作陈述中。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "展望性陈述由 statement_type=future_work 承载；独立节点会与模态字段重复。"
+    },
+    {
+      "type_id": "t38",
+      "label": "分子结构基团/官能团",
+      "definition": "分子中具有特定化学结构的片段，不是独立物质。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "基团在原文常以复合指称出现（nucleoside and adenine groups），拆分规则未定。"
+    },
+    {
+      "type_id": "t39",
+      "label": "吸附行为/吸附过程",
+      "definition": "分子或离子在固体表面发生吸附的过程性描述。",
+      "status": "proposed",
+      "review": "pending",
+      "criteria": [],
+      "positive_examples": [],
+      "counterexamples": [],
+      "boundaries": [],
+      "parent_type_id": null,
+      "blocked_reason": "过程类型作参与者的标识规则未定；当前由关系 r11 表达。"
+    }
+  ],
+  "extraction_policy": "低能力模型不判39个细类型：只选或记录chemical/bath/sample/surface/structure/indicator/method/process/other；细类型作为可选后台映射，候选首项不是确定类型。",
+  "model_groups": {
+    "chemical": [
+      "t1",
+      "t2"
+    ],
+    "bath": [
+      "t3",
+      "t4"
+    ],
+    "sample": [
+      "t6"
+    ],
+    "surface": [
+      "t5",
+      "t7",
+      "t8"
+    ],
+    "structure": [
+      "t9",
+      "t10",
+      "t11",
+      "t31",
+      "t38"
+    ],
+    "indicator": [
+      "t12",
+      "t13",
+      "t14",
+      "t15",
+      "t16",
+      "t17",
+      "t18",
+      "t19",
+      "t20",
+      "t21",
+      "t33",
+      "t34",
+      "t35"
+    ],
+    "method": [
+      "t22",
+      "t23"
+    ],
+    "process": [
+      "t24",
+      "t25",
+      "t26",
+      "t27",
+      "t28",
+      "t29",
+      "t30",
+      "t39"
+    ],
+    "other": [
+      "t32",
+      "t36",
+      "t37"
+    ]
+  }
+}

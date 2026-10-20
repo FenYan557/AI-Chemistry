@@ -1,0 +1,156 @@
+{
+  "type": "object",
+  "properties": {
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "subject": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relation": {
+            "enum": [
+              "effect",
+              "adsorption",
+              "measurement",
+              "mechanism",
+              "future_work",
+              "other"
+            ]
+          },
+          "statement": {
+            "enum": [
+              "observation",
+              "calculation_result",
+              "author_interpretation",
+              "future_work",
+              "reported_claim",
+              "unknown"
+            ]
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "parameter": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "about": {
+                  "enum": [
+                    "subject",
+                    "target",
+                    "experiment"
+                  ]
+                }
+              },
+              "required": [
+                "parameter",
+                "value",
+                "quote"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "outcomes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "indicator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "numeric",
+                    "qualitative",
+                    "ordinal"
+                  ]
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "direction": {
+                  "enum": [
+                    "increase",
+                    "decrease",
+                    "no_effect",
+                    "mixed",
+                    "unknown"
+                  ]
+                },
+                "stage": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "baseline": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "baseline_quote": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "indicator",
+                "value",
+                "quote",
+                "kind"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "subject",
+          "relation",
+          "statement",
+          "quote"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 8
+    }
+  },
+  "required": [
+    "facts"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:a2lab:extraction:v4",
+  "title": "单块小任务抽取；每事实4个必填字段；精确引句由代码定位"
+}

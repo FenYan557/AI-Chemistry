@@ -1,0 +1,434 @@
+[
+  {
+    "case": "concentration",
+    "arm": "model_only",
+    "question": "根据现有信息，ADO的作用是否与浓度有关？如何理解其加速与抑制机制？",
+    "context": null
+  },
+  {
+    "case": "concentration",
+    "arm": "raw",
+    "question": "根据现有信息，ADO的作用是否与浓度有关？如何理解其加速与抑制机制？",
+    "context": [
+      {
+        "citation": "blk:7cf3c70d130e763f",
+        "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+        "text": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole. Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution. The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis. Based on the changes of the ADO adsorption sites from the MD and E-FTIR analyses, an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition. Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+      },
+      {
+        "citation": "blk:8b1aeebd56a70e1a",
+        "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+        "text": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition."
+      }
+    ]
+  },
+  {
+    "case": "concentration",
+    "arm": "structured",
+    "question": "根据现有信息，ADO的作用是否与浓度有关？如何理解其加速与抑制机制？",
+    "context": {
+      "raw_sources": [
+        {
+          "citation": "blk:7cf3c70d130e763f",
+          "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+          "text": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole. Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution. The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis. Based on the changes of the ADO adsorption sites from the MD and E-FTIR analyses, an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition. Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+        },
+        {
+          "citation": "blk:8b1aeebd56a70e1a",
+          "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+          "text": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition."
+        }
+      ],
+      "facts": [
+        {
+          "citation": "S1",
+          "document": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+          "participants": [
+            "ADO",
+            "cobalt deposition"
+          ],
+          "relation": "ADO在对应浓度条件下对钴沉积的作用；不外推数值范围。",
+          "attribution": "文献报告的陈述",
+          "conditions": [
+            {
+              "parameter": "concentration",
+              "value": {
+                "raw": "low-concentration",
+                "unit": null
+              },
+              "about": [
+                "ADO"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "indicator": "cobalt deposition",
+              "value": {
+                "raw": "acceleration",
+                "unit": null
+              },
+              "direction": "increase",
+              "stage": null,
+              "evidence": [
+                {
+                  "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition",
+                  "page": 1
+                }
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "citation": "S2",
+          "document": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+          "participants": [
+            "ADO",
+            "cobalt deposition"
+          ],
+          "relation": "ADO在对应浓度条件下对钴沉积的作用；不外推数值范围。",
+          "attribution": "文献报告的陈述",
+          "conditions": [
+            {
+              "parameter": "concentration",
+              "value": {
+                "raw": "high-concentration",
+                "unit": null
+              },
+              "about": [
+                "ADO"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "indicator": "cobalt deposition",
+              "value": {
+                "raw": "suppression",
+                "unit": null
+              },
+              "direction": "decrease",
+              "stage": null,
+              "evidence": [
+                {
+                  "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition",
+                  "page": 1
+                }
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "quote": "effects of low-concentration acceleration but high-concentration suppression in cobalt deposition",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "citation": "S3",
+          "document": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+          "participants": [
+            "intramolecular synergistic acceleration–suppression mechanism",
+            "ADO",
+            "cobalt deposition"
+          ],
+          "relation": "作者提出的分子内作用解释，非多个添加剂间已验证协同。",
+          "attribution": "作者提出的解释",
+          "conditions": [],
+          "outcomes": [],
+          "evidence": [
+            {
+              "quote": "an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "numeric",
+    "arm": "model_only",
+    "question": "该糖精研究中，退火前后电阻率怎样变化？计算降幅，并说明能否全部归因于糖精。",
+    "context": null
+  },
+  {
+    "case": "numeric",
+    "arm": "raw",
+    "question": "该糖精研究中，退火前后电阻率怎样变化？计算降幅，并说明能否全部归因于糖精。",
+    "context": [
+      {
+        "citation": "blk:cf5b948c8b59760d",
+        "document": "糖精对镀钴层结构_导电能力的改变",
+        "text": "In the process of electroless cobalt plating, the saccharin additive can significantly change the surface morphology, texture orientation, and conductivity of the cobalt coating layer. When the amount of saccharin was 3 mg·L –1, the cobalt coating transformed from disordered large grains to a honeycomb structure, with a preferred orientation of (002) facet on hexagonal close-packed (HCP) cobalt crystals. The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment. When the concentration of saccharin was increased, the grain size was gradually refined and a “stone forest” structure was observed, with the preferred orientation remaining unchanged. The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent. Through the study of the crystallization behavior of cobalt electroless plating, saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane, inhibiting the growth of abc stacking arrangement and inducing the crystal growth in ab stacking mode, thereby achieving optimal growth of HCP (002) texture."
+      }
+    ]
+  },
+  {
+    "case": "numeric",
+    "arm": "structured",
+    "question": "该糖精研究中，退火前后电阻率怎样变化？计算降幅，并说明能否全部归因于糖精。",
+    "context": {
+      "raw_sources": [
+        {
+          "citation": "blk:cf5b948c8b59760d",
+          "document": "糖精对镀钴层结构_导电能力的改变",
+          "text": "In the process of electroless cobalt plating, the saccharin additive can significantly change the surface morphology, texture orientation, and conductivity of the cobalt coating layer. When the amount of saccharin was 3 mg·L –1, the cobalt coating transformed from disordered large grains to a honeycomb structure, with a preferred orientation of (002) facet on hexagonal close-packed (HCP) cobalt crystals. The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment. When the concentration of saccharin was increased, the grain size was gradually refined and a “stone forest” structure was observed, with the preferred orientation remaining unchanged. The addition of saccharin also slightly improves the purity of cobalt coating to a certain extent. Through the study of the crystallization behavior of cobalt electroless plating, saccharin molecules can adsorb to specific c-sites on the cobalt dense crystal plane, inhibiting the growth of abc stacking arrangement and inducing the crystal growth in ab stacking mode, thereby achieving optimal growth of HCP (002) texture."
+        }
+      ],
+      "facts": [
+        {
+          "citation": "S1",
+          "document": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+          "participants": [
+            "cobalt film",
+            "saccharin"
+          ],
+          "relation": "记录钴膜电阻率；处理后变化不自动归因于糖精。",
+          "attribution": "该研究的观测结果",
+          "conditions": [
+            {
+              "parameter": "amount of saccharin",
+              "value": {
+                "raw": "3 mg·L –1",
+                "unit": "mg·L–1"
+              },
+              "about": [
+                "saccharin"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "indicator": "resistivity",
+              "value": {
+                "raw": "14.4",
+                "unit": "μΩ·cm"
+              },
+              "direction": "decrease",
+              "stage": null,
+              "evidence": [
+                {
+                  "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment.",
+                  "page": 1
+                }
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment.",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "citation": "S2",
+          "document": "Effect of Saccharin on Crystallization Behavior of Electroless Cobalt Plating",
+          "participants": [
+            "cobalt film",
+            "saccharin",
+            "annealing treatment"
+          ],
+          "relation": "记录钴膜电阻率；处理后变化不自动归因于糖精。",
+          "attribution": "该研究的观测结果",
+          "conditions": [
+            {
+              "parameter": "amount of saccharin",
+              "value": {
+                "raw": "3 mg·L –1",
+                "unit": "mg·L–1"
+              },
+              "about": [
+                "saccharin"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "indicator": "resistivity",
+              "value": {
+                "raw": "10.7",
+                "unit": "μΩ·cm"
+              },
+              "direction": "decrease",
+              "stage": "after the annealing treatment",
+              "evidence": [
+                {
+                  "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment.",
+                  "page": 1
+                }
+              ],
+              "comparison": {
+                "baseline": "14.4 μΩ·cm",
+                "evidence": [
+                  {
+                    "quote": "14.4 μΩ·cm",
+                    "page": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "evidence": [
+            {
+              "quote": "The resistivity of the cobalt film decreased to 14.4 μΩ·cm, and further decreased to 10.7 μΩ·cm after the annealing treatment.",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "future",
+    "arm": "model_only",
+    "question": "NA与其他浆料组分的协同效应已经得到验证了吗？对下一步候选验证有什么启示？",
+    "context": null
+  },
+  {
+    "case": "future",
+    "arm": "raw",
+    "question": "NA与其他浆料组分的协同效应已经得到验证了吗？对下一步候选验证有什么启示？",
+    "context": [
+      {
+        "citation": "blk:17bf049326751a44",
+        "document": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+        "text": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+      }
+    ]
+  },
+  {
+    "case": "future",
+    "arm": "structured",
+    "question": "NA与其他浆料组分的协同效应已经得到验证了吗？对下一步候选验证有什么启示？",
+    "context": {
+      "raw_sources": [
+        {
+          "citation": "blk:17bf049326751a44",
+          "document": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+          "text": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+        }
+      ],
+      "facts": [
+        {
+          "citation": "S1",
+          "document": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+          "participants": [
+            "NA",
+            "other slurry components"
+          ],
+          "relation": "未来研究方向，不是已发生或已验证的协同作用。",
+          "attribution": "作者提出的后续研究方向",
+          "wording": "原文采用保留或推测措辞",
+          "conditions": [],
+          "outcomes": [],
+          "evidence": [
+            {
+              "quote": "support for subsequent researches of exploring synergistic effect of NA and other slurry components",
+              "page": 9
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "analogy",
+    "arm": "model_only",
+    "question": "除文献已出现的添加剂外，能否提出一类值得进一步筛选的候选及机理理由？不要把类比当成已验证效果。",
+    "context": null
+  },
+  {
+    "case": "analogy",
+    "arm": "raw",
+    "question": "除文献已出现的添加剂外，能否提出一类值得进一步筛选的候选及机理理由？不要把类比当成已验证效果。",
+    "context": [
+      {
+        "citation": "blk:7cf3c70d130e763f",
+        "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+        "text": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole. Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution. The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis. Based on the changes of the ADO adsorption sites from the MD and E-FTIR analyses, an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition. Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+      },
+      {
+        "citation": "blk:8b1aeebd56a70e1a",
+        "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+        "text": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition."
+      },
+      {
+        "citation": "blk:17bf049326751a44",
+        "document": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+        "text": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+      }
+    ]
+  },
+  {
+    "case": "analogy",
+    "arm": "structured",
+    "question": "除文献已出现的添加剂外，能否提出一类值得进一步筛选的候选及机理理由？不要把类比当成已验证效果。",
+    "context": {
+      "raw_sources": [
+        {
+          "citation": "blk:7cf3c70d130e763f",
+          "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+          "text": "Adenosine (ADO) was selected as a leveling additive for superconformal cobalt filling in X-shaped through-hole. Changes in deposition potential and the generation of new stripping peaks in cyclic voltammetry curves were observed in electrochemical tests of ADO-containing plating solution. The adsorption behavior of ADO on the cobalt surface was investigated using density functional theory calculations, molecular dynamics (MD) simulation, and electrochemical in situ Fourier transform infrared (E-FTIR) spectroscopy tests. Furthermore, the Co 2+ with ADO coordination was simulated via interaction region indicator analysis. Based on the changes of the ADO adsorption sites from the MD and E-FTIR analyses, an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition. Surface analysis revealed that ADO exhibited a grain refinement effect, and crystal analysis showed that the Co hcp (002) crystalline plane was preferentially formed."
+        },
+        {
+          "citation": "blk:8b1aeebd56a70e1a",
+          "document": "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究",
+          "text": "The difference in the adsorption intensity of nucleoside and adenine groups leads to the low-concentration acceleration but high-concentration suppression effect of ADO in the cobalt electrodeposition."
+        },
+        {
+          "citation": "blk:17bf049326751a44",
+          "document": "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究",
+          "text": "The results of this work on passive film of NA on Co surface and its microscopic properties provide a theoretical basis for optimizing the composition of Co CMP slurry, and also provide support for subsequent researches of exploring synergistic effect of NA and other slurry components. In conclusion, NA is suggested to be an effective potential inhibitor for Co CMP in IC manufacturing process. Its physical adsorption on cobalt surface will help to improve the inhibitor removal effect in post CMP cleaning."
+        }
+      ],
+      "facts": [
+        {
+          "citation": "S1",
+          "document": "Investigation of adenosine as a leveling additive with synergetic acceleration–suppression behavior for superconformal cobalt filling in X-shaped through-hole",
+          "participants": [
+            "intramolecular synergistic acceleration–suppression mechanism",
+            "ADO",
+            "cobalt deposition"
+          ],
+          "relation": "作者提出的分子内作用解释，非多个添加剂间已验证协同。",
+          "attribution": "作者提出的解释",
+          "conditions": [],
+          "outcomes": [],
+          "evidence": [
+            {
+              "quote": "an intramolecular synergistic acceleration–suppression mechanism was proposed to explain the effects of low-concentration acceleration but high-concentration suppression in cobalt deposition",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "citation": "S2",
+          "document": "Nicotinic acid as a novel inhibitor for alkaline cobalt CMP: Experiment and molecular simulation",
+          "participants": [
+            "NA",
+            "other slurry components"
+          ],
+          "relation": "未来研究方向，不是已发生或已验证的协同作用。",
+          "attribution": "作者提出的后续研究方向",
+          "wording": "原文采用保留或推测措辞",
+          "conditions": [],
+          "outcomes": [],
+          "evidence": [
+            {
+              "quote": "support for subsequent researches of exploring synergistic effect of NA and other slurry components",
+              "page": 9
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
