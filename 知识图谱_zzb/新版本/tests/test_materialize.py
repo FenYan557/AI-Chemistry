@@ -38,6 +38,23 @@ class MaterializeTests(unittest.TestCase):
         for edge in bundle["edges"]:
             self.assertTrue(edge["id"].startswith("edge:" + edge["fact_id"] + ":"))
 
+    def test_existing_nonstandard_ids_survive_rebuild(self):
+        data = m.materialize(copy.deepcopy(hard()))
+        data["entities"][0]["id"] = "entity:imported-stable-id"
+        ids = {e["from_mention_id"]: e["id"] for e in data["entities"]}
+        rebuilt = m.materialize(data)
+        self.assertEqual(ids, {e["from_mention_id"]: e["id"] for e in rebuilt["entities"]})
+        self.assertEqual(rebuilt, m.materialize(copy.deepcopy(rebuilt)))
+
+    def test_conflicting_existing_id_is_rejected(self):
+        data = m.materialize(copy.deepcopy(hard()))
+        data["entities"][1]["id"] = data["entities"][0]["id"]
+        with self.assertRaises(ValueError):
+            m.materialize(data)
+        report = v.validate(data)
+        self.assertFalse(report["valid"])
+        self.assertIn("ENTITY_ID_CONFLICT", {e["code"] for e in report["errors"]})
+
     def test_pending_identity_link_is_not_applied(self):
         bundle = m.materialize(copy.deepcopy(base_bundle()))
         self.assertTrue(all(e["identity_id"] is None for e in bundle["entities"]))

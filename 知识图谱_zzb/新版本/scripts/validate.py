@@ -409,7 +409,11 @@ def validate(bundle):
     # 图端点/数量必须与登记角色投影一致，不能仅核对边限定词。
     if "edges" in bundle:
         from materialize import materialize
-        expected = materialize(copy.deepcopy(bundle))["edges"]
+        try:
+            expected = materialize(copy.deepcopy(bundle))["edges"]
+        except ValueError as exc:
+            err("ENTITY_ID_CONFLICT", str(exc))
+            expected = []
         def edge_shape(edges):
             return sorted((e["id"], e["fact_id"], e["from_entity_id"], e["to_entity_id"]) for e in edges)
         if edge_shape(bundle["edges"]) != edge_shape(expected):

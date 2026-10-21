@@ -47,6 +47,10 @@ def ingest(bundle, block_id, response, model=None):
             if len(existing) == 1:
                 return existing[0]["id"]
         evidence = span(surface, parent)
+        anchored = [m for m in result["mentions"] if m["document_id"] == doc
+                    and m["surface"] == surface and m["evidence"] == evidence]
+        if anchored:
+            return sorted(m["id"] for m in anchored)[0]
         ident = "m:" + hashlib.sha256((doc + "|" + block_id + "|" + str(evidence["start"]) + "|" + surface).encode("utf-8")).hexdigest()[:16]
         if not any(m["id"] == ident for m in result["mentions"]):
             result["mentions"].append({"id": ident, "document_id": doc, "surface": surface,

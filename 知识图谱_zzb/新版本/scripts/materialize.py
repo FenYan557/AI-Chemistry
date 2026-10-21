@@ -1,7 +1,7 @@
 """把记录层物化为图视图（实体 + 边），物化规则显式、确定、可逆。
 
 规则：
-1. 每个提及物化为一个实体，id=ent:<mention_id>；只有单个core候选才给检索类型，多个或proposed不抢选首项。
+1. 每个提及物化为一个实体，保留已有ID；新提及默认ent:<mention_id>。
 2. 只有 identity_links.review=reviewed 且身份非 unresolved 时，实体才指向 identity_id；
    pending 合并不改变实体指向，所以同一实体在复核前后 id 不变、身份指针可变。
 3. 只有启用关系按登记的参与者角色投影成边；开放事实不强行展开，
@@ -34,6 +34,17 @@ def materialize(bundle):
     normalized = normalize(bundle)
     bundle.clear()
     bundle.update(normalized)
+    existing_ids = {}
+    owners = {}
+    for entity in bundle.get("entities", []):
+        mid, eid = entity.get("from_mention_id"), entity.get("id")
+        if not mid or not eid:
+            continue
+        if mid in existing_ids and existing_ids[mid] != eid:
+            raise ValueError("同一提及存在多个实体ID: " + mid)
+        if eid in owners and owners[eid] != mid:
+            raise ValueError("实体ID被多个提及占用: " + eid)
+        existing_ids[mid], owners[eid] = eid, mid
     relations = {r["relation_id"]: r for r in json.loads((ROOT / "registry/relations.json").read_text(encoding="utf-8"))["relations"]}
     types = {t["type_id"]: t for t in json.loads((ROOT / "registry/entity_types.json").read_text(encoding="utf-8"))["types"]}
     pointer = _identity_pointer(bundle)
@@ -41,7 +52,7 @@ def materialize(bundle):
     for mention in bundle["mentions"]:
         type_ids = mention.get("candidate_type_ids") or []
         entities[mention["id"]] = {
-            "id": "ent:" + mention["id"],
+            "id": existing_ids.get(mention["id"], "ent:" + mention["id"]),
             "document_id": mention["document_id"],
             "label": mention["surface"],
             "type_id": type_ids[0] if len(type_ids) == 1 and types.get(type_ids[0], {}).get("status") == "core" else None,
@@ -50,6 +61,8 @@ def materialize(bundle):
             "evidence": [copy.deepcopy(mention["evidence"])],
         }
 
+    if len({e["id"] for e in entities.values()}) != len(entities):
+        raise ValueError("新增实体ID与已有实体冲突")
     for fact in bundle["facts"]:
         relation = relations.get(fact["relation"]["candidate_relation_id"])
         if not relation or relation["status"] != "core" or not relation.get("projection"):
