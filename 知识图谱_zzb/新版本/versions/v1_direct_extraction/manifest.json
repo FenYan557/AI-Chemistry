@@ -1,0 +1,36 @@
+{
+  "manifest_version": 1,
+  "version_id": "kg-v1-direct-20261020",
+  "label": "旧版：直接全库抽取",
+  "data_version": "1.0.0",
+  "schema_version": "4.0.0-draft",
+  "role": "historical_baseline",
+  "workflow_status": "raw_extraction_frozen",
+  "registered_at": "2026-10-21T02:26:50+00:00",
+  "snapshot_frozen": true,
+  "freeze_meaning": "registered file bytes are fixed; semantic review is not implied",
+  "graph": "knowledge_graph.json",
+  "sha256": "1bcbce93a1b35b1174af764cf2c8495ab6c9977e6db4290f4f9dd666bd96921e",
+  "size_bytes": 33294536,
+  "counts": {
+    "documents": 48,
+    "blocks": 3714,
+    "mentions": 10403,
+    "entities": 10403,
+    "identities": 0,
+    "identity_links": 0,
+    "facts": 6929,
+    "edges": 3302
+  },
+  "human_review": "pending",
+  "source_artifacts": [
+    {
+      "path": "reports/full_extraction_20261020/knowledge_graph.json",
+      "sha256": "1bcbce93a1b35b1174af764cf2c8495ab6c9977e6db4290f4f9dd666bd96921e"
+    }
+  ],
+  "source_report": "reports/full_extraction_20261020/README.md",
+  "limitations": "首轮原始结果；保留partial/failed造成的覆盖限制，未作为已审核事实发布。",
+  "historical_producer_commit": null,
+  "code_provenance_note": "Governance commit captures current code; original extraction-time commit is not retrospectively asserted."
+}

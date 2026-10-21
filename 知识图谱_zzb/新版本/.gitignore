@@ -1,2 +1,14 @@
 __pycache__/
 *.py[cod]
+
+# Local extraction credentials; never commit.
+.local/
+.env
+.env.*
+!.env.example
+
+# Full KG snapshots and per-run evidence are local data artifacts.
+# Git tracks their manifests, hashes, navigation and source code, not the payloads.
+/versions/*/knowledge_graph.json
+/versions/*/snapshots/**/knowledge_graph.json
+/reports/*/

@@ -1,0 +1,19 @@
+{
+  "catalog_version": 1,
+  "versions": [
+    {
+      "version_id": "kg-v1-direct-20261020",
+      "label": "旧版：直接全库抽取",
+      "role": "historical_baseline",
+      "manifest": "versions/v1_direct_extraction/manifest.json"
+    },
+    {
+      "version_id": "kg-v2-entity-20261021",
+      "label": "工作版：实体已完善，关系待继续完善",
+      "role": "active_working",
+      "manifest": "versions/v2_entity_enhanced/manifest.json"
+    }
+  ],
+  "current_selector": "../CURRENT.json",
+  "policy": "two data lineages; reports are provenance and intermediates, not additional current graph versions"
+}

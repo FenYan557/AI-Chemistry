@@ -1,0 +1,10 @@
+{
+  "catalog_version": 1,
+  "current_version_id": "kg-v2-entity-20261021",
+  "manifest": "versions/v2_entity_enhanced/manifest.json",
+  "graph": "versions/v2_entity_enhanced/knowledge_graph.json",
+  "sha256": "1d45e561c6a833ff6ca9bd510f0e0c29b04bbb5102ed002e3196b6125f1797e5",
+  "baseline_version_id": "kg-v1-direct-20261020",
+  "status": "entities_integrated_relations_pending",
+  "human_review": "pending"
+}
