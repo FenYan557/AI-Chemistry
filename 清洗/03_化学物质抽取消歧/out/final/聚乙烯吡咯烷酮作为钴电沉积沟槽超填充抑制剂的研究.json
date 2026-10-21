@@ -1,0 +1,511 @@
+{
+  "paper_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究",
+  "chemicals": [
+    {
+      "span": "Au",
+      "span_form": "formula",
+      "context": "The width and depth of the trench were 25 and 100 mm on silicon wafers, then Au with a thickness of 500 nm was sputtered as a conductive seed layer.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0022"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23985,
+      "alt_cids": [],
+      "reason": "溅射导电种子层金，候选 23985 即元素金",
+      "review_note": ""
+    },
+    {
+      "span": "CoCl _2·6H_20",
+      "span_form": "formula",
+      "context": "All electrochemical experiments were performed in a glass vessel with 200 mL electrolyte containing 0.3 mol/L CoSO _4·7H_2 0, 0.5 7 mol/L H_3 BO _3 and 0.84 mmol/L CoCl _2·6H_20 and the potential was scanned from 1.6 V to 0.4 V with a scan rate of 1 0 0 mV / s.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018"
+      ],
+      "link_status": "unmatched_new",
+      "pubchem_cid": null,
+      "alt_cids": [],
+      "reason": "清洗后查询词 CoCl2·6H20 无候选；同样是水合数里字母 O 被识别成数字 0",
+      "review_note": "语境为镀液六水氯化钴，建议人工补链"
+    },
+    {
+      "span": "CoSO _4·7H_2 0",
+      "span_form": "formula",
+      "context": "All electrochemical experiments were performed in a glass vessel with 200 mL electrolyte containing 0.3 mol/L CoSO _4·7H_2 0, 0.5 7 mol/L H_3 BO _3 and 0.84 mmol/L CoCl _2·6H_20 and the potential was scanned from 1.6 V to 0.4 V with a scan rate of 1 0 0 mV / s.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018"
+      ],
+      "link_status": "unmatched_new",
+      "pubchem_cid": null,
+      "alt_cids": [],
+      "reason": "清洗后查询词 CoSO4·7H20 无候选；末尾 0 是数字零而非字母 O，MinerU 公式噪声导致写法残缺",
+      "review_note": "语境为镀液主盐七水硫酸钴，同篇另有 CoSO _4·7H_2 O 写法，建议人工补链"
+    },
+    {
+      "span": "DMG",
+      "span_form": "abbreviation",
+      "context": "Huang et al. found that dimethylglyoxime (DMG) exhibits obvious suppression behavior in cobalt electro-deposition [14,15].",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0013"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 135459645,
+      "alt_cids": [
+        673
+      ],
+      "reason": "文中 dimethylglyoxime (DMG) 给出别名对照，按全称链 135459645；缩写撞车候选 673 为 N,N-dimethylglycine，弃用",
+      "review_note": "沿用试点判例1：缩写撞车用全称 CID"
+    },
+    {
+      "span": "H_3 BO _3",
+      "span_form": "formula",
+      "context": "All electrochemical experiments were performed in a glass vessel with 200 mL electrolyte containing 0.3 mol/L CoSO _4·7H_2 0, 0.5 7 mol/L H_3 BO _3 and 0.84 mmol/L CoCl _2·6H_20 and the potential was scanned from 1.6 V to 0.4 V with a scan rate of 1 0 0 mV / s.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 7628,
+      "alt_cids": [],
+      "reason": "span 经公式清洗为 H3BO3 后命中唯一候选 7628（硼酸），与镀液缓冲组分一致",
+      "review_note": "同篇 H_3BO_3 写法视为同一 span 变体，未重复记录"
+    },
+    {
+      "span": "Hg",
+      "span_form": "formula",
+      "context": "An Auto-Lab potentiostat (PGSTAT302N) was used with a 5 mm diameter platinum rotating disk electrode (Pt-RDE, WE), a Pt rod (CE), and a saturated Hg / Hg _2 SO _4 reference electrode (0.615 V v.s. S.H.E., RE).",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23931,
+      "alt_cids": [],
+      "reason": "Hg/Hg2SO4 参比电极中的汞，候选 23931 即元素汞",
+      "review_note": ""
+    },
+    {
+      "span": "Hg _2 SO _4",
+      "span_form": "formula",
+      "context": "An Auto-Lab potentiostat (PGSTAT302N) was used with a 5 mm diameter platinum rotating disk electrode (Pt-RDE, WE), a Pt rod (CE), and a saturated Hg / Hg _2 SO _4 reference electrode (0.615 V v.s. S.H.E., RE).",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 24545,
+      "alt_cids": [],
+      "reason": "清洗为 Hg2SO4 后命中唯一候选 24545（Mercurous sulfate），与参比电极语境一致",
+      "review_note": "原始 span 含 MinerU 下标噪声，由查询前清洗规则处理"
+    },
+    {
+      "span": "K30",
+      "span_form": "code",
+      "context": "PVP (K30, Chron Chemicals) was used as suppressor in cobalt electrodeposition and the mean molecular weight of PVP is 54000.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0020"
+      ],
+      "link_status": "unmatched_new",
+      "pubchem_cid": null,
+      "alt_cids": [
+        24832038
+      ],
+      "reason": "PVP 的牌号（分子量等级 K30，Mw 约 54000），不是独立化合物；候选 24832038 仅有同名词条 K30，与语境无关，弃用",
+      "review_note": "新判例：聚合物牌号不在 SPEC_CODE 正则内（K30），按规格代号判 unmatched_new 并指向同篇 PVP"
+    },
+    {
+      "span": "PEG",
+      "span_form": "abbreviation",
+      "context": "PVP has lowest ESP value of 131.3 kJ/mol compared with PEG [21] ( 131.6 kJ/mol) (Fig. 3a).",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0040"
+      ],
+      "link_status": "unmatched_new",
+      "pubchem_cid": null,
+      "alt_cids": [
+        174
+      ],
+      "reason": "唯一候选 174 是单体乙二醇，文中 PEG 指与 PVP 做量子化学对比的聚乙二醇，不是同一实体，弃用",
+      "review_note": "同 PVP 判例：聚合物缩写命中单体"
+    },
+    {
+      "span": "PVP",
+      "span_form": "abbreviation",
+      "context": "Polyvinylpyrrolidone (PVP) is studied in this paper as an inhibitor of cobalt electrodeposition.",
+      "alt_contexts": [
+        "Fig. 3. Electrostatic potential distribution on the surface of molecular van der Waals of PVP (b) and the LUMO (a) and HOMO (c) of PVP containing four monomers of PVP.",
+        "Fig. 6. XRD patterns of electroplated cobalt samples from electroplating solutions with 0 mg/L PVP (a) and 100 mg/L PVP (b)."
+      ],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002",
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#fig1",
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#fig4"
+      ],
+      "link_status": "unmatched_new",
+      "pubchem_cid": null,
+      "alt_cids": [
+        6917
+      ],
+      "reason": "唯一候选 6917 是单体 N-Vinyl-2-pyrrolidone（CAS 88-12-0），文中 PVP 为平均分子量 54000 的聚合物，二者非同一实体，弃用",
+      "review_note": "新判例：聚合物缩写检索命中其单体，禁止硬匹配"
+    },
+    {
+      "span": "PVP-CO ^2 + complexes",
+      "span_form": "code",
+      "context": "PVP-CO ^2 + complexes affect the polarization of cobalt electrodeposition and thus inhibit cobalt deposition.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0035"
+      ],
+      "link_status": "unmatched_new",
+      "pubchem_cid": null,
+      "alt_cids": [],
+      "reason": "文中自造的 PVP-Co2+ 络合物写法，无 PubChem 候选",
+      "review_note": "络合物化学计量未给出，属潜在新实体"
+    },
+    {
+      "span": "Polyvinylpyrrolidone",
+      "span_form": "full_name",
+      "context": "Polyvinylpyrrolidone (PVP) is studied in this paper as an inhibitor of cobalt electrodeposition.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002"
+      ],
+      "link_status": "unmatched_new",
+      "pubchem_cid": null,
+      "alt_cids": [],
+      "reason": "全名在 PubChem name/synonyms 检索均无候选",
+      "review_note": "新判例：聚合物通用名（PVP/Povidone 类）PubChem 名称检索常空手，属预期 unmatched_new"
+    },
+    {
+      "span": "Pt",
+      "span_form": "abbreviation",
+      "context": "An Auto-Lab potentiostat (PGSTAT302N) was used with a 5 mm diameter platinum rotating disk electrode (Pt-RDE, WE), a Pt rod (CE), and a saturated Hg / Hg _2 SO _4 reference electrode (0.615 V v.s. S.H.E., RE).",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23939,
+      "alt_cids": [],
+      "reason": "Pt rod 对电极，候选 23939 即元素铂，与同篇 platinum 同一实体",
+      "review_note": ""
+    },
+    {
+      "span": "RuO _2",
+      "span_form": "formula",
+      "context": "Electrodeposition was carried out by using a RuO _2 coated titanium dimensionally stable anode (DSA) in electroplating bath with 500 mL electrolyte containing 0.3 mol/L CoSO _4·7H_2 0, 0.5 7 mol/L H_3 BO _3 and 0.84 mmol/L CoCl _2·6H_2 0.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0020"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 82848,
+      "alt_cids": [],
+      "reason": "清洗为 RuO2 后命中唯一候选 82848（二氧化钌），DSA 阳极涂层材料",
+      "review_note": ""
+    },
+    {
+      "span": "Si",
+      "span_form": "formula",
+      "context": "In this paper, the trenches on Si wafer were successfully filled by basic electrolyte and additives.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0022"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 5461123,
+      "alt_cids": [],
+      "reason": "Si wafer 沟槽基底，候选 5461123 即元素硅，与同篇 silicon 同一实体",
+      "review_note": ""
+    },
+    {
+      "span": "aluminum",
+      "span_form": "full_name",
+      "context": "In comparison with aluminum and copper, cobalt is recommended to be one of the next generation interconnection metals by the leading semiconductor manufacturers",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0008"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 5359268,
+      "alt_cids": [],
+      "reason": "互连金属对比对象铝，候选 5359268 即元素铝",
+      "review_note": ""
+    },
+    {
+      "span": "chloride ion",
+      "span_form": "full_name",
+      "context": "It is indicated that PVP effectively suppresses the electrodeposition of cobalt and chloride ion accelerates this suppression.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 312,
+      "alt_cids": [],
+      "reason": "促进 PVP 抑制作用的氯离子，候选 312 即 Chloride(1-)",
+      "review_note": "正文另有 Cl 后带上标噪声字符的写法，未单独成 span"
+    },
+    {
+      "span": "cobalt",
+      "span_form": "full_name",
+      "context": "Polyvinylpyrrolidone (PVP) is studied in this paper as an inhibitor of cobalt electrodeposition.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 104730,
+      "alt_cids": [],
+      "reason": "被电沉积的金属钴单质，候选 104730 即元素钴",
+      "review_note": ""
+    },
+    {
+      "span": "cobalt cations",
+      "span_form": "full_name",
+      "context": "The interaction between PVP and cobalt cations in aqueous solution has been reported (Liu et al.) [17, 31].",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0035"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 104729,
+      "alt_cids": [],
+      "reason": "cobalt cations 与同篇 cobalt ion 指同一实体，借用其检索结果 104729（Cobalt(2+)）",
+      "review_note": "CID 来自同文献同义写法的检索结果，未臆造"
+    },
+    {
+      "span": "cobalt ion",
+      "span_form": "full_name",
+      "context": "They stated that paired amine groups of DMG enable the strong complexing between DMG molecule and cobalt ion.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0013"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 104729,
+      "alt_cids": [],
+      "reason": "与 DMG/PVP 配位的钴离子，候选 104729 即 Cobalt(2+)",
+      "review_note": ""
+    },
+    {
+      "span": "copper",
+      "span_form": "full_name",
+      "context": "Compared with copper, cobalt with shorter electron Mean Free Path (MFP) holds the reduced resistance scaling effect and has been considered as a favorable interconnect metal [1 3].",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0006"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23978,
+      "alt_cids": [],
+      "reason": "与钴对比的传统互连金属铜，候选 23978 即元素铜",
+      "review_note": ""
+    },
+    {
+      "span": "dimethylglyoxime",
+      "span_form": "full_name",
+      "context": "Huang et al. found that dimethylglyoxime (DMG) exhibits obvious suppression behavior in cobalt electro-deposition [14,15].",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0013"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 135459645,
+      "alt_cids": [],
+      "reason": "文献报道的钴电沉积抑制剂丁二酮肟，候选 135459645 即 Dimethylglyoxime（CAS 95-45-4）",
+      "review_note": ""
+    },
+    {
+      "span": "gold",
+      "span_form": "full_name",
+      "context": "The silicon-based chip has a series of trenches in which a layer of gold was sputtered and the recess was filled by electrodepositing cobalt (Fig. 4).",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0048"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23985,
+      "alt_cids": [],
+      "reason": "沟槽内溅射的金种子层，候选 23985 即元素金",
+      "review_note": "与同篇 Au 同一实体"
+    },
+    {
+      "span": "hydrogen",
+      "span_form": "full_name",
+      "context": "Better wettability of the solution enables more hydrogen to be released in time [39] and enhances coating quality in cobalt electrodeposition.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0054"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 783,
+      "alt_cids": [],
+      "reason": "润湿性好有利于氢气及时逸出，语境为析出的分子氢，候选 783",
+      "review_note": ""
+    },
+    {
+      "span": "nitrogen",
+      "span_form": "full_name",
+      "context": "Fig. 3e shows that the nitrogen element and oxygen element of the amide group are the main contributors to the HOMO orbital, which acts as the main electrophilic attack region.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0038"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 947,
+      "alt_cids": [],
+      "reason": "指 PVP 酰胺基中的氮元素（HOMO 主要贡献者），链元素条目 947",
+      "review_note": "沿用试点判例4：元素语境链元素条目"
+    },
+    {
+      "span": "oxygen",
+      "span_form": "full_name",
+      "context": "Fig. 3e shows that the nitrogen element and oxygen element of the amide group are the main contributors to the HOMO orbital, which acts as the main electrophilic attack region.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0038"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 977,
+      "alt_cids": [],
+      "reason": "指酰胺基中的氧元素，链元素条目 977",
+      "review_note": "沿用试点判例4：元素语境链元素条目"
+    },
+    {
+      "span": "platinum",
+      "span_form": "full_name",
+      "context": "An Auto-Lab potentiostat (PGSTAT302N) was used with a 5 mm diameter platinum rotating disk electrode (Pt-RDE, WE), a Pt rod (CE), and a saturated Hg / Hg _2 SO _4 reference electrode (0.615 V v.s. S.H.E., RE).",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23939,
+      "alt_cids": [],
+      "reason": "旋转圆盘工作电极材料铂，候选 23939 即元素铂",
+      "review_note": ""
+    },
+    {
+      "span": "silicon",
+      "span_form": "full_name",
+      "context": "Also, the thermal expansion coefficient (CTE) of cobalt is close to the one of silicon, which enables cobalt to serve as a compatible metal integrated in silicon-based electronic chips.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0007"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 5461123,
+      "alt_cids": [],
+      "reason": "热膨胀系数参照物及沟槽基底硅，候选 5461123 即元素硅",
+      "review_note": ""
+    },
+    {
+      "span": "titanium",
+      "span_form": "full_name",
+      "context": "Electrodeposition was carried out by using a RuO _2 coated titanium dimensionally stable anode (DSA) in electroplating bath with 500 mL electrolyte containing 0.3 mol/L CoSO _4·7H_2 0, 0.5 7 mol/L H_3 BO _3 and 0.84 mmol/L CoCl _2·6H_2 0.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0020"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23963,
+      "alt_cids": [],
+      "reason": "尺寸稳定阳极基体钛，候选 23963 即元素钛",
+      "review_note": ""
+    }
+  ]
+}

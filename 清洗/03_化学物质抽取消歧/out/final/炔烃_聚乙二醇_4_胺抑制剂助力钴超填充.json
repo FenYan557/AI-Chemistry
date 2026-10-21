@@ -1,0 +1,254 @@
+{
+  "paper_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充",
+  "chemicals": [
+    {
+      "span": "AP4A",
+      "span_form": "abbreviation",
+      "context": "In this work, alkyne-PEG4-amine (AP4A) was used as an inhibitor to achieve nanometer scale superfilling of cobalt electrodeposition.",
+      "alt_contexts": [
+        "在表'Electrochemical Parameters'中，AP4A（浓度 0–300 ppm，测试：cyclic voltammetry (CV)，转速 500 rpm）",
+        "Quantum chemistry calculation results of AP4A",
+        "SEM images of cobalt film surfaces (a) without AP4A, (b) with 2 ppm AP4A, (c) with 5 ppm AP4A, and (d) with 10 ppm AP4A",
+        "Cross-sectional FIB-SEM views of cobalt superfilling (a) before and (b) after electrodeposition with 5ppm AP4A"
+      ],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0003",
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#table1",
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig1",
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig3",
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig4"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 86580391,
+      "alt_cids": [
+        21706
+      ],
+      "reason": "文中明确 AP4A 是 alkyne-PEG4-amine 的缩写，其对应 CID 86580391；候选 21706 为同缩写冲突（Diadenosine tetraphosphate），弃用",
+      "review_note": "CID 来自全称 span 的检索结果，经别名对照确认"
+    },
+    {
+      "span": "Hg",
+      "span_form": "formula",
+      "context": "a saturated Hg/ Hg _2 SO _4 reference electrode (RE)",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23931,
+      "alt_cids": [],
+      "reason": "Hg/Hg2SO4 参比电极中的汞，候选 23931 即元素汞",
+      "review_note": ""
+    },
+    {
+      "span": "Hg _2 SO _4",
+      "span_form": "formula",
+      "context": "a saturated Hg/ Hg _2 SO _4 reference electrode (RE)",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 24545,
+      "alt_cids": [],
+      "reason": "span 经公式清洗（Hg2SO4）后命中候选 24545 Mercurous sulfate，与 Hg/Hg2SO4 参比电极语境一致",
+      "review_note": "原始 span 含 MinerU 下标噪声，已由查询前清洗规则处理"
+    },
+    {
+      "span": "N",
+      "span_form": "formula",
+      "context": "It is obvious that the content of some organic impurity elements (especially N) are increased, while the N element only originates from the additive AP4A",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0051"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 947,
+      "alt_cids": [],
+      "reason": "TOF-SIMS 测得的镀层氮元素杂质（来自 AP4A），PubChem 以 947 为氮元素条目",
+      "review_note": "语境为原子态杂质而非 N2 分子"
+    },
+    {
+      "span": "alkyne-PEG4-amine",
+      "span_form": "full_name",
+      "context": "In this work, alkyne-PEG4-amine (AP4A) was used as an inhibitor to achieve nanometer scale superfilling of cobalt electrodeposition.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0003"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 86580391,
+      "alt_cids": [],
+      "reason": "候选 86580391 同义词 3,6,9,12-tetraoxapentadec-14-yn-1-amine 即 propargyl-PEG4-amine，与本文抑制剂一致",
+      "review_note": ""
+    },
+    {
+      "span": "boric acid",
+      "span_form": "full_name",
+      "context": "The cobalt electroplating solution was composed of cobalt sulfate heptahydrate ( CoSO _ 4). 7H _ 2 O) and boric acid ( H _ 3 BO _ 3)",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 7628,
+      "alt_cids": [],
+      "reason": "镀液组分硼酸，候选 7628 唯一对应",
+      "review_note": ""
+    },
+    {
+      "span": "cobalt",
+      "span_form": "full_name",
+      "context": "In contrast, cobalt interconnects possess better properties, such as very short electronic mean free path, relatively low price, and good compatibility in silicon-based electronic chips.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0009"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 104730,
+      "alt_cids": [],
+      "reason": "语境为互连金属材料钴单质，候选 104730 即元素钴",
+      "review_note": ""
+    },
+    {
+      "span": "cobalt ions",
+      "span_form": "full_name",
+      "context": "the molecules have a higher concentration at the top of the hole, leading to a more significant inhibitory efect and slowing down the rate of reduction of the cobalt ions",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0058"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 104729,
+      "alt_cids": [],
+      "reason": "电沉积还原对象钴离子，候选 104729 即 Cobalt(2+)",
+      "review_note": ""
+    },
+    {
+      "span": "cobalt sulfate heptahydrate",
+      "span_form": "full_name",
+      "context": "The cobalt electroplating solution was composed of cobalt sulfate heptahydrate ( CoSO _ 4). 7H _ 2 O) and boric acid ( H _ 3 BO _ 3)",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 61444,
+      "alt_cids": [],
+      "reason": "镀液主盐，候选 61444 即 Cobalt(II) sulfate heptahydrate，水合数一致",
+      "review_note": ""
+    },
+    {
+      "span": "copper",
+      "span_form": "full_name",
+      "context": "the limitations of traditional copper interconnection have become increasingly apparent",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0008"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23978,
+      "alt_cids": [],
+      "reason": "语境为传统铜互连材料，候选 23978 即元素铜",
+      "review_note": ""
+    },
+    {
+      "span": "platinum",
+      "span_form": "full_name",
+      "context": "The configuration includes a platinum rotating disk electrode with a diameter of 5 mm (Pt-RDE, WE), a platinum plate electrodes (CE)",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 23939,
+      "alt_cids": [],
+      "reason": "工作/对电极材料铂，候选 23939 即元素铂",
+      "review_note": ""
+    },
+    {
+      "span": "purified water",
+      "span_form": "full_name",
+      "context": "The concentrated solution of AP4A was made by dissolving an appropriate amount of reagent in purified water.",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 962,
+      "alt_cids": [],
+      "reason": "溶剂纯水，链接到水 CID 962",
+      "review_note": ""
+    },
+    {
+      "span": "silicon",
+      "span_form": "full_name",
+      "context": "Silicon wafers, measuring 1.5 cm by 1.5 cm, were prepared as cathodes",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0023"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 5461123,
+      "alt_cids": [],
+      "reason": "阴极基底硅片，候选 5461123 即元素硅",
+      "review_note": ""
+    },
+    {
+      "span": "sulfuric acid",
+      "span_form": "full_name",
+      "context": "with the pH of the electroplating solution adjusted to 3.0 by using sulfuric acid ( H _ 2 SO _ 4 ^ -)",
+      "alt_contexts": [],
+      "source_type": "text",
+      "table_id": "",
+      "figure_id": "",
+      "unit_ids": [
+        "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019"
+      ],
+      "link_status": "matched",
+      "pubchem_cid": 1118,
+      "alt_cids": [],
+      "reason": "pH 调节剂硫酸，候选 1118 唯一对应；原文括号内 H _ 2 SO _ 4 ^ - 为解析噪声",
+      "review_note": ""
+    }
+  ]
+}

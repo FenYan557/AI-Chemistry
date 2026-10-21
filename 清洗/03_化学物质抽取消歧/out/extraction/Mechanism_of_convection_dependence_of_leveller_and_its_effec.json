@@ -1,0 +1,322 @@
+[
+ {
+  "span": "Janus Green B",
+  "span_form": "full_name",
+  "context": "In addition to its levelling capabilities, the leveller Janus Green B (JGB) has an undesired convection-dependence for CPBs, resulting in a convex front upstream or downstream of the copper filling layer.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0008",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "JGB",
+  "span_form": "abbreviation",
+  "context": "In this paper, the JGB is identified as the source of convection-dependence based on an in-situ observation platform.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0009",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "copper",
+  "span_form": "full_name",
+  "context": "the reduction reaction (including protonation of the phenazine ring, hydrogenation reduction or even further cleavage of the azo group) of JGB also occurs along with the copper electrodeposition process.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0009",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "H_2 SO _4",
+  "span_form": "formula",
+  "context": "H_2 SO _4, NaCl _\\iota, and polyethylene glycol (PEG, mol. wt. 6000) were purchased from Sinopharm Chemical Reagent Co. Ltd. (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "NaCl",
+  "span_form": "formula",
+  "context": "H_2 SO _4, NaCl _\\iota, and polyethylene glycol (PEG, mol. wt. 6000) were purchased from Sinopharm Chemical Reagent Co. Ltd. (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "polyethylene glycol",
+  "span_form": "full_name",
+  "context": "H_2 SO _4, NaCl _\\iota, and polyethylene glycol (PEG, mol. wt. 6000) were purchased from Sinopharm Chemical Reagent Co. Ltd. (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "PEG",
+  "span_form": "abbreviation",
+  "context": "polyethylene glycol (PEG, mol. wt. 6000) were purchased from Sinopharm Chemical Reagent Co. Ltd. (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "CuSO _4·5H_2O",
+  "span_form": "formula",
+  "context": "CuSO _4·5H_2O_i, sodium 3,3 ′ -disulfanediylbis(propane-1-sulphonate) (SPS) and methylene violet 3RAX (MEV) was obtained from Adamas (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "sodium 3,3 ′ -disulfanediylbis(propane-1-sulphonate)",
+  "span_form": "full_name",
+  "context": "CuSO _4·5H_2O_i, sodium 3,3 ′ -disulfanediylbis(propane-1-sulphonate) (SPS) and methylene violet 3RAX (MEV) was obtained from Adamas (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "SPS",
+  "span_form": "abbreviation",
+  "context": "sodium 3,3 ′ -disulfanediylbis(propane-1-sulphonate) (SPS) and methylene violet 3RAX (MEV) was obtained from Adamas (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "methylene violet 3RAX",
+  "span_form": "trade_name",
+  "context": "sodium 3,3 ′ -disulfanediylbis(propane-1-sulphonate) (SPS) and methylene violet 3RAX (MEV) was obtained from Adamas (China).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0017",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "MEV",
+  "span_form": "abbreviation",
+  "context": "For comparison, the UV-vis spectra of MEV, which is structurally similar to the phenazine ring of JGB, were also collected in Figure 4(b).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0043",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "JGB_Red",
+  "span_form": "code",
+  "context": "it is suggested that the reduction of JGB during the plating process generates a new product (JGB_Red), which plays a real role in surface inhibition.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0036",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": true
+ },
+ {
+  "span": "nickel",
+  "span_form": "full_name",
+  "context": "In brief, epoxysealed nickel wire was etched in 1 M NaCl + 5 mM H_2SO_4 to form the MCE, which was then placed in the trench (5 × 20 × 5 mm) of the Polyetheretherketone (PEEK) cell.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0018",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "H_2SO_4",
+  "span_form": "formula",
+  "context": "epoxysealed nickel wire was etched in 1 M NaCl + 5 mM H_2SO_4 to form the MCE.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0018",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Polyetheretherketone",
+  "span_form": "full_name",
+  "context": "which was then placed in the trench (5 × 20 × 5 mm) of the Polyetheretherketone (PEEK) cell.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0018",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "PEEK",
+  "span_form": "abbreviation",
+  "context": "the trench (5 × 20 × 5 mm) of the Polyetheretherketone (PEEK) cell.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0018",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "platinum",
+  "span_form": "full_name",
+  "context": "A 1 mm platinum wire and a 0.7 mm copper wire embedded in the cell were used as counter and reference electrode, respectively.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0018",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "graphite",
+  "span_form": "full_name",
+  "context": "Cyclic voltammetry was performed to evaluate the electrochemical behaviour of JGB with 3 mm glassy carbon (GC) electrode as the working electrode, graphite rod and Hg/ H g _ 2 S O _ 4 (sat.) (MSE) as the counter electrode and reference electrode, respectively.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0020",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "glassy carbon",
+  "span_form": "full_name",
+  "context": "Cyclic voltammetry was performed to evaluate the electrochemical behaviour of JGB with 3 mm glassy carbon (GC) electrode as the working electrode.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0020",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Hg",
+  "span_form": "formula",
+  "context": "graphite rod and Hg/ H g _ 2 S O _ 4 (sat.) (MSE) as the counter electrode and reference electrode, respectively.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0020",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Nafion 117",
+  "span_form": "trade_name",
+  "context": "The electrolysis of JGB was performed by applying 6 Adm ^ - 2 ( ASD) for 1 h between the copper sheet cathode and the platinum sheet anode in the double chamber electrolytic cell separated by a Nafion 117 proton membrane (DuPont, USA).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0020",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": true
+ },
+ {
+  "span": "Cl ^ -",
+  "span_form": "formula",
+  "context": "The basic electrolyte solution (BES) was composed of 5 ppm JGB, 60 ppm Cl ^ - and 0.5 M H _ 2 SO _ 4.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0020",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "CuSO",
+  "span_form": "formula",
+  "context": "The cyclic voltammetry stripping was performed with a potential window of −0.4–1.0 V (vs. Cu/CuSO (sat.), CCSE) at a scan rate of 100 mV s ^ - 1.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0021",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": true
+ },
+ {
+  "span": "SiO _2",
+  "span_form": "formula",
+  "context": "The preparation of A u @ SiO _2 ~ ( ~ 5 5 nm Au core with ∼2 nm silica shell) nanoparticles (NPs) was as given in the previous report by Li et a I.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0023",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Au",
+  "span_form": "formula",
+  "context": "The preparation of A u @ SiO _2 ~ ( ~ 5 5 nm Au core with ∼2 nm silica shell) nanoparticles (NPs).",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0023",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "silica",
+  "span_form": "full_name",
+  "context": "the A u @ SiO _2 NPs are distributed on the surface of the GC electrode to achieve signal enhancement by the plasmonic resonant excitation of the gold nucleus, while the silica shell avoids the interference of environmental factors on the signal.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0044",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "gold",
+  "span_form": "full_name",
+  "context": "to achieve signal enhancement by the plasmonic resonant excitation of the gold nucleus, while the silica shell avoids the interference of environmental factors on the signal.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0044",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "phenazine",
+  "span_form": "full_name",
+  "context": "A new peak at 377 nm was also observed for MEV in acidic solution, corresponding to the protonation of phenazine.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0044",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Cu",
+  "span_form": "formula",
+  "context": "Additives with inhibition ability will slow down the deposition rate of Cu, which further leads to a decrease in the area of the Cu dissolution peak at around 0 V.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0055",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "JGBRP",
+  "span_form": "code",
+  "context": "Figure 6(b) presents the trend of JGB and JGBRP inhibition factors with potential.",
+  "unit_id": "Mechanism_of_convection_dependence_of_le#0056",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": true
+ },
+ {
+  "span": "CuSO _4",
+  "span_form": "formula",
+  "context": "图注：Figure 2. Surface morphology of filled MCEs with bath composed of: (d) Basic + 500 ppm PEG + 5 ppm SPS + 5 ppm JGB. Basic: 1 M CuSO _4 + 0.5 M H _2 S O _4 + 6 0 ppm Cl<sup>−</sup>.",
+  "unit_id": "Mechanism_of_convection_dependence_of_leveller_and_its_effec#fig2",
+  "source_type": "figure_caption",
+  "table_id": "",
+  "figure_id": "Mechanism_of_convection_dependence_of_leveller_and_its_effec#fig2",
+  "uncertain": false
+ }
+]
