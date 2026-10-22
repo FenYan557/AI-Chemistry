@@ -50,8 +50,8 @@
   "credentials_required_for_offline_use": false,
   "assets": {
     ".gitattributes": {
-      "sha256": "ca0bc289a248a47f80cb2b98acbdb4fc72b00df65b4052483b67a70de56a3cc3",
-      "bytes": 148
+      "sha256": "27eb54c26a8df98cf92d4b3dbdf859491e347a41501d4e1d2279d54c105ca18a",
+      "bytes": 70
     },
     ".gitignore": {
       "sha256": "6ae54bf732dc22899f6b4a88806cd1d0a4d254dace3bf37e0826ac501f9f837f",
