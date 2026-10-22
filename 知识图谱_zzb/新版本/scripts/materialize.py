@@ -126,7 +126,7 @@ def retrieval_keys(bundle):
 
 if __name__ == "__main__":
     import sys
-    path = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "examples/literature_bundle.json"
+    path = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "knowledge_graph.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     materialize(data)
     keys = retrieval_keys(data)

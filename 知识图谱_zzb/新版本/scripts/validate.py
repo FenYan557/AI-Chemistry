@@ -67,7 +67,7 @@ def validate(bundle):
     relation_registry = {r["relation_id"]: r for r in load(ROOT / "registry/relations.json")["relations"]}
     relation_ids = set(relation_registry)
 
-    tables_dir = ROOT.parents[1] / "清洗/02_清洗/out/tables"
+    tables_dir = ROOT / "tables"
 
     def evidence(e, doc_id, context):
         if e.get("kind") == "table_cell":

@@ -1,0 +1,58 @@
+[
+  {
+    "corrected_block_id": "blk:repair:c1e55a6d923712c7fa77",
+    "original_ocr_block_id": "blk:da65c35f82eb743f1fdd",
+    "pdf_sha256": "3ad572801060becbc570596b00fa8244de9f9f7a6ae60440d7c27fafd8568d5f",
+    "pdf_path": "D:\\Files\\Work\\A2lab\\ai_electroplating\\AI-Chemistry\\知识图谱所需文献\\分类文献库\\其他期刊\\1-s2.0-S2352492825007378-main.pdf",
+    "page": 2,
+    "verification": "primary AI visually confirmed CoCl2·6H2O and all recipe values against original PDF; no chemical guess",
+    "expert_verified": false
+  },
+  {
+    "corrected_block_id": "blk:repair:b249efd80d1e9bb2e4aa",
+    "original_ocr_block_id": "blk:a47daff589f41db48584",
+    "pdf_sha256": "bee9e1a18f3893a4e0843b64a3069120f5777edb17fe8f85eaa9ca0d4fbb68f1",
+    "pdf_path": "D:\\Files\\Work\\A2lab\\ai_electroplating\\AI-Chemistry\\知识图谱所需文献\\分类文献库\\其他期刊\\聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究.pdf",
+    "page": 4,
+    "verification": "primary AI inspected rendered original page; missing minus signs confirmed in figure and caption",
+    "expert_verified": false
+  },
+  {
+    "corrected_block_id": "blk:repair:4748e7c245629ec7d793",
+    "original_ocr_block_id": "blk:692e3690b3cd5a5a2280",
+    "pdf_sha256": "bee9e1a18f3893a4e0843b64a3069120f5777edb17fe8f85eaa9ca0d4fbb68f1",
+    "pdf_path": "D:\\Files\\Work\\A2lab\\ai_electroplating\\AI-Chemistry\\知识图谱所需文献\\分类文献库\\其他期刊\\聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究.pdf",
+    "page": 4,
+    "verification": "primary AI inspected rendered original page; missing minus signs confirmed in figure and caption",
+    "expert_verified": false
+  },
+  {
+    "corrected_block_id": "blk:repair:bbe80448f706946c69f4",
+    "original_ocr_block_id": "blk:2ff7333502d7b0c82d77",
+    "pdf_sha256": "3ad572801060becbc570596b00fa8244de9f9f7a6ae60440d7c27fafd8568d5f",
+    "pdf_path": "D:\\Files\\Work\\A2lab\\ai_electroplating\\AI-Chemistry\\知识图谱所需文献\\分类文献库\\其他期刊\\1-s2.0-S2352492825007378-main.pdf",
+    "page": 2,
+    "verification": "primary AI visual check of −7.55 eV against original page",
+    "expert_verified": false
+  },
+  {
+    "corrected_block_id": "blk:repair:1d2944a9429ea5d483ca",
+    "original_ocr_block_id": "blk:34c34eae99fc9abd8622",
+    "pdf_sha256": "e48f3fd342ec73c19a55018887edb688f40a692ebbe7771ce22b3ae23dc9ec3c",
+    "pdf_path": "D:\\Files\\Work\\A2lab\\ai_electroplating\\AI-Chemistry\\知识图谱所需文献\\分类文献库\\其他期刊\\DMG（丁二酮肟）.pdf",
+    "page": 3,
+    "verification": "primary AI inspected original rendered page; 0.3 V is positive; 0.48/1.5/0.7/0.8/0.85/0.9 V and 2/4 mA cm−2 have negative signs",
+    "complete_replacement": true,
+    "expert_verified": false
+  },
+  {
+    "corrected_block_id": "blk:repair:c97a692147ddd474e93e",
+    "original_ocr_block_id": "blk:16a9537f8f54c08a9a47",
+    "pdf_sha256": "9cb590bc2e934d7a3ce291188cc6b6a8eeeafac45b78a282efaaadb7237591d1",
+    "pdf_path": "D:\\Files\\Work\\A2lab\\ai_electroplating\\AI-Chemistry\\知识图谱所需文献\\分类文献库\\其他期刊\\9molecules-28-02783.pdf",
+    "page": 4,
+    "verification": "primary AI inspected original paragraph and separated adjacent explanations corrupted by text extraction",
+    "complete_replacement": true,
+    "expert_verified": false
+  }
+]

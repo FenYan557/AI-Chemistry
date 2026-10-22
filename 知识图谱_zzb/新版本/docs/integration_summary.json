@@ -1,0 +1,45 @@
+{
+  "version": "kg-v2-repaired-20261022-r1",
+  "merge_review_cases": 26,
+  "entity_change_records": 42,
+  "semantic": {
+    "candidate_count": 702,
+    "reviewed_count": 702,
+    "review_decisions": {
+      "annotate": 629,
+      "unchanged": 60,
+      "uncertain": 13
+    },
+    "accepted_field_changes": {
+      "modality": 334,
+      "polarity": 211,
+      "source_scope": 487
+    },
+    "changed_facts": 589,
+    "pending_items": 212
+  },
+  "recovered_facts": 17,
+  "OCR_sign_corrections": 2,
+  "relation_scope_facts_repaired": 10,
+  "uncertain_relations_resolved": 13,
+  "pdf_source_fact_corrections": 6,
+  "quantity_or_owner_changes": 1725,
+  "condition_kinds": {
+    "qualitative": 1527,
+    "range": 53,
+    "numeric": 934
+  },
+  "counts": {
+    "documents": 48,
+    "blocks": 3720,
+    "mentions": 16966,
+    "concepts": 5892,
+    "facts": 5844,
+    "edges": 2902,
+    "optimized_cases": 6
+  },
+  "experiments": 4,
+  "runs": 14,
+  "samples": 7,
+  "expert_review": "pending"
+}

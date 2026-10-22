@@ -21,7 +21,14 @@
               "measurement",
               "mechanism",
               "future_work",
-              "other"
+              "other",
+              "composition",
+              "method_setting",
+              "has_property",
+              "used_in",
+              "joint_mechanism",
+              "calculated_property",
+              "candidate_selection"
             ]
           },
           "statement": {
@@ -31,6 +38,30 @@
               "author_interpretation",
               "future_work",
               "reported_claim",
+              "unknown"
+            ]
+          },
+          "modality": {
+            "enum": [
+              "explicit",
+              "hedged",
+              "speculative",
+              "unknown"
+            ]
+          },
+          "polarity": {
+            "enum": [
+              "asserted",
+              "negated",
+              "no_effect",
+              "unknown"
+            ]
+          },
+          "source_scope": {
+            "enum": [
+              "this_study",
+              "cited_study",
+              "review_summary",
               "unknown"
             ]
           },
@@ -58,6 +89,13 @@
                 "unit": {
                   "type": "string",
                   "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "numeric",
+                    "range",
+                    "qualitative"
+                  ]
                 },
                 "about": {
                   "enum": [
@@ -133,6 +171,16 @@
               ],
               "additionalProperties": false
             }
+          },
+          "subject_quote": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Optional unique source-local anchor containing the literal participant name when the main claim quote does not."
+          },
+          "target_quote": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Optional unique source-local anchor containing the literal participant name when the main claim quote does not."
           }
         },
         "required": [
@@ -143,7 +191,17 @@
         ],
         "additionalProperties": false
       },
-      "maxItems": 8
+      "maxItems": 32
+    },
+    "coverage_complete": {
+      "type": "boolean"
+    },
+    "remaining_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 16
     }
   },
   "required": [

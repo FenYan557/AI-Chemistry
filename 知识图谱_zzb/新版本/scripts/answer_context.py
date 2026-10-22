@@ -19,7 +19,7 @@ ANSWER_INSTRUCTION = """直接回答问题，先给结论或候选及选择理�
 
 def numeric_state(outcome):
     q = outcome["value"]
-    ready = q["value_kind"] == "numeric" and q["unit_status"] in {"reported", "not_applicable"} and bool(re.fullmatch(r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?", q["value_raw"] or ""))
+    ready = q["value_kind"] == "numeric" and q["unit_status"] in {"reported", "not_applicable"} and bool(re.fullmatch(r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?", (q["value_raw"] or "").replace("−", "-")))
     return {"absolute_numeric_ready": ready,
             "baseline_available": outcome["comparison"]["status"] == "explicit",
             "cross_study_comparability": "requires_condition_and_method_check"}
@@ -41,12 +41,34 @@ def build_context(bundle, fact_ids=None, limit=8, audit=False):
     rows, references = [], {}
     attribution = {"observation": "该研究的观测结果", "calculation_result": "计算或模拟相关结果", "author_interpretation": "作者提出的解释", "future_work": "作者提出的后续研究方向", "reported_claim": "文献报告的陈述", "unknown": "来源陈述"}
     blocks = {b["id"]: b for b in bundle["blocks"]}
+    conflict_path = ROOT / "registry/source_conflicts.json"
+    source_conflicts = json.loads(conflict_path.read_text(encoding="utf-8")) if conflict_path.is_file() else {}
     def quotes(items):
         return [{"quote": e.get("quote", e.get("cell_raw", "")), "page": blocks.get(e.get("block_id"), {}).get("page")} for e in items]
+    runs = {r["id"]: r for r in bundle.get("runs", [])}
+    def conditions_for(fact):
+        rows = [{"parameter": c["parameter_raw"],
+                 "value": {"raw": c["value"]["value_raw"], "unit": c["value"]["unit_raw"], "kind": c["value"]["value_kind"]},
+                 "about": [mentions[mid]["surface"] for mid in c["about_mention_ids"]],
+                 **({"scope": "该条件的作用对象需结合原文确认"} if c["scope_status"] == "pending" else {})}
+                for c in fact["conditions"]]
+        seen = {(r["parameter"], r["value"]["raw"], r["value"]["unit"]) for r in rows}
+        run = runs.get(fact.get("run_id"))
+        if run:
+            for condition in run["conditions"]:
+                key = (condition["parameter_raw"], condition["value"]["value_raw"], condition["value"]["unit_raw"])
+                if key in seen:
+                    continue
+                seen.add(key)
+                rows.append({"parameter": key[0],
+                    "value": {"raw": key[1], "unit": key[2], "kind": condition["value"]["value_kind"]},
+                    "about": [], "scope": "此来源中明确绑定的共同实验或方法设定，仅适用于该组",
+                    "evidence": quotes(condition["evidence"])})
+        return rows
     for fact in selected[:limit]:
         outcomes = []
         for o in fact["outcomes"]:
-            item = {"indicator": o["indicator_raw"], "value": {"raw": o["value"]["value_raw"], "unit": o["value"]["unit_raw"]},
+            item = {"indicator": o["indicator_raw"], "value": {"raw": o["value"]["value_raw"], "unit": o["value"]["unit_raw"], "kind": o["value"]["value_kind"]},
                     "direction": o["direction"], "stage": o["stage_raw"], "evidence": quotes(o["evidence"])}
             if o["comparison"]["status"] != "not_stated":
                 item["comparison"] = {"baseline": o["comparison"]["baseline_raw"], "evidence": quotes(o["comparison"].get("evidence", []))}
@@ -60,14 +82,15 @@ def build_context(bundle, fact_ids=None, limit=8, audit=False):
         rows.append({
             "citation": citation, "document": docs[fact["document_id"]]["title"],
             "participants": [mentions[p["mention_id"]]["surface"] for p in fact["participants"]],
+            "participant_roles": [{"name": mentions[p["mention_id"]]["surface"], "role": p["role"]} for p in fact["participants"]],
+            **({"source_discrepancy": source_conflicts[fact["id"]]} if fact["id"] in source_conflicts else {}),
             "relation": fact["relation"].get("definition") or fact["relation"]["raw"],
             "attribution": attribution[fact["statement_type"]],
             **({"wording": "原文采用保留或推测措辞"} if fact["modality"] in {"hedged", "speculative"} else {}),
             **({"negative_result": "原文报告无效应或否定结果"} if fact["polarity"] in {"negated", "no_effect"} else {}),
             **({"source_note": "原文转述他人研究"} if fact["source_scope"] == "cited_study" else {}),
-            "conditions": [{"parameter": c["parameter_raw"], "value": {"raw": c["value"]["value_raw"], "unit": c["value"]["unit_raw"]},
-                            "about": [mentions[mid]["surface"] for mid in c["about_mention_ids"]],
-                            **({"scope": "该条件的作用对象需结合原文确认"} if c["scope_status"] == "pending" else {})} for c in fact["conditions"]],
+            **({"source_note": "综述中的概括性陈述，非该文献直接测量"} if fact["source_scope"] == "review_summary" else {}),
+            "conditions": conditions_for(fact),
             "outcomes": outcomes, "evidence": quotes(fact["evidence"]),
         })
     result = {"instruction": ANSWER_INSTRUCTION, "evidence": rows, "truncated": len(selected) > limit, "references": references}

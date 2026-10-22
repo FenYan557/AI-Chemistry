@@ -1,0 +1,743 @@
+{
+  "format_version": 1,
+  "source_graph_sha256": "ad2988c764d31c1e49ec07cc7f31aada2f041865d4440db2558b6a41f8c3257f",
+  "source_entity_resolution_sha256": "f0d205d85c19822cd1b9ec57a7e9b63e39ab567341336db6f2220b93513fefe8",
+  "scope": "reviewed_incremental_context_no_raw_fact_replacement",
+  "expert_verified": false,
+  "cases": [
+    {
+      "id": "relctx:9792af3d396a47223b45",
+      "focus_id": "bd_orientation",
+      "document_id": "1_s2_0_S2352492825007378_main",
+      "kind": "adsorption",
+      "statement_type": "author_interpretation",
+      "claim": "DFT gives BD adsorption energy on hcp(101) of −0.67 eV, the highest among crystal faces, manifesting that (101) may be a potential preferred orientation.",
+      "subject": {
+        "start": 83,
+        "end": 85,
+        "text": "BD",
+        "multiple_literal_occurrences": true,
+        "block_id": "blk:28d2e2477261dda43f1e"
+      },
+      "conditions": [
+        {
+          "parameter": "crystal face",
+          "value": {
+            "start": 508,
+            "end": 540,
+            "text": "hexagonal closepacked (hcp)(101)",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:28d2e2477261dda43f1e"
+          },
+          "group_id": "all",
+          "scope_note": "bd_orientation"
+        }
+      ],
+      "groups": [],
+      "methods": [
+        {
+          "start": 232,
+          "end": 276,
+          "text": "density functional theory (DFT) calculations",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      ],
+      "qualifiers": [
+        {
+          "cue": {
+            "start": 637,
+            "end": 655,
+            "text": "may be a potential",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:28d2e2477261dda43f1e"
+          },
+          "scope": "epistemic status of (101) as preferred orientation (tentative author interpretation)"
+        }
+      ],
+      "evidence": [
+        {
+          "start": 477,
+          "end": 678,
+          "text": "The adsorption energy of BD on hexagonal closepacked (hcp)(101) is −0.67 eV, which is the highest adsorption energy among crystal faces, manifesting that (101) may be a potential preferred orientation.",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      ],
+      "source_block_ids": [
+        "blk:28d2e2477261dda43f1e",
+        "blk:791871c2fd625c03483f",
+        "blk:da65c35f82eb743f1fdd"
+      ],
+      "value": {
+        "source": {
+          "start": 544,
+          "end": 552,
+          "text": "−0.67 eV",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      },
+      "review": {
+        "status": "accepted_for_context",
+        "expert_verified": false,
+        "reviewer": "primary_ai",
+        "note": "Primary AI checked exact sources, material/target, direction, qualifiers and statement type; no expert verification."
+      },
+      "derivation": {
+        "original_statement_prose": "The adsorption energy of BD on hexagonal closepacked (hcp)(101) is −0.67 eV, which is the highest adsorption energy among crystal faces, manifesting that (101) may be a potential preferred orientation (DFT calculation; tentative author interpretation, not confirmed).",
+        "typed_label_origin": "targeted_model_patch"
+      },
+      "target": {
+        "start": 508,
+        "end": 540,
+        "text": "hexagonal closepacked (hcp)(101)",
+        "multiple_literal_occurrences": false,
+        "block_id": "blk:28d2e2477261dda43f1e"
+      },
+      "entity_bindings": {
+        "subject": {
+          "surface": "BD",
+          "concept_id": "concept:98a1bae8e75b8e1c591e",
+          "candidate_concept_ids": [
+            "concept:98a1bae8e75b8e1c591e"
+          ],
+          "status": "bound_existing_source_name"
+        },
+        "target": {
+          "surface": "hexagonal closepacked (hcp)(101)",
+          "concept_id": "concept:42d5b8ee0d426ba95af4",
+          "candidate_concept_ids": [
+            "concept:42d5b8ee0d426ba95af4"
+          ],
+          "status": "bound_existing_source_name"
+        }
+      }
+    },
+    {
+      "id": "relctx:ef2e06dc4315133d1810",
+      "focus_id": "bd_diffusion",
+      "document_id": "1_s2_0_S2352492825007378_main",
+      "kind": "effect",
+      "statement_type": "observation",
+      "claim": "BD decreases the cobalt diffusion coefficient from 3.43 × 10 − 6 to 1.33 × 10 − 6 cm 2 /s; the reaction stays irreversible with diffusion control with or without BD.",
+      "subject": {
+        "start": 83,
+        "end": 85,
+        "text": "BD",
+        "multiple_literal_occurrences": true,
+        "block_id": "blk:28d2e2477261dda43f1e"
+      },
+      "conditions": [
+        {
+          "parameter": "control regime",
+          "value": {
+            "start": 976,
+            "end": 1011,
+            "text": "irreversible with diffusion control",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:28d2e2477261dda43f1e"
+          },
+          "group_id": "all",
+          "scope_note": "bd_diffusion (invariant with or without BD)"
+        }
+      ],
+      "groups": [],
+      "methods": [
+        {
+          "start": 760,
+          "end": 800,
+          "text": "electro chemical experimental techniques",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      ],
+      "qualifiers": [
+        {
+          "cue": {
+            "start": 1012,
+            "end": 1041,
+            "text": "whether it contains BD or not",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:28d2e2477261dda43f1e"
+          },
+          "scope": "irreversibility and diffusion control remain invariant regardless of BD presence"
+        },
+        {
+          "cue": {
+            "start": 805,
+            "end": 808,
+            "text": "can",
+            "multiple_literal_occurrences": true,
+            "block_id": "blk:28d2e2477261dda43f1e"
+          },
+          "scope": "BD's ability to inhibit electroreduction (the diffusion coefficient decrease is stated directly without modal)"
+        }
+      ],
+      "evidence": [
+        {
+          "start": 802,
+          "end": 1042,
+          "text": "BD can inhibit the electroreduction of cobalt ions based on kinetics and decreases the diffusion coefficient from 3.43 × 10 − 6 to 1.33 × 10 − 6 cm 2 /s, but the reaction is irreversible with diffusion control whether it contains BD or not.",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      ],
+      "source_block_ids": [
+        "blk:28d2e2477261dda43f1e",
+        "blk:791871c2fd625c03483f",
+        "blk:da65c35f82eb743f1fdd"
+      ],
+      "baseline": {
+        "source": {
+          "start": 916,
+          "end": 929,
+          "text": "3.43 × 10 − 6",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      },
+      "value": {
+        "source": {
+          "start": 933,
+          "end": 954,
+          "text": "1.33 × 10 − 6 cm 2 /s",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      },
+      "review": {
+        "status": "accepted_for_context",
+        "expert_verified": false,
+        "reviewer": "primary_ai",
+        "note": "Primary AI checked exact sources, material/target, direction, qualifiers and statement type; no expert verification."
+      },
+      "derivation": {
+        "original_statement_prose": "BD can inhibit the electroreduction of cobalt ions based on kinetics and decreases the diffusion coefficient from 3.43 × 10 − 6 to 1.33 × 10 − 6 cm 2 /s, but the reaction is irreversible with diffusion control whether it contains BD or not (invariant control regime).",
+        "typed_label_origin": "targeted_model_patch"
+      },
+      "target": {
+        "start": 885,
+        "end": 910,
+        "text": "the diffusion coefficient",
+        "multiple_literal_occurrences": false,
+        "block_id": "blk:28d2e2477261dda43f1e"
+      },
+      "entity_bindings": {
+        "subject": {
+          "surface": "BD",
+          "concept_id": "concept:98a1bae8e75b8e1c591e",
+          "candidate_concept_ids": [
+            "concept:98a1bae8e75b8e1c591e"
+          ],
+          "status": "bound_existing_source_name"
+        },
+        "target": {
+          "surface": "the diffusion coefficient",
+          "concept_id": null,
+          "candidate_concept_ids": [],
+          "status": "unresolved"
+        }
+      },
+      "limitations": [
+        "Baseline and result retained from primary source; explicit experiment-group linkage not established."
+      ]
+    },
+    {
+      "id": "relctx:8f54d1cfbfe6b5aa0fe5",
+      "focus_id": "bd_resistance",
+      "document_id": "1_s2_0_S2352492825007378_main",
+      "kind": "effect",
+      "statement_type": "observation",
+      "claim": "BD increases the charge transfer resistance from 241 Ω/cm 2 to 496 Ω/cm 2, as measured by EIS.",
+      "subject": {
+        "start": 83,
+        "end": 85,
+        "text": "BD",
+        "multiple_literal_occurrences": true,
+        "block_id": "blk:28d2e2477261dda43f1e"
+      },
+      "conditions": [
+        {
+          "parameter": "frequency range",
+          "value": {
+            "start": 100,
+            "end": 120,
+            "text": "1 0 ^5 Hz to 0.01 Hz",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:791871c2fd625c03483f"
+          },
+          "group_id": "all"
+        },
+        {
+          "parameter": "amplitude",
+          "value": {
+            "start": 142,
+            "end": 148,
+            "text": "5 mV/s",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:791871c2fd625c03483f"
+          },
+          "group_id": "all",
+          "source_unit_review_required": true
+        },
+        {
+          "parameter": "working electrode",
+          "value": {
+            "start": 152,
+            "end": 155,
+            "text": "GCE",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:791871c2fd625c03483f"
+          },
+          "group_id": "all"
+        },
+        {
+          "parameter": "BD concentration",
+          "value": {
+            "start": 225,
+            "end": 232,
+            "text": "0.12 mM",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:da65c35f82eb743f1fdd"
+          },
+          "group_id": "with_bd"
+        },
+        {
+          "parameter": "temperature",
+          "value": {
+            "start": 366,
+            "end": 371,
+            "text": "303 K",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:da65c35f82eb743f1fdd"
+          },
+          "group_id": "all"
+        },
+        {
+          "parameter": "pH",
+          "value": {
+            "start": 324,
+            "end": 329,
+            "text": "3 ~ 4",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:da65c35f82eb743f1fdd"
+          },
+          "group_id": "all"
+        }
+      ],
+      "groups": [
+        {
+          "id": "without_bd",
+          "evidence": {
+            "start": 192,
+            "end": 281,
+            "text": "When there is no BD in the electrolyte, the charge transfer resistance is 241 Ω / cm ^2..",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:791871c2fd625c03483f"
+          }
+        },
+        {
+          "id": "with_bd",
+          "evidence": {
+            "start": 282,
+            "end": 361,
+            "text": "When the electrolyte contains BD, the charge transfer resistance is 496Ω/ cm ^2",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:791871c2fd625c03483f"
+          }
+        }
+      ],
+      "methods": [
+        {
+          "start": 20,
+          "end": 64,
+          "text": "electrochemical impedance spectroscopy (EIS)",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:791871c2fd625c03483f"
+        },
+        {
+          "start": 760,
+          "end": 800,
+          "text": "electro chemical experimental techniques",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        }
+      ],
+      "qualifiers": [
+        {
+          "cue": {
+            "start": 805,
+            "end": 808,
+            "text": "can",
+            "multiple_literal_occurrences": true,
+            "block_id": "blk:28d2e2477261dda43f1e"
+          },
+          "scope": "BD's ability to increase charge transfer resistance"
+        }
+      ],
+      "evidence": [
+        {
+          "start": 1043,
+          "end": 1125,
+          "text": "BD can make the charge transfer resistance increase from 241 Ω/cm 2 to 496 Ω/cm 2.",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        },
+        {
+          "start": 192,
+          "end": 361,
+          "text": "When there is no BD in the electrolyte, the charge transfer resistance is 241 Ω / cm ^2.. When the electrolyte contains BD, the charge transfer resistance is 496Ω/ cm ^2",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:791871c2fd625c03483f"
+        }
+      ],
+      "source_block_ids": [
+        "blk:28d2e2477261dda43f1e",
+        "blk:791871c2fd625c03483f",
+        "blk:da65c35f82eb743f1fdd"
+      ],
+      "baseline": {
+        "source": {
+          "start": 1100,
+          "end": 1110,
+          "text": "241 Ω/cm 2",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        },
+        "group_id": "without_bd"
+      },
+      "value": {
+        "source": {
+          "start": 1114,
+          "end": 1124,
+          "text": "496 Ω/cm 2",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:28d2e2477261dda43f1e"
+        },
+        "group_id": "with_bd"
+      },
+      "review": {
+        "status": "accepted_for_context",
+        "expert_verified": false,
+        "reviewer": "primary_ai",
+        "note": "Primary AI checked exact sources, material/target, direction, qualifiers and statement type; no expert verification. Group citations expanded explicitly;0.12mM only with_bd,303K andpH3~4 shared electrochemical protocol;EIS source5mV/s flagged for unit review."
+      },
+      "derivation": {
+        "original_statement_prose": "BD can make the charge transfer resistance increase from 241 Ω/cm 2 to 496 Ω/cm 2; EIS curves on GCE in electrolyte without and with BD confirm no-BD = 241 Ω/cm 2 and with-BD = 496 Ω/cm 2.",
+        "typed_label_origin": "targeted_model_patch"
+      },
+      "target": {
+        "start": 1055,
+        "end": 1085,
+        "text": "the charge transfer resistance",
+        "multiple_literal_occurrences": false,
+        "block_id": "blk:28d2e2477261dda43f1e"
+      },
+      "entity_bindings": {
+        "subject": {
+          "surface": "BD",
+          "concept_id": "concept:98a1bae8e75b8e1c591e",
+          "candidate_concept_ids": [
+            "concept:98a1bae8e75b8e1c591e"
+          ],
+          "status": "bound_existing_source_name"
+        },
+        "target": {
+          "surface": "the charge transfer resistance",
+          "concept_id": null,
+          "candidate_concept_ids": [],
+          "status": "unresolved"
+        }
+      }
+    },
+    {
+      "id": "relctx:21c4a3529854120668fd",
+      "focus_id": "jgb_pose",
+      "document_id": "ao3c05248",
+      "kind": "adsorption",
+      "statement_type": "author_interpretation",
+      "claim": "JGB may be parallel adsorbed on the copper layer in a large area, based on its electron cloud being concentrated on the N atom and benzene ring and relatively uniform in general.",
+      "subject": {
+        "start": 178,
+        "end": 181,
+        "text": "JGB",
+        "multiple_literal_occurrences": true,
+        "block_id": "blk:007180406a63522f3939"
+      },
+      "conditions": [],
+      "groups": [],
+      "methods": [
+        {
+          "start": 210,
+          "end": 266,
+          "text": "calculated using the software Gaussian 09W and GaussView",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:007180406a63522f3939"
+        }
+      ],
+      "qualifiers": [
+        {
+          "cue": {
+            "start": 604,
+            "end": 610,
+            "text": "may be",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:007180406a63522f3939"
+          },
+          "scope": "JGB parallel adsorption pose (tentative/proposal)"
+        },
+        {
+          "cue": {
+            "start": 586,
+            "end": 596,
+            "text": "in general",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:007180406a63522f3939"
+          },
+          "scope": "electron cloud uniformity"
+        }
+      ],
+      "evidence": [
+        {
+          "start": 467,
+          "end": 732,
+          "text": "the electron cloud in JGB is concentrated on the N atom and benzene ring, and the electron cloud is relatively uniform in general, which may be parallel adsorbed on the surface of the copper layer in a large area to provide large electrodeposition steric resistance",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:007180406a63522f3939"
+        }
+      ],
+      "source_block_ids": [
+        "blk:007180406a63522f3939",
+        "blk:2ecdced21fb8ae1079f4",
+        "blk:ce9642fbf4a6c64e3d04"
+      ],
+      "review": {
+        "status": "accepted_for_context",
+        "expert_verified": false,
+        "reviewer": "primary_ai",
+        "note": "Primary AI checked exact sources, material/target, direction, qualifiers and statement type; no expert verification."
+      },
+      "derivation": {
+        "original_statement_prose": "From HOMO/LUMO diagrams, the electron cloud in JGB is concentrated on the N atom and benzene ring and is relatively uniform in general, which may be parallel adsorbed on the surface of the copper layer in a large area to provide large electrodeposition steric resistance (tentative author interpretation).",
+        "typed_label_origin": "targeted_model_patch"
+      },
+      "target": {
+        "start": 611,
+        "end": 679,
+        "text": "parallel adsorbed on the surface of the copper layer in a large area",
+        "multiple_literal_occurrences": false,
+        "block_id": "blk:007180406a63522f3939"
+      },
+      "entity_bindings": {
+        "subject": {
+          "surface": "JGB",
+          "concept_id": "concept:06091d35bc2a571c6165",
+          "candidate_concept_ids": [
+            "concept:06091d35bc2a571c6165"
+          ],
+          "status": "bound_existing_source_name"
+        },
+        "target": {
+          "surface": "parallel adsorbed on the surface of the copper layer in a large area",
+          "concept_id": null,
+          "candidate_concept_ids": [],
+          "status": "unresolved"
+        }
+      }
+    },
+    {
+      "id": "relctx:43b072a1841ba7fc6aee",
+      "focus_id": "thiamine_sites",
+      "document_id": "ao3c05248",
+      "kind": "adsorption",
+      "statement_type": "author_interpretation",
+      "claim": "Thiamine's electron cloud is concentrated on N^+, N, S atoms and the pyrimidine ring, which indicates these are its adsorption sites on the copper layer.",
+      "subject": {
+        "start": 186,
+        "end": 194,
+        "text": "thiamine",
+        "multiple_literal_occurrences": true,
+        "block_id": "blk:007180406a63522f3939"
+      },
+      "conditions": [],
+      "groups": [],
+      "methods": [
+        {
+          "start": 210,
+          "end": 266,
+          "text": "calculated using the software Gaussian 09W and GaussView",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:007180406a63522f3939"
+        }
+      ],
+      "qualifiers": [
+        {
+          "cue": {
+            "start": 834,
+            "end": 854,
+            "text": "which indicates that",
+            "multiple_literal_occurrences": false,
+            "block_id": "blk:007180406a63522f3939"
+          },
+          "scope": "inference of adsorption sites from electron cloud concentration (author interpretation)"
+        }
+      ],
+      "evidence": [
+        {
+          "start": 734,
+          "end": 1013,
+          "text": "the electron cloud of the thiamine molecule is concentrated on N^+, N, S atoms and pyrimidine ring, which indicates that N +, N, S atoms and the pyrimidine ring in the thiamine molecule are the adsorption sites of the thiamine molecule adsorbed on the surface of the copper layer",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:007180406a63522f3939"
+        }
+      ],
+      "source_block_ids": [
+        "blk:007180406a63522f3939",
+        "blk:2ecdced21fb8ae1079f4",
+        "blk:ce9642fbf4a6c64e3d04"
+      ],
+      "value": {
+        "source": {
+          "start": 797,
+          "end": 832,
+          "text": "N^+, N, S atoms and pyrimidine ring",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:007180406a63522f3939"
+        }
+      },
+      "review": {
+        "status": "accepted_for_context",
+        "expert_verified": false,
+        "reviewer": "primary_ai",
+        "note": "Primary AI checked exact sources, material/target, direction, qualifiers and statement type; no expert verification."
+      },
+      "derivation": {
+        "original_statement_prose": "The electron cloud of the thiamine molecule is concentrated on N^+, N, S atoms and pyrimidine ring, which indicates that N +, N, S atoms and the pyrimidine ring are the adsorption sites of thiamine on the copper layer (inference from orbital electron distribution; author interpretation).",
+        "typed_label_origin": "targeted_model_patch"
+      },
+      "target": {
+        "start": 924,
+        "end": 1013,
+        "text": "the adsorption sites of the thiamine molecule adsorbed on the surface of the copper layer",
+        "multiple_literal_occurrences": false,
+        "block_id": "blk:007180406a63522f3939"
+      },
+      "entity_bindings": {
+        "subject": {
+          "surface": "thiamine",
+          "concept_id": "concept:6b19b6a380f94b986e6c",
+          "candidate_concept_ids": [
+            "concept:6b19b6a380f94b986e6c"
+          ],
+          "status": "bound_existing_source_name"
+        },
+        "target": {
+          "surface": "the adsorption sites of the thiamine molecule adsorbed on the surface of the copper layer",
+          "concept_id": null,
+          "candidate_concept_ids": [],
+          "status": "unresolved"
+        }
+      }
+    },
+    {
+      "id": "relctx:aae3ca062bd41e4d1440",
+      "focus_id": "thiamine_adsorption",
+      "document_id": "ao3c05248",
+      "kind": "adsorption",
+      "statement_type": "author_interpretation",
+      "claim": "The thiamine molecule can be adsorbed on the copper layer surface by providing a lone pair, per quantum chemistry calculations.",
+      "subject": {
+        "start": 756,
+        "end": 777,
+        "text": "the thiamine molecule",
+        "multiple_literal_occurrences": true,
+        "block_id": "blk:007180406a63522f3939"
+      },
+      "conditions": [],
+      "groups": [],
+      "methods": [
+        {
+          "start": 210,
+          "end": 266,
+          "text": "calculated using the software Gaussian 09W and GaussView",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:007180406a63522f3939"
+        },
+        {
+          "start": 349,
+          "end": 381,
+          "text": "uses DFT as a calculation method",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:ce9642fbf4a6c64e3d04"
+        },
+        {
+          "start": 294,
+          "end": 323,
+          "text": "B 3 LYP / 6 · 3 1 1 G ( d, p)",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:ce9642fbf4a6c64e3d04"
+        }
+      ],
+      "qualifiers": [
+        {
+          "cue": {
+            "start": 424,
+            "end": 430,
+            "text": "can be",
+            "multiple_literal_occurrences": true,
+            "block_id": "blk:007180406a63522f3939"
+          },
+          "scope": "thiamine adsorption via lone pair (possibility/proposal)"
+        }
+      ],
+      "evidence": [
+        {
+          "start": 1019,
+          "end": 1114,
+          "text": "the thiamine molecule can be adsorbed on the surface of the copper layer by providing lone pair",
+          "multiple_literal_occurrences": false,
+          "block_id": "blk:007180406a63522f3939"
+        }
+      ],
+      "source_block_ids": [
+        "blk:007180406a63522f3939",
+        "blk:2ecdced21fb8ae1079f4",
+        "blk:ce9642fbf4a6c64e3d04"
+      ],
+      "review": {
+        "status": "accepted_for_context",
+        "expert_verified": false,
+        "reviewer": "primary_ai",
+        "note": "Primary AI checked exact sources, material/target, direction, qualifiers and statement type; no expert verification. DFT/basis and Gaussian source correct;no neighboring MD parameters imported. Existing thiamine mention lies inside the subject phrase; no new identity inferred."
+      },
+      "derivation": {
+        "original_statement_prose": "Based on quantum chemistry calculations (Gaussian 09W and GaussView, DFT), the thiamine molecule can be adsorbed on the surface of the copper layer by providing lone pair (possibility; author interpretation).",
+        "typed_label_origin": "targeted_model_patch"
+      },
+      "target": {
+        "start": 1048,
+        "end": 1114,
+        "text": "adsorbed on the surface of the copper layer by providing lone pair",
+        "multiple_literal_occurrences": false,
+        "block_id": "blk:007180406a63522f3939"
+      },
+      "entity_bindings": {
+        "subject": {
+          "surface": "the thiamine molecule",
+          "concept_id": "concept:6b19b6a380f94b986e6c",
+          "candidate_concept_ids": [
+            "concept:6b19b6a380f94b986e6c"
+          ],
+          "status": "bound_existing_contained_name"
+        },
+        "target": {
+          "surface": "adsorbed on the surface of the copper layer by providing lone pair",
+          "concept_id": null,
+          "candidate_concept_ids": [],
+          "status": "unresolved"
+        }
+      }
+    }
+  ]
+}

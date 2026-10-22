@@ -1,0 +1,259 @@
+{
+  "manifest_version": 1,
+  "layout_version": "v2-clean-1",
+  "version_id": "kg-v2-repaired-20261022-r1",
+  "label": "完整v2知识图谱当前交付",
+  "packaged_at": "2026-10-22T01:44:42.896112+00:00",
+  "schema_version": "4.0.0-draft",
+  "counts": {
+    "documents": 48,
+    "blocks": 3720,
+    "mentions": 16966,
+    "concepts": 5892,
+    "facts": 5844,
+    "edges": 2902,
+    "optimized_cases": 6
+  },
+  "raw_counts": {
+    "documents": 48,
+    "blocks": 3720,
+    "mentions": 16966,
+    "identities": 3059,
+    "identity_links": 4327,
+    "identity_merges": 0,
+    "external_records": 0,
+    "facts": 5844,
+    "role_assignments": 0,
+    "experiments": 4,
+    "runs": 14,
+    "samples": 7,
+    "entities": 16966,
+    "edges": 2902
+  },
+  "entity_layer_counts": {
+    "concepts": 5892,
+    "document_entities": 8774,
+    "property_occurrences": 5085,
+    "families": 376,
+    "contextual_facts": 5844,
+    "edges": 2902
+  },
+  "human_review": "pending",
+  "review_note": "六条补充记录经主侧AI核对，不代表全库或专家审核完成。",
+  "complete_package": true,
+  "completeness_meaning": "全部当前图谱记录、归一层、补充层、schema/registry与离线运行依赖齐全；不表示覆盖所有文献信息或关系均正确。",
+  "external_runtime_dependencies": [
+    "Python",
+    "jsonschema==4.26.0"
+  ],
+  "backup_runtime_dependencies": false,
+  "credentials_required_for_offline_use": false,
+  "assets": {
+    ".gitattributes": {
+      "sha256": "ca0bc289a248a47f80cb2b98acbdb4fc72b00df65b4052483b67a70de56a3cc3",
+      "bytes": 148
+    },
+    ".gitignore": {
+      "sha256": "6ae54bf732dc22899f6b4a88806cd1d0a4d254dace3bf37e0826ac501f9f837f",
+      "bytes": 140
+    },
+    "AGENTS.md": {
+      "sha256": "61bc4127dcd5e7c8ea888550f4b8ed17c205bbbb9c744d6e88c9a9999bf549fc",
+      "bytes": 935
+    },
+    "construction/extraction.py": {
+      "sha256": "f39cfb74b176ed1267e2fe00197a01fd1100a1a9ff0e4860c09d05b2af3d529d",
+      "bytes": 12188
+    },
+    "construction/extraction_llm.py": {
+      "sha256": "e3ed4e92b7b0aaebb0aea944db7fc2a7e12be220b776aa85b712f8880fbe6931",
+      "bytes": 8183
+    },
+    "construction/merge_validation.py": {
+      "sha256": "7c8734ece6ed92c6ee23183f0f8d37a0c96a99ae9352db4475ebeb164948752d",
+      "bytes": 14211
+    },
+    "construction/README.md": {
+      "sha256": "aaba8db35018e8de09312a2c8e49a3ad0bbe988be97686b50fa4afeddbd99bc1",
+      "bytes": 656
+    },
+    "construction/resolve_entities_llm.py": {
+      "sha256": "cfa64fe1f39538dfedbf65e252fe5345de6e9fbf55e0377c17294ea120e64758",
+      "bytes": 57842
+    },
+    "docs/extraction_repair_queue.json": {
+      "sha256": "ca462b3979d2ff16d002dc0e9e61ad31234ac07b13c90fe96d84eee4af811316",
+      "bytes": 120817
+    },
+    "docs/integration_summary.json": {
+      "sha256": "2eaa9897c1840ada6a781335f375f957df0296fcbd5d9f931578d9e98488b4e9",
+      "bytes": 1030
+    },
+    "docs/quarantine_repair_queue.json": {
+      "sha256": "a080de56329bb9f342f720bc266439e179453c8f5bc2d7e3c680964381016f83",
+      "bytes": 438728
+    },
+    "docs/REPAIR_20261022.md": {
+      "sha256": "c4dfde2402ef8c620eb98e21dd20d1311c66056def104a0209160d5a477bca16",
+      "bytes": 2827
+    },
+    "docs/repair_queue_summary.json": {
+      "sha256": "86a5b7fa20b811f55e209962344ccce0584c7a8e457e2b0d4022afb1d3a25fa4",
+      "bytes": 517
+    },
+    "docs/semantic_pending.json": {
+      "sha256": "d03dd19038d5d453bd0500c84b2b167c7991af8a97f51c37a06562b1b49f30be",
+      "bytes": 113243
+    },
+    "docs/source_corrections.json": {
+      "sha256": "2d7e6bc83bd3dbda24f240e705fb7136701a6ea599d6db3e1fb6605f7efc6369",
+      "bytes": 3472
+    },
+    "docs/source_verification/bd_methods.png": {
+      "sha256": "643dfd324be216444e05d0fae93ff1327d0cf8fdf707a1aad483134c08486e03",
+      "bytes": 355004
+    },
+    "docs/source_verification/dmg_page3.png": {
+      "sha256": "0a1c354f95d7b9e26037f62f720ce14a49ebf2dac165efa0866a3eef2e7a8561",
+      "bytes": 318366
+    },
+    "docs/source_verification/nbt_table2.png": {
+      "sha256": "76d1c7c9374615e8762babe335dc917525065dbcf75f16de914dff89a8e79f96",
+      "bytes": 394978
+    },
+    "docs/source_verification/oligomer_page4.png": {
+      "sha256": "3af706f0df5a563397a7996cb5b2b4f6653f9db1248a626774bbba707df69df0",
+      "bytes": 429893
+    },
+    "docs/source_verification/pvp_page_4.png": {
+      "sha256": "aac221a6e76b388258a8b302a699e3d7e4122928894697f9aea09bd5f82cc772",
+      "bytes": 646343
+    },
+    "docs/使用说明.md": {
+      "sha256": "eb4ec7e59a5ab7e5f33d2c4294b4e45754f5660feed1c2f7601b72d2ad1bad73",
+      "bytes": 2460
+    },
+    "entity_graph.json": {
+      "sha256": "f0d205d85c19822cd1b9ec57a7e9b63e39ab567341336db6f2220b93513fefe8",
+      "bytes": 41527231
+    },
+    "knowledge_graph.json": {
+      "sha256": "ad2988c764d31c1e49ec07cc7f31aada2f041865d4440db2558b6a41f8c3257f",
+      "bytes": 39171635
+    },
+    "README.md": {
+      "sha256": "4e7e27b03bf617da7fd61c570347320c96f9e82fccc99e19a1061abbf90b1eb3",
+      "bytes": 2048
+    },
+    "registry/consumer_contract.json": {
+      "sha256": "38265ef0651328e90b922219d90fc85af8e077e8299bc9a2251cbe6952aad48b",
+      "bytes": 4038
+    },
+    "registry/entity_types.json": {
+      "sha256": "1d9dfeb4a1191a6a0b3aa047b1d52198e827f4630782954b3bb6ad03ed7ae6c3",
+      "bytes": 35390
+    },
+    "registry/identity_rules.json": {
+      "sha256": "a703520ba4ea03a8593acd81ac8c50f0d5f55643b011ce66b0c4da43285471b9",
+      "bytes": 3693
+    },
+    "registry/relations.json": {
+      "sha256": "f3f482bd2fe1f3ba0f78b8b9444283e40ee0c612dd145acecf889c00a9ed5917",
+      "bytes": 14838
+    },
+    "registry/roles.json": {
+      "sha256": "92329d54751b9208fb34ac5ad1b6d419258c982bc9943e754887ed0f556bd925",
+      "bytes": 1984
+    },
+    "registry/source_conflicts.json": {
+      "sha256": "c3e0d9b2ece63ae76736e3a91e97f2db83ddd0644540e5320a79282cb49d55e0",
+      "bytes": 2044
+    },
+    "registry/source_corrections.json": {
+      "sha256": "2d7e6bc83bd3dbda24f240e705fb7136701a6ea599d6db3e1fb6605f7efc6369",
+      "bytes": 3472
+    },
+    "registry/standards_mapping.json": {
+      "sha256": "3b88d6b72a54ab6c33e0adbcd541c867b067133449ba1f03bed777186a516692",
+      "bytes": 2409
+    },
+    "registry/vocab.json": {
+      "sha256": "25e6dfc6e33a89e5753bfbc6374fd196ede845530f7ce71fe4b6d8f183751a38",
+      "bytes": 12654
+    },
+    "relation_context.json": {
+      "sha256": "1150975e685831fffb4378046f5a800712d50c06a877c39e6c2f5353cf2d8052",
+      "bytes": 27261
+    },
+    "requirements.txt": {
+      "sha256": "48ee7d1db1cfddbb445bdff4adca44ee15724e2d52b531d9d5bb7c77e2f1455f",
+      "bytes": 20
+    },
+    "schema/constraints.json": {
+      "sha256": "9f86fc611c08ae4be1771b642de3918824bc2ef2b4ae065a497160c27b7cbc3a",
+      "bytes": 9710
+    },
+    "schema/extraction.schema.json": {
+      "sha256": "520eaefb9a61bdf7f8100d46032a01bf2c58c4987337d228c12cd2295760749a",
+      "bytes": 5848
+    },
+    "schema/records.schema.json": {
+      "sha256": "46e3b1d8832f561344740bfbb17dda9c966dbff12c944d1432778e402ee174dd",
+      "bytes": 34714
+    },
+    "schema/schema.md": {
+      "sha256": "53511298567f2ee307926299dd5074e9a07e23c84978e5764ce8c6648472e7ef",
+      "bytes": 48092
+    },
+    "scripts/answer_context.py": {
+      "sha256": "368972a16fdf9310a08a9187d5758c49cddc8c188821fed625f48b3635751fed",
+      "bytes": 7471
+    },
+    "scripts/condition_values.py": {
+      "sha256": "66652de86bd4d42c43b6059fe112fb6f964a9bbac3f9191ddf884d4778fbe3fd",
+      "bytes": 4679
+    },
+    "scripts/defaults.py": {
+      "sha256": "f59341f4d2b9809f5be91d23a4b492d8746c08b837f9472f863c8d215ee5c91c",
+      "bytes": 948
+    },
+    "scripts/entity_resolution_retrieval.py": {
+      "sha256": "c3050a45cfebca8dde184be5a7de194da0322af0cb9d6ea965986eeb98328399",
+      "bytes": 9563
+    },
+    "scripts/materialize.py": {
+      "sha256": "05e6f1bb934a67c1aff2e39e1cb513466fed5caae2b7d0535724670ff09ef6a9",
+      "bytes": 6877
+    },
+    "scripts/relation_context_retrieval.py": {
+      "sha256": "8c7416d557a4d01585cba202f1b1c5e884272c8d006f0738ea5d97839e77bba8",
+      "bytes": 4938
+    },
+    "scripts/relation_validation.py": {
+      "sha256": "2e0a7fb8a7a28a73ba85e8b781a3f3c331e98fb78a93fdf887fcd40abf39f89c",
+      "bytes": 5318
+    },
+    "scripts/runtime_common.py": {
+      "sha256": "db528d6522993b7d7a992f4317ec20e6fd0fcc707a108d3b44b15f1fd6fd1917",
+      "bytes": 900
+    },
+    "scripts/validate.py": {
+      "sha256": "20a3a1d94200fdede9a73848eab504e004b99c1d2626c0b060a3eec3023a1bf2",
+      "bytes": 27437
+    },
+    "scripts/verify_graph.py": {
+      "sha256": "8d298f7b3afe8056f3f7d6713a50d7b23b23bd4597b463ab417a91d5be38bcf4",
+      "bytes": 4326
+    },
+    "tests/test_pipeline.py": {
+      "sha256": "84377b598c29f6e72a3e1eecf9337f3f2e545f014f9d8fac8a2e8ed93a2774fd",
+      "bytes": 16123
+    },
+    "tests/test_source_guards.py": {
+      "sha256": "3cce477edada347fc6f126e9dd5276fb544aed19238fce2c7232227f8a1a7934",
+      "bytes": 7272
+    }
+  },
+  "parent_version_id": "kg-v2-pilot-20261022-source-repair-r2",
+  "repair_protocol": "source-grounded-repair-20261022"
+}

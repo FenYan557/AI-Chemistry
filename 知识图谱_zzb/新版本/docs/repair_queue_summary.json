@@ -1,0 +1,16 @@
+{
+  "historical_raw_facts_kept_in_quarantine": 1267,
+  "source_refactored_without_unquarantining": 10,
+  "historical_unit_statuses": {
+    "success": 1797,
+    "empty": 1187,
+    "partial": 542,
+    "failed": 188
+  },
+  "partial_failed_units_in_followup_queue": 730,
+  "source_recovered_or_pdf_repaired_units": 5,
+  "semantic_pending_proposals": 212,
+  "semantic_pending_after_parent_repairs": 187,
+  "captionless_visual_blocks_not_bulk_reprocessed": 571,
+  "original_pdf_pages_visually_checked": 5
+}

@@ -1,10 +1,15 @@
 {
   "catalog_version": 1,
-  "current_version_id": "kg-v2-entity-20261021",
-  "manifest": "versions/v2_entity_enhanced/manifest.json",
-  "graph": "versions/v2_entity_enhanced/knowledge_graph.json",
-  "sha256": "1d45e561c6a833ff6ca9bd510f0e0c29b04bbb5102ed002e3196b6125f1797e5",
+  "current_version_id": "kg-v2-repaired-20261022-r1",
+  "manifest": "manifest.json",
+  "graph": "knowledge_graph.json",
+  "sha256": "ad2988c764d31c1e49ec07cc7f31aada2f041865d4440db2558b6a41f8c3257f",
   "baseline_version_id": "kg-v1-direct-20261020",
-  "status": "entities_integrated_relations_pending",
-  "human_review": "pending"
+  "status": "source_grounded_repair_identity_semantics_conditions_recall_retrieval",
+  "human_review": "pending",
+  "entity_resolution": "entity_graph.json",
+  "entity_resolution_sha256": "f0d205d85c19822cd1b9ec57a7e9b63e39ab567341336db6f2220b93513fefe8",
+  "relation_context": "relation_context.json",
+  "relation_context_sha256": "1150975e685831fffb4378046f5a800712d50c06a877c39e6c2f5353cf2d8052",
+  "layout_version": "v2-clean-1"
 }

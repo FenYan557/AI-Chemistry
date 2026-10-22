@@ -1,0 +1,2726 @@
+[
+  {
+    "fact_id": "f:6538ddc3eebe2b31",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may 表示推测；该定义为综述正文的概括性陈述，无研究归属。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:569fad6312cfaf81",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:9fce78c011ff7a6cb555",
+      "quote": "catalytic activity is not often in direct proportion with the increased surface area of smaller NPs"
+    },
+    "review_reason": "not often 为保留性否定（非常规比例），引用标号[68]不构成具名研究归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:569fad6312cfaf81",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:9fce78c011ff7a6cb555",
+      "quote": "is not often in direct proportion with the increased surface area of smaller NPs"
+    },
+    "review_reason": "not often 为保留性否定（非常规比例），引用标号[68]不构成具名研究归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:569fad6312cfaf81",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "not often 为保留性否定（非常规比例），引用标号[68]不构成具名研究归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:412fad02a58c15df",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e790d613570c55a178eb",
+      "quote": "Initial reaction rates did not vary"
+    },
+    "review_reason": "did not vary 为明确否定；该句无具名归属（仅[87]标号），source_scope 保留 unknown。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f08b806d856a94d7",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "吸附能更强的主句为直陈断言；could reduce 从句为附带的下游推测，不污染吸附事实本身；无具名归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:6244415964f2613c",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:cbc58c46c55fb8f6295d",
+      "quote": "this tightly binding could poison the surface of the catalyst to slow down the rate"
+    },
+    "review_reason": "could poison 表推测性可能；无具名归属（块内仅引用标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:6244415964f2613c",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "could poison 表推测性可能；无具名归属（块内仅引用标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5cbf5e68e6df9b28",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1569873879b56ebe66cf",
+      "quote": "could have significantly different distributions of valence electrons"
+    },
+    "review_reason": "外层 has been demonstrated 使其非纯推测，但所证内容内含 could，取 hedged；句中无具名研究（引用标号[116,117]不足），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5cbf5e68e6df9b28",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "外层 has been demonstrated 使其非纯推测，但所证内容内含 could，取 hedged；句中无具名研究（引用标号[116,117]不足），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:52cf71541afcc427",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c19c6b00105a1f26afb4",
+      "quote": "The catalytic activity tends to increase from spherical to tetrahedral shapes of Pt NPs"
+    },
+    "review_reason": "tends to 为保留语气（hedged）；趋势句未具名归属（[74]仅附于前句 Bokhoven et al.），source_scope 保留 unknown。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1c81fdefc49f9327",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:8822c60c4b4ed75202da",
+      "quote": "using magnetic NPs as catalyst support could also enable the effective separation of catalysts"
+    },
+    "review_reason": "could enable 表能力性可能，按推测处理；句中无具名归属（仅[142]标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1c81fdefc49f9327",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "could enable 表能力性可能，按推测处理；句中无具名归属（仅[142]标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1132be655ad4c1af",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:6dea6acdf42f7fae1023",
+      "quote": "This is maybe due to two different effects, first the possible agglomeration of the NPs after the first cycle"
+    },
+    "review_reason": "maybe/possible 表明综述作者的推测语气；团聚现象本身以 has been previously reported 明确指向既往研究，归属 cited_study。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:015640442b7b2aa0",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may 为推测；该解释为综述作者自身提出的第二重原因，无研究归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1836cab04ac5f604",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may 为推测；deactivate 为抑制性效应而非逻辑否定；该 probable explanation 为综述作者解释，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:82c93ff75c85756b",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:3bd8e539fc212546eeab",
+      "quote": "did not require any pre-activation or inert reaction conditions"
+    },
+    "review_reason": "did not require 为明确否定；同块以 our group 明确归属综述作者团队自身已发表工作，故为 this_study。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:82c93ff75c85756b",
+    "field": "source_scope",
+    "reason": "review summary must not become this-study measurement",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:3bd8e539fc212546eeab",
+      "quote": "Recently, our group has reported Pd NPs functionalized onto highly reduced graphene oxide (HRG)"
+    },
+    "review_reason": "did not require 为明确否定；同块以 our group 明确归属综述作者团队自身已发表工作，故为 this_study。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:53c68b339eb1395a",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:9af743f1a2e7dd6574b5",
+      "quote": "the turnover number (TON) values for HRG-Py-Pd were not too much higher than HRG-Pd"
+    },
+    "review_reason": "not too much higher 为带保留的弱否定比较，取 hedged+negated；本块无 our group 字样（在上块），仅凭[153]标号不归属，source_scope 保留 unknown。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:53c68b339eb1395a",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:9af743f1a2e7dd6574b5",
+      "quote": "were not too much higher than HRG-Pd"
+    },
+    "review_reason": "not too much higher 为带保留的弱否定比较，取 hedged+negated；本块无 our group 字样（在上块），仅凭[153]标号不归属，source_scope 保留 unknown。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4abaaae705dfd64b",
+    "field": "modality",
+    "reason": "explicit annotation conflicts with a hedge-bearing fact; needs clause review",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:04d8e766409da9d00be9",
+      "quote": "this material exhibited a reasonable degree of recyclability with a low deactivation of less than 8 %"
+    },
+    "review_reason": "观察主句为直陈（exhibited... recyclability）；possibly due 从句为附带推测不污染主句；同块以 Erami et al. 明确归属该材料工作。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b104358d2b9f6a3f",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "possibly due 为综述作者的推测性机制解释，无研究归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:44eaceac265b3a5c",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:efaa6eca617f2d8d765d",
+      "quote": "the Sekar group synthesized the Pd NPs stabilized with organic corona"
+    },
+    "review_reason": "could be quantitatively recovered 表能力非推测；同块以 the Sekar group 明确归属。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b4d19a1ccb6938a9",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may be due 为推测；该机制解释为综述作者的推断，无具名归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:7cf58933c84fa6a6",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:4610d9d4d6fd86629d6e",
+      "quote": "They concluded that the morphology of the Pt NPs"
+    },
+    "review_reason": "They concluded 回指同块 Narayanan et al.；could be altered 表通过调参可实现的变化能力，非纯推测。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:06b512c635e27c23",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:4610d9d4d6fd86629d6e",
+      "quote": "the Pt NPs are not chemically stable under reaction conditions"
+    },
+    "review_reason": "the authors 回指同块 Narayanan et al.；are not chemically stable 为明确否定。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4e684e99a7afcc86",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:21231d11f49283cf91ef",
+      "quote": "with the oxidative addition step not the rate-determining step of the reaction"
+    },
+    "review_reason": "not the rate-determining step 为明确否定；该句紧接 Estefania et al. 的机制研究描述（These 回指其发现），块内归属明确。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:a6c0573b7d31e631",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may be due 为推测；该解释为综述作者提出的机制推测（[13]仅标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ce689fe134118f23",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "外层 it is precise 使语气接近断言，但所断言内容含 may，取 hedged；句中无具名研究（[205]仅标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:e735f3f9871a25a3",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may delay 为 hedged 的可能效应；delay 非逻辑否定；无具名归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:62638df1702dfa1f",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:3049a761ce1b5d4eb26a",
+      "quote": "Therefore the catalyst could be used for other diverse reactions as a promising candidate in the future"
+    },
+    "review_reason": "could be used ... in the future 为前瞻性的可能用途，按推测处理；该展望句为综述作者的推论而非 Marandi et al. 的实验断言，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:62638df1702dfa1f",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "could be used ... in the future 为前瞻性的可能用途，按推测处理；该展望句为综述作者的推论而非 Marandi et al. 的实验断言，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:823ad80f7eaae9c3",
+    "field": "modality",
+    "reason": "explicit annotation conflicts with a hedge-bearing fact; needs clause review",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:baa6021560b39e6a7467",
+      "quote": "The main reason for the Cu-based graphene’s high performance is the catalyst’s higher specific area, better dispersion, and the presence of hydroxyl group"
+    },
+    "review_reason": "主句 The main reason ... is 为直陈断言；may further increase 从句为附带推测不污染主句；同块以 Shabestari et al. 明确归属。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:0058d1450f92f345",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may follow 为推测；as 引出的浸出观察是依据而非污染；本块无具名归属（[252][253]仅标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:7310f830334a5073",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "may activate 为推测；本句无具名归属（[259]仅标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1d34a38c62daa48c",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:da5279087e265b2dd2aa",
+      "quote": "Pd is not mandatory for catalyst activity"
+    },
+    "review_reason": "The author 回指同块 Corma et al.；not mandatory 为明确否定。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4777af7a2042233d",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "can be stabilized 表能力、may work 表可能，整体取 hedged；句中无具名归属（[261]仅标号），按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:28bd16b54494af56",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:04b8482f7753c802908a",
+      "quote": "the atomically dispersed Au(I) and Au(II) was found catalytically inert"
+    },
+    "review_reason": "Lambert et al. 明确归属；catalytically inert 即对催化无作用，按该事实断言取 negated。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f80531b061c5ada9",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:40e8d48dfad425f8e696",
+      "quote": "is still not been investigated like Pd-based catalyst"
+    },
+    "review_reason": "not been investigated 为明确否定；此为综述作者对领域现状的概括判断，无研究归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f80531b061c5ada9",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "not been investigated 为明确否定；此为综述作者对领域现状的概括判断，无研究归属，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:900caec357062a7a",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c93331d0b3682944e99c",
+      "quote": "Zhang’s group has developed a novel method to produce periodic mesoporous silica (PMO) supported Ni(II) organometallic nanocatalyst"
+    },
+    "review_reason": "exhibited 为直陈；no significant activity loss 描述可循环性佳，主体与断言一致取 asserted；同块以 Zhang's group 明确归属。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d4b3b9150b86a81b",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:08b91b28a1c3af4f4d5b",
+      "quote": "Artificial intelligence technology could be a viable solution to solve grand challenges in organic transformations"
+    },
+    "review_reason": "could be a viable solution 为综述结论部分的前瞻性推测；该展望为综述作者观点，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d4b3b9150b86a81b",
+    "field": "source_scope",
+    "reason": "title does not support requested annotation",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "document_title",
+      "quote": "Transition metal nanoparticles as nanocatalysts for Suzuki, Heck and Sonogashira cross-coupling reactions"
+    },
+    "review_reason": "could be a viable solution 为综述结论部分的前瞻性推测；该展望为综述作者观点，按综述概括处理。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:22ed861743cb2ff9",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:96e76fdeccc623e5283d",
+      "quote": "has been demonstrated to be an indicator"
+    },
+    "review_reason": "has been demonstrated 明确表示该指标由既往工作证明（[17,22,23]），故 cited_study；whether ... or not 为判定语义不构成否定。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:7de9292889f0b9c1",
+    "field": "modality",
+    "reason": "conflicts with prior accepted annotation; preserve existing field",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:8cf63dfab142ec5d3f30",
+      "quote": "the plating solution may be effective for bottom-up filling (BUF) of microvia"
+    },
+    "review_reason": "may be effective 使推测语气明确，区别于 current 的 hedged；该 Δη 判据引自既往工作[17,22,23]，且本研究采用之，归 cited_study。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:7de9292889f0b9c1",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:8cf63dfab142ec5d3f30",
+      "quote": "This value is a good indicator offilling performance [17,22,23]"
+    },
+    "review_reason": "may be effective 使推测语气明确，区别于 current 的 hedged；该 Δη 判据引自既往工作[17,22,23]，且本研究采用之，归 cited_study。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:fb58ad4ebe2251bb",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a16e28fca89cd1c2a528",
+      "quote": "the leveling effect does not result from the leveler itself"
+    },
+    "review_reason": "suggests 为 hedged；does not result from the leveler itself 为针对整平效应独立成因的明确否定；this_study。",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:85cb6843e453af57",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a6c6f1e6f0da20783987",
+      "quote": "implying that there was no significant interaction among DB, chloride ion, and SPS at the low potential."
+    },
+    "review_reason": "Authors' own Fig. 3B observation; 'implying' hedge and explicitly no significant interaction between the stated additives at low potential.",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:85cb6843e453af57",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a6c6f1e6f0da20783987",
+      "quote": "the cathodic potential was not significantly changed after SPS injection"
+    },
+    "review_reason": "Authors' own Fig. 3B observation; 'implying' hedge and explicitly no significant interaction between the stated additives at low potential.",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:131e7a52c9a061d3",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a6c6f1e6f0da20783987",
+      "quote": "copper deposition is not diffusion-controlled in the presence of PEG–Cl–DB."
+    },
+    "review_reason": "Explicit negation of diffusion control, directly shown by the authors' own galvanostatic measurement.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:8e57c5e3a5c31e8d",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a6c6f1e6f0da20783987",
+      "quote": "DB does not enhance the inhibiting effect of PEG–Cl on copper deposition"
+    },
+    "review_reason": "Explicit statement from authors' Fig. 4 that DB does not enhance PEG–Cl inhibition; negation is direct and unhedged.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:32c35bc50c92781a",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f21668f41d90afaf36a0",
+      "quote": "could not give rise to a macro flatness of copper deposit"
+    },
+    "review_reason": "Past ability 'could not' reporting observed inability, from authors' own Figs. 2 and 7; direct negation of macro flatness.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:e0dba62e9699d1f1",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e5e5b8a21c74ef3719e4",
+      "quote": "when the DB concentration was higher than 4 ppm, the etching rate did not vary with the DB concentration."
+    },
+    "review_reason": "Authors' own Fig. 10 observation; explicit no-effect of DB concentration on etching rate above 4 ppm.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ec271c9ba52488ea",
+    "field": "modality",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:24420543d726331e2044",
+      "quote": "the steric hindrance and the type of the nitrogen-containing groups... not only affect its adsorption ratio and strength on the copper interface"
+    },
+    "review_reason": "Explicit statement of what the authors found in their own study; asserted effect on adsorption ratio and strength.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ec271c9ba52488ea",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:24420543d726331e2044",
+      "quote": "In this study, a series of triphenylmethane-based (TPM-based) molecules... have been designed, synthesized, and investigated"
+    },
+    "review_reason": "Explicit statement of what the authors found in their own study; asserted effect on adsorption ratio and strength.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:84a7b68a78481cfc",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1b515283a3118a645b8e",
+      "quote": "the strong inhibition effect of TPM-2 and TPM-4 should be caused by the synergistic effect of I− and the whole structure of the TPM-based counterpart"
+    },
+    "review_reason": "'Should be caused' is a theoretical interpretation/speculation by the authors, not a direct observation; asserted causal claim within the authors' own reasoning.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:e0f2b2692df2f10f",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1b515283a3118a645b8e",
+      "quote": "the strong inhibition effect of TPM-2 and TPM-4 should be caused by the synergistic effect of I− and the whole structure of the TPM-based counterpart"
+    },
+    "review_reason": "Same speculative causal interpretation by the authors concerning TPM-4 and I− synergy; asserted but theoretically derived.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:bbc3fe3fc7fbe2f5",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:437a6b7e8653bd9203d3",
+      "quote": "cyclic voltammetry measurements with various concentrations of TPM-based levelers... have been carried out"
+    },
+    "review_reason": "Explicit observation from authors' own CV measurements; asserted changes in current density upon TPM-1 addition.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1befedc2b2270f67",
+    "reason": "Participants and relation appear inverted; the quote states ZPS does not change copper's nucleation/growth process, but agent/affected_property roles seem swapped, making unique assignment unclear.",
+    "proposal": {
+      "fact_id": "f:1befedc2b2270f67",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "Participants and relation appear inverted; the quote states ZPS does not change copper's nucleation/growth process, but agent/affected_property roles seem swapped, making unique assignment unclear."
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:4409d78de5529346",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:fc697ab5a6e4222a284c",
+      "quote": "indicating that possible interaction could be formed between ZPS and Cu ^2 +"
+    },
+    "review_reason": "'Possible interaction could be formed' is a speculative interpretation based on the authors' own computational data; asserted possibility, not certainty.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:caaa3f98a590b96a",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:0cdf1ac657fc4095c74c",
+      "quote": "R _CT (220) rises from 41.0% to 44.5% with ZPS concentration rising from 0 mg/L to 40 mg/L"
+    },
+    "review_reason": "Current modality already correctly hedged ('suggesting'); asserted beneficial effect on Cu (220) growth from authors' own XRD data.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4563e2c09542ecde",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f0f6bb784dafd3d68a52",
+      "quote": "it was not able to measure the concentration of 1,3‑disulfonic acid (PDS)"
+    },
+    "review_reason": "Explicit limitation stated by the authors regarding their own measurement; inability to measure PDS concentration due to peak overlap.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f381ec4d0c0ce6c2",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e48669efa6f86cc7c156",
+      "quote": "did not show the complex formation"
+    },
+    "review_reason": "Explicit experimental observation from the authors' own work; direct negation of complex formation without Cu foil.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:dfd24bce39cdcbc0",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:cbdfb1835dc2909ad404",
+      "quote": "the Q/Q_0 value was not changed signi fi cantly with the leveler of L increased (more than 1 ppm)"
+    },
+    "review_reason": "Explicit observation from the authors' own Fig. 8b analysis; no significant change in Q/Q0 with L concentration increase above 1 ppm.",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:fb8d1d0a71e204c7",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:070ef9af272a74124a14",
+      "quote": "there is no signi<sup>fi</sup>cant convection dependent adsorption effect between SPS and L"
+    },
+    "review_reason": "Explicit statement from the authors' own Fig. 10 analysis; direct negation of significant convection-dependent adsorption effect between SPS and L.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d33d57ea963ce449",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:070ef9af272a74124a14",
+      "quote": "there is no significant synergic inhibition effect between L and PEP."
+    },
+    "review_reason": "Explicit conclusion from the authors' own analysis; no significant synergic inhibition effect between L and PEP.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:fcbebc13f5494c73",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:aea469dabed58ea1f908",
+      "quote": "the Δη value had no obvi ous change after L and SPS were subsequently added into the bath"
+    },
+    "review_reason": "Explicit observation from the authors' own Fig. 10d; no obvious change in Δη after L and SPS addition.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:a9c379916f0b2fd6",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:3f62b1cf0cbafb8e5238",
+      "quote": "SPS has no obvious bottom-up accelerated effect of deposited copper when the homogeneous concentration distribution of additive on the outside and the bottom of the microvia is caused without stirring"
+    },
+    "review_reason": "Explicit conclusion from the authors' own Fig. 13d analysis; no obvious bottom-up accelerated effect of SPS on deposited copper under specified condition.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:0012f40ac3b4e02b",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:edc5bdc0e3504f3b3e0a",
+      "quote": "without SPS in forced convection"
+    },
+    "review_reason": "观察图注，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5733b9fa5bee1644",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:edc5bdc0e3504f3b3e0a",
+      "quote": "without SPS"
+    },
+    "review_reason": "归因子句，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5e8211a7f4079a22",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:edc5bdc0e3504f3b3e0a",
+      "quote": "is not uniform"
+    },
+    "review_reason": "断言不均匀，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:964675d04dd19683",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ae99bfb69e49fc3b5e84",
+      "quote": "more likely to occur"
+    },
+    "review_reason": "测量结果，无加速剂条件，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:964675d04dd19683",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ae99bfb69e49fc3b5e84",
+      "quote": "no accelerator in the copper plating solution"
+    },
+    "review_reason": "测量结果，无加速剂条件，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:8017595eecf720bc",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ae99bfb69e49fc3b5e84",
+      "quote": "could be considered as an instantaneous mechanism"
+    },
+    "review_reason": "测试表明但用could，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:6ebc7c5eed37d91c",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f796dba80f00c53730c0",
+      "quote": "did not further diminish"
+    },
+    "review_reason": "峰未随浓度进一步减小，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:324f659270ae3f8b",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c19f158755c79e152bfb",
+      "quote": "there was no tendency to fill the holes from the bottom up"
+    },
+    "review_reason": "本研究AMT实验观察",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:eed588b8a34088c2",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c19f158755c79e152bfb",
+      "quote": "did not show any delamination, hole wall sep aration or fracture"
+    },
+    "review_reason": "本研究可靠性测试",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:18cfcac7ac78e23c",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:d1ecf362dd592fcc5a4b",
+      "quote": "excessive MMT is actually not conducive to the levelling of the coating"
+    },
+    "review_reason": "表明不利于，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:3bf0bfcb1f8930f3",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ce9566b59abad063c877",
+      "quote": "there was no obvious characteristic peak of MMT on the electrode surface"
+    },
+    "review_reason": "无特征峰，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:947eb81cac0568ab",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:28d2e2477261dda43f1e",
+      "quote": "the interaction between oxygen atom not alkynyl group in BD and cobalt"
+    },
+    "review_reason": "否定炔基，本研究DFT",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:7d1c58574fda60dc",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:2ff7333502d7b0c82d77",
+      "quote": "it means that the electron transfer is not obvious, indicating that the interaction is physical adsorption"
+    },
+    "review_reason": "判据句含推测，本研究DFT",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:2c52da9de56b3529",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f251c9a558f0a4095ab2",
+      "quote": "BD may have little effect on the electroreduction reaction"
+    },
+    "review_reason": "热力学影响很小，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:be63cd2a4decb260",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:099f6d41e34f8cbd09bb",
+      "quote": "it does not change the nucleation mechanism of cobalt"
+    },
+    "review_reason": "结果证明否定，本研究",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:5fe245136784f01e",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:cfc826465546648621a1",
+      "quote": "the introduction of BD is not included in the coating"
+    },
+    "review_reason": "结果证明未含BD，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:976294f3ab27f16a",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:da4d35a1f6f124a114c4",
+      "quote": "PD does not polarize the crystallization of copper ions as significantly as PDS"
+    },
+    "review_reason": "比较否定，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:85956b4795f90f1a",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:da4d35a1f6f124a114c4",
+      "quote": "Once the concentration of PDS reaches 50 mg/L, further increases in the additive do not significantly enhance the polarizing effect"
+    },
+    "review_reason": "进一步增加无显著增强，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:2d85297418ec4ee6",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:fc163f92e8a4349e260e",
+      "quote": "Continuing to add PD to the solution also results in a decrease in potential, but the extent of the decrease is not significant"
+    },
+    "review_reason": "继续添加降势不显著，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d95d42cad8fcdb37",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:9cfe64ffaa5d828f2ab8",
+      "quote": "Based on differential charge density calculations, PDS introduces new interaction sites without disrupting the adsorption of PEG, resulting in weaker competition with PEG"
+    },
+    "review_reason": "基于计算表明，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:fcf3d7fa93a5f93a",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1efb5e400d2e3b3ad1f7",
+      "quote": "The differential charge density calculations reveal that the PD molecule does not significantly affect the distribution of differential charge density on the Cu (111) surface"
+    },
+    "review_reason": "计算揭示无显著影响，本研究",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:fcf3d7fa93a5f93a",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1efb5e400d2e3b3ad1f7",
+      "quote": "does not significantly affect the distribution of differential charge density on the Cu (111) surface"
+    },
+    "review_reason": "计算揭示无显著影响，本研究",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:5754d6f02edeeaa9",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:6076127fd28670988f60",
+      "quote": "no suppressions or brighteners (such as PEG and SPS) were added to the electrolyte"
+    },
+    "review_reason": "未加抑制剂/光亮剂，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:8f0a2e447f389230",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:252d6c26165e2398c982",
+      "quote": "when no additives are used, the surface crystals of the copper plating are the coarsest"
+    },
+    "review_reason": "无添加剂时观察，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:39d73e9ef56cb36d",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:fd751ce60bbca69a3fb9",
+      "quote": "When no leveling agent is added, the average copper layer thickness on both sides of the through-hole is 12.25 µm, resulting in a through hole plating TP value of only 56.61 %"
+    },
+    "review_reason": "未加整平剂测量，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:935c08d163f389a4",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:af92b05a113479346478",
+      "quote": "Subsequent increases in the concentration of PDS do not result in significant changes in grain size, indicating that PDS acts to refine the grain structure"
+    },
+    "review_reason": "XRD表明，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:aa2905c01022f387",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:2fa0c5be72c7eb31e686",
+      "quote": "Compared to samples without a leveling agent, the inclusion of a leveling agent significantly smooths the surface of the copper layer, markedly reducing roughness"
+    },
+    "review_reason": "比较无整平剂，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:aa2905c01022f387",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:2fa0c5be72c7eb31e686",
+      "quote": "Compared to samples without a leveling agent"
+    },
+    "review_reason": "比较无整平剂，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d31f07742bc320b5",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:37cf295393fe9599f3dd",
+      "quote": "no additive,44.566,22.283,(111),1.52128,5.1665"
+    },
+    "review_reason": "无添加剂样品数据，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:aeb8227ef0d90be8",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:bcfe599b7ed8de4db44c",
+      "quote": "suggesting that the interaction between SDS and ALS did not achieve significance in the model"
+    },
+    "review_reason": "方差分析不显著，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:6bc30b803b0ca459",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:5928033dc5be447c1f67",
+      "quote": "suggesting that the polarization of PUB2 does not markedly increase with its concentration"
+    },
+    "review_reason": "不显著增加极化，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:16fe40d7675ff2b2",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:4771959084a64e8be2c4",
+      "quote": "Without PUB2, the results indicate that the copper deposition rate on the wafer surface is higher than the through-hole filling rate without additives"
+    },
+    "review_reason": "无PUB2条件，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ecd23b2fdeefab81",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:6ff494b2f776e2a6b582",
+      "quote": "the height diference between the high and low planes of the same type of wire is smaller without the addition of PUB2"
+    },
+    "review_reason": "无PUB2时更小，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:9720a6c692d9021d",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e74c4b3df1acc9de13b1",
+      "quote": "the anode peak current density could reach 1 5.8 \\A/dm2 in the absence of Cl^-"
+    },
+    "review_reason": "could为测量能力，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:a0e2254ebaa321a5",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e74c4b3df1acc9de13b1",
+      "quote": "The change in peak current density is no longer significant when the Cl − concentration reaches 40 mg/L"
+    },
+    "review_reason": "Cl达40mg/L后峰值电流密度不再显著变化",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5df09643805cf832",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1531b608221757a82102",
+      "quote": "no significant interaction is observed between CMHT and SPS"
+    },
+    "review_reason": "CMHT与SPS无显著相互作用",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:a708d491926fc118",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e24c614e4e88881c9a57",
+      "quote": "conventional pillar electrodeposition has not been widely implemented for cobalt yet"
+    },
+    "review_reason": "尚未被广泛实施",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ee54dda767c1b234",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:3c632fff2a86a6931bef",
+      "quote": "the cobalt deposition rate on the outside of the hole could be relatively inhibited by PVP"
+    },
+    "review_reason": "could be relatively inhibited保留推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:cc80e8e085a89c06",
+    "reason": "PEG无affected无法定位",
+    "proposal": {
+      "fact_id": "f:cc80e8e085a89c06",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "PEG无affected无法定位"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:56abd5219152182b",
+    "reason": "SPS无affected无法定位",
+    "proposal": {
+      "fact_id": "f:56abd5219152182b",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "SPS无affected无法定位"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:582253167a2324d7",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:8deff3176aa977f36af9",
+      "quote": "the filling eficiency did not increase"
+    },
+    "review_reason": "填充效率未提升",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:361e7cfc68c74644",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a5fff5e52df00c704dab",
+      "quote": "It is proposed that synthesizing quaternary ammonium salts"
+    },
+    "review_reason": "It is proposed推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:7ad2c1331af91828",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:2cbf7b39ba524c6072fb",
+      "quote": "does not linearly enhance its inhibitory capacity"
+    },
+    "review_reason": "不呈线性增强",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:3cd274e8c2443911",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f100a117376fca65bcdc",
+      "quote": "did not significantly reduce surface layer thickness or increase through-hole thickness"
+    },
+    "review_reason": "0.5ppm后厚度无显著变化",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f5398c47761ccc15",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:3ba9862a273ee6203052",
+      "quote": "the reduction of metal Co does not occur at this stage"
+    },
+    "review_reason": "suggests解释；does not occur否定",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:15d14577c8c8bfca",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:63e98bc4dccbd519c91d",
+      "quote": "The addition of EP inhibitors did not alter the crystal structure of cobalt"
+    },
+    "review_reason": "未改变晶体结构",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:2d6acd1f876d9468",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:821dbbf9ad4d14824a20",
+      "quote": "Literatures [34, 35] frequently mention Janus Green B (JGB) as an efective leveling agent"
+    },
+    "review_reason": "Literatures前人研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:2fd03c5fc822cd1d",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:08dec290294386c659a3",
+      "quote": "the pyridine ring in its molecular structure is not adsorbed on the copper surface (111)"
+    },
+    "review_reason": "pyridine ring未吸附",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:197f6e0c4a28cce3",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:80f48487cb12347cf6a1",
+      "quote": "indicating that the VMS does not have overfill capacity"
+    },
+    "review_reason": "VMS无过填能力",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:86a1f874064d14f3",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:97523bbb61b0945bd31c",
+      "quote": "there was no stable synergistic inhibition between C2 and Cl-"
+    },
+    "review_reason": "C2与Cl-无稳定协同抑制",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b75c0d46da2410d2",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:97523bbb61b0945bd31c",
+      "quote": "The addition of SPS does not result in depolarization"
+    },
+    "review_reason": "Observation negates SPS depolarization alone; authors' own conclusion from Fig. 13(b).",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:51ca278866756f69",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:4f4406115220ac9fc939",
+      "quote": "the suitability of NBT for blind-microvia superfilling has not been reported"
+    },
+    "review_reason": "Authors explicitly negate prior reports; framed as this study's own research gap.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:8b53827f11fcc601",
+    "field": "source_scope",
+    "reason": "document not established as review",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:6ef6b6de60e41ad04a3e",
+      "quote": "Additionally, ethylene—propylene copolymer (EPE) has been explored"
+    },
+    "review_reason": "Hedged limitation statement in introduction, not this study's experiment.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:a8858abdcd1634ab",
+    "field": "source_scope",
+    "reason": "document not established as review",
+    "proposal_value": "review_summary",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:6ef6b6de60e41ad04a3e",
+      "quote": "some non—ionic surfactants like Triton X—series have been investigated"
+    },
+    "review_reason": "Hedged general statement about a surfactant class in introduction.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:9481d07205488d60",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:0eeab934db936700260a",
+      "quote": "Comparing the time intervals of 500–1000 s in Fig. 6(b)"
+    },
+    "review_reason": "Observation from this study's electrochemical tests.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:897836c63ed10563",
+    "field": "modality",
+    "reason": "explicit annotation conflicts with a hedge-bearing fact; needs clause review",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:0eeab934db936700260a",
+      "quote": "HPTT diminishes the inhibitory efect of TW"
+    },
+    "review_reason": "Author interpretation of own experimental data.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4434983986c84384",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:fb46f270d5d5a5394288",
+      "quote": "The data from Table 4 indicates"
+    },
+    "review_reason": "Author interpretation of own computational data.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:495f78c719f8e6a6",
+    "field": "modality",
+    "reason": "explicit annotation conflicts with a hedge-bearing fact; needs clause review",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a0342fce8e7b7fffe83a",
+      "quote": "a significant synergistic inhibitory efect was observed between TW and Cl-"
+    },
+    "review_reason": "Observation from this study's electrochemical measurements.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:cb241348f983bd96",
+    "field": "modality",
+    "reason": "explicit annotation conflicts with a hedge-bearing fact; needs clause review",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:d59f5647de04a638eef2",
+      "quote": "this hypothesis implies a large amount of JGB consumption and low current efficiency of copper deposition"
+    },
+    "review_reason": "Authors negate the early JGB hypothesis as inconsistent with reality.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:cb241348f983bd96",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:d59f5647de04a638eef2",
+      "quote": "which is not consistent with the actual situation"
+    },
+    "review_reason": "Authors negate the early JGB hypothesis as inconsistent with reality.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:510b87182d380322",
+    "reason": "Source text is garbled OCR with overlapping clauses; cannot uniquely resolve attribution.",
+    "proposal": {
+      "fact_id": "f:510b87182d380322",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "Source text is garbled OCR with overlapping clauses; cannot uniquely resolve attribution."
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:e76cac88b3baa465",
+    "field": "polarity",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "asserted",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:df4d2dc820c896254455",
+      "quote": "the injection of PIEP results in mist appearance because its surface morphology is corrugated"
+    },
+    "review_reason": "Tentative explanation ('probably caused') of observed morphology.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5dc61ddeabab0719",
+    "field": "modality",
+    "reason": "explicit annotation conflicts with a hedge-bearing fact; needs clause review",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:3c3d16e495a89135c4c7",
+      "quote": "the chemical adsorption of oligomers on copper surfaces"
+    },
+    "review_reason": "Statement of chemical adsorption in this study's XPS discussion.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:82e9411ebb6ce8cf",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:46e0fa07949d89eba316",
+      "quote": "does not lead to any sensible reaction"
+    },
+    "review_reason": "Explicit negation of reaction in this study's beaker experiments.",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:07ef21e03a99ba11",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f6b336ff94f9a4c63ee3",
+      "quote": "IPIET does not exhibit similar plating behavior"
+    },
+    "review_reason": "Explicit negation based on this study's electrochemical tests.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:07ef21e03a99ba11",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f6b336ff94f9a4c63ee3",
+      "quote": "Combined with our elec trochemical test and electroplating results"
+    },
+    "review_reason": "Explicit negation based on this study's electrochemical tests.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b247882c9532bc2a",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:65bd982a417f0c14f7d4",
+      "quote": "the difference in current density was not significant"
+    },
+    "review_reason": "No significant effect on current density when varying MBI concentration.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:26f267aac919a3b6",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e55589942b9dcd70e6e0",
+      "quote": "wafer electroplating does not require PEG"
+    },
+    "review_reason": "Explicit negation based on this study's findings.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:69cabac151d93d18",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:efa6aaee47fc620e56ee",
+      "quote": "there is no transfer and acceleration capability"
+    },
+    "review_reason": "Conditional negation in review article about functional group requirements.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b473fea2672c52f1",
+    "field": "modality",
+    "reason": "explicit annotation conflicts with a hedge-bearing fact; needs clause review",
+    "proposal_value": "explicit",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f20e0d79caa86a865fe7",
+      "quote": "Compounds with the lowest surface tension suggest the most potent inhibitory efect on copper electrodeposition"
+    },
+    "review_reason": "General correlation statement in review article.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:156060625518fc37",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ae3939718ff1f3aaec0e",
+      "quote": "the addition of SPS did not show a significant accelerating efect"
+    },
+    "review_reason": "No significant accelerating effect; attributed to prior studies cited in review.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:156060625518fc37",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ae3939718ff1f3aaec0e",
+      "quote": "Numerous studies indicate the presence of significant interactions between inhibitors and accelerators"
+    },
+    "review_reason": "No significant accelerating effect; attributed to prior studies cited in review.",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:c8045c1572cd031a",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1ea27e802f37f6915788",
+      "quote": "Dow et al. 38 proposed that"
+    },
+    "review_reason": "Dow等提出，转引",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:598e9898017ff83c",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:7eaf4e6fc7677947c063",
+      "quote": "little influence on solution conductivity"
+    },
+    "review_reason": "本研究EIS结果，无显著影响",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:0b76e02f4ee91f56",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:129010cea96f85c1a017",
+      "quote": "S atoms are not directly adsorbed on the copper substrate"
+    },
+    "review_reason": "本研究计算，明确未吸附",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:82ba9d91d40b90c7",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:29ebaff44b63d17687cc",
+      "quote": "no decomposition occurs for AB1 during electroplating"
+    },
+    "review_reason": "本研究CV，无分解",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:0e8d7c83b7bed05e",
+    "field": "polarity",
+    "reason": "Parent source review requires relation/scope repair before negative annotation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:34c34eae99fc9abd8622",
+      "quote": "The addition of 10 ppm DMG did not change the CV behavior"
+    },
+    "review_reason": "本研究CV，10ppm无影响",
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:1d80f0df5ddc1212",
+    "reason": "抽取主客体错位",
+    "proposal": {
+      "fact_id": "f:1d80f0df5ddc1212",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "抽取主客体错位"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:527fff34183fae33",
+    "reason": "否定针对抑制电流回扫",
+    "proposal": {
+      "fact_id": "f:527fff34183fae33",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "否定针对抑制电流回扫"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:36f9f1ff28ed8192",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:d0738fb891d9257e4c5b",
+      "quote": "the increased side reaction is believed to be a result"
+    },
+    "review_reason": "is believed to be",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4ea4f62020b1e0ac",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:b9b58a9636b8b48fdaf9",
+      "quote": "even if Co(II) were complexed in the solution"
+    },
+    "review_reason": "反事实否定该机理",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4ea4f62020b1e0ac",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:b9b58a9636b8b48fdaf9",
+      "quote": "would not explain the potential dependent suppression effect"
+    },
+    "review_reason": "反事实否定该机理",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:2013713cb4eadff1",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:dbe16a7b6d206208252f",
+      "quote": "Literatures suggested the reduction of Co(DMG) 2 complex"
+    },
+    "review_reason": "may推测，引文献39-41",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:3f4eaa229a59471b",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:061d4f1935eab8c274a9",
+      "quote": "A strong suppression effect was re-established"
+    },
+    "review_reason": "本研究QCM，suggesting",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:990a64ddebae3f5a",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ec0625ec500bf10759cd",
+      "quote": "the depletion of Co is not believed to occur"
+    },
+    "review_reason": "is not believed to occur",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:990a64ddebae3f5a",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ec0625ec500bf10759cd",
+      "quote": "the depletion of Co is not believed to occur"
+    },
+    "review_reason": "is not believed to occur",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f8e0ea243799c97c",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:77ce15c61972500a93e3",
+      "quote": "could be related to the surface roughness of the electrode"
+    },
+    "review_reason": "could be related表推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:c1e217a65dafcb94",
+    "reason": "多晶面效应方向不一",
+    "proposal": {
+      "fact_id": "f:c1e217a65dafcb94",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "多晶面效应方向不一"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:a446628e7b6b8565",
+    "reason": "主客体抽取颠倒",
+    "proposal": {
+      "fact_id": "f:a446628e7b6b8565",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "主客体抽取颠倒"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:6c2b4a764816e6d9",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c825862e5b902bee9e80",
+      "quote": "ultimately obtaining a smooth copper layer"
+    },
+    "review_reason": "转引Ning等研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b415082a5ccda573",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:cedd7fe94717b5f51ae3",
+      "quote": "According to the CDA model"
+    },
+    "review_reason": "CDA模型解释，could not",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b415082a5ccda573",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:cedd7fe94717b5f51ae3",
+      "quote": "the accelerator molecules could not accumulate in the centre of through-holes"
+    },
+    "review_reason": "CDA模型解释，could not",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1f6f2ff0aa2ae7ba",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:865186e53451c3c89d75",
+      "quote": "could enhance the filling performance of both through-holes and blind holes"
+    },
+    "review_reason": "could表可能结果",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:cd206403332adb13",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a28c861c2a6658ad2548",
+      "quote": "the ‘bridge’ in the through-hole had not yet occurred"
+    },
+    "review_reason": "本研究观察，尚未形成",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:2418d09949ca5e5f",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a11e13ab2f973adefde8",
+      "quote": "could not be achieved through continuous strong convection alone"
+    },
+    "review_reason": "本研究结论，明确否定",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:71f49040551b2f1a",
+    "reason": "外壁与底部效应相反",
+    "proposal": {
+      "fact_id": "f:71f49040551b2f1a",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "外壁与底部效应相反"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:b792d20afafaa12b",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:31381baf90a8fb1075bf",
+      "quote": "Theoretically, using cobalt as interconnect metal"
+    },
+    "review_reason": "Theoretically表理论推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:695e51723732e594",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:45565b415800d1fb208a",
+      "quote": "the mechanism H_3 BO _3 in the electroplating bath is not yet clear"
+    },
+    "review_reason": "综述称机制尚不明确",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f4d3fe7cb1dbd3fc",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:40a317a1619fae0b4457",
+      "quote": "it is often believed that"
+    },
+    "review_reason": "is often believed表保留",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:0e3512e47b63524f",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:b75ed35a407e75b3c994",
+      "quote": "pH has an efect on the nucleation of micron-scale cobalt, but has no efect"
+    },
+    "review_reason": "综述中转引文献72",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:6934e32334e5b4c9",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:b75ed35a407e75b3c994",
+      "quote": "has no efect on the nucleation of nanoscale cobalt. 72"
+    },
+    "review_reason": "引文72，明确无影响",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:6934e32334e5b4c9",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:b75ed35a407e75b3c994",
+      "quote": "has no efect on the nucleation of nanoscale cobalt. 72"
+    },
+    "review_reason": "引文72，明确无影响",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:774cf317cdc5b775",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:4619649468b8eac7404a",
+      "quote": "Superconformal cobalt fill does not follow the conventional damascene process"
+    },
+    "review_reason": "does not follow否定，本研究引言",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:fe7cd19f3a70b1a9",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:24a4a25217af57a95119",
+      "quote": "It is possible that local pH shifts could alter"
+    },
+    "review_reason": "It is possible that为推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:8610fa7c30d724d6",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ecdf8b63c9a7b0ecc692",
+      "quote": "the absorption of MG makes no cobalt deposit in the feature"
+    },
+    "review_reason": "no cobalt deposit为无效应，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:14c41a73cfc410cd",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:f7176fce48c871026237",
+      "quote": "In the absence of MG images (Fig. S10)"
+    },
+    "review_reason": "probably为推测，本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:b203420e16d7780c",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:cb04a9c1861df17fb34c",
+      "quote": "The STEM-HAADF image of the unalloyed Co line (Fig. 7c) exhibits a 'clean, smooth' contour, suggesting a relatively low defect density"
+    },
+    "review_reason": "本研究STEM观察",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:743631da47903d8d",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1a5dc1e7bf605ea073a8",
+      "quote": "indicating that 0.06 at.% of W could be beyond the detection limit"
+    },
+    "review_reason": "could be为推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5fb6628fe118b981",
+    "field": "source_scope",
+    "reason": "semantic evidence not literal in same document",
+    "proposal_value": "this_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ad95eaecd32ecd04277b",
+      "quote": "The cobalt layer is full of large and coarse grains (mean grain size of about 416 nm) without NBT"
+    },
+    "review_reason": "本研究SEM观察",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5576ce2cc9afa206",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "no_effect",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c07b47858356f758c703",
+      "quote": "negligible Co deposition at hypophosphite concentration of 0.1 M or less"
+    },
+    "review_reason": "negligible为无效应，Brenner外引",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:de656ee320af9fdb",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:bcd7bf0ba153e720681d",
+      "quote": "They also conclusively observed the tendency of decreasing grain size with increasing amount ofP"
+    },
+    "review_reason": "They回指Schlesinger外引",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:93eca3d2031151fc",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:09d79fb340178efb3903",
+      "quote": "Because of this Co can directly be reduced on the otherwise non-catalytic Cu surface without any pre-activation [50]"
+    },
+    "review_reason": "原文[50]为外引",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:607f91b0213aeb14",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:08b06a690d8febd57368",
+      "quote": "Ethylenediamine reportedly can be used as complexing agent in conjunction with trace amount of diethylenetriamine or triethylenetetramine to deposit Co-B from DMAB bath without any prior need of Pd activation [60]"
+    },
+    "review_reason": "原文reportedly且[60]为外引",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:9ffaf3ed2aa01abe",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:08b06a690d8febd57368",
+      "quote": "Diethylenetriamene also enable the bath to accommodate higher DMAB concentration without premature decomposition [58, 60]"
+    },
+    "review_reason": "原文[58,60]为外引",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:3fae6141679171d3",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:018b894df3b93cc74ddd",
+      "quote": "NaOH reportedly demonstrated maximum accelerating effect"
+    },
+    "review_reason": "reportedly转述且归引文",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d7344aeff458dfd2",
+    "reason": "主体为研究者非作用剂",
+    "proposal": {
+      "fact_id": "f:d7344aeff458dfd2",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "主体为研究者非作用剂"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:d4fecdc26766bd89",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:90a954b8f07f4a2cefb7",
+      "quote": "Chow et al. [44] reportedly observed decreasing P"
+    },
+    "review_reason": "reportedly观察且引文",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:cd9c346ee8dbd6fd",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:8f1816e6ed170cbb3b87",
+      "quote": "do not show any decrease in deposition rate with aging"
+    },
+    "review_reason": "断言无下降",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:36c013cb01074e8f",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:a7830532d7d3ac3161c6",
+      "quote": "this conductivity is not as low as that achieved with electroless silver"
+    },
+    "review_reason": "not as low as否定比较",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ae67b21afe3187ad",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:b90d97e02d9c69ea0421",
+      "quote": "electroless cobalt could play a significant role in future generations"
+    },
+    "review_reason": "could表示推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:70c570c0d9500144",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:94f15a18873a3f686529",
+      "quote": "the cobalt layer is not so compact"
+    },
+    "review_reason": "not so compact否定；本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1b833ee817905014",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c2e8bc8942fdb07de125",
+      "quote": "The S-shaped negative differential resistance [33,34] has been extensively applied"
+    },
+    "review_reason": "suggests推测；模型引文",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:4bf953655eabf620",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:14633c7e1f9a39ae1fe5",
+      "quote": "no negative shift was observed in the presence of BDE"
+    },
+    "review_reason": "未观察到负移否定；本研究",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:1919b1a9322362bd",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:63ac93908c9dcd65b984",
+      "quote": "BTA could not effectively reduce the pitting caused by H_2O_2"
+    },
+    "review_reason": "could not否定；引文",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:debb1476bc1f161d",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:63ac93908c9dcd65b984",
+      "quote": "BTA is no longer applicable to Co CMP"
+    },
+    "review_reason": "不再适用否定；引文",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:12cece5dca433525",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:6d3389fff9b9d321933b",
+      "quote": "have not been reported"
+    },
+    "review_reason": "尚未报道否定断言",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ef02d79aa7f4c264",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:6d3389fff9b9d321933b",
+      "quote": "have not been reported"
+    },
+    "review_reason": "尚未报道否定断言",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d6af17e3f5ceb5cd",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:486f7d750fdd41b4c00f",
+      "quote": "the adsorption process of NA on the cobalt surface could be considered as physical adsorption"
+    },
+    "review_reason": "判定为物理吸附属推测",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:3412e4d5468f681c",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:b06087189e38e5317762",
+      "quote": "with no new binding energy material"
+    },
+    "review_reason": "断言无新结合能物相",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:703f703ecd5606d8",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "speculative",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:ed86f1e4a692aa34a75f",
+      "quote": "the coordination bonds could be established through electron transfer of N6 atom"
+    },
+    "review_reason": "could推测；本研究DFT",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:7be9802508770ac1",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:5e8a69a94cdc61adec63",
+      "quote": "not an appropriate candidate for industrial application"
+    },
+    "review_reason": "含not否定断言",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:f8f9d2debacac168",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:c42562f888e7f150c34c",
+      "quote": "could result in the stronger electrostatic adsorption"
+    },
+    "review_reason": "含could表保留",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:31329bcf3ebe07c0",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:63cae0fc1fc4dde90c89",
+      "quote": "did not considerably change"
+    },
+    "review_reason": "含did not否定变化",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:709d037056181156",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:4d2134d4ac0bc72b771d",
+      "quote": "could become slow due to the decrease of pH value"
+    },
+    "review_reason": "含could表保留",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:ad24cb2a86a490d3",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:00dbfbadc46c6015f11e",
+      "quote": "is not H ^+ dependent"
+    },
+    "review_reason": "含not表否定断言",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:e5174b0734868e23",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:1bb001a63d0b4b729c3d",
+      "quote": "in the literature [27,28]"
+    },
+    "review_reason": "文献观点含suggests",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:835efa4fac7867df",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:404d9c733f595fae0758",
+      "quote": "is not due to the structural destruction of MBIS"
+    },
+    "review_reason": "含not表否定断言",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:5b73fd0855e06a20",
+    "reason": "目标字符乱码无法判定",
+    "proposal": {
+      "fact_id": "f:5b73fd0855e06a20",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "目标字符乱码无法判定"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:ca359a2c5d6bc2de",
+    "field": "modality",
+    "reason": "hedge cue is ambiguous (potential/could/can alone insufficient)",
+    "proposal_value": "hedged",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:cbba0ac88511873630ca",
+      "quote": "could be qualitatively unraveled by assuming"
+    },
+    "review_reason": "含assuming表保留",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:d85f11a650b058d9",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:e42f758afbc7c574c82f",
+      "quote": "Van Quy Dinh [33] used"
+    },
+    "review_reason": "Van Quy Dinh归属引用",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:115f40d720bd9af7",
+    "field": "source_scope",
+    "reason": "citation number/ordinary reported wording alone insufficient",
+    "proposal_value": "cited_study",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:fd0303f389eaccffb89e",
+      "quote": "Rigsby et al. 39 found"
+    },
+    "review_reason": "Rigsby归属引用",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:25757110bccead88",
+    "field": "polarity",
+    "reason": "local condition/negative direction insufficient for fact negation",
+    "proposal_value": "negated",
+    "evidence": {
+      "kind": "block",
+      "block_id": "blk:74f063fb898b39a72b0a",
+      "quote": "fails to enhance the inhibitory efect of the surfactants"
+    },
+    "review_reason": "含fails表否定",
+    "parent_disposition": "retain unknown; no reliable field update"
+  },
+  {
+    "fact_id": "f:a25cf44b464f0428",
+    "reason": "图注无断言内容",
+    "proposal": {
+      "fact_id": "f:a25cf44b464f0428",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "图注无断言内容"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  },
+  {
+    "fact_id": "f:ecc600f18fefa2f3",
+    "reason": "图注无断言内容",
+    "proposal": {
+      "fact_id": "f:ecc600f18fefa2f3",
+      "decision": "uncertain",
+      "updates": {},
+      "evidence": {},
+      "reason": "图注无断言内容"
+    },
+    "parent_disposition": "source/PDF repair applied; see change logs"
+  }
+]
