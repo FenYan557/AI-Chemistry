@@ -1,0 +1,164 @@
+[
+  {
+    "span": "AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0003",
+    "link_status": "matched",
+    "pubchem_cid": 86580391,
+    "alt_cids": [21706],
+    "reason": "文中明确 AP4A 是 alkyne-PEG4-amine 的缩写，其对应 CID 86580391；候选 21706 为同缩写冲突（Diadenosine tetraphosphate），弃用",
+    "review_note": "CID 来自全称 span 的检索结果，经别名对照确认"
+  },
+  {
+    "span": "alkyne-PEG4-amine",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0003",
+    "link_status": "matched",
+    "pubchem_cid": 86580391,
+    "alt_cids": [],
+    "reason": "候选 86580391 同义词 3,6,9,12-tetraoxapentadec-14-yn-1-amine 即 propargyl-PEG4-amine，与本文抑制剂一致",
+    "review_note": ""
+  },
+  {
+    "span": "cobalt",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0009",
+    "link_status": "matched",
+    "pubchem_cid": 104730,
+    "alt_cids": [],
+    "reason": "语境为互连金属材料钴单质，候选 104730 即元素钴",
+    "review_note": ""
+  },
+  {
+    "span": "copper",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0008",
+    "link_status": "matched",
+    "pubchem_cid": 23978,
+    "alt_cids": [],
+    "reason": "语境为传统铜互连材料，候选 23978 即元素铜",
+    "review_note": ""
+  },
+  {
+    "span": "cobalt sulfate heptahydrate",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "link_status": "matched",
+    "pubchem_cid": 61444,
+    "alt_cids": [],
+    "reason": "镀液主盐，候选 61444 即 Cobalt(II) sulfate heptahydrate，水合数一致",
+    "review_note": ""
+  },
+  {
+    "span": "boric acid",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "link_status": "matched",
+    "pubchem_cid": 7628,
+    "alt_cids": [],
+    "reason": "镀液组分硼酸，候选 7628 唯一对应",
+    "review_note": ""
+  },
+  {
+    "span": "sulfuric acid",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "link_status": "matched",
+    "pubchem_cid": 1118,
+    "alt_cids": [],
+    "reason": "pH 调节剂硫酸，候选 1118 唯一对应；原文括号内 H _ 2 SO _ 4 ^ - 为解析噪声",
+    "review_note": ""
+  },
+  {
+    "span": "purified water",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "link_status": "matched",
+    "pubchem_cid": 962,
+    "alt_cids": [],
+    "reason": "溶剂纯水，链接到水 CID 962",
+    "review_note": ""
+  },
+  {
+    "span": "platinum",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020",
+    "link_status": "matched",
+    "pubchem_cid": 23939,
+    "alt_cids": [],
+    "reason": "工作/对电极材料铂，候选 23939 即元素铂",
+    "review_note": ""
+  },
+  {
+    "span": "Hg",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020",
+    "link_status": "matched",
+    "pubchem_cid": 23931,
+    "alt_cids": [],
+    "reason": "Hg/Hg2SO4 参比电极中的汞，候选 23931 即元素汞",
+    "review_note": ""
+  },
+  {
+    "span": "Hg _2 SO _4",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020",
+    "link_status": "matched",
+    "pubchem_cid": 24545,
+    "alt_cids": [],
+    "reason": "span 经公式清洗（Hg2SO4）后命中候选 24545 Mercurous sulfate，与 Hg/Hg2SO4 参比电极语境一致",
+    "review_note": "原始 span 含 MinerU 下标噪声，已由查询前清洗规则处理"
+  },
+  {
+    "span": "silicon",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0023",
+    "link_status": "matched",
+    "pubchem_cid": 5461123,
+    "alt_cids": [],
+    "reason": "阴极基底硅片，候选 5461123 即元素硅",
+    "review_note": ""
+  },
+  {
+    "span": "N",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0051",
+    "link_status": "matched",
+    "pubchem_cid": 947,
+    "alt_cids": [],
+    "reason": "TOF-SIMS 测得的镀层氮元素杂质（来自 AP4A），PubChem 以 947 为氮元素条目",
+    "review_note": "语境为原子态杂质而非 N2 分子"
+  },
+  {
+    "span": "cobalt ions",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0058",
+    "link_status": "matched",
+    "pubchem_cid": 104729,
+    "alt_cids": [],
+    "reason": "电沉积还原对象钴离子，候选 104729 即 Cobalt(2+)",
+    "review_note": ""
+  },
+  {
+    "span": "AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#table1",
+    "link_status": "matched",
+    "pubchem_cid": 86580391,
+    "alt_cids": [21706],
+    "reason": "同正文 AP4A，表格列名'Concentration of AP4A (ppm)'佐证其为电化学测试中的添加剂",
+    "review_note": ""
+  },
+  {
+    "span": "AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig1",
+    "link_status": "ambiguous",
+    "pubchem_cid": null,
+    "alt_cids": [86580391, 21706],
+    "reason": "图注仅给出名称，按规则图注来源不强行 matched；但可与正文 AP4A 对照",
+    "review_note": "图注来源，保守标 ambiguous"
+  },
+  {
+    "span": "AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig3",
+    "link_status": "ambiguous",
+    "pubchem_cid": null,
+    "alt_cids": [86580391, 21706],
+    "reason": "图注来源，保守处理",
+    "review_note": "图注来源，保守标 ambiguous"
+  },
+  {
+    "span": "AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig4",
+    "link_status": "ambiguous",
+    "pubchem_cid": null,
+    "alt_cids": [86580391, 21706],
+    "reason": "图注来源，保守处理",
+    "review_note": "图注来源，保守标 ambiguous"
+  }
+]

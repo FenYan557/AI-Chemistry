@@ -1,0 +1,182 @@
+[
+  {
+    "span": "AP4A",
+    "span_form": "abbreviation",
+    "context": "In this work, alkyne-PEG4-amine (AP4A) was used as an inhibitor to achieve nanometer scale superfilling of cobalt electrodeposition.",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0003",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "alkyne-PEG4-amine",
+    "span_form": "full_name",
+    "context": "In this work, alkyne-PEG4-amine (AP4A) was used as an inhibitor to achieve nanometer scale superfilling of cobalt electrodeposition.",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0003",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "cobalt",
+    "span_form": "full_name",
+    "context": "In contrast, cobalt interconnects possess better properties, such as very short electronic mean free path, relatively low price, and good compatibility in silicon-based electronic chips.",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0009",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "copper",
+    "span_form": "full_name",
+    "context": "the limitations of traditional copper interconnection have become increasingly apparent",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0008",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "cobalt sulfate heptahydrate",
+    "span_form": "full_name",
+    "context": "The cobalt electroplating solution was composed of cobalt sulfate heptahydrate ( CoSO _ 4). 7H _ 2 O) and boric acid ( H _ 3 BO _ 3)",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "boric acid",
+    "span_form": "full_name",
+    "context": "The cobalt electroplating solution was composed of cobalt sulfate heptahydrate ( CoSO _ 4). 7H _ 2 O) and boric acid ( H _ 3 BO _ 3)",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "sulfuric acid",
+    "span_form": "full_name",
+    "context": "with the pH of the electroplating solution adjusted to 3.0 by using sulfuric acid ( H _ 2 SO _ 4 ^ -)",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "purified water",
+    "span_form": "full_name",
+    "context": "The concentrated solution of AP4A was made by dissolving an appropriate amount of reagent in purified water.",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0019",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "platinum",
+    "span_form": "full_name",
+    "context": "The configuration includes a platinum rotating disk electrode with a diameter of 5 mm (Pt-RDE, WE), a platinum plate electrodes (CE)",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "Hg",
+    "span_form": "formula",
+    "context": "a saturated Hg/ Hg _2 SO _4 reference electrode (RE)",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "Hg _2 SO _4",
+    "span_form": "formula",
+    "context": "a saturated Hg/ Hg _2 SO _4 reference electrode (RE)",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0020",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": true
+  },
+  {
+    "span": "silicon",
+    "span_form": "full_name",
+    "context": "Silicon wafers, measuring 1.5 cm by 1.5 cm, were prepared as cathodes",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0023",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "N",
+    "span_form": "formula",
+    "context": "It is obvious that the content of some organic impurity elements (especially N) are increased, while the N element only originates from the additive AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0051",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": true
+  },
+  {
+    "span": "cobalt ions",
+    "span_form": "full_name",
+    "context": "the molecules have a higher concentration at the top of the hole, leading to a more significant inhibitory efect and slowing down the rate of reduction of the cobalt ions",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#0058",
+    "source_type": "text",
+    "table_id": "",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "AP4A",
+    "span_form": "abbreviation",
+    "context": "在表'Electrochemical Parameters'中，AP4A（浓度 0–300 ppm，测试：cyclic voltammetry (CV)，转速 500 rpm）",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#table1",
+    "source_type": "table",
+    "table_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充__p2_0",
+    "figure_id": "",
+    "uncertain": false
+  },
+  {
+    "span": "AP4A",
+    "span_form": "abbreviation",
+    "context": "Quantum chemistry calculation results of AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig1",
+    "source_type": "figure_caption",
+    "table_id": "",
+    "figure_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig1",
+    "uncertain": false
+  },
+  {
+    "span": "AP4A",
+    "span_form": "abbreviation",
+    "context": "SEM images of cobalt film surfaces (a) without AP4A, (b) with 2 ppm AP4A, (c) with 5 ppm AP4A, and (d) with 10 ppm AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig3",
+    "source_type": "figure_caption",
+    "table_id": "",
+    "figure_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig3",
+    "uncertain": false
+  },
+  {
+    "span": "AP4A",
+    "span_form": "abbreviation",
+    "context": "Cross-sectional FIB-SEM views of cobalt superfilling (a) before and (b) after electrodeposition with 5ppm AP4A",
+    "unit_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig4",
+    "source_type": "figure_caption",
+    "table_id": "",
+    "figure_id": "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充#fig4",
+    "uncertain": false
+  }
+]

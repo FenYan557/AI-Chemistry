@@ -1,0 +1,297 @@
+{
+  "docs": 48,
+  "text": 4741,
+  "table": 98,
+  "figure_caption": 429,
+  "total_chars": 2446362,
+  "per_doc": {
+    "1_s2_0_S0010854522005239_main": {
+      "text": 282,
+      "table": 0,
+      "figure_caption": 52,
+      "chars": 155195
+    },
+    "1_s2_0_S0013468609007385_main": {
+      "text": 72,
+      "table": 1,
+      "figure_caption": 4,
+      "chars": 38144
+    },
+    "1_s2_0_S0013468621017357_main": {
+      "text": 93,
+      "table": 1,
+      "figure_caption": 6,
+      "chars": 49019
+    },
+    "1_s2_0_S0013468626014507_main": {
+      "text": 113,
+      "table": 1,
+      "figure_caption": 3,
+      "chars": 56437
+    },
+    "1_s2_0_S0257897223003018_main": {
+      "text": 106,
+      "table": 5,
+      "figure_caption": 13,
+      "chars": 56159
+    },
+    "1_s2_0_S0927775723007902_main": {
+      "text": 66,
+      "table": 5,
+      "figure_caption": 6,
+      "chars": 36313
+    },
+    "1_s2_0_S1572665718302236_main": {
+      "text": 56,
+      "table": 2,
+      "figure_caption": 0,
+      "chars": 26897
+    },
+    "1_s2_0_S1572665722004489_main": {
+      "text": 90,
+      "table": 0,
+      "figure_caption": 4,
+      "chars": 42743
+    },
+    "1_s2_0_S1572665724000766_main": {
+      "text": 143,
+      "table": 0,
+      "figure_caption": 13,
+      "chars": 77175
+    },
+    "1_s2_0_S2352492825007378_main": {
+      "text": 74,
+      "table": 3,
+      "figure_caption": 9,
+      "chars": 37835
+    },
+    "1_在PD结构中引入二氧化硫对通孔镀铜的影响": {
+      "text": 87,
+      "table": 2,
+      "figure_caption": 7,
+      "chars": 42598
+    },
+    "2023_Shen_Study_on_the_Effects_of_Additives_on_the_Performan": {
+      "text": 102,
+      "table": 12,
+      "figure_caption": 4,
+      "chars": 58410
+    },
+    "2024_Guo_Influence_of_PUB2_on_the_Leveling_Effect_of_Chip_Co": {
+      "text": 65,
+      "table": 1,
+      "figure_caption": 4,
+      "chars": 33183
+    },
+    "2_采用1_4_羧基苯基_5_巯基_1H_四氮唑添加剂的表面铜微导通孔填充电镀工艺评估": {
+      "text": 88,
+      "table": 2,
+      "figure_caption": 14,
+      "chars": 49405
+    },
+    "3_巯基_1_丙磺酸盐与聚乙烯吡咯烷酮对电沉积钴生长的影响": {
+      "text": 66,
+      "table": 0,
+      "figure_caption": 7,
+      "chars": 35269
+    },
+    "3_异靛蓝季铵盐的合成及其在电镀铜中的应用": {
+      "text": 89,
+      "table": 4,
+      "figure_caption": 8,
+      "chars": 49926
+    },
+    "4_喹吖啶酮衍生物的合成及其作为高性能电镀整平剂的应用": {
+      "text": 81,
+      "table": 3,
+      "figure_caption": 10,
+      "chars": 40221
+    },
+    "5_炔基嘧啶作为钴超填充抑制剂的研究": {
+      "text": 116,
+      "table": 3,
+      "figure_caption": 12,
+      "chars": 60098
+    },
+    "5_聚_1_4_丁二醇二缩水甘油醚_2_甲基咪唑与咪唑_作为盲孔镀铜整平剂的研究": {
+      "text": 100,
+      "table": 2,
+      "figure_caption": 11,
+      "chars": 53205
+    },
+    "6_香豆素衍生物的合成及其作为印刷电路板通孔电镀铜整平剂的应用与优化整平剂整平机理研究": {
+      "text": 88,
+      "table": 3,
+      "figure_caption": 20,
+      "chars": 48551
+    },
+    "7_micromachines_16_00721": {
+      "text": 114,
+      "table": 2,
+      "figure_caption": 9,
+      "chars": 62557
+    },
+    "8_s12678_025_00960_8": {
+      "text": 95,
+      "table": 4,
+      "figure_caption": 7,
+      "chars": 48350
+    },
+    "9molecules_28_02783": {
+      "text": 117,
+      "table": 1,
+      "figure_caption": 7,
+      "chars": 60355
+    },
+    "DMG_丁二酮肟_": {
+      "text": 86,
+      "table": 0,
+      "figure_caption": 1,
+      "chars": 43022
+    },
+    "Mechanism_of_convection_dependence_of_leveller_and_its_effec": {
+      "text": 60,
+      "table": 0,
+      "figure_caption": 3,
+      "chars": 26236
+    },
+    "Simultaneously_filling_process_and_mechanism_of_through_hole": {
+      "text": 77,
+      "table": 2,
+      "figure_caption": 6,
+      "chars": 37808
+    },
+    "_电化学会志_含析氢反应抑制添加剂的超共形钴电沉积": {
+      "text": 71,
+      "table": 0,
+      "figure_caption": 3,
+      "chars": 34459
+    },
+    "ao3c05248": {
+      "text": 68,
+      "table": 3,
+      "figure_caption": 13,
+      "chars": 36282
+    },
+    "ao4c01707": {
+      "text": 141,
+      "table": 2,
+      "figure_caption": 10,
+      "chars": 72464
+    },
+    "d4nj05470a": {
+      "text": 76,
+      "table": 2,
+      "figure_caption": 6,
+      "chars": 38328
+    },
+    "la6c01870": {
+      "text": 158,
+      "table": 2,
+      "figure_caption": 4,
+      "chars": 80689
+    },
+    "两种共轭结构抑制剂对盲孔内钴填充过程及作用机制研究_马晓川": {
+      "text": 250,
+      "table": 8,
+      "figure_caption": 46,
+      "chars": 114868
+    },
+    "先进芯片制造中的钴电镀互连技术综述": {
+      "text": 110,
+      "table": 1,
+      "figure_caption": 25,
+      "chars": 60353
+    },
+    "六亚基四甲四胺": {
+      "text": 144,
+      "table": 2,
+      "figure_caption": 10,
+      "chars": 74538
+    },
+    "利用数据库_机械学习筛选可靠添加剂": {
+      "text": 86,
+      "table": 0,
+      "figure_caption": 7,
+      "chars": 44770
+    },
+    "利用牺牲氧化剂实现钴的超共形填充": {
+      "text": 61,
+      "table": 0,
+      "figure_caption": 2,
+      "chars": 29762
+    },
+    "孔雀石绿诱导_扩散_吸附作用下的钴超共形电沉积过程": {
+      "text": 83,
+      "table": 0,
+      "figure_caption": 4,
+      "chars": 43045
+    },
+    "微量钨含量对化学沉积钴互连薄膜性能及电迁移行为的影响": {
+      "text": 137,
+      "table": 2,
+      "figure_caption": 3,
+      "chars": 67993
+    },
+    "新型抑制剂氯化硝基四氮唑蓝对Co超共形生长的研究": {
+      "text": 78,
+      "table": 3,
+      "figure_caption": 8,
+      "chars": 39470
+    },
+    "无电镀钴综述": {
+      "text": 129,
+      "table": 3,
+      "figure_caption": 7,
+      "chars": 68410
+    },
+    "氯化硝基四氮唑蓝在促进钴超共形填充中的抑制_加速效应": {
+      "text": 66,
+      "table": 2,
+      "figure_caption": 5,
+      "chars": 33341
+    },
+    "炔烃_聚乙二醇_4_胺抑制剂助力钴超填充": {
+      "text": 62,
+      "table": 2,
+      "figure_caption": 4,
+      "chars": 29090
+    },
+    "炔醇衍生物辅助钴在微米级沟槽中的超共形电沉积": {
+      "text": 106,
+      "table": 2,
+      "figure_caption": 7,
+      "chars": 56720
+    },
+    "烟酸作为碱性钴化学机械抛光_CMP_新型缓蚀剂的实验与分子模拟研究": {
+      "text": 95,
+      "table": 3,
+      "figure_caption": 3,
+      "chars": 47414
+    },
+    "糖精对镀钴层结构_导电能力的改变": {
+      "text": 71,
+      "table": 1,
+      "figure_caption": 7,
+      "chars": 35103
+    },
+    "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究": {
+      "text": 58,
+      "table": 0,
+      "figure_caption": 4,
+      "chars": 29478
+    },
+    "腺苷作为具有协同加速_抑制作用的整平剂用于X型通孔中超共形钴填充的研究": {
+      "text": 98,
+      "table": 1,
+      "figure_caption": 9,
+      "chars": 49830
+    },
+    "解码添加剂界面结构性能": {
+      "text": 67,
+      "table": 0,
+      "figure_caption": 2,
+      "chars": 34844
+    }
+  }
+}

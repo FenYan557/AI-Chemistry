@@ -1,0 +1,9 @@
+{
+  "docs": 2,
+  "chemicals": 43,
+  "by_status": {
+    "matched": 36,
+    "unmatched_new": 7
+  },
+  "pending_docs": []
+}

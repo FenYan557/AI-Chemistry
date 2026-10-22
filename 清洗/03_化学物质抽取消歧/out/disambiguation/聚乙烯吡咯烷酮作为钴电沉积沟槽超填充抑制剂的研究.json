@@ -1,0 +1,281 @@
+ [
+   {
+     "span": "Polyvinylpyrrolidone",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [],
+     "reason": "全名在 PubChem name/synonyms 检索均无候选",
+     "review_note": "新判例：聚合物通用名（PVP/Povidone 类）PubChem 名称检索常空手，属预期 unmatched_new"
+   },
+   {
+     "span": "PVP",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [6917],
+     "reason": "唯一候选 6917 是单体 N-Vinyl-2-pyrrolidone（CAS 88-12-0），文中 PVP 为平均分子量 54000 的聚合物，二者非同一实体，弃用",
+     "review_note": "新判例：聚合物缩写检索命中其单体，禁止硬匹配"
+   },
+   {
+     "span": "cobalt",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002",
+     "link_status": "matched",
+     "pubchem_cid": 104730,
+     "alt_cids": [],
+     "reason": "被电沉积的金属钴单质，候选 104730 即元素钴",
+     "review_note": ""
+   },
+   {
+     "span": "chloride ion",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0002",
+     "link_status": "matched",
+     "pubchem_cid": 312,
+     "alt_cids": [],
+     "reason": "促进 PVP 抑制作用的氯离子，候选 312 即 Chloride(1-)",
+     "review_note": "正文另有 Cl 后带上标噪声字符的写法，未单独成 span"
+   },
+   {
+     "span": "copper",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0006",
+     "link_status": "matched",
+     "pubchem_cid": 23978,
+     "alt_cids": [],
+     "reason": "与钴对比的传统互连金属铜，候选 23978 即元素铜",
+     "review_note": ""
+   },
+   {
+     "span": "silicon",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0007",
+     "link_status": "matched",
+     "pubchem_cid": 5461123,
+     "alt_cids": [],
+     "reason": "热膨胀系数参照物及沟槽基底硅，候选 5461123 即元素硅",
+     "review_note": ""
+   },
+   {
+     "span": "aluminum",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0008",
+     "link_status": "matched",
+     "pubchem_cid": 5359268,
+     "alt_cids": [],
+     "reason": "互连金属对比对象铝，候选 5359268 即元素铝",
+     "review_note": ""
+   },
+   {
+     "span": "dimethylglyoxime",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0013",
+     "link_status": "matched",
+     "pubchem_cid": 135459645,
+     "alt_cids": [],
+     "reason": "文献报道的钴电沉积抑制剂丁二酮肟，候选 135459645 即 Dimethylglyoxime（CAS 95-45-4）",
+     "review_note": ""
+   },
+   {
+     "span": "DMG",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0013",
+     "link_status": "matched",
+     "pubchem_cid": 135459645,
+     "alt_cids": [673],
+     "reason": "文中 dimethylglyoxime (DMG) 给出别名对照，按全称链 135459645；缩写撞车候选 673 为 N,N-dimethylglycine，弃用",
+     "review_note": "沿用试点判例1：缩写撞车用全称 CID"
+   },
+   {
+     "span": "cobalt ion",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0013",
+     "link_status": "matched",
+     "pubchem_cid": 104729,
+     "alt_cids": [],
+     "reason": "与 DMG/PVP 配位的钴离子，候选 104729 即 Cobalt(2+)",
+     "review_note": ""
+   },
+   {
+     "span": "CoSO _4·7H_2 0",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [],
+     "reason": "清洗后查询词 CoSO4·7H20 无候选；末尾 0 是数字零而非字母 O，MinerU 公式噪声导致写法残缺",
+     "review_note": "语境为镀液主盐七水硫酸钴，同篇另有 CoSO _4·7H_2 O 写法，建议人工补链"
+   },
+   {
+     "span": "H_3 BO _3",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018",
+     "link_status": "matched",
+     "pubchem_cid": 7628,
+     "alt_cids": [],
+     "reason": "span 经公式清洗为 H3BO3 后命中唯一候选 7628（硼酸），与镀液缓冲组分一致",
+     "review_note": "同篇 H_3BO_3 写法视为同一 span 变体，未重复记录"
+   },
+   {
+     "span": "CoCl _2·6H_20",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [],
+     "reason": "清洗后查询词 CoCl2·6H20 无候选；同样是水合数里字母 O 被识别成数字 0",
+     "review_note": "语境为镀液六水氯化钴，建议人工补链"
+   },
+   {
+     "span": "platinum",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018",
+     "link_status": "matched",
+     "pubchem_cid": 23939,
+     "alt_cids": [],
+     "reason": "旋转圆盘工作电极材料铂，候选 23939 即元素铂",
+     "review_note": ""
+   },
+   {
+     "span": "Pt",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018",
+     "link_status": "matched",
+     "pubchem_cid": 23939,
+     "alt_cids": [],
+     "reason": "Pt rod 对电极，候选 23939 即元素铂，与同篇 platinum 同一实体",
+     "review_note": ""
+   },
+   {
+     "span": "Hg",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018",
+     "link_status": "matched",
+     "pubchem_cid": 23931,
+     "alt_cids": [],
+     "reason": "Hg/Hg2SO4 参比电极中的汞，候选 23931 即元素汞",
+     "review_note": ""
+   },
+   {
+     "span": "Hg _2 SO _4",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0018",
+     "link_status": "matched",
+     "pubchem_cid": 24545,
+     "alt_cids": [],
+     "reason": "清洗为 Hg2SO4 后命中唯一候选 24545（Mercurous sulfate），与参比电极语境一致",
+     "review_note": "原始 span 含 MinerU 下标噪声，由查询前清洗规则处理"
+   },
+   {
+     "span": "RuO _2",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0020",
+     "link_status": "matched",
+     "pubchem_cid": 82848,
+     "alt_cids": [],
+     "reason": "清洗为 RuO2 后命中唯一候选 82848（二氧化钌），DSA 阳极涂层材料",
+     "review_note": ""
+   },
+   {
+     "span": "titanium",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0020",
+     "link_status": "matched",
+     "pubchem_cid": 23963,
+     "alt_cids": [],
+     "reason": "尺寸稳定阳极基体钛，候选 23963 即元素钛",
+     "review_note": ""
+   },
+   {
+     "span": "K30",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0020",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [24832038],
+     "reason": "PVP 的牌号（分子量等级 K30，Mw 约 54000），不是独立化合物；候选 24832038 仅有同名词条 K30，与语境无关，弃用",
+     "review_note": "新判例：聚合物牌号不在 SPEC_CODE 正则内（K30），按规格代号判 unmatched_new 并指向同篇 PVP"
+   },
+   {
+     "span": "Au",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0022",
+     "link_status": "matched",
+     "pubchem_cid": 23985,
+     "alt_cids": [],
+     "reason": "溅射导电种子层金，候选 23985 即元素金",
+     "review_note": ""
+   },
+   {
+     "span": "Si",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0022",
+     "link_status": "matched",
+     "pubchem_cid": 5461123,
+     "alt_cids": [],
+     "reason": "Si wafer 沟槽基底，候选 5461123 即元素硅，与同篇 silicon 同一实体",
+     "review_note": ""
+   },
+   {
+     "span": "cobalt cations",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0035",
+     "link_status": "matched",
+     "pubchem_cid": 104729,
+     "alt_cids": [],
+     "reason": "cobalt cations 与同篇 cobalt ion 指同一实体，借用其检索结果 104729（Cobalt(2+)）",
+     "review_note": "CID 来自同文献同义写法的检索结果，未臆造"
+   },
+   {
+     "span": "PVP-CO ^2 + complexes",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0035",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [],
+     "reason": "文中自造的 PVP-Co2+ 络合物写法，无 PubChem 候选",
+     "review_note": "络合物化学计量未给出，属潜在新实体"
+   },
+   {
+     "span": "PEG",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0040",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [174],
+     "reason": "唯一候选 174 是单体乙二醇，文中 PEG 指与 PVP 做量子化学对比的聚乙二醇，不是同一实体，弃用",
+     "review_note": "同 PVP 判例：聚合物缩写命中单体"
+   },
+   {
+     "span": "nitrogen",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0038",
+     "link_status": "matched",
+     "pubchem_cid": 947,
+     "alt_cids": [],
+     "reason": "指 PVP 酰胺基中的氮元素（HOMO 主要贡献者），链元素条目 947",
+     "review_note": "沿用试点判例4：元素语境链元素条目"
+   },
+   {
+     "span": "oxygen",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0038",
+     "link_status": "matched",
+     "pubchem_cid": 977,
+     "alt_cids": [],
+     "reason": "指酰胺基中的氧元素，链元素条目 977",
+     "review_note": "沿用试点判例4：元素语境链元素条目"
+   },
+   {
+     "span": "gold",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0048",
+     "link_status": "matched",
+     "pubchem_cid": 23985,
+     "alt_cids": [],
+     "reason": "沟槽内溅射的金种子层，候选 23985 即元素金",
+     "review_note": "与同篇 Au 同一实体"
+   },
+   {
+     "span": "hydrogen",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#0054",
+     "link_status": "matched",
+     "pubchem_cid": 783,
+     "alt_cids": [],
+     "reason": "润湿性好有利于氢气及时逸出，语境为析出的分子氢，候选 783",
+     "review_note": ""
+   },
+   {
+     "span": "PVP",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#fig1",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [6917],
+     "reason": "图注来源，语境薄弱；且唯一候选为单体，按规则不强行 matched",
+     "review_note": "图注来源，保守处理"
+   },
+   {
+     "span": "PVP",
+     "unit_id": "聚乙烯吡咯烷酮作为钴电沉积沟槽超填充抑制剂的研究#fig4",
+     "link_status": "unmatched_new",
+     "pubchem_cid": null,
+     "alt_cids": [6917],
+     "reason": "图注来源（PVP 浓度对比图），处理同正文 PVP",
+     "review_note": "图注来源，保守处理"
+   }
+ ]

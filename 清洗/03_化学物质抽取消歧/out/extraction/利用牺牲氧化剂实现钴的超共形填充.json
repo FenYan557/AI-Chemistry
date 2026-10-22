@@ -1,0 +1,262 @@
+[
+ {
+  "span": "cobalt",
+  "span_form": "full_name",
+  "context": "An alternative mechanism for superconformal cobalt fill is proposed here.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0002",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "H +",
+  "span_form": "formula",
+  "context": "In the DCEF mechanism, the presence of a sacrificial oxidant, such as H +, O 2, or an organic additive, promotes a difference in metal deposition rate between the field and the feature bottom.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0003",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "O 2",
+  "span_form": "formula",
+  "context": "In the DCEF mechanism, the presence of a sacrificial oxidant, such as H +, O 2, or an organic additive, promotes a difference in metal deposition rate between the field and the feature bottom.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0003",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "copper",
+  "span_form": "full_name",
+  "context": "To address these copper damascene extendibility issues, alternative metals, such as cobalt, are being actively explored for fill in smaller line dimensions (1-2).",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0007",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Mercury sulfate",
+  "span_form": "full_name",
+  "context": "Mercury sulfate (sat. K_2 SO _4) reference electrode (MSE) from Koslow Scientific was used as the reference, and all potentials are reported with respect to MSE.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0015",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "K_2 SO _4",
+  "span_form": "formula",
+  "context": "Mercury sulfate (sat. K_2 SO _4) reference electrode (MSE) from Koslow Scientific was used as the reference.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0015",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "cobalt sheet",
+  "span_form": "full_name",
+  "context": "The anode was 1.27 mm thick cobalt sheet with 9.9995% purity from ESPI Metals.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0015",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "platinum",
+  "span_form": "full_name",
+  "context": "For some electrochemical studies, a platinum rotating disk electrode (RDE) was used as the cathode.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0015",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "gold",
+  "span_form": "full_name",
+  "context": "For electrochemical quartz crystal microbalance (EQCM) studies, a Maxtek Research QCM was used with a 5MHz gold sensing electrode.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0015",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "CoSO _4·7H_2O",
+  "span_form": "formula",
+  "context": "The cobalt plating solution consisted of CoSO _4·7H_2O (30-60 mM), H_3 BO _3 (0.2- 0.6 M), and H_2 SO _4 for pH adjustment.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0016",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "H_3 BO _3",
+  "span_form": "formula",
+  "context": "The cobalt plating solution consisted of CoSO _4·7H_2O (30-60 mM), H_3 BO _3 (0.2- 0.6 M), and H_2 SO _4 for pH adjustment.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0016",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "H_2 SO _4",
+  "span_form": "formula",
+  "context": "The cobalt plating solution consisted of CoSO _4·7H_2O (30-60 mM), H_3 BO _3 (0.2- 0.6 M), and H_2 SO _4 for pH adjustment.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0016",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Suppressor A",
+  "span_form": "code",
+  "context": "In some experiments, a propriety additive, Suppressor A, was added to the cobalt makeup solution.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0016",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": true
+ },
+ {
+  "span": "Pt",
+  "span_form": "formula",
+  "context": "For both the Pt RDE and the Au EQCM electrode, a layer of Co was pre-plated onto the cathode in additive-free solution at high current density.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0016",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Au",
+  "span_form": "formula",
+  "context": "For both the Pt RDE and the Au EQCM electrode, a layer of Co was pre-plated onto the cathode in additive-free solution at high current density.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0016",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Co",
+  "span_form": "formula",
+  "context": "For both the Pt RDE and the Au EQCM electrode, a layer of Co was pre-plated onto the cathode in additive-free solution at high current density.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0016",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "TiN",
+  "span_form": "formula",
+  "context": "Fill tests were done on coupons cut from cobalt-seeded wafers. The typical stack was Co / TiN / SiO _2.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0018",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "SiO _2",
+  "span_form": "formula",
+  "context": "Fill tests were done on coupons cut from cobalt-seeded wafers. The typical stack was Co / TiN / SiO _2.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0018",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "hydrogen evolution reaction",
+  "span_form": "full_name",
+  "context": "The electrochemical data gives information about the suppression strength of the additives, but is complicated by the competing hydrogen evolution reaction and possible effects of pH on additive behavior.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0021",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": true
+ },
+ {
+  "span": "cobalt hydroxide",
+  "span_form": "full_name",
+  "context": "Under these test conditions, the cobalt deposition reaction must proceed as consecutive 1-electron transfer steps through a cobalt hydroxide intermediate (10).",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0035",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "hydroxide ion",
+  "span_form": "full_name",
+  "context": "Altering the pH then leads to modification of the deposition rate due to the changing hydroxide ion concentration.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0035",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "H ^+",
+  "span_form": "formula",
+  "context": "At slow scan rate, pH 2.5 and pH 4.0 exhibit a similar shift in potential that is due to the pH shift that comes from the mass-transport limited depletion of H ^+ near the electrode surface.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0039",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "CoOH",
+  "span_form": "formula",
+  "context": "The plating surface will likely have adsorbed H ^d., adsorbed additive, and adsorbed CoOH + /CoOH evenly distributed between the field and the feature.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0044",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": true
+ },
+ {
+  "span": "O _2",
+  "span_form": "formula",
+  "context": "The sacrificial oxidant may be, for example, H ^+, O _2,, or an organic additive and functions to lower the cobalt deposition current efficiency.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0064",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "CoOH ^+",
+  "span_form": "formula",
+  "context": "it has been shown that shifts to higher pH via H ^+ consumption and lower mass transport lead to faster cobalt deposition rates through the thermodynamics of a CoOH ^+ reaction intermediate.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#0065",
+  "source_type": "text",
+  "table_id": "",
+  "figure_id": "",
+  "uncertain": false
+ },
+ {
+  "span": "Suppressor A",
+  "span_form": "code",
+  "context": "图注：Figure 1. Bottom-up progression of cobalt fill of cobalt-seeded structures. Bath contained Suppressor A.",
+  "unit_id": "利用牺牲氧化剂实现钴的超共形填充#fig1",
+  "source_type": "figure_caption",
+  "table_id": "",
+  "figure_id": "利用牺牲氧化剂实现钴的超共形填充#fig1",
+  "uncertain": true
+ }
+]
